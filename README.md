@@ -50,6 +50,12 @@ Our approach includes:
 - Use nbstripout to clean notebooks before committing
 - Daily pushes after implementing new features
 
+## Development Setup
+1. Install nbstripout and pre-commit:
+   pip install nbstripout pre-commit
+2. Set up the pre-commit hooks:
+   pre-commit install
+
 ## Research Findings
 Our preliminary investigations show:
 - Agents can be convinced to change their answers based on reasoning from other agents
