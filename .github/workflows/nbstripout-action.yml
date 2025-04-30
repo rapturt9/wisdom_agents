@@ -1,0 +1,54 @@
+name: Jupyter Notebook Cleanup
+
+on:
+  pull_request:
+    paths:
+      - '**/*.ipynb'
+  push:
+    paths:
+      - '**/*.ipynb'
+
+jobs:
+  cleanup-notebooks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install nbstripout
+        run: pip install nbstripout
+
+      - name: Clean notebook outputs
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          
+          # Get all changed notebook files
+          CHANGED_FILES=$(git diff --name-only --diff-filter=ACMRT ${{ github.event.before }} ${{ github.sha }} | grep '\.ipynb$' || true)
+          
+          if [ -n "$CHANGED_FILES" ]; then
+            echo "Cleaning notebook outputs with nbstripout:"
+            for file in $CHANGED_FILES; do
+              echo "Processing $file"
+              nbstripout "$file"
+              git add "$file"
+            done
+            
+            # Commit the changes if any were made
+            if [ -n "$(git status --porcelain)" ]; then
+              git commit -m "Auto-strip notebook outputs with nbstripout"
+              git push
+            else
+              echo "No changes to commit"
+            fi
+          else
+            echo "No notebook files were changed"
+          fi
