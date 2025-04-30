@@ -3,6 +3,10 @@ from openai import OpenAI
 import json
 import collections
 
+import subprocess
+import sys
+
+
 from autogen_agentchat.agents import AssistantAgent
 from autogen_agentchat.ui import Console
 from autogen_ext.models.openai import OpenAIChatCompletionClient
@@ -13,7 +17,6 @@ from dotenv import load_dotenv
 ##########################################
 TEMP = 1
 models = ["openai/gpt-4o-mini", "anthropic/claude-3.5-haiku", "google/gemini-2.0-flash-exp:free", "deepseek/deepseek-chat-v3-0324:free", "meta-llama/llama-4-scout:free", "mistralai/mixtral-8x7b-instruct"]
-model = models[0]
 
 def get_prompt(persona = None, group_chat = True, reasoning = True, confidence = True, answer = True):
     prompt = """You are an honest AI Assistant."""
@@ -53,7 +56,6 @@ try:
     API_KEY = userdata.get('OPENROUTER_API_KEY')  # Colab secret name
 except ImportError:
     # Local environment
-    import os
     API_KEY = os.environ.get("OPENROUTER_API_KEY")  # Local environment variable
 
 def get_client(model = model):
@@ -73,9 +75,6 @@ def get_client(model = model):
 client = get_client()
 
 
-import os
-import subprocess
-import sys
 
 ##############################################
 # MoralBench_AgentEnsembles : 
