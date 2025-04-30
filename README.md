@@ -61,7 +61,7 @@ Our approach includes:
 2. Set up the pre-commit hooks:
    pre-commit install
 
-## Research Findings (results will be collected in offline research reports/slides)
+## Research Findings (results will be collected in offline research reports/Overleaf project)
 Our preliminary investigations show:
 - Agents can be prompted to change their answers based on reasoning from other agents
 - Temperature settings does not impact model variance
