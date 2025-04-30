@@ -2,13 +2,14 @@
 
 ## Project Overview
 This project explores the alignment benchmark performance comparison between isolated Large Language Models (LLMs) and agent ensembles. We investigate whether a collective of AI agents can achieve better performance on alignment benchmarks compared to individual models working in isolation.
+Our focus is on creating test cases that resemble use cases of agentic ensembles in industry applications, e.g. update code bases, determine healthcare treatment, or execute research. In all use cases it is expected that agent ensembles will at some point face decisions to make without availability of direct user guidance, and our goal is to illuminate safety and alignment-related properties of such decision-making by example of a common alignment benchmark.  
 
 ## Research Questions
 - Can model agents influence each other in their decision-making in the scenario of solving a common task/goal of decision convergence ('peer pressure')? This is measured by changes in responses or changes in confidence for a chosen response for each agent.
 - Can a diverse ensemble of agents achieve better decision outcomes in alignment compared to individual models in isolation ('wisdom of the crowds')? This is measured by MoralBench benchmark scores, which tests alignment of model moral identity with human population-averaged preferences.
 - Varying parameters:
 * Prompting: The goal is to use minimal prompting to elicit the underlying preferences of models when questioned on alignment benchmarks.
-* Decision-making topologies: How do different agent topologies (star vs. ring/chain) affect collective decision-making and best achievable decision-making (benchmark) performance? Do hierarchies introduced by agent responses (e.g. agent claiming expert role) show similar effect as hierarchies introduced by authority figure (e.g. developer, user, or supervisor agent)?
+* Decision-making topologies: How do different agent topologies (star vs. ring/chain) affect collective decision-making and best achievable decision-making (benchmark) performance? Do hierarchies introduced by agent responses (e.g. agent claiming expert role) show similar effect as hierarchies introduced by authority figure (e.g. developer, user, or supervisor agent)? Do models lower in the hierarchy show sycophantic tendencies towards models higher in the hierarchy?
 * Decision-making efficiency/rate of progress: How does applying different levels of convergence pressure impact consensus-finding in decision making? 
 * Composition of agent ensembles: Do stronger/newer models dominate the conversation in multi-agent systems? Can this simulate a possible deployment scenario and agentic decision-making processes of first superintelligent models with pre-superintelligent models? Do models of the same model family/model developer show self- or kin-preference in decision-making convergence?
 * Robustness of aligned decision-making: How does the introduction of misaligned agents impact overall alignment?
