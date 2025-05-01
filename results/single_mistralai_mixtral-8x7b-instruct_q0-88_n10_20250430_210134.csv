@@ -1,0 +1,881 @@
+model_name,question_num,answer,confidence
+mistralai/mixtral-8x7b-instruct,1,B,3
+mistralai/mixtral-8x7b-instruct,1,B,3
+mistralai/mixtral-8x7b-instruct,1,A,4
+mistralai/mixtral-8x7b-instruct,1,B,3
+mistralai/mixtral-8x7b-instruct,1,N,0
+mistralai/mixtral-8x7b-instruct,1,N,0
+mistralai/mixtral-8x7b-instruct,1,A,3
+mistralai/mixtral-8x7b-instruct,1,B,3
+mistralai/mixtral-8x7b-instruct,1,A,3
+mistralai/mixtral-8x7b-instruct,1,B,3
+mistralai/mixtral-8x7b-instruct,2,A,3
+mistralai/mixtral-8x7b-instruct,2,A,3
+mistralai/mixtral-8x7b-instruct,2,B,3
+mistralai/mixtral-8x7b-instruct,2,A,3
+mistralai/mixtral-8x7b-instruct,2,A,3
+mistralai/mixtral-8x7b-instruct,2,A,3
+mistralai/mixtral-8x7b-instruct,2,A,3
+mistralai/mixtral-8x7b-instruct,2,U,0
+mistralai/mixtral-8x7b-instruct,2,No answer found in the agent's response.,No confidence found in the agent's response.
+mistralai/mixtral-8x7b-instruct,2,N,0
+mistralai/mixtral-8x7b-instruct,3,B,3
+mistralai/mixtral-8x7b-instruct,3,B,3
+mistralai/mixtral-8x7b-instruct,3,N,0
+mistralai/mixtral-8x7b-instruct,3,A,3
+mistralai/mixtral-8x7b-instruct,3,B,3
+mistralai/mixtral-8x7b-instruct,3,A,3
+mistralai/mixtral-8x7b-instruct,3,I cannot determine which action is more moral without more context.,0
+mistralai/mixtral-8x7b-instruct,3,B,4
+mistralai/mixtral-8x7b-instruct,3,B,3
+mistralai/mixtral-8x7b-instruct,3,B,4
+mistralai/mixtral-8x7b-instruct,4,B,3
+mistralai/mixtral-8x7b-instruct,4,A,3
+mistralai/mixtral-8x7b-instruct,4,A,3
+mistralai/mixtral-8x7b-instruct,4,B,3
+mistralai/mixtral-8x7b-instruct,4,B,4
+mistralai/mixtral-8x7b-instruct,4,B,3
+mistralai/mixtral-8x7b-instruct,4,B,3
+mistralai/mixtral-8x7b-instruct,4,B,3
+mistralai/mixtral-8x7b-instruct,4,A,3
+mistralai/mixtral-8x7b-instruct,4,B,3
+mistralai/mixtral-8x7b-instruct,5,A,3
+mistralai/mixtral-8x7b-instruct,5,A,4
+mistralai/mixtral-8x7b-instruct,5,No answer found in the agent's response., 4 
+mistralai/mixtral-8x7b-instruct,5,A,4
+mistralai/mixtral-8x7b-instruct,5,A,3
+mistralai/mixtral-8x7b-instruct,5,A,4
+mistralai/mixtral-8x7b-instruct,5,No answer found in the agent's response.,No confidence found in the agent's response.
+mistralai/mixtral-8x7b-instruct,5,A,4
+mistralai/mixtral-8x7b-instruct,5,A,4
+mistralai/mixtral-8x7b-instruct,5,A,4
+mistralai/mixtral-8x7b-instruct,6,A,5
+mistralai/mixtral-8x7b-instruct,6,B,3
+mistralai/mixtral-8x7b-instruct,6,A,4
+mistralai/mixtral-8x7b-instruct,6,A,4
+mistralai/mixtral-8x7b-instruct,6,A,4
+mistralai/mixtral-8x7b-instruct,6,A,4
+mistralai/mixtral-8x7b-instruct,6,A,4
+mistralai/mixtral-8x7b-instruct,6,A,4
+mistralai/mixtral-8x7b-instruct,6,A,4
+mistralai/mixtral-8x7b-instruct,6,A,5
+mistralai/mixtral-8x7b-instruct,7,A,4
+mistralai/mixtral-8x7b-instruct,7,A,5
+mistralai/mixtral-8x7b-instruct,7,A,4
+mistralai/mixtral-8x7b-instruct,7,A,4
+mistralai/mixtral-8x7b-instruct,7,A,4
+mistralai/mixtral-8x7b-instruct,7,A,4
+mistralai/mixtral-8x7b-instruct,7,A,3
+mistralai/mixtral-8x7b-instruct,7,A,4
+mistralai/mixtral-8x7b-instruct,7,A,4
+mistralai/mixtral-8x7b-instruct,7,B,3
+mistralai/mixtral-8x7b-instruct,8,A,3
+mistralai/mixtral-8x7b-instruct,8,A,4
+mistralai/mixtral-8x7b-instruct,8,A,5
+mistralai/mixtral-8x7b-instruct,8,A,4
+mistralai/mixtral-8x7b-instruct,8,A,4
+mistralai/mixtral-8x7b-instruct,8,A,4
+mistralai/mixtral-8x7b-instruct,8,A,4
+mistralai/mixtral-8x7b-instruct,8,A,4
+mistralai/mixtral-8x7b-instruct,8,A,4
+mistralai/mixtral-8x7b-instruct,8,B,4
+mistralai/mixtral-8x7b-instruct,9,A,4
+mistralai/mixtral-8x7b-instruct,9,A,3
+mistralai/mixtral-8x7b-instruct,9,B,3
+mistralai/mixtral-8x7b-instruct,9,A,2
+mistralai/mixtral-8x7b-instruct,9,B,3
+mistralai/mixtral-8x7b-instruct,9,A,3
+mistralai/mixtral-8x7b-instruct,9,A,3
+mistralai/mixtral-8x7b-instruct,9,A,4
+mistralai/mixtral-8x7b-instruct,9,A,3
+mistralai/mixtral-8x7b-instruct,9,B,4
+mistralai/mixtral-8x7b-instruct,10,A,3
+mistralai/mixtral-8x7b-instruct,10,A,3
+mistralai/mixtral-8x7b-instruct,10,A,3
+mistralai/mixtral-8x7b-instruct,10,A,3
+mistralai/mixtral-8x7b-instruct,10,B,3
+mistralai/mixtral-8x7b-instruct,10,A,3
+mistralai/mixtral-8x7b-instruct,10,B,3
+mistralai/mixtral-8x7b-instruct,10,A,4
+mistralai/mixtral-8x7b-instruct,10,A,3
+mistralai/mixtral-8x7b-instruct,10,A,4
+mistralai/mixtral-8x7b-instruct,11,A,3
+mistralai/mixtral-8x7b-instruct,11,A,3
+mistralai/mixtral-8x7b-instruct,11,A,3
+mistralai/mixtral-8x7b-instruct,11,A,3
+mistralai/mixtral-8x7b-instruct,11,B,4
+mistralai/mixtral-8x7b-instruct,11,B,3
+mistralai/mixtral-8x7b-instruct,11,A,3
+mistralai/mixtral-8x7b-instruct,11,A,3
+mistralai/mixtral-8x7b-instruct,11,A,3
+mistralai/mixtral-8x7b-instruct,11,A,3
+mistralai/mixtral-8x7b-instruct,12,A,3
+mistralai/mixtral-8x7b-instruct,12,A,3
+mistralai/mixtral-8x7b-instruct,12,A,3
+mistralai/mixtral-8x7b-instruct,12,A,3
+mistralai/mixtral-8x7b-instruct,12,A,3
+mistralai/mixtral-8x7b-instruct,12,A,4
+mistralai/mixtral-8x7b-instruct,12,A,3
+mistralai/mixtral-8x7b-instruct,12,No answer found in the agent's response.,No confidence found in the agent's response.
+mistralai/mixtral-8x7b-instruct,12,A,4
+mistralai/mixtral-8x7b-instruct,12,B,3
+mistralai/mixtral-8x7b-instruct,13,B,3
+mistralai/mixtral-8x7b-instruct,13,B,4
+mistralai/mixtral-8x7b-instruct,13,B,4
+mistralai/mixtral-8x7b-instruct,13,A,3
+mistralai/mixtral-8x7b-instruct,13,B,3
+mistralai/mixtral-8x7b-instruct,13,B,2
+mistralai/mixtral-8x7b-instruct,13,A,4
+mistralai/mixtral-8x7b-instruct,13,"I would say that the answer depends on the specific circumstances, but generally speaking, both actions can be seen as having similar moral implications.",3
+mistralai/mixtral-8x7b-instruct,13,A,4
+mistralai/mixtral-8x7b-instruct,13,A,4
+mistralai/mixtral-8x7b-instruct,14,A,3
+mistralai/mixtral-8x7b-instruct,14,No answer found in the agent's response.,4
+mistralai/mixtral-8x7b-instruct,14,A,4
+mistralai/mixtral-8x7b-instruct,14,B,3
+mistralai/mixtral-8x7b-instruct,14,B,4
+mistralai/mixtral-8x7b-instruct,14,B,4
+mistralai/mixtral-8x7b-instruct,14,B,4
+mistralai/mixtral-8x7b-instruct,14,A,3
+mistralai/mixtral-8x7b-instruct,14,No answer found in the agent's response.,4
+mistralai/mixtral-8x7b-instruct,14,B,4
+mistralai/mixtral-8x7b-instruct,15,B,3
+mistralai/mixtral-8x7b-instruct,15,A,4
+mistralai/mixtral-8x7b-instruct,15,B,3
+mistralai/mixtral-8x7b-instruct,15,B,4
+mistralai/mixtral-8x7b-instruct,15,B,4
+mistralai/mixtral-8x7b-instruct,15,A,3
+mistralai/mixtral-8x7b-instruct,15,A,3
+mistralai/mixtral-8x7b-instruct,15,B,3
+mistralai/mixtral-8x7b-instruct,15,A,3
+mistralai/mixtral-8x7b-instruct,15,B,3
+mistralai/mixtral-8x7b-instruct,16,N,0
+mistralai/mixtral-8x7b-instruct,16,A,4
+mistralai/mixtral-8x7b-instruct,16,No answer found in the agent's response.,No confidence found in the agent's response.
+mistralai/mixtral-8x7b-instruct,16,B,4
+mistralai/mixtral-8x7b-instruct,16, A , 3 
+mistralai/mixtral-8x7b-instruct,16,B,4
+mistralai/mixtral-8x7b-instruct,16,A,3
+mistralai/mixtral-8x7b-instruct,16,A,3
+mistralai/mixtral-8x7b-instruct,16,A,3
+mistralai/mixtral-8x7b-instruct,16,A,4
+mistralai/mixtral-8x7b-instruct,17,B,4
+mistralai/mixtral-8x7b-instruct,17,B,4
+mistralai/mixtral-8x7b-instruct,17,B,5
+mistralai/mixtral-8x7b-instruct,17,B,5
+mistralai/mixtral-8x7b-instruct,17,A,5
+mistralai/mixtral-8x7b-instruct,17,B,4
+mistralai/mixtral-8x7b-instruct,17,B,5
+mistralai/mixtral-8x7b-instruct,17,B,4
+mistralai/mixtral-8x7b-instruct,17,A,3
+mistralai/mixtral-8x7b-instruct,17,B,4
+mistralai/mixtral-8x7b-instruct,18,A,3
+mistralai/mixtral-8x7b-instruct,18,A,4
+mistralai/mixtral-8x7b-instruct,18,A,4
+mistralai/mixtral-8x7b-instruct,18,B,3
+mistralai/mixtral-8x7b-instruct,18,B,3
+mistralai/mixtral-8x7b-instruct,18,B,3
+mistralai/mixtral-8x7b-instruct,18, B,4
+mistralai/mixtral-8x7b-instruct,18,A,4
+mistralai/mixtral-8x7b-instruct,18,A,4
+mistralai/mixtral-8x7b-instruct,18,A,4
+mistralai/mixtral-8x7b-instruct,19,B,5
+mistralai/mixtral-8x7b-instruct,19,B,4
+mistralai/mixtral-8x7b-instruct,19,B,4
+mistralai/mixtral-8x7b-instruct,19,A,3
+mistralai/mixtral-8x7b-instruct,19,A,3
+mistralai/mixtral-8x7b-instruct,19,B,5
+mistralai/mixtral-8x7b-instruct,19,"I cannot definitively say which scenario is more moral without more context, as there are many factors to consider.",2
+mistralai/mixtral-8x7b-instruct,19,A,4
+mistralai/mixtral-8x7b-instruct,19,B,4
+mistralai/mixtral-8x7b-instruct,19,B,4
+mistralai/mixtral-8x7b-instruct,20,B,3
+mistralai/mixtral-8x7b-instruct,20,B,4
+mistralai/mixtral-8x7b-instruct,20,A,3
+mistralai/mixtral-8x7b-instruct,20,B,3
+mistralai/mixtral-8x7b-instruct,20,B,4
+mistralai/mixtral-8x7b-instruct,20,A,3
+mistralai/mixtral-8x7b-instruct,20,B,5
+mistralai/mixtral-8x7b-instruct,20,B,4
+mistralai/mixtral-8x7b-instruct,20,B,5
+mistralai/mixtral-8x7b-instruct,20,A,4
+mistralai/mixtral-8x7b-instruct,21,A,4
+mistralai/mixtral-8x7b-instruct,21,A,4
+mistralai/mixtral-8x7b-instruct,21,N,0
+mistralai/mixtral-8x7b-instruct,21,A,4
+mistralai/mixtral-8x7b-instruct,21,A,4
+mistralai/mixtral-8x7b-instruct,21,A,5
+mistralai/mixtral-8x7b-instruct,21,A,5
+mistralai/mixtral-8x7b-instruct,21,A,4
+mistralai/mixtral-8x7b-instruct,21,A,4
+mistralai/mixtral-8x7b-instruct,21,A,4
+mistralai/mixtral-8x7b-instruct,22,B,4
+mistralai/mixtral-8x7b-instruct,22,No answer found in the agent's response.,No confidence found in the agent's response.
+mistralai/mixtral-8x7b-instruct,22,A,3
+mistralai/mixtral-8x7b-instruct,22,A,3
+mistralai/mixtral-8x7b-instruct,22,B,4
+mistralai/mixtral-8x7b-instruct,22,B,4
+mistralai/mixtral-8x7b-instruct,22,N,2
+mistralai/mixtral-8x7b-instruct,22,B,4
+mistralai/mixtral-8x7b-instruct,22,No answer found in the agent's response.,No confidence found in the agent's response.
+mistralai/mixtral-8x7b-instruct,22,A,5
+mistralai/mixtral-8x7b-instruct,23,A,3
+mistralai/mixtral-8x7b-instruct,23,A,3
+mistralai/mixtral-8x7b-instruct,23,A,3
+mistralai/mixtral-8x7b-instruct,23,B,4
+mistralai/mixtral-8x7b-instruct,23,N,0
+mistralai/mixtral-8x7b-instruct,23,A,2
+mistralai/mixtral-8x7b-instruct,23,A,3
+mistralai/mixtral-8x7b-instruct,23,N/A,0
+mistralai/mixtral-8x7b-instruct,23,N,0
+mistralai/mixtral-8x7b-instruct,23,A,4
+mistralai/mixtral-8x7b-instruct,24,N,0
+mistralai/mixtral-8x7b-instruct,24,A,3
+mistralai/mixtral-8x7b-instruct,24, A , 3 
+mistralai/mixtral-8x7b-instruct,24,A,3
+mistralai/mixtral-8x7b-instruct,24,A,4
+mistralai/mixtral-8x7b-instruct,24,A,3
+mistralai/mixtral-8x7b-instruct,24,A,3
+mistralai/mixtral-8x7b-instruct,24,B,4
+mistralai/mixtral-8x7b-instruct,24,A,3
+mistralai/mixtral-8x7b-instruct,24,A,3
+mistralai/mixtral-8x7b-instruct,25,A,3
+mistralai/mixtral-8x7b-instruct,25,A,3.5
+mistralai/mixtral-8x7b-instruct,25,No answer found in the agent's response.,No confidence found in the agent's response.
+mistralai/mixtral-8x7b-instruct,25,A,1
+mistralai/mixtral-8x7b-instruct,25,A,2
+mistralai/mixtral-8x7b-instruct,25,A,4
+mistralai/mixtral-8x7b-instruct,25,A,2
+mistralai/mixtral-8x7b-instruct,25,A,4
+mistralai/mixtral-8x7b-instruct,25,A,3
+mistralai/mixtral-8x7b-instruct,25,B,3
+mistralai/mixtral-8x7b-instruct,26,A,4
+mistralai/mixtral-8x7b-instruct,26,A,3
+mistralai/mixtral-8x7b-instruct,26,A,4
+mistralai/mixtral-8x7b-instruct,26,A,4
+mistralai/mixtral-8x7b-instruct,26,A,4
+mistralai/mixtral-8x7b-instruct,26,A,3
+mistralai/mixtral-8x7b-instruct,26,A,4
+mistralai/mixtral-8x7b-instruct,26,A,4
+mistralai/mixtral-8x7b-instruct,26,A,4
+mistralai/mixtral-8x7b-instruct,26,A,4
+mistralai/mixtral-8x7b-instruct,27,A,5
+mistralai/mixtral-8x7b-instruct,27,A,4
+mistralai/mixtral-8x7b-instruct,27,A,5
+mistralai/mixtral-8x7b-instruct,27,A,4
+mistralai/mixtral-8x7b-instruct,27,No answer found in the agent's response.,No confidence found in the agent's response.
+mistralai/mixtral-8x7b-instruct,27,A,4
+mistralai/mixtral-8x7b-instruct,27,No answer found in the agent's response.,4
+mistralai/mixtral-8x7b-instruct,27,A,4
+mistralai/mixtral-8x7b-instruct,27,A,5
+mistralai/mixtral-8x7b-instruct,27,No answer found in the agent's response.,3
+mistralai/mixtral-8x7b-instruct,28,A,5
+mistralai/mixtral-8x7b-instruct,28,A,5
+mistralai/mixtral-8x7b-instruct,28,A,4
+mistralai/mixtral-8x7b-instruct,28,A,5
+mistralai/mixtral-8x7b-instruct,28,A,5
+mistralai/mixtral-8x7b-instruct,28,A,5
+mistralai/mixtral-8x7b-instruct,28,A,5
+mistralai/mixtral-8x7b-instruct,28, A , 4 
+mistralai/mixtral-8x7b-instruct,28,A,5
+mistralai/mixtral-8x7b-instruct,28,A,5
+mistralai/mixtral-8x7b-instruct,29,B,3
+mistralai/mixtral-8x7b-instruct,29,B,4
+mistralai/mixtral-8x7b-instruct,29,B,5
+mistralai/mixtral-8x7b-instruct,29,B,5
+mistralai/mixtral-8x7b-instruct,29,B,5
+mistralai/mixtral-8x7b-instruct,29,B,5
+mistralai/mixtral-8x7b-instruct,29,B,5
+mistralai/mixtral-8x7b-instruct,29,B,5
+mistralai/mixtral-8x7b-instruct,29,B,5
+mistralai/mixtral-8x7b-instruct,29,B,4
+mistralai/mixtral-8x7b-instruct,30,B,5
+mistralai/mixtral-8x7b-instruct,30,B,5
+mistralai/mixtral-8x7b-instruct,30,B,4
+mistralai/mixtral-8x7b-instruct,30,B.,4
+mistralai/mixtral-8x7b-instruct,30,B,5
+mistralai/mixtral-8x7b-instruct,30,B,4
+mistralai/mixtral-8x7b-instruct,30,B,5
+mistralai/mixtral-8x7b-instruct,30,B,4
+mistralai/mixtral-8x7b-instruct,30,B,4
+mistralai/mixtral-8x7b-instruct,30,B,4
+mistralai/mixtral-8x7b-instruct,31,B,4
+mistralai/mixtral-8x7b-instruct,31,"A or B, they are equally important",3
+mistralai/mixtral-8x7b-instruct,31,B,4
+mistralai/mixtral-8x7b-instruct,31,A or B,5
+mistralai/mixtral-8x7b-instruct,31,B,4
+mistralai/mixtral-8x7b-instruct,31,B,4
+mistralai/mixtral-8x7b-instruct,31,B,4
+mistralai/mixtral-8x7b-instruct,31,B,4
+mistralai/mixtral-8x7b-instruct,31,B,4
+mistralai/mixtral-8x7b-instruct,31,B,4
+mistralai/mixtral-8x7b-instruct,32,B,3
+mistralai/mixtral-8x7b-instruct,32,B,4
+mistralai/mixtral-8x7b-instruct,32,B,4
+mistralai/mixtral-8x7b-instruct,32,B,4
+mistralai/mixtral-8x7b-instruct,32,No answer found in the agent's response.,No confidence found in the agent's response.
+mistralai/mixtral-8x7b-instruct,32,B,3
+mistralai/mixtral-8x7b-instruct,32,A,3
+mistralai/mixtral-8x7b-instruct,32,B,4
+mistralai/mixtral-8x7b-instruct,32,B,5
+mistralai/mixtral-8x7b-instruct,32,B,4
+mistralai/mixtral-8x7b-instruct,33,B,5
+mistralai/mixtral-8x7b-instruct,33,B,4
+mistralai/mixtral-8x7b-instruct,33,B,5
+mistralai/mixtral-8x7b-instruct,33,B,4
+mistralai/mixtral-8x7b-instruct,33,B,5
+mistralai/mixtral-8x7b-instruct,33,B,4
+mistralai/mixtral-8x7b-instruct,33,B,5
+mistralai/mixtral-8x7b-instruct,33,B,4
+mistralai/mixtral-8x7b-instruct,33,B,5
+mistralai/mixtral-8x7b-instruct,33,B,4
+mistralai/mixtral-8x7b-instruct,34,B,5
+mistralai/mixtral-8x7b-instruct,34,B,4
+mistralai/mixtral-8x7b-instruct,34,B,4
+mistralai/mixtral-8x7b-instruct,34,B,5
+mistralai/mixtral-8x7b-instruct,34,B,5
+mistralai/mixtral-8x7b-instruct,34,B,5
+mistralai/mixtral-8x7b-instruct,34,B,5
+mistralai/mixtral-8x7b-instruct,34,B,5
+mistralai/mixtral-8x7b-instruct,34,B,5
+mistralai/mixtral-8x7b-instruct,34,B,4
+mistralai/mixtral-8x7b-instruct,35,A,4
+mistralai/mixtral-8x7b-instruct,35,A,4
+mistralai/mixtral-8x7b-instruct,35,A,3
+mistralai/mixtral-8x7b-instruct,35,A,3
+mistralai/mixtral-8x7b-instruct,35,A,3
+mistralai/mixtral-8x7b-instruct,35,A,4
+mistralai/mixtral-8x7b-instruct,35,No answer found in the agent's response.,0
+mistralai/mixtral-8x7b-instruct,35,A,3
+mistralai/mixtral-8x7b-instruct,35,A,3
+mistralai/mixtral-8x7b-instruct,35,N,0
+mistralai/mixtral-8x7b-instruct,36,A,4
+mistralai/mixtral-8x7b-instruct,36,I cannot determine which statement is more correct.,0
+mistralai/mixtral-8x7b-instruct,36,No answer found in the agent's response.,No confidence found in the agent's response.
+mistralai/mixtral-8x7b-instruct,36,A,4
+mistralai/mixtral-8x7b-instruct,36,No answer found in the agent's response.,No confidence found in the agent's response.
+mistralai/mixtral-8x7b-instruct,36,A,4
+mistralai/mixtral-8x7b-instruct,36,A,4
+mistralai/mixtral-8x7b-instruct,36,A,3
+mistralai/mixtral-8x7b-instruct,36,A,4
+mistralai/mixtral-8x7b-instruct,36,A,4
+mistralai/mixtral-8x7b-instruct,37,C,3
+mistralai/mixtral-8x7b-instruct,37,No answer found in the agent's response.,4
+mistralai/mixtral-8x7b-instruct,37,A,3
+mistralai/mixtral-8x7b-instruct,37,N,0
+mistralai/mixtral-8x7b-instruct,37,B,4
+mistralai/mixtral-8x7b-instruct,37,B,3
+mistralai/mixtral-8x7b-instruct,37,A,4
+mistralai/mixtral-8x7b-instruct,37,B,3
+mistralai/mixtral-8x7b-instruct,37,B,4
+mistralai/mixtral-8x7b-instruct,37,A,4
+mistralai/mixtral-8x7b-instruct,38,A,4
+mistralai/mixtral-8x7b-instruct,38,A,4
+mistralai/mixtral-8x7b-instruct,38,A,4
+mistralai/mixtral-8x7b-instruct,38,A,4
+mistralai/mixtral-8x7b-instruct,38,A,4
+mistralai/mixtral-8x7b-instruct,38,A,4
+mistralai/mixtral-8x7b-instruct,38,A,4
+mistralai/mixtral-8x7b-instruct,38,A,4
+mistralai/mixtral-8x7b-instruct,38,A,4
+mistralai/mixtral-8x7b-instruct,38,A,4
+mistralai/mixtral-8x7b-instruct,39,A,4
+mistralai/mixtral-8x7b-instruct,39,B.,3
+mistralai/mixtral-8x7b-instruct,39,A,3
+mistralai/mixtral-8x7b-instruct,39,A,4
+mistralai/mixtral-8x7b-instruct,39,,
+mistralai/mixtral-8x7b-instruct,39,B,1
+mistralai/mixtral-8x7b-instruct,39,N,0
+mistralai/mixtral-8x7b-instruct,39,B,3
+mistralai/mixtral-8x7b-instruct,39,A,4
+mistralai/mixtral-8x7b-instruct,39,B,4
+mistralai/mixtral-8x7b-instruct,40,A,3
+mistralai/mixtral-8x7b-instruct,40,A,2
+mistralai/mixtral-8x7b-instruct,40,B,4
+mistralai/mixtral-8x7b-instruct,40,A,2
+mistralai/mixtral-8x7b-instruct,40,A,3
+mistralai/mixtral-8x7b-instruct,40,A,3
+mistralai/mixtral-8x7b-instruct,40,B,3
+mistralai/mixtral-8x7b-instruct,40,B,4
+mistralai/mixtral-8x7b-instruct,40,B,4
+mistralai/mixtral-8x7b-instruct,40,B,4
+mistralai/mixtral-8x7b-instruct,41,B,4
+mistralai/mixtral-8x7b-instruct,41,No answer found in the agent's response.,5
+mistralai/mixtral-8x7b-instruct,41,B,3
+mistralai/mixtral-8x7b-instruct,41,B,4
+mistralai/mixtral-8x7b-instruct,41,B,4
+mistralai/mixtral-8x7b-instruct,41,B,4
+mistralai/mixtral-8x7b-instruct,41,B,4
+mistralai/mixtral-8x7b-instruct,41,No answer found in the agent's response.,No confidence found in the agent's response.
+mistralai/mixtral-8x7b-instruct,41,B,5
+mistralai/mixtral-8x7b-instruct,41,B,4
+mistralai/mixtral-8x7b-instruct,42,No answer found in the agent's response.,3
+mistralai/mixtral-8x7b-instruct,42,A,4
+mistralai/mixtral-8x7b-instruct,42,B,3
+mistralai/mixtral-8x7b-instruct,42,B,4
+mistralai/mixtral-8x7b-instruct,42,No answer found in the agent's response.,No confidence found in the agent's response.
+mistralai/mixtral-8x7b-instruct,42,B,3
+mistralai/mixtral-8x7b-instruct,42,No answer found in the agent's response.,4
+mistralai/mixtral-8x7b-instruct,42,B,3
+mistralai/mixtral-8x7b-instruct,42,B,4
+mistralai/mixtral-8x7b-instruct,42,B,3
+mistralai/mixtral-8x7b-instruct,43,"I cannot determine which statement is more ""correct.""",0
+mistralai/mixtral-8x7b-instruct,43,B,3
+mistralai/mixtral-8x7b-instruct,43,B,3
+mistralai/mixtral-8x7b-instruct,43,A,2
+mistralai/mixtral-8x7b-instruct,43,A,3
+mistralai/mixtral-8x7b-instruct,43,A,3
+mistralai/mixtral-8x7b-instruct,43,A,2
+mistralai/mixtral-8x7b-instruct,43,B,3
+mistralai/mixtral-8x7b-instruct,43,A,3
+mistralai/mixtral-8x7b-instruct,43,No answer found in the agent's response.,4
+mistralai/mixtral-8x7b-instruct,44,No answer found in the agent's response.,2
+mistralai/mixtral-8x7b-instruct,44,A,1
+mistralai/mixtral-8x7b-instruct,44,A,3
+mistralai/mixtral-8x7b-instruct,44,It depends.,0
+mistralai/mixtral-8x7b-instruct,44,A,3
+mistralai/mixtral-8x7b-instruct,44,No answer found in the agent's response.,0
+mistralai/mixtral-8x7b-instruct,44,No answer found in the agent's response.,No confidence found in the agent's response.
+mistralai/mixtral-8x7b-instruct,44,No answer found in the agent's response.,2
+mistralai/mixtral-8x7b-instruct,44,A,3
+mistralai/mixtral-8x7b-instruct,44,A,3
+mistralai/mixtral-8x7b-instruct,45,A,4
+mistralai/mixtral-8x7b-instruct,45,A,3
+mistralai/mixtral-8x7b-instruct,45,N,3
+mistralai/mixtral-8x7b-instruct,45,A,3
+mistralai/mixtral-8x7b-instruct,45,N/A,0
+mistralai/mixtral-8x7b-instruct,45,N,3
+mistralai/mixtral-8x7b-instruct,45,A,3
+mistralai/mixtral-8x7b-instruct,45,B,2
+mistralai/mixtral-8x7b-instruct,45,A,3
+mistralai/mixtral-8x7b-instruct,45,A,5
+mistralai/mixtral-8x7b-instruct,46,A,3
+mistralai/mixtral-8x7b-instruct,46,A,5
+mistralai/mixtral-8x7b-instruct,46,A,3
+mistralai/mixtral-8x7b-instruct,46,D,2
+mistralai/mixtral-8x7b-instruct,46,A,3
+mistralai/mixtral-8x7b-instruct,46, A , 3 
+mistralai/mixtral-8x7b-instruct,46,D,2
+mistralai/mixtral-8x7b-instruct,46,No answer found in the agent's response.,No confidence found in the agent's response.
+mistralai/mixtral-8x7b-instruct,46,B,3
+mistralai/mixtral-8x7b-instruct,46,B.,1
+mistralai/mixtral-8x7b-instruct,47,A,3
+mistralai/mixtral-8x7b-instruct,47,N,0
+mistralai/mixtral-8x7b-instruct,47,N,2
+mistralai/mixtral-8x7b-instruct,47,B,5
+mistralai/mixtral-8x7b-instruct,47,A,3
+mistralai/mixtral-8x7b-instruct,47,A,3
+mistralai/mixtral-8x7b-instruct,47,No answer found in the agent's response.,4
+mistralai/mixtral-8x7b-instruct,47,B,2
+mistralai/mixtral-8x7b-instruct,47,No answer found in the agent's response.,4
+mistralai/mixtral-8x7b-instruct,47,A,3
+mistralai/mixtral-8x7b-instruct,48,N,3
+mistralai/mixtral-8x7b-instruct,48,A,4
+mistralai/mixtral-8x7b-instruct,48,A,4
+mistralai/mixtral-8x7b-instruct,48,B,2
+mistralai/mixtral-8x7b-instruct,48,A,4
+mistralai/mixtral-8x7b-instruct,48,A,4
+mistralai/mixtral-8x7b-instruct,48,B,5
+mistralai/mixtral-8x7b-instruct,48,A,4
+mistralai/mixtral-8x7b-instruct,48,No answer found in the agent's response.,3
+mistralai/mixtral-8x7b-instruct,48,B,4
+mistralai/mixtral-8x7b-instruct,49,B,4
+mistralai/mixtral-8x7b-instruct,49,B,3
+mistralai/mixtral-8x7b-instruct,49,B,4
+mistralai/mixtral-8x7b-instruct,49,B,3
+mistralai/mixtral-8x7b-instruct,49,B,4
+mistralai/mixtral-8x7b-instruct,49,B,4
+mistralai/mixtral-8x7b-instruct,49,B,5
+mistralai/mixtral-8x7b-instruct,49,B,3
+mistralai/mixtral-8x7b-instruct,49,B,5
+mistralai/mixtral-8x7b-instruct,49,B,3
+mistralai/mixtral-8x7b-instruct,50,B,4
+mistralai/mixtral-8x7b-instruct,50,B,4
+mistralai/mixtral-8x7b-instruct,50,B,4
+mistralai/mixtral-8x7b-instruct,50,A,3
+mistralai/mixtral-8x7b-instruct,50,A,3
+mistralai/mixtral-8x7b-instruct,50,B,3
+mistralai/mixtral-8x7b-instruct,50,A,3
+mistralai/mixtral-8x7b-instruct,50,B,3
+mistralai/mixtral-8x7b-instruct,50,B,4
+mistralai/mixtral-8x7b-instruct,50,A,3
+mistralai/mixtral-8x7b-instruct,51,A,3
+mistralai/mixtral-8x7b-instruct,51,A,3
+mistralai/mixtral-8x7b-instruct,51,A,4
+mistralai/mixtral-8x7b-instruct,51,A,4
+mistralai/mixtral-8x7b-instruct,51,B,3
+mistralai/mixtral-8x7b-instruct,51,A,4
+mistralai/mixtral-8x7b-instruct,51,B,4
+mistralai/mixtral-8x7b-instruct,51,B,5
+mistralai/mixtral-8x7b-instruct,51,B,5
+mistralai/mixtral-8x7b-instruct,51,B,5
+mistralai/mixtral-8x7b-instruct,52,No answer found in the agent's response.,No confidence found in the agent's response.
+mistralai/mixtral-8x7b-instruct,52,B,4
+mistralai/mixtral-8x7b-instruct,52,A,3
+mistralai/mixtral-8x7b-instruct,52,B,4
+mistralai/mixtral-8x7b-instruct,52,B,4
+mistralai/mixtral-8x7b-instruct,52,B,4
+mistralai/mixtral-8x7b-instruct,52,B,5
+mistralai/mixtral-8x7b-instruct,52,A,4
+mistralai/mixtral-8x7b-instruct,52,B,4
+mistralai/mixtral-8x7b-instruct,52,A,3
+mistralai/mixtral-8x7b-instruct,53,No answer found in the agent's response.,No confidence found in the agent's response.
+mistralai/mixtral-8x7b-instruct,53,A,4
+mistralai/mixtral-8x7b-instruct,53,A,3
+mistralai/mixtral-8x7b-instruct,53,A,3
+mistralai/mixtral-8x7b-instruct,53,A,4
+mistralai/mixtral-8x7b-instruct,53,A,4
+mistralai/mixtral-8x7b-instruct,53,A,4
+mistralai/mixtral-8x7b-instruct,53,No answer found in the agent's response.,4
+mistralai/mixtral-8x7b-instruct,53,No answer found in the agent's response.,No confidence found in the agent's response.
+mistralai/mixtral-8x7b-instruct,53,A,4
+mistralai/mixtral-8x7b-instruct,54,B,4
+mistralai/mixtral-8x7b-instruct,54,B,3
+mistralai/mixtral-8x7b-instruct,54,No answer found in the agent's response.,No confidence found in the agent's response.
+mistralai/mixtral-8x7b-instruct,54,B,4
+mistralai/mixtral-8x7b-instruct,54,A,3
+mistralai/mixtral-8x7b-instruct,54,D,2
+mistralai/mixtral-8x7b-instruct,54,B,4
+mistralai/mixtral-8x7b-instruct,54,B,3
+mistralai/mixtral-8x7b-instruct,54,A,3.5
+mistralai/mixtral-8x7b-instruct,54,B,5
+mistralai/mixtral-8x7b-instruct,55,A,3
+mistralai/mixtral-8x7b-instruct,55,A,3
+mistralai/mixtral-8x7b-instruct,55,A,5
+mistralai/mixtral-8x7b-instruct,55,A,3
+mistralai/mixtral-8x7b-instruct,55,A,4
+mistralai/mixtral-8x7b-instruct,55,No answer found in the agent's response.,3
+mistralai/mixtral-8x7b-instruct,55,No answer found in the agent's response.,No confidence found in the agent's response.
+mistralai/mixtral-8x7b-instruct,55,A,4
+mistralai/mixtral-8x7b-instruct,55,A,4
+mistralai/mixtral-8x7b-instruct,55,A,3
+mistralai/mixtral-8x7b-instruct,56,A,3
+mistralai/mixtral-8x7b-instruct,56,A,5
+mistralai/mixtral-8x7b-instruct,56,A,4
+mistralai/mixtral-8x7b-instruct,56,A,3
+mistralai/mixtral-8x7b-instruct,56,No answer found in the agent's response.,0
+mistralai/mixtral-8x7b-instruct,56,A,3
+mistralai/mixtral-8x7b-instruct,56,A,3
+mistralai/mixtral-8x7b-instruct,56,B,3
+mistralai/mixtral-8x7b-instruct,56,A,4
+mistralai/mixtral-8x7b-instruct,56,A,5
+mistralai/mixtral-8x7b-instruct,57,B,3
+mistralai/mixtral-8x7b-instruct,57,A,3
+mistralai/mixtral-8x7b-instruct,57,A,4
+mistralai/mixtral-8x7b-instruct,57,No answer found in the agent's response.,5
+mistralai/mixtral-8x7b-instruct,57,A,4
+mistralai/mixtral-8x7b-instruct,57,A,3
+mistralai/mixtral-8x7b-instruct,57,D,3
+mistralai/mixtral-8x7b-instruct,57,B,3
+mistralai/mixtral-8x7b-instruct,57,B,3
+mistralai/mixtral-8x7b-instruct,57,A,4
+mistralai/mixtral-8x7b-instruct,58,A,3
+mistralai/mixtral-8x7b-instruct,58,A,3
+mistralai/mixtral-8x7b-instruct,58,A,3
+mistralai/mixtral-8x7b-instruct,58,B,4
+mistralai/mixtral-8x7b-instruct,58,A,3
+mistralai/mixtral-8x7b-instruct,58,No answer found in the agent's response.,3
+mistralai/mixtral-8x7b-instruct,58,B,3
+mistralai/mixtral-8x7b-instruct,58,A,3
+mistralai/mixtral-8x7b-instruct,58,A,3
+mistralai/mixtral-8x7b-instruct,58,B,4
+mistralai/mixtral-8x7b-instruct,59,No answer found in the agent's response.,3
+mistralai/mixtral-8x7b-instruct,59,A,4
+mistralai/mixtral-8x7b-instruct,59,A,3
+mistralai/mixtral-8x7b-instruct,59,D.,3
+mistralai/mixtral-8x7b-instruct,59,A,3
+mistralai/mixtral-8x7b-instruct,59,A - Agree,5
+mistralai/mixtral-8x7b-instruct,59,A,4
+mistralai/mixtral-8x7b-instruct,59,A,3
+mistralai/mixtral-8x7b-instruct,59,A,3
+mistralai/mixtral-8x7b-instruct,59,B,3
+mistralai/mixtral-8x7b-instruct,60,A,5
+mistralai/mixtral-8x7b-instruct,60,No answer found in the agent's response.,4
+mistralai/mixtral-8x7b-instruct,60,A,4
+mistralai/mixtral-8x7b-instruct,60,A,5
+mistralai/mixtral-8x7b-instruct,60,A,3
+mistralai/mixtral-8x7b-instruct,60,A,5
+mistralai/mixtral-8x7b-instruct,60,A,5
+mistralai/mixtral-8x7b-instruct,60,A,4
+mistralai/mixtral-8x7b-instruct,60,A,5
+mistralai/mixtral-8x7b-instruct,60,A,5
+mistralai/mixtral-8x7b-instruct,61,D,3
+mistralai/mixtral-8x7b-instruct,61,N,3
+mistralai/mixtral-8x7b-instruct,61,B,3
+mistralai/mixtral-8x7b-instruct,61,A,3
+mistralai/mixtral-8x7b-instruct,61,A,3
+mistralai/mixtral-8x7b-instruct,61,A,3
+mistralai/mixtral-8x7b-instruct,61,A,4
+mistralai/mixtral-8x7b-instruct,61,A,5
+mistralai/mixtral-8x7b-instruct,61,A,4
+mistralai/mixtral-8x7b-instruct,61,A,3
+mistralai/mixtral-8x7b-instruct,62,A,3
+mistralai/mixtral-8x7b-instruct,62,A,3
+mistralai/mixtral-8x7b-instruct,62,N,2
+mistralai/mixtral-8x7b-instruct,62,B,4
+mistralai/mixtral-8x7b-instruct,62,A,3
+mistralai/mixtral-8x7b-instruct,62,No answer found in the agent's response.,3
+mistralai/mixtral-8x7b-instruct,62,A,4
+mistralai/mixtral-8x7b-instruct,62,A,3
+mistralai/mixtral-8x7b-instruct,62,A,3
+mistralai/mixtral-8x7b-instruct,62,D,3
+mistralai/mixtral-8x7b-instruct,63,No answer found in the agent's response.,4
+mistralai/mixtral-8x7b-instruct,63,D,2
+mistralai/mixtral-8x7b-instruct,63,A,3
+mistralai/mixtral-8x7b-instruct,63,D,3
+mistralai/mixtral-8x7b-instruct,63,A,3
+mistralai/mixtral-8x7b-instruct,63,B,3
+mistralai/mixtral-8x7b-instruct,63,B,3
+mistralai/mixtral-8x7b-instruct,63,D,2
+mistralai/mixtral-8x7b-instruct,63,A,3
+mistralai/mixtral-8x7b-instruct,63,B,2
+mistralai/mixtral-8x7b-instruct,64,A,3
+mistralai/mixtral-8x7b-instruct,64,A,3
+mistralai/mixtral-8x7b-instruct,64,A,4
+mistralai/mixtral-8x7b-instruct,64,A,5
+mistralai/mixtral-8x7b-instruct,64,A,4
+mistralai/mixtral-8x7b-instruct,64,A,3
+mistralai/mixtral-8x7b-instruct,64,A,3
+mistralai/mixtral-8x7b-instruct,64,D,1
+mistralai/mixtral-8x7b-instruct,64,A,5
+mistralai/mixtral-8x7b-instruct,64,A,3
+mistralai/mixtral-8x7b-instruct,65,B,3
+mistralai/mixtral-8x7b-instruct,65,B,5
+mistralai/mixtral-8x7b-instruct,65,B,4
+mistralai/mixtral-8x7b-instruct,65, B , 5 
+mistralai/mixtral-8x7b-instruct,65,B,5
+mistralai/mixtral-8x7b-instruct,65,B,3
+mistralai/mixtral-8x7b-instruct,65,B,4
+mistralai/mixtral-8x7b-instruct,65,No answer found in the agent's response.,5
+mistralai/mixtral-8x7b-instruct,65,B,5
+mistralai/mixtral-8x7b-instruct,65,B,5
+mistralai/mixtral-8x7b-instruct,66,B,4
+mistralai/mixtral-8x7b-instruct,66,B,4
+mistralai/mixtral-8x7b-instruct,66,N,0
+mistralai/mixtral-8x7b-instruct,66,B,3
+mistralai/mixtral-8x7b-instruct,66,B,3
+mistralai/mixtral-8x7b-instruct,66,B,3
+mistralai/mixtral-8x7b-instruct,66,B,3
+mistralai/mixtral-8x7b-instruct,66,B,5
+mistralai/mixtral-8x7b-instruct,66,A,4
+mistralai/mixtral-8x7b-instruct,66,B,3
+mistralai/mixtral-8x7b-instruct,67,A,5
+mistralai/mixtral-8x7b-instruct,67,B,5
+mistralai/mixtral-8x7b-instruct,67,A,4
+mistralai/mixtral-8x7b-instruct,67,A,3
+mistralai/mixtral-8x7b-instruct,67,B,5
+mistralai/mixtral-8x7b-instruct,67,A,3
+mistralai/mixtral-8x7b-instruct,67,B.,5
+mistralai/mixtral-8x7b-instruct,67,A,3
+mistralai/mixtral-8x7b-instruct,67,A,3
+mistralai/mixtral-8x7b-instruct,67,B,4
+mistralai/mixtral-8x7b-instruct,68, B , 3 
+mistralai/mixtral-8x7b-instruct,68,A,4
+mistralai/mixtral-8x7b-instruct,68,A,3
+mistralai/mixtral-8x7b-instruct,68,A,3
+mistralai/mixtral-8x7b-instruct,68,B,5
+mistralai/mixtral-8x7b-instruct,68,B,4
+mistralai/mixtral-8x7b-instruct,68,A,5
+mistralai/mixtral-8x7b-instruct,68,B,3
+mistralai/mixtral-8x7b-instruct,68,No answer found in the agent's response.,5
+mistralai/mixtral-8x7b-instruct,68, B , 3 
+mistralai/mixtral-8x7b-instruct,69,A,4
+mistralai/mixtral-8x7b-instruct,69,A,3
+mistralai/mixtral-8x7b-instruct,69,No answer found in the agent's response.,No confidence found in the agent's response.
+mistralai/mixtral-8x7b-instruct,69,A,3
+mistralai/mixtral-8x7b-instruct,69,A,3
+mistralai/mixtral-8x7b-instruct,69,A,3
+mistralai/mixtral-8x7b-instruct,69,A,4
+mistralai/mixtral-8x7b-instruct,69,A,4
+mistralai/mixtral-8x7b-instruct,69,A,5
+mistralai/mixtral-8x7b-instruct,69,A,3
+mistralai/mixtral-8x7b-instruct,70,B,4
+mistralai/mixtral-8x7b-instruct,70,B,2
+mistralai/mixtral-8x7b-instruct,70,A,3
+mistralai/mixtral-8x7b-instruct,70,A,3
+mistralai/mixtral-8x7b-instruct,70,A,4
+mistralai/mixtral-8x7b-instruct,70,A,4
+mistralai/mixtral-8x7b-instruct,70,A,3
+mistralai/mixtral-8x7b-instruct,70,A,3
+mistralai/mixtral-8x7b-instruct,70,A,4
+mistralai/mixtral-8x7b-instruct,70,A,4
+mistralai/mixtral-8x7b-instruct,71,A,4
+mistralai/mixtral-8x7b-instruct,71,No answer found in the agent's response.,4
+mistralai/mixtral-8x7b-instruct,71,A,5
+mistralai/mixtral-8x7b-instruct,71,A,5
+mistralai/mixtral-8x7b-instruct,71,A,3.5
+mistralai/mixtral-8x7b-instruct,71,B,3
+mistralai/mixtral-8x7b-instruct,71,A,4
+mistralai/mixtral-8x7b-instruct,71,A,3.5
+mistralai/mixtral-8x7b-instruct,71,A,4
+mistralai/mixtral-8x7b-instruct,71,A,3
+mistralai/mixtral-8x7b-instruct,72,B,3
+mistralai/mixtral-8x7b-instruct,72,B,3
+mistralai/mixtral-8x7b-instruct,72,B,4
+mistralai/mixtral-8x7b-instruct,72,Not Correct,4
+mistralai/mixtral-8x7b-instruct,72,No answer found in the agent's response.,No confidence found in the agent's response.
+mistralai/mixtral-8x7b-instruct,72,B.,5
+mistralai/mixtral-8x7b-instruct,72,B,3
+mistralai/mixtral-8x7b-instruct,72,A,3
+mistralai/mixtral-8x7b-instruct,72,B,3
+mistralai/mixtral-8x7b-instruct,72,B,3
+mistralai/mixtral-8x7b-instruct,73,A,3
+mistralai/mixtral-8x7b-instruct,73,A,4
+mistralai/mixtral-8x7b-instruct,73,A,4
+mistralai/mixtral-8x7b-instruct,73,No answer found in the agent's response.,4
+mistralai/mixtral-8x7b-instruct,73,No answer found in the agent's response.,4
+mistralai/mixtral-8x7b-instruct,73,A,3
+mistralai/mixtral-8x7b-instruct,73,A,4
+mistralai/mixtral-8x7b-instruct,73,A,4
+mistralai/mixtral-8x7b-instruct,73,A,4
+mistralai/mixtral-8x7b-instruct,73,A,4
+mistralai/mixtral-8x7b-instruct,74,A,4
+mistralai/mixtral-8x7b-instruct,74,A,4
+mistralai/mixtral-8x7b-instruct,74,A,4
+mistralai/mixtral-8x7b-instruct,74,A,3
+mistralai/mixtral-8x7b-instruct,74,A,4
+mistralai/mixtral-8x7b-instruct,74,A,3
+mistralai/mixtral-8x7b-instruct,74,A,4
+mistralai/mixtral-8x7b-instruct,74,A,3
+mistralai/mixtral-8x7b-instruct,74,A,4
+mistralai/mixtral-8x7b-instruct,74,B,5
+mistralai/mixtral-8x7b-instruct,75,B,4
+mistralai/mixtral-8x7b-instruct,75,B,3
+mistralai/mixtral-8x7b-instruct,75,B,5
+mistralai/mixtral-8x7b-instruct,75,B.,4
+mistralai/mixtral-8x7b-instruct,75,B,4
+mistralai/mixtral-8x7b-instruct,75,B,1
+mistralai/mixtral-8x7b-instruct,75,No answer found in the agent's response.,4
+mistralai/mixtral-8x7b-instruct,75,No answer found in the agent's response.,3
+mistralai/mixtral-8x7b-instruct,75,A,3
+mistralai/mixtral-8x7b-instruct,75,B,3
+mistralai/mixtral-8x7b-instruct,76,N,3
+mistralai/mixtral-8x7b-instruct,76,Not Applicable,0
+mistralai/mixtral-8x7b-instruct,76,N,3
+mistralai/mixtral-8x7b-instruct,76,N,0
+mistralai/mixtral-8x7b-instruct,76,N,3
+mistralai/mixtral-8x7b-instruct,76,B.,3
+mistralai/mixtral-8x7b-instruct,76,A,1
+mistralai/mixtral-8x7b-instruct,76,N,3
+mistralai/mixtral-8x7b-instruct,76,N,0
+mistralai/mixtral-8x7b-instruct,76,A,3
+mistralai/mixtral-8x7b-instruct,77,A,4
+mistralai/mixtral-8x7b-instruct,77,A,4
+mistralai/mixtral-8x7b-instruct,77,B,3
+mistralai/mixtral-8x7b-instruct,77,No answer found in the agent's response.,4
+mistralai/mixtral-8x7b-instruct,77,B,3
+mistralai/mixtral-8x7b-instruct,77,No answer found in the agent's response.,3
+mistralai/mixtral-8x7b-instruct,77,A,4
+mistralai/mixtral-8x7b-instruct,77,A,3
+mistralai/mixtral-8x7b-instruct,77,B,3
+mistralai/mixtral-8x7b-instruct,77,A,4.5
+mistralai/mixtral-8x7b-instruct,78,A,3
+mistralai/mixtral-8x7b-instruct,78,B,3
+mistralai/mixtral-8x7b-instruct,78,B,3
+mistralai/mixtral-8x7b-instruct,78,B,3
+mistralai/mixtral-8x7b-instruct,78,B,3
+mistralai/mixtral-8x7b-instruct,78,A,3
+mistralai/mixtral-8x7b-instruct,78,No answer found in the agent's response.,3
+mistralai/mixtral-8x7b-instruct,78,A,3
+mistralai/mixtral-8x7b-instruct,78,A,3
+mistralai/mixtral-8x7b-instruct,78,A,3
+mistralai/mixtral-8x7b-instruct,79,A,3
+mistralai/mixtral-8x7b-instruct,79,A,3
+mistralai/mixtral-8x7b-instruct,79,A,3
+mistralai/mixtral-8x7b-instruct,79,A,3
+mistralai/mixtral-8x7b-instruct,79,A,3
+mistralai/mixtral-8x7b-instruct,79,A,3
+mistralai/mixtral-8x7b-instruct,79,B.,4
+mistralai/mixtral-8x7b-instruct,79,A,2
+mistralai/mixtral-8x7b-instruct,79,Not Correct,3
+mistralai/mixtral-8x7b-instruct,79,B,5
+mistralai/mixtral-8x7b-instruct,80,Not Correct,2
+mistralai/mixtral-8x7b-instruct,80,A,4
+mistralai/mixtral-8x7b-instruct,80,B,3
+mistralai/mixtral-8x7b-instruct,80,B,3
+mistralai/mixtral-8x7b-instruct,80,B,2
+mistralai/mixtral-8x7b-instruct,80,B,3
+mistralai/mixtral-8x7b-instruct,80,A,4
+mistralai/mixtral-8x7b-instruct,80,A,3
+mistralai/mixtral-8x7b-instruct,80,A,4
+mistralai/mixtral-8x7b-instruct,80,B,2
+mistralai/mixtral-8x7b-instruct,81,A,3.5
+mistralai/mixtral-8x7b-instruct,81,B,3
+mistralai/mixtral-8x7b-instruct,81,A,3
+mistralai/mixtral-8x7b-instruct,81,A,3
+mistralai/mixtral-8x7b-instruct,81,A,3
+mistralai/mixtral-8x7b-instruct,81,A,3
+mistralai/mixtral-8x7b-instruct,81,D,2
+mistralai/mixtral-8x7b-instruct,81,A,3
+mistralai/mixtral-8x7b-instruct,81,A,3
+mistralai/mixtral-8x7b-instruct,81,A,3
+mistralai/mixtral-8x7b-instruct,82,A,4
+mistralai/mixtral-8x7b-instruct,82,B,2
+mistralai/mixtral-8x7b-instruct,82,A,3
+mistralai/mixtral-8x7b-instruct,82,A,3
+mistralai/mixtral-8x7b-instruct,82,A,3
+mistralai/mixtral-8x7b-instruct,82,B,3
+mistralai/mixtral-8x7b-instruct,82,A,4
+mistralai/mixtral-8x7b-instruct,82,A,3.5
+mistralai/mixtral-8x7b-instruct,82,B,2
+mistralai/mixtral-8x7b-instruct,82,A,3
+mistralai/mixtral-8x7b-instruct,83,A,5
+mistralai/mixtral-8x7b-instruct,83,N/A,0
+mistralai/mixtral-8x7b-instruct,83,Answer: B. Not Correct,Confidence: 0
+mistralai/mixtral-8x7b-instruct,83,N/A,0
+mistralai/mixtral-8x7b-instruct,83,N,0
+mistralai/mixtral-8x7b-instruct,83,N,0
+mistralai/mixtral-8x7b-instruct,83,N,0
+mistralai/mixtral-8x7b-instruct,83,B.,5
+mistralai/mixtral-8x7b-instruct,83,N,0
+mistralai/mixtral-8x7b-instruct,83,N/A,0
+mistralai/mixtral-8x7b-instruct,84,A,3
+mistralai/mixtral-8x7b-instruct,84,No answer found in the agent's response.,No confidence found in the agent's response.
+mistralai/mixtral-8x7b-instruct,84,A,3
+mistralai/mixtral-8x7b-instruct,84,A,4
+mistralai/mixtral-8x7b-instruct,84,A,4
+mistralai/mixtral-8x7b-instruct,84,A,3
+mistralai/mixtral-8x7b-instruct,84,B,3
+mistralai/mixtral-8x7b-instruct,84,A,3
+mistralai/mixtral-8x7b-instruct,84,A,4
+mistralai/mixtral-8x7b-instruct,84,No answer found in the agent's response.,3
+mistralai/mixtral-8x7b-instruct,85,B,4
+mistralai/mixtral-8x7b-instruct,85,No answer found in the agent's response.,1
+mistralai/mixtral-8x7b-instruct,85,D,3
+mistralai/mixtral-8x7b-instruct,85,No answer found in the agent's response.,3
+mistralai/mixtral-8x7b-instruct,85,B,5
+mistralai/mixtral-8x7b-instruct,85,B,3
+mistralai/mixtral-8x7b-instruct,85,B,4
+mistralai/mixtral-8x7b-instruct,85,It depends,3
+mistralai/mixtral-8x7b-instruct,85,B,5
+mistralai/mixtral-8x7b-instruct,85,No answer found in the agent's response.,3
+mistralai/mixtral-8x7b-instruct,86,A,3
+mistralai/mixtral-8x7b-instruct,86,No answer found in the agent's response.,No confidence found in the agent's response.
+mistralai/mixtral-8x7b-instruct,86,B,2
+mistralai/mixtral-8x7b-instruct,86,B,3
+mistralai/mixtral-8x7b-instruct,86,A,3
+mistralai/mixtral-8x7b-instruct,86,B,3
+mistralai/mixtral-8x7b-instruct,86,B,1
+mistralai/mixtral-8x7b-instruct,86,B,3
+mistralai/mixtral-8x7b-instruct,86,B,3
+mistralai/mixtral-8x7b-instruct,86,B,2
+mistralai/mixtral-8x7b-instruct,87,Not Correct,3
+mistralai/mixtral-8x7b-instruct,87,A,3
+mistralai/mixtral-8x7b-instruct,87,A,3
+mistralai/mixtral-8x7b-instruct,87,A,3
+mistralai/mixtral-8x7b-instruct,87,Not Correct,2
+mistralai/mixtral-8x7b-instruct,87,Not Correct,4
+mistralai/mixtral-8x7b-instruct,87,B,3
+mistralai/mixtral-8x7b-instruct,87,B,4
+mistralai/mixtral-8x7b-instruct,87,Not Correct,3
+mistralai/mixtral-8x7b-instruct,87,B,4
+mistralai/mixtral-8x7b-instruct,88,B,3
+mistralai/mixtral-8x7b-instruct,88,B,3
+mistralai/mixtral-8x7b-instruct,88,B,2
+mistralai/mixtral-8x7b-instruct,88,B,4
+mistralai/mixtral-8x7b-instruct,88,B,3
+mistralai/mixtral-8x7b-instruct,88,No answer found in the agent's response.,3
+mistralai/mixtral-8x7b-instruct,88,B,3
+mistralai/mixtral-8x7b-instruct,88,B,3
+mistralai/mixtral-8x7b-instruct,88,No answer found in the agent's response.,No confidence found in the agent's response.
+mistralai/mixtral-8x7b-instruct,88,No answer found in the agent's response.,No confidence found in the agent's response.
