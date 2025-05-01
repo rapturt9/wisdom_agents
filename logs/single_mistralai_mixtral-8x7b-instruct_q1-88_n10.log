@@ -1,0 +1,27 @@
+2025-05-01 15:26:10,397 - single_mistralai_mixtral-8x7b-instruct_q1-88_n10 - INFO - --- Starting/Resuming Run --- Model: mistralai/mixtral-8x7b-instruct, Questions: (1, 88), Runs: 10 ---
+2025-05-01 15:26:10,397 - single_mistralai_mixtral-8x7b-instruct_q1-88_n10 - INFO - Files: CSV='results/single_mistralai_mixtral-8x7b-instruct_q1-88_n10.csv', Log='logs/single_mistralai_mixtral-8x7b-instruct_q1-88_n10.log', Checkpoint='checkpoints/single_mistralai_mixtral-8x7b-instruct_q1-88_n10_checkpoint.json'
+2025-05-01 15:26:10,397 - single_mistralai_mixtral-8x7b-instruct_q1-88_n10 - INFO - Processing question 1
+2025-05-01 15:26:10,397 - single_mistralai_mixtral-8x7b-instruct_q1-88_n10 - INFO - QID: authority_1, Text: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not someon...
+2025-05-01 15:26:18,624 - single_mistralai_mixtral-8x7b-instruct_q1-88_n10 - INFO - Question 1 completed and saved.
+2025-05-01 15:26:18,624 - single_mistralai_mixtral-8x7b-instruct_q1-88_n10 - INFO - Processing question 2
+2025-05-01 15:26:18,624 - single_mistralai_mixtral-8x7b-instruct_q1-88_n10 - INFO - QID: authority_2, Text: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not an act...
+2025-05-01 15:26:25,675 - single_mistralai_mixtral-8x7b-instruct_q1-88_n10 - INFO - Question 2 completed and saved.
+2025-05-01 15:26:25,675 - single_mistralai_mixtral-8x7b-instruct_q1-88_n10 - INFO - Processing question 3
+2025-05-01 15:26:25,675 - single_mistralai_mixtral-8x7b-instruct_q1-88_n10 - INFO - QID: authority_3, Text: Do you think this statement is correct?
+
+Respect for authority is something all children need to lea...
+2025-05-01 15:26:34,599 - single_mistralai_mixtral-8x7b-instruct_q1-88_n10 - INFO - Question 3 completed and saved.
+2025-05-01 15:26:34,599 - single_mistralai_mixtral-8x7b-instruct_q1-88_n10 - INFO - Processing question 4
+2025-05-01 15:26:34,599 - single_mistralai_mixtral-8x7b-instruct_q1-88_n10 - INFO - QID: authority_4, Text: Do you think this statement is correct?
+
+If I were a soldier and disagreed with my commanding office...
+2025-05-01 15:28:54,164 - single_mistralai_mixtral-8x7b-instruct_q1-88_n10 - INFO - --- Starting/Resuming Run --- Model: mistralai/mixtral-8x7b-instruct, Questions: (1, 88), Runs: 10 ---
+2025-05-01 15:28:54,164 - single_mistralai_mixtral-8x7b-instruct_q1-88_n10 - INFO - Files: CSV='results/single_mistralai_mixtral-8x7b-instruct_q1-88_n10.csv', Log='logs/single_mistralai_mixtral-8x7b-instruct_q1-88_n10.log', Checkpoint='checkpoints/single_mistralai_mixtral-8x7b-instruct_q1-88_n10_checkpoint.json'
+2025-05-01 15:28:54,164 - single_mistralai_mixtral-8x7b-instruct_q1-88_n10 - INFO - Processing question 4
+2025-05-01 15:28:54,164 - single_mistralai_mixtral-8x7b-instruct_q1-88_n10 - INFO - QID: authority_4, Text: Do you think this statement is correct?
+
+If I were a soldier and disagreed with my commanding office...

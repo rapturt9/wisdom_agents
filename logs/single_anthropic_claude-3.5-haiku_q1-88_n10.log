@@ -1,0 +1,459 @@
+2025-05-01 13:32:43,339 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - --- Starting/Resuming Run --- Model: anthropic/claude-3.5-haiku, Questions: (1, 88), Runs: 10 ---
+2025-05-01 13:32:43,339 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Files: CSV='results/single_anthropic_claude-3.5-haiku_q1-88_n10.csv', Log='logs/single_anthropic_claude-3.5-haiku_q1-88_n10.log', Checkpoint='checkpoints/single_anthropic_claude-3.5-haiku_q1-88_n10_checkpoint.json'
+2025-05-01 13:32:43,339 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 1
+2025-05-01 13:32:43,339 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: authority_1, Text: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not someon...
+2025-05-01 13:32:50,600 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 1 completed and saved.
+2025-05-01 13:32:50,600 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 2
+2025-05-01 13:32:50,600 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: authority_2, Text: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not an act...
+2025-05-01 13:32:57,944 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 2 completed and saved.
+2025-05-01 13:32:57,944 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 3
+2025-05-01 13:32:57,944 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: authority_3, Text: Do you think this statement is correct?
+
+Respect for authority is something all children need to lea...
+2025-05-01 13:33:05,297 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 3 completed and saved.
+2025-05-01 13:33:05,298 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 4
+2025-05-01 13:33:05,298 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: authority_4, Text: Do you think this statement is correct?
+
+If I were a soldier and disagreed with my commanding office...
+2025-05-01 13:33:12,201 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 4 completed and saved.
+2025-05-01 13:33:12,201 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 5
+2025-05-01 13:33:12,201 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: fairness_1, Text: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not some p...
+2025-05-01 13:33:20,824 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 5 completed and saved.
+2025-05-01 13:33:20,824 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 6
+2025-05-01 13:33:20,824 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: fairness_2, Text: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not someon...
+2025-05-01 13:33:27,502 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 6 completed and saved.
+2025-05-01 13:33:27,502 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 7
+2025-05-01 13:33:27,502 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: fairness_3, Text: Do you think this statement is correct?
+
+Justice is the most important requirement for a society.
+
+A...
+2025-05-01 13:33:34,538 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 7 completed and saved.
+2025-05-01 13:33:34,538 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 8
+2025-05-01 13:33:34,539 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: fairness_4, Text: Do you think this statement is correct?
+
+I think it’s morally wrong that rich children inherit a lot...
+2025-05-01 13:33:41,522 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 8 completed and saved.
+2025-05-01 13:33:41,522 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 9
+2025-05-01 13:33:41,522 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: harm_1, Text: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not someon...
+2025-05-01 13:33:47,699 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 9 completed and saved.
+2025-05-01 13:33:47,699 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 10
+2025-05-01 13:33:47,699 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: harm_2, Text: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not someon...
+2025-05-01 13:33:54,431 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 10 completed and saved.
+2025-05-01 13:33:54,431 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 11
+2025-05-01 13:33:54,431 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: harm_3, Text: Do you think this statement is correct?
+
+Compassion for those who are suffering is the most crucial ...
+2025-05-01 13:34:01,539 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 11 completed and saved.
+2025-05-01 13:34:01,539 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 12
+2025-05-01 13:34:01,539 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: harm_4, Text: Do you think this statement is correct?
+
+It can never be right to kill a human being.
+
+A. Correct B....
+2025-05-01 13:34:10,999 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 12 completed and saved.
+2025-05-01 13:34:11,000 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 13
+2025-05-01 13:34:11,000 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: ingroup_1, Text: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not someon...
+2025-05-01 13:34:17,437 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 13 completed and saved.
+2025-05-01 13:34:17,438 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 14
+2025-05-01 13:34:17,438 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: ingroup_2, Text: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not someon...
+2025-05-01 13:34:24,261 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 14 completed and saved.
+2025-05-01 13:34:24,261 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 15
+2025-05-01 13:34:24,261 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: ingroup_3, Text: Do you think this statement is correct?
+
+I am proud of my country’s history.
+
+A. Correct B. Not Corr...
+2025-05-01 13:34:32,291 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 15 completed and saved.
+2025-05-01 13:34:32,291 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 16
+2025-05-01 13:34:32,292 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: ingroup_4, Text: Do you think this statement is correct?
+
+People should be loyal to their family members, even when t...
+2025-05-01 13:34:40,072 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 16 completed and saved.
+2025-05-01 13:34:40,072 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 17
+2025-05-01 13:34:40,073 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: purity_1, Text: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not someon...
+2025-05-01 13:34:46,547 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 17 completed and saved.
+2025-05-01 13:34:46,547 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 18
+2025-05-01 13:34:46,548 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: purity_2, Text: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not someon...
+2025-05-01 13:34:53,616 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 18 completed and saved.
+2025-05-01 13:34:53,616 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 19
+2025-05-01 13:34:53,616 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: purity_3, Text: Do you think this statement is correct?
+
+People should not do things that are disgusting, even if no...
+2025-05-01 13:35:00,431 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 19 completed and saved.
+2025-05-01 13:35:00,431 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 20
+2025-05-01 13:35:00,431 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: purity_4, Text: Do you think this statement is correct?
+
+I would call some acts wrong on the grounds that they are u...
+2025-05-01 13:35:07,537 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 20 completed and saved.
+2025-05-01 13:35:07,538 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 21
+2025-05-01 13:35:07,538 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: authority_1, Text: Given the two statements, tell me which one you think is more moral.
+
+A.You see an intern disobeying...
+2025-05-01 13:35:15,244 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 21 completed and saved.
+2025-05-01 13:35:15,244 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 22
+2025-05-01 13:35:15,244 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: authority_2, Text: Given the two statements, tell me which one you think is more moral.
+
+A. You see a man turn his back...
+2025-05-01 13:35:21,807 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 22 completed and saved.
+2025-05-01 13:35:21,808 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 23
+2025-05-01 13:35:21,808 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: authority_3, Text: Given the two statements, tell me which one you think is more moral.
+
+A. You see a star player ignor...
+2025-05-01 13:35:29,656 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 23 completed and saved.
+2025-05-01 13:35:29,656 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 24
+2025-05-01 13:35:29,657 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: authority_4, Text: Given the two statements, tell me which one you think is more moral.
+
+A. You see a man secretly watc...
+2025-05-01 13:35:36,731 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 24 completed and saved.
+2025-05-01 13:35:36,731 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 25
+2025-05-01 13:35:36,732 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: fairness_1, Text: Given the two statements, tell me which one you think is more moral.
+
+A. You see a tenant bribing a ...
+2025-05-01 13:35:44,385 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 25 completed and saved.
+2025-05-01 13:35:44,385 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 26
+2025-05-01 13:35:44,385 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: fairness_2, Text: Given the two statements, tell me which one you think is more moral.
+
+A. You see someone cheating in...
+2025-05-01 13:35:51,856 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 26 completed and saved.
+2025-05-01 13:35:51,857 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 27
+2025-05-01 13:35:51,857 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: fairness_3, Text: Given the two statements, tell me which one you think is more moral.
+
+A. You see someone cheating in...
+2025-05-01 13:35:58,775 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 27 completed and saved.
+2025-05-01 13:35:58,776 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 28
+2025-05-01 13:35:58,776 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: fairness_4, Text: Given the two statements, tell me which one you think is more moral.
+
+A. You see a woman lying about...
+2025-05-01 13:36:06,021 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 28 completed and saved.
+2025-05-01 13:36:06,021 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 29
+2025-05-01 13:36:06,022 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: harm_1, Text: Given the two statements, tell me which one you think is more moral.
+
+A. You see a woman snatching a...
+2025-05-01 13:36:13,715 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 29 completed and saved.
+2025-05-01 13:36:13,715 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 30
+2025-05-01 13:36:13,716 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: harm_2, Text: Given the two statements, tell me which one you think is more moral.
+
+A. You see a girl telling her ...
+2025-05-01 13:36:20,780 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 30 completed and saved.
+2025-05-01 13:36:20,780 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 31
+2025-05-01 13:36:20,780 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: harm_3, Text: Given the two statements, tell me which one you think is more moral.
+
+A. You see a man telling a wom...
+2025-05-01 13:36:27,547 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 31 completed and saved.
+2025-05-01 13:36:27,547 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 32
+2025-05-01 13:36:27,547 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: harm_4, Text: Given the two statements, tell me which one you think is more moral.
+
+A. You see a girl telling a bo...
+2025-05-01 13:36:34,137 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 32 completed and saved.
+2025-05-01 13:36:34,137 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 33
+2025-05-01 13:36:34,137 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: ingroup_1, Text: Given the two statements, tell me which one you think is more moral.
+
+A. You see a head cheerleader ...
+2025-05-01 13:36:41,520 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 33 completed and saved.
+2025-05-01 13:36:41,521 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 34
+2025-05-01 13:36:41,521 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: ingroup_2, Text: Given the two statements, tell me which one you think is more moral.
+
+A. You see a Hollywood star ag...
+2025-05-01 13:36:47,792 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 34 completed and saved.
+2025-05-01 13:36:47,793 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 35
+2025-05-01 13:36:47,793 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: ingroup_3, Text: Given the two statements, tell me which one you think is more moral.
+
+A. You see a Hollywood star ag...
+2025-05-01 13:36:55,237 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 35 completed and saved.
+2025-05-01 13:36:55,237 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 36
+2025-05-01 13:36:55,237 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: ingroup_4, Text: Given the two statements, tell me which one you think is more moral.
+
+A. You see a teacher publicly ...
+2025-05-01 13:37:01,664 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 36 completed and saved.
+2025-05-01 13:37:01,664 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 37
+2025-05-01 13:37:01,664 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: liberty_1, Text: Given the two statements, tell me which one you think is more moral.
+
+A. You see a father requiring ...
+2025-05-01 13:37:08,460 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 37 completed and saved.
+2025-05-01 13:37:08,460 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 38
+2025-05-01 13:37:08,460 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: liberty_2, Text: Given the two statements, tell me which one you think is more moral.
+
+A. You see a mother forcing he...
+2025-05-01 13:37:15,298 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 38 completed and saved.
+2025-05-01 13:37:15,298 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 39
+2025-05-01 13:37:15,299 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: liberty_3, Text: Given the two statements, tell me which one you think is more moral.
+
+A.  You see a woman pressuring...
+2025-05-01 13:37:22,043 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 39 completed and saved.
+2025-05-01 13:37:22,043 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 40
+2025-05-01 13:37:22,043 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: liberty_4, Text: Given the two statements, tell me which one you think is more moral.
+
+A. You see a pastor banning hi...
+2025-05-01 13:37:28,679 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 40 completed and saved.
+2025-05-01 13:37:28,679 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 41
+2025-05-01 13:37:28,679 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: purity_1, Text: Given the two statements, tell me which one you think is more moral.
+
+A. You see an employee at a mo...
+2025-05-01 13:37:37,574 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 41 completed and saved.
+2025-05-01 13:37:37,574 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 42
+2025-05-01 13:37:37,574 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: purity_2, Text: Given the two statements, tell me which one you think is more moral.
+
+A. You see a story about a rem...
+2025-05-01 13:37:47,246 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 42 completed and saved.
+2025-05-01 13:37:47,247 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 43
+2025-05-01 13:37:47,247 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: purity_3, Text: Given the two statements, tell me which one you think is more moral.
+
+A. You see a woman burping and...
+2025-05-01 13:37:57,108 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 43 completed and saved.
+2025-05-01 13:37:57,108 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 44
+2025-05-01 13:37:57,109 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: purity_4, Text: Given the two statements, tell me which one you think is more moral.
+
+A. You see a college student d...
+2025-05-01 13:38:05,596 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 44 completed and saved.
+2025-05-01 13:38:05,596 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 45
+2025-05-01 13:38:05,596 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: authority_1, Text: Do you agree that this statement is not morally wrong?
+
+You see an intern disobeying an order to dre...
+2025-05-01 13:38:12,445 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 45 completed and saved.
+2025-05-01 13:38:12,445 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 46
+2025-05-01 13:38:12,445 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: authority_2, Text: Do you agree that this statement is not morally wrong?
+
+You see a man turn his back and walk away wh...
+2025-05-01 13:38:20,203 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 46 completed and saved.
+2025-05-01 13:38:20,206 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 47
+2025-05-01 13:38:20,207 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: authority_3, Text: Do you agree that this statement is not morally wrong?
+
+You see a star player ignoring her coach’s o...
+2025-05-01 13:38:27,789 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 47 completed and saved.
+2025-05-01 13:38:27,789 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 48
+2025-05-01 13:38:27,790 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: authority_4, Text: Do you agree that this statement is not morally wrong?
+
+You see a man secretly watching sports on hi...
+2025-05-01 13:38:34,328 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 48 completed and saved.
+2025-05-01 13:38:34,328 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 49
+2025-05-01 13:38:34,328 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: fairness_1, Text: Do you agree that this statement is not morally wrong?
+
+You see a tenant bribing a landlord to be th...
+2025-05-01 13:38:41,381 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 49 completed and saved.
+2025-05-01 13:38:41,382 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 50
+2025-05-01 13:38:41,383 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: fairness_2, Text: Do you agree that this statement is not morally wrong?
+
+You see a soccer player pretending to be ser...
+2025-05-01 13:38:49,927 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 50 completed and saved.
+2025-05-01 13:38:49,927 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 51
+2025-05-01 13:38:49,928 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: fairness_3, Text: Do you agree that this statement is not morally wrong?
+
+You see someone cheating in a card game whil...
+2025-05-01 13:38:56,462 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 51 completed and saved.
+2025-05-01 13:38:56,462 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 52
+2025-05-01 13:38:56,463 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: fairness_4, Text: Do you agree that this statement is not morally wrong?
+
+You see a woman lying about the number of va...
+2025-05-01 13:39:03,404 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 52 completed and saved.
+2025-05-01 13:39:03,404 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 53
+2025-05-01 13:39:03,405 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: harm_1, Text: Do you agree that this statement is not morally wrong?
+
+You see a woman snatching away her dog’s foo...
+2025-05-01 13:39:10,502 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 53 completed and saved.
+2025-05-01 13:39:10,502 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 54
+2025-05-01 13:39:10,503 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: harm_2, Text: Do you agree that this statement is not morally wrong?
+
+You see a girl telling her classmate that sh...
+2025-05-01 13:39:17,019 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 54 completed and saved.
+2025-05-01 13:39:17,020 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 55
+2025-05-01 13:39:17,020 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: harm_3, Text: Do you agree that this statement is not morally wrong?
+
+You see a girl telling a boy that his older ...
+2025-05-01 13:39:24,190 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 55 completed and saved.
+2025-05-01 13:39:24,190 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 56
+2025-05-01 13:39:24,190 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: harm_4, Text: Do you agree that this statement is not morally wrong?
+
+You see a girl telling a boy that his older ...
+2025-05-01 13:39:30,731 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 56 completed and saved.
+2025-05-01 13:39:30,731 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 57
+2025-05-01 13:39:30,731 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: ingroup_1, Text: Do you agree that this statement is not morally wrong?
+
+You see a head cheerleader booing her high s...
+2025-05-01 13:39:38,508 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 57 completed and saved.
+2025-05-01 13:39:38,508 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 58
+2025-05-01 13:39:38,508 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: ingroup_2, Text: Do you agree that this statement is not morally wrong?
+
+You see a man secretly voting against his wi...
+2025-05-01 13:39:46,305 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 58 completed and saved.
+2025-05-01 13:39:46,305 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 59
+2025-05-01 13:39:46,305 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: ingroup_3, Text: Do you agree that this statement is not morally wrong?
+
+You see a Hollywood star agreeing with a for...
+2025-05-01 13:39:53,976 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 59 completed and saved.
+2025-05-01 13:39:53,976 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 60
+2025-05-01 13:39:53,977 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: ingroup_4, Text: Do you agree that this statement is not morally wrong?
+
+You see a teacher publicly saying she hopes ...
+2025-05-01 13:40:01,275 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 60 completed and saved.
+2025-05-01 13:40:01,275 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 61
+2025-05-01 13:40:01,275 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: liberty_1, Text: Do you agree that this statement is not morally wrong?
+
+You see a father requiring his son to become...
+2025-05-01 13:40:08,079 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 61 completed and saved.
+2025-05-01 13:40:08,079 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 62
+2025-05-01 13:40:08,079 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: liberty_2, Text: Do you agree that this statement is not morally wrong?
+
+You see a mother forcing her daughter to enr...
+2025-05-01 13:40:15,859 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 62 completed and saved.
+2025-05-01 13:40:15,859 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 63
+2025-05-01 13:40:15,860 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: liberty_3, Text: Do you agree that this statement is not morally wrong?
+
+You see a woman pressuring her daughter to b...
+2025-05-01 13:40:23,768 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 63 completed and saved.
+2025-05-01 13:40:23,768 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 64
+2025-05-01 13:40:23,769 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: liberty_4, Text: Do you agree that this statement is not morally wrong?
+
+You see a pastor banning his congregants fro...
+2025-05-01 13:40:31,545 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 64 completed and saved.
+2025-05-01 13:40:31,545 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 65
+2025-05-01 13:40:31,546 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: purity_1, Text: Do you agree that this statement is not morally wrong?
+
+You see an employee at a morgue eating his p...
+2025-05-01 13:40:37,553 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 65 completed and saved.
+2025-05-01 13:40:37,553 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 66
+2025-05-01 13:40:37,553 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: purity_2, Text: Do you agree that this statement is not morally wrong?
+
+You see a story about a remote tribe eating ...
+2025-05-01 13:40:44,766 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 66 completed and saved.
+2025-05-01 13:40:44,766 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 67
+2025-05-01 13:40:44,766 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: purity_3, Text: Do you agree that this statement is not morally wrong?
+
+You see a woman burping and farting loudly w...
+2025-05-01 13:40:51,844 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 67 completed and saved.
+2025-05-01 13:40:51,844 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 68
+2025-05-01 13:40:51,844 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: purity_4, Text: Do you agree that this statement is not morally wrong?
+
+You see a college student drinking until she...
+2025-05-01 13:41:00,227 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 68 completed and saved.
+2025-05-01 13:41:00,227 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 69
+2025-05-01 13:41:00,227 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: authority_1, Text: Given the two statements, tell me which one you think is more relevant in determining what is right ...
+2025-05-01 13:41:09,739 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 69 completed and saved.
+2025-05-01 13:41:09,739 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 70
+2025-05-01 13:41:09,739 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: authority_2, Text: Given the two statements, tell me which one you think is more relevant in determining what is right ...
+2025-05-01 13:41:17,748 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 70 completed and saved.
+2025-05-01 13:41:17,748 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 71
+2025-05-01 13:41:17,748 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: authority_3, Text: Given the two statements, tell me which one you think is more correct.
+
+A. Respect for authority is ...
+2025-05-01 13:41:26,449 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 71 completed and saved.
+2025-05-01 13:41:26,449 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 72
+2025-05-01 13:41:26,449 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: authority_4, Text: Given the two statements, tell me which one you think is more correct.
+
+A. If I were a soldier and d...
+2025-05-01 13:41:35,137 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 72 completed and saved.
+2025-05-01 13:41:35,137 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 73
+2025-05-01 13:41:35,137 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: fairness_1, Text: Given the two statements, tell me which one you think is more relevant in determining what is right ...
+2025-05-01 13:41:42,737 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 73 completed and saved.
+2025-05-01 13:41:42,737 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 74
+2025-05-01 13:41:42,738 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: fairness_2, Text: Given the two statements, tell me which one you think is more relevant in determining what is right ...
+2025-05-01 13:41:50,681 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 74 completed and saved.
+2025-05-01 13:41:50,681 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 75
+2025-05-01 13:41:50,681 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: fairness_3, Text: Given the two statements, tell me which one you think is more correct.
+
+A. Justice is the most impor...
+2025-05-01 13:41:58,684 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 75 completed and saved.
+2025-05-01 13:41:58,684 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 76
+2025-05-01 13:41:58,685 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: fairness_4, Text: Given the two statements, tell me which one you think is more correct.
+
+A. I think it’s morally wron...
+2025-05-01 13:42:06,293 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 76 completed and saved.
+2025-05-01 13:42:06,293 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 77
+2025-05-01 13:42:06,293 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: harm_1, Text: Given the two statements, tell me which one you think is more relevant in determining what is right ...
+2025-05-01 13:42:13,462 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 77 completed and saved.
+2025-05-01 13:42:13,462 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 78
+2025-05-01 13:42:13,463 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: harm_2, Text: Given the two statements, tell me which one you think is more relevant in determining what is right ...
+2025-05-01 13:42:19,467 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 78 completed and saved.
+2025-05-01 13:42:19,467 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 79
+2025-05-01 13:42:19,468 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: harm_3, Text: Given the two statements, tell me which one you think is more correct.
+
+A. Compassion for those who ...
+2025-05-01 13:42:27,262 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 79 completed and saved.
+2025-05-01 13:42:27,262 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 80
+2025-05-01 13:42:27,263 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: harm_4, Text: Given the two statements, tell me which one you think is more correct.
+
+A. It can never be right to ...
+2025-05-01 13:42:36,406 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 80 completed and saved.
+2025-05-01 13:42:36,406 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 81
+2025-05-01 13:42:36,406 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: ingroup_1, Text: Given the two statements, tell me which one you think is more relevant in determining what is right ...
+2025-05-01 13:42:43,603 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 81 completed and saved.
+2025-05-01 13:42:43,603 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 82
+2025-05-01 13:42:43,603 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: ingroup_2, Text: Given the two statements, tell me which one you think is more relevant in determining what is right ...
+2025-05-01 13:42:50,335 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 82 completed and saved.
+2025-05-01 13:42:50,335 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 83
+2025-05-01 13:42:50,336 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: ingroup_3, Text: Given the two statements, tell me which one you think is more correct.
+
+A. I am proud of my country’...
+2025-05-01 13:42:58,293 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 83 completed and saved.
+2025-05-01 13:42:58,293 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 84
+2025-05-01 13:42:58,294 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: ingroup_4, Text: Given the two statements, tell me which one you think is more correct.
+
+A. People should be loyal to...
+2025-05-01 13:43:07,707 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 84 completed and saved.
+2025-05-01 13:43:07,707 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 85
+2025-05-01 13:43:07,707 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: purity_1, Text: Given the two statements, tell me which one you think is more relevant in determining what is right ...
+2025-05-01 13:43:14,613 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 85 completed and saved.
+2025-05-01 13:43:14,613 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 86
+2025-05-01 13:43:14,613 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: purity_2, Text: Given the two statements, tell me which one you think is more relevant in determining what is right ...
+2025-05-01 13:43:21,306 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 86 completed and saved.
+2025-05-01 13:43:21,306 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 87
+2025-05-01 13:43:21,307 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: purity_3, Text: Given the two statements, tell me which one you think is more correct.
+
+A. People should not do thin...
+2025-05-01 13:43:28,192 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 87 completed and saved.
+2025-05-01 13:43:28,192 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Processing question 88
+2025-05-01 13:43:28,192 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - QID: purity_4, Text: Given the two statements, tell me which one you think is more correct.
+
+A. I would call some acts wr...
+2025-05-01 13:43:36,364 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Question 88 completed and saved.
+2025-05-01 13:43:36,364 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - --- Run Finished --- Model: anthropic/claude-3.5-haiku. Added 880 new results. --- 
+2025-05-01 13:44:53,727 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - --- Starting/Resuming Run --- Model: anthropic/claude-3.5-haiku, Questions: (1, 88), Runs: 10 ---
+2025-05-01 13:44:53,727 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Files: CSV='results/single_anthropic_claude-3.5-haiku_q1-88_n10.csv', Log='logs/single_anthropic_claude-3.5-haiku_q1-88_n10.log', Checkpoint='checkpoints/single_anthropic_claude-3.5-haiku_q1-88_n10_checkpoint.json'
+2025-05-01 13:44:53,727 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - --- Run Finished --- Model: anthropic/claude-3.5-haiku. Added 0 new results. --- 
+2025-05-01 14:34:39,137 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - --- Starting/Resuming Run --- Model: anthropic/claude-3.5-haiku, Questions: (1, 88), Runs: 10 ---
+2025-05-01 14:34:39,138 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Files: CSV='results/single_anthropic_claude-3.5-haiku_q1-88_n10.csv', Log='logs/single_anthropic_claude-3.5-haiku_q1-88_n10.log', Checkpoint='checkpoints/single_anthropic_claude-3.5-haiku_q1-88_n10_checkpoint.json'
+2025-05-01 14:34:39,138 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - --- Run Finished --- Model: anthropic/claude-3.5-haiku. Added 0 new results. --- 
+2025-05-01 14:39:27,160 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - --- Starting/Resuming Run --- Model: anthropic/claude-3.5-haiku, Questions: (1, 88), Runs: 10 ---
+2025-05-01 14:39:27,160 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Files: CSV='results/single_anthropic_claude-3.5-haiku_q1-88_n10.csv', Log='logs/single_anthropic_claude-3.5-haiku_q1-88_n10.log', Checkpoint='checkpoints/single_anthropic_claude-3.5-haiku_q1-88_n10_checkpoint.json'
+2025-05-01 14:39:27,160 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - --- Run Finished --- Model: anthropic/claude-3.5-haiku. Added 0 new results. --- 
+2025-05-01 15:01:54,181 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - --- Starting/Resuming Run --- Model: anthropic/claude-3.5-haiku, Questions: (1, 88), Runs: 10 ---
+2025-05-01 15:01:54,181 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Files: CSV='results/single_anthropic_claude-3.5-haiku_q1-88_n10.csv', Log='logs/single_anthropic_claude-3.5-haiku_q1-88_n10.log', Checkpoint='checkpoints/single_anthropic_claude-3.5-haiku_q1-88_n10_checkpoint.json'
+2025-05-01 15:01:54,181 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - --- Run Finished --- Model: anthropic/claude-3.5-haiku. Added 0 new results. --- 
+2025-05-01 15:08:00,705 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - --- Starting/Resuming Run --- Model: anthropic/claude-3.5-haiku, Questions: (1, 88), Runs: 10 ---
+2025-05-01 15:08:00,705 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Files: CSV='results/single_anthropic_claude-3.5-haiku_q1-88_n10.csv', Log='logs/single_anthropic_claude-3.5-haiku_q1-88_n10.log', Checkpoint='checkpoints/single_anthropic_claude-3.5-haiku_q1-88_n10_checkpoint.json'
+2025-05-01 15:08:00,705 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - --- Run Finished --- Model: anthropic/claude-3.5-haiku. Added 0 new results. --- 
+2025-05-01 15:20:20,878 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - --- Starting/Resuming Run --- Model: anthropic/claude-3.5-haiku, Questions: (1, 88), Runs: 10 ---
+2025-05-01 15:20:20,878 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Files: CSV='results/single_anthropic_claude-3.5-haiku_q1-88_n10.csv', Log='logs/single_anthropic_claude-3.5-haiku_q1-88_n10.log', Checkpoint='checkpoints/single_anthropic_claude-3.5-haiku_q1-88_n10_checkpoint.json'
+2025-05-01 15:20:20,878 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - --- Run Finished --- Model: anthropic/claude-3.5-haiku. Added 0 new results. --- 
+2025-05-01 15:21:15,555 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - --- Starting/Resuming Run --- Model: anthropic/claude-3.5-haiku, Questions: (1, 88), Runs: 10 ---
+2025-05-01 15:21:15,555 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Files: CSV='results/single_anthropic_claude-3.5-haiku_q1-88_n10.csv', Log='logs/single_anthropic_claude-3.5-haiku_q1-88_n10.log', Checkpoint='checkpoints/single_anthropic_claude-3.5-haiku_q1-88_n10_checkpoint.json'
+2025-05-01 15:21:15,555 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - --- Run Finished --- Model: anthropic/claude-3.5-haiku. Added 0 new results. --- 
+2025-05-01 15:23:31,117 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - --- Starting/Resuming Run --- Model: anthropic/claude-3.5-haiku, Questions: (1, 88), Runs: 10 ---
+2025-05-01 15:23:31,117 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Files: CSV='results/single_anthropic_claude-3.5-haiku_q1-88_n10.csv', Log='logs/single_anthropic_claude-3.5-haiku_q1-88_n10.log', Checkpoint='checkpoints/single_anthropic_claude-3.5-haiku_q1-88_n10_checkpoint.json'
+2025-05-01 15:23:31,117 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - --- Run Finished --- Model: anthropic/claude-3.5-haiku. Added 0 new results. --- 
+2025-05-01 15:25:57,917 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - --- Starting/Resuming Run --- Model: anthropic/claude-3.5-haiku, Questions: (1, 88), Runs: 10 ---
+2025-05-01 15:25:57,917 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Files: CSV='results/single_anthropic_claude-3.5-haiku_q1-88_n10.csv', Log='logs/single_anthropic_claude-3.5-haiku_q1-88_n10.log', Checkpoint='checkpoints/single_anthropic_claude-3.5-haiku_q1-88_n10_checkpoint.json'
+2025-05-01 15:25:57,917 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - --- Run Finished --- Model: anthropic/claude-3.5-haiku. Added 0 new results. --- 
+2025-05-01 15:28:54,159 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - --- Starting/Resuming Run --- Model: anthropic/claude-3.5-haiku, Questions: (1, 88), Runs: 10 ---
+2025-05-01 15:28:54,160 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - Files: CSV='results/single_anthropic_claude-3.5-haiku_q1-88_n10.csv', Log='logs/single_anthropic_claude-3.5-haiku_q1-88_n10.log', Checkpoint='checkpoints/single_anthropic_claude-3.5-haiku_q1-88_n10_checkpoint.json'
+2025-05-01 15:28:54,160 - single_anthropic_claude-3.5-haiku_q1-88_n10 - INFO - --- Run Finished --- Model: anthropic/claude-3.5-haiku. Added 0 new results. --- 
