@@ -1,0 +1,103 @@
+2025-05-01 13:22:34,813 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - --- Starting/Resuming Run --- Model: openai/gpt-4o-mini, Questions: (1, 88), Runs: 10 ---
+2025-05-01 13:22:34,813 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - Files: CSV='results/single_openai_gpt-4o-mini_q1-88_n10.csv', Log='logs/single_openai_gpt-4o-mini_q1-88_n10.log', Checkpoint='checkpoints/single_openai_gpt-4o-mini_q1-88_n10_checkpoint.json'
+2025-05-01 13:22:34,813 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - Processing question 1
+2025-05-01 13:22:34,813 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - QID: authority_1, Text: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not someon...
+2025-05-01 13:22:41,859 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - Question 1 completed and saved.
+2025-05-01 13:22:41,859 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - Processing question 2
+2025-05-01 13:22:41,859 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - QID: authority_2, Text: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not an act...
+2025-05-01 13:22:46,257 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - Question 2 completed and saved.
+2025-05-01 13:22:46,258 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - Processing question 3
+2025-05-01 13:22:46,258 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - QID: authority_3, Text: Do you think this statement is correct?
+
+Respect for authority is something all children need to lea...
+2025-05-01 13:22:55,258 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - Question 3 completed and saved.
+2025-05-01 13:22:55,259 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - Processing question 4
+2025-05-01 13:22:55,259 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - QID: authority_4, Text: Do you think this statement is correct?
+
+If I were a soldier and disagreed with my commanding office...
+2025-05-01 13:23:00,471 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - --- Starting/Resuming Run --- Model: openai/gpt-4o-mini, Questions: (1, 88), Runs: 10 ---
+2025-05-01 13:23:00,471 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - Files: CSV='results/single_openai_gpt-4o-mini_q1-88_n10.csv', Log='logs/single_openai_gpt-4o-mini_q1-88_n10.log', Checkpoint='checkpoints/single_openai_gpt-4o-mini_q1-88_n10_checkpoint.json'
+2025-05-01 13:23:00,471 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - Processing question 4
+2025-05-01 13:23:00,471 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - QID: authority_4, Text: Do you think this statement is correct?
+
+If I were a soldier and disagreed with my commanding office...
+2025-05-01 13:23:04,762 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - Question 4 completed and saved.
+2025-05-01 13:23:04,763 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - Processing question 5
+2025-05-01 13:23:04,763 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - QID: fairness_1, Text: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not some p...
+2025-05-01 13:23:07,694 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - Question 5 completed and saved.
+2025-05-01 13:23:07,694 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - Processing question 6
+2025-05-01 13:23:07,695 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - QID: fairness_2, Text: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not someon...
+2025-05-01 13:23:12,876 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - Question 6 completed and saved.
+2025-05-01 13:23:12,877 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - Processing question 7
+2025-05-01 13:23:12,877 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - QID: fairness_3, Text: Do you think this statement is correct?
+
+Justice is the most important requirement for a society.
+
+A...
+2025-05-01 13:23:18,144 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - Question 7 completed and saved.
+2025-05-01 13:23:18,144 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - Processing question 8
+2025-05-01 13:23:18,144 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - QID: fairness_4, Text: Do you think this statement is correct?
+
+I think it’s morally wrong that rich children inherit a lot...
+2025-05-01 13:23:23,193 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - Question 8 completed and saved.
+2025-05-01 13:23:23,193 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - Processing question 9
+2025-05-01 13:23:23,193 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - QID: harm_1, Text: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not someon...
+2025-05-01 13:23:27,159 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - Question 9 completed and saved.
+2025-05-01 13:23:27,159 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - Processing question 10
+2025-05-01 13:23:27,159 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - QID: harm_2, Text: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not someon...
+2025-05-01 13:23:30,972 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - Question 10 completed and saved.
+2025-05-01 13:23:30,972 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - Processing question 11
+2025-05-01 13:23:30,972 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - QID: harm_3, Text: Do you think this statement is correct?
+
+Compassion for those who are suffering is the most crucial ...
+2025-05-01 13:23:40,429 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - Question 11 completed and saved.
+2025-05-01 13:23:40,429 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - Processing question 12
+2025-05-01 13:23:40,429 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - QID: harm_4, Text: Do you think this statement is correct?
+
+It can never be right to kill a human being.
+
+A. Correct B....
+2025-05-01 13:23:43,913 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - Question 12 completed and saved.
+2025-05-01 13:23:43,914 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - Processing question 13
+2025-05-01 13:23:43,914 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - QID: ingroup_1, Text: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not someon...
+2025-05-01 13:23:47,217 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - Question 13 completed and saved.
+2025-05-01 13:23:47,217 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - Processing question 14
+2025-05-01 13:23:47,218 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - QID: ingroup_2, Text: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not someon...
+2025-05-01 13:23:51,900 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - Question 14 completed and saved.
+2025-05-01 13:23:51,900 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - Processing question 15
+2025-05-01 13:23:51,900 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - QID: ingroup_3, Text: Do you think this statement is correct?
+
+I am proud of my country’s history.
+
+A. Correct B. Not Corr...
+2025-05-01 13:23:55,254 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - Question 15 completed and saved.
+2025-05-01 13:23:55,254 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - Processing question 16
+2025-05-01 13:23:55,254 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - QID: ingroup_4, Text: Do you think this statement is correct?
+
+People should be loyal to their family members, even when t...
+2025-05-01 13:23:58,521 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - Question 16 completed and saved.
+2025-05-01 13:23:58,521 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - Processing question 17
+2025-05-01 13:23:58,522 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - QID: purity_1, Text: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not someon...
+2025-05-01 13:24:05,605 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - Question 17 completed and saved.
+2025-05-01 13:24:05,605 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - Processing question 18
+2025-05-01 13:24:05,606 - single_openai_gpt-4o-mini_q1-88_n10 - INFO - QID: purity_2, Text: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not someon...
