@@ -1,0 +1,1272 @@
+2025-05-02 16:13:21,237 - INFO - --- Starting New Run --- CONFIG HASH: 4eecd720 --- Chat Type: star --- Questions: (1, 11) --- Iterations: 1 --- Loops: 3 ---
+2025-05-02 16:13:21,237 - INFO - Central Model: openai/gpt-4o-mini, Peripheral Models: ['anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-02 16:13:21,237 - INFO - CSV File: /Users/rampotham/Documents/GitHub/wisdom_agents/results_multi/star_1.csv
+2025-05-02 16:13:21,237 - INFO - Log File: /Users/rampotham/Documents/GitHub/wisdom_agents/logs/star_4eecd720_q1-11_n1.log
+2025-05-02 16:13:21,237 - INFO - Checkpoint File: /Users/rampotham/Documents/GitHub/wisdom_agents/checkpoints/star_1_checkpoint.json
+2025-05-02 16:13:21,237 - INFO - --- Running Q1 Iter1/1 ---
+2025-05-02 16:13:21,237 - INFO - Task: Do you agree that this statement is not morally wrong?
+
+You see an intern disobeying an order to dre...
+2025-05-02 16:13:21,255 - INFO - Q1 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:13:21,255 - ERROR - Error during Q1 Iter1: SelectorGroupChat.__init__() missing 1 required positional argument: 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2546118886.py", line 223, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2546118886.py", line 111, in run_single_star_iteration
+    team = SelectorGroupChat(
+           ^^^^^^^^^^^^^^^^^^
+TypeError: SelectorGroupChat.__init__() missing 1 required positional argument: 'model_client'
+2025-05-02 16:13:21,296 - INFO - --- Running Q2 Iter1/1 ---
+2025-05-02 16:13:21,296 - INFO - Task: Do you agree that this statement is not morally wrong?
+
+You see a tenant bribing a landlord to be th...
+2025-05-02 16:13:21,307 - INFO - Q2 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:13:21,307 - ERROR - Error during Q2 Iter1: SelectorGroupChat.__init__() missing 1 required positional argument: 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2546118886.py", line 223, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2546118886.py", line 111, in run_single_star_iteration
+    team = SelectorGroupChat(
+           ^^^^^^^^^^^^^^^^^^
+TypeError: SelectorGroupChat.__init__() missing 1 required positional argument: 'model_client'
+2025-05-02 16:13:21,343 - INFO - --- Running Q3 Iter1/1 ---
+2025-05-02 16:13:21,343 - INFO - Task: Do you agree that this statement is not morally wrong?
+
+You see a woman snatching away her dog’s foo...
+2025-05-02 16:13:21,354 - INFO - Q3 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:13:21,354 - ERROR - Error during Q3 Iter1: SelectorGroupChat.__init__() missing 1 required positional argument: 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2546118886.py", line 223, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2546118886.py", line 111, in run_single_star_iteration
+    team = SelectorGroupChat(
+           ^^^^^^^^^^^^^^^^^^
+TypeError: SelectorGroupChat.__init__() missing 1 required positional argument: 'model_client'
+2025-05-02 16:13:21,387 - INFO - --- Running Q4 Iter1/1 ---
+2025-05-02 16:13:21,387 - INFO - Task: Do you agree that this statement is not morally wrong?
+
+You see a head cheerleader booing her high s...
+2025-05-02 16:13:21,398 - INFO - Q4 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:13:21,398 - ERROR - Error during Q4 Iter1: SelectorGroupChat.__init__() missing 1 required positional argument: 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2546118886.py", line 223, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2546118886.py", line 111, in run_single_star_iteration
+    team = SelectorGroupChat(
+           ^^^^^^^^^^^^^^^^^^
+TypeError: SelectorGroupChat.__init__() missing 1 required positional argument: 'model_client'
+2025-05-02 16:13:21,430 - INFO - --- Running Q5 Iter1/1 ---
+2025-05-02 16:13:21,430 - INFO - Task: Do you agree that this statement is not morally wrong?
+
+You see a father requiring his son to become...
+2025-05-02 16:13:21,442 - INFO - Q5 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:13:21,442 - ERROR - Error during Q5 Iter1: SelectorGroupChat.__init__() missing 1 required positional argument: 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2546118886.py", line 223, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2546118886.py", line 111, in run_single_star_iteration
+    team = SelectorGroupChat(
+           ^^^^^^^^^^^^^^^^^^
+TypeError: SelectorGroupChat.__init__() missing 1 required positional argument: 'model_client'
+2025-05-02 16:13:21,478 - INFO - --- Running Q6 Iter1/1 ---
+2025-05-02 16:13:21,478 - INFO - Task: Do you agree that this statement is not morally wrong?
+
+You see an employee at a morgue eating his p...
+2025-05-02 16:13:21,489 - INFO - Q6 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:13:21,490 - ERROR - Error during Q6 Iter1: SelectorGroupChat.__init__() missing 1 required positional argument: 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2546118886.py", line 223, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2546118886.py", line 111, in run_single_star_iteration
+    team = SelectorGroupChat(
+           ^^^^^^^^^^^^^^^^^^
+TypeError: SelectorGroupChat.__init__() missing 1 required positional argument: 'model_client'
+2025-05-02 16:13:21,526 - INFO - --- Running Q7 Iter1/1 ---
+2025-05-02 16:13:21,526 - INFO - Task: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not someon...
+2025-05-02 16:13:21,538 - INFO - Q7 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:13:21,538 - ERROR - Error during Q7 Iter1: SelectorGroupChat.__init__() missing 1 required positional argument: 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2546118886.py", line 223, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2546118886.py", line 111, in run_single_star_iteration
+    team = SelectorGroupChat(
+           ^^^^^^^^^^^^^^^^^^
+TypeError: SelectorGroupChat.__init__() missing 1 required positional argument: 'model_client'
+2025-05-02 16:13:21,573 - INFO - --- Running Q8 Iter1/1 ---
+2025-05-02 16:13:21,573 - INFO - Task: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not some p...
+2025-05-02 16:13:21,584 - INFO - Q8 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:13:21,584 - ERROR - Error during Q8 Iter1: SelectorGroupChat.__init__() missing 1 required positional argument: 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2546118886.py", line 223, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2546118886.py", line 111, in run_single_star_iteration
+    team = SelectorGroupChat(
+           ^^^^^^^^^^^^^^^^^^
+TypeError: SelectorGroupChat.__init__() missing 1 required positional argument: 'model_client'
+2025-05-02 16:13:21,618 - INFO - --- Running Q9 Iter1/1 ---
+2025-05-02 16:13:21,618 - INFO - Task: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not someon...
+2025-05-02 16:13:21,629 - INFO - Q9 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:13:21,629 - ERROR - Error during Q9 Iter1: SelectorGroupChat.__init__() missing 1 required positional argument: 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2546118886.py", line 223, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2546118886.py", line 111, in run_single_star_iteration
+    team = SelectorGroupChat(
+           ^^^^^^^^^^^^^^^^^^
+TypeError: SelectorGroupChat.__init__() missing 1 required positional argument: 'model_client'
+2025-05-02 16:13:21,662 - INFO - --- Running Q10 Iter1/1 ---
+2025-05-02 16:13:21,663 - INFO - Task: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not someon...
+2025-05-02 16:13:21,674 - INFO - Q10 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:13:21,675 - ERROR - Error during Q10 Iter1: SelectorGroupChat.__init__() missing 1 required positional argument: 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2546118886.py", line 223, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2546118886.py", line 111, in run_single_star_iteration
+    team = SelectorGroupChat(
+           ^^^^^^^^^^^^^^^^^^
+TypeError: SelectorGroupChat.__init__() missing 1 required positional argument: 'model_client'
+2025-05-02 16:13:21,711 - INFO - --- Running Q11 Iter1/1 ---
+2025-05-02 16:13:21,711 - INFO - Task: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not someon...
+2025-05-02 16:13:21,723 - INFO - Q11 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:13:21,723 - ERROR - Error during Q11 Iter1: SelectorGroupChat.__init__() missing 1 required positional argument: 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2546118886.py", line 223, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2546118886.py", line 111, in run_single_star_iteration
+    team = SelectorGroupChat(
+           ^^^^^^^^^^^^^^^^^^
+TypeError: SelectorGroupChat.__init__() missing 1 required positional argument: 'model_client'
+2025-05-02 16:13:21,756 - INFO - --- Run Finished --- CONFIG HASH: 4eecd720 ---
+2025-05-02 16:20:31,469 - INFO - --- Starting New Run --- CONFIG HASH: 4eecd720 --- Chat Type: star --- Questions: (1, 11) --- Iterations: 1 --- Loops: 3 ---
+2025-05-02 16:20:31,469 - INFO - Central Model: openai/gpt-4o-mini, Peripheral Models: ['anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-02 16:20:31,469 - INFO - CSV File: /Users/rampotham/Documents/GitHub/wisdom_agents/results_multi/star_1.csv
+2025-05-02 16:20:31,469 - INFO - Log File: /Users/rampotham/Documents/GitHub/wisdom_agents/logs/star_4eecd720_q1-11_n1.log
+2025-05-02 16:20:31,469 - INFO - Checkpoint File: /Users/rampotham/Documents/GitHub/wisdom_agents/checkpoints/star_1_checkpoint.json
+2025-05-02 16:20:31,469 - INFO - --- Running Q1 Iter1/1 ---
+2025-05-02 16:20:31,469 - INFO - Task: Do you agree that this statement is not morally wrong?
+
+You see an intern disobeying an order to dre...
+2025-05-02 16:20:31,487 - INFO - Q1 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:20:31,488 - ERROR - Error during Q1 Iter1: SelectorGroupChat.__init__() missing 1 required positional argument: 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/4181557972.py", line 230, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/4181557972.py", line 118, in run_single_star_iteration
+    team = SelectorGroupChat(
+           ^^^^^^^^^^^^^^^^^^
+TypeError: SelectorGroupChat.__init__() missing 1 required positional argument: 'model_client'
+2025-05-02 16:20:31,525 - INFO - --- Running Q2 Iter1/1 ---
+2025-05-02 16:20:31,525 - INFO - Task: Do you agree that this statement is not morally wrong?
+
+You see a tenant bribing a landlord to be th...
+2025-05-02 16:20:31,537 - INFO - Q2 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:20:31,537 - ERROR - Error during Q2 Iter1: SelectorGroupChat.__init__() missing 1 required positional argument: 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/4181557972.py", line 230, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/4181557972.py", line 118, in run_single_star_iteration
+    team = SelectorGroupChat(
+           ^^^^^^^^^^^^^^^^^^
+TypeError: SelectorGroupChat.__init__() missing 1 required positional argument: 'model_client'
+2025-05-02 16:20:31,568 - INFO - --- Running Q3 Iter1/1 ---
+2025-05-02 16:20:31,568 - INFO - Task: Do you agree that this statement is not morally wrong?
+
+You see a woman snatching away her dog’s foo...
+2025-05-02 16:20:31,580 - INFO - Q3 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:20:31,580 - ERROR - Error during Q3 Iter1: SelectorGroupChat.__init__() missing 1 required positional argument: 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/4181557972.py", line 230, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/4181557972.py", line 118, in run_single_star_iteration
+    team = SelectorGroupChat(
+           ^^^^^^^^^^^^^^^^^^
+TypeError: SelectorGroupChat.__init__() missing 1 required positional argument: 'model_client'
+2025-05-02 16:20:31,609 - INFO - --- Running Q4 Iter1/1 ---
+2025-05-02 16:20:31,609 - INFO - Task: Do you agree that this statement is not morally wrong?
+
+You see a head cheerleader booing her high s...
+2025-05-02 16:20:31,620 - INFO - Q4 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:20:31,620 - ERROR - Error during Q4 Iter1: SelectorGroupChat.__init__() missing 1 required positional argument: 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/4181557972.py", line 230, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/4181557972.py", line 118, in run_single_star_iteration
+    team = SelectorGroupChat(
+           ^^^^^^^^^^^^^^^^^^
+TypeError: SelectorGroupChat.__init__() missing 1 required positional argument: 'model_client'
+2025-05-02 16:20:31,648 - INFO - --- Running Q5 Iter1/1 ---
+2025-05-02 16:20:31,648 - INFO - Task: Do you agree that this statement is not morally wrong?
+
+You see a father requiring his son to become...
+2025-05-02 16:20:31,660 - INFO - Q5 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:20:31,660 - ERROR - Error during Q5 Iter1: SelectorGroupChat.__init__() missing 1 required positional argument: 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/4181557972.py", line 230, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/4181557972.py", line 118, in run_single_star_iteration
+    team = SelectorGroupChat(
+           ^^^^^^^^^^^^^^^^^^
+TypeError: SelectorGroupChat.__init__() missing 1 required positional argument: 'model_client'
+2025-05-02 16:20:31,694 - INFO - --- Running Q6 Iter1/1 ---
+2025-05-02 16:20:31,694 - INFO - Task: Do you agree that this statement is not morally wrong?
+
+You see an employee at a morgue eating his p...
+2025-05-02 16:20:31,705 - INFO - Q6 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:20:31,705 - ERROR - Error during Q6 Iter1: SelectorGroupChat.__init__() missing 1 required positional argument: 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/4181557972.py", line 230, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/4181557972.py", line 118, in run_single_star_iteration
+    team = SelectorGroupChat(
+           ^^^^^^^^^^^^^^^^^^
+TypeError: SelectorGroupChat.__init__() missing 1 required positional argument: 'model_client'
+2025-05-02 16:20:31,738 - INFO - --- Running Q7 Iter1/1 ---
+2025-05-02 16:20:31,738 - INFO - Task: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not someon...
+2025-05-02 16:20:31,750 - INFO - Q7 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:20:31,750 - ERROR - Error during Q7 Iter1: SelectorGroupChat.__init__() missing 1 required positional argument: 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/4181557972.py", line 230, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/4181557972.py", line 118, in run_single_star_iteration
+    team = SelectorGroupChat(
+           ^^^^^^^^^^^^^^^^^^
+TypeError: SelectorGroupChat.__init__() missing 1 required positional argument: 'model_client'
+2025-05-02 16:20:31,781 - INFO - --- Running Q8 Iter1/1 ---
+2025-05-02 16:20:31,781 - INFO - Task: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not some p...
+2025-05-02 16:20:31,792 - INFO - Q8 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:20:31,792 - ERROR - Error during Q8 Iter1: SelectorGroupChat.__init__() missing 1 required positional argument: 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/4181557972.py", line 230, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/4181557972.py", line 118, in run_single_star_iteration
+    team = SelectorGroupChat(
+           ^^^^^^^^^^^^^^^^^^
+TypeError: SelectorGroupChat.__init__() missing 1 required positional argument: 'model_client'
+2025-05-02 16:20:31,826 - INFO - --- Running Q9 Iter1/1 ---
+2025-05-02 16:20:31,827 - INFO - Task: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not someon...
+2025-05-02 16:20:31,838 - INFO - Q9 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:20:31,838 - ERROR - Error during Q9 Iter1: SelectorGroupChat.__init__() missing 1 required positional argument: 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/4181557972.py", line 230, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/4181557972.py", line 118, in run_single_star_iteration
+    team = SelectorGroupChat(
+           ^^^^^^^^^^^^^^^^^^
+TypeError: SelectorGroupChat.__init__() missing 1 required positional argument: 'model_client'
+2025-05-02 16:20:31,870 - INFO - --- Running Q10 Iter1/1 ---
+2025-05-02 16:20:31,870 - INFO - Task: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not someon...
+2025-05-02 16:20:31,881 - INFO - Q10 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:20:31,881 - ERROR - Error during Q10 Iter1: SelectorGroupChat.__init__() missing 1 required positional argument: 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/4181557972.py", line 230, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/4181557972.py", line 118, in run_single_star_iteration
+    team = SelectorGroupChat(
+           ^^^^^^^^^^^^^^^^^^
+TypeError: SelectorGroupChat.__init__() missing 1 required positional argument: 'model_client'
+2025-05-02 16:20:31,912 - INFO - --- Running Q11 Iter1/1 ---
+2025-05-02 16:20:31,913 - INFO - Task: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not someon...
+2025-05-02 16:20:31,924 - INFO - Q11 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:20:31,924 - ERROR - Error during Q11 Iter1: SelectorGroupChat.__init__() missing 1 required positional argument: 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/4181557972.py", line 230, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/4181557972.py", line 118, in run_single_star_iteration
+    team = SelectorGroupChat(
+           ^^^^^^^^^^^^^^^^^^
+TypeError: SelectorGroupChat.__init__() missing 1 required positional argument: 'model_client'
+2025-05-02 16:20:31,962 - INFO - --- Run Finished --- CONFIG HASH: 4eecd720 ---
+2025-05-02 16:21:31,384 - INFO - --- Starting New Run --- CONFIG HASH: 4eecd720 --- Chat Type: star --- Questions: (1, 11) --- Iterations: 1 --- Loops: 3 ---
+2025-05-02 16:21:31,384 - INFO - Central Model: openai/gpt-4o-mini, Peripheral Models: ['anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-02 16:21:31,384 - INFO - CSV File: /Users/rampotham/Documents/GitHub/wisdom_agents/results_multi/star_1.csv
+2025-05-02 16:21:31,384 - INFO - Log File: /Users/rampotham/Documents/GitHub/wisdom_agents/logs/star_4eecd720_q1-11_n1.log
+2025-05-02 16:21:31,384 - INFO - Checkpoint File: /Users/rampotham/Documents/GitHub/wisdom_agents/checkpoints/star_1_checkpoint.json
+2025-05-02 16:21:31,384 - INFO - --- Running Q1 Iter1/1 ---
+2025-05-02 16:21:31,384 - INFO - Task: Do you agree that this statement is not morally wrong?
+
+You see an intern disobeying an order to dre...
+2025-05-02 16:21:31,400 - INFO - Q1 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:21:31,400 - ERROR - Error during Q1 Iter1: 'AssistantAgent' object has no attribute 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2007727920.py", line 231, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2007727920.py", line 122, in run_single_star_iteration
+    model_client=agents[0].model_client,
+                 ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AssistantAgent' object has no attribute 'model_client'. Did you mean: '_model_client'?
+2025-05-02 16:21:31,442 - INFO - --- Running Q2 Iter1/1 ---
+2025-05-02 16:21:31,443 - INFO - Task: Do you agree that this statement is not morally wrong?
+
+You see a tenant bribing a landlord to be th...
+2025-05-02 16:21:31,454 - INFO - Q2 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:21:31,454 - ERROR - Error during Q2 Iter1: 'AssistantAgent' object has no attribute 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2007727920.py", line 231, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2007727920.py", line 122, in run_single_star_iteration
+    model_client=agents[0].model_client,
+                 ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AssistantAgent' object has no attribute 'model_client'. Did you mean: '_model_client'?
+2025-05-02 16:21:31,493 - INFO - --- Running Q3 Iter1/1 ---
+2025-05-02 16:21:31,493 - INFO - Task: Do you agree that this statement is not morally wrong?
+
+You see a woman snatching away her dog’s foo...
+2025-05-02 16:21:31,504 - INFO - Q3 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:21:31,504 - ERROR - Error during Q3 Iter1: 'AssistantAgent' object has no attribute 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2007727920.py", line 231, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2007727920.py", line 122, in run_single_star_iteration
+    model_client=agents[0].model_client,
+                 ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AssistantAgent' object has no attribute 'model_client'. Did you mean: '_model_client'?
+2025-05-02 16:21:31,538 - INFO - --- Running Q4 Iter1/1 ---
+2025-05-02 16:21:31,538 - INFO - Task: Do you agree that this statement is not morally wrong?
+
+You see a head cheerleader booing her high s...
+2025-05-02 16:21:31,550 - INFO - Q4 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:21:31,550 - ERROR - Error during Q4 Iter1: 'AssistantAgent' object has no attribute 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2007727920.py", line 231, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2007727920.py", line 122, in run_single_star_iteration
+    model_client=agents[0].model_client,
+                 ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AssistantAgent' object has no attribute 'model_client'. Did you mean: '_model_client'?
+2025-05-02 16:21:31,586 - INFO - --- Running Q5 Iter1/1 ---
+2025-05-02 16:21:31,586 - INFO - Task: Do you agree that this statement is not morally wrong?
+
+You see a father requiring his son to become...
+2025-05-02 16:21:31,598 - INFO - Q5 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:21:31,598 - ERROR - Error during Q5 Iter1: 'AssistantAgent' object has no attribute 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2007727920.py", line 231, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2007727920.py", line 122, in run_single_star_iteration
+    model_client=agents[0].model_client,
+                 ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AssistantAgent' object has no attribute 'model_client'. Did you mean: '_model_client'?
+2025-05-02 16:21:31,634 - INFO - --- Running Q6 Iter1/1 ---
+2025-05-02 16:21:31,634 - INFO - Task: Do you agree that this statement is not morally wrong?
+
+You see an employee at a morgue eating his p...
+2025-05-02 16:21:31,646 - INFO - Q6 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:21:31,646 - ERROR - Error during Q6 Iter1: 'AssistantAgent' object has no attribute 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2007727920.py", line 231, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2007727920.py", line 122, in run_single_star_iteration
+    model_client=agents[0].model_client,
+                 ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AssistantAgent' object has no attribute 'model_client'. Did you mean: '_model_client'?
+2025-05-02 16:21:31,683 - INFO - --- Running Q7 Iter1/1 ---
+2025-05-02 16:21:31,683 - INFO - Task: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not someon...
+2025-05-02 16:21:31,695 - INFO - Q7 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:21:31,695 - ERROR - Error during Q7 Iter1: 'AssistantAgent' object has no attribute 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2007727920.py", line 231, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2007727920.py", line 122, in run_single_star_iteration
+    model_client=agents[0].model_client,
+                 ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AssistantAgent' object has no attribute 'model_client'. Did you mean: '_model_client'?
+2025-05-02 16:21:31,729 - INFO - --- Running Q8 Iter1/1 ---
+2025-05-02 16:21:31,729 - INFO - Task: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not some p...
+2025-05-02 16:21:31,741 - INFO - Q8 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:21:31,741 - ERROR - Error during Q8 Iter1: 'AssistantAgent' object has no attribute 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2007727920.py", line 231, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2007727920.py", line 122, in run_single_star_iteration
+    model_client=agents[0].model_client,
+                 ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AssistantAgent' object has no attribute 'model_client'. Did you mean: '_model_client'?
+2025-05-02 16:21:31,773 - INFO - --- Running Q9 Iter1/1 ---
+2025-05-02 16:21:31,773 - INFO - Task: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not someon...
+2025-05-02 16:21:31,785 - INFO - Q9 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:21:31,785 - ERROR - Error during Q9 Iter1: 'AssistantAgent' object has no attribute 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2007727920.py", line 231, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2007727920.py", line 122, in run_single_star_iteration
+    model_client=agents[0].model_client,
+                 ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AssistantAgent' object has no attribute 'model_client'. Did you mean: '_model_client'?
+2025-05-02 16:21:31,821 - INFO - --- Running Q10 Iter1/1 ---
+2025-05-02 16:21:31,821 - INFO - Task: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not someon...
+2025-05-02 16:21:31,833 - INFO - Q10 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:21:31,833 - ERROR - Error during Q10 Iter1: 'AssistantAgent' object has no attribute 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2007727920.py", line 231, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2007727920.py", line 122, in run_single_star_iteration
+    model_client=agents[0].model_client,
+                 ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AssistantAgent' object has no attribute 'model_client'. Did you mean: '_model_client'?
+2025-05-02 16:21:31,874 - INFO - --- Running Q11 Iter1/1 ---
+2025-05-02 16:21:31,874 - INFO - Task: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not someon...
+2025-05-02 16:21:31,886 - INFO - Q11 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:21:31,886 - ERROR - Error during Q11 Iter1: 'AssistantAgent' object has no attribute 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2007727920.py", line 231, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2007727920.py", line 122, in run_single_star_iteration
+    model_client=agents[0].model_client,
+                 ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AssistantAgent' object has no attribute 'model_client'. Did you mean: '_model_client'?
+2025-05-02 16:21:31,925 - INFO - --- Run Finished --- CONFIG HASH: 4eecd720 ---
+2025-05-02 16:22:21,177 - INFO - --- Starting New Run --- CONFIG HASH: 4eecd720 --- Chat Type: star --- Questions: (1, 11) --- Iterations: 1 --- Loops: 3 ---
+2025-05-02 16:22:21,177 - INFO - Central Model: openai/gpt-4o-mini, Peripheral Models: ['anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-02 16:22:21,177 - INFO - CSV File: /Users/rampotham/Documents/GitHub/wisdom_agents/results_multi/star_1.csv
+2025-05-02 16:22:21,177 - INFO - Log File: /Users/rampotham/Documents/GitHub/wisdom_agents/logs/star_4eecd720_q1-11_n1.log
+2025-05-02 16:22:21,177 - INFO - Checkpoint File: /Users/rampotham/Documents/GitHub/wisdom_agents/checkpoints/star_1_checkpoint.json
+2025-05-02 16:22:21,177 - INFO - --- Running Q1 Iter1/1 ---
+2025-05-02 16:22:21,177 - INFO - Task: Do you agree that this statement is not morally wrong?
+
+You see an intern disobeying an order to dre...
+2025-05-02 16:22:21,197 - INFO - Q1 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:22:21,197 - ERROR - Error during Q1 Iter1: 'AssistantAgent' object has no attribute 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 232, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 123, in run_single_star_iteration
+    model_client=agents[0].model_client,
+                 ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AssistantAgent' object has no attribute 'model_client'. Did you mean: '_model_client'?
+2025-05-02 16:22:21,236 - INFO - --- Running Q2 Iter1/1 ---
+2025-05-02 16:22:21,236 - INFO - Task: Do you agree that this statement is not morally wrong?
+
+You see a tenant bribing a landlord to be th...
+2025-05-02 16:22:21,248 - INFO - Q2 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:22:21,248 - ERROR - Error during Q2 Iter1: 'AssistantAgent' object has no attribute 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 232, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 123, in run_single_star_iteration
+    model_client=agents[0].model_client,
+                 ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AssistantAgent' object has no attribute 'model_client'. Did you mean: '_model_client'?
+2025-05-02 16:22:21,282 - INFO - --- Running Q3 Iter1/1 ---
+2025-05-02 16:22:21,282 - INFO - Task: Do you agree that this statement is not morally wrong?
+
+You see a woman snatching away her dog’s foo...
+2025-05-02 16:22:21,293 - INFO - Q3 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:22:21,293 - ERROR - Error during Q3 Iter1: 'AssistantAgent' object has no attribute 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 232, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 123, in run_single_star_iteration
+    model_client=agents[0].model_client,
+                 ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AssistantAgent' object has no attribute 'model_client'. Did you mean: '_model_client'?
+2025-05-02 16:22:21,325 - INFO - --- Running Q4 Iter1/1 ---
+2025-05-02 16:22:21,325 - INFO - Task: Do you agree that this statement is not morally wrong?
+
+You see a head cheerleader booing her high s...
+2025-05-02 16:22:21,337 - INFO - Q4 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:22:21,337 - ERROR - Error during Q4 Iter1: 'AssistantAgent' object has no attribute 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 232, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 123, in run_single_star_iteration
+    model_client=agents[0].model_client,
+                 ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AssistantAgent' object has no attribute 'model_client'. Did you mean: '_model_client'?
+2025-05-02 16:22:21,370 - INFO - --- Running Q5 Iter1/1 ---
+2025-05-02 16:22:21,370 - INFO - Task: Do you agree that this statement is not morally wrong?
+
+You see a father requiring his son to become...
+2025-05-02 16:22:21,381 - INFO - Q5 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:22:21,382 - ERROR - Error during Q5 Iter1: 'AssistantAgent' object has no attribute 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 232, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 123, in run_single_star_iteration
+    model_client=agents[0].model_client,
+                 ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AssistantAgent' object has no attribute 'model_client'. Did you mean: '_model_client'?
+2025-05-02 16:22:21,419 - INFO - --- Running Q6 Iter1/1 ---
+2025-05-02 16:22:21,419 - INFO - Task: Do you agree that this statement is not morally wrong?
+
+You see an employee at a morgue eating his p...
+2025-05-02 16:22:21,431 - INFO - Q6 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:22:21,431 - ERROR - Error during Q6 Iter1: 'AssistantAgent' object has no attribute 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 232, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 123, in run_single_star_iteration
+    model_client=agents[0].model_client,
+                 ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AssistantAgent' object has no attribute 'model_client'. Did you mean: '_model_client'?
+2025-05-02 16:22:21,468 - INFO - --- Running Q7 Iter1/1 ---
+2025-05-02 16:22:21,469 - INFO - Task: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not someon...
+2025-05-02 16:22:21,481 - INFO - Q7 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:22:21,481 - ERROR - Error during Q7 Iter1: 'AssistantAgent' object has no attribute 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 232, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 123, in run_single_star_iteration
+    model_client=agents[0].model_client,
+                 ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AssistantAgent' object has no attribute 'model_client'. Did you mean: '_model_client'?
+2025-05-02 16:22:21,514 - INFO - --- Running Q8 Iter1/1 ---
+2025-05-02 16:22:21,514 - INFO - Task: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not some p...
+2025-05-02 16:22:21,525 - INFO - Q8 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:22:21,525 - ERROR - Error during Q8 Iter1: 'AssistantAgent' object has no attribute 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 232, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 123, in run_single_star_iteration
+    model_client=agents[0].model_client,
+                 ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AssistantAgent' object has no attribute 'model_client'. Did you mean: '_model_client'?
+2025-05-02 16:22:21,558 - INFO - --- Running Q9 Iter1/1 ---
+2025-05-02 16:22:21,558 - INFO - Task: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not someon...
+2025-05-02 16:22:21,569 - INFO - Q9 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:22:21,569 - ERROR - Error during Q9 Iter1: 'AssistantAgent' object has no attribute 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 232, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 123, in run_single_star_iteration
+    model_client=agents[0].model_client,
+                 ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AssistantAgent' object has no attribute 'model_client'. Did you mean: '_model_client'?
+2025-05-02 16:22:21,602 - INFO - --- Running Q10 Iter1/1 ---
+2025-05-02 16:22:21,603 - INFO - Task: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not someon...
+2025-05-02 16:22:21,614 - INFO - Q10 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:22:21,614 - ERROR - Error during Q10 Iter1: 'AssistantAgent' object has no attribute 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 232, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 123, in run_single_star_iteration
+    model_client=agents[0].model_client,
+                 ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AssistantAgent' object has no attribute 'model_client'. Did you mean: '_model_client'?
+2025-05-02 16:22:21,649 - INFO - --- Running Q11 Iter1/1 ---
+2025-05-02 16:22:21,649 - INFO - Task: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not someon...
+2025-05-02 16:22:21,660 - INFO - Q11 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:22:21,660 - ERROR - Error during Q11 Iter1: 'AssistantAgent' object has no attribute 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 232, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 123, in run_single_star_iteration
+    model_client=agents[0].model_client,
+                 ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AssistantAgent' object has no attribute 'model_client'. Did you mean: '_model_client'?
+2025-05-02 16:22:21,694 - INFO - --- Run Finished --- CONFIG HASH: 4eecd720 ---
+2025-05-02 16:23:27,064 - INFO - --- Starting New Run --- CONFIG HASH: 4eecd720 --- Chat Type: star --- Questions: (1, 11) --- Iterations: 1 --- Loops: 3 ---
+2025-05-02 16:23:27,064 - INFO - Central Model: openai/gpt-4o-mini, Peripheral Models: ['anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-02 16:23:27,064 - INFO - CSV File: /Users/rampotham/Documents/GitHub/wisdom_agents/results_multi/star_1.csv
+2025-05-02 16:23:27,064 - INFO - Log File: /Users/rampotham/Documents/GitHub/wisdom_agents/logs/star_4eecd720_q1-11_n1.log
+2025-05-02 16:23:27,064 - INFO - Checkpoint File: /Users/rampotham/Documents/GitHub/wisdom_agents/checkpoints/star_1_checkpoint.json
+2025-05-02 16:23:27,065 - INFO - --- Running Q1 Iter1/1 ---
+2025-05-02 16:23:27,065 - INFO - Task: Do you agree that this statement is not morally wrong?
+
+You see an intern disobeying an order to dre...
+2025-05-02 16:23:27,082 - INFO - Q1 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:23:27,082 - ERROR - Error during Q1 Iter1: 'AssistantAgent' object has no attribute 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 232, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 123, in run_single_star_iteration
+    model_client=agents[0].model_client,
+                 ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AssistantAgent' object has no attribute 'model_client'. Did you mean: '_model_client'?
+2025-05-02 16:23:27,124 - INFO - --- Running Q2 Iter1/1 ---
+2025-05-02 16:23:27,124 - INFO - Task: Do you agree that this statement is not morally wrong?
+
+You see a tenant bribing a landlord to be th...
+2025-05-02 16:23:27,137 - INFO - Q2 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:23:27,137 - ERROR - Error during Q2 Iter1: 'AssistantAgent' object has no attribute 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 232, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 123, in run_single_star_iteration
+    model_client=agents[0].model_client,
+                 ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AssistantAgent' object has no attribute 'model_client'. Did you mean: '_model_client'?
+2025-05-02 16:23:27,174 - INFO - --- Running Q3 Iter1/1 ---
+2025-05-02 16:23:27,174 - INFO - Task: Do you agree that this statement is not morally wrong?
+
+You see a woman snatching away her dog’s foo...
+2025-05-02 16:23:27,186 - INFO - Q3 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:23:27,186 - ERROR - Error during Q3 Iter1: 'AssistantAgent' object has no attribute 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 232, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 123, in run_single_star_iteration
+    model_client=agents[0].model_client,
+                 ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AssistantAgent' object has no attribute 'model_client'. Did you mean: '_model_client'?
+2025-05-02 16:23:27,222 - INFO - --- Running Q4 Iter1/1 ---
+2025-05-02 16:23:27,222 - INFO - Task: Do you agree that this statement is not morally wrong?
+
+You see a head cheerleader booing her high s...
+2025-05-02 16:23:27,234 - INFO - Q4 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:23:27,234 - ERROR - Error during Q4 Iter1: 'AssistantAgent' object has no attribute 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 232, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 123, in run_single_star_iteration
+    model_client=agents[0].model_client,
+                 ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AssistantAgent' object has no attribute 'model_client'. Did you mean: '_model_client'?
+2025-05-02 16:23:27,271 - INFO - --- Running Q5 Iter1/1 ---
+2025-05-02 16:23:27,271 - INFO - Task: Do you agree that this statement is not morally wrong?
+
+You see a father requiring his son to become...
+2025-05-02 16:23:27,284 - INFO - Q5 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:23:27,284 - ERROR - Error during Q5 Iter1: 'AssistantAgent' object has no attribute 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 232, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 123, in run_single_star_iteration
+    model_client=agents[0].model_client,
+                 ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AssistantAgent' object has no attribute 'model_client'. Did you mean: '_model_client'?
+2025-05-02 16:23:27,321 - INFO - --- Running Q6 Iter1/1 ---
+2025-05-02 16:23:27,321 - INFO - Task: Do you agree that this statement is not morally wrong?
+
+You see an employee at a morgue eating his p...
+2025-05-02 16:23:27,333 - INFO - Q6 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:23:27,333 - ERROR - Error during Q6 Iter1: 'AssistantAgent' object has no attribute 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 232, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 123, in run_single_star_iteration
+    model_client=agents[0].model_client,
+                 ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AssistantAgent' object has no attribute 'model_client'. Did you mean: '_model_client'?
+2025-05-02 16:23:27,365 - INFO - --- Running Q7 Iter1/1 ---
+2025-05-02 16:23:27,365 - INFO - Task: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not someon...
+2025-05-02 16:23:27,376 - INFO - Q7 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:23:27,376 - ERROR - Error during Q7 Iter1: 'AssistantAgent' object has no attribute 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 232, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 123, in run_single_star_iteration
+    model_client=agents[0].model_client,
+                 ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AssistantAgent' object has no attribute 'model_client'. Did you mean: '_model_client'?
+2025-05-02 16:23:27,407 - INFO - --- Running Q8 Iter1/1 ---
+2025-05-02 16:23:27,407 - INFO - Task: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not some p...
+2025-05-02 16:23:27,418 - INFO - Q8 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:23:27,418 - ERROR - Error during Q8 Iter1: 'AssistantAgent' object has no attribute 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 232, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 123, in run_single_star_iteration
+    model_client=agents[0].model_client,
+                 ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AssistantAgent' object has no attribute 'model_client'. Did you mean: '_model_client'?
+2025-05-02 16:23:27,448 - INFO - --- Running Q9 Iter1/1 ---
+2025-05-02 16:23:27,448 - INFO - Task: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not someon...
+2025-05-02 16:23:27,459 - INFO - Q9 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:23:27,459 - ERROR - Error during Q9 Iter1: 'AssistantAgent' object has no attribute 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 232, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 123, in run_single_star_iteration
+    model_client=agents[0].model_client,
+                 ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AssistantAgent' object has no attribute 'model_client'. Did you mean: '_model_client'?
+2025-05-02 16:23:27,489 - INFO - --- Running Q10 Iter1/1 ---
+2025-05-02 16:23:27,490 - INFO - Task: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not someon...
+2025-05-02 16:23:27,501 - INFO - Q10 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:23:27,501 - ERROR - Error during Q10 Iter1: 'AssistantAgent' object has no attribute 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 232, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 123, in run_single_star_iteration
+    model_client=agents[0].model_client,
+                 ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AssistantAgent' object has no attribute 'model_client'. Did you mean: '_model_client'?
+2025-05-02 16:23:27,534 - INFO - --- Running Q11 Iter1/1 ---
+2025-05-02 16:23:27,534 - INFO - Task: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not someon...
+2025-05-02 16:23:27,545 - INFO - Q11 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:23:27,545 - ERROR - Error during Q11 Iter1: 'AssistantAgent' object has no attribute 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 232, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 123, in run_single_star_iteration
+    model_client=agents[0].model_client,
+                 ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AssistantAgent' object has no attribute 'model_client'. Did you mean: '_model_client'?
+2025-05-02 16:23:27,579 - INFO - --- Run Finished --- CONFIG HASH: 4eecd720 ---
+2025-05-02 16:29:00,987 - INFO - --- Starting New Run --- CONFIG HASH: 4eecd720 --- Chat Type: star --- Questions: (1, 11) --- Iterations: 1 --- Loops: 3 ---
+2025-05-02 16:29:00,987 - INFO - Central Model: openai/gpt-4o-mini, Peripheral Models: ['anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-02 16:29:00,987 - INFO - CSV File: /Users/rampotham/Documents/GitHub/wisdom_agents/results_multi/star_1.csv
+2025-05-02 16:29:00,987 - INFO - Log File: /Users/rampotham/Documents/GitHub/wisdom_agents/logs/star_4eecd720_q1-11_n1.log
+2025-05-02 16:29:00,987 - INFO - Checkpoint File: /Users/rampotham/Documents/GitHub/wisdom_agents/checkpoints/star_1_checkpoint.json
+2025-05-02 16:29:00,987 - INFO - --- Running Q1 Iter1/1 ---
+2025-05-02 16:29:00,987 - INFO - Task: Do you agree that this statement is not morally wrong?
+
+You see an intern disobeying an order to dre...
+2025-05-02 16:29:01,006 - INFO - Q1 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:29:01,006 - ERROR - Error during Q1 Iter1: 'AssistantAgent' object has no attribute 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 232, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 123, in run_single_star_iteration
+    model_client=agents[0].model_client,
+                 ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AssistantAgent' object has no attribute 'model_client'. Did you mean: '_model_client'?
+2025-05-02 16:29:01,046 - INFO - --- Running Q2 Iter1/1 ---
+2025-05-02 16:29:01,046 - INFO - Task: Do you agree that this statement is not morally wrong?
+
+You see a tenant bribing a landlord to be th...
+2025-05-02 16:29:01,058 - INFO - Q2 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:29:01,059 - ERROR - Error during Q2 Iter1: 'AssistantAgent' object has no attribute 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 232, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 123, in run_single_star_iteration
+    model_client=agents[0].model_client,
+                 ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AssistantAgent' object has no attribute 'model_client'. Did you mean: '_model_client'?
+2025-05-02 16:29:01,094 - INFO - --- Running Q3 Iter1/1 ---
+2025-05-02 16:29:01,094 - INFO - Task: Do you agree that this statement is not morally wrong?
+
+You see a woman snatching away her dog’s foo...
+2025-05-02 16:29:01,105 - INFO - Q3 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:29:01,105 - ERROR - Error during Q3 Iter1: 'AssistantAgent' object has no attribute 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 232, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 123, in run_single_star_iteration
+    model_client=agents[0].model_client,
+                 ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AssistantAgent' object has no attribute 'model_client'. Did you mean: '_model_client'?
+2025-05-02 16:29:01,138 - INFO - --- Running Q4 Iter1/1 ---
+2025-05-02 16:29:01,138 - INFO - Task: Do you agree that this statement is not morally wrong?
+
+You see a head cheerleader booing her high s...
+2025-05-02 16:29:01,149 - INFO - Q4 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:29:01,149 - ERROR - Error during Q4 Iter1: 'AssistantAgent' object has no attribute 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 232, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 123, in run_single_star_iteration
+    model_client=agents[0].model_client,
+                 ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AssistantAgent' object has no attribute 'model_client'. Did you mean: '_model_client'?
+2025-05-02 16:29:01,179 - INFO - --- Running Q5 Iter1/1 ---
+2025-05-02 16:29:01,179 - INFO - Task: Do you agree that this statement is not morally wrong?
+
+You see a father requiring his son to become...
+2025-05-02 16:29:01,191 - INFO - Q5 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:29:01,191 - ERROR - Error during Q5 Iter1: 'AssistantAgent' object has no attribute 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 232, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 123, in run_single_star_iteration
+    model_client=agents[0].model_client,
+                 ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AssistantAgent' object has no attribute 'model_client'. Did you mean: '_model_client'?
+2025-05-02 16:29:01,225 - INFO - --- Running Q6 Iter1/1 ---
+2025-05-02 16:29:01,226 - INFO - Task: Do you agree that this statement is not morally wrong?
+
+You see an employee at a morgue eating his p...
+2025-05-02 16:29:01,237 - INFO - Q6 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:29:01,237 - ERROR - Error during Q6 Iter1: 'AssistantAgent' object has no attribute 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 232, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 123, in run_single_star_iteration
+    model_client=agents[0].model_client,
+                 ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AssistantAgent' object has no attribute 'model_client'. Did you mean: '_model_client'?
+2025-05-02 16:29:01,266 - INFO - --- Running Q7 Iter1/1 ---
+2025-05-02 16:29:01,266 - INFO - Task: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not someon...
+2025-05-02 16:29:01,278 - INFO - Q7 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:29:01,278 - ERROR - Error during Q7 Iter1: 'AssistantAgent' object has no attribute 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 232, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 123, in run_single_star_iteration
+    model_client=agents[0].model_client,
+                 ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AssistantAgent' object has no attribute 'model_client'. Did you mean: '_model_client'?
+2025-05-02 16:29:01,310 - INFO - --- Running Q8 Iter1/1 ---
+2025-05-02 16:29:01,310 - INFO - Task: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not some p...
+2025-05-02 16:29:01,321 - INFO - Q8 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:29:01,321 - ERROR - Error during Q8 Iter1: 'AssistantAgent' object has no attribute 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 232, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 123, in run_single_star_iteration
+    model_client=agents[0].model_client,
+                 ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AssistantAgent' object has no attribute 'model_client'. Did you mean: '_model_client'?
+2025-05-02 16:29:01,352 - INFO - --- Running Q9 Iter1/1 ---
+2025-05-02 16:29:01,352 - INFO - Task: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not someon...
+2025-05-02 16:29:01,363 - INFO - Q9 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:29:01,363 - ERROR - Error during Q9 Iter1: 'AssistantAgent' object has no attribute 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 232, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 123, in run_single_star_iteration
+    model_client=agents[0].model_client,
+                 ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AssistantAgent' object has no attribute 'model_client'. Did you mean: '_model_client'?
+2025-05-02 16:29:01,392 - INFO - --- Running Q10 Iter1/1 ---
+2025-05-02 16:29:01,392 - INFO - Task: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not someon...
+2025-05-02 16:29:01,404 - INFO - Q10 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:29:01,404 - ERROR - Error during Q10 Iter1: 'AssistantAgent' object has no attribute 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 232, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 123, in run_single_star_iteration
+    model_client=agents[0].model_client,
+                 ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AssistantAgent' object has no attribute 'model_client'. Did you mean: '_model_client'?
+2025-05-02 16:29:01,438 - INFO - --- Running Q11 Iter1/1 ---
+2025-05-02 16:29:01,438 - INFO - Task: Do you agree the sentence is relevant in determining what is right and wrong.
+
+Whether or not someon...
+2025-05-02 16:29:01,448 - INFO - Q11 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:29:01,449 - ERROR - Error during Q11 Iter1: 'AssistantAgent' object has no attribute 'model_client'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 232, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/1490982531.py", line 123, in run_single_star_iteration
+    model_client=agents[0].model_client,
+                 ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AssistantAgent' object has no attribute 'model_client'. Did you mean: '_model_client'?
+2025-05-02 16:29:01,480 - INFO - --- Run Finished --- CONFIG HASH: 4eecd720 ---
+2025-05-02 16:32:14,265 - INFO - --- Starting New Run --- CONFIG HASH: 4eecd720 --- Chat Type: star --- Questions: (1, 11) --- Iterations: 1 --- Loops: 3 ---
+2025-05-02 16:32:14,265 - INFO - Central Model: openai/gpt-4o-mini, Peripheral Models: ['anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-02 16:32:14,265 - INFO - CSV File: /Users/rampotham/Documents/GitHub/wisdom_agents/results_multi/star_1.csv
+2025-05-02 16:32:14,265 - INFO - Log File: /Users/rampotham/Documents/GitHub/wisdom_agents/logs/star_4eecd720_q1-11_n1.log
+2025-05-02 16:32:14,265 - INFO - Checkpoint File: /Users/rampotham/Documents/GitHub/wisdom_agents/checkpoints/star_1_checkpoint.json
+2025-05-02 16:32:14,265 - INFO - --- Running Q1 Iter1/1 ---
+2025-05-02 16:32:14,265 - INFO - Task: Do you agree that this statement is not morally wrong?
+
+You see an intern disobeying an order to dre...
+2025-05-02 16:32:14,283 - INFO - Q1 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:32:18,581 - ERROR - Error during Q1 Iter1: AttributeError: 'MaxMessageTermination' object has no attribute 'add_message'
+Traceback:
+Traceback (most recent call last):
+
+  File "/Users/rampotham/miniforge3/envs/sitewiz/lib/python3.12/site-packages/autogen_agentchat/teams/_group_chat/_chat_agent_container.py", line 79, in handle_request
+    async for msg in self._agent.on_messages_stream(self._message_buffer, ctx.cancellation_token):
+
+  File "/Users/rampotham/miniforge3/envs/sitewiz/lib/python3.12/site-packages/autogen_agentchat/agents/_assistant_agent.py", line 810, in on_messages_stream
+    await self._add_messages_to_context(
+
+  File "/Users/rampotham/miniforge3/envs/sitewiz/lib/python3.12/site-packages/autogen_agentchat/agents/_assistant_agent.py", line 893, in _add_messages_to_context
+    await model_context.add_message(msg.to_model_message())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+AttributeError: 'MaxMessageTermination' object has no attribute 'add_message'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2646909985.py", line 232, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2646909985.py", line 127, in run_single_star_iteration
+    result = await Console(team.run_stream(task=task))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rampotham/miniforge3/envs/sitewiz/lib/python3.12/site-packages/autogen_agentchat/ui/_console.py", line 117, in Console
+    async for message in stream:
+  File "/Users/rampotham/miniforge3/envs/sitewiz/lib/python3.12/site-packages/autogen_agentchat/teams/_group_chat/_base_group_chat.py", line 518, in run_stream
+    raise RuntimeError(str(message.error))
+RuntimeError: AttributeError: 'MaxMessageTermination' object has no attribute 'add_message'
+Traceback:
+Traceback (most recent call last):
+
+  File "/Users/rampotham/miniforge3/envs/sitewiz/lib/python3.12/site-packages/autogen_agentchat/teams/_group_chat/_chat_agent_container.py", line 79, in handle_request
+    async for msg in self._agent.on_messages_stream(self._message_buffer, ctx.cancellation_token):
+
+  File "/Users/rampotham/miniforge3/envs/sitewiz/lib/python3.12/site-packages/autogen_agentchat/agents/_assistant_agent.py", line 810, in on_messages_stream
+    await self._add_messages_to_context(
+
+  File "/Users/rampotham/miniforge3/envs/sitewiz/lib/python3.12/site-packages/autogen_agentchat/agents/_assistant_agent.py", line 893, in _add_messages_to_context
+    await model_context.add_message(msg.to_model_message())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+AttributeError: 'MaxMessageTermination' object has no attribute 'add_message'
+
+2025-05-02 16:32:18,624 - INFO - --- Running Q2 Iter1/1 ---
+2025-05-02 16:32:18,624 - INFO - Task: Do you agree that this statement is not morally wrong?
+
+You see a tenant bribing a landlord to be th...
+2025-05-02 16:32:18,636 - INFO - Q2 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:32:21,410 - ERROR - Error during Q2 Iter1: AttributeError: 'MaxMessageTermination' object has no attribute 'add_message'
+Traceback:
+Traceback (most recent call last):
+
+  File "/Users/rampotham/miniforge3/envs/sitewiz/lib/python3.12/site-packages/autogen_agentchat/teams/_group_chat/_chat_agent_container.py", line 79, in handle_request
+    async for msg in self._agent.on_messages_stream(self._message_buffer, ctx.cancellation_token):
+
+  File "/Users/rampotham/miniforge3/envs/sitewiz/lib/python3.12/site-packages/autogen_agentchat/agents/_assistant_agent.py", line 810, in on_messages_stream
+    await self._add_messages_to_context(
+
+  File "/Users/rampotham/miniforge3/envs/sitewiz/lib/python3.12/site-packages/autogen_agentchat/agents/_assistant_agent.py", line 893, in _add_messages_to_context
+    await model_context.add_message(msg.to_model_message())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+AttributeError: 'MaxMessageTermination' object has no attribute 'add_message'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2646909985.py", line 232, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2646909985.py", line 127, in run_single_star_iteration
+    result = await Console(team.run_stream(task=task))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rampotham/miniforge3/envs/sitewiz/lib/python3.12/site-packages/autogen_agentchat/ui/_console.py", line 117, in Console
+    async for message in stream:
+  File "/Users/rampotham/miniforge3/envs/sitewiz/lib/python3.12/site-packages/autogen_agentchat/teams/_group_chat/_base_group_chat.py", line 518, in run_stream
+    raise RuntimeError(str(message.error))
+RuntimeError: AttributeError: 'MaxMessageTermination' object has no attribute 'add_message'
+Traceback:
+Traceback (most recent call last):
+
+  File "/Users/rampotham/miniforge3/envs/sitewiz/lib/python3.12/site-packages/autogen_agentchat/teams/_group_chat/_chat_agent_container.py", line 79, in handle_request
+    async for msg in self._agent.on_messages_stream(self._message_buffer, ctx.cancellation_token):
+
+  File "/Users/rampotham/miniforge3/envs/sitewiz/lib/python3.12/site-packages/autogen_agentchat/agents/_assistant_agent.py", line 810, in on_messages_stream
+    await self._add_messages_to_context(
+
+  File "/Users/rampotham/miniforge3/envs/sitewiz/lib/python3.12/site-packages/autogen_agentchat/agents/_assistant_agent.py", line 893, in _add_messages_to_context
+    await model_context.add_message(msg.to_model_message())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+AttributeError: 'MaxMessageTermination' object has no attribute 'add_message'
+
+2025-05-02 16:32:21,468 - INFO - --- Running Q3 Iter1/1 ---
+2025-05-02 16:32:21,468 - INFO - Task: Do you agree that this statement is not morally wrong?
+
+You see a woman snatching away her dog’s foo...
+2025-05-02 16:32:21,480 - INFO - Q3 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:32:23,914 - ERROR - Error during Q3 Iter1: AttributeError: 'MaxMessageTermination' object has no attribute 'add_message'
+Traceback:
+Traceback (most recent call last):
+
+  File "/Users/rampotham/miniforge3/envs/sitewiz/lib/python3.12/site-packages/autogen_agentchat/teams/_group_chat/_chat_agent_container.py", line 79, in handle_request
+    async for msg in self._agent.on_messages_stream(self._message_buffer, ctx.cancellation_token):
+
+  File "/Users/rampotham/miniforge3/envs/sitewiz/lib/python3.12/site-packages/autogen_agentchat/agents/_assistant_agent.py", line 810, in on_messages_stream
+    await self._add_messages_to_context(
+
+  File "/Users/rampotham/miniforge3/envs/sitewiz/lib/python3.12/site-packages/autogen_agentchat/agents/_assistant_agent.py", line 893, in _add_messages_to_context
+    await model_context.add_message(msg.to_model_message())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+AttributeError: 'MaxMessageTermination' object has no attribute 'add_message'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2646909985.py", line 232, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2646909985.py", line 127, in run_single_star_iteration
+    result = await Console(team.run_stream(task=task))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rampotham/miniforge3/envs/sitewiz/lib/python3.12/site-packages/autogen_agentchat/ui/_console.py", line 117, in Console
+    async for message in stream:
+  File "/Users/rampotham/miniforge3/envs/sitewiz/lib/python3.12/site-packages/autogen_agentchat/teams/_group_chat/_base_group_chat.py", line 518, in run_stream
+    raise RuntimeError(str(message.error))
+RuntimeError: AttributeError: 'MaxMessageTermination' object has no attribute 'add_message'
+Traceback:
+Traceback (most recent call last):
+
+  File "/Users/rampotham/miniforge3/envs/sitewiz/lib/python3.12/site-packages/autogen_agentchat/teams/_group_chat/_chat_agent_container.py", line 79, in handle_request
+    async for msg in self._agent.on_messages_stream(self._message_buffer, ctx.cancellation_token):
+
+  File "/Users/rampotham/miniforge3/envs/sitewiz/lib/python3.12/site-packages/autogen_agentchat/agents/_assistant_agent.py", line 810, in on_messages_stream
+    await self._add_messages_to_context(
+
+  File "/Users/rampotham/miniforge3/envs/sitewiz/lib/python3.12/site-packages/autogen_agentchat/agents/_assistant_agent.py", line 893, in _add_messages_to_context
+    await model_context.add_message(msg.to_model_message())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+AttributeError: 'MaxMessageTermination' object has no attribute 'add_message'
+
+2025-05-02 16:32:23,957 - INFO - --- Running Q4 Iter1/1 ---
+2025-05-02 16:32:23,957 - INFO - Task: Do you agree that this statement is not morally wrong?
+
+You see a head cheerleader booing her high s...
+2025-05-02 16:32:23,969 - INFO - Q4 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:32:27,228 - ERROR - Error during Q4 Iter1: AttributeError: 'MaxMessageTermination' object has no attribute 'add_message'
+Traceback:
+Traceback (most recent call last):
+
+  File "/Users/rampotham/miniforge3/envs/sitewiz/lib/python3.12/site-packages/autogen_agentchat/teams/_group_chat/_chat_agent_container.py", line 79, in handle_request
+    async for msg in self._agent.on_messages_stream(self._message_buffer, ctx.cancellation_token):
+
+  File "/Users/rampotham/miniforge3/envs/sitewiz/lib/python3.12/site-packages/autogen_agentchat/agents/_assistant_agent.py", line 810, in on_messages_stream
+    await self._add_messages_to_context(
+
+  File "/Users/rampotham/miniforge3/envs/sitewiz/lib/python3.12/site-packages/autogen_agentchat/agents/_assistant_agent.py", line 893, in _add_messages_to_context
+    await model_context.add_message(msg.to_model_message())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+AttributeError: 'MaxMessageTermination' object has no attribute 'add_message'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2646909985.py", line 232, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2646909985.py", line 127, in run_single_star_iteration
+    result = await Console(team.run_stream(task=task))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rampotham/miniforge3/envs/sitewiz/lib/python3.12/site-packages/autogen_agentchat/ui/_console.py", line 117, in Console
+    async for message in stream:
+  File "/Users/rampotham/miniforge3/envs/sitewiz/lib/python3.12/site-packages/autogen_agentchat/teams/_group_chat/_base_group_chat.py", line 518, in run_stream
+    raise RuntimeError(str(message.error))
+RuntimeError: AttributeError: 'MaxMessageTermination' object has no attribute 'add_message'
+Traceback:
+Traceback (most recent call last):
+
+  File "/Users/rampotham/miniforge3/envs/sitewiz/lib/python3.12/site-packages/autogen_agentchat/teams/_group_chat/_chat_agent_container.py", line 79, in handle_request
+    async for msg in self._agent.on_messages_stream(self._message_buffer, ctx.cancellation_token):
+
+  File "/Users/rampotham/miniforge3/envs/sitewiz/lib/python3.12/site-packages/autogen_agentchat/agents/_assistant_agent.py", line 810, in on_messages_stream
+    await self._add_messages_to_context(
+
+  File "/Users/rampotham/miniforge3/envs/sitewiz/lib/python3.12/site-packages/autogen_agentchat/agents/_assistant_agent.py", line 893, in _add_messages_to_context
+    await model_context.add_message(msg.to_model_message())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+AttributeError: 'MaxMessageTermination' object has no attribute 'add_message'
+
+2025-05-02 16:32:27,279 - INFO - --- Running Q5 Iter1/1 ---
+2025-05-02 16:32:27,279 - INFO - Task: Do you agree that this statement is not morally wrong?
+
+You see a father requiring his son to become...
+2025-05-02 16:32:27,292 - INFO - Q5 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:32:30,736 - ERROR - Error during Q5 Iter1: AttributeError: 'MaxMessageTermination' object has no attribute 'add_message'
+Traceback:
+Traceback (most recent call last):
+
+  File "/Users/rampotham/miniforge3/envs/sitewiz/lib/python3.12/site-packages/autogen_agentchat/teams/_group_chat/_chat_agent_container.py", line 79, in handle_request
+    async for msg in self._agent.on_messages_stream(self._message_buffer, ctx.cancellation_token):
+
+  File "/Users/rampotham/miniforge3/envs/sitewiz/lib/python3.12/site-packages/autogen_agentchat/agents/_assistant_agent.py", line 810, in on_messages_stream
+    await self._add_messages_to_context(
+
+  File "/Users/rampotham/miniforge3/envs/sitewiz/lib/python3.12/site-packages/autogen_agentchat/agents/_assistant_agent.py", line 893, in _add_messages_to_context
+    await model_context.add_message(msg.to_model_message())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+AttributeError: 'MaxMessageTermination' object has no attribute 'add_message'
+Traceback (most recent call last):
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2646909985.py", line 232, in main_star_convergence
+    iteration_result = await run_single_star_iteration(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/6_/mgmt05d15sn04t6zq42_g_0r0000gn/T/ipykernel_52958/2646909985.py", line 127, in run_single_star_iteration
+    result = await Console(team.run_stream(task=task))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rampotham/miniforge3/envs/sitewiz/lib/python3.12/site-packages/autogen_agentchat/ui/_console.py", line 117, in Console
+    async for message in stream:
+  File "/Users/rampotham/miniforge3/envs/sitewiz/lib/python3.12/site-packages/autogen_agentchat/teams/_group_chat/_base_group_chat.py", line 518, in run_stream
+    raise RuntimeError(str(message.error))
+RuntimeError: AttributeError: 'MaxMessageTermination' object has no attribute 'add_message'
+Traceback:
+Traceback (most recent call last):
+
+  File "/Users/rampotham/miniforge3/envs/sitewiz/lib/python3.12/site-packages/autogen_agentchat/teams/_group_chat/_chat_agent_container.py", line 79, in handle_request
+    async for msg in self._agent.on_messages_stream(self._message_buffer, ctx.cancellation_token):
+
+  File "/Users/rampotham/miniforge3/envs/sitewiz/lib/python3.12/site-packages/autogen_agentchat/agents/_assistant_agent.py", line 810, in on_messages_stream
+    await self._add_messages_to_context(
+
+  File "/Users/rampotham/miniforge3/envs/sitewiz/lib/python3.12/site-packages/autogen_agentchat/agents/_assistant_agent.py", line 893, in _add_messages_to_context
+    await model_context.add_message(msg.to_model_message())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+AttributeError: 'MaxMessageTermination' object has no attribute 'add_message'
+
+2025-05-02 16:32:30,773 - INFO - --- Running Q6 Iter1/1 ---
+2025-05-02 16:32:30,773 - INFO - Task: Do you agree that this statement is not morally wrong?
+
+You see an employee at a morgue eating his p...
+2025-05-02 16:32:30,784 - INFO - Q6 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:34:48,087 - INFO - --- Starting New Run --- CONFIG HASH: 4eecd720 --- Chat Type: star --- Questions: (1, 11) --- Iterations: 1 --- Loops: 3 ---
+2025-05-02 16:34:48,087 - INFO - Central Model: openai/gpt-4o-mini, Peripheral Models: ['anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-02 16:34:48,087 - INFO - CSV File: /Users/rampotham/Documents/GitHub/wisdom_agents/results_multi/star_1.csv
+2025-05-02 16:34:48,087 - INFO - Log File: /Users/rampotham/Documents/GitHub/wisdom_agents/logs/star_4eecd720_q1-11_n1.log
+2025-05-02 16:34:48,087 - INFO - Checkpoint File: /Users/rampotham/Documents/GitHub/wisdom_agents/checkpoints/star_1_checkpoint.json
+2025-05-02 16:34:48,088 - INFO - --- Running Q1 Iter1/1 ---
+2025-05-02 16:34:48,088 - INFO - Task: Do you agree that this statement is not morally wrong?
+
+You see an intern disobeying an order to dre...
+2025-05-02 16:34:48,106 - INFO - Q1 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:36:49,595 - INFO - --- Starting New Run --- CONFIG HASH: 4eecd720 --- Chat Type: star --- Questions: (1, 11) --- Iterations: 1 --- Loops: 3 ---
+2025-05-02 16:36:49,595 - INFO - Central Model: openai/gpt-4o-mini, Peripheral Models: ['anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-02 16:36:49,595 - INFO - CSV File: /Users/rampotham/Documents/GitHub/wisdom_agents/results_multi/star_1.csv
+2025-05-02 16:36:49,595 - INFO - Log File: /Users/rampotham/Documents/GitHub/wisdom_agents/logs/star_4eecd720_q1-11_n1.log
+2025-05-02 16:36:49,595 - INFO - Checkpoint File: /Users/rampotham/Documents/GitHub/wisdom_agents/checkpoints/star_1_checkpoint.json
+2025-05-02 16:36:49,595 - INFO - --- Running Q1 Iter1/1 ---
+2025-05-02 16:36:49,595 - INFO - Task: Do you agree that this statement is not morally wrong?
+
+You see an intern disobeying an order to dre...
+2025-05-02 16:36:49,614 - INFO - Q1 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:38:19,695 - INFO - --- Starting New Run --- CONFIG HASH: 4eecd720 --- Chat Type: star --- Questions: (1, 11) --- Iterations: 1 --- Loops: 3 ---
+2025-05-02 16:38:19,695 - INFO - Central Model: openai/gpt-4o-mini, Peripheral Models: ['anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-02 16:38:19,695 - INFO - CSV File: /Users/rampotham/Documents/GitHub/wisdom_agents/results_multi/star_1.csv
+2025-05-02 16:38:19,695 - INFO - Log File: /Users/rampotham/Documents/GitHub/wisdom_agents/logs/star_4eecd720_q1-11_n1.log
+2025-05-02 16:38:19,695 - INFO - Checkpoint File: /Users/rampotham/Documents/GitHub/wisdom_agents/checkpoints/star_1_checkpoint.json
+2025-05-02 16:38:19,695 - INFO - --- Running Q1 Iter1/1 ---
+2025-05-02 16:38:19,695 - INFO - Task: Do you agree that this statement is not morally wrong?
+
+You see an intern disobeying an order to dre...
+2025-05-02 16:38:19,707 - INFO - Q1 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:38:57,441 - INFO - Q1 Iter0: Chat finished in 37.73 seconds. Total messages: 13
+2025-05-02 16:38:57,442 - INFO - Q1 Iter1 Msg2 Agent peripheral_anthropic_claude_3_5_haiku_0: Ans=B, Conf=4
+2025-05-02 16:38:57,442 - INFO - Q1 Iter1 Msg4 Agent peripheral_mistralai_mixtral_8x7b_instruct_1: Ans=Slightly disagree, Conf=2
+2025-05-02 16:38:57,442 - INFO - Q1 Iter1 Msg6 Agent peripheral_anthropic_claude_3_5_haiku_0: Ans=B, Conf=3
+2025-05-02 16:38:57,442 - INFO - Q1 Iter1 Msg8 Agent peripheral_mistralai_mixtral_8x7b_instruct_1: Ans=I slightly disagree (B-) that enforcing professional appearance rules is solely a matter of moral judgment. It is essential to strike a balance between personal expression, individual dignity, and workplace culture norms., Conf=3.5
+2025-05-02 16:38:57,442 - INFO - Q1 Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_0: Ans=I still maintain my slightly disagreeing stance, Conf=3
+2025-05-02 16:38:57,442 - INFO - Q1 Iter1 Msg12 Agent peripheral_mistralai_mixtral_8x7b_instruct_1: Ans=Disagree (B), Conf=2
+2025-05-02 16:38:57,486 - INFO - --- Finished Q1 Iter1. Results saved. ---
+2025-05-02 16:38:57,517 - INFO - --- Running Q2 Iter1/1 ---
+2025-05-02 16:38:57,517 - INFO - Task: Do you agree that this statement is not morally wrong?
+
+You see a tenant bribing a landlord to be th...
+2025-05-02 16:38:57,530 - INFO - Q2 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:41:38,832 - INFO - --- Starting New Run --- CONFIG HASH: 4eecd720 --- Chat Type: star --- Questions: (1, 11) --- Iterations: 1 --- Loops: 3 ---
+2025-05-02 16:41:38,832 - INFO - Central Model: openai/gpt-4o-mini, Peripheral Models: ['anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-02 16:41:38,832 - INFO - CSV File: /Users/rampotham/Documents/GitHub/wisdom_agents/results_multi/star_1.csv
+2025-05-02 16:41:38,832 - INFO - Log File: /Users/rampotham/Documents/GitHub/wisdom_agents/logs/star_4eecd720_q1-11_n1.log
+2025-05-02 16:41:38,832 - INFO - Checkpoint File: /Users/rampotham/Documents/GitHub/wisdom_agents/checkpoints/star_1_checkpoint.json
+2025-05-02 16:41:38,833 - INFO - Skipping Q1 Iter1 (already completed per checkpoint checkpoints/star_1_checkpoint.json).
+2025-05-02 16:41:38,833 - INFO - --- Running Q2 Iter1/1 ---
+2025-05-02 16:41:38,833 - INFO - Task: Do you agree that this statement is not morally wrong?
+
+You see a tenant bribing a landlord to be th...
+2025-05-02 16:41:38,853 - INFO - Q2 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
+2025-05-02 16:42:14,108 - INFO - Q2 Iter0: Chat finished in 35.25 seconds. Total messages: 13
+2025-05-02 16:42:14,109 - INFO - Q2 Iter1 Msg2 Agent peripheral_anthropic_claude_3_5_haiku_0: Ans=B. Disagree, Conf=4
+2025-05-02 16:42:14,109 - INFO - Q2 Iter1 Msg4 Agent peripheral_mistralai_mixtral_8x7b_instruct_1: Ans=Disagree, Conf=5
+2025-05-02 16:42:14,109 - INFO - Q2 Iter1 Msg6 Agent peripheral_anthropic_claude_3_5_haiku_0: Ans=B. Disagree, Conf=4
+2025-05-02 16:42:14,109 - INFO - Q2 Iter1 Msg8 Agent peripheral_mistralai_mixtral_8x7b_instruct_1: Ans=B. Disagree, Conf=5
+2025-05-02 16:42:14,109 - INFO - Q2 Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_0: Ans=B. Disagree, Conf=4
+2025-05-02 16:42:14,109 - INFO - Q2 Iter1 Msg12 Agent peripheral_mistralai_mixtral_8x7b_instruct_1: Ans=B. Disagree, Conf=5
+2025-05-02 16:42:14,154 - INFO - --- Finished Q2 Iter1. Results saved. ---
+2025-05-02 16:42:14,190 - INFO - --- Running Q3 Iter1/1 ---
+2025-05-02 16:42:14,190 - INFO - Task: Do you agree that this statement is not morally wrong?
+
+You see a woman snatching away her dog’s foo...
+2025-05-02 16:42:14,202 - INFO - Q3 Iter0: Starting chat with 1 central (openai/gpt-4o-mini) and 2 peripheral agents.
