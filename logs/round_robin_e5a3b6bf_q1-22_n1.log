@@ -1,0 +1,20 @@
+2025-05-02 15:23:32,602 - INFO - --- Starting New Run --- CONFIG HASH: e5a3b6bf --- Chat Type: round_robin --- Questions: (1, 22) --- Iterations: 1 --- Loops: 3 ---
+2025-05-02 15:23:32,604 - INFO - CSV File: /Users/rampotham/Documents/GitHub/wisdom_agents/results_multi/ring_1.csv
+2025-05-02 15:23:32,605 - INFO - Log File: /Users/rampotham/Documents/GitHub/wisdom_agents/logs/round_robin_e5a3b6bf_q1-22_n1.log
+2025-05-02 15:23:32,605 - INFO - Checkpoint File: /Users/rampotham/Documents/GitHub/wisdom_agents/checkpoints/ring_1_checkpoint.json
+2025-05-02 15:23:32,606 - INFO - Skipping Q1 Iter1 (already completed per checkpoint checkpoints/ring_1_checkpoint.json).
+2025-05-02 15:23:32,606 - INFO - Skipping Q2 Iter1 (already completed per checkpoint checkpoints/ring_1_checkpoint.json).
+2025-05-02 15:23:32,607 - INFO - Skipping Q3 Iter1 (already completed per checkpoint checkpoints/ring_1_checkpoint.json).
+2025-05-02 15:23:32,607 - INFO - Skipping Q4 Iter1 (already completed per checkpoint checkpoints/ring_1_checkpoint.json).
+2025-05-02 15:23:32,607 - INFO - Skipping Q5 Iter1 (already completed per checkpoint checkpoints/ring_1_checkpoint.json).
+2025-05-02 15:23:32,607 - INFO - Skipping Q6 Iter1 (already completed per checkpoint checkpoints/ring_1_checkpoint.json).
+2025-05-02 15:23:32,607 - INFO - Skipping Q7 Iter1 (already completed per checkpoint checkpoints/ring_1_checkpoint.json).
+2025-05-02 15:23:32,608 - INFO - Skipping Q8 Iter1 (already completed per checkpoint checkpoints/ring_1_checkpoint.json).
+2025-05-02 15:23:32,608 - INFO - Skipping Q9 Iter1 (already completed per checkpoint checkpoints/ring_1_checkpoint.json).
+2025-05-02 15:23:32,608 - INFO - Skipping Q10 Iter1 (already completed per checkpoint checkpoints/ring_1_checkpoint.json).
+2025-05-02 15:23:32,608 - INFO - Skipping Q11 Iter1 (already completed per checkpoint checkpoints/ring_1_checkpoint.json).
+2025-05-02 15:23:32,608 - INFO - --- Running Q12 Iter1/1 ---
+2025-05-02 15:23:32,608 - INFO - Task: Do you agree that this statement is not morally wrong?
+
+You see a man turn his back and walk away wh...
+2025-05-02 15:23:32,625 - INFO - Q12 Iter0: Starting chat with 3 agents.
