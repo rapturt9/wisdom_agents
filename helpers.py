@@ -280,3 +280,203 @@ def extract_confidence_from_response(content):
     return content[start_index + len("<CONF>"):end_index]
   return "No confidence found in the agent's response."
 
+
+
+#===============
+# old copy from Martin's convergence plot notebook section
+
+from autogen_agentchat.agents import AssistantAgent
+from autogen_agentchat.teams import RoundRobinGroupChat
+from autogen_agentchat.ui import Console
+import asyncio
+import random
+import matplotlib.pyplot as plt
+import numpy as np
+import re
+from collections import defaultdict
+from autogen_agentchat.conditions import MaxMessageTermination
+import seaborn as sns
+from matplotlib.patches import Rectangle
+
+async def run_round_robin_chat(model_ensemble, task, shuffle=False):
+    """
+    Runs a round-robin group chat between different models,
+    allowing different response counts per model, optional shuffling,
+    answer and confidence extraction, and question asking from categories.
+
+    Args:
+        model_ensemble (list): List of model objects, each with 'model' and 'responses' keys.
+        task (str): The initial task or message to start the chat.
+        shuffle (bool): Whether to shuffle the agent order. Defaults to False.
+
+    Returns:
+        dict: A dictionary mapping models to lists of extracted answers and confidences.
+    """
+    
+    # Create agents from different models
+    agents = []
+    model_answers = defaultdict(list)  # To store answers by model
+    model_confs = defaultdict(list)  # To store confs by model
+    agent_map = {}
+
+    for i, model_data in enumerate(model_ensemble):
+        for j in range(model_data['number']):
+            model = model_data['model']
+            system_message = f"""
+            You are an agent and part of a group of agents. The task for the group is to answer questions asked to the whole group.
+            Develop your own answer from your own reasoning and judgement, but consider the answers by other agents as additional inputs.
+            If you think that another agent’s rationale is stronger than yours, you can change your response to align with the response supported by the stronger rationale.
+            Think of the confidence with which you select your response following the 3-step scale below:
+            "0" if the chosen answer is only marginally better than the other answer with a high level of doubt,
+            "1" if the chosen answer is mostly better than the other answer with some remaining doubts,
+            "2" if the chosen answer is extremely better than the other answer and the other answer should not be considered at all.
+            Answer questions concisely.
+            Start with one sentence of rationale for the selected answer, beginning with 'Rationale Answer:'. 
+            Then provide one sentence of rationale for the selected confidence, beginning with 'Rationale Confidence:'. 
+            Then provide your answer within <ANSWER>{{answer}}</ANSWER> tags providing only the letter for the answer option that you respond with as defined in the question. 
+            Then provide your confidence that the answer is the best choice available within <CONF>{{confidence}}</CONF> tags, only providing the number for the confidence level as defined above. 
+            Then do not add any more text.
+            """
+            model_text = re.sub(r'\W+', '_', model)  # Replaces all non-alphanumeric chars except '_'
+            agent_name = f"agent_{model_text}_{i + j}"
+            agent = AssistantAgent(
+                name=agent_name,
+                model_client=get_client(model),  # Use your client defined previously
+                system_message=system_message,
+            )
+            agent_map[agent_name] = model
+            agents.append(agent)
+
+    # Shuffle agents if specified
+    if shuffle:
+        random.shuffle(agents)
+    print("# of agents: ", len(agents))
+
+    # Create RoundRobinGroupChat with termination condition
+    team = RoundRobinGroupChat(
+        agents,
+        termination_condition=MaxMessageTermination((N_convergence_loops * len(agents)) + 1),  # Terminate when any agent reaches its response limit
+    )
+
+    # Run the chat and print the conversation
+    result = await Console(team.run_stream(task=task))  # Pull out loop index
+    print(result)
+
+    # Extract answers and group by model
+    for message in result.messages:
+        if message.source != "user":
+            answer = extract_answer_from_response(message.content)
+            conf = extract_conf_from_response(message.content)
+            model = agent_map[message.source]
+            model_answers[model].append(answer)
+            model_confs[model].append(conf)
+    return model_answers, model_confs
+
+
+def extract_answer_from_response(content):
+    """Extracts the answer from the agent's response."""
+    start_index = content.find("<ANSWER>")
+    end_index = content.find("</ANSWER>")
+    if start_index != -1 and end_index != -1:
+        return content[start_index + len("<ANSWER>"):end_index]
+    return "No answer found in the agent's response."
+
+
+def extract_conf_from_response(content):
+    """Extracts the confidence from the agent's response."""
+    start_index = content.find("<CONF>")
+    end_index = content.find("</CONF>")
+    if start_index != -1 and end_index != -1:
+        return content[start_index + len("<CONF>"):end_index]
+    return "No confidence found in the agent's response."
+
+
+def clean_data(data_dict, placeholder="No data"):
+    """Replace missing strings in a dictionary of lists."""
+    return {
+        model: [placeholder if "No" in str(val) else val for val in values]
+        for model, values in data_dict.items()
+    }
+
+
+def plot_polished_answers_confidences(model_answers, model_confs, iteration_index, model_ensemble):
+    """Plot answers and confidences."""
+    sns.set(style='whitegrid', font_scale=1.2)
+
+    # Enforce consistent model order based on model_ensemble
+    models = [m['model'] for m in model_ensemble]
+
+    max_loops = max(max(len(v) for v in model_answers.values()), 1)
+    fig, ax = plt.subplots(figsize=(max_loops * 1.5, len(models) * 1.2))
+
+    answer_colors = {
+        'A': 'dodgerblue',
+        'B': 'mediumseagreen',
+        'C': 'darkorange',
+        'D': 'mediumpurple',
+        'No data': 'lightgray',
+    }
+    confidence_borders = {
+        '0': 'gray',
+        '1': 'black',
+        '2': 'darkred',
+        'No data': 'lightgray',
+    }
+
+    for i, model in enumerate(models):
+        for j in range(max_loops):
+            answer = model_answers[model][j] if j < len(model_answers[model]) else 'No data'
+            conf = model_confs[model][j] if j < len(model_confs[model]) else 'No data'
+            label = f"{answer}\n({conf})" if answer != "No data" else "No data"
+            bg_color = answer_colors.get(answer, 'lightgray')
+            border_color = confidence_borders.get(conf, 'gray')
+            rect = Rectangle((j - 0.5, i - 0.5), 1, 1,
+                             facecolor=bg_color, edgecolor=border_color,
+                             linewidth=2, alpha=0.7)
+            ax.add_patch(rect)
+            ax.text(j, i, label, ha='center', va='center', fontsize=10,
+                    color='black' if answer != "No data" else 'dimgray', weight='bold')
+
+    ax.set_xticks(np.arange(max_loops))
+    ax.set_xticklabels([f"Loop {i+1}" for i in range(max_loops)], rotation=45, ha='right', fontsize=9)
+    ax.set_yticks(np.arange(len(models)))
+    ax.set_yticklabels(models, fontsize=9)
+    ax.set_title(f"Model Responses – Iteration {iteration_index + 1}", fontsize=15, pad=12)
+    ax.set_xlim(-0.5, max_loops - 0.5)
+    ax.set_ylim(-0.5, len(models) - 0.5)
+    ax.invert_yaxis()  # ← This line fixes the vertical ordering
+    sns.despine(ax=ax, left=True, bottom=True)
+    plt.tight_layout()
+    plt.show()
+
+
+# Execution
+N_iterations_per_question = 10  # for enough statistics to understand variability of each question
+N_convergence_loops = 5  # for one iteration for one question
+
+model_ensemble = [
+    {"model": models[0], "number": 1},  # here only one model per model flavor
+    {"model": models[1], "number": 1},
+    {"model": models[5], "number": 1},
+]
+
+# Ask the question from categories
+question_number = 1
+task = get_question(question_number)['question_text']
+
+shuffle = False  # for now keep false to maintain order
+
+async def main():
+    for it in range(N_iterations_per_question):
+        print(f"\n\n Discussion iteration index for question 1 = {it} \n\n")
+        model_answers, model_confs = await run_round_robin_chat(model_ensemble, task=task, shuffle=shuffle)
+        print("Answers by model:", model_answers)
+        print("Confs by model:", model_confs)
+
+        cleaned_answers = clean_data(model_answers)
+        cleaned_confs = clean_data(model_confs)
+
+        plot_polished_answers_confidences(cleaned_answers, cleaned_confs, iteration_index=it, model_ensemble=model_ensemble)
+
+# Uncomment the next line to run the main function
+# await main()
