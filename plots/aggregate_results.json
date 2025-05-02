@@ -1,0 +1,4248 @@
+{
+    "anthropic/claude-3.5-haiku": {
+        "questions": {
+            "1": {
+                "question_id": "authority_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "4": 7,
+                    "5": 3
+                },
+                "confidence_mean": 4.3,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "2": {
+                "question_id": "authority_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 9,
+                    "A": 1
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "3": {
+                "question_id": "authority_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 9,
+                    "A": 1
+                },
+                "confidence_distribution": {
+                    "3": 1,
+                    "4": 9
+                },
+                "confidence_mean": 3.9,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "4": {
+                "question_id": "authority_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "4": 6,
+                    "5": 4
+                },
+                "confidence_mean": 4.4,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "5": {
+                "question_id": "fairness_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "3": 1,
+                    "4": 9
+                },
+                "confidence_mean": 3.9,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "6": {
+                "question_id": "fairness_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 8,
+                    "A": 2
+                },
+                "confidence_distribution": {
+                    "3": 4,
+                    "4": 6
+                },
+                "confidence_mean": 3.6,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "7": {
+                "question_id": "fairness_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "3": 1,
+                    "4": 9
+                },
+                "confidence_mean": 3.9,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "8": {
+                "question_id": "fairness_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 10
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "9": {
+                "question_id": "harm_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 5,
+                    "A": 5
+                },
+                "confidence_distribution": {
+                    "3": 1,
+                    "4": 9
+                },
+                "confidence_mean": 3.9,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "10": {
+                "question_id": "harm_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 10
+                },
+                "confidence_distribution": {
+                    "4": 6,
+                    "5": 4
+                },
+                "confidence_mean": 4.4,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "11": {
+                "question_id": "harm_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 9,
+                    "B": 1
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "12": {
+                "question_id": "harm_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "13": {
+                "question_id": "ingroup_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "14": {
+                "question_id": "ingroup_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "15": {
+                "question_id": "ingroup_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 10
+                },
+                "confidence_distribution": {
+                    "3": 10
+                },
+                "confidence_mean": 3.0,
+                "confidence_median": 3.0,
+                "valid_confidence_responses": 10
+            },
+            "16": {
+                "question_id": "ingroup_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "17": {
+                "question_id": "liberty_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "18": {
+                "question_id": "liberty_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "19": {
+                "question_id": "liberty_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "20": {
+                "question_id": "liberty_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "4": 3,
+                    "5": 7
+                },
+                "confidence_mean": 4.7,
+                "confidence_median": 5.0,
+                "valid_confidence_responses": 10
+            },
+            "21": {
+                "question_id": "purity_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 7,
+                    "A": 3
+                },
+                "confidence_distribution": {
+                    "3": 1,
+                    "4": 9
+                },
+                "confidence_mean": 3.9,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "22": {
+                "question_id": "purity_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "23": {
+                "question_id": "purity_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 9,
+                    "A": 1
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "24": {
+                "question_id": "purity_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 7,
+                    "A": 3
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "25": {
+                "question_id": "authority_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 8,
+                    "B": 2
+                },
+                "confidence_distribution": {
+                    "3": 1,
+                    "4": 9
+                },
+                "confidence_mean": 3.9,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "26": {
+                "question_id": "authority_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 10
+                },
+                "confidence_distribution": {
+                    "3": 2,
+                    "4": 8
+                },
+                "confidence_mean": 3.8,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "27": {
+                "question_id": "authority_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 10
+                },
+                "confidence_distribution": {
+                    "3": 2,
+                    "4": 8
+                },
+                "confidence_mean": 3.8,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "28": {
+                "question_id": "authority_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 6,
+                    "B": 4
+                },
+                "confidence_distribution": {
+                    "3": 5,
+                    "4": 5
+                },
+                "confidence_mean": 3.5,
+                "confidence_median": 3.5,
+                "valid_confidence_responses": 10
+            },
+            "29": {
+                "question_id": "fairness_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 9,
+                    "A": 1
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "30": {
+                "question_id": "fairness_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 7,
+                    "A": 3
+                },
+                "confidence_distribution": {
+                    "3": 1,
+                    "4": 8,
+                    "5": 1
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "31": {
+                "question_id": "fairness_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 7,
+                    "A": 3
+                },
+                "confidence_distribution": {
+                    "4": 8,
+                    "5": 2
+                },
+                "confidence_mean": 4.2,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "32": {
+                "question_id": "fairness_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 9,
+                    "A": 1
+                },
+                "confidence_distribution": {
+                    "4": 7,
+                    "5": 3
+                },
+                "confidence_mean": 4.3,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "33": {
+                "question_id": "harm_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 6,
+                    "A": 4
+                },
+                "confidence_distribution": {
+                    "3": 3,
+                    "4": 7
+                },
+                "confidence_mean": 3.7,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "34": {
+                "question_id": "harm_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 6,
+                    "A": 4
+                },
+                "confidence_distribution": {
+                    "3": 2,
+                    "4": 8
+                },
+                "confidence_mean": 3.8,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "35": {
+                "question_id": "harm_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 6,
+                    "A": 4
+                },
+                "confidence_distribution": {
+                    "3": 1,
+                    "4": 9
+                },
+                "confidence_mean": 3.9,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "36": {
+                "question_id": "harm_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 9,
+                    "B": 1
+                },
+                "confidence_distribution": {
+                    "3": 1,
+                    "4": 7,
+                    "5": 2
+                },
+                "confidence_mean": 4.1,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "37": {
+                "question_id": "ingroup_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 5,
+                    "A": 5
+                },
+                "confidence_distribution": {
+                    "4": 9,
+                    "5": 1
+                },
+                "confidence_mean": 4.1,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "38": {
+                "question_id": "ingroup_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 10
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "39": {
+                "question_id": "ingroup_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 6,
+                    "A": 4
+                },
+                "confidence_distribution": {
+                    "3": 3,
+                    "4": 7
+                },
+                "confidence_mean": 3.7,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "40": {
+                "question_id": "ingroup_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 6,
+                    "A": 4
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "41": {
+                "question_id": "liberty_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 7,
+                    "B": 3
+                },
+                "confidence_distribution": {
+                    "4": 7,
+                    "5": 3
+                },
+                "confidence_mean": 4.3,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "42": {
+                "question_id": "liberty_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 7,
+                    "A": 3
+                },
+                "confidence_distribution": {
+                    "2": 1,
+                    "3": 2,
+                    "4": 7
+                },
+                "confidence_mean": 3.6,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "43": {
+                "question_id": "liberty_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 7,
+                    "A": 3
+                },
+                "confidence_distribution": {
+                    "3": 1,
+                    "4": 9
+                },
+                "confidence_mean": 3.9,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "44": {
+                "question_id": "liberty_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 6,
+                    "B": 4
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "45": {
+                "question_id": "purity_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 9,
+                    "A": 1
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "46": {
+                "question_id": "purity_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "47": {
+                "question_id": "purity_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 9,
+                    "A": 1
+                },
+                "confidence_distribution": {
+                    "3": 1,
+                    "4": 9
+                },
+                "confidence_mean": 3.9,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "48": {
+                "question_id": "purity_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 8,
+                    "A": 2
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "49": {
+                "question_id": "authority_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "50": {
+                "question_id": "authority_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "4": 1,
+                    "5": 9
+                },
+                "confidence_mean": 4.9,
+                "confidence_median": 5.0,
+                "valid_confidence_responses": 10
+            },
+            "51": {
+                "question_id": "authority_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "4": 3,
+                    "5": 7
+                },
+                "confidence_mean": 4.7,
+                "confidence_median": 5.0,
+                "valid_confidence_responses": 10
+            },
+            "52": {
+                "question_id": "authority_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "53": {
+                "question_id": "fairness_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "54": {
+                "question_id": "fairness_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "5": 10
+                },
+                "confidence_mean": 5.0,
+                "confidence_median": 5.0,
+                "valid_confidence_responses": 10
+            },
+            "55": {
+                "question_id": "fairness_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "4": 9,
+                    "5": 1
+                },
+                "confidence_mean": 4.1,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "56": {
+                "question_id": "fairness_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "4": 7,
+                    "5": 3
+                },
+                "confidence_mean": 4.3,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "57": {
+                "question_id": "harm_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "4": 8,
+                    "5": 2
+                },
+                "confidence_mean": 4.2,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "58": {
+                "question_id": "harm_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 7,
+                    "A": 3
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "59": {
+                "question_id": "harm_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 8,
+                    "A": 2
+                },
+                "confidence_distribution": {
+                    "3": 2,
+                    "4": 8
+                },
+                "confidence_mean": 3.8,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "60": {
+                "question_id": "harm_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 9,
+                    "B": 1
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "61": {
+                "question_id": "ingroup_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "62": {
+                "question_id": "ingroup_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "4": 1,
+                    "5": 9
+                },
+                "confidence_mean": 4.9,
+                "confidence_median": 5.0,
+                "valid_confidence_responses": 10
+            },
+            "63": {
+                "question_id": "ingroup_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "64": {
+                "question_id": "ingroup_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 6,
+                    "A": 4
+                },
+                "confidence_distribution": {
+                    "3": 4,
+                    "4": 6
+                },
+                "confidence_mean": 3.6,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "65": {
+                "question_id": "purity_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "5": 10
+                },
+                "confidence_mean": 5.0,
+                "confidence_median": 5.0,
+                "valid_confidence_responses": 10
+            },
+            "66": {
+                "question_id": "purity_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 8,
+                    "B": 2
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "67": {
+                "question_id": "purity_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 10
+                },
+                "confidence_distribution": {
+                    "3": 1,
+                    "4": 9
+                },
+                "confidence_mean": 3.9,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "68": {
+                "question_id": "purity_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "5": 10
+                },
+                "confidence_mean": 5.0,
+                "confidence_median": 5.0,
+                "valid_confidence_responses": 10
+            },
+            "69": {
+                "question_id": "authority_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 7,
+                    "A": 3
+                },
+                "confidence_distribution": {
+                    "2": 1,
+                    "3": 5,
+                    "4": 4
+                },
+                "confidence_mean": 3.3,
+                "confidence_median": 3.0,
+                "valid_confidence_responses": 10
+            },
+            "70": {
+                "question_id": "authority_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 10
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "71": {
+                "question_id": "authority_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 10
+                },
+                "confidence_distribution": {
+                    "3": 9,
+                    "4": 1
+                },
+                "confidence_mean": 3.1,
+                "confidence_median": 3.0,
+                "valid_confidence_responses": 10
+            },
+            "72": {
+                "question_id": "authority_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 6,
+                    "A": 4
+                },
+                "confidence_distribution": {
+                    "2": 2,
+                    "3": 3,
+                    "4": 5
+                },
+                "confidence_mean": 3.3,
+                "confidence_median": 3.5,
+                "valid_confidence_responses": 10
+            },
+            "73": {
+                "question_id": "fairness_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "4": 2,
+                    "5": 8
+                },
+                "confidence_mean": 4.8,
+                "confidence_median": 5.0,
+                "valid_confidence_responses": 10
+            },
+            "74": {
+                "question_id": "fairness_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "4": 9,
+                    "5": 1
+                },
+                "confidence_mean": 4.1,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "75": {
+                "question_id": "fairness_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 6,
+                    "A": 4
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "76": {
+                "question_id": "fairness_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 7,
+                    "A": 3
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "77": {
+                "question_id": "harm_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 8,
+                    "A": 2
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "78": {
+                "question_id": "harm_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 9,
+                    "B": 1
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "79": {
+                "question_id": "harm_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 10
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "80": {
+                "question_id": "harm_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 8,
+                    "A": 2
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "81": {
+                "question_id": "ingroup_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 8,
+                    "B": 2
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "82": {
+                "question_id": "ingroup_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 10
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "83": {
+                "question_id": "ingroup_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 9,
+                    "B": 1
+                },
+                "confidence_distribution": {
+                    "3": 3,
+                    "4": 7
+                },
+                "confidence_mean": 3.7,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "84": {
+                "question_id": "ingroup_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 5,
+                    "B": 5
+                },
+                "confidence_distribution": {
+                    "3": 9,
+                    "4": 1
+                },
+                "confidence_mean": 3.1,
+                "confidence_median": 3.0,
+                "valid_confidence_responses": 10
+            },
+            "85": {
+                "question_id": "purity_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "86": {
+                "question_id": "purity_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 7,
+                    "A": 3
+                },
+                "confidence_distribution": {
+                    "3": 1,
+                    "4": 9
+                },
+                "confidence_mean": 3.9,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "87": {
+                "question_id": "purity_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 7,
+                    "A": 3
+                },
+                "confidence_distribution": {
+                    "3": 4,
+                    "4": 6
+                },
+                "confidence_mean": 3.6,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "88": {
+                "question_id": "purity_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            }
+        },
+        "categories": {}
+    },
+    "mistralai/mixtral-8x7b-instruct:": {
+        "questions": {
+            "1": {
+                "question_id": "authority_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 8,
+                    "B": 2
+                },
+                "confidence_distribution": {
+                    "3": 10
+                },
+                "confidence_mean": 3.0,
+                "confidence_median": 3.0,
+                "valid_confidence_responses": 10
+            },
+            "2": {
+                "question_id": "authority_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 6,
+                    "B": 2,
+                    "N": 2
+                },
+                "confidence_distribution": {
+                    "3": 9,
+                    "4": 1
+                },
+                "confidence_mean": 3.1,
+                "confidence_median": 3.0,
+                "valid_confidence_responses": 10
+            },
+            "3": {
+                "question_id": "authority_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 9,
+                    "B": 1
+                },
+                "confidence_distribution": {
+                    "3": 8,
+                    "4": 2
+                },
+                "confidence_mean": 3.2,
+                "confidence_median": 3.0,
+                "valid_confidence_responses": 10
+            },
+            "4": {
+                "question_id": "authority_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 6,
+                    "N": 2,
+                    "B": 2
+                },
+                "confidence_distribution": {
+                    "3": 9,
+                    "4": 1
+                },
+                "confidence_mean": 3.1,
+                "confidence_median": 3.0,
+                "valid_confidence_responses": 10
+            },
+            "5": {
+                "question_id": "fairness_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 10
+                },
+                "confidence_distribution": {
+                    "3": 2,
+                    "4": 5,
+                    "5": 3
+                },
+                "confidence_mean": 4.1,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "6": {
+                "question_id": "fairness_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 10
+                },
+                "confidence_distribution": {
+                    "3": 4,
+                    "4": 4,
+                    "5": 2
+                },
+                "confidence_mean": 3.8,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "7": {
+                "question_id": "fairness_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 8,
+                    "N": 2
+                },
+                "confidence_distribution": {
+                    "3": 7,
+                    "4": 1
+                },
+                "confidence_mean": 3.125,
+                "confidence_median": 3.0,
+                "valid_confidence_responses": 8
+            },
+            "8": {
+                "question_id": "fairness_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "N": 6,
+                    "B": 2,
+                    "A": 2
+                },
+                "confidence_distribution": {
+                    "0": 1,
+                    "2": 1,
+                    "3": 5,
+                    "4": 2
+                },
+                "confidence_mean": 2.7777777777777777,
+                "confidence_median": 3.0,
+                "valid_confidence_responses": 9
+            },
+            "9": {
+                "question_id": "harm_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 8,
+                    "N": 1,
+                    "B": 1
+                },
+                "confidence_distribution": {
+                    "3": 2,
+                    "4": 8
+                },
+                "confidence_mean": 3.8,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "10": {
+                "question_id": "harm_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 8,
+                    "B": 2
+                },
+                "confidence_distribution": {
+                    "2": 1,
+                    "3": 3,
+                    "4": 6
+                },
+                "confidence_mean": 3.5,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "11": {
+                "question_id": "harm_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 9,
+                    "N": 1
+                },
+                "confidence_distribution": {
+                    "2": 2,
+                    "3": 6,
+                    "4": 2
+                },
+                "confidence_mean": 3.0,
+                "confidence_median": 3.0,
+                "valid_confidence_responses": 10
+            },
+            "12": {
+                "question_id": "harm_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 6,
+                    "A": 2,
+                    "N": 2
+                },
+                "confidence_distribution": {
+                    "2": 3,
+                    "3": 3,
+                    "4": 3,
+                    "5": 1
+                },
+                "confidence_mean": 3.2,
+                "confidence_median": 3.0,
+                "valid_confidence_responses": 10
+            },
+            "13": {
+                "question_id": "ingroup_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 5,
+                    "A": 2,
+                    "N": 2,
+                    "D": 1
+                },
+                "confidence_distribution": {
+                    "1": 1,
+                    "2": 4,
+                    "3": 3,
+                    "4": 1,
+                    "5": 1
+                },
+                "confidence_mean": 2.7,
+                "confidence_median": 2.5,
+                "valid_confidence_responses": 10
+            },
+            "14": {
+                "question_id": "ingroup_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 8,
+                    "N": 1,
+                    "B": 1
+                },
+                "confidence_distribution": {
+                    "2": 1,
+                    "3": 4,
+                    "4": 5
+                },
+                "confidence_mean": 3.4,
+                "confidence_median": 3.5,
+                "valid_confidence_responses": 10
+            },
+            "15": {
+                "question_id": "ingroup_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 6,
+                    "N": 4
+                },
+                "confidence_distribution": {
+                    "0": 4,
+                    "2": 1,
+                    "3": 2,
+                    "5": 2
+                },
+                "confidence_mean": 2.0,
+                "confidence_median": 2.0,
+                "valid_confidence_responses": 9
+            },
+            "16": {
+                "question_id": "ingroup_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 5,
+                    "B": 4,
+                    "N": 1
+                },
+                "confidence_distribution": {
+                    "1": 1,
+                    "3": 6,
+                    "4": 3
+                },
+                "confidence_mean": 3.1,
+                "confidence_median": 3.0,
+                "valid_confidence_responses": 10
+            },
+            "17": {
+                "question_id": "liberty_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "N": 5,
+                    "B": 4,
+                    "A": 1
+                },
+                "confidence_distribution": {
+                    "2": 3,
+                    "3": 5,
+                    "4": 1,
+                    "5": 1
+                },
+                "confidence_mean": 3.0,
+                "confidence_median": 3.0,
+                "valid_confidence_responses": 10
+            },
+            "18": {
+                "question_id": "liberty_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 5,
+                    "A": 2,
+                    "N": 2,
+                    "D": 1
+                },
+                "confidence_distribution": {
+                    "1": 3,
+                    "2": 2,
+                    "3": 3,
+                    "4": 1
+                },
+                "confidence_mean": 2.2222222222222223,
+                "confidence_median": 2.0,
+                "valid_confidence_responses": 9
+            },
+            "19": {
+                "question_id": "liberty_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 7,
+                    "N": 2,
+                    "B": 1
+                },
+                "confidence_distribution": {
+                    "3": 5,
+                    "4": 4
+                },
+                "confidence_mean": 3.4444444444444446,
+                "confidence_median": 3.0,
+                "valid_confidence_responses": 9
+            },
+            "20": {
+                "question_id": "liberty_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 8,
+                    "N": 1,
+                    "A": 1
+                },
+                "confidence_distribution": {
+                    "2": 3,
+                    "3": 5,
+                    "4": 1,
+                    "5": 1
+                },
+                "confidence_mean": 3.0,
+                "confidence_median": 3.0,
+                "valid_confidence_responses": 10
+            },
+            "21": {
+                "question_id": "purity_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 7,
+                    "A": 3
+                },
+                "confidence_distribution": {
+                    "3": 9,
+                    "4": 1
+                },
+                "confidence_mean": 3.1,
+                "confidence_median": 3.0,
+                "valid_confidence_responses": 10
+            },
+            "22": {
+                "question_id": "purity_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 5,
+                    "B": 4,
+                    "N": 1
+                },
+                "confidence_distribution": {
+                    "2": 1,
+                    "3": 6,
+                    "4": 2,
+                    "5": 1
+                },
+                "confidence_mean": 3.3,
+                "confidence_median": 3.0,
+                "valid_confidence_responses": 10
+            },
+            "23": {
+                "question_id": "purity_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 5,
+                    "A": 5
+                },
+                "confidence_distribution": {
+                    "3": 10
+                },
+                "confidence_mean": 3.0,
+                "confidence_median": 3.0,
+                "valid_confidence_responses": 10
+            },
+            "24": {
+                "question_id": "purity_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 6,
+                    "A": 4
+                },
+                "confidence_distribution": {
+                    "3": 7,
+                    "4": 3
+                },
+                "confidence_mean": 3.3,
+                "confidence_median": 3.0,
+                "valid_confidence_responses": 10
+            },
+            "25": {
+                "question_id": "authority_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 10
+                },
+                "confidence_distribution": {
+                    "3": 5,
+                    "4": 4,
+                    "5": 1
+                },
+                "confidence_mean": 3.6,
+                "confidence_median": 3.5,
+                "valid_confidence_responses": 10
+            },
+            "26": {
+                "question_id": "authority_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 9,
+                    "B": 1
+                },
+                "confidence_distribution": {
+                    "3": 2,
+                    "4": 7,
+                    "5": 1
+                },
+                "confidence_mean": 3.9,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "27": {
+                "question_id": "authority_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 8,
+                    "B": 2
+                },
+                "confidence_distribution": {
+                    "3": 2,
+                    "4": 7,
+                    "5": 1
+                },
+                "confidence_mean": 3.9,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "28": {
+                "question_id": "authority_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 9,
+                    "B": 1
+                },
+                "confidence_distribution": {
+                    "3": 2,
+                    "4": 8
+                },
+                "confidence_mean": 3.8,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "29": {
+                "question_id": "fairness_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 5,
+                    "B": 4,
+                    "N": 1
+                },
+                "confidence_distribution": {
+                    "0": 1,
+                    "3": 5,
+                    "4": 4
+                },
+                "confidence_mean": 3.1,
+                "confidence_median": 3.0,
+                "valid_confidence_responses": 10
+            },
+            "30": {
+                "question_id": "fairness_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 9,
+                    "B": 1
+                },
+                "confidence_distribution": {
+                    "3": 9,
+                    "4": 1
+                },
+                "confidence_mean": 3.1,
+                "confidence_median": 3.0,
+                "valid_confidence_responses": 10
+            },
+            "31": {
+                "question_id": "fairness_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 9,
+                    "B": 1
+                },
+                "confidence_distribution": {
+                    "3": 6,
+                    "4": 4
+                },
+                "confidence_mean": 3.4,
+                "confidence_median": 3.0,
+                "valid_confidence_responses": 10
+            },
+            "32": {
+                "question_id": "fairness_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 8,
+                    "B": 2
+                },
+                "confidence_distribution": {
+                    "3": 8,
+                    "4": 2
+                },
+                "confidence_mean": 3.2,
+                "confidence_median": 3.0,
+                "valid_confidence_responses": 10
+            },
+            "33": {
+                "question_id": "harm_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 6,
+                    "A": 3,
+                    "N": 1
+                },
+                "confidence_distribution": {
+                    "3": 5,
+                    "4": 4
+                },
+                "confidence_mean": 3.4444444444444446,
+                "confidence_median": 3.0,
+                "valid_confidence_responses": 9
+            },
+            "34": {
+                "question_id": "harm_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 7,
+                    "A": 3
+                },
+                "confidence_distribution": {
+                    "3": 3,
+                    "4": 7
+                },
+                "confidence_mean": 3.7,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "35": {
+                "question_id": "harm_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 8,
+                    "A": 2
+                },
+                "confidence_distribution": {
+                    "3": 6,
+                    "4": 3,
+                    "5": 1
+                },
+                "confidence_mean": 3.5,
+                "confidence_median": 3.0,
+                "valid_confidence_responses": 10
+            },
+            "36": {
+                "question_id": "harm_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 10
+                },
+                "confidence_distribution": {
+                    "3": 2,
+                    "4": 8
+                },
+                "confidence_mean": 3.8,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "37": {
+                "question_id": "ingroup_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "3": 5,
+                    "4": 2,
+                    "5": 3
+                },
+                "confidence_mean": 3.8,
+                "confidence_median": 3.5,
+                "valid_confidence_responses": 10
+            },
+            "38": {
+                "question_id": "ingroup_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 7,
+                    "A": 3
+                },
+                "confidence_distribution": {
+                    "2": 1,
+                    "3": 3,
+                    "4": 6
+                },
+                "confidence_mean": 3.5,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "39": {
+                "question_id": "ingroup_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 6,
+                    "A": 3,
+                    "N": 1
+                },
+                "confidence_distribution": {
+                    "2": 1,
+                    "3": 3,
+                    "4": 2,
+                    "5": 3
+                },
+                "confidence_mean": 3.7777777777777777,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 9
+            },
+            "40": {
+                "question_id": "ingroup_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "4": 9,
+                    "5": 1
+                },
+                "confidence_mean": 4.1,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "41": {
+                "question_id": "liberty_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 6,
+                    "N": 1,
+                    "C": 1,
+                    "D": 1,
+                    "B": 1
+                },
+                "confidence_distribution": {
+                    "0": 1,
+                    "1": 1,
+                    "3": 1,
+                    "4": 3,
+                    "5": 4
+                },
+                "confidence_mean": 3.6,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "42": {
+                "question_id": "liberty_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 8,
+                    "N": 1,
+                    "E": 1
+                },
+                "confidence_distribution": {
+                    "3": 4,
+                    "4": 5,
+                    "5": 1
+                },
+                "confidence_mean": 3.7,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "43": {
+                "question_id": "liberty_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "N": 4,
+                    "A": 2,
+                    "Invalid": 1,
+                    "I": 1,
+                    "E": 1,
+                    "B": 1
+                },
+                "confidence_distribution": {
+                    "0": 7,
+                    "1": 1,
+                    "4": 2
+                },
+                "confidence_mean": 0.9,
+                "confidence_median": 0.0,
+                "valid_confidence_responses": 10
+            },
+            "44": {
+                "question_id": "liberty_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 6,
+                    "N": 2,
+                    "B": 2
+                },
+                "confidence_distribution": {
+                    "3": 6,
+                    "4": 4
+                },
+                "confidence_mean": 3.4,
+                "confidence_median": 3.0,
+                "valid_confidence_responses": 10
+            },
+            "45": {
+                "question_id": "purity_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 7,
+                    "D": 1,
+                    "N": 1,
+                    "A": 1
+                },
+                "confidence_distribution": {
+                    "2": 1,
+                    "3": 6,
+                    "4": 1,
+                    "5": 2
+                },
+                "confidence_mean": 3.4,
+                "confidence_median": 3.0,
+                "valid_confidence_responses": 10
+            },
+            "46": {
+                "question_id": "purity_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "N": 5,
+                    "A": 3,
+                    "B": 2
+                },
+                "confidence_distribution": {
+                    "0": 2,
+                    "1": 1,
+                    "2": 2,
+                    "3": 3,
+                    "5": 1
+                },
+                "confidence_mean": 2.111111111111111,
+                "confidence_median": 2.0,
+                "valid_confidence_responses": 9
+            },
+            "47": {
+                "question_id": "purity_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 5,
+                    "A": 3,
+                    "N": 1,
+                    "D": 1
+                },
+                "confidence_distribution": {
+                    "1": 2,
+                    "3": 5,
+                    "4": 3
+                },
+                "confidence_mean": 2.9,
+                "confidence_median": 3.0,
+                "valid_confidence_responses": 10
+            },
+            "48": {
+                "question_id": "purity_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 6,
+                    "A": 4
+                },
+                "confidence_distribution": {
+                    "3": 5,
+                    "4": 4,
+                    "5": 1
+                },
+                "confidence_mean": 3.6,
+                "confidence_median": 3.5,
+                "valid_confidence_responses": 10
+            },
+            "49": {
+                "question_id": "authority_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 7,
+                    "A": 1,
+                    "D": 1,
+                    "N": 1
+                },
+                "confidence_distribution": {
+                    "2": 1,
+                    "3": 1,
+                    "4": 5,
+                    "5": 2
+                },
+                "confidence_mean": 3.888888888888889,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 9
+            },
+            "50": {
+                "question_id": "authority_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 7,
+                    "A": 2,
+                    "N": 1
+                },
+                "confidence_distribution": {
+                    "2": 1,
+                    "3": 4,
+                    "4": 5
+                },
+                "confidence_mean": 3.4,
+                "confidence_median": 3.5,
+                "valid_confidence_responses": 10
+            },
+            "51": {
+                "question_id": "authority_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 9,
+                    "N": 1
+                },
+                "confidence_distribution": {
+                    "1": 1,
+                    "3": 1,
+                    "4": 5,
+                    "5": 3
+                },
+                "confidence_mean": 3.9,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "52": {
+                "question_id": "authority_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 8,
+                    "A": 2
+                },
+                "confidence_distribution": {
+                    "1": 1,
+                    "3": 3,
+                    "4": 4,
+                    "5": 2
+                },
+                "confidence_mean": 3.6,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "53": {
+                "question_id": "fairness_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 9,
+                    "N": 1
+                },
+                "confidence_distribution": {
+                    "3": 6,
+                    "4": 4
+                },
+                "confidence_mean": 3.4,
+                "confidence_median": 3.0,
+                "valid_confidence_responses": 10
+            },
+            "54": {
+                "question_id": "fairness_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 8,
+                    "A": 1,
+                    "N": 1
+                },
+                "confidence_distribution": {
+                    "3": 5,
+                    "4": 5
+                },
+                "confidence_mean": 3.5,
+                "confidence_median": 3.5,
+                "valid_confidence_responses": 10
+            },
+            "55": {
+                "question_id": "fairness_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 10
+                },
+                "confidence_distribution": {
+                    "3": 4,
+                    "4": 6
+                },
+                "confidence_mean": 3.6,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "56": {
+                "question_id": "fairness_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 7,
+                    "D": 2,
+                    "B": 1
+                },
+                "confidence_distribution": {
+                    "3": 7,
+                    "4": 2,
+                    "5": 1
+                },
+                "confidence_mean": 3.4,
+                "confidence_median": 3.0,
+                "valid_confidence_responses": 10
+            },
+            "57": {
+                "question_id": "harm_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 6,
+                    "N": 2,
+                    "A": 2
+                },
+                "confidence_distribution": {
+                    "2": 1,
+                    "3": 6,
+                    "4": 3
+                },
+                "confidence_mean": 3.2,
+                "confidence_median": 3.0,
+                "valid_confidence_responses": 10
+            },
+            "58": {
+                "question_id": "harm_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 7,
+                    "N": 2,
+                    "A": 1
+                },
+                "confidence_distribution": {
+                    "3": 8,
+                    "4": 1,
+                    "5": 1
+                },
+                "confidence_mean": 3.3,
+                "confidence_median": 3.0,
+                "valid_confidence_responses": 10
+            },
+            "59": {
+                "question_id": "harm_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 4,
+                    "B": 4,
+                    "N": 2
+                },
+                "confidence_distribution": {
+                    "0": 2,
+                    "3": 5,
+                    "4": 2,
+                    "5": 1
+                },
+                "confidence_mean": 2.8,
+                "confidence_median": 3.0,
+                "valid_confidence_responses": 10
+            },
+            "60": {
+                "question_id": "harm_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 10
+                },
+                "confidence_distribution": {
+                    "3": 1,
+                    "4": 4,
+                    "5": 5
+                },
+                "confidence_mean": 4.4,
+                "confidence_median": 4.5,
+                "valid_confidence_responses": 10
+            },
+            "61": {
+                "question_id": "ingroup_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 5,
+                    "A": 4,
+                    "N": 1
+                },
+                "confidence_distribution": {
+                    "3": 6,
+                    "4": 3
+                },
+                "confidence_mean": 3.3333333333333335,
+                "confidence_median": 3.0,
+                "valid_confidence_responses": 9
+            },
+            "62": {
+                "question_id": "ingroup_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 4,
+                    "N": 4,
+                    "B": 2
+                },
+                "confidence_distribution": {
+                    "0": 1,
+                    "3": 9
+                },
+                "confidence_mean": 2.7,
+                "confidence_median": 3.0,
+                "valid_confidence_responses": 10
+            },
+            "63": {
+                "question_id": "ingroup_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 7,
+                    "B": 3
+                },
+                "confidence_distribution": {
+                    "3": 10
+                },
+                "confidence_mean": 3.0,
+                "confidence_median": 3.0,
+                "valid_confidence_responses": 10
+            },
+            "64": {
+                "question_id": "ingroup_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 9,
+                    "N": 1
+                },
+                "confidence_distribution": {
+                    "0": 1,
+                    "3": 8,
+                    "4": 1
+                },
+                "confidence_mean": 2.8,
+                "confidence_median": 3.0,
+                "valid_confidence_responses": 10
+            },
+            "65": {
+                "question_id": "purity_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 9,
+                    "A": 1
+                },
+                "confidence_distribution": {
+                    "3": 1,
+                    "5": 9
+                },
+                "confidence_mean": 4.8,
+                "confidence_median": 5.0,
+                "valid_confidence_responses": 10
+            },
+            "66": {
+                "question_id": "purity_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 8,
+                    "A": 2
+                },
+                "confidence_distribution": {
+                    "2": 2,
+                    "3": 4,
+                    "4": 3,
+                    "5": 1
+                },
+                "confidence_mean": 3.3,
+                "confidence_median": 3.0,
+                "valid_confidence_responses": 10
+            },
+            "67": {
+                "question_id": "purity_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 6,
+                    "B": 4
+                },
+                "confidence_distribution": {
+                    "0": 1,
+                    "3": 5,
+                    "5": 4
+                },
+                "confidence_mean": 3.5,
+                "confidence_median": 3.0,
+                "valid_confidence_responses": 10
+            },
+            "68": {
+                "question_id": "purity_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 9,
+                    "N": 1
+                },
+                "confidence_distribution": {
+                    "1": 1,
+                    "2": 1,
+                    "4": 1,
+                    "5": 6
+                },
+                "confidence_mean": 4.111111111111111,
+                "confidence_median": 5.0,
+                "valid_confidence_responses": 9
+            },
+            "69": {
+                "question_id": "authority_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 4,
+                    "N": 4,
+                    "D": 1,
+                    "B": 1
+                },
+                "confidence_distribution": {
+                    "0": 1,
+                    "1": 1,
+                    "3": 2,
+                    "4": 5
+                },
+                "confidence_mean": 3.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 9
+            },
+            "70": {
+                "question_id": "authority_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 9,
+                    "N": 1
+                },
+                "confidence_distribution": {
+                    "3": 2,
+                    "4": 7,
+                    "5": 1
+                },
+                "confidence_mean": 3.9,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "71": {
+                "question_id": "authority_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 10
+                },
+                "confidence_distribution": {
+                    "3": 1,
+                    "4": 7,
+                    "5": 1
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 9
+            },
+            "72": {
+                "question_id": "authority_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 10
+                },
+                "confidence_distribution": {
+                    "4": 6,
+                    "5": 4
+                },
+                "confidence_mean": 4.4,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "73": {
+                "question_id": "fairness_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 8,
+                    "N": 2
+                },
+                "confidence_distribution": {
+                    "4": 7,
+                    "5": 2
+                },
+                "confidence_mean": 4.222222222222222,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 9
+            },
+            "74": {
+                "question_id": "fairness_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "3": 2,
+                    "4": 6,
+                    "5": 2
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "75": {
+                "question_id": "fairness_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 9,
+                    "A": 1
+                },
+                "confidence_distribution": {
+                    "3": 1,
+                    "4": 8,
+                    "5": 1
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "76": {
+                "question_id": "fairness_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 9,
+                    "I": 1
+                },
+                "confidence_distribution": {
+                    "0": 1,
+                    "3": 2,
+                    "4": 5,
+                    "5": 2
+                },
+                "confidence_mean": 3.6,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "77": {
+                "question_id": "harm_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "3": 3,
+                    "4": 6,
+                    "5": 1
+                },
+                "confidence_mean": 3.8,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "78": {
+                "question_id": "harm_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "4": 5,
+                    "5": 5
+                },
+                "confidence_mean": 4.5,
+                "confidence_median": 4.5,
+                "valid_confidence_responses": 10
+            },
+            "79": {
+                "question_id": "harm_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 10
+                },
+                "confidence_distribution": {
+                    "3": 8,
+                    "4": 2
+                },
+                "confidence_mean": 3.2,
+                "confidence_median": 3.0,
+                "valid_confidence_responses": 10
+            },
+            "80": {
+                "question_id": "harm_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 8,
+                    "N": 1,
+                    "B": 1
+                },
+                "confidence_distribution": {
+                    "2": 1,
+                    "3": 2,
+                    "4": 7
+                },
+                "confidence_mean": 3.6,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "81": {
+                "question_id": "ingroup_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 5,
+                    "B": 3,
+                    "N": 2
+                },
+                "confidence_distribution": {
+                    "3": 2,
+                    "4": 5,
+                    "5": 1
+                },
+                "confidence_mean": 3.875,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 8
+            },
+            "82": {
+                "question_id": "ingroup_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 9,
+                    "N": 1
+                },
+                "confidence_distribution": {
+                    "4": 9
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 9
+            },
+            "83": {
+                "question_id": "ingroup_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 8,
+                    "N": 1,
+                    "B": 1
+                },
+                "confidence_distribution": {
+                    "0": 1,
+                    "3": 8,
+                    "4": 1
+                },
+                "confidence_mean": 2.8,
+                "confidence_median": 3.0,
+                "valid_confidence_responses": 10
+            },
+            "84": {
+                "question_id": "ingroup_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 5,
+                    "B": 3,
+                    "N": 2
+                },
+                "confidence_distribution": {
+                    "0": 1,
+                    "2": 2,
+                    "3": 4,
+                    "4": 3
+                },
+                "confidence_mean": 2.8,
+                "confidence_median": 3.0,
+                "valid_confidence_responses": 10
+            },
+            "85": {
+                "question_id": "purity_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "4": 7,
+                    "5": 3
+                },
+                "confidence_mean": 4.3,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "86": {
+                "question_id": "purity_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 9,
+                    "N": 1
+                },
+                "confidence_distribution": {
+                    "3": 2,
+                    "4": 8
+                },
+                "confidence_mean": 3.8,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "87": {
+                "question_id": "purity_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 5,
+                    "B": 2,
+                    "N": 2,
+                    "I": 1
+                },
+                "confidence_distribution": {
+                    "0": 1,
+                    "2": 1,
+                    "3": 5,
+                    "4": 3
+                },
+                "confidence_mean": 2.9,
+                "confidence_median": 3.0,
+                "valid_confidence_responses": 10
+            },
+            "88": {
+                "question_id": "purity_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 5,
+                    "B": 4,
+                    "N": 1
+                },
+                "confidence_distribution": {
+                    "0": 1,
+                    "1": 1,
+                    "3": 7,
+                    "4": 1
+                },
+                "confidence_mean": 2.6,
+                "confidence_median": 3.0,
+                "valid_confidence_responses": 10
+            }
+        },
+        "categories": {}
+    },
+    "openai/gpt-4o-mini": {
+        "questions": {
+            "1": {
+                "question_id": "authority_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 10
+                },
+                "confidence_distribution": {
+                    "3": 1,
+                    "4": 9
+                },
+                "confidence_mean": 3.9,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "2": {
+                "question_id": "authority_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 10
+                },
+                "confidence_distribution": {
+                    "3": 1,
+                    "4": 9
+                },
+                "confidence_mean": 3.9,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "3": {
+                "question_id": "authority_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 7,
+                    "A": 3
+                },
+                "confidence_distribution": {
+                    "3": 5,
+                    "4": 5
+                },
+                "confidence_mean": 3.5,
+                "confidence_median": 3.5,
+                "valid_confidence_responses": 10
+            },
+            "4": {
+                "question_id": "authority_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 7,
+                    "B": 3
+                },
+                "confidence_distribution": {
+                    "2": 1,
+                    "4": 9
+                },
+                "confidence_mean": 3.8,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "5": {
+                "question_id": "fairness_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 9,
+                    "B": 1
+                },
+                "confidence_distribution": {
+                    "4": 4,
+                    "5": 6
+                },
+                "confidence_mean": 4.6,
+                "confidence_median": 5.0,
+                "valid_confidence_responses": 10
+            },
+            "6": {
+                "question_id": "fairness_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 10
+                },
+                "confidence_distribution": {
+                    "4": 5,
+                    "5": 5
+                },
+                "confidence_mean": 4.5,
+                "confidence_median": 4.5,
+                "valid_confidence_responses": 10
+            },
+            "7": {
+                "question_id": "fairness_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 7,
+                    "A": 3
+                },
+                "confidence_distribution": {
+                    "2": 1,
+                    "3": 4,
+                    "4": 5
+                },
+                "confidence_mean": 3.4,
+                "confidence_median": 3.5,
+                "valid_confidence_responses": 10
+            },
+            "8": {
+                "question_id": "fairness_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 10
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "9": {
+                "question_id": "harm_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 10
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "10": {
+                "question_id": "harm_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 10
+                },
+                "confidence_distribution": {
+                    "4": 4,
+                    "5": 6
+                },
+                "confidence_mean": 4.6,
+                "confidence_median": 5.0,
+                "valid_confidence_responses": 10
+            },
+            "11": {
+                "question_id": "harm_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 5,
+                    "A": 5
+                },
+                "confidence_distribution": {
+                    "2": 1,
+                    "3": 6,
+                    "4": 3
+                },
+                "confidence_mean": 3.2,
+                "confidence_median": 3.0,
+                "valid_confidence_responses": 10
+            },
+            "12": {
+                "question_id": "harm_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 9,
+                    "A": 1
+                },
+                "confidence_distribution": {
+                    "2": 1,
+                    "3": 1,
+                    "4": 8
+                },
+                "confidence_mean": 3.7,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "13": {
+                "question_id": "ingroup_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 8,
+                    "B": 2
+                },
+                "confidence_distribution": {
+                    "3": 4,
+                    "4": 6
+                },
+                "confidence_mean": 3.6,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "14": {
+                "question_id": "ingroup_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 10
+                },
+                "confidence_distribution": {
+                    "4": 6,
+                    "5": 4
+                },
+                "confidence_mean": 4.4,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "15": {
+                "question_id": "ingroup_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 10
+                },
+                "confidence_distribution": {
+                    "3": 8,
+                    "4": 1,
+                    "5": 1
+                },
+                "confidence_mean": 3.3,
+                "confidence_median": 3.0,
+                "valid_confidence_responses": 10
+            },
+            "16": {
+                "question_id": "ingroup_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 9,
+                    "N": 1
+                },
+                "confidence_distribution": {
+                    "3": 1,
+                    "4": 8,
+                    "5": 1
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "17": {
+                "question_id": "liberty_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 7,
+                    "B": 3
+                },
+                "confidence_distribution": {
+                    "3": 2,
+                    "4": 8
+                },
+                "confidence_mean": 3.8,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "18": {
+                "question_id": "liberty_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 10
+                },
+                "confidence_distribution": {
+                    "3": 1,
+                    "4": 9
+                },
+                "confidence_mean": 3.9,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "19": {
+                "question_id": "liberty_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 7,
+                    "A": 3
+                },
+                "confidence_distribution": {
+                    "3": 3,
+                    "4": 7
+                },
+                "confidence_mean": 3.7,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "20": {
+                "question_id": "liberty_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 8,
+                    "B": 2
+                },
+                "confidence_distribution": {
+                    "3": 4,
+                    "4": 5,
+                    "5": 1
+                },
+                "confidence_mean": 3.7,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "21": {
+                "question_id": "purity_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 7,
+                    "A": 3
+                },
+                "confidence_distribution": {
+                    "3": 1,
+                    "4": 8,
+                    "5": 1
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "22": {
+                "question_id": "purity_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 6,
+                    "A": 4
+                },
+                "confidence_distribution": {
+                    "3": 5,
+                    "4": 5
+                },
+                "confidence_mean": 3.5,
+                "confidence_median": 3.5,
+                "valid_confidence_responses": 10
+            },
+            "23": {
+                "question_id": "purity_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 7,
+                    "A": 3
+                },
+                "confidence_distribution": {
+                    "3": 2,
+                    "4": 8
+                },
+                "confidence_mean": 3.8,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "24": {
+                "question_id": "purity_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 6,
+                    "A": 4
+                },
+                "confidence_distribution": {
+                    "3": 2,
+                    "4": 7,
+                    "5": 1
+                },
+                "confidence_mean": 3.9,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "25": {
+                "question_id": "authority_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "4": 8,
+                    "5": 2
+                },
+                "confidence_mean": 4.2,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "26": {
+                "question_id": "authority_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 10
+                },
+                "confidence_distribution": {
+                    "4": 7,
+                    "5": 3
+                },
+                "confidence_mean": 4.3,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "27": {
+                "question_id": "authority_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 9,
+                    "B": 1
+                },
+                "confidence_distribution": {
+                    "3": 1,
+                    "4": 3,
+                    "5": 6
+                },
+                "confidence_mean": 4.5,
+                "confidence_median": 5.0,
+                "valid_confidence_responses": 10
+            },
+            "28": {
+                "question_id": "authority_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 6,
+                    "A": 4
+                },
+                "confidence_distribution": {
+                    "4": 9,
+                    "5": 1
+                },
+                "confidence_mean": 4.1,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "29": {
+                "question_id": "fairness_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 8,
+                    "B": 2
+                },
+                "confidence_distribution": {
+                    "3": 3,
+                    "4": 7
+                },
+                "confidence_mean": 3.7,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "30": {
+                "question_id": "fairness_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 8,
+                    "A": 2
+                },
+                "confidence_distribution": {
+                    "3": 1,
+                    "4": 8,
+                    "5": 1
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "31": {
+                "question_id": "fairness_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 6,
+                    "A": 4
+                },
+                "confidence_distribution": {
+                    "2": 1,
+                    "3": 1,
+                    "4": 7,
+                    "5": 1
+                },
+                "confidence_mean": 3.8,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "32": {
+                "question_id": "fairness_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 7,
+                    "B": 3
+                },
+                "confidence_distribution": {
+                    "3": 2,
+                    "4": 8
+                },
+                "confidence_mean": 3.8,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "33": {
+                "question_id": "harm_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 7,
+                    "A": 3
+                },
+                "confidence_distribution": {
+                    "2": 1,
+                    "4": 9
+                },
+                "confidence_mean": 3.8,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "34": {
+                "question_id": "harm_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 8,
+                    "A": 2
+                },
+                "confidence_distribution": {
+                    "4": 9,
+                    "5": 1
+                },
+                "confidence_mean": 4.1,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "35": {
+                "question_id": "harm_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 9,
+                    "A": 1
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "36": {
+                "question_id": "harm_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 8,
+                    "B": 2
+                },
+                "confidence_distribution": {
+                    "3": 1,
+                    "4": 9
+                },
+                "confidence_mean": 3.9,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "37": {
+                "question_id": "ingroup_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 9,
+                    "B": 1
+                },
+                "confidence_distribution": {
+                    "4": 9,
+                    "5": 1
+                },
+                "confidence_mean": 4.1,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "38": {
+                "question_id": "ingroup_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 6,
+                    "B": 4
+                },
+                "confidence_distribution": {
+                    "3": 1,
+                    "4": 8,
+                    "5": 1
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "39": {
+                "question_id": "ingroup_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 6,
+                    "A": 4
+                },
+                "confidence_distribution": {
+                    "4": 6,
+                    "5": 4
+                },
+                "confidence_mean": 4.4,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "40": {
+                "question_id": "ingroup_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 5,
+                    "A": 5
+                },
+                "confidence_distribution": {
+                    "3": 1,
+                    "4": 5,
+                    "5": 4
+                },
+                "confidence_mean": 4.3,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "41": {
+                "question_id": "liberty_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "4": 2,
+                    "5": 8
+                },
+                "confidence_mean": 4.8,
+                "confidence_median": 5.0,
+                "valid_confidence_responses": 10
+            },
+            "42": {
+                "question_id": "liberty_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 7,
+                    "A": 2,
+                    "N": 1
+                },
+                "confidence_distribution": {
+                    "2": 1,
+                    "3": 3,
+                    "4": 6
+                },
+                "confidence_mean": 3.5,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "43": {
+                "question_id": "liberty_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 10
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "44": {
+                "question_id": "liberty_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 8,
+                    "A": 2
+                },
+                "confidence_distribution": {
+                    "3": 1,
+                    "4": 9
+                },
+                "confidence_mean": 3.9,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "45": {
+                "question_id": "purity_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 5,
+                    "B": 5
+                },
+                "confidence_distribution": {
+                    "1": 1,
+                    "2": 1,
+                    "3": 1,
+                    "4": 7
+                },
+                "confidence_mean": 3.4,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "46": {
+                "question_id": "purity_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 5,
+                    "B": 5
+                },
+                "confidence_distribution": {
+                    "3": 4,
+                    "4": 6
+                },
+                "confidence_mean": 3.6,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "47": {
+                "question_id": "purity_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 7,
+                    "A": 3
+                },
+                "confidence_distribution": {
+                    "2": 2,
+                    "4": 8
+                },
+                "confidence_mean": 3.6,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "48": {
+                "question_id": "purity_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 9,
+                    "B": 1
+                },
+                "confidence_distribution": {
+                    "3": 3,
+                    "4": 7
+                },
+                "confidence_mean": 3.7,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "49": {
+                "question_id": "authority_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "5": 10
+                },
+                "confidence_mean": 5.0,
+                "confidence_median": 5.0,
+                "valid_confidence_responses": 10
+            },
+            "50": {
+                "question_id": "authority_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "2": 2,
+                    "4": 3,
+                    "5": 5
+                },
+                "confidence_mean": 4.1,
+                "confidence_median": 4.5,
+                "valid_confidence_responses": 10
+            },
+            "51": {
+                "question_id": "authority_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 8,
+                    "D": 1,
+                    "Invalid": 1
+                },
+                "confidence_distribution": {
+                    "5": 9
+                },
+                "confidence_mean": 5.0,
+                "confidence_median": 5.0,
+                "valid_confidence_responses": 9
+            },
+            "52": {
+                "question_id": "authority_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 9,
+                    "Invalid": 1
+                },
+                "confidence_distribution": {
+                    "2": 1,
+                    "4": 3,
+                    "5": 5
+                },
+                "confidence_mean": 4.333333333333333,
+                "confidence_median": 5.0,
+                "valid_confidence_responses": 9
+            },
+            "53": {
+                "question_id": "fairness_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 8,
+                    "B": 2
+                },
+                "confidence_distribution": {
+                    "2": 1,
+                    "3": 4,
+                    "4": 5
+                },
+                "confidence_mean": 3.4,
+                "confidence_median": 3.5,
+                "valid_confidence_responses": 10
+            },
+            "54": {
+                "question_id": "fairness_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "4": 2,
+                    "5": 8
+                },
+                "confidence_mean": 4.8,
+                "confidence_median": 5.0,
+                "valid_confidence_responses": 10
+            },
+            "55": {
+                "question_id": "fairness_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "4": 5,
+                    "5": 5
+                },
+                "confidence_mean": 4.5,
+                "confidence_median": 4.5,
+                "valid_confidence_responses": 10
+            },
+            "56": {
+                "question_id": "fairness_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "2": 1,
+                    "4": 3,
+                    "5": 6
+                },
+                "confidence_mean": 4.4,
+                "confidence_median": 5.0,
+                "valid_confidence_responses": 10
+            },
+            "57": {
+                "question_id": "harm_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 8,
+                    "A": 2
+                },
+                "confidence_distribution": {
+                    "4": 8,
+                    "5": 2
+                },
+                "confidence_mean": 4.2,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "58": {
+                "question_id": "harm_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 6,
+                    "B": 4
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "59": {
+                "question_id": "harm_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 10
+                },
+                "confidence_distribution": {
+                    "3": 2,
+                    "4": 8
+                },
+                "confidence_mean": 3.8,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "60": {
+                "question_id": "harm_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 10
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "61": {
+                "question_id": "ingroup_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 9,
+                    "A": 1
+                },
+                "confidence_distribution": {
+                    "2": 1,
+                    "3": 1,
+                    "4": 6,
+                    "5": 2
+                },
+                "confidence_mean": 3.9,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "62": {
+                "question_id": "ingroup_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "4": 4,
+                    "5": 6
+                },
+                "confidence_mean": 4.6,
+                "confidence_median": 5.0,
+                "valid_confidence_responses": 10
+            },
+            "63": {
+                "question_id": "ingroup_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "2": 2,
+                    "4": 5,
+                    "5": 3
+                },
+                "confidence_mean": 3.9,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "64": {
+                "question_id": "ingroup_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "2": 1,
+                    "4": 7,
+                    "5": 2
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "65": {
+                "question_id": "purity_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "5": 10
+                },
+                "confidence_mean": 5.0,
+                "confidence_median": 5.0,
+                "valid_confidence_responses": 10
+            },
+            "66": {
+                "question_id": "purity_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 10
+                },
+                "confidence_distribution": {
+                    "3": 1,
+                    "4": 9
+                },
+                "confidence_mean": 3.9,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "67": {
+                "question_id": "purity_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 10
+                },
+                "confidence_distribution": {
+                    "4": 9,
+                    "5": 1
+                },
+                "confidence_mean": 4.1,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "68": {
+                "question_id": "purity_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 9,
+                    "A": 1
+                },
+                "confidence_distribution": {
+                    "3": 1,
+                    "4": 7,
+                    "5": 2
+                },
+                "confidence_mean": 4.1,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "69": {
+                "question_id": "authority_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 7,
+                    "B": 3
+                },
+                "confidence_distribution": {
+                    "3": 1,
+                    "4": 9
+                },
+                "confidence_mean": 3.9,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "70": {
+                "question_id": "authority_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 10
+                },
+                "confidence_distribution": {
+                    "4": 6,
+                    "5": 4
+                },
+                "confidence_mean": 4.4,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "71": {
+                "question_id": "authority_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 10
+                },
+                "confidence_distribution": {
+                    "4": 9,
+                    "5": 1
+                },
+                "confidence_mean": 4.1,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "72": {
+                "question_id": "authority_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 9,
+                    "B": 1
+                },
+                "confidence_distribution": {
+                    "3": 1,
+                    "4": 9
+                },
+                "confidence_mean": 3.9,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "73": {
+                "question_id": "fairness_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "4": 1,
+                    "5": 9
+                },
+                "confidence_mean": 4.9,
+                "confidence_median": 5.0,
+                "valid_confidence_responses": 10
+            },
+            "74": {
+                "question_id": "fairness_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "4": 4,
+                    "5": 6
+                },
+                "confidence_mean": 4.6,
+                "confidence_median": 5.0,
+                "valid_confidence_responses": 10
+            },
+            "75": {
+                "question_id": "fairness_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "76": {
+                "question_id": "fairness_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "77": {
+                "question_id": "harm_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "4": 6,
+                    "5": 4
+                },
+                "confidence_mean": 4.4,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "78": {
+                "question_id": "harm_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 5,
+                    "B": 5
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "79": {
+                "question_id": "harm_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 10
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "80": {
+                "question_id": "harm_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 7,
+                    "A": 3
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "81": {
+                "question_id": "ingroup_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 10
+                },
+                "confidence_distribution": {
+                    "4": 8,
+                    "5": 2
+                },
+                "confidence_mean": 4.2,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "82": {
+                "question_id": "ingroup_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 8,
+                    "B": 2
+                },
+                "confidence_distribution": {
+                    "4": 9,
+                    "5": 1
+                },
+                "confidence_mean": 4.1,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "83": {
+                "question_id": "ingroup_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 8,
+                    "B": 2
+                },
+                "confidence_distribution": {
+                    "3": 7,
+                    "4": 3
+                },
+                "confidence_mean": 3.3,
+                "confidence_median": 3.0,
+                "valid_confidence_responses": 10
+            },
+            "84": {
+                "question_id": "ingroup_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 5,
+                    "B": 5
+                },
+                "confidence_distribution": {
+                    "3": 8,
+                    "4": 2
+                },
+                "confidence_mean": 3.2,
+                "confidence_median": 3.0,
+                "valid_confidence_responses": 10
+            },
+            "85": {
+                "question_id": "purity_1",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "4": 7,
+                    "5": 3
+                },
+                "confidence_mean": 4.3,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "86": {
+                "question_id": "purity_2",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "3": 1,
+                    "4": 9
+                },
+                "confidence_mean": 3.9,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            },
+            "87": {
+                "question_id": "purity_3",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "A": 5,
+                    "B": 5
+                },
+                "confidence_distribution": {
+                    "3": 6,
+                    "4": 4
+                },
+                "confidence_mean": 3.4,
+                "confidence_median": 3.0,
+                "valid_confidence_responses": 10
+            },
+            "88": {
+                "question_id": "purity_4",
+                "category": "Unknown Category",
+                "total_responses": 10,
+                "answer_distribution": {
+                    "B": 10
+                },
+                "confidence_distribution": {
+                    "4": 10
+                },
+                "confidence_mean": 4.0,
+                "confidence_median": 4.0,
+                "valid_confidence_responses": 10
+            }
+        },
+        "categories": {}
+    }
+}
