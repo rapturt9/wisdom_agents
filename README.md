@@ -1,5 +1,8 @@
 # Wisdom Agents
 
+## Project Overleaf Document (View Only):
+https://www.overleaf.com/read/fpjbnfzymdbg#b92579
+
 ## Project Overview
 This project explores the alignment benchmark performance comparison between isolated Large Language Models (LLMs) and agent ensembles. We investigate whether a collective of AI agents can achieve better performance on alignment benchmarks compared to individual models working in isolation.
 Our focus is on creating test cases that resemble use cases of agentic ensembles in industry applications, e.g. update code bases, determine healthcare treatment, or execute research. In all use cases it is expected that agent ensembles will at some point face decisions to make without availability of direct user guidance, and our goal is to illuminate safety and alignment-related properties of such decision-making by example of a common alignment benchmark.  
