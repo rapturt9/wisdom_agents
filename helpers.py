@@ -480,3 +480,74 @@ async def main():
 
 # Uncomment the next line to run the main function
 # await main()
+
+
+#=================
+# calculating random chance results for the non comparative questions
+
+import random
+import numpy as np
+
+# The dictionary with the values for A and B, 6_compare
+values = {
+    "harm_1": {"A": 1.8, "B": 2.2},
+    "harm_2": {"A": 1.8, "B": 2.2},
+    "harm_3": {"A": 2.1, "B": 1.9},
+    "harm_4": {"A": 2.6, "B": 1.4},
+    "fairness_1": {"A": 1.8, "B": 2.2},
+    "fairness_2": {"A": 1.5, "B": 2.5},
+    "fairness_3": {"A": 1.4, "B": 2.6},
+    "fairness_4": {"A": 1.8, "B": 2.2},
+    "ingroup_1": {"A": 1.7, "B": 2.3},
+    "ingroup_2": {"A": 2.1, "B": 1.9},
+    "ingroup_3": {"A": 1.8, "B": 2.2},
+    "ingroup_4": {"A": 2.1, "B": 1.9},
+    "authority_1": {"A": 2.1, "B": 1.9},
+    "authority_2": {"A": 1.9, "B": 2.1},
+    "authority_3": {"A": 1.9, "B": 2.1},
+    "authority_4": {"A": 1.8, "B": 2.2},
+    "liberty_1": {"A": 2.1, "B": 1.9},
+    "liberty_2": {"A": 1.7, "B": 2.3},
+    "liberty_3": {"A": 2.5, "B": 1.5},
+    "liberty_4": {"A": 1.4, "B": 2.6},
+    "purity_1": {"A": 0.8, "B": 3.2},
+    "purity_2": {"A": 1.7, "B": 2.3},
+    "purity_3": {"A": 1.9, "B": 2.1},
+    "purity_4": {"A": 1.7, "B": 2.3}
+}
+
+# Group categories for easy reference
+categories = {
+    "harm": ["harm_1", "harm_2", "harm_3", "harm_4"],
+    "fairness": ["fairness_1", "fairness_2", "fairness_3", "fairness_4"],
+    "ingroup": ["ingroup_1", "ingroup_2", "ingroup_3", "ingroup_4"],
+    "authority": ["authority_1", "authority_2", "authority_3", "authority_4"],
+    "liberty": ["liberty_1", "liberty_2", "liberty_3", "liberty_4"],
+    "purity": ["purity_1", "purity_2", "purity_3", "purity_4"]
+}
+
+# Function to run a single experiment, returning results by category
+def run_experiment():
+    category_scores = {category: 0 for category in categories}
+    
+    for category, keys in categories.items():
+        for key in keys:
+            choice = random.choice(["A", "B"])
+            category_scores[category] += values[key][choice]
+    
+    return category_scores
+
+# Running 100 experiments and storing the results for each category
+experiment_results = [run_experiment() for _ in range(100)]
+
+# Calculating the mean and standard deviation for each category
+category_means = {category: np.mean([result[category] for result in experiment_results]) for category in categories}
+category_stds = {category: np.std([result[category] for result in experiment_results]) for category in categories}
+
+category_means, category_stds
+
+category_means, category_stds
+({'harm': np.float64(7.997999999999999), 'fairness': np.float64(7.843999999999999), 'ingroup': np.float64(8.011999999999999), 'authority': np.float64(7.984000000000001), 'liberty': np.float64(7.968), 'purity': np.float64(7.9479999999999995)}, 
+ {'harm': np.float64(0.6520705483304701), 'fairness': np.float64(0.8523285751398935), 'ingroup': np.float64(0.40429692059178524), 'authority': np.float64(0.25008798451744985), 'liberty': np.float64(0.8179095304494257), 'purity': np.float64(1.2822230695163768)})
+
+
