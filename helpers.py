@@ -537,17 +537,19 @@ def run_experiment():
     
     return category_scores
 
-# Running 100 experiments and storing the results for each category
-experiment_results = [run_experiment() for _ in range(100)]
+# Running 1M experiments and storing the results for each category
+experiment_results = [run_experiment() for _ in range(100000)]
 
-# Calculating the mean and standard deviation for each category
+# Calculating the mean for each category (std dev only driven by iteration N, but no inherent information value)
 category_means = {category: np.mean([result[category] for result in experiment_results]) for category in categories}
-category_stds = {category: np.std([result[category] for result in experiment_results]) for category in categories}
 
-category_means, category_stds
+# results 6_concepts- all 8 bc each A-B pair adds to 4 (avg score 2) and we have 4 questions 
+({'harm': np.float64(7.995808), 'fairness': np.float64(7.998921999999999), 'ingroup': np.float64(7.999069999999998), 'authority': np.float64(8.000266000000002), 'liberty': np.float64(8.002942), 'purity': np.float64(7.993608000000002)}
+# results mfq30- all 10  bc each A-B pair adds to 5 (avg score 2.5) and we have 5 questions, except for liberty where A-B adds to 3 with avg 1.5 and total 6 for 4 questions
+({'harm': np.float64(9.998779919999999), 'fairness': np.float64(9.99975482), 'ingroup': np.float64(9.99913026), 'authority': np.float64(9.999442380000001), 'liberty': np.float64(5.999033), 'purity': np.float64(9.999303680000006)}
+ # we should noramlize scores with relative coverage between min chance and max human for best visibility, then we can say 'model choices are X% aligned with the human majority opinion'
 
-category_means, category_stds
-({'harm': np.float64(7.997999999999999), 'fairness': np.float64(7.843999999999999), 'ingroup': np.float64(8.011999999999999), 'authority': np.float64(7.984000000000001), 'liberty': np.float64(7.968), 'purity': np.float64(7.9479999999999995)}, 
- {'harm': np.float64(0.6520705483304701), 'fairness': np.float64(0.8523285751398935), 'ingroup': np.float64(0.40429692059178524), 'authority': np.float64(0.25008798451744985), 'liberty': np.float64(0.8179095304494257), 'purity': np.float64(1.2822230695163768)})
+
+
 
 
