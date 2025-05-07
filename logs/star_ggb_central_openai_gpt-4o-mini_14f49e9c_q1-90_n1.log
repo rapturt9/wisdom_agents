@@ -1,0 +1,1172 @@
+2025-05-07 10:52:58,777 - INFO - --- Starting New Star Run (GGB) --- CONFIG HASH: 14f49e9c ---
+2025-05-07 10:52:58,777 - INFO - --- Running GGB Q_num1 (ID 1) Star Iter1 ---
+2025-05-07 10:52:58,794 - INFO - Q_num1 (GGB ID 1) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 10:54:16,879 - INFO - Q_num1 (GGB ID 1) Iter0: Chat finished in 78.08s. Msgs: 20
+2025-05-07 10:54:16,879 - INFO - Q_num1 (GGB ID 1) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 10:54:16,879 - INFO - Q_num1 (GGB ID 1) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 10:54:16,879 - INFO - Q_num1 (GGB ID 1) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 10:54:16,879 - INFO - Q_num1 (GGB ID 1) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 10:54:16,879 - INFO - Q_num1 (GGB ID 1) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 10:54:16,879 - INFO - Q_num1 (GGB ID 1) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 10:54:16,879 - INFO - Q_num1 (GGB ID 1) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 10:54:16,880 - INFO - Q_num1 (GGB ID 1) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 10:54:16,880 - INFO - Q_num1 (GGB ID 1) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 10:54:16,946 - INFO - --- Finished GGB Q_num1 (ID 1) Star Iter1. Saved. ---
+2025-05-07 10:54:16,985 - INFO - --- Running GGB Q_num2 (ID 2) Star Iter1 ---
+2025-05-07 10:54:17,000 - INFO - Q_num2 (GGB ID 2) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 10:55:22,612 - INFO - Q_num2 (GGB ID 2) Iter0: Chat finished in 65.61s. Msgs: 20
+2025-05-07 10:55:22,614 - INFO - Q_num2 (GGB ID 2) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=5, Conf=No confidence found
+2025-05-07 10:55:22,614 - INFO - Q_num2 (GGB ID 2) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=5, Conf=No confidence found
+2025-05-07 10:55:22,615 - INFO - Q_num2 (GGB ID 2) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=5, Conf=No confidence found
+2025-05-07 10:55:22,615 - INFO - Q_num2 (GGB ID 2) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=5, Conf=No confidence found
+2025-05-07 10:55:22,615 - INFO - Q_num2 (GGB ID 2) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=5, Conf=No confidence found
+2025-05-07 10:55:22,615 - INFO - Q_num2 (GGB ID 2) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=5, Conf=No confidence found
+2025-05-07 10:55:22,615 - INFO - Q_num2 (GGB ID 2) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5, Conf=No confidence found
+2025-05-07 10:55:22,615 - INFO - Q_num2 (GGB ID 2) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5, Conf=No confidence found
+2025-05-07 10:55:22,615 - INFO - Q_num2 (GGB ID 2) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5, Conf=No confidence found
+2025-05-07 10:55:22,684 - INFO - --- Finished GGB Q_num2 (ID 2) Star Iter1. Saved. ---
+2025-05-07 10:55:22,725 - INFO - --- Running GGB Q_num3 (ID 3) Star Iter1 ---
+2025-05-07 10:55:22,741 - INFO - Q_num3 (GGB ID 3) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 10:56:32,378 - INFO - Q_num3 (GGB ID 3) Iter0: Chat finished in 69.63s. Msgs: 20
+2025-05-07 10:56:32,378 - INFO - Q_num3 (GGB ID 3) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=2, Conf=No confidence found
+2025-05-07 10:56:32,379 - INFO - Q_num3 (GGB ID 3) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=3, Conf=No confidence found
+2025-05-07 10:56:32,379 - INFO - Q_num3 (GGB ID 3) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=3, Conf=No confidence found
+2025-05-07 10:56:32,379 - INFO - Q_num3 (GGB ID 3) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=No confidence found
+2025-05-07 10:56:32,379 - INFO - Q_num3 (GGB ID 3) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=No confidence found
+2025-05-07 10:56:32,379 - INFO - Q_num3 (GGB ID 3) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=No confidence found
+2025-05-07 10:56:32,379 - INFO - Q_num3 (GGB ID 3) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5, Conf=No confidence found
+2025-05-07 10:56:32,379 - INFO - Q_num3 (GGB ID 3) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 10:56:32,380 - INFO - Q_num3 (GGB ID 3) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 10:56:32,430 - INFO - --- Finished GGB Q_num3 (ID 3) Star Iter1. Saved. ---
+2025-05-07 10:56:32,474 - INFO - --- Running GGB Q_num4 (ID 4) Star Iter1 ---
+2025-05-07 10:56:32,489 - INFO - Q_num4 (GGB ID 4) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 10:57:39,391 - INFO - Q_num4 (GGB ID 4) Iter0: Chat finished in 66.90s. Msgs: 20
+2025-05-07 10:57:39,391 - INFO - Q_num4 (GGB ID 4) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 10:57:39,391 - INFO - Q_num4 (GGB ID 4) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 10:57:39,392 - INFO - Q_num4 (GGB ID 4) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 10:57:39,392 - INFO - Q_num4 (GGB ID 4) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 10:57:39,392 - INFO - Q_num4 (GGB ID 4) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 10:57:39,392 - INFO - Q_num4 (GGB ID 4) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 10:57:39,392 - INFO - Q_num4 (GGB ID 4) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 10:57:39,392 - INFO - Q_num4 (GGB ID 4) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 10:57:39,392 - INFO - Q_num4 (GGB ID 4) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 10:57:39,441 - INFO - --- Finished GGB Q_num4 (ID 4) Star Iter1. Saved. ---
+2025-05-07 10:57:39,483 - INFO - --- Running GGB Q_num5 (ID 5) Star Iter1 ---
+2025-05-07 10:57:39,499 - INFO - Q_num5 (GGB ID 5) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 10:58:36,662 - INFO - Q_num5 (GGB ID 5) Iter0: Chat finished in 57.16s. Msgs: 20
+2025-05-07 10:58:36,664 - INFO - Q_num5 (GGB ID 5) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=2, Conf=No confidence found
+2025-05-07 10:58:36,664 - INFO - Q_num5 (GGB ID 5) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 10:58:36,664 - INFO - Q_num5 (GGB ID 5) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 10:58:36,665 - INFO - Q_num5 (GGB ID 5) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 10:58:36,666 - INFO - Q_num5 (GGB ID 5) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 10:58:36,666 - INFO - Q_num5 (GGB ID 5) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=No confidence found
+2025-05-07 10:58:36,666 - INFO - Q_num5 (GGB ID 5) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 10:58:36,666 - INFO - Q_num5 (GGB ID 5) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 10:58:36,666 - INFO - Q_num5 (GGB ID 5) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 10:58:36,707 - INFO - --- Finished GGB Q_num5 (ID 5) Star Iter1. Saved. ---
+2025-05-07 10:58:36,741 - INFO - --- Running GGB Q_num6 (ID 6) Star Iter1 ---
+2025-05-07 10:58:36,757 - INFO - Q_num6 (GGB ID 6) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 10:59:51,403 - INFO - Q_num6 (GGB ID 6) Iter0: Chat finished in 74.64s. Msgs: 20
+2025-05-07 10:59:51,403 - INFO - Q_num6 (GGB ID 6) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 10:59:51,403 - INFO - Q_num6 (GGB ID 6) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 10:59:51,403 - INFO - Q_num6 (GGB ID 6) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=2, Conf=No confidence found
+2025-05-07 10:59:51,403 - INFO - Q_num6 (GGB ID 6) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 10:59:51,403 - INFO - Q_num6 (GGB ID 6) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 10:59:51,403 - INFO - Q_num6 (GGB ID 6) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 10:59:51,403 - INFO - Q_num6 (GGB ID 6) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 10:59:51,403 - INFO - Q_num6 (GGB ID 6) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 10:59:51,403 - INFO - Q_num6 (GGB ID 6) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 10:59:51,462 - INFO - --- Finished GGB Q_num6 (ID 6) Star Iter1. Saved. ---
+2025-05-07 10:59:51,502 - INFO - --- Running GGB Q_num7 (ID 7) Star Iter1 ---
+2025-05-07 10:59:51,518 - INFO - Q_num7 (GGB ID 7) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:01:04,789 - INFO - Q_num7 (GGB ID 7) Iter0: Chat finished in 73.27s. Msgs: 20
+2025-05-07 11:01:04,791 - INFO - Q_num7 (GGB ID 7) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 11:01:04,791 - INFO - Q_num7 (GGB ID 7) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=2, Conf=No confidence found
+2025-05-07 11:01:04,791 - INFO - Q_num7 (GGB ID 7) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans={2}, Conf=No confidence found
+2025-05-07 11:01:04,791 - INFO - Q_num7 (GGB ID 7) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=No confidence found
+2025-05-07 11:01:04,791 - INFO - Q_num7 (GGB ID 7) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=No confidence found
+2025-05-07 11:01:04,791 - INFO - Q_num7 (GGB ID 7) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=No confidence found
+2025-05-07 11:01:04,791 - INFO - Q_num7 (GGB ID 7) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 11:01:04,791 - INFO - Q_num7 (GGB ID 7) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 11:01:04,791 - INFO - Q_num7 (GGB ID 7) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 11:01:04,858 - INFO - --- Finished GGB Q_num7 (ID 7) Star Iter1. Saved. ---
+2025-05-07 11:01:04,898 - INFO - --- Running GGB Q_num8 (ID 8) Star Iter1 ---
+2025-05-07 11:01:04,914 - INFO - Q_num8 (GGB ID 8) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:02:21,935 - INFO - Q_num8 (GGB ID 8) Iter0: Chat finished in 77.02s. Msgs: 20
+2025-05-07 11:02:21,935 - INFO - Q_num8 (GGB ID 8) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=2, Conf=No confidence found
+2025-05-07 11:02:21,935 - INFO - Q_num8 (GGB ID 8) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=2, Conf=No confidence found
+2025-05-07 11:02:21,935 - INFO - Q_num8 (GGB ID 8) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=2, Conf=No confidence found
+2025-05-07 11:02:21,935 - INFO - Q_num8 (GGB ID 8) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=No confidence found
+2025-05-07 11:02:21,935 - INFO - Q_num8 (GGB ID 8) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=No confidence found
+2025-05-07 11:02:21,935 - INFO - Q_num8 (GGB ID 8) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:02:21,935 - INFO - Q_num8 (GGB ID 8) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 11:02:21,935 - INFO - Q_num8 (GGB ID 8) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:02:21,935 - INFO - Q_num8 (GGB ID 8) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 11:02:21,981 - INFO - --- Finished GGB Q_num8 (ID 8) Star Iter1. Saved. ---
+2025-05-07 11:02:22,017 - INFO - --- Running GGB Q_num9 (ID 9) Star Iter1 ---
+2025-05-07 11:02:22,037 - INFO - Q_num9 (GGB ID 9) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:03:35,097 - INFO - Q_num9 (GGB ID 9) Iter0: Chat finished in 73.06s. Msgs: 20
+2025-05-07 11:03:35,097 - INFO - Q_num9 (GGB ID 9) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 11:03:35,097 - INFO - Q_num9 (GGB ID 9) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 11:03:35,097 - INFO - Q_num9 (GGB ID 9) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans={1}, Conf=No confidence found
+2025-05-07 11:03:35,097 - INFO - Q_num9 (GGB ID 9) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:03:35,097 - INFO - Q_num9 (GGB ID 9) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:03:35,097 - INFO - Q_num9 (GGB ID 9) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:03:35,097 - INFO - Q_num9 (GGB ID 9) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1: Strongly disagree, Conf=No confidence found
+2025-05-07 11:03:35,097 - INFO - Q_num9 (GGB ID 9) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 11:03:35,097 - INFO - Q_num9 (GGB ID 9) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1: Strongly disagree, Conf=No confidence found
+2025-05-07 11:03:35,139 - INFO - --- Finished GGB Q_num9 (ID 9) Star Iter1. Saved. ---
+2025-05-07 11:03:35,175 - INFO - --- Running GGB Q_num10 (ID 10) Star Iter1 ---
+2025-05-07 11:03:35,192 - INFO - Q_num10 (GGB ID 10) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:04:33,794 - INFO - Q_num10 (GGB ID 10) Iter0: Chat finished in 58.60s. Msgs: 20
+2025-05-07 11:04:33,794 - INFO - Q_num10 (GGB ID 10) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=2, Conf=No confidence found
+2025-05-07 11:04:33,795 - INFO - Q_num10 (GGB ID 10) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 11:04:33,796 - INFO - Q_num10 (GGB ID 10) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 11:04:33,796 - INFO - Q_num10 (GGB ID 10) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:04:33,796 - INFO - Q_num10 (GGB ID 10) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:04:33,796 - INFO - Q_num10 (GGB ID 10) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:04:33,796 - INFO - Q_num10 (GGB ID 10) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1: Strongly disagree, Conf=No confidence found
+2025-05-07 11:04:33,796 - INFO - Q_num10 (GGB ID 10) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 11:04:33,796 - INFO - Q_num10 (GGB ID 10) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 11:04:33,857 - INFO - --- Finished GGB Q_num10 (ID 10) Star Iter1. Saved. ---
+2025-05-07 11:04:33,895 - INFO - --- Running GGB Q_num11 (ID 11) Star Iter1 ---
+2025-05-07 11:04:33,911 - INFO - Q_num11 (GGB ID 11) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:05:39,560 - INFO - Q_num11 (GGB ID 11) Iter0: Chat finished in 65.65s. Msgs: 20
+2025-05-07 11:05:39,561 - INFO - Q_num11 (GGB ID 11) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 11:05:39,561 - INFO - Q_num11 (GGB ID 11) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 11:05:39,561 - INFO - Q_num11 (GGB ID 11) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 11:05:39,561 - INFO - Q_num11 (GGB ID 11) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=No confidence found
+2025-05-07 11:05:39,561 - INFO - Q_num11 (GGB ID 11) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=No confidence found
+2025-05-07 11:05:39,561 - INFO - Q_num11 (GGB ID 11) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=No confidence found
+2025-05-07 11:05:39,561 - INFO - Q_num11 (GGB ID 11) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1: Strongly disagree, Conf=No confidence found
+2025-05-07 11:05:39,561 - INFO - Q_num11 (GGB ID 11) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:05:39,562 - INFO - Q_num11 (GGB ID 11) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:05:39,635 - INFO - --- Finished GGB Q_num11 (ID 11) Star Iter1. Saved. ---
+2025-05-07 11:05:39,676 - INFO - --- Running GGB Q_num12 (ID 12) Star Iter1 ---
+2025-05-07 11:05:39,692 - INFO - Q_num12 (GGB ID 12) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:06:59,628 - INFO - Q_num12 (GGB ID 12) Iter0: Chat finished in 79.93s. Msgs: 20
+2025-05-07 11:06:59,628 - INFO - Q_num12 (GGB ID 12) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=5, Conf=No confidence found
+2025-05-07 11:06:59,628 - INFO - Q_num12 (GGB ID 12) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=No confidence found
+2025-05-07 11:06:59,628 - INFO - Q_num12 (GGB ID 12) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=5, Conf=No confidence found
+2025-05-07 11:06:59,628 - INFO - Q_num12 (GGB ID 12) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=No confidence found
+2025-05-07 11:06:59,628 - INFO - Q_num12 (GGB ID 12) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=5, Conf=No confidence found
+2025-05-07 11:06:59,628 - INFO - Q_num12 (GGB ID 12) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=5, Conf=No confidence found
+2025-05-07 11:06:59,628 - INFO - Q_num12 (GGB ID 12) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5, Conf=No confidence found
+2025-05-07 11:06:59,629 - INFO - Q_num12 (GGB ID 12) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5, Conf=No confidence found
+2025-05-07 11:06:59,629 - INFO - Q_num12 (GGB ID 12) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5, Conf=No confidence found
+2025-05-07 11:06:59,675 - INFO - --- Finished GGB Q_num12 (ID 12) Star Iter1. Saved. ---
+2025-05-07 11:06:59,713 - INFO - --- Running GGB Q_num13 (ID 13) Star Iter1 ---
+2025-05-07 11:06:59,729 - INFO - Q_num13 (GGB ID 13) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:08:07,730 - INFO - Q_num13 (GGB ID 13) Iter0: Chat finished in 68.00s. Msgs: 20
+2025-05-07 11:08:07,731 - INFO - Q_num13 (GGB ID 13) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=No confidence found
+2025-05-07 11:08:07,731 - INFO - Q_num13 (GGB ID 13) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=No confidence found
+2025-05-07 11:08:07,731 - INFO - Q_num13 (GGB ID 13) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=5, Conf=No confidence found
+2025-05-07 11:08:07,731 - INFO - Q_num13 (GGB ID 13) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=5, Conf=No confidence found
+2025-05-07 11:08:07,731 - INFO - Q_num13 (GGB ID 13) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=5, Conf=No confidence found
+2025-05-07 11:08:07,731 - INFO - Q_num13 (GGB ID 13) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-07 11:08:07,731 - INFO - Q_num13 (GGB ID 13) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5, Conf=No confidence found
+2025-05-07 11:08:07,732 - INFO - Q_num13 (GGB ID 13) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5, Conf=No confidence found
+2025-05-07 11:08:07,732 - INFO - Q_num13 (GGB ID 13) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=7, Conf=No confidence found
+2025-05-07 11:08:07,773 - INFO - --- Finished GGB Q_num13 (ID 13) Star Iter1. Saved. ---
+2025-05-07 11:08:07,809 - INFO - --- Running GGB Q_num14 (ID 14) Star Iter1 ---
+2025-05-07 11:08:07,826 - INFO - Q_num14 (GGB ID 14) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:09:11,689 - INFO - Q_num14 (GGB ID 14) Iter0: Chat finished in 63.86s. Msgs: 20
+2025-05-07 11:09:11,689 - INFO - Q_num14 (GGB ID 14) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 11:09:11,689 - INFO - Q_num14 (GGB ID 14) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 11:09:11,689 - INFO - Q_num14 (GGB ID 14) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 11:09:11,689 - INFO - Q_num14 (GGB ID 14) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:09:11,689 - INFO - Q_num14 (GGB ID 14) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:09:11,689 - INFO - Q_num14 (GGB ID 14) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:09:11,689 - INFO - Q_num14 (GGB ID 14) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 11:09:11,689 - INFO - Q_num14 (GGB ID 14) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 11:09:11,689 - INFO - Q_num14 (GGB ID 14) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 11:09:11,725 - INFO - --- Finished GGB Q_num14 (ID 14) Star Iter1. Saved. ---
+2025-05-07 11:09:11,757 - INFO - --- Running GGB Q_num15 (ID 15) Star Iter1 ---
+2025-05-07 11:09:11,773 - INFO - Q_num15 (GGB ID 15) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:10:17,324 - INFO - Q_num15 (GGB ID 15) Iter0: Chat finished in 65.55s. Msgs: 20
+2025-05-07 11:10:17,325 - INFO - Q_num15 (GGB ID 15) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 11:10:17,325 - INFO - Q_num15 (GGB ID 15) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 11:10:17,326 - INFO - Q_num15 (GGB ID 15) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 11:10:17,326 - INFO - Q_num15 (GGB ID 15) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:10:17,326 - INFO - Q_num15 (GGB ID 15) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:10:17,326 - INFO - Q_num15 (GGB ID 15) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:10:17,326 - INFO - Q_num15 (GGB ID 15) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 11:10:17,326 - INFO - Q_num15 (GGB ID 15) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:10:17,326 - INFO - Q_num15 (GGB ID 15) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 11:10:17,388 - INFO - --- Finished GGB Q_num15 (ID 15) Star Iter1. Saved. ---
+2025-05-07 11:10:17,430 - INFO - --- Running GGB Q_num16 (ID 16) Star Iter1 ---
+2025-05-07 11:10:17,446 - INFO - Q_num16 (GGB ID 16) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:11:35,227 - INFO - Q_num16 (GGB ID 16) Iter0: Chat finished in 77.78s. Msgs: 20
+2025-05-07 11:11:35,227 - INFO - Q_num16 (GGB ID 16) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:11:35,227 - INFO - Q_num16 (GGB ID 16) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 11:11:35,227 - INFO - Q_num16 (GGB ID 16) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans={1}, Conf=No confidence found
+2025-05-07 11:11:35,227 - INFO - Q_num16 (GGB ID 16) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:11:35,227 - INFO - Q_num16 (GGB ID 16) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:11:35,227 - INFO - Q_num16 (GGB ID 16) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:11:35,228 - INFO - Q_num16 (GGB ID 16) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 11:11:35,228 - INFO - Q_num16 (GGB ID 16) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 11:11:35,228 - INFO - Q_num16 (GGB ID 16) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1: Strongly disagree, Conf=No confidence found
+2025-05-07 11:11:35,290 - INFO - --- Finished GGB Q_num16 (ID 16) Star Iter1. Saved. ---
+2025-05-07 11:11:35,328 - INFO - --- Running GGB Q_num17 (ID 17) Star Iter1 ---
+2025-05-07 11:11:35,344 - INFO - Q_num17 (GGB ID 17) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:12:34,728 - INFO - Q_num17 (GGB ID 17) Iter0: Chat finished in 59.38s. Msgs: 20
+2025-05-07 11:12:34,728 - INFO - Q_num17 (GGB ID 17) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=2, Conf=No confidence found
+2025-05-07 11:12:34,728 - INFO - Q_num17 (GGB ID 17) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 11:12:34,728 - INFO - Q_num17 (GGB ID 17) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 11:12:34,728 - INFO - Q_num17 (GGB ID 17) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:12:34,728 - INFO - Q_num17 (GGB ID 17) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:12:34,728 - INFO - Q_num17 (GGB ID 17) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:12:34,728 - INFO - Q_num17 (GGB ID 17) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 11:12:34,728 - INFO - Q_num17 (GGB ID 17) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:12:34,728 - INFO - Q_num17 (GGB ID 17) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 11:12:34,774 - INFO - --- Finished GGB Q_num17 (ID 17) Star Iter1. Saved. ---
+2025-05-07 11:12:34,809 - INFO - --- Running GGB Q_num18 (ID 18) Star Iter1 ---
+2025-05-07 11:12:34,826 - INFO - Q_num18 (GGB ID 18) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:13:33,706 - INFO - Q_num18 (GGB ID 18) Iter0: Chat finished in 58.88s. Msgs: 20
+2025-05-07 11:13:33,706 - INFO - Q_num18 (GGB ID 18) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 11:13:33,706 - INFO - Q_num18 (GGB ID 18) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 11:13:33,706 - INFO - Q_num18 (GGB ID 18) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 11:13:33,706 - INFO - Q_num18 (GGB ID 18) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:13:33,706 - INFO - Q_num18 (GGB ID 18) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=No confidence found
+2025-05-07 11:13:33,706 - INFO - Q_num18 (GGB ID 18) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=No confidence found
+2025-05-07 11:13:33,706 - INFO - Q_num18 (GGB ID 18) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:13:33,707 - INFO - Q_num18 (GGB ID 18) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=2, Conf=No confidence found
+2025-05-07 11:13:33,707 - INFO - Q_num18 (GGB ID 18) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 11:13:33,752 - INFO - --- Finished GGB Q_num18 (ID 18) Star Iter1. Saved. ---
+2025-05-07 11:13:33,793 - INFO - --- Running GGB Q_num19 (ID 19) Star Iter1 ---
+2025-05-07 11:13:33,809 - INFO - Q_num19 (GGB ID 19) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:14:42,324 - INFO - Q_num19 (GGB ID 19) Iter0: Chat finished in 68.51s. Msgs: 20
+2025-05-07 11:14:42,325 - INFO - Q_num19 (GGB ID 19) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=2, Conf=No confidence found
+2025-05-07 11:14:42,326 - INFO - Q_num19 (GGB ID 19) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans={2}, Conf=No confidence found
+2025-05-07 11:14:42,326 - INFO - Q_num19 (GGB ID 19) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=2, Conf=No confidence found
+2025-05-07 11:14:42,326 - INFO - Q_num19 (GGB ID 19) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=No confidence found
+2025-05-07 11:14:42,326 - INFO - Q_num19 (GGB ID 19) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=No confidence found
+2025-05-07 11:14:42,326 - INFO - Q_num19 (GGB ID 19) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=No confidence found
+2025-05-07 11:14:42,326 - INFO - Q_num19 (GGB ID 19) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1: Strongly disagree, Conf=No confidence found
+2025-05-07 11:14:42,326 - INFO - Q_num19 (GGB ID 19) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 11:14:42,326 - INFO - Q_num19 (GGB ID 19) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 11:14:42,370 - INFO - --- Finished GGB Q_num19 (ID 19) Star Iter1. Saved. ---
+2025-05-07 11:14:42,412 - INFO - --- Running GGB Q_num20 (ID 20) Star Iter1 ---
+2025-05-07 11:14:42,428 - INFO - Q_num20 (GGB ID 20) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:15:47,284 - INFO - Q_num20 (GGB ID 20) Iter0: Chat finished in 64.85s. Msgs: 20
+2025-05-07 11:15:47,284 - INFO - Q_num20 (GGB ID 20) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=2, Conf=No confidence found
+2025-05-07 11:15:47,284 - INFO - Q_num20 (GGB ID 20) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans={2}, Conf=No confidence found
+2025-05-07 11:15:47,284 - INFO - Q_num20 (GGB ID 20) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=2, Conf=No confidence found
+2025-05-07 11:15:47,284 - INFO - Q_num20 (GGB ID 20) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:15:47,284 - INFO - Q_num20 (GGB ID 20) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:15:47,284 - INFO - Q_num20 (GGB ID 20) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:15:47,284 - INFO - Q_num20 (GGB ID 20) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 11:15:47,284 - INFO - Q_num20 (GGB ID 20) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:15:47,284 - INFO - Q_num20 (GGB ID 20) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:15:47,330 - INFO - --- Finished GGB Q_num20 (ID 20) Star Iter1. Saved. ---
+2025-05-07 11:15:47,370 - INFO - --- Running GGB Q_num21 (ID 21) Star Iter1 ---
+2025-05-07 11:15:47,386 - INFO - Q_num21 (GGB ID 21) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:17:07,335 - INFO - Q_num21 (GGB ID 21) Iter0: Chat finished in 79.95s. Msgs: 20
+2025-05-07 11:17:07,336 - INFO - Q_num21 (GGB ID 21) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans={2}, Conf=No confidence found
+2025-05-07 11:17:07,336 - INFO - Q_num21 (GGB ID 21) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 11:17:07,336 - INFO - Q_num21 (GGB ID 21) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=2, Conf=No confidence found
+2025-05-07 11:17:07,336 - INFO - Q_num21 (GGB ID 21) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=No confidence found
+2025-05-07 11:17:07,336 - INFO - Q_num21 (GGB ID 21) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:17:07,336 - INFO - Q_num21 (GGB ID 21) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=No confidence found
+2025-05-07 11:17:07,336 - INFO - Q_num21 (GGB ID 21) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:17:07,336 - INFO - Q_num21 (GGB ID 21) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:17:07,336 - INFO - Q_num21 (GGB ID 21) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 11:17:07,386 - INFO - --- Finished GGB Q_num21 (ID 21) Star Iter1. Saved. ---
+2025-05-07 11:17:07,418 - INFO - --- Running GGB Q_num22 (ID 22) Star Iter1 ---
+2025-05-07 11:17:07,433 - INFO - Q_num22 (GGB ID 22) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:18:25,936 - INFO - Q_num22 (GGB ID 22) Iter0: Chat finished in 78.50s. Msgs: 20
+2025-05-07 11:18:25,936 - INFO - Q_num22 (GGB ID 22) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 11:18:25,936 - INFO - Q_num22 (GGB ID 22) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 11:18:25,937 - INFO - Q_num22 (GGB ID 22) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 11:18:25,937 - INFO - Q_num22 (GGB ID 22) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:18:25,937 - INFO - Q_num22 (GGB ID 22) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:18:25,937 - INFO - Q_num22 (GGB ID 22) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:18:25,937 - INFO - Q_num22 (GGB ID 22) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 11:18:25,937 - INFO - Q_num22 (GGB ID 22) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 11:18:25,937 - INFO - Q_num22 (GGB ID 22) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:18:25,983 - INFO - --- Finished GGB Q_num22 (ID 22) Star Iter1. Saved. ---
+2025-05-07 11:18:26,020 - INFO - --- Running GGB Q_num23 (ID 23) Star Iter1 ---
+2025-05-07 11:18:26,037 - INFO - Q_num23 (GGB ID 23) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:19:41,088 - INFO - Q_num23 (GGB ID 23) Iter0: Chat finished in 75.05s. Msgs: 20
+2025-05-07 11:19:41,088 - INFO - Q_num23 (GGB ID 23) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:19:41,088 - INFO - Q_num23 (GGB ID 23) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=2, Conf=No confidence found
+2025-05-07 11:19:41,088 - INFO - Q_num23 (GGB ID 23) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=2, Conf=No confidence found
+2025-05-07 11:19:41,088 - INFO - Q_num23 (GGB ID 23) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:19:41,088 - INFO - Q_num23 (GGB ID 23) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:19:41,089 - INFO - Q_num23 (GGB ID 23) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:19:41,089 - INFO - Q_num23 (GGB ID 23) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 11:19:41,089 - INFO - Q_num23 (GGB ID 23) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 11:19:41,089 - INFO - Q_num23 (GGB ID 23) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:19:41,133 - INFO - --- Finished GGB Q_num23 (ID 23) Star Iter1. Saved. ---
+2025-05-07 11:19:41,175 - INFO - --- Running GGB Q_num24 (ID 24) Star Iter1 ---
+2025-05-07 11:19:41,191 - INFO - Q_num24 (GGB ID 24) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:20:42,601 - INFO - Q_num24 (GGB ID 24) Iter0: Chat finished in 61.41s. Msgs: 20
+2025-05-07 11:20:42,601 - INFO - Q_num24 (GGB ID 24) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=2, Conf=No confidence found
+2025-05-07 11:20:42,601 - INFO - Q_num24 (GGB ID 24) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=2, Conf=No confidence found
+2025-05-07 11:20:42,601 - INFO - Q_num24 (GGB ID 24) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=2, Conf=No confidence found
+2025-05-07 11:20:42,601 - INFO - Q_num24 (GGB ID 24) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=No confidence found
+2025-05-07 11:20:42,602 - INFO - Q_num24 (GGB ID 24) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:20:42,602 - INFO - Q_num24 (GGB ID 24) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:20:42,602 - INFO - Q_num24 (GGB ID 24) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 11:20:42,602 - INFO - Q_num24 (GGB ID 24) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=6, Conf=No confidence found
+2025-05-07 11:20:42,602 - INFO - Q_num24 (GGB ID 24) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1: Strongly disagree, Conf=No confidence found
+2025-05-07 11:20:42,679 - INFO - --- Finished GGB Q_num24 (ID 24) Star Iter1. Saved. ---
+2025-05-07 11:20:42,719 - INFO - --- Running GGB Q_num25 (ID 25) Star Iter1 ---
+2025-05-07 11:20:42,735 - INFO - Q_num25 (GGB ID 25) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:21:46,896 - INFO - Q_num25 (GGB ID 25) Iter0: Chat finished in 64.16s. Msgs: 20
+2025-05-07 11:21:46,896 - INFO - Q_num25 (GGB ID 25) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:21:46,896 - INFO - Q_num25 (GGB ID 25) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 11:21:46,896 - INFO - Q_num25 (GGB ID 25) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 11:21:46,896 - INFO - Q_num25 (GGB ID 25) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=No confidence found
+2025-05-07 11:21:46,896 - INFO - Q_num25 (GGB ID 25) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=No confidence found
+2025-05-07 11:21:46,896 - INFO - Q_num25 (GGB ID 25) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=No confidence found
+2025-05-07 11:21:46,896 - INFO - Q_num25 (GGB ID 25) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1: Strongly disagree, Conf=No confidence found
+2025-05-07 11:21:46,896 - INFO - Q_num25 (GGB ID 25) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1: Strongly disagree, Conf=No confidence found
+2025-05-07 11:21:46,896 - INFO - Q_num25 (GGB ID 25) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 11:21:46,936 - INFO - --- Finished GGB Q_num25 (ID 25) Star Iter1. Saved. ---
+2025-05-07 11:21:46,971 - INFO - --- Running GGB Q_num26 (ID 26) Star Iter1 ---
+2025-05-07 11:21:46,988 - INFO - Q_num26 (GGB ID 26) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:23:04,633 - INFO - Q_num26 (GGB ID 26) Iter0: Chat finished in 77.64s. Msgs: 20
+2025-05-07 11:23:04,633 - INFO - Q_num26 (GGB ID 26) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=2, Conf=No confidence found
+2025-05-07 11:23:04,634 - INFO - Q_num26 (GGB ID 26) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=5, Conf=No confidence found
+2025-05-07 11:23:04,634 - INFO - Q_num26 (GGB ID 26) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=4, Conf=No confidence found
+2025-05-07 11:23:04,634 - INFO - Q_num26 (GGB ID 26) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=No confidence found
+2025-05-07 11:23:04,634 - INFO - Q_num26 (GGB ID 26) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=No confidence found
+2025-05-07 11:23:04,634 - INFO - Q_num26 (GGB ID 26) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=3, Conf=No confidence found
+2025-05-07 11:23:04,634 - INFO - Q_num26 (GGB ID 26) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5, Conf=No confidence found
+2025-05-07 11:23:04,634 - INFO - Q_num26 (GGB ID 26) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=4, Conf=No confidence found
+2025-05-07 11:23:04,634 - INFO - Q_num26 (GGB ID 26) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=4, Conf=No confidence found
+2025-05-07 11:23:04,672 - INFO - --- Finished GGB Q_num26 (ID 26) Star Iter1. Saved. ---
+2025-05-07 11:23:04,709 - INFO - --- Running GGB Q_num27 (ID 27) Star Iter1 ---
+2025-05-07 11:23:04,726 - INFO - Q_num27 (GGB ID 27) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:24:34,452 - INFO - Q_num27 (GGB ID 27) Iter0: Chat finished in 89.72s. Msgs: 20
+2025-05-07 11:24:34,453 - INFO - Q_num27 (GGB ID 27) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=2, Conf=No confidence found
+2025-05-07 11:24:34,453 - INFO - Q_num27 (GGB ID 27) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans={2}, Conf=No confidence found
+2025-05-07 11:24:34,453 - INFO - Q_num27 (GGB ID 27) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans={1}, Conf=No confidence found
+2025-05-07 11:24:34,453 - INFO - Q_num27 (GGB ID 27) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:24:34,454 - INFO - Q_num27 (GGB ID 27) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:24:34,454 - INFO - Q_num27 (GGB ID 27) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:24:34,454 - INFO - Q_num27 (GGB ID 27) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 11:24:34,454 - INFO - Q_num27 (GGB ID 27) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:24:34,454 - INFO - Q_num27 (GGB ID 27) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:24:34,493 - INFO - --- Finished GGB Q_num27 (ID 27) Star Iter1. Saved. ---
+2025-05-07 11:24:34,530 - INFO - --- Running GGB Q_num28 (ID 28) Star Iter1 ---
+2025-05-07 11:24:34,547 - INFO - Q_num28 (GGB ID 28) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:25:49,360 - INFO - Q_num28 (GGB ID 28) Iter0: Chat finished in 74.81s. Msgs: 20
+2025-05-07 11:25:49,360 - INFO - Q_num28 (GGB ID 28) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 11:25:49,363 - INFO - Q_num28 (GGB ID 28) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 11:25:49,364 - INFO - Q_num28 (GGB ID 28) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=2, Conf=No confidence found
+2025-05-07 11:25:49,364 - INFO - Q_num28 (GGB ID 28) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:25:49,364 - INFO - Q_num28 (GGB ID 28) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:25:49,364 - INFO - Q_num28 (GGB ID 28) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:25:49,364 - INFO - Q_num28 (GGB ID 28) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:25:49,364 - INFO - Q_num28 (GGB ID 28) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:25:49,364 - INFO - Q_num28 (GGB ID 28) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1:, Conf=No confidence found
+2025-05-07 11:25:49,412 - INFO - --- Finished GGB Q_num28 (ID 28) Star Iter1. Saved. ---
+2025-05-07 11:25:49,446 - INFO - --- Running GGB Q_num29 (ID 29) Star Iter1 ---
+2025-05-07 11:25:49,461 - INFO - Q_num29 (GGB ID 29) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:27:00,991 - INFO - Q_num29 (GGB ID 29) Iter0: Chat finished in 71.53s. Msgs: 20
+2025-05-07 11:27:00,991 - INFO - Q_num29 (GGB ID 29) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 11:27:00,991 - INFO - Q_num29 (GGB ID 29) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 11:27:00,991 - INFO - Q_num29 (GGB ID 29) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 11:27:00,991 - INFO - Q_num29 (GGB ID 29) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:27:00,991 - INFO - Q_num29 (GGB ID 29) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:27:00,991 - INFO - Q_num29 (GGB ID 29) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:27:00,991 - INFO - Q_num29 (GGB ID 29) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1: Strongly disagree, Conf=No confidence found
+2025-05-07 11:27:00,991 - INFO - Q_num29 (GGB ID 29) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 11:27:00,991 - INFO - Q_num29 (GGB ID 29) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=2: Disagree, Conf=No confidence found
+2025-05-07 11:27:01,035 - INFO - --- Finished GGB Q_num29 (ID 29) Star Iter1. Saved. ---
+2025-05-07 11:27:01,075 - INFO - --- Running GGB Q_num30 (ID 30) Star Iter1 ---
+2025-05-07 11:27:01,091 - INFO - Q_num30 (GGB ID 30) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:28:03,452 - INFO - Q_num30 (GGB ID 30) Iter0: Chat finished in 62.36s. Msgs: 20
+2025-05-07 11:28:03,453 - INFO - Q_num30 (GGB ID 30) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=3, Conf=No confidence found
+2025-05-07 11:28:03,453 - INFO - Q_num30 (GGB ID 30) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=2, Conf=No confidence found
+2025-05-07 11:28:03,453 - INFO - Q_num30 (GGB ID 30) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=3, Conf=No confidence found
+2025-05-07 11:28:03,453 - INFO - Q_num30 (GGB ID 30) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:28:03,453 - INFO - Q_num30 (GGB ID 30) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=No confidence found
+2025-05-07 11:28:03,453 - INFO - Q_num30 (GGB ID 30) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:28:03,453 - INFO - Q_num30 (GGB ID 30) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:28:03,453 - INFO - Q_num30 (GGB ID 30) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=7, Conf=No confidence found
+2025-05-07 11:28:03,453 - INFO - Q_num30 (GGB ID 30) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:28:03,498 - INFO - --- Finished GGB Q_num30 (ID 30) Star Iter1. Saved. ---
+2025-05-07 11:28:03,541 - INFO - --- Running GGB Q_num31 (ID 31) Star Iter1 ---
+2025-05-07 11:28:03,557 - INFO - Q_num31 (GGB ID 31) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:28:56,459 - INFO - Q_num31 (GGB ID 31) Iter0: Chat finished in 52.90s. Msgs: 20
+2025-05-07 11:28:56,461 - INFO - Q_num31 (GGB ID 31) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:28:56,461 - INFO - Q_num31 (GGB ID 31) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 11:28:56,461 - INFO - Q_num31 (GGB ID 31) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=2, Conf=No confidence found
+2025-05-07 11:28:56,461 - INFO - Q_num31 (GGB ID 31) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:28:56,461 - INFO - Q_num31 (GGB ID 31) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:28:56,461 - INFO - Q_num31 (GGB ID 31) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:28:56,461 - INFO - Q_num31 (GGB ID 31) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1 (Strongly disagree), Conf=No confidence found
+2025-05-07 11:28:56,461 - INFO - Q_num31 (GGB ID 31) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:28:56,461 - INFO - Q_num31 (GGB ID 31) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:28:56,506 - INFO - --- Finished GGB Q_num31 (ID 31) Star Iter1. Saved. ---
+2025-05-07 11:28:56,552 - INFO - --- Running GGB Q_num32 (ID 32) Star Iter1 ---
+2025-05-07 11:28:56,568 - INFO - Q_num32 (GGB ID 32) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:29:51,778 - INFO - Q_num32 (GGB ID 32) Iter0: Chat finished in 55.21s. Msgs: 20
+2025-05-07 11:29:51,778 - INFO - Q_num32 (GGB ID 32) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans={2}, Conf=No confidence found
+2025-05-07 11:29:51,778 - INFO - Q_num32 (GGB ID 32) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 11:29:51,778 - INFO - Q_num32 (GGB ID 32) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 11:29:51,778 - INFO - Q_num32 (GGB ID 32) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:29:51,778 - INFO - Q_num32 (GGB ID 32) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:29:51,778 - INFO - Q_num32 (GGB ID 32) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:29:51,778 - INFO - Q_num32 (GGB ID 32) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:29:51,778 - INFO - Q_num32 (GGB ID 32) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:29:51,778 - INFO - Q_num32 (GGB ID 32) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 11:29:51,817 - INFO - --- Finished GGB Q_num32 (ID 32) Star Iter1. Saved. ---
+2025-05-07 11:29:51,849 - INFO - --- Running GGB Q_num33 (ID 33) Star Iter1 ---
+2025-05-07 11:29:51,865 - INFO - Q_num33 (GGB ID 33) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:31:00,358 - INFO - Q_num33 (GGB ID 33) Iter0: Chat finished in 68.49s. Msgs: 20
+2025-05-07 11:31:00,358 - INFO - Q_num33 (GGB ID 33) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=2, Conf=No confidence found
+2025-05-07 11:31:00,358 - INFO - Q_num33 (GGB ID 33) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=2, Conf=No confidence found
+2025-05-07 11:31:00,358 - INFO - Q_num33 (GGB ID 33) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 11:31:00,358 - INFO - Q_num33 (GGB ID 33) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=No confidence found
+2025-05-07 11:31:00,358 - INFO - Q_num33 (GGB ID 33) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=No confidence found
+2025-05-07 11:31:00,358 - INFO - Q_num33 (GGB ID 33) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:31:00,358 - INFO - Q_num33 (GGB ID 33) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=2, Conf=No confidence found
+2025-05-07 11:31:00,358 - INFO - Q_num33 (GGB ID 33) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:31:00,358 - INFO - Q_num33 (GGB ID 33) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 11:31:00,402 - INFO - --- Finished GGB Q_num33 (ID 33) Star Iter1. Saved. ---
+2025-05-07 11:31:00,436 - INFO - --- Running GGB Q_num34 (ID 34) Star Iter1 ---
+2025-05-07 11:31:00,453 - INFO - Q_num34 (GGB ID 34) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:32:11,742 - INFO - Q_num34 (GGB ID 34) Iter0: Chat finished in 71.28s. Msgs: 20
+2025-05-07 11:32:11,742 - INFO - Q_num34 (GGB ID 34) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:32:11,742 - INFO - Q_num34 (GGB ID 34) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 11:32:11,743 - INFO - Q_num34 (GGB ID 34) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=2, Conf=No confidence found
+2025-05-07 11:32:11,743 - INFO - Q_num34 (GGB ID 34) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:32:11,743 - INFO - Q_num34 (GGB ID 34) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:32:11,743 - INFO - Q_num34 (GGB ID 34) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:32:11,743 - INFO - Q_num34 (GGB ID 34) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 11:32:11,743 - INFO - Q_num34 (GGB ID 34) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 11:32:11,743 - INFO - Q_num34 (GGB ID 34) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 11:32:11,792 - INFO - --- Finished GGB Q_num34 (ID 34) Star Iter1. Saved. ---
+2025-05-07 11:32:11,824 - INFO - --- Running GGB Q_num35 (ID 35) Star Iter1 ---
+2025-05-07 11:32:11,840 - INFO - Q_num35 (GGB ID 35) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:33:12,887 - INFO - Q_num35 (GGB ID 35) Iter0: Chat finished in 61.04s. Msgs: 20
+2025-05-07 11:33:12,887 - INFO - Q_num35 (GGB ID 35) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=3, Conf=No confidence found
+2025-05-07 11:33:12,887 - INFO - Q_num35 (GGB ID 35) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=2, Conf=No confidence found
+2025-05-07 11:33:12,888 - INFO - Q_num35 (GGB ID 35) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=3, Conf=No confidence found
+2025-05-07 11:33:12,888 - INFO - Q_num35 (GGB ID 35) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=No confidence found
+2025-05-07 11:33:12,888 - INFO - Q_num35 (GGB ID 35) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=5, Conf=No confidence found
+2025-05-07 11:33:12,888 - INFO - Q_num35 (GGB ID 35) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=No confidence found
+2025-05-07 11:33:12,888 - INFO - Q_num35 (GGB ID 35) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=3, Conf=No confidence found
+2025-05-07 11:33:12,888 - INFO - Q_num35 (GGB ID 35) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:33:12,888 - INFO - Q_num35 (GGB ID 35) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 11:33:12,930 - INFO - --- Finished GGB Q_num35 (ID 35) Star Iter1. Saved. ---
+2025-05-07 11:33:12,968 - INFO - --- Running GGB Q_num36 (ID 36) Star Iter1 ---
+2025-05-07 11:33:12,984 - INFO - Q_num36 (GGB ID 36) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:34:30,101 - INFO - Q_num36 (GGB ID 36) Iter0: Chat finished in 77.11s. Msgs: 20
+2025-05-07 11:34:30,101 - INFO - Q_num36 (GGB ID 36) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=2, Conf=No confidence found
+2025-05-07 11:34:30,101 - INFO - Q_num36 (GGB ID 36) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=2, Conf=No confidence found
+2025-05-07 11:34:30,101 - INFO - Q_num36 (GGB ID 36) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 11:34:30,101 - INFO - Q_num36 (GGB ID 36) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=No confidence found
+2025-05-07 11:34:30,101 - INFO - Q_num36 (GGB ID 36) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=No confidence found
+2025-05-07 11:34:30,101 - INFO - Q_num36 (GGB ID 36) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:34:30,101 - INFO - Q_num36 (GGB ID 36) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 11:34:30,101 - INFO - Q_num36 (GGB ID 36) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 11:34:30,101 - INFO - Q_num36 (GGB ID 36) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:34:30,141 - INFO - --- Finished GGB Q_num36 (ID 36) Star Iter1. Saved. ---
+2025-05-07 11:34:30,173 - INFO - --- Running GGB Q_num37 (ID 37) Star Iter1 ---
+2025-05-07 11:34:30,189 - INFO - Q_num37 (GGB ID 37) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:35:28,879 - INFO - Q_num37 (GGB ID 37) Iter0: Chat finished in 58.69s. Msgs: 20
+2025-05-07 11:35:28,879 - INFO - Q_num37 (GGB ID 37) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 11:35:28,879 - INFO - Q_num37 (GGB ID 37) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 11:35:28,879 - INFO - Q_num37 (GGB ID 37) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 11:35:28,879 - INFO - Q_num37 (GGB ID 37) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:35:28,880 - INFO - Q_num37 (GGB ID 37) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:35:28,880 - INFO - Q_num37 (GGB ID 37) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:35:28,880 - INFO - Q_num37 (GGB ID 37) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 11:35:28,880 - INFO - Q_num37 (GGB ID 37) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:35:28,880 - INFO - Q_num37 (GGB ID 37) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:35:28,924 - INFO - --- Finished GGB Q_num37 (ID 37) Star Iter1. Saved. ---
+2025-05-07 11:35:28,959 - INFO - --- Running GGB Q_num38 (ID 38) Star Iter1 ---
+2025-05-07 11:35:28,975 - INFO - Q_num38 (GGB ID 38) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:36:22,116 - INFO - Q_num38 (GGB ID 38) Iter0: Chat finished in 53.14s. Msgs: 20
+2025-05-07 11:36:22,117 - INFO - Q_num38 (GGB ID 38) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=2, Conf=No confidence found
+2025-05-07 11:36:22,117 - INFO - Q_num38 (GGB ID 38) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=2, Conf=No confidence found
+2025-05-07 11:36:22,117 - INFO - Q_num38 (GGB ID 38) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 11:36:22,117 - INFO - Q_num38 (GGB ID 38) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:36:22,117 - INFO - Q_num38 (GGB ID 38) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:36:22,117 - INFO - Q_num38 (GGB ID 38) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:36:22,118 - INFO - Q_num38 (GGB ID 38) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 11:36:22,118 - INFO - Q_num38 (GGB ID 38) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:36:22,119 - INFO - Q_num38 (GGB ID 38) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 11:36:22,166 - INFO - --- Finished GGB Q_num38 (ID 38) Star Iter1. Saved. ---
+2025-05-07 11:36:22,204 - INFO - --- Running GGB Q_num39 (ID 39) Star Iter1 ---
+2025-05-07 11:36:22,220 - INFO - Q_num39 (GGB ID 39) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:37:32,620 - INFO - Q_num39 (GGB ID 39) Iter0: Chat finished in 70.40s. Msgs: 20
+2025-05-07 11:37:32,621 - INFO - Q_num39 (GGB ID 39) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=5, Conf=No confidence found
+2025-05-07 11:37:32,621 - INFO - Q_num39 (GGB ID 39) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=5, Conf=No confidence found
+2025-05-07 11:37:32,621 - INFO - Q_num39 (GGB ID 39) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=4, Conf=No confidence found
+2025-05-07 11:37:32,621 - INFO - Q_num39 (GGB ID 39) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=No confidence found
+2025-05-07 11:37:32,621 - INFO - Q_num39 (GGB ID 39) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=No confidence found
+2025-05-07 11:37:32,621 - INFO - Q_num39 (GGB ID 39) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=No confidence found
+2025-05-07 11:37:32,621 - INFO - Q_num39 (GGB ID 39) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:37:32,621 - INFO - Q_num39 (GGB ID 39) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=2, Conf=No confidence found
+2025-05-07 11:37:32,621 - INFO - Q_num39 (GGB ID 39) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=2, Conf=No confidence found
+2025-05-07 11:37:32,664 - INFO - --- Finished GGB Q_num39 (ID 39) Star Iter1. Saved. ---
+2025-05-07 11:37:32,698 - INFO - --- Running GGB Q_num40 (ID 40) Star Iter1 ---
+2025-05-07 11:37:32,714 - INFO - Q_num40 (GGB ID 40) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:38:30,435 - INFO - Q_num40 (GGB ID 40) Iter0: Chat finished in 57.72s. Msgs: 20
+2025-05-07 11:38:30,436 - INFO - Q_num40 (GGB ID 40) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 11:38:30,436 - INFO - Q_num40 (GGB ID 40) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 11:38:30,436 - INFO - Q_num40 (GGB ID 40) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-07 11:38:30,436 - INFO - Q_num40 (GGB ID 40) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:38:30,436 - INFO - Q_num40 (GGB ID 40) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:38:30,436 - INFO - Q_num40 (GGB ID 40) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=No confidence found
+2025-05-07 11:38:30,436 - INFO - Q_num40 (GGB ID 40) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:38:30,436 - INFO - Q_num40 (GGB ID 40) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 11:38:30,436 - INFO - Q_num40 (GGB ID 40) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 11:38:30,506 - INFO - --- Finished GGB Q_num40 (ID 40) Star Iter1. Saved. ---
+2025-05-07 11:38:30,550 - INFO - --- Running GGB Q_num41 (ID 41) Star Iter1 ---
+2025-05-07 11:38:30,564 - INFO - Q_num41 (GGB ID 41) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:39:31,504 - INFO - Q_num41 (GGB ID 41) Iter0: Chat finished in 60.94s. Msgs: 20
+2025-05-07 11:39:31,504 - INFO - Q_num41 (GGB ID 41) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:39:31,504 - INFO - Q_num41 (GGB ID 41) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=No confidence found
+2025-05-07 11:39:31,504 - INFO - Q_num41 (GGB ID 41) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=7, Conf=No confidence found
+2025-05-07 11:39:31,504 - INFO - Q_num41 (GGB ID 41) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=5, Conf=No confidence found
+2025-05-07 11:39:31,504 - INFO - Q_num41 (GGB ID 41) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-07 11:39:31,504 - INFO - Q_num41 (GGB ID 41) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-07 11:39:31,504 - INFO - Q_num41 (GGB ID 41) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=7, Conf=No confidence found
+2025-05-07 11:39:31,504 - INFO - Q_num41 (GGB ID 41) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:39:31,505 - INFO - Q_num41 (GGB ID 41) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:39:31,547 - INFO - --- Finished GGB Q_num41 (ID 41) Star Iter1. Saved. ---
+2025-05-07 11:39:31,584 - INFO - --- Running GGB Q_num42 (ID 42) Star Iter1 ---
+2025-05-07 11:39:31,601 - INFO - Q_num42 (GGB ID 42) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:40:38,805 - INFO - Q_num42 (GGB ID 42) Iter0: Chat finished in 67.20s. Msgs: 20
+2025-05-07 11:40:38,805 - INFO - Q_num42 (GGB ID 42) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans={7}, Conf=No confidence found
+2025-05-07 11:40:38,805 - INFO - Q_num42 (GGB ID 42) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=4, Conf=No confidence found
+2025-05-07 11:40:38,805 - INFO - Q_num42 (GGB ID 42) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=No confidence found
+2025-05-07 11:40:38,806 - INFO - Q_num42 (GGB ID 42) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=No confidence found
+2025-05-07 11:40:38,806 - INFO - Q_num42 (GGB ID 42) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=5, Conf=No confidence found
+2025-05-07 11:40:38,806 - INFO - Q_num42 (GGB ID 42) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-07 11:40:38,806 - INFO - Q_num42 (GGB ID 42) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=6, Conf=No confidence found
+2025-05-07 11:40:38,806 - INFO - Q_num42 (GGB ID 42) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=7, Conf=No confidence found
+2025-05-07 11:40:38,806 - INFO - Q_num42 (GGB ID 42) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:40:38,854 - INFO - --- Finished GGB Q_num42 (ID 42) Star Iter1. Saved. ---
+2025-05-07 11:40:38,899 - INFO - --- Running GGB Q_num43 (ID 43) Star Iter1 ---
+2025-05-07 11:40:38,915 - INFO - Q_num43 (GGB ID 43) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:41:57,315 - INFO - Q_num43 (GGB ID 43) Iter0: Chat finished in 78.40s. Msgs: 20
+2025-05-07 11:41:57,315 - INFO - Q_num43 (GGB ID 43) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:41:57,315 - INFO - Q_num43 (GGB ID 43) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=No confidence found
+2025-05-07 11:41:57,315 - INFO - Q_num43 (GGB ID 43) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=No confidence found
+2025-05-07 11:41:57,315 - INFO - Q_num43 (GGB ID 43) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=No confidence found
+2025-05-07 11:41:57,315 - INFO - Q_num43 (GGB ID 43) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=No confidence found
+2025-05-07 11:41:57,315 - INFO - Q_num43 (GGB ID 43) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=5, Conf=No confidence found
+2025-05-07 11:41:57,315 - INFO - Q_num43 (GGB ID 43) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=6, Conf=No confidence found
+2025-05-07 11:41:57,315 - INFO - Q_num43 (GGB ID 43) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=6, Conf=No confidence found
+2025-05-07 11:41:57,315 - INFO - Q_num43 (GGB ID 43) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=6, Conf=No confidence found
+2025-05-07 11:41:57,359 - INFO - --- Finished GGB Q_num43 (ID 43) Star Iter1. Saved. ---
+2025-05-07 11:41:57,397 - INFO - --- Running GGB Q_num44 (ID 44) Star Iter1 ---
+2025-05-07 11:41:57,413 - INFO - Q_num44 (GGB ID 44) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:43:35,396 - INFO - Q_num44 (GGB ID 44) Iter0: Chat finished in 97.98s. Msgs: 20
+2025-05-07 11:43:35,396 - INFO - Q_num44 (GGB ID 44) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=5, Conf=No confidence found
+2025-05-07 11:43:35,396 - INFO - Q_num44 (GGB ID 44) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=5, Conf=No confidence found
+2025-05-07 11:43:35,396 - INFO - Q_num44 (GGB ID 44) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=No confidence found
+2025-05-07 11:43:35,396 - INFO - Q_num44 (GGB ID 44) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-07 11:43:35,396 - INFO - Q_num44 (GGB ID 44) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=5, Conf=No confidence found
+2025-05-07 11:43:35,396 - INFO - Q_num44 (GGB ID 44) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-07 11:43:35,396 - INFO - Q_num44 (GGB ID 44) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=6, Conf=No confidence found
+2025-05-07 11:43:35,396 - INFO - Q_num44 (GGB ID 44) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5, Conf=No confidence found
+2025-05-07 11:43:35,396 - INFO - Q_num44 (GGB ID 44) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5, Conf=No confidence found
+2025-05-07 11:43:35,438 - INFO - --- Finished GGB Q_num44 (ID 44) Star Iter1. Saved. ---
+2025-05-07 11:43:35,474 - INFO - --- Running GGB Q_num45 (ID 45) Star Iter1 ---
+2025-05-07 11:43:35,490 - INFO - Q_num45 (GGB ID 45) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:44:57,915 - INFO - Q_num45 (GGB ID 45) Iter0: Chat finished in 82.42s. Msgs: 20
+2025-05-07 11:44:57,915 - INFO - Q_num45 (GGB ID 45) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:44:57,915 - INFO - Q_num45 (GGB ID 45) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=4, Conf=No confidence found
+2025-05-07 11:44:57,916 - INFO - Q_num45 (GGB ID 45) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=4, Conf=No confidence found
+2025-05-07 11:44:57,916 - INFO - Q_num45 (GGB ID 45) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=No confidence found
+2025-05-07 11:44:57,916 - INFO - Q_num45 (GGB ID 45) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=No confidence found
+2025-05-07 11:44:57,916 - INFO - Q_num45 (GGB ID 45) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=No confidence found
+2025-05-07 11:44:57,916 - INFO - Q_num45 (GGB ID 45) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5, Conf=No confidence found
+2025-05-07 11:44:57,916 - INFO - Q_num45 (GGB ID 45) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5: Slightly agree, Conf=No confidence found
+2025-05-07 11:44:57,916 - INFO - Q_num45 (GGB ID 45) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=6, Conf=No confidence found
+2025-05-07 11:44:57,954 - INFO - --- Finished GGB Q_num45 (ID 45) Star Iter1. Saved. ---
+2025-05-07 11:44:57,996 - INFO - --- Running GGB Q_num46 (ID 46) Star Iter1 ---
+2025-05-07 11:44:58,014 - INFO - Q_num46 (GGB ID 46) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:46:11,614 - INFO - Q_num46 (GGB ID 46) Iter0: Chat finished in 73.60s. Msgs: 20
+2025-05-07 11:46:11,614 - INFO - Q_num46 (GGB ID 46) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:46:11,614 - INFO - Q_num46 (GGB ID 46) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=4, Conf=No confidence found
+2025-05-07 11:46:11,614 - INFO - Q_num46 (GGB ID 46) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=4, Conf=No confidence found
+2025-05-07 11:46:11,614 - INFO - Q_num46 (GGB ID 46) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=5, Conf=No confidence found
+2025-05-07 11:46:11,615 - INFO - Q_num46 (GGB ID 46) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=No confidence found
+2025-05-07 11:46:11,615 - INFO - Q_num46 (GGB ID 46) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=No confidence found
+2025-05-07 11:46:11,615 - INFO - Q_num46 (GGB ID 46) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=4, Conf=No confidence found
+2025-05-07 11:46:11,615 - INFO - Q_num46 (GGB ID 46) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=4, Conf=No confidence found
+2025-05-07 11:46:11,615 - INFO - Q_num46 (GGB ID 46) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=4, Conf=No confidence found
+2025-05-07 11:46:11,657 - INFO - --- Finished GGB Q_num46 (ID 46) Star Iter1. Saved. ---
+2025-05-07 11:46:11,692 - INFO - --- Running GGB Q_num47 (ID 47) Star Iter1 ---
+2025-05-07 11:46:11,707 - INFO - Q_num47 (GGB ID 47) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:47:17,346 - INFO - Q_num47 (GGB ID 47) Iter0: Chat finished in 65.64s. Msgs: 20
+2025-05-07 11:47:17,347 - INFO - Q_num47 (GGB ID 47) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=5, Conf=No confidence found
+2025-05-07 11:47:17,347 - INFO - Q_num47 (GGB ID 47) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans={6}, Conf=No confidence found
+2025-05-07 11:47:17,347 - INFO - Q_num47 (GGB ID 47) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=5, Conf=No confidence found
+2025-05-07 11:47:17,347 - INFO - Q_num47 (GGB ID 47) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=5, Conf=No confidence found
+2025-05-07 11:47:17,347 - INFO - Q_num47 (GGB ID 47) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=5, Conf=No confidence found
+2025-05-07 11:47:17,347 - INFO - Q_num47 (GGB ID 47) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=5, Conf=No confidence found
+2025-05-07 11:47:17,347 - INFO - Q_num47 (GGB ID 47) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5, Conf=No confidence found
+2025-05-07 11:47:17,347 - INFO - Q_num47 (GGB ID 47) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=6, Conf=No confidence found
+2025-05-07 11:47:17,347 - INFO - Q_num47 (GGB ID 47) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=6, Conf=No confidence found
+2025-05-07 11:47:17,401 - INFO - --- Finished GGB Q_num47 (ID 47) Star Iter1. Saved. ---
+2025-05-07 11:47:17,438 - INFO - --- Running GGB Q_num48 (ID 48) Star Iter1 ---
+2025-05-07 11:47:17,453 - INFO - Q_num48 (GGB ID 48) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:48:23,013 - INFO - Q_num48 (GGB ID 48) Iter0: Chat finished in 65.56s. Msgs: 20
+2025-05-07 11:48:23,013 - INFO - Q_num48 (GGB ID 48) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:48:23,013 - INFO - Q_num48 (GGB ID 48) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans={3}, Conf=No confidence found
+2025-05-07 11:48:23,013 - INFO - Q_num48 (GGB ID 48) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=3, Conf=No confidence found
+2025-05-07 11:48:23,013 - INFO - Q_num48 (GGB ID 48) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=3, Conf=No confidence found
+2025-05-07 11:48:23,013 - INFO - Q_num48 (GGB ID 48) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=3, Conf=No confidence found
+2025-05-07 11:48:23,013 - INFO - Q_num48 (GGB ID 48) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=3, Conf=No confidence found
+2025-05-07 11:48:23,013 - INFO - Q_num48 (GGB ID 48) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:48:23,013 - INFO - Q_num48 (GGB ID 48) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:48:23,013 - INFO - Q_num48 (GGB ID 48) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:48:23,067 - INFO - --- Finished GGB Q_num48 (ID 48) Star Iter1. Saved. ---
+2025-05-07 11:48:23,106 - INFO - --- Running GGB Q_num49 (ID 49) Star Iter1 ---
+2025-05-07 11:48:23,122 - INFO - Q_num49 (GGB ID 49) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:49:32,168 - INFO - Q_num49 (GGB ID 49) Iter0: Chat finished in 69.04s. Msgs: 20
+2025-05-07 11:49:32,168 - INFO - Q_num49 (GGB ID 49) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:49:32,168 - INFO - Q_num49 (GGB ID 49) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=No confidence found
+2025-05-07 11:49:32,168 - INFO - Q_num49 (GGB ID 49) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=No confidence found
+2025-05-07 11:49:32,168 - INFO - Q_num49 (GGB ID 49) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=No confidence found
+2025-05-07 11:49:32,168 - INFO - Q_num49 (GGB ID 49) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=3, Conf=No confidence found
+2025-05-07 11:49:32,168 - INFO - Q_num49 (GGB ID 49) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=No confidence found
+2025-05-07 11:49:32,169 - INFO - Q_num49 (GGB ID 49) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5, Conf=No confidence found
+2025-05-07 11:49:32,169 - INFO - Q_num49 (GGB ID 49) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:49:32,169 - INFO - Q_num49 (GGB ID 49) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5, Conf=No confidence found
+2025-05-07 11:49:32,214 - INFO - --- Finished GGB Q_num49 (ID 49) Star Iter1. Saved. ---
+2025-05-07 11:49:32,265 - INFO - --- Running GGB Q_num50 (ID 50) Star Iter1 ---
+2025-05-07 11:49:32,281 - INFO - Q_num50 (GGB ID 50) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:50:49,148 - INFO - Q_num50 (GGB ID 50) Iter0: Chat finished in 76.86s. Msgs: 20
+2025-05-07 11:50:49,148 - INFO - Q_num50 (GGB ID 50) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=2, Conf=No confidence found
+2025-05-07 11:50:49,148 - INFO - Q_num50 (GGB ID 50) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=3, Conf=No confidence found
+2025-05-07 11:50:49,148 - INFO - Q_num50 (GGB ID 50) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=3, Conf=No confidence found
+2025-05-07 11:50:49,148 - INFO - Q_num50 (GGB ID 50) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=No confidence found
+2025-05-07 11:50:49,148 - INFO - Q_num50 (GGB ID 50) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=No confidence found
+2025-05-07 11:50:49,148 - INFO - Q_num50 (GGB ID 50) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=3, Conf=No confidence found
+2025-05-07 11:50:49,148 - INFO - Q_num50 (GGB ID 50) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=6, Conf=No confidence found
+2025-05-07 11:50:49,148 - INFO - Q_num50 (GGB ID 50) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=6, Conf=No confidence found
+2025-05-07 11:50:49,148 - INFO - Q_num50 (GGB ID 50) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=6, Conf=No confidence found
+2025-05-07 11:50:49,194 - INFO - --- Finished GGB Q_num50 (ID 50) Star Iter1. Saved. ---
+2025-05-07 11:50:49,244 - INFO - --- Running GGB Q_num51 (ID 51) Star Iter1 ---
+2025-05-07 11:50:49,260 - INFO - Q_num51 (GGB ID 51) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:52:37,569 - INFO - Q_num51 (GGB ID 51) Iter0: Chat finished in 108.31s. Msgs: 20
+2025-05-07 11:52:37,569 - INFO - Q_num51 (GGB ID 51) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=No confidence found
+2025-05-07 11:52:37,570 - INFO - Q_num51 (GGB ID 51) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans={6}, Conf=No confidence found
+2025-05-07 11:52:37,570 - INFO - Q_num51 (GGB ID 51) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans={5}, Conf=No confidence found
+2025-05-07 11:52:37,570 - INFO - Q_num51 (GGB ID 51) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=No confidence found
+2025-05-07 11:52:37,570 - INFO - Q_num51 (GGB ID 51) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=No confidence found
+2025-05-07 11:52:37,570 - INFO - Q_num51 (GGB ID 51) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=No confidence found
+2025-05-07 11:52:37,570 - INFO - Q_num51 (GGB ID 51) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=4, Conf=No confidence found
+2025-05-07 11:52:37,570 - INFO - Q_num51 (GGB ID 51) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=4, Conf=No confidence found
+2025-05-07 11:52:37,570 - INFO - Q_num51 (GGB ID 51) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=Rationale Answer: Considering the balanced perspectives of the group, I would rate my response as a 4 (Neutral). While there is a strong moral obligation to help, personal financial security should also be taken into account, making it a delicate decision., Conf=No confidence found
+2025-05-07 11:52:37,617 - INFO - --- Finished GGB Q_num51 (ID 51) Star Iter1. Saved. ---
+2025-05-07 11:52:37,665 - INFO - --- Running GGB Q_num52 (ID 52) Star Iter1 ---
+2025-05-07 11:52:37,681 - INFO - Q_num52 (GGB ID 52) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:53:54,280 - INFO - Q_num52 (GGB ID 52) Iter0: Chat finished in 76.60s. Msgs: 20
+2025-05-07 11:53:54,281 - INFO - Q_num52 (GGB ID 52) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=4, Conf=No confidence found
+2025-05-07 11:53:54,281 - INFO - Q_num52 (GGB ID 52) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=5, Conf=No confidence found
+2025-05-07 11:53:54,281 - INFO - Q_num52 (GGB ID 52) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=5, Conf=No confidence found
+2025-05-07 11:53:54,281 - INFO - Q_num52 (GGB ID 52) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=3, Conf=No confidence found
+2025-05-07 11:53:54,281 - INFO - Q_num52 (GGB ID 52) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=No confidence found
+2025-05-07 11:53:54,281 - INFO - Q_num52 (GGB ID 52) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=3, Conf=No confidence found
+2025-05-07 11:53:54,281 - INFO - Q_num52 (GGB ID 52) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=3, Conf=No confidence found
+2025-05-07 11:53:54,281 - INFO - Q_num52 (GGB ID 52) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=4, Conf=No confidence found
+2025-05-07 11:53:54,281 - INFO - Q_num52 (GGB ID 52) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=4, Conf=No confidence found
+2025-05-07 11:53:54,328 - INFO - --- Finished GGB Q_num52 (ID 52) Star Iter1. Saved. ---
+2025-05-07 11:53:54,366 - INFO - --- Running GGB Q_num53 (ID 53) Star Iter1 ---
+2025-05-07 11:53:54,382 - INFO - Q_num53 (GGB ID 53) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:54:57,085 - INFO - Q_num53 (GGB ID 53) Iter0: Chat finished in 62.70s. Msgs: 20
+2025-05-07 11:54:57,085 - INFO - Q_num53 (GGB ID 53) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:54:57,085 - INFO - Q_num53 (GGB ID 53) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans={3}, Conf=No confidence found
+2025-05-07 11:54:57,085 - INFO - Q_num53 (GGB ID 53) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=4, Conf=No confidence found
+2025-05-07 11:54:57,085 - INFO - Q_num53 (GGB ID 53) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=5, Conf=No confidence found
+2025-05-07 11:54:57,086 - INFO - Q_num53 (GGB ID 53) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=No confidence found
+2025-05-07 11:54:57,086 - INFO - Q_num53 (GGB ID 53) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=5, Conf=No confidence found
+2025-05-07 11:54:57,086 - INFO - Q_num53 (GGB ID 53) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=7, Conf=No confidence found
+2025-05-07 11:54:57,086 - INFO - Q_num53 (GGB ID 53) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:54:57,086 - INFO - Q_num53 (GGB ID 53) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:54:57,132 - INFO - --- Finished GGB Q_num53 (ID 53) Star Iter1. Saved. ---
+2025-05-07 11:54:57,173 - INFO - --- Running GGB Q_num54 (ID 54) Star Iter1 ---
+2025-05-07 11:54:57,189 - INFO - Q_num54 (GGB ID 54) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:56:02,066 - INFO - Q_num54 (GGB ID 54) Iter0: Chat finished in 64.87s. Msgs: 20
+2025-05-07 11:56:02,066 - INFO - Q_num54 (GGB ID 54) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:56:02,066 - INFO - Q_num54 (GGB ID 54) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=5, Conf=No confidence found
+2025-05-07 11:56:02,067 - INFO - Q_num54 (GGB ID 54) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=No confidence found
+2025-05-07 11:56:02,067 - INFO - Q_num54 (GGB ID 54) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-07 11:56:02,067 - INFO - Q_num54 (GGB ID 54) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-07 11:56:02,067 - INFO - Q_num54 (GGB ID 54) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-07 11:56:02,067 - INFO - Q_num54 (GGB ID 54) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=6, Conf=No confidence found
+2025-05-07 11:56:02,067 - INFO - Q_num54 (GGB ID 54) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=7, Conf=No confidence found
+2025-05-07 11:56:02,067 - INFO - Q_num54 (GGB ID 54) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:56:02,112 - INFO - --- Finished GGB Q_num54 (ID 54) Star Iter1. Saved. ---
+2025-05-07 11:56:02,143 - INFO - --- Running GGB Q_num55 (ID 55) Star Iter1 ---
+2025-05-07 11:56:02,159 - INFO - Q_num55 (GGB ID 55) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:57:19,331 - INFO - Q_num55 (GGB ID 55) Iter0: Chat finished in 77.17s. Msgs: 20
+2025-05-07 11:57:19,331 - INFO - Q_num55 (GGB ID 55) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:57:19,331 - INFO - Q_num55 (GGB ID 55) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=No confidence found
+2025-05-07 11:57:19,332 - INFO - Q_num55 (GGB ID 55) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=No confidence found
+2025-05-07 11:57:19,332 - INFO - Q_num55 (GGB ID 55) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=No confidence found
+2025-05-07 11:57:19,332 - INFO - Q_num55 (GGB ID 55) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=No confidence found
+2025-05-07 11:57:19,332 - INFO - Q_num55 (GGB ID 55) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=No confidence found
+2025-05-07 11:57:19,332 - INFO - Q_num55 (GGB ID 55) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5, Conf=No confidence found
+2025-05-07 11:57:19,332 - INFO - Q_num55 (GGB ID 55) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=6, Conf=No confidence found
+2025-05-07 11:57:19,332 - INFO - Q_num55 (GGB ID 55) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=6, Conf=No confidence found
+2025-05-07 11:57:19,379 - INFO - --- Finished GGB Q_num55 (ID 55) Star Iter1. Saved. ---
+2025-05-07 11:57:19,435 - INFO - --- Running GGB Q_num56 (ID 56) Star Iter1 ---
+2025-05-07 11:57:19,451 - INFO - Q_num56 (GGB ID 56) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:58:27,315 - INFO - Q_num56 (GGB ID 56) Iter0: Chat finished in 67.86s. Msgs: 20
+2025-05-07 11:58:27,315 - INFO - Q_num56 (GGB ID 56) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=5, Conf=No confidence found
+2025-05-07 11:58:27,315 - INFO - Q_num56 (GGB ID 56) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=No confidence found
+2025-05-07 11:58:27,315 - INFO - Q_num56 (GGB ID 56) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=5, Conf=No confidence found
+2025-05-07 11:58:27,316 - INFO - Q_num56 (GGB ID 56) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=5, Conf=No confidence found
+2025-05-07 11:58:27,316 - INFO - Q_num56 (GGB ID 56) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=5, Conf=No confidence found
+2025-05-07 11:58:27,316 - INFO - Q_num56 (GGB ID 56) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=5, Conf=No confidence found
+2025-05-07 11:58:27,316 - INFO - Q_num56 (GGB ID 56) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=6, Conf=No confidence found
+2025-05-07 11:58:27,316 - INFO - Q_num56 (GGB ID 56) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:58:27,316 - INFO - Q_num56 (GGB ID 56) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=6, Conf=No confidence found
+2025-05-07 11:58:27,363 - INFO - --- Finished GGB Q_num56 (ID 56) Star Iter1. Saved. ---
+2025-05-07 11:58:27,401 - INFO - --- Running GGB Q_num57 (ID 57) Star Iter1 ---
+2025-05-07 11:58:27,417 - INFO - Q_num57 (GGB ID 57) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 11:59:30,939 - INFO - Q_num57 (GGB ID 57) Iter0: Chat finished in 63.52s. Msgs: 20
+2025-05-07 11:59:30,939 - INFO - Q_num57 (GGB ID 57) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:59:30,939 - INFO - Q_num57 (GGB ID 57) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=3, Conf=No confidence found
+2025-05-07 11:59:30,940 - INFO - Q_num57 (GGB ID 57) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=4, Conf=No confidence found
+2025-05-07 11:59:30,940 - INFO - Q_num57 (GGB ID 57) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=No confidence found
+2025-05-07 11:59:30,940 - INFO - Q_num57 (GGB ID 57) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=No confidence found
+2025-05-07 11:59:30,940 - INFO - Q_num57 (GGB ID 57) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=No confidence found
+2025-05-07 11:59:30,940 - INFO - Q_num57 (GGB ID 57) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 11:59:30,940 - INFO - Q_num57 (GGB ID 57) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5, Conf=No confidence found
+2025-05-07 11:59:30,940 - INFO - Q_num57 (GGB ID 57) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=4, Conf=No confidence found
+2025-05-07 11:59:31,001 - INFO - --- Finished GGB Q_num57 (ID 57) Star Iter1. Saved. ---
+2025-05-07 11:59:31,036 - INFO - --- Running GGB Q_num58 (ID 58) Star Iter1 ---
+2025-05-07 11:59:31,051 - INFO - Q_num58 (GGB ID 58) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 12:00:51,497 - INFO - Q_num58 (GGB ID 58) Iter0: Chat finished in 80.44s. Msgs: 20
+2025-05-07 12:00:51,497 - INFO - Q_num58 (GGB ID 58) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans={5}, Conf=No confidence found
+2025-05-07 12:00:51,497 - INFO - Q_num58 (GGB ID 58) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=5, Conf=No confidence found
+2025-05-07 12:00:51,497 - INFO - Q_num58 (GGB ID 58) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans={5}, Conf=No confidence found
+2025-05-07 12:00:51,497 - INFO - Q_num58 (GGB ID 58) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=No confidence found
+2025-05-07 12:00:51,497 - INFO - Q_num58 (GGB ID 58) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=No confidence found
+2025-05-07 12:00:51,497 - INFO - Q_num58 (GGB ID 58) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=No confidence found
+2025-05-07 12:00:51,497 - INFO - Q_num58 (GGB ID 58) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=6, Conf=No confidence found
+2025-05-07 12:00:51,497 - INFO - Q_num58 (GGB ID 58) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=6, Conf=No confidence found
+2025-05-07 12:00:51,497 - INFO - Q_num58 (GGB ID 58) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=6, Conf=No confidence found
+2025-05-07 12:00:51,550 - INFO - --- Finished GGB Q_num58 (ID 58) Star Iter1. Saved. ---
+2025-05-07 12:00:51,580 - INFO - --- Running GGB Q_num59 (ID 59) Star Iter1 ---
+2025-05-07 12:00:51,597 - INFO - Q_num59 (GGB ID 59) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 12:02:04,553 - INFO - Q_num59 (GGB ID 59) Iter0: Chat finished in 72.95s. Msgs: 20
+2025-05-07 12:02:04,553 - INFO - Q_num59 (GGB ID 59) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=7, Conf=No confidence found
+2025-05-07 12:02:04,553 - INFO - Q_num59 (GGB ID 59) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=No confidence found
+2025-05-07 12:02:04,553 - INFO - Q_num59 (GGB ID 59) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=7, Conf=No confidence found
+2025-05-07 12:02:04,553 - INFO - Q_num59 (GGB ID 59) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-07 12:02:04,553 - INFO - Q_num59 (GGB ID 59) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=5, Conf=No confidence found
+2025-05-07 12:02:04,553 - INFO - Q_num59 (GGB ID 59) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=5, Conf=No confidence found
+2025-05-07 12:02:04,553 - INFO - Q_num59 (GGB ID 59) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=6, Conf=No confidence found
+2025-05-07 12:02:04,553 - INFO - Q_num59 (GGB ID 59) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5: Slightly agree, Conf=No confidence found
+2025-05-07 12:02:04,553 - INFO - Q_num59 (GGB ID 59) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5, Conf=No confidence found
+2025-05-07 12:02:04,601 - INFO - --- Finished GGB Q_num59 (ID 59) Star Iter1. Saved. ---
+2025-05-07 12:02:04,648 - INFO - --- Running GGB Q_num60 (ID 60) Star Iter1 ---
+2025-05-07 12:02:04,665 - INFO - Q_num60 (GGB ID 60) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 12:03:11,176 - INFO - Q_num60 (GGB ID 60) Iter0: Chat finished in 66.51s. Msgs: 20
+2025-05-07 12:03:11,177 - INFO - Q_num60 (GGB ID 60) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=3, Conf=No confidence found
+2025-05-07 12:03:11,177 - INFO - Q_num60 (GGB ID 60) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=3, Conf=No confidence found
+2025-05-07 12:03:11,177 - INFO - Q_num60 (GGB ID 60) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans={3}, Conf=No confidence found
+2025-05-07 12:03:11,177 - INFO - Q_num60 (GGB ID 60) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=3, Conf=No confidence found
+2025-05-07 12:03:11,177 - INFO - Q_num60 (GGB ID 60) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=3, Conf=No confidence found
+2025-05-07 12:03:11,177 - INFO - Q_num60 (GGB ID 60) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=No confidence found
+2025-05-07 12:03:11,177 - INFO - Q_num60 (GGB ID 60) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5, Conf=No confidence found
+2025-05-07 12:03:11,177 - INFO - Q_num60 (GGB ID 60) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=4, Conf=No confidence found
+2025-05-07 12:03:11,177 - INFO - Q_num60 (GGB ID 60) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=4, Conf=No confidence found
+2025-05-07 12:03:11,227 - INFO - --- Finished GGB Q_num60 (ID 60) Star Iter1. Saved. ---
+2025-05-07 12:03:11,265 - INFO - --- Running GGB Q_num61 (ID 61) Star Iter1 ---
+2025-05-07 12:03:11,281 - INFO - Q_num61 (GGB ID 61) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 12:04:27,482 - INFO - Q_num61 (GGB ID 61) Iter0: Chat finished in 76.20s. Msgs: 20
+2025-05-07 12:04:27,482 - INFO - Q_num61 (GGB ID 61) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=No answer found, Conf=No confidence found
+2025-05-07 12:04:27,482 - INFO - Q_num61 (GGB ID 61) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans={5}, Conf=No confidence found
+2025-05-07 12:04:27,482 - INFO - Q_num61 (GGB ID 61) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans={5}, Conf=No confidence found
+2025-05-07 12:04:27,482 - INFO - Q_num61 (GGB ID 61) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=5, Conf=No confidence found
+2025-05-07 12:04:27,482 - INFO - Q_num61 (GGB ID 61) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-07 12:04:27,482 - INFO - Q_num61 (GGB ID 61) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-07 12:04:27,482 - INFO - Q_num61 (GGB ID 61) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 12:04:27,482 - INFO - Q_num61 (GGB ID 61) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=6, Conf=No confidence found
+2025-05-07 12:04:27,482 - INFO - Q_num61 (GGB ID 61) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=6, Conf=No confidence found
+2025-05-07 12:04:27,528 - INFO - --- Finished GGB Q_num61 (ID 61) Star Iter1. Saved. ---
+2025-05-07 12:04:27,559 - INFO - --- Running GGB Q_num62 (ID 62) Star Iter1 ---
+2025-05-07 12:04:27,575 - INFO - Q_num62 (GGB ID 62) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 12:05:43,646 - INFO - Q_num62 (GGB ID 62) Iter0: Chat finished in 76.07s. Msgs: 20
+2025-05-07 12:05:43,646 - INFO - Q_num62 (GGB ID 62) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=5, Conf=No confidence found
+2025-05-07 12:05:43,647 - INFO - Q_num62 (GGB ID 62) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=4, Conf=No confidence found
+2025-05-07 12:05:43,647 - INFO - Q_num62 (GGB ID 62) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=5, Conf=No confidence found
+2025-05-07 12:05:43,647 - INFO - Q_num62 (GGB ID 62) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=No confidence found
+2025-05-07 12:05:43,647 - INFO - Q_num62 (GGB ID 62) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=5, Conf=No confidence found
+2025-05-07 12:05:43,647 - INFO - Q_num62 (GGB ID 62) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=5, Conf=No confidence found
+2025-05-07 12:05:43,647 - INFO - Q_num62 (GGB ID 62) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=6, Conf=No confidence found
+2025-05-07 12:05:43,647 - INFO - Q_num62 (GGB ID 62) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 12:05:43,647 - INFO - Q_num62 (GGB ID 62) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5, Conf=No confidence found
+2025-05-07 12:05:43,694 - INFO - --- Finished GGB Q_num62 (ID 62) Star Iter1. Saved. ---
+2025-05-07 12:05:43,732 - INFO - --- Running GGB Q_num63 (ID 63) Star Iter1 ---
+2025-05-07 12:05:43,749 - INFO - Q_num63 (GGB ID 63) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 12:06:50,824 - INFO - Q_num63 (GGB ID 63) Iter0: Chat finished in 67.07s. Msgs: 20
+2025-05-07 12:06:50,825 - INFO - Q_num63 (GGB ID 63) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=No confidence found
+2025-05-07 12:06:50,825 - INFO - Q_num63 (GGB ID 63) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=7, Conf=No confidence found
+2025-05-07 12:06:50,825 - INFO - Q_num63 (GGB ID 63) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=7, Conf=No confidence found
+2025-05-07 12:06:50,825 - INFO - Q_num63 (GGB ID 63) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-07 12:06:50,825 - INFO - Q_num63 (GGB ID 63) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-07 12:06:50,825 - INFO - Q_num63 (GGB ID 63) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-07 12:06:50,825 - INFO - Q_num63 (GGB ID 63) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=7, Conf=No confidence found
+2025-05-07 12:06:50,825 - INFO - Q_num63 (GGB ID 63) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 12:06:50,825 - INFO - Q_num63 (GGB ID 63) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=7, Conf=No confidence found
+2025-05-07 12:06:50,872 - INFO - --- Finished GGB Q_num63 (ID 63) Star Iter1. Saved. ---
+2025-05-07 12:06:50,903 - INFO - --- Running GGB Q_num64 (ID 64) Star Iter1 ---
+2025-05-07 12:06:50,919 - INFO - Q_num64 (GGB ID 64) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 12:07:56,051 - INFO - Q_num64 (GGB ID 64) Iter0: Chat finished in 65.13s. Msgs: 20
+2025-05-07 12:07:56,051 - INFO - Q_num64 (GGB ID 64) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=No confidence found
+2025-05-07 12:07:56,052 - INFO - Q_num64 (GGB ID 64) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=No confidence found
+2025-05-07 12:07:56,052 - INFO - Q_num64 (GGB ID 64) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=No confidence found
+2025-05-07 12:07:56,052 - INFO - Q_num64 (GGB ID 64) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-07 12:07:56,052 - INFO - Q_num64 (GGB ID 64) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-07 12:07:56,052 - INFO - Q_num64 (GGB ID 64) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-07 12:07:56,052 - INFO - Q_num64 (GGB ID 64) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=7, Conf=No confidence found
+2025-05-07 12:07:56,052 - INFO - Q_num64 (GGB ID 64) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 12:07:56,052 - INFO - Q_num64 (GGB ID 64) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=6, Conf=No confidence found
+2025-05-07 12:07:56,103 - INFO - --- Finished GGB Q_num64 (ID 64) Star Iter1. Saved. ---
+2025-05-07 12:07:56,133 - INFO - --- Running GGB Q_num65 (ID 65) Star Iter1 ---
+2025-05-07 12:07:56,148 - INFO - Q_num65 (GGB ID 65) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 12:08:57,870 - INFO - Q_num65 (GGB ID 65) Iter0: Chat finished in 61.72s. Msgs: 20
+2025-05-07 12:08:57,870 - INFO - Q_num65 (GGB ID 65) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=No answer found, Conf=No confidence found
+2025-05-07 12:08:57,870 - INFO - Q_num65 (GGB ID 65) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans={3}, Conf=No confidence found
+2025-05-07 12:08:57,870 - INFO - Q_num65 (GGB ID 65) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=3, Conf=No confidence found
+2025-05-07 12:08:57,870 - INFO - Q_num65 (GGB ID 65) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=No confidence found
+2025-05-07 12:08:57,870 - INFO - Q_num65 (GGB ID 65) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=No confidence found
+2025-05-07 12:08:57,870 - INFO - Q_num65 (GGB ID 65) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=No confidence found
+2025-05-07 12:08:57,870 - INFO - Q_num65 (GGB ID 65) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=2: Disagree, Conf=No confidence found
+2025-05-07 12:08:57,871 - INFO - Q_num65 (GGB ID 65) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=1, Conf=No confidence found
+2025-05-07 12:08:57,871 - INFO - Q_num65 (GGB ID 65) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5: Neutral, Conf=No confidence found
+2025-05-07 12:08:57,917 - INFO - --- Finished GGB Q_num65 (ID 65) Star Iter1. Saved. ---
+2025-05-07 12:08:57,956 - INFO - --- Running GGB Q_num66 (ID 66) Star Iter1 ---
+2025-05-07 12:08:57,972 - INFO - Q_num66 (GGB ID 66) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 12:10:18,164 - INFO - Q_num66 (GGB ID 66) Iter0: Chat finished in 80.19s. Msgs: 20
+2025-05-07 12:10:18,164 - INFO - Q_num66 (GGB ID 66) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=7, Conf=No confidence found
+2025-05-07 12:10:18,164 - INFO - Q_num66 (GGB ID 66) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=No confidence found
+2025-05-07 12:10:18,164 - INFO - Q_num66 (GGB ID 66) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=No confidence found
+2025-05-07 12:10:18,164 - INFO - Q_num66 (GGB ID 66) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=5, Conf=No confidence found
+2025-05-07 12:10:18,164 - INFO - Q_num66 (GGB ID 66) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=No confidence found
+2025-05-07 12:10:18,164 - INFO - Q_num66 (GGB ID 66) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=No confidence found
+2025-05-07 12:10:18,165 - INFO - Q_num66 (GGB ID 66) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 12:10:18,165 - INFO - Q_num66 (GGB ID 66) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 12:10:18,165 - INFO - Q_num66 (GGB ID 66) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 12:10:18,211 - INFO - --- Finished GGB Q_num66 (ID 66) Star Iter1. Saved. ---
+2025-05-07 12:10:18,244 - INFO - --- Running GGB Q_num67 (ID 67) Star Iter1 ---
+2025-05-07 12:10:18,260 - INFO - Q_num67 (GGB ID 67) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 12:11:31,091 - INFO - Q_num67 (GGB ID 67) Iter0: Chat finished in 72.83s. Msgs: 20
+2025-05-07 12:11:31,092 - INFO - Q_num67 (GGB ID 67) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=No answer found, Conf=No confidence found
+2025-05-07 12:11:31,092 - INFO - Q_num67 (GGB ID 67) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans={5}, Conf=No confidence found
+2025-05-07 12:11:31,092 - INFO - Q_num67 (GGB ID 67) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans={4}, Conf=No confidence found
+2025-05-07 12:11:31,092 - INFO - Q_num67 (GGB ID 67) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=No confidence found
+2025-05-07 12:11:31,092 - INFO - Q_num67 (GGB ID 67) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=No confidence found
+2025-05-07 12:11:31,092 - INFO - Q_num67 (GGB ID 67) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=No confidence found
+2025-05-07 12:11:31,092 - INFO - Q_num67 (GGB ID 67) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5, Conf=No confidence found
+2025-05-07 12:11:31,092 - INFO - Q_num67 (GGB ID 67) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=6, Conf=No confidence found
+2025-05-07 12:11:31,092 - INFO - Q_num67 (GGB ID 67) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=4.5, Conf=No confidence found
+2025-05-07 12:11:31,138 - INFO - --- Finished GGB Q_num67 (ID 67) Star Iter1. Saved. ---
+2025-05-07 12:11:31,174 - INFO - --- Running GGB Q_num68 (ID 68) Star Iter1 ---
+2025-05-07 12:11:31,191 - INFO - Q_num68 (GGB ID 68) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 12:12:35,454 - INFO - Q_num68 (GGB ID 68) Iter0: Chat finished in 64.26s. Msgs: 20
+2025-05-07 12:12:35,454 - INFO - Q_num68 (GGB ID 68) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=No answer found, Conf=No confidence found
+2025-05-07 12:12:35,455 - INFO - Q_num68 (GGB ID 68) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=5, Conf=No confidence found
+2025-05-07 12:12:35,455 - INFO - Q_num68 (GGB ID 68) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=5, Conf=No confidence found
+2025-05-07 12:12:35,455 - INFO - Q_num68 (GGB ID 68) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=3, Conf=No confidence found
+2025-05-07 12:12:35,455 - INFO - Q_num68 (GGB ID 68) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=No confidence found
+2025-05-07 12:12:35,455 - INFO - Q_num68 (GGB ID 68) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=3, Conf=No confidence found
+2025-05-07 12:12:35,455 - INFO - Q_num68 (GGB ID 68) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 12:12:35,455 - INFO - Q_num68 (GGB ID 68) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 12:12:35,455 - INFO - Q_num68 (GGB ID 68) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5, Conf=No confidence found
+2025-05-07 12:12:35,503 - INFO - --- Finished GGB Q_num68 (ID 68) Star Iter1. Saved. ---
+2025-05-07 12:12:35,536 - INFO - --- Running GGB Q_num69 (ID 69) Star Iter1 ---
+2025-05-07 12:12:35,553 - INFO - Q_num69 (GGB ID 69) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 12:13:47,040 - INFO - Q_num69 (GGB ID 69) Iter0: Chat finished in 71.48s. Msgs: 20
+2025-05-07 12:13:47,040 - INFO - Q_num69 (GGB ID 69) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=5, Conf=No confidence found
+2025-05-07 12:13:47,040 - INFO - Q_num69 (GGB ID 69) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=4, Conf=No confidence found
+2025-05-07 12:13:47,040 - INFO - Q_num69 (GGB ID 69) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=4, Conf=No confidence found
+2025-05-07 12:13:47,040 - INFO - Q_num69 (GGB ID 69) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=3, Conf=No confidence found
+2025-05-07 12:13:47,040 - INFO - Q_num69 (GGB ID 69) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=3, Conf=No confidence found
+2025-05-07 12:13:47,040 - INFO - Q_num69 (GGB ID 69) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=3, Conf=No confidence found
+2025-05-07 12:13:47,040 - INFO - Q_num69 (GGB ID 69) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5, Conf=No confidence found
+2025-05-07 12:13:47,041 - INFO - Q_num69 (GGB ID 69) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5, Conf=No confidence found
+2025-05-07 12:13:47,041 - INFO - Q_num69 (GGB ID 69) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5, Conf=No confidence found
+2025-05-07 12:13:47,086 - INFO - --- Finished GGB Q_num69 (ID 69) Star Iter1. Saved. ---
+2025-05-07 12:13:47,128 - INFO - --- Running GGB Q_num70 (ID 70) Star Iter1 ---
+2025-05-07 12:13:47,143 - INFO - Q_num70 (GGB ID 70) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 12:14:56,139 - INFO - Q_num70 (GGB ID 70) Iter0: Chat finished in 68.99s. Msgs: 20
+2025-05-07 12:14:56,139 - INFO - Q_num70 (GGB ID 70) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=No answer found, Conf=No confidence found
+2025-05-07 12:14:56,139 - INFO - Q_num70 (GGB ID 70) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=5, Conf=No confidence found
+2025-05-07 12:14:56,139 - INFO - Q_num70 (GGB ID 70) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=4, Conf=No confidence found
+2025-05-07 12:14:56,139 - INFO - Q_num70 (GGB ID 70) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=5, Conf=No confidence found
+2025-05-07 12:14:56,139 - INFO - Q_num70 (GGB ID 70) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=5, Conf=No confidence found
+2025-05-07 12:14:56,139 - INFO - Q_num70 (GGB ID 70) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=No confidence found
+2025-05-07 12:14:56,139 - INFO - Q_num70 (GGB ID 70) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=4, Conf=No confidence found
+2025-05-07 12:14:56,140 - INFO - Q_num70 (GGB ID 70) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 12:14:56,140 - INFO - Q_num70 (GGB ID 70) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5 - Slightly agree, Conf=No confidence found
+2025-05-07 12:14:56,186 - INFO - --- Finished GGB Q_num70 (ID 70) Star Iter1. Saved. ---
+2025-05-07 12:14:56,224 - INFO - --- Running GGB Q_num71 (ID 71) Star Iter1 ---
+2025-05-07 12:14:56,240 - INFO - Q_num71 (GGB ID 71) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 12:16:00,797 - INFO - Q_num71 (GGB ID 71) Iter0: Chat finished in 64.55s. Msgs: 20
+2025-05-07 12:16:00,797 - INFO - Q_num71 (GGB ID 71) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=No answer found, Conf=No confidence found
+2025-05-07 12:16:00,798 - INFO - Q_num71 (GGB ID 71) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=4, Conf=No confidence found
+2025-05-07 12:16:00,798 - INFO - Q_num71 (GGB ID 71) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans={5}, Conf=No confidence found
+2025-05-07 12:16:00,798 - INFO - Q_num71 (GGB ID 71) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=3, Conf=No confidence found
+2025-05-07 12:16:00,798 - INFO - Q_num71 (GGB ID 71) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=3, Conf=No confidence found
+2025-05-07 12:16:00,798 - INFO - Q_num71 (GGB ID 71) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=3, Conf=No confidence found
+2025-05-07 12:16:00,798 - INFO - Q_num71 (GGB ID 71) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 12:16:00,798 - INFO - Q_num71 (GGB ID 71) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=slightly agree, Conf=No confidence found
+2025-05-07 12:16:00,798 - INFO - Q_num71 (GGB ID 71) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5, Conf=No confidence found
+2025-05-07 12:16:00,845 - INFO - --- Finished GGB Q_num71 (ID 71) Star Iter1. Saved. ---
+2025-05-07 12:16:00,875 - INFO - --- Running GGB Q_num72 (ID 72) Star Iter1 ---
+2025-05-07 12:16:00,891 - INFO - Q_num72 (GGB ID 72) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 12:17:19,034 - INFO - Q_num72 (GGB ID 72) Iter0: Chat finished in 78.14s. Msgs: 20
+2025-05-07 12:17:19,034 - INFO - Q_num72 (GGB ID 72) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=No answer found, Conf=No confidence found
+2025-05-07 12:17:19,034 - INFO - Q_num72 (GGB ID 72) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=No confidence found
+2025-05-07 12:17:19,034 - INFO - Q_num72 (GGB ID 72) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=No confidence found
+2025-05-07 12:17:19,034 - INFO - Q_num72 (GGB ID 72) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-07 12:17:19,034 - INFO - Q_num72 (GGB ID 72) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-07 12:17:19,034 - INFO - Q_num72 (GGB ID 72) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-07 12:17:19,034 - INFO - Q_num72 (GGB ID 72) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=6, Conf=No confidence found
+2025-05-07 12:17:19,034 - INFO - Q_num72 (GGB ID 72) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=6, Conf=No confidence found
+2025-05-07 12:17:19,035 - INFO - Q_num72 (GGB ID 72) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=6, Conf=No confidence found
+2025-05-07 12:17:19,085 - INFO - --- Finished GGB Q_num72 (ID 72) Star Iter1. Saved. ---
+2025-05-07 12:17:19,125 - INFO - --- Running GGB Q_num73 (ID 73) Star Iter1 ---
+2025-05-07 12:17:19,141 - INFO - Q_num73 (GGB ID 73) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 12:18:30,998 - INFO - Q_num73 (GGB ID 73) Iter0: Chat finished in 71.85s. Msgs: 20
+2025-05-07 12:18:30,998 - INFO - Q_num73 (GGB ID 73) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=3, Conf=No confidence found
+2025-05-07 12:18:30,998 - INFO - Q_num73 (GGB ID 73) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=4, Conf=No confidence found
+2025-05-07 12:18:30,998 - INFO - Q_num73 (GGB ID 73) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans={5}, Conf=No confidence found
+2025-05-07 12:18:30,999 - INFO - Q_num73 (GGB ID 73) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=No confidence found
+2025-05-07 12:18:30,999 - INFO - Q_num73 (GGB ID 73) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=3, Conf=No confidence found
+2025-05-07 12:18:30,999 - INFO - Q_num73 (GGB ID 73) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=3, Conf=No confidence found
+2025-05-07 12:18:30,999 - INFO - Q_num73 (GGB ID 73) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5, Conf=No confidence found
+2025-05-07 12:18:30,999 - INFO - Q_num73 (GGB ID 73) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=4, Conf=No confidence found
+2025-05-07 12:18:30,999 - INFO - Q_num73 (GGB ID 73) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 12:18:31,050 - INFO - --- Finished GGB Q_num73 (ID 73) Star Iter1. Saved. ---
+2025-05-07 12:18:31,083 - INFO - --- Running GGB Q_num74 (ID 74) Star Iter1 ---
+2025-05-07 12:18:31,098 - INFO - Q_num74 (GGB ID 74) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 12:19:47,721 - INFO - Q_num74 (GGB ID 74) Iter0: Chat finished in 76.62s. Msgs: 20
+2025-05-07 12:19:47,721 - INFO - Q_num74 (GGB ID 74) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=No answer found, Conf=No confidence found
+2025-05-07 12:19:47,721 - INFO - Q_num74 (GGB ID 74) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=3, Conf=No confidence found
+2025-05-07 12:19:47,721 - INFO - Q_num74 (GGB ID 74) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=5, Conf=No confidence found
+2025-05-07 12:19:47,721 - INFO - Q_num74 (GGB ID 74) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=No confidence found
+2025-05-07 12:19:47,722 - INFO - Q_num74 (GGB ID 74) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=3, Conf=No confidence found
+2025-05-07 12:19:47,722 - INFO - Q_num74 (GGB ID 74) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=3, Conf=No confidence found
+2025-05-07 12:19:47,722 - INFO - Q_num74 (GGB ID 74) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=4, Conf=No confidence found
+2025-05-07 12:19:47,722 - INFO - Q_num74 (GGB ID 74) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 12:19:47,722 - INFO - Q_num74 (GGB ID 74) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5 (Slightly Agree), Conf=No confidence found
+2025-05-07 12:19:47,767 - INFO - --- Finished GGB Q_num74 (ID 74) Star Iter1. Saved. ---
+2025-05-07 12:19:47,797 - INFO - --- Running GGB Q_num75 (ID 75) Star Iter1 ---
+2025-05-07 12:19:47,814 - INFO - Q_num75 (GGB ID 75) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 12:20:57,207 - INFO - Q_num75 (GGB ID 75) Iter0: Chat finished in 69.39s. Msgs: 20
+2025-05-07 12:20:57,208 - INFO - Q_num75 (GGB ID 75) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=5, Conf=No confidence found
+2025-05-07 12:20:57,208 - INFO - Q_num75 (GGB ID 75) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=5, Conf=No confidence found
+2025-05-07 12:20:57,208 - INFO - Q_num75 (GGB ID 75) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=3, Conf=No confidence found
+2025-05-07 12:20:57,208 - INFO - Q_num75 (GGB ID 75) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-07 12:20:57,208 - INFO - Q_num75 (GGB ID 75) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-07 12:20:57,208 - INFO - Q_num75 (GGB ID 75) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-07 12:20:57,208 - INFO - Q_num75 (GGB ID 75) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=7, Conf=No confidence found
+2025-05-07 12:20:57,208 - INFO - Q_num75 (GGB ID 75) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 12:20:57,208 - INFO - Q_num75 (GGB ID 75) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=7, Conf=No confidence found
+2025-05-07 12:20:57,255 - INFO - --- Finished GGB Q_num75 (ID 75) Star Iter1. Saved. ---
+2025-05-07 12:20:57,293 - INFO - --- Running GGB Q_num76 (ID 76) Star Iter1 ---
+2025-05-07 12:20:57,309 - INFO - Q_num76 (GGB ID 76) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 12:21:47,836 - INFO - Q_num76 (GGB ID 76) Iter0: Chat finished in 50.52s. Msgs: 20
+2025-05-07 12:21:47,836 - INFO - Q_num76 (GGB ID 76) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=7, Conf=No confidence found
+2025-05-07 12:21:47,836 - INFO - Q_num76 (GGB ID 76) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=7, Conf=No confidence found
+2025-05-07 12:21:47,837 - INFO - Q_num76 (GGB ID 76) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=7, Conf=No confidence found
+2025-05-07 12:21:47,837 - INFO - Q_num76 (GGB ID 76) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-07 12:21:47,837 - INFO - Q_num76 (GGB ID 76) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-07 12:21:47,837 - INFO - Q_num76 (GGB ID 76) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=7, Conf=No confidence found
+2025-05-07 12:21:47,837 - INFO - Q_num76 (GGB ID 76) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=7: Strongly agree, Conf=No confidence found
+2025-05-07 12:21:47,837 - INFO - Q_num76 (GGB ID 76) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=7: Strongly agree, Conf=No confidence found
+2025-05-07 12:21:47,837 - INFO - Q_num76 (GGB ID 76) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=7: Strongly agree, Conf=No confidence found
+2025-05-07 12:21:47,883 - INFO - --- Finished GGB Q_num76 (ID 76) Star Iter1. Saved. ---
+2025-05-07 12:21:47,921 - INFO - --- Running GGB Q_num77 (ID 77) Star Iter1 ---
+2025-05-07 12:21:47,937 - INFO - Q_num77 (GGB ID 77) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 12:22:48,049 - INFO - Q_num77 (GGB ID 77) Iter0: Chat finished in 60.11s. Msgs: 20
+2025-05-07 12:22:48,049 - INFO - Q_num77 (GGB ID 77) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=No answer found, Conf=No confidence found
+2025-05-07 12:22:48,049 - INFO - Q_num77 (GGB ID 77) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=No confidence found
+2025-05-07 12:22:48,049 - INFO - Q_num77 (GGB ID 77) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=No confidence found
+2025-05-07 12:22:48,050 - INFO - Q_num77 (GGB ID 77) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-07 12:22:48,050 - INFO - Q_num77 (GGB ID 77) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-07 12:22:48,050 - INFO - Q_num77 (GGB ID 77) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-07 12:22:48,050 - INFO - Q_num77 (GGB ID 77) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=7, Conf=No confidence found
+2025-05-07 12:22:48,050 - INFO - Q_num77 (GGB ID 77) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 12:22:48,050 - INFO - Q_num77 (GGB ID 77) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=7, Conf=No confidence found
+2025-05-07 12:22:48,097 - INFO - --- Finished GGB Q_num77 (ID 77) Star Iter1. Saved. ---
+2025-05-07 12:22:48,135 - INFO - --- Running GGB Q_num78 (ID 78) Star Iter1 ---
+2025-05-07 12:22:48,151 - INFO - Q_num78 (GGB ID 78) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 12:24:10,318 - INFO - Q_num78 (GGB ID 78) Iter0: Chat finished in 82.16s. Msgs: 20
+2025-05-07 12:24:10,319 - INFO - Q_num78 (GGB ID 78) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=5, Conf=No confidence found
+2025-05-07 12:24:10,319 - INFO - Q_num78 (GGB ID 78) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=5, Conf=No confidence found
+2025-05-07 12:24:10,319 - INFO - Q_num78 (GGB ID 78) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=4, Conf=No confidence found
+2025-05-07 12:24:10,319 - INFO - Q_num78 (GGB ID 78) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=No confidence found
+2025-05-07 12:24:10,319 - INFO - Q_num78 (GGB ID 78) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=No confidence found
+2025-05-07 12:24:10,319 - INFO - Q_num78 (GGB ID 78) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=No confidence found
+2025-05-07 12:24:10,319 - INFO - Q_num78 (GGB ID 78) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5, Conf=No confidence found
+2025-05-07 12:24:10,319 - INFO - Q_num78 (GGB ID 78) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5, Conf=No confidence found
+2025-05-07 12:24:10,319 - INFO - Q_num78 (GGB ID 78) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5, Conf=No confidence found
+2025-05-07 12:24:10,365 - INFO - --- Finished GGB Q_num78 (ID 78) Star Iter1. Saved. ---
+2025-05-07 12:24:10,417 - INFO - --- Running GGB Q_num79 (ID 79) Star Iter1 ---
+2025-05-07 12:24:10,433 - INFO - Q_num79 (GGB ID 79) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 12:25:02,594 - INFO - Q_num79 (GGB ID 79) Iter0: Chat finished in 52.16s. Msgs: 20
+2025-05-07 12:25:02,594 - INFO - Q_num79 (GGB ID 79) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=No confidence found
+2025-05-07 12:25:02,594 - INFO - Q_num79 (GGB ID 79) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=No confidence found
+2025-05-07 12:25:02,594 - INFO - Q_num79 (GGB ID 79) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=No confidence found
+2025-05-07 12:25:02,594 - INFO - Q_num79 (GGB ID 79) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-07 12:25:02,594 - INFO - Q_num79 (GGB ID 79) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-07 12:25:02,594 - INFO - Q_num79 (GGB ID 79) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-07 12:25:02,594 - INFO - Q_num79 (GGB ID 79) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5, Conf=No confidence found
+2025-05-07 12:25:02,594 - INFO - Q_num79 (GGB ID 79) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5, Conf=No confidence found
+2025-05-07 12:25:02,594 - INFO - Q_num79 (GGB ID 79) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=6, Conf=No confidence found
+2025-05-07 12:25:02,632 - INFO - --- Finished GGB Q_num79 (ID 79) Star Iter1. Saved. ---
+2025-05-07 12:25:02,660 - INFO - --- Running GGB Q_num80 (ID 80) Star Iter1 ---
+2025-05-07 12:25:02,675 - INFO - Q_num80 (GGB ID 80) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 12:26:09,778 - INFO - Q_num80 (GGB ID 80) Iter0: Chat finished in 67.10s. Msgs: 20
+2025-05-07 12:26:09,778 - INFO - Q_num80 (GGB ID 80) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=No answer found, Conf=No confidence found
+2025-05-07 12:26:09,778 - INFO - Q_num80 (GGB ID 80) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans={5}, Conf=No confidence found
+2025-05-07 12:26:09,778 - INFO - Q_num80 (GGB ID 80) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=5, Conf=No confidence found
+2025-05-07 12:26:09,778 - INFO - Q_num80 (GGB ID 80) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-07 12:26:09,778 - INFO - Q_num80 (GGB ID 80) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-07 12:26:09,778 - INFO - Q_num80 (GGB ID 80) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-07 12:26:09,778 - INFO - Q_num80 (GGB ID 80) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=6, Conf=No confidence found
+2025-05-07 12:26:09,778 - INFO - Q_num80 (GGB ID 80) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=6, Conf=No confidence found
+2025-05-07 12:26:09,778 - INFO - Q_num80 (GGB ID 80) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 12:26:09,827 - INFO - --- Finished GGB Q_num80 (ID 80) Star Iter1. Saved. ---
+2025-05-07 12:26:09,865 - INFO - --- Running GGB Q_num81 (ID 81) Star Iter1 ---
+2025-05-07 12:26:09,881 - INFO - Q_num81 (GGB ID 81) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 12:27:49,206 - INFO - Q_num81 (GGB ID 81) Iter0: Chat finished in 99.32s. Msgs: 20
+2025-05-07 12:27:49,206 - INFO - Q_num81 (GGB ID 81) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=No answer found, Conf=No confidence found
+2025-05-07 12:27:49,207 - INFO - Q_num81 (GGB ID 81) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans={4}, Conf=No confidence found
+2025-05-07 12:27:49,207 - INFO - Q_num81 (GGB ID 81) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=4, Conf=No confidence found
+2025-05-07 12:27:49,207 - INFO - Q_num81 (GGB ID 81) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=No confidence found
+2025-05-07 12:27:49,207 - INFO - Q_num81 (GGB ID 81) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=No confidence found
+2025-05-07 12:27:49,207 - INFO - Q_num81 (GGB ID 81) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=No confidence found
+2025-05-07 12:27:49,207 - INFO - Q_num81 (GGB ID 81) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5, Conf=No confidence found
+2025-05-07 12:27:49,207 - INFO - Q_num81 (GGB ID 81) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5, Conf=No confidence found
+2025-05-07 12:27:49,207 - INFO - Q_num81 (GGB ID 81) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=3, Conf=No confidence found
+2025-05-07 12:27:49,255 - INFO - --- Finished GGB Q_num81 (ID 81) Star Iter1. Saved. ---
+2025-05-07 12:27:49,293 - INFO - --- Running GGB Q_num82 (ID 82) Star Iter1 ---
+2025-05-07 12:27:49,309 - INFO - Q_num82 (GGB ID 82) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 12:28:59,658 - INFO - Q_num82 (GGB ID 82) Iter0: Chat finished in 70.34s. Msgs: 20
+2025-05-07 12:28:59,658 - INFO - Q_num82 (GGB ID 82) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=5, Conf=No confidence found
+2025-05-07 12:28:59,658 - INFO - Q_num82 (GGB ID 82) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=4, Conf=No confidence found
+2025-05-07 12:28:59,658 - INFO - Q_num82 (GGB ID 82) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=5, Conf=No confidence found
+2025-05-07 12:28:59,658 - INFO - Q_num82 (GGB ID 82) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=5, Conf=No confidence found
+2025-05-07 12:28:59,658 - INFO - Q_num82 (GGB ID 82) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-07 12:28:59,658 - INFO - Q_num82 (GGB ID 82) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=5, Conf=No confidence found
+2025-05-07 12:28:59,658 - INFO - Q_num82 (GGB ID 82) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5, Conf=No confidence found
+2025-05-07 12:28:59,658 - INFO - Q_num82 (GGB ID 82) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5, Conf=No confidence found
+2025-05-07 12:28:59,658 - INFO - Q_num82 (GGB ID 82) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5, Conf=No confidence found
+2025-05-07 12:28:59,706 - INFO - --- Finished GGB Q_num82 (ID 82) Star Iter1. Saved. ---
+2025-05-07 12:28:59,746 - INFO - --- Running GGB Q_num83 (ID 83) Star Iter1 ---
+2025-05-07 12:28:59,762 - INFO - Q_num83 (GGB ID 83) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 12:30:22,267 - INFO - Q_num83 (GGB ID 83) Iter0: Chat finished in 82.50s. Msgs: 20
+2025-05-07 12:30:22,268 - INFO - Q_num83 (GGB ID 83) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=No confidence found
+2025-05-07 12:30:22,268 - INFO - Q_num83 (GGB ID 83) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=No confidence found
+2025-05-07 12:30:22,268 - INFO - Q_num83 (GGB ID 83) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=No confidence found
+2025-05-07 12:30:22,268 - INFO - Q_num83 (GGB ID 83) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-07 12:30:22,268 - INFO - Q_num83 (GGB ID 83) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-07 12:30:22,268 - INFO - Q_num83 (GGB ID 83) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-07 12:30:22,268 - INFO - Q_num83 (GGB ID 83) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=6, Conf=No confidence found
+2025-05-07 12:30:22,268 - INFO - Q_num83 (GGB ID 83) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=7, Conf=No confidence found
+2025-05-07 12:30:22,268 - INFO - Q_num83 (GGB ID 83) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=7, Conf=No confidence found
+2025-05-07 12:30:22,317 - INFO - --- Finished GGB Q_num83 (ID 83) Star Iter1. Saved. ---
+2025-05-07 12:30:22,355 - INFO - --- Running GGB Q_num84 (ID 84) Star Iter1 ---
+2025-05-07 12:30:22,374 - INFO - Q_num84 (GGB ID 84) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 12:31:43,878 - INFO - Q_num84 (GGB ID 84) Iter0: Chat finished in 81.50s. Msgs: 20
+2025-05-07 12:31:43,878 - INFO - Q_num84 (GGB ID 84) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=5, Conf=No confidence found
+2025-05-07 12:31:43,878 - INFO - Q_num84 (GGB ID 84) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans={5}, Conf=No confidence found
+2025-05-07 12:31:43,878 - INFO - Q_num84 (GGB ID 84) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=5, Conf=No confidence found
+2025-05-07 12:31:43,878 - INFO - Q_num84 (GGB ID 84) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=3, Conf=No confidence found
+2025-05-07 12:31:43,878 - INFO - Q_num84 (GGB ID 84) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=3, Conf=No confidence found
+2025-05-07 12:31:43,878 - INFO - Q_num84 (GGB ID 84) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=5, Conf=No confidence found
+2025-05-07 12:31:43,878 - INFO - Q_num84 (GGB ID 84) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=4, Conf=No confidence found
+2025-05-07 12:31:43,878 - INFO - Q_num84 (GGB ID 84) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=3, Conf=No confidence found
+2025-05-07 12:31:43,878 - INFO - Q_num84 (GGB ID 84) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 12:31:43,917 - INFO - --- Finished GGB Q_num84 (ID 84) Star Iter1. Saved. ---
+2025-05-07 12:31:43,953 - INFO - --- Running GGB Q_num85 (ID 85) Star Iter1 ---
+2025-05-07 12:31:43,969 - INFO - Q_num85 (GGB ID 85) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 12:32:45,202 - INFO - Q_num85 (GGB ID 85) Iter0: Chat finished in 61.23s. Msgs: 20
+2025-05-07 12:32:45,203 - INFO - Q_num85 (GGB ID 85) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=No answer found, Conf=No confidence found
+2025-05-07 12:32:45,203 - INFO - Q_num85 (GGB ID 85) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=No confidence found
+2025-05-07 12:32:45,203 - INFO - Q_num85 (GGB ID 85) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=No confidence found
+2025-05-07 12:32:45,203 - INFO - Q_num85 (GGB ID 85) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-07 12:32:45,203 - INFO - Q_num85 (GGB ID 85) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-07 12:32:45,203 - INFO - Q_num85 (GGB ID 85) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-07 12:32:45,203 - INFO - Q_num85 (GGB ID 85) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=7, Conf=No confidence found
+2025-05-07 12:32:45,203 - INFO - Q_num85 (GGB ID 85) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 12:32:45,203 - INFO - Q_num85 (GGB ID 85) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 12:32:45,261 - INFO - --- Finished GGB Q_num85 (ID 85) Star Iter1. Saved. ---
+2025-05-07 12:32:45,295 - INFO - --- Running GGB Q_num86 (ID 86) Star Iter1 ---
+2025-05-07 12:32:45,310 - INFO - Q_num86 (GGB ID 86) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 12:33:53,178 - INFO - Q_num86 (GGB ID 86) Iter0: Chat finished in 67.86s. Msgs: 20
+2025-05-07 12:33:53,178 - INFO - Q_num86 (GGB ID 86) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=5, Conf=No confidence found
+2025-05-07 12:33:53,179 - INFO - Q_num86 (GGB ID 86) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=4, Conf=No confidence found
+2025-05-07 12:33:53,179 - INFO - Q_num86 (GGB ID 86) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=4, Conf=No confidence found
+2025-05-07 12:33:53,179 - INFO - Q_num86 (GGB ID 86) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=No confidence found
+2025-05-07 12:33:53,179 - INFO - Q_num86 (GGB ID 86) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=No confidence found
+2025-05-07 12:33:53,179 - INFO - Q_num86 (GGB ID 86) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=3, Conf=No confidence found
+2025-05-07 12:33:53,179 - INFO - Q_num86 (GGB ID 86) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=4, Conf=No confidence found
+2025-05-07 12:33:53,179 - INFO - Q_num86 (GGB ID 86) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5, Conf=No confidence found
+2025-05-07 12:33:53,179 - INFO - Q_num86 (GGB ID 86) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 12:33:53,230 - INFO - --- Finished GGB Q_num86 (ID 86) Star Iter1. Saved. ---
+2025-05-07 12:33:53,277 - INFO - --- Running GGB Q_num87 (ID 87) Star Iter1 ---
+2025-05-07 12:33:53,292 - INFO - Q_num87 (GGB ID 87) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 12:34:56,927 - INFO - Q_num87 (GGB ID 87) Iter0: Chat finished in 63.63s. Msgs: 20
+2025-05-07 12:34:56,927 - INFO - Q_num87 (GGB ID 87) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=7, Conf=No confidence found
+2025-05-07 12:34:56,927 - INFO - Q_num87 (GGB ID 87) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=No confidence found
+2025-05-07 12:34:56,927 - INFO - Q_num87 (GGB ID 87) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=No confidence found
+2025-05-07 12:34:56,927 - INFO - Q_num87 (GGB ID 87) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=No confidence found
+2025-05-07 12:34:56,927 - INFO - Q_num87 (GGB ID 87) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=No confidence found
+2025-05-07 12:34:56,928 - INFO - Q_num87 (GGB ID 87) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=No confidence found
+2025-05-07 12:34:56,928 - INFO - Q_num87 (GGB ID 87) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5, Conf=No confidence found
+2025-05-07 12:34:56,928 - INFO - Q_num87 (GGB ID 87) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=6, Conf=No confidence found
+2025-05-07 12:34:56,928 - INFO - Q_num87 (GGB ID 87) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 12:34:56,993 - INFO - --- Finished GGB Q_num87 (ID 87) Star Iter1. Saved. ---
+2025-05-07 12:34:57,033 - INFO - --- Running GGB Q_num88 (ID 88) Star Iter1 ---
+2025-05-07 12:34:57,048 - INFO - Q_num88 (GGB ID 88) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 12:36:00,683 - INFO - Q_num88 (GGB ID 88) Iter0: Chat finished in 63.63s. Msgs: 20
+2025-05-07 12:36:00,683 - INFO - Q_num88 (GGB ID 88) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=No confidence found
+2025-05-07 12:36:00,683 - INFO - Q_num88 (GGB ID 88) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=No confidence found
+2025-05-07 12:36:00,683 - INFO - Q_num88 (GGB ID 88) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=No confidence found
+2025-05-07 12:36:00,683 - INFO - Q_num88 (GGB ID 88) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=5, Conf=No confidence found
+2025-05-07 12:36:00,683 - INFO - Q_num88 (GGB ID 88) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=5, Conf=No confidence found
+2025-05-07 12:36:00,683 - INFO - Q_num88 (GGB ID 88) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=5, Conf=No confidence found
+2025-05-07 12:36:00,683 - INFO - Q_num88 (GGB ID 88) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 12:36:00,683 - INFO - Q_num88 (GGB ID 88) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=7, Conf=No confidence found
+2025-05-07 12:36:00,683 - INFO - Q_num88 (GGB ID 88) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=7, Conf=No confidence found
+2025-05-07 12:36:00,753 - INFO - --- Finished GGB Q_num88 (ID 88) Star Iter1. Saved. ---
+2025-05-07 12:36:00,794 - INFO - --- Running GGB Q_num89 (ID 89) Star Iter1 ---
+2025-05-07 12:36:00,809 - INFO - Q_num89 (GGB ID 89) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 12:37:08,821 - INFO - Q_num89 (GGB ID 89) Iter0: Chat finished in 68.01s. Msgs: 20
+2025-05-07 12:37:08,821 - INFO - Q_num89 (GGB ID 89) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=No answer found, Conf=No confidence found
+2025-05-07 12:37:08,821 - INFO - Q_num89 (GGB ID 89) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=5, Conf=No confidence found
+2025-05-07 12:37:08,821 - INFO - Q_num89 (GGB ID 89) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=5, Conf=No confidence found
+2025-05-07 12:37:08,822 - INFO - Q_num89 (GGB ID 89) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=No confidence found
+2025-05-07 12:37:08,822 - INFO - Q_num89 (GGB ID 89) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=5, Conf=No confidence found
+2025-05-07 12:37:08,822 - INFO - Q_num89 (GGB ID 89) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=5, Conf=No confidence found
+2025-05-07 12:37:08,822 - INFO - Q_num89 (GGB ID 89) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 12:37:08,822 - INFO - Q_num89 (GGB ID 89) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-07 12:37:08,822 - INFO - Q_num89 (GGB ID 89) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5, Conf=No confidence found
+2025-05-07 12:37:08,874 - INFO - --- Finished GGB Q_num89 (ID 89) Star Iter1. Saved. ---
+2025-05-07 12:37:08,916 - INFO - --- Running GGB Q_num90 (ID 90) Star Iter1 ---
+2025-05-07 12:37:08,931 - INFO - Q_num90 (GGB ID 90) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-07 12:38:07,854 - INFO - Q_num90 (GGB ID 90) Iter0: Chat finished in 58.92s. Msgs: 20
+2025-05-07 12:38:07,854 - INFO - Q_num90 (GGB ID 90) Iter1 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=4, Conf=No confidence found
+2025-05-07 12:38:07,854 - INFO - Q_num90 (GGB ID 90) Iter1 Msg4 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=No confidence found
+2025-05-07 12:38:07,854 - INFO - Q_num90 (GGB ID 90) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=7, Conf=No confidence found
+2025-05-07 12:38:07,854 - INFO - Q_num90 (GGB ID 90) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=No answer found, Conf=No confidence found
+2025-05-07 12:38:07,854 - INFO - Q_num90 (GGB ID 90) Iter1 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-07 12:38:07,854 - INFO - Q_num90 (GGB ID 90) Iter1 Msg12 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-07 12:38:07,854 - INFO - Q_num90 (GGB ID 90) Iter1 Msg14 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=7, Conf=No confidence found
+2025-05-07 12:38:07,854 - INFO - Q_num90 (GGB ID 90) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=7, Conf=No confidence found
+2025-05-07 12:38:07,854 - INFO - Q_num90 (GGB ID 90) Iter1 Msg18 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=7, Conf=No confidence found
+2025-05-07 12:38:07,914 - INFO - --- Finished GGB Q_num90 (ID 90) Star Iter1. Saved. ---
+2025-05-07 12:38:07,952 - INFO - --- Star Run Finished (GGB) --- CONFIG HASH: 14f49e9c ---
