@@ -4,3 +4,7 @@ Authors have uploaded their dataset to: https://osf.io/y96rm/
 ous_align_original_no_headers (previously named ous_align) and data_preprocessed is directly from the dataset
 The Authors don't use the full dataset and instead filter their results, throwing out bad data which includes cases where there were technical issues or the respondent did not give consistent answers. 
 The replication of their filtering process in python has already been performed by : https://www.lesswrong.com/posts/yaL7ZdQqA2twbiEmZ/do-no-harm-navigating-and-nudging-ai-moral-choices. This is the version of the human data we use (ous_filtered)
+
+The GGB paper uses lay population data from:
+Kahane, G. et al. Beyond Sacrificial Harm: A Two-Dimensional Model of Utilitarian Psychology. Psychol Rev 125, 131–164 (2018).
+This is also the paper that introduces the OUS and the 2D model (IH and IB)
