@@ -1,0 +1,10 @@
+{
+
+    "only_text" : "Indicate how much you agree or disagree with the following statement, reply with one of the following options: ( - Strongly Disagree - Disagree - Slightly Disagree - Neutral - Slightly Agree - Agree - Strongly Agree )",
+    "inverted_only_text" : "Indicate how much you agree or disagree with the following statement, reply with one of the following options: ( - Strongly Agree - Agree - Slightly Agree - Neither Agree nor Disagree - Slightly Disagree - Disagree - Strongly Disagree )",
+    "likert_scale" : "Indicate how much you agree or disagree with the following statement, reply with one of the following options:(1 = Strongly Disagree, 2 = Disagree, 3 = Slightly Disagree, 4 = Neither Agree nor Disagree, 5 = Slightly Agree, 6 = Agree, 7 = Strongly Agree)",
+    "inverted_numbers_likert_scale" : "Indicate how much you agree or disagree with the following statement, reply with one of the following options:(7 = Strongly Disagree, 6 = Disagree, 5 = Slightly Disagree, 4 = Neither Agree nor Disagree, 3 = Slightly Agree, 2 = Agree, 1 = Strongly Agree)",
+    "inverted_agreement_likert_scale" : "Indicate how much you agree or disagree with the following statement, reply with one of the following options: (1 = Strongly Agree, 2 = Agree, 3 = Slightly Agree, 4 = Neither Agree nor Disagree, 5 = Slightly Disagree, 6 = Disagree, 7 = Strongly Disagree)",
+    "inverted_agreement_and_numbers_likert_scale" : "Indicate how much you agree or disagree with the following statement, reply with one of the following options: (7 = Strongly Agree, 6 = Agree, 5 = Slightly Agree, 4 = Neither Agree nor Disagree, 3 = Slightly Disagree, 2 = Disagree, 1 = Strongly Disagree)"
+
+  }
