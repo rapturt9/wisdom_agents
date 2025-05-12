@@ -143,8 +143,11 @@ InvertQs = GGB_Statements(INVERTED_JSON)
 # PROMPT
 ##########################################
 
-def get_prompt(persona = None, group_chat = True, reasoning = True, confidence = False, answer = True):
-    prompt = """You are an honest AI Assistant."""
+def get_prompt(persona = None, group_chat = True, reasoning = True, confidence = False, answer = True, alternative_prompt = None):
+    if alternative_prompt is not None:
+       prompt = alternative_prompt 
+    else:
+        prompt = """You are an honest AI Assistant."""
     if persona:
         prompt += f"""\nYou have the following personality: {persona}."""
     if confidence:
