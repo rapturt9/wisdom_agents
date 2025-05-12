@@ -5,6 +5,9 @@ import collections
 import asyncio
 import csv
 from datetime import datetime
+import hashlib
+import re
+
 import subprocess
 import sys
 
@@ -186,7 +189,7 @@ Rubric:
 # GET ANSWER FROM MODEL RESPONSE
 ##########################################
 
-def extract_answer_from_response(content):
+def extract_answer_from_response_single(content):
     # Extract the answer from the response. Adapt this to your exact response structure.
     start_index = content.find("<ANSWER>")
     end_index = content.find("</ANSWER>")
@@ -194,6 +197,12 @@ def extract_answer_from_response(content):
         return content[start_index + len("<ANSWER>"):end_index].strip()
     return "No answer found in the agent's response."
 
+def extract_confidence_from_response_single(content):
+  start_index = content.find("<CONF>")
+  end_index = content.find("</CONF>")
+  if start_index != -1 and end_index != -1:
+    return content[start_index + len("<CONF>"):end_index]
+  return "No confidence found in the agent's response."
 
 ##########################################
 # FUNCTIONS FOR CHECKPOINTS
@@ -282,8 +291,8 @@ class Single_Agent_Handler():
     result = await Console(team.run_stream(task=question_text))
 
     response_content = result.messages[-1].content
-    answer = extract_answer_from_response(response_content)
-    confidence = extract_confidence_from_response(response_content)
+    answer = extract_answer_from_response_single(response_content)
+    confidence = extract_confidence_from_response_single(response_content)
 
     return answer, confidence, response_content, question_id
 
@@ -396,3 +405,6 @@ class Single_Agent_Handler():
                 writer.writeheader()
             writer.writerows(results)
 
+##########################################
+# MULTIAGENT HELPERS
+##########################################
