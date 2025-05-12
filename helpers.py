@@ -92,8 +92,10 @@ def get_client(model = "openai/gpt-4o-mini"):
           "vision": False,
           "function_calling": False,
           "json_output": False,
+          "structured_output": False,
           "family": "unknown",
-      }
+      },
+      
   )
   return client
 client = get_client()
