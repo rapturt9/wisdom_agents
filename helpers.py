@@ -433,8 +433,8 @@ class GGB_Statements:
     
 ## Add unique identifiers for each question (Only need to do this once and it should stop you from doing it again)
 
-QUESTION_JSON = os.path.abspath('./GreatestGoodBenchmark.json')
-INVERTED_JSON = os.path.abspath('./GreatestGoodBenchmarkInverted.json')
+QUESTION_JSON = os.path.abspath('GGB_benchmark/GreatestGoodBenchmark.json')
+INVERTED_JSON = os.path.abspath('GGB_benchmark/GreatestGoodBenchmarkInverted.json')
 
 with open(QUESTION_JSON, 'r') as f:
     data = json.load(f)
