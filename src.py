@@ -208,7 +208,7 @@ def extract_confidence_from_response_single(content):
   return "No confidence found in the agent's response."
 
 ##########################################
-# FUNCTIONS FOR CHECKPOINTS
+# FUNCTIONS FOR CHECKPOINTS (SINGLE AGENT)
 ##########################################
 def get_consistent_filenames(model_name, question_range, num_runs):
     """Generates consistent base filename and full paths for csv, log, and checkpoint files."""
