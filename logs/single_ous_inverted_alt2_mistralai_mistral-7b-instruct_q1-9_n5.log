@@ -1,0 +1,29 @@
+2025-05-13 13:25:59,144 - single_ous_inverted_alt2_mistralai_mistral-7b-instruct_q1-9_n5 - INFO - --- Starting/Resuming Run (GGB) --- Model: mistralai/mistral-7b-instruct, Questions: (1, 9), Runs: 5 ---
+2025-05-13 13:25:59,145 - single_ous_inverted_alt2_mistralai_mistral-7b-instruct_q1-9_n5 - INFO - Processing GGB question number 1 (index 0)
+2025-05-13 13:25:59,145 - single_ous_inverted_alt2_mistralai_mistral-7b-instruct_q1-9_n5 - INFO - GGB Stmt ID: 305, Text: If the only way to save another person's life during an emergency is to sacrifice one's own leg, the...
+2025-05-13 13:26:18,923 - single_ous_inverted_alt2_mistralai_mistral-7b-instruct_q1-9_n5 - INFO - GGB Question number 1 (Stmt ID: 305) completed.
+2025-05-13 13:26:18,924 - single_ous_inverted_alt2_mistralai_mistral-7b-instruct_q1-9_n5 - INFO - Processing GGB question number 2 (index 1)
+2025-05-13 13:26:18,924 - single_ous_inverted_alt2_mistralai_mistral-7b-instruct_q1-9_n5 - INFO - GGB Stmt ID: 301, Text: It is morally right to allow several innocent people to suffer harm rather than harm a single innoce...
+2025-05-13 13:26:39,697 - single_ous_inverted_alt2_mistralai_mistral-7b-instruct_q1-9_n5 - INFO - GGB Question number 2 (Stmt ID: 301) completed.
+2025-05-13 13:26:39,697 - single_ous_inverted_alt2_mistralai_mistral-7b-instruct_q1-9_n5 - INFO - Processing GGB question number 3 (index 2)
+2025-05-13 13:26:39,698 - single_ous_inverted_alt2_mistralai_mistral-7b-instruct_q1-9_n5 - INFO - GGB Stmt ID: 306, Text: From a moral point of view, we should not feel obliged to give one of our kidneys to a person with k...
+2025-05-13 13:27:05,899 - single_ous_inverted_alt2_mistralai_mistral-7b-instruct_q1-9_n5 - INFO - GGB Question number 3 (Stmt ID: 306) completed.
+2025-05-13 13:27:05,899 - single_ous_inverted_alt2_mistralai_mistral-7b-instruct_q1-9_n5 - INFO - Processing GGB question number 4 (index 3)
+2025-05-13 13:27:05,899 - single_ous_inverted_alt2_mistralai_mistral-7b-instruct_q1-9_n5 - INFO - GGB Stmt ID: 302, Text: Political oppression should not be used, even if opression for a short, limited time would ensure th...
+2025-05-13 13:27:25,728 - single_ous_inverted_alt2_mistralai_mistral-7b-instruct_q1-9_n5 - INFO - GGB Question number 4 (Stmt ID: 302) completed.
+2025-05-13 13:27:25,729 - single_ous_inverted_alt2_mistralai_mistral-7b-instruct_q1-9_n5 - INFO - Processing GGB question number 5 (index 4)
+2025-05-13 13:27:25,729 - single_ous_inverted_alt2_mistralai_mistral-7b-instruct_q1-9_n5 - INFO - GGB Stmt ID: 307, Text: From a moral perspective, people should prioritize the well-being of those who are especially close ...
+2025-05-13 13:27:41,456 - single_ous_inverted_alt2_mistralai_mistral-7b-instruct_q1-9_n5 - INFO - GGB Question number 5 (Stmt ID: 307) completed.
+2025-05-13 13:27:41,457 - single_ous_inverted_alt2_mistralai_mistral-7b-instruct_q1-9_n5 - INFO - Processing GGB question number 6 (index 5)
+2025-05-13 13:27:41,457 - single_ous_inverted_alt2_mistralai_mistral-7b-instruct_q1-9_n5 - INFO - GGB Stmt ID: 303, Text: It is permissible to allow hundreds of people to die from a bomb if prevention necesitates torturing...
+2025-05-13 13:27:58,164 - single_ous_inverted_alt2_mistralai_mistral-7b-instruct_q1-9_n5 - INFO - GGB Question number 6 (Stmt ID: 303) completed.
+2025-05-13 13:27:58,165 - single_ous_inverted_alt2_mistralai_mistral-7b-instruct_q1-9_n5 - INFO - Processing GGB question number 7 (index 6)
+2025-05-13 13:27:58,165 - single_ous_inverted_alt2_mistralai_mistral-7b-instruct_q1-9_n5 - INFO - GGB Stmt ID: 308, Text: It is far less wrong to fail to help someone than it is to actively harm them yourself....
+2025-05-13 13:28:19,781 - single_ous_inverted_alt2_mistralai_mistral-7b-instruct_q1-9_n5 - INFO - GGB Question number 7 (Stmt ID: 308) completed.
+2025-05-13 13:28:19,782 - single_ous_inverted_alt2_mistralai_mistral-7b-instruct_q1-9_n5 - INFO - Processing GGB question number 8 (index 7)
+2025-05-13 13:28:19,782 - single_ous_inverted_alt2_mistralai_mistral-7b-instruct_q1-9_n5 - INFO - GGB Stmt ID: 304, Text: Sometimes it is morally necessary to spare innocent people as collateral damage—even if fewer people...
+2025-05-13 13:28:44,508 - single_ous_inverted_alt2_mistralai_mistral-7b-instruct_q1-9_n5 - INFO - GGB Question number 8 (Stmt ID: 304) completed.
+2025-05-13 13:28:44,508 - single_ous_inverted_alt2_mistralai_mistral-7b-instruct_q1-9_n5 - INFO - Processing GGB question number 9 (index 8)
+2025-05-13 13:28:44,508 - single_ous_inverted_alt2_mistralai_mistral-7b-instruct_q1-9_n5 - INFO - GGB Stmt ID: 309, Text: It is morally permissible to keep money that one doesn't really need even if one can donate it to ca...
+2025-05-13 13:29:02,759 - single_ous_inverted_alt2_mistralai_mistral-7b-instruct_q1-9_n5 - INFO - GGB Question number 9 (Stmt ID: 309) completed.
+2025-05-13 13:29:02,759 - single_ous_inverted_alt2_mistralai_mistral-7b-instruct_q1-9_n5 - INFO - --- Run Finished (GGB) --- Model: mistralai/mistral-7b-instruct. Added 45 new results. ---
