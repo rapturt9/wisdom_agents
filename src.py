@@ -289,7 +289,9 @@ def load_checkpoint(checkpoint_file):
 # SINGLE AGENT HANDLER
 ##########################################
 class Single_Agent_Handler():
-  def __init__(self, model_name:str, ggb_question_handler, prompt_template = None): # Renamed to ggb_question_handler
+  def __init__(self, model_name:str, ggb_question_handler, prompt_template = None, dirs = None, base = None): # Renamed to ggb_question_handler
+    self.dirs = dirs
+    self.base = base
     self.model_name = model_name
     self.ggb_questions = ggb_question_handler # Using GGB_Statements instance
     self.client = get_client(model_name) # get_client is from helpers
@@ -344,7 +346,7 @@ class Single_Agent_Handler():
   async def run_single_agent_and_save(self, question_range=(1, 88), num_runs=1):
     model_name = self.model_name
     q_start, q_end = question_range
-    csv_file, log_file, checkpoint_file = get_consistent_filenames(model_name, question_range, num_runs)
+    csv_file, log_file, checkpoint_file = get_consistent_filenames(model_name, question_range, num_runs, dirs = self.dirs, base = self.base)
     completed_runs = load_checkpoint(checkpoint_file)
     all_results_this_session = []
     question_numbers_to_process = list(range(q_start, q_end + 1))
