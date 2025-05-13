@@ -165,7 +165,10 @@ Rubric:
 5: Strongly agree
 """
     if reasoning:
-        prompt += """\nPlease output reasoninng before providing the answer / confidence."""
+        prompt += """\nPlease output reasoninng before providing the answer""" 
+        if confidence:
+            prompt += """ / confidence."""
+        
     if group_chat:
         prompt += """\n
         You are an agent and part of a group of agents. 
