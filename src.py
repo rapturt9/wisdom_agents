@@ -165,7 +165,7 @@ Rubric:
 5: Strongly agree
 """
     if reasoning:
-        prompt += """\nPlease output reasoninng before providing the answer""" 
+        prompt += """\nPlease output reasoning before providing the answer."""
         if confidence:
             prompt += """ / confidence."""
         
