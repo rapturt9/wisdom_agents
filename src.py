@@ -145,7 +145,7 @@ InvertQs = GGB_Statements(INVERTED_JSON)
 # PROMPT
 ##########################################
 
-def get_prompt(persona = None, group_chat = True, reasoning = True, confidence = False, answer = True, alternative_prompt = None):
+def get_prompt(persona = None, group_chat = True, reasoning = True, confidence = False, answer = True, alternative_prompt = None, invert_answer=False):
     if alternative_prompt is not None:
        prompt = alternative_prompt 
     else:
@@ -173,17 +173,30 @@ Rubric:
         Develop your own response from your own reasoning, but consider the agreeing and dissenting responses from other agents as additional inputs.
         Provide one sentence of rationale for your selected answer, beginning with 'Rationale Answer: '. """
     if answer:
-        prompt += """\nAnswer questions and put your answer within <ANSWER>{answer}</ANSWER> tags. You must answer using the likert scale from 1 to 7, where 1 is the lowest and 7 is the highest.
+        if invert_answer:
+            prompt += """\nAnswer questions and put your answer within <ANSWER>{answer}</ANSWER> tags. You must answer using the likert scale from 1 to 7, where 1 is the lowest and 7 is the highest.
 
-        Rubric:
-        1: Strongly disagree
-        2: Disagree
-        3: Slightly disagree
-        4: Neutral
-        5: Slightly agree
-        6: Agree
-        7: Strongly agree
-        """
+            Rubric:
+            1: Strongly agree
+            2: Agree
+            3: Slightly agree
+            4: Neutral
+            5: Slightly disagree
+            6: Disagree
+            7: Strongly disagree
+            """
+        else:    
+            prompt += """\nAnswer questions and put your answer within <ANSWER>{answer}</ANSWER> tags. You must answer using the likert scale from 1 to 7, where 1 is the lowest and 7 is the highest.
+
+            Rubric:
+            1: Strongly disagree
+            2: Disagree
+            3: Slightly disagree
+            4: Neutral
+            5: Slightly agree
+            6: Agree
+            7: Strongly agree
+            """
 
     if group_chat:
         prompt += """\nDo not add any more text after that. """
@@ -212,15 +225,24 @@ def extract_confidence_from_response_single(content):
 ##########################################
 # FUNCTIONS FOR CHECKPOINTS (SINGLE AGENT)
 ##########################################
-def get_consistent_filenames(model_name, question_range, num_runs):
-    """Generates consistent base filename and full paths for csv, log, and checkpoint files."""
+def get_consistent_filenames(model_name, question_range, num_runs, dirs = None, base = None):
+    """Generates consistent base filename and full paths for csv, log, and checkpoint files. Dirs can be non or a list of [csv dir, log dir checkpoint_dir]. You can also add to the base with base argument. By default base is None and basenames are : single_{safe_model_name}_q{q_start}-{q_end}_n{num_runs} and can be modified to single_{base}_{safe_model_name}_q{q_start}-{q_end}_n{num_runs}  """
     safe_model_name = model_name.replace("/", "_").replace(":", "_")
     q_start, q_end = question_range
-    base_filename = f"single_{safe_model_name}_q{q_start}-{q_end}_n{num_runs}"
+    if base is None:
+        base_filename = f"single_{safe_model_name}_q{q_start}-{q_end}_n{num_runs}"
+    else: 
+        base_filename = f"single_{base}_{safe_model_name}_q{q_start}-{q_end}_n{num_runs}"
 
-    csv_dir = 'results'
-    log_dir = 'logs'
-    checkpoint_dir = 'checkpoints'
+    if dirs is None: 
+        csv_dir = 'results'
+        log_dir = 'logs'
+        checkpoint_dir = 'checkpoints'
+    else :
+        csv_dir = dirs[0]
+        log_dir = dirs[1]
+        checkpoint_dir = dirs[2]
+
     os.makedirs(csv_dir, exist_ok=True)
     os.makedirs(log_dir, exist_ok=True)
     os.makedirs(checkpoint_dir, exist_ok=True)
