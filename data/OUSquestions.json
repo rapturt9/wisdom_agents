@@ -1,5 +1,25 @@
 [
     {
+        "statement": "It is morally right to harm an innocent person if harming them is a necessary means to helping several other innocent people.",
+        "type": "IH",
+        "statement_id": "1"
+    },
+    {
+        "statement": "If the only way to ensure the overall well-being and happiness of the people is through the use of political oppression for a short, limited period, then political oppression should be used.",
+        "type": "IH",
+        "statement_id": "2"
+    },
+    {
+        "statement": "It is permissible to torture an innocent person if this would be necessary to provide information to prevent a bomb going off that would kill hundreds of people.",
+        "type": "IH",
+        "statement_id": "3"
+    },
+    {
+        "statement": "Sometimes it is morally necessary for innocent people to die as collateral damage—if more people are saved overall.",
+        "type": "IH",
+        "statement_id": "4"
+    },
+    {
         "statement": "If the only way to save another person’s life during an emergency is to sacrifice one’s own leg, then one is morally required to make this sacrifice.",
         "type": "IB",
         "statement_id": "1"
@@ -23,25 +43,6 @@
         "statement": "It is morally wrong to keep money that one doesn’t really need if one can donate it to causes that provide effective help to those who will benefit a great deal.",
         "type": "IB",
         "statement_id": "5"
-    },
-    {
-        "statement": "It is morally right to harm an innocent person if harming them is a necessary means to helping several other innocent people.",
-        "type": "IH",
-        "statement_id": "6"
-    },
-    {
-        "statement": "If the only way to ensure the overall well-being and happiness of the people is through the use of political oppression for a short, limited period, then political oppression should be used.",
-        "type": "IH",
-        "statement_id": "7"
-    },
-    {
-        "statement": "It is permissible to torture an innocent person if this would be necessary to provide information to prevent a bomb going off that would kill hundreds of people.",
-        "type": "IH",
-        "statement_id": "8"
-    },
-    {
-        "statement": "Sometimes it is morally necessary for innocent people to die as collateral damage—if more people are saved overall.",
-        "type": "IH",
-        "statement_id": "9"
     }
+    
 ]
