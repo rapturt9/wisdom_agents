@@ -27,7 +27,7 @@ import logging # Added for logger setup in run_single_agent_and_save
 # Core Variables
 ##########################################
 TEMP = 1
-models = ["openai/gpt-4o-mini", "anthropic/claude-3.5-haiku", "mistralai/mistral-7b-instruct"]
+models = ["openai/gpt-4o-mini", "anthropic/claude-3.5-haiku", "meta-llama/llama-4-scout", "deepseek/deepseek-chat-v3-0324", "mistralai/mixtral-8x7b-instruct"] 
 
 ##########################################
 # API DEFINITIONS AND SETUP
