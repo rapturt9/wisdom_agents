@@ -1,3 +1,6 @@
+##########################################
+# IMPORTS
+##########################################
 import os
 from openai import OpenAI
 import json
@@ -22,6 +25,7 @@ from dotenv import load_dotenv
 from autogen_agentchat.teams import RoundRobinGroupChat
 from autogen_agentchat.conditions import MaxMessageTermination
 import logging # Added for logger setup in run_single_agent_and_save
+
 
 ##########################################
 # Core Variables
@@ -217,9 +221,9 @@ def get_prompt(persona = None, group_chat = True, reasoning = True, confidence =
     return prompt
 
 
-##########################################
-# GET ANSWER FROM MODEL RESPONSE
-##########################################
+#################################################
+# GET ANSWER FROM MODEL RESPONSE (SINGLE AGENT)
+#################################################
 
 def extract_answer_from_response_single(content):
     # Extract the answer from the response. Adapt this to your exact response structure.
@@ -236,9 +240,9 @@ def extract_confidence_from_response_single(content):
     return content[start_index + len("<CONF>"):end_index]
   return "No confidence found in the agent's response."
 
-##########################################
-# FUNCTIONS FOR CHECKPOINTS (SINGLE AGENT)
-##########################################
+########################################################
+# FUNCTIONS FOR CHECKPOINTS/LOGGING (SINGLE AGENT)
+########################################################
 def get_consistent_filenames(model_name, question_range, num_runs, dirs = None, base = None):
     """Generates consistent base filename and full paths for csv, log, and checkpoint files. Dirs can be non or a list of [csv dir, log dir checkpoint_dir]. You can also add to the base with base argument. By default base is None and basenames are : single_{safe_model_name}_q{q_start}-{q_end}_n{num_runs} and can be modified to single_{base}_{safe_model_name}_q{q_start}-{q_end}_n{num_runs}  """
     safe_model_name = model_name.replace("/", "_").replace(":", "_")
@@ -452,3 +456,123 @@ class Single_Agent_Handler():
 # MULTIAGENT HELPERS
 # TODO!
 ##########################################
+
+########################################################
+# FUNCTIONS FOR CHECKPOINTS/LOGGING (MULTI AGENT)
+########################################################
+
+def create_config_hash(config_details):
+    """Creates a short hash from a configuration dictionary or list."""
+    if isinstance(config_details, dict):
+        config_string = json.dumps(config_details, sort_keys=True)
+    elif isinstance(config_details, list):
+        try:
+            # Attempt to sort if list of dicts with 'model' key
+            sorted_list = sorted(config_details, key=lambda x: x.get('model', str(x)))
+            config_string = json.dumps(sorted_list)
+        except TypeError:
+            config_string = json.dumps(sorted(map(str, config_details))) # Sort by string representation
+    else:
+        config_string = str(config_details)
+
+    return hashlib.md5(config_string.encode('utf-8')).hexdigest()[:8]
+
+def get_multi_agent_filenames(chat_type, config_details, question_range, num_iterations, model_identifier="ggb"): # Added model_identifier
+    """Generates consistent filenames for multi-agent runs."""
+    config_hash = create_config_hash(config_details)
+    q_start, q_end = question_range
+    safe_model_id = model_identifier.replace("/", "_").replace(":", "_")
+
+    # Ensure filenames clearly indicate GGB source and distinguish from old MoralBench runs
+    base_filename_core = f"{chat_type}_{safe_model_id}_{config_hash}_q{q_start}-{q_end}_n{num_iterations}"
+
+    csv_dir = 'results_multi'
+    log_dir = 'logs'
+    checkpoint_dir = 'checkpoints'
+    os.makedirs(csv_dir, exist_ok=True)
+    os.makedirs(log_dir, exist_ok=True)
+    os.makedirs(checkpoint_dir, exist_ok=True)
+
+    csv_file = os.path.join(csv_dir, f"{base_filename_core}.csv")
+    log_file = os.path.join(log_dir, f"{base_filename_core}.log")
+    checkpoint_file = os.path.join(checkpoint_dir, f"{base_filename_core}_checkpoint.json")
+
+    return csv_file, log_file, checkpoint_file
+
+def save_checkpoint_multi(checkpoint_file, completed_data):
+    """Save the current progress (structured without top-level hash) for multi-agent runs."""
+    try:
+        with open(checkpoint_file, 'w') as f:
+            json.dump(completed_data, f, indent=4)
+    except Exception as e:
+        print(f"Error saving checkpoint to {checkpoint_file}: {e}")
+
+def load_checkpoint_multi(checkpoint_file):
+    """Load progress for multi-agent runs (structured without top-level hash)."""
+    if not os.path.exists(checkpoint_file):
+        print(f"Checkpoint file {checkpoint_file} not found. Starting fresh.")
+        return {}
+    try:
+        with open(checkpoint_file, 'r') as f:
+            completed_data = json.load(f)
+        if isinstance(completed_data, dict):
+            print(f"Loaded checkpoint from {checkpoint_file}")
+            return completed_data
+        else:
+            print(f"Invalid checkpoint format in {checkpoint_file}. Starting fresh.")
+            return {}
+    except json.JSONDecodeError:
+        print(f"Error decoding JSON from {checkpoint_file}. Starting fresh.")
+        return {}
+    except Exception as e:
+        print(f"Error loading checkpoint {checkpoint_file}: {e}. Starting fresh.")
+        return {}
+
+def setup_logger_multi(log_file):
+    """Sets up a logger for multi-agent runs."""
+    logger_name = os.path.basename(log_file).replace('.log', '')
+    logger = logging.getLogger(logger_name)
+    logger.setLevel(logging.INFO)
+    if not logger.handlers:
+        log_dir = os.path.dirname(log_file)
+        if log_dir:
+            os.makedirs(log_dir, exist_ok=True)
+        file_handler = logging.FileHandler(log_file, mode='a', encoding='utf-8')
+        formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+        file_handler.setFormatter(formatter)
+        logger.addHandler(file_handler)
+    return logger
+
+def write_to_csv_multi(run_result, csv_file):
+    """Appends a single run's results (as a dictionary) to a CSV file."""
+    if not run_result:
+        return
+    file_exists = os.path.exists(csv_file)
+    is_empty = not file_exists or os.path.getsize(csv_file) == 0
+    os.makedirs(os.path.dirname(csv_file) if os.path.dirname(csv_file) else '.', exist_ok=True)
+
+    fieldnames = [
+        'question_num', 'question_id', 'run_index', 'chat_type', 'config_details',
+        'conversation_history', 'agent_responses', 'timestamp'
+    ]
+
+    with open(csv_file, 'a', newline='', encoding='utf-8') as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction='ignore')
+        if is_empty:
+            writer.writeheader()
+        writer.writerow(run_result)
+
+#################################################
+# GET ANSWER FROM MODEL RESPONSE (MULTI AGENT)
+#################################################        
+
+def extract_answer_from_response(content):
+    """Extracts the answer (e.g., A, B) from <ANSWER> tags."""
+    match = re.search(r"<ANSWER>(.*?)</ANSWER>", content, re.IGNORECASE | re.DOTALL)
+    return match.group(1).strip() if match else "No answer found"
+
+def extract_confidence_from_response(content):
+    """Extracts the confidence number from <CONF> tags."""
+    match = re.search(r"<CONF>(.*?)</CONF>", content, re.IGNORECASE | re.DOTALL)
+    return match.group(1).strip() if match else "No confidence found"
+
