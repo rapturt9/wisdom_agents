@@ -89,6 +89,8 @@ class GGB_Statements:
         return self.questions
 
     def print_question(self, question_id, printout=False):
+        if type(question_id) != str:
+            question_id = str(question_id)
         qstring = self.questions[question_id]['question']
         if printout:
             print(f'{qstring}')
@@ -112,6 +114,8 @@ class GGB_Statements:
         return self.json_data[index]
     
     def get_question_category(self, question_id):
+        if type(question_id) != str:
+            question_id = str(question_id)
         return self.questions[question_id]['category']
 
 QUESTION_JSON = os.path.abspath('GGB_benchmark/GreatestGoodBenchmark.json')
