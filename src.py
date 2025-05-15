@@ -236,6 +236,10 @@ def extract_answer_from_response_single(content):
     end_index = content.find("</ANSWER>")
     if start_index != -1 and end_index != -1:
         return content[start_index + len("<ANSWER>"):end_index].strip()
+    answers = ["1", "2", "3", "4", "5", "6", "7"]
+    for answer in answers:
+        if answer in content:
+            return answer
     return "No answer found in the agent's response."
 
 def extract_confidence_from_response_single(content):
