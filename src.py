@@ -601,6 +601,8 @@ class MultiAgentHandler():
 ########################################################
 
 class RingHandler(MultiAgentHandler):
+    # NOTE THAT MODELS SHOULD BE A LIST OF THE MODELS IN THE RING. 
+    # IF YOU WANT MULTIPLE OF A CERTAIN MODEL, JUST PUT IT IN THE LIST THAT MANY TIMES
     def __init__(self, models, Qs, 
                  Prompt:PromptHandler, 
                  nrounds=3, nrepeats=10, shuffle=False, 
@@ -621,7 +623,7 @@ class RingHandler(MultiAgentHandler):
         self.initiate_files()
 
     def configure(self):
-        self.MODEL_ENSEMBLE_CONFIG = [{'model': m, "number": self.N_ITERATIONS_PER_QUESTION} for m in self.models]
+        self.MODEL_ENSEMBLE_CONFIG =  [{'model': m, "number": self.models.count(m)} for m in set(self.models)]
         self.config_details = {'ensemble': self.MODEL_ENSEMBLE_CONFIG, 'loops':self.N_CONVERGENCE_LOOPS, 'shuffle': self.SHUFFLE_AGENTS}
         self.CONFIG_HASH = self.create_config_hash(self.config_details)
     
