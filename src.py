@@ -36,7 +36,7 @@ import logging # Added for logger setup in run_single_agent_and_save
 # Core Variables
 ##########################################
 TEMP = 1
-models = ["openai/gpt-4o-mini", "anthropic/claude-3.5-haiku", "meta-llama/llama-4-scout", "deepseek/deepseek-chat-v3-0324", "mistralai/mixtral-8x7b-instruct"] 
+models = ["openai/gpt-4o-mini", "anthropic/claude-3.5-haiku", "google/gemini-2.0-flash-lite-001", "qwen/qwen-2.5-7b-instruct", "meta-llama/llama-3.1-8b-instruct", "deepseek/deepseek-chat-v3-0324"]
 
 ##########################################
 # API DEFINITIONS AND SETUP
@@ -243,6 +243,10 @@ def extract_confidence_from_response_single(content):
   end_index = content.find("</CONF>")
   if start_index != -1 and end_index != -1:
     return content[start_index + len("<CONF>"):end_index]
+  answers = ["1", "2", "3", "4", "5", "6", "7"]
+  for answer in answers:
+      if answer in content:
+          return answer
   return "No confidence found in the agent's response."
 
 ########################################################
