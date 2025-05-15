@@ -454,113 +454,9 @@ class Single_Agent_Handler():
 
 ##########################################
 # MULTIAGENT HELPERS
-# TODO!
+# TODO: WIP!
 ##########################################
 
-########################################################
-# FUNCTIONS FOR CHECKPOINTS/LOGGING (MULTI AGENT)
-########################################################
-
-def create_config_hash(config_details):
-    """Creates a short hash from a configuration dictionary or list."""
-    if isinstance(config_details, dict):
-        config_string = json.dumps(config_details, sort_keys=True)
-    elif isinstance(config_details, list):
-        try:
-            # Attempt to sort if list of dicts with 'model' key
-            sorted_list = sorted(config_details, key=lambda x: x.get('model', str(x)))
-            config_string = json.dumps(sorted_list)
-        except TypeError:
-            config_string = json.dumps(sorted(map(str, config_details))) # Sort by string representation
-    else:
-        config_string = str(config_details)
-
-    return hashlib.md5(config_string.encode('utf-8')).hexdigest()[:8]
-
-def get_multi_agent_filenames(chat_type, config_details, question_range, num_iterations, model_identifier="ggb"): # Added model_identifier
-    """Generates consistent filenames for multi-agent runs."""
-    config_hash = create_config_hash(config_details)
-    q_start, q_end = question_range
-    safe_model_id = model_identifier.replace("/", "_").replace(":", "_")
-
-    # Ensure filenames clearly indicate GGB source and distinguish from old MoralBench runs
-    base_filename_core = f"{chat_type}_{safe_model_id}_{config_hash}_q{q_start}-{q_end}_n{num_iterations}"
-
-    csv_dir = 'results_multi'
-    log_dir = 'logs'
-    checkpoint_dir = 'checkpoints'
-    os.makedirs(csv_dir, exist_ok=True)
-    os.makedirs(log_dir, exist_ok=True)
-    os.makedirs(checkpoint_dir, exist_ok=True)
-
-    csv_file = os.path.join(csv_dir, f"{base_filename_core}.csv")
-    log_file = os.path.join(log_dir, f"{base_filename_core}.log")
-    checkpoint_file = os.path.join(checkpoint_dir, f"{base_filename_core}_checkpoint.json")
-
-    return csv_file, log_file, checkpoint_file
-
-def save_checkpoint_multi(checkpoint_file, completed_data):
-    """Save the current progress (structured without top-level hash) for multi-agent runs."""
-    try:
-        with open(checkpoint_file, 'w') as f:
-            json.dump(completed_data, f, indent=4)
-    except Exception as e:
-        print(f"Error saving checkpoint to {checkpoint_file}: {e}")
-
-def load_checkpoint_multi(checkpoint_file):
-    """Load progress for multi-agent runs (structured without top-level hash)."""
-    if not os.path.exists(checkpoint_file):
-        print(f"Checkpoint file {checkpoint_file} not found. Starting fresh.")
-        return {}
-    try:
-        with open(checkpoint_file, 'r') as f:
-            completed_data = json.load(f)
-        if isinstance(completed_data, dict):
-            print(f"Loaded checkpoint from {checkpoint_file}")
-            return completed_data
-        else:
-            print(f"Invalid checkpoint format in {checkpoint_file}. Starting fresh.")
-            return {}
-    except json.JSONDecodeError:
-        print(f"Error decoding JSON from {checkpoint_file}. Starting fresh.")
-        return {}
-    except Exception as e:
-        print(f"Error loading checkpoint {checkpoint_file}: {e}. Starting fresh.")
-        return {}
-
-def setup_logger_multi(log_file):
-    """Sets up a logger for multi-agent runs."""
-    logger_name = os.path.basename(log_file).replace('.log', '')
-    logger = logging.getLogger(logger_name)
-    logger.setLevel(logging.INFO)
-    if not logger.handlers:
-        log_dir = os.path.dirname(log_file)
-        if log_dir:
-            os.makedirs(log_dir, exist_ok=True)
-        file_handler = logging.FileHandler(log_file, mode='a', encoding='utf-8')
-        formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
-        file_handler.setFormatter(formatter)
-        logger.addHandler(file_handler)
-    return logger
-
-def write_to_csv_multi(run_result, csv_file):
-    """Appends a single run's results (as a dictionary) to a CSV file."""
-    if not run_result:
-        return
-    file_exists = os.path.exists(csv_file)
-    is_empty = not file_exists or os.path.getsize(csv_file) == 0
-    os.makedirs(os.path.dirname(csv_file) if os.path.dirname(csv_file) else '.', exist_ok=True)
-
-    fieldnames = [
-        'question_num', 'question_id', 'run_index', 'chat_type', 'config_details',
-        'conversation_history', 'agent_responses', 'timestamp'
-    ]
-
-    with open(csv_file, 'a', newline='', encoding='utf-8') as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction='ignore')
-        if is_empty:
-            writer.writeheader()
-        writer.writerow(run_result)
 
 #################################################
 # GET ANSWER FROM MODEL RESPONSE (MULTI AGENT)
@@ -576,3 +472,312 @@ def extract_confidence_from_response(content):
     match = re.search(r"<CONF>(.*?)</CONF>", content, re.IGNORECASE | re.DOTALL)
     return match.group(1).strip() if match else "No confidence found"
 
+########################################################
+# GENERAL MULTIAGENT HANDLER
+# DEFINES FUNCTIONS FOR CHECKPOINTS/LOGGING
+########################################################
+
+class MultiAgentHandler():
+    def __init__(self):
+        pass
+
+    def create_config_hash(self, config_details):
+        """Creates a short hash from a configuration dictionary or list."""
+        if isinstance(config_details, dict):
+            config_string = json.dumps(config_details, sort_keys=True)
+        elif isinstance(config_details, list):
+            try:
+                # Attempt to sort if list of dicts with 'model' key
+                sorted_list = sorted(config_details, key=lambda x: x.get('model', str(x)))
+                config_string = json.dumps(sorted_list)
+            except TypeError:
+                config_string = json.dumps(sorted(map(str, config_details))) # Sort by string representation
+        else:
+            config_string = str(config_details)
+
+        return hashlib.md5(config_string.encode('utf-8')).hexdigest()[:8]
+
+    def get_multi_agent_filenames(self, chat_type, config_details, question_range, num_iterations, model_identifier="ggb"): # Added model_identifier
+        """Generates consistent filenames for multi-agent runs."""
+        config_hash = self.create_config_hash(config_details)
+        q_start, q_end = question_range
+        safe_model_id = model_identifier.replace("/", "_").replace(":", "_")
+
+        # Ensure filenames clearly indicate GGB source and distinguish from old MoralBench runs
+        base_filename_core = f"{chat_type}_{safe_model_id}_{config_hash}_q{q_start}-{q_end}_n{num_iterations}"
+
+        csv_dir = 'results_multi'
+        log_dir = 'logs'
+        checkpoint_dir = 'checkpoints'
+        os.makedirs(csv_dir, exist_ok=True)
+        os.makedirs(log_dir, exist_ok=True)
+        os.makedirs(checkpoint_dir, exist_ok=True)
+
+        csv_file = os.path.join(csv_dir, f"{base_filename_core}.csv")
+        log_file = os.path.join(log_dir, f"{base_filename_core}.log")
+        checkpoint_file = os.path.join(checkpoint_dir, f"{base_filename_core}_checkpoint.json")
+
+        return csv_file, log_file, checkpoint_file
+
+    def save_checkpoint_multi(self, checkpoint_file, completed_data):
+        """Save the current progress (structured without top-level hash) for multi-agent runs."""
+        try:
+            with open(checkpoint_file, 'w') as f:
+                json.dump(completed_data, f, indent=4)
+        except Exception as e:
+            print(f"Error saving checkpoint to {checkpoint_file}: {e}")
+
+    def load_checkpoint_multi(self, checkpoint_file):
+        """Load progress for multi-agent runs (structured without top-level hash)."""
+        if not os.path.exists(checkpoint_file):
+            print(f"Checkpoint file {checkpoint_file} not found. Starting fresh.")
+            return {}
+        try:
+            with open(checkpoint_file, 'r') as f:
+                completed_data = json.load(f)
+            if isinstance(completed_data, dict):
+                print(f"Loaded checkpoint from {checkpoint_file}")
+                return completed_data
+            else:
+                print(f"Invalid checkpoint format in {checkpoint_file}. Starting fresh.")
+                return {}
+        except json.JSONDecodeError:
+            print(f"Error decoding JSON from {checkpoint_file}. Starting fresh.")
+            return {}
+        except Exception as e:
+            print(f"Error loading checkpoint {checkpoint_file}: {e}. Starting fresh.")
+            return {}
+
+    def setup_logger_multi(self, log_file):
+        """Sets up a logger for multi-agent runs."""
+        logger_name = os.path.basename(log_file).replace('.log', '')
+        logger = logging.getLogger(logger_name)
+        logger.setLevel(logging.INFO)
+        if not logger.handlers:
+            log_dir = os.path.dirname(log_file)
+            if log_dir:
+                os.makedirs(log_dir, exist_ok=True)
+            file_handler = logging.FileHandler(log_file, mode='a', encoding='utf-8')
+            formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+            file_handler.setFormatter(formatter)
+            logger.addHandler(file_handler)
+        return logger
+
+    def write_to_csv_multi(self, run_result, csv_file):
+        """Appends a single run's results (as a dictionary) to a CSV file."""
+        if not run_result:
+            return
+        file_exists = os.path.exists(csv_file)
+        is_empty = not file_exists or os.path.getsize(csv_file) == 0
+        os.makedirs(os.path.dirname(csv_file) if os.path.dirname(csv_file) else '.', exist_ok=True)
+
+        fieldnames = [
+            'question_num', 'question_id', 'run_index', 'chat_type', 'config_details',
+            'conversation_history', 'agent_responses', 'timestamp'
+        ]
+
+        with open(csv_file, 'a', newline='', encoding='utf-8') as f:
+            writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction='ignore')
+            if is_empty:
+                writer.writeheader()
+            writer.writerow(run_result)
+
+
+########################################################
+# RING HANDLER
+########################################################
+class RingHandler(MultiAgentHandler):
+    def __init__(self, models, Qs, nrounds=3, nrepeats=10, shuffle=False, chat_type = 'ring'):
+        self.Qs = Qs
+        self.models = models
+        self.QUESTION_RANGE = (1, Qs.get_total_questions() if Qs else 1) # Use total GGB questions
+        self.N_ITERATIONS_PER_QUESTION = nrepeats
+        self.N_CONVERGENCE_LOOPS = nrounds
+        self.SHUFFLE_AGENTS = shuffle
+        self.CHAT_TYPE = chat_type
+
+        # configuration
+        self.configure()
+        # files for saving, logging and checkpoints
+        self.initiate_files()
+
+    def configure(self):
+        self.MODEL_ENSEMBLE_CONFIG = [{'model': m, "number": self.N_ITERATIONS_PER_QUESTION} for m in self.models]
+        self.config_details = {'ensemble': self.MODEL_ENSEMBLE_CONFIG, 'loops':self.N_CONVERGENCE_LOOPS, 'shuffle': self.SHUFFLE_AGENTS}
+        self.CONFIG_HASH = self.create_config_hash(self.config_details)
+    
+    def initiate_files(self):
+        self.csv_file, self.log_file, self.checkpoint_file = self.get_multi_agent_filenames(self.CHAT_TYPE, self.config_details, self.QUESTION_RANGE, self.N_ITERATIONS_PER_QUESTION, model_identifier="ensemble")
+        self.logger = self.setup_logger_multi(self.log_file)
+        self.completed_runs = self.load_checkpoint_multi(self.checkpoint_file)
+    
+    async def run_single_ring_iteration(self, task, max_loops, question_num, question_id, iteration_idx):
+        model_ensemble = self.MODEL_ENSEMBLE_CONFIG
+        max_loops = self.N_CONVERGENCE_LOOPS
+        shuffle = self.SHUFFLE_AGENTS
+
+        """Runs one iteration of the round-robin chat, returning aggregated results."""
+        agents = []
+        agent_map = {}
+        config_details_str = json.dumps(self.config_details, sort_keys=True)
+
+        agent_index = 0
+        for i, model_data in enumerate(model_ensemble):
+            for j in range(model_data['number']):
+                model_name = model_data['model']
+                system_message = get_prompt(group_chat=True) # get_prompt from helpers
+                model_text_safe = re.sub(r'\W+','_', model_name)
+                agent_name = f"agent_{model_text_safe}_{i}_{j}"
+                agent = AssistantAgent(
+                    name=agent_name,
+                    model_client=get_client(model_name), # get_client from helpers
+                    system_message=system_message,
+                )
+                agent_map[agent_name] = model_name
+                agents.append(agent)
+                agent_index += 1
+
+        if shuffle:
+            random.shuffle(agents)
+
+        num_agents = len(agents)
+        if num_agents == 0:
+            self.logger.warning(f"Q_num{question_num} (Question ID {question_id}) Iter{iteration_idx}: No agents created, skipping.")
+            return None
+
+        self.logger.info(f"Q_num{question_num} (Question ID {question_id}) Iter{iteration_idx}: Starting chat with {num_agents} agents.")
+
+        termination_condition = MaxMessageTermination((max_loops * num_agents) + 1)
+        team = RoundRobinGroupChat(agents, termination_condition=termination_condition)
+
+        start_time = time.time()
+        result = await Console(team.run_stream(task=task))
+        duration = time.time() - start_time
+        self.logger.info(f"Q_num{question_num} (Question ID {question_id}) Iter{iteration_idx}: Chat finished in {duration:.2f} seconds.")
+
+        conversation_history = []
+        agent_responses = []
+
+        for msg_idx, message in enumerate(result.messages):
+            msg_timestamp_iso = None
+            if hasattr(message, 'timestamp') and message.timestamp:
+                try:
+                    msg_timestamp_iso = message.timestamp.isoformat()
+                except AttributeError:
+                    msg_timestamp_iso = str(message.timestamp)
+
+            conversation_history.append({
+                'index': msg_idx,
+                'source': message.source,
+                'content': message.content,
+                'timestamp': msg_timestamp_iso
+            })
+
+            if message.source != "user":
+                agent_name = message.source
+                model_name = agent_map.get(agent_name, "unknown_model")
+                answer = extract_answer_from_response(message.content)
+                conf = extract_confidence_from_response(message.content)
+
+                agent_responses.append({
+                    'agent_name': agent_name,
+                    'agent_model': model_name,
+                    'message_index': msg_idx,
+                    'extracted_answer': answer,
+                    'extracted_confidence': conf,
+                    'message_content': message.content
+                })
+                self.logger.info(f"Q_num{question_num} (Question ID {question_id}) Iter{iteration_idx+1} Msg{msg_idx} Agent {agent_name}: Ans={answer}, Conf={conf}")
+
+        conversation_history_json = json.dumps(conversation_history)
+        agent_responses_json = json.dumps(agent_responses)
+
+        run_result_dict = {
+            'question_num': question_num, # Sequential number from range
+            'question_id': question_id,   # GGB statement_id
+            'run_index': iteration_idx + 1,
+            'chat_type': self.CHAT_TYPE,
+            'config_details': config_details_str,
+            'conversation_history': conversation_history_json,
+            'agent_responses': agent_responses_json,
+            'timestamp': datetime.now().isoformat()
+        }
+
+        del agents, team, result
+        gc.collect()
+
+        return run_result_dict
+
+    async def main_ring_convergence(self):
+        if not self.Qs:
+            print("Qs (Question Handler) not available. Aborting.")
+            return
+        if not self.MODEL_ENSEMBLE_CONFIG:
+            print("MODEL_ENSEMBLE_CONFIG is empty. Aborting ring convergence run.")
+            return
+
+        # global QUESTION_RANGE
+        if self.QUESTION_RANGE[1] > self.Qs.get_total_questions():
+            print(f"Warning: Requested upper question range {self.QUESTION_RANGE[1]} exceeds available questions {self.Qs.get_total_questions()}.")
+            self.QUESTION_RANGE = (self.QUESTION_RANGE[0], self.Qs.get_total_questions())
+            print(f"Adjusted upper range to {self.QUESTION_RANGE[1]}.")
+
+        print(f"Starting {self.CHAT_TYPE} run with questions.")
+        self.logger.info(f"--- Starting New Run --- CONFIG HASH: {self.CONFIG_HASH} --- Chat Type: {self.CHAT_TYPE} ---")
+
+        for q_num_iter in range(self.QUESTION_RANGE[0], self.QUESTION_RANGE[1] + 1): # q_num_iter is 1-based
+            q_checkpoint_key = str(q_num_iter)
+            if q_checkpoint_key not in self.completed_runs:
+                self.completed_runs[q_checkpoint_key] = {}
+
+            # Fetch GGB question data using 0-based index
+            question_data = self.Qs.get_question_by_index(q_num_iter - 1)
+            if not question_data or 'statement' not in question_data or 'statement_id' not in question_data:
+                self.logger.error(f"Question for index {q_num_iter-1} (number {q_num_iter}) not found or malformed. Skipping.")
+                continue
+            task_text = question_data['statement']
+            current_ggb_question_id = question_data['statement_id']
+
+            for iter_idx in range(self.N_ITERATIONS_PER_QUESTION):
+                iter_checkpoint_key = str(iter_idx)
+                if self.completed_runs.get(q_checkpoint_key, {}).get(iter_checkpoint_key, False):
+                    print(f"Skipping Question num {q_num_iter} (ID {current_ggb_question_id}), Iteration {iter_idx+1} (already completed).")
+                    self.logger.info(f"Skipping Q_num{q_num_iter} (ID {current_ggb_question_id}) Iter{iter_idx+1} (already completed).")
+                    continue
+
+                print(f"--- Running Q_num {q_num_iter} (ID {current_ggb_question_id}), Iteration {iter_idx+1}/{self.N_ITERATIONS_PER_QUESTION} ---")
+                self.logger.info(f"--- Running Q_num{q_num_iter} (ID {current_ggb_question_id}) Iter{iter_idx+1}/{self.N_ITERATIONS_PER_QUESTION} ---")
+                self.logger.info(f"Task: {task_text[:100]}...")
+
+                try:
+                    iteration_result_data = await self.run_single_ring_iteration(
+                        task=task_text,
+                        question_num=q_num_iter, # Pass the 1-based number for record keeping
+                        question_id=current_ggb_question_id, # Pass GGB statement_id
+                        iteration_idx=iter_idx,
+                    )
+
+                    if iteration_result_data:
+                        self.write_to_csv_multi(iteration_result_data, self.csv_file)
+                        self.completed_runs[q_checkpoint_key][iter_checkpoint_key] = True
+                        self.save_checkpoint_multi(self.checkpoint_file, self.completed_runs)
+                        print(f"--- Finished Q_num {q_num_iter} (ID {current_ggb_question_id}), Iteration {iter_idx+1}. Results saved. ---")
+                        self.logger.info(f"--- Finished Q_num{q_num_iter} (ID {current_ggb_question_id}) Iter{iter_idx+1}. Results saved. ---")
+                    else:
+                        print(f"--- Q_num {q_num_iter} (ID {current_ggb_question_id}), Iteration {iter_idx+1} produced no results. ---")
+                        self.logger.warning(f"--- Q_num{q_num_iter} (ID {current_ggb_question_id}) Iter{iter_idx+1} produced no results. ---")
+
+                except Exception as e:
+                    print(f"Error during Q_num {q_num_iter} (ID {current_ggb_question_id}), Iteration {iter_idx+1}: {e}")
+                    self.logger.error(f"Error during Q_num{q_num_iter} (ID {current_ggb_question_id}) Iter{iter_idx+1}: {e}", exc_info=True)
+                finally:
+                    gc.collect()
+
+        print(f"--- Run Finished --- CONFIG HASH: {self.CONFIG_HASH} ---")
+        self.logger.info(f"--- Run Finished --- CONFIG HASH: {self.CONFIG_HASH} ---")
+    
+
+
+########################################################
+# STAR HANDLER : TODO!
+########################################################
