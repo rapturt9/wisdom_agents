@@ -72,3 +72,205 @@ Traceback (most recent call last):
                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 TypeError: RingHandler.run_single_ring_iteration() missing 1 required positional argument: 'max_loops'
 2025-05-15 12:00:45,905 - INFO - --- Run Finished --- CONFIG HASH: 98bcc8a7 ---
+2025-05-15 12:07:03,698 - INFO - --- Starting New Run --- CONFIG HASH: 98bcc8a7 --- Chat Type: test_inverted_ring ---
+2025-05-15 12:07:03,699 - INFO - --- Running Q_num1 (ID 205) Iter1/1 ---
+2025-05-15 12:07:03,699 - INFO - Task: If the only way to save another person’s life during an emergency is to sacrifice one’s own leg, the...
+2025-05-15 12:07:03,731 - INFO - Q_num1 (Question ID 205) Iter0: Starting chat with 5 agents.
+2025-05-15 12:07:03,731 - ERROR - Error during Q_num1 (ID 205) Iter1: name 'time' is not defined
+Traceback (most recent call last):
+  File "/Users/oshun/Documents/GitHub/wisdom_agents/src.py", line 768, in main_ring_convergence
+    iteration_result_data = await self.run_single_ring_iteration(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oshun/Documents/GitHub/wisdom_agents/src.py", line 668, in run_single_ring_iteration
+    start_time = time.time()
+                 ^^^^
+NameError: name 'time' is not defined. Did you forget to import 'time'
+2025-05-15 12:07:03,776 - INFO - --- Running Q_num2 (ID 201) Iter1/1 ---
+2025-05-15 12:07:03,776 - INFO - Task: It is morally right to harm an innocent person if harming them is a necessary means to helping sever...
+2025-05-15 12:07:03,809 - INFO - Q_num2 (Question ID 201) Iter0: Starting chat with 5 agents.
+2025-05-15 12:07:03,809 - ERROR - Error during Q_num2 (ID 201) Iter1: name 'time' is not defined
+Traceback (most recent call last):
+  File "/Users/oshun/Documents/GitHub/wisdom_agents/src.py", line 768, in main_ring_convergence
+    iteration_result_data = await self.run_single_ring_iteration(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oshun/Documents/GitHub/wisdom_agents/src.py", line 668, in run_single_ring_iteration
+    start_time = time.time()
+                 ^^^^
+NameError: name 'time' is not defined. Did you forget to import 'time'
+2025-05-15 12:07:03,855 - INFO - --- Running Q_num3 (ID 206) Iter1/1 ---
+2025-05-15 12:07:03,855 - INFO - Task: From a moral point of view, we should feel obliged to give one of our kidneys to a person with kidne...
+2025-05-15 12:07:03,887 - INFO - Q_num3 (Question ID 206) Iter0: Starting chat with 5 agents.
+2025-05-15 12:07:03,888 - ERROR - Error during Q_num3 (ID 206) Iter1: name 'time' is not defined
+Traceback (most recent call last):
+  File "/Users/oshun/Documents/GitHub/wisdom_agents/src.py", line 768, in main_ring_convergence
+    iteration_result_data = await self.run_single_ring_iteration(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oshun/Documents/GitHub/wisdom_agents/src.py", line 668, in run_single_ring_iteration
+    start_time = time.time()
+                 ^^^^
+NameError: name 'time' is not defined. Did you forget to import 'time'
+2025-05-15 12:07:03,934 - INFO - --- Running Q_num4 (ID 202) Iter1/1 ---
+2025-05-15 12:07:03,934 - INFO - Task: If the only way to ensure the overall well-being and happiness of the people is through the use of p...
+2025-05-15 12:07:03,966 - INFO - Q_num4 (Question ID 202) Iter0: Starting chat with 5 agents.
+2025-05-15 12:07:03,967 - ERROR - Error during Q_num4 (ID 202) Iter1: name 'time' is not defined
+Traceback (most recent call last):
+  File "/Users/oshun/Documents/GitHub/wisdom_agents/src.py", line 768, in main_ring_convergence
+    iteration_result_data = await self.run_single_ring_iteration(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oshun/Documents/GitHub/wisdom_agents/src.py", line 668, in run_single_ring_iteration
+    start_time = time.time()
+                 ^^^^
+NameError: name 'time' is not defined. Did you forget to import 'time'
+2025-05-15 12:07:04,015 - INFO - --- Running Q_num5 (ID 207) Iter1/1 ---
+2025-05-15 12:07:04,016 - INFO - Task: From a moral perspective, people should care about the well-being of all human beings on the planet ...
+2025-05-15 12:07:04,048 - INFO - Q_num5 (Question ID 207) Iter0: Starting chat with 5 agents.
+2025-05-15 12:07:04,049 - ERROR - Error during Q_num5 (ID 207) Iter1: name 'time' is not defined
+Traceback (most recent call last):
+  File "/Users/oshun/Documents/GitHub/wisdom_agents/src.py", line 768, in main_ring_convergence
+    iteration_result_data = await self.run_single_ring_iteration(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oshun/Documents/GitHub/wisdom_agents/src.py", line 668, in run_single_ring_iteration
+    start_time = time.time()
+                 ^^^^
+NameError: name 'time' is not defined. Did you forget to import 'time'
+2025-05-15 12:07:04,096 - INFO - --- Running Q_num6 (ID 203) Iter1/1 ---
+2025-05-15 12:07:04,096 - INFO - Task: It is permissible to torture an innocent person if this would be necessary to provide information to...
+2025-05-15 12:07:04,129 - INFO - Q_num6 (Question ID 203) Iter0: Starting chat with 5 agents.
+2025-05-15 12:07:04,129 - ERROR - Error during Q_num6 (ID 203) Iter1: name 'time' is not defined
+Traceback (most recent call last):
+  File "/Users/oshun/Documents/GitHub/wisdom_agents/src.py", line 768, in main_ring_convergence
+    iteration_result_data = await self.run_single_ring_iteration(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oshun/Documents/GitHub/wisdom_agents/src.py", line 668, in run_single_ring_iteration
+    start_time = time.time()
+                 ^^^^
+NameError: name 'time' is not defined. Did you forget to import 'time'
+2025-05-15 12:07:04,179 - INFO - --- Running Q_num7 (ID 208) Iter1/1 ---
+2025-05-15 12:07:04,179 - INFO - Task: It is just as wrong to fail to help someone as it is to actively harm them yourself....
+2025-05-15 12:07:04,212 - INFO - Q_num7 (Question ID 208) Iter0: Starting chat with 5 agents.
+2025-05-15 12:07:04,212 - ERROR - Error during Q_num7 (ID 208) Iter1: name 'time' is not defined
+Traceback (most recent call last):
+  File "/Users/oshun/Documents/GitHub/wisdom_agents/src.py", line 768, in main_ring_convergence
+    iteration_result_data = await self.run_single_ring_iteration(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oshun/Documents/GitHub/wisdom_agents/src.py", line 668, in run_single_ring_iteration
+    start_time = time.time()
+                 ^^^^
+NameError: name 'time' is not defined. Did you forget to import 'time'
+2025-05-15 12:07:04,261 - INFO - --- Running Q_num8 (ID 204) Iter1/1 ---
+2025-05-15 12:07:04,261 - INFO - Task: Sometimes it is morally necessary for innocent people to die as collateral damage—if more people are...
+2025-05-15 12:07:04,294 - INFO - Q_num8 (Question ID 204) Iter0: Starting chat with 5 agents.
+2025-05-15 12:07:04,294 - ERROR - Error during Q_num8 (ID 204) Iter1: name 'time' is not defined
+Traceback (most recent call last):
+  File "/Users/oshun/Documents/GitHub/wisdom_agents/src.py", line 768, in main_ring_convergence
+    iteration_result_data = await self.run_single_ring_iteration(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oshun/Documents/GitHub/wisdom_agents/src.py", line 668, in run_single_ring_iteration
+    start_time = time.time()
+                 ^^^^
+NameError: name 'time' is not defined. Did you forget to import 'time'
+2025-05-15 12:07:04,344 - INFO - --- Running Q_num9 (ID 209) Iter1/1 ---
+2025-05-15 12:07:04,344 - INFO - Task: It is morally wrong to keep money that one doesn’t really need if one can donate it to causes that p...
+2025-05-15 12:07:04,377 - INFO - Q_num9 (Question ID 209) Iter0: Starting chat with 5 agents.
+2025-05-15 12:07:04,377 - ERROR - Error during Q_num9 (ID 209) Iter1: name 'time' is not defined
+Traceback (most recent call last):
+  File "/Users/oshun/Documents/GitHub/wisdom_agents/src.py", line 768, in main_ring_convergence
+    iteration_result_data = await self.run_single_ring_iteration(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oshun/Documents/GitHub/wisdom_agents/src.py", line 668, in run_single_ring_iteration
+    start_time = time.time()
+                 ^^^^
+NameError: name 'time' is not defined. Did you forget to import 'time'
+2025-05-15 12:07:04,427 - INFO - --- Run Finished --- CONFIG HASH: 98bcc8a7 ---
+2025-05-15 12:09:29,838 - INFO - --- Starting New Run --- CONFIG HASH: 98bcc8a7 --- Chat Type: test_inverted_ring ---
+2025-05-15 12:09:29,838 - INFO - --- Running Q_num1 (ID 205) Iter1/1 ---
+2025-05-15 12:09:29,838 - INFO - Task: If the only way to save another person’s life during an emergency is to sacrifice one’s own leg, the...
+2025-05-15 12:09:29,871 - INFO - Q_num1 (Question ID 205) Iter0: Starting chat with 5 agents.
+2025-05-15 12:09:39,198 - INFO - Q_num1 (Question ID 205) Iter0: Chat finished in 9.33 seconds.
+2025-05-15 12:09:39,198 - INFO - Q_num1 (Question ID 205) Iter1 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=5, Conf=No confidence found
+2025-05-15 12:09:39,198 - INFO - Q_num1 (Question ID 205) Iter1 Msg2 Agent agent_anthropic_claude_3_5_haiku_1_0: Ans=4, Conf=No confidence found
+2025-05-15 12:09:39,198 - INFO - Q_num1 (Question ID 205) Iter1 Msg3 Agent agent_meta_llama_llama_4_scout_2_0: Ans=6, Conf=No confidence found
+2025-05-15 12:09:39,198 - INFO - Q_num1 (Question ID 205) Iter1 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_3_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 12:09:39,198 - INFO - Q_num1 (Question ID 205) Iter1 Msg5 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=5, Conf=No confidence found
+2025-05-15 12:09:39,246 - INFO - --- Finished Q_num1 (ID 205) Iter1. Results saved. ---
+2025-05-15 12:09:39,282 - INFO - --- Running Q_num2 (ID 201) Iter1/1 ---
+2025-05-15 12:09:39,282 - INFO - Task: It is morally right to harm an innocent person if harming them is a necessary means to helping sever...
+2025-05-15 12:09:39,317 - INFO - Q_num2 (Question ID 201) Iter0: Starting chat with 5 agents.
+2025-05-15 12:09:50,809 - INFO - Q_num2 (Question ID 201) Iter0: Chat finished in 11.49 seconds.
+2025-05-15 12:09:50,810 - INFO - Q_num2 (Question ID 201) Iter1 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 12:09:50,810 - INFO - Q_num2 (Question ID 201) Iter1 Msg2 Agent agent_anthropic_claude_3_5_haiku_1_0: Ans=7, Conf=No confidence found
+2025-05-15 12:09:50,810 - INFO - Q_num2 (Question ID 201) Iter1 Msg3 Agent agent_meta_llama_llama_4_scout_2_0: Ans=7, Conf=No confidence found
+2025-05-15 12:09:50,810 - INFO - Q_num2 (Question ID 201) Iter1 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_3_0: Ans=7, Conf=No confidence found
+2025-05-15 12:09:50,810 - INFO - Q_num2 (Question ID 201) Iter1 Msg5 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=7, Conf=No confidence found
+2025-05-15 12:09:50,864 - INFO - --- Finished Q_num2 (ID 201) Iter1. Results saved. ---
+2025-05-15 12:09:50,909 - INFO - --- Running Q_num3 (ID 206) Iter1/1 ---
+2025-05-15 12:09:50,909 - INFO - Task: From a moral point of view, we should feel obliged to give one of our kidneys to a person with kidne...
+2025-05-15 12:09:50,943 - INFO - Q_num3 (Question ID 206) Iter0: Starting chat with 5 agents.
+2025-05-15 12:10:04,160 - INFO - Q_num3 (Question ID 206) Iter0: Chat finished in 13.22 seconds.
+2025-05-15 12:10:04,160 - INFO - Q_num3 (Question ID 206) Iter1 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=5, Conf=No confidence found
+2025-05-15 12:10:04,160 - INFO - Q_num3 (Question ID 206) Iter1 Msg2 Agent agent_anthropic_claude_3_5_haiku_1_0: Ans=5, Conf=No confidence found
+2025-05-15 12:10:04,160 - INFO - Q_num3 (Question ID 206) Iter1 Msg3 Agent agent_meta_llama_llama_4_scout_2_0: Ans=5, Conf=No confidence found
+2025-05-15 12:10:04,160 - INFO - Q_num3 (Question ID 206) Iter1 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_3_0: Ans=4, Conf=No confidence found
+2025-05-15 12:10:04,160 - INFO - Q_num3 (Question ID 206) Iter1 Msg5 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=5, Conf=No confidence found
+2025-05-15 12:10:04,196 - INFO - --- Finished Q_num3 (ID 206) Iter1. Results saved. ---
+2025-05-15 12:10:04,226 - INFO - --- Running Q_num4 (ID 202) Iter1/1 ---
+2025-05-15 12:10:04,226 - INFO - Task: If the only way to ensure the overall well-being and happiness of the people is through the use of p...
+2025-05-15 12:10:04,260 - INFO - Q_num4 (Question ID 202) Iter0: Starting chat with 5 agents.
+2025-05-15 12:10:15,122 - INFO - Q_num4 (Question ID 202) Iter0: Chat finished in 10.86 seconds.
+2025-05-15 12:10:15,123 - INFO - Q_num4 (Question ID 202) Iter1 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 12:10:15,123 - INFO - Q_num4 (Question ID 202) Iter1 Msg2 Agent agent_anthropic_claude_3_5_haiku_1_0: Ans=7, Conf=No confidence found
+2025-05-15 12:10:15,123 - INFO - Q_num4 (Question ID 202) Iter1 Msg3 Agent agent_meta_llama_llama_4_scout_2_0: Ans=7, Conf=No confidence found
+2025-05-15 12:10:15,124 - INFO - Q_num4 (Question ID 202) Iter1 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_3_0: Ans=7, Conf=No confidence found
+2025-05-15 12:10:15,124 - INFO - Q_num4 (Question ID 202) Iter1 Msg5 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=7, Conf=No confidence found
+2025-05-15 12:10:15,164 - INFO - --- Finished Q_num4 (ID 202) Iter1. Results saved. ---
+2025-05-15 12:10:15,192 - INFO - --- Running Q_num5 (ID 207) Iter1/1 ---
+2025-05-15 12:10:15,192 - INFO - Task: From a moral perspective, people should care about the well-being of all human beings on the planet ...
+2025-05-15 12:10:15,225 - INFO - Q_num5 (Question ID 207) Iter0: Starting chat with 5 agents.
+2025-05-15 12:10:28,406 - INFO - Q_num5 (Question ID 207) Iter0: Chat finished in 13.18 seconds.
+2025-05-15 12:10:28,407 - INFO - Q_num5 (Question ID 207) Iter1 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=5, Conf=No confidence found
+2025-05-15 12:10:28,407 - INFO - Q_num5 (Question ID 207) Iter1 Msg2 Agent agent_anthropic_claude_3_5_haiku_1_0: Ans=5, Conf=No confidence found
+2025-05-15 12:10:28,407 - INFO - Q_num5 (Question ID 207) Iter1 Msg3 Agent agent_meta_llama_llama_4_scout_2_0: Ans=5, Conf=No confidence found
+2025-05-15 12:10:28,407 - INFO - Q_num5 (Question ID 207) Iter1 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_3_0: Ans=5, Conf=No confidence found
+2025-05-15 12:10:28,407 - INFO - Q_num5 (Question ID 207) Iter1 Msg5 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=5, Conf=No confidence found
+2025-05-15 12:10:28,448 - INFO - --- Finished Q_num5 (ID 207) Iter1. Results saved. ---
+2025-05-15 12:10:28,474 - INFO - --- Running Q_num6 (ID 203) Iter1/1 ---
+2025-05-15 12:10:28,474 - INFO - Task: It is permissible to torture an innocent person if this would be necessary to provide information to...
+2025-05-15 12:10:28,507 - INFO - Q_num6 (Question ID 203) Iter0: Starting chat with 5 agents.
+2025-05-15 12:10:58,692 - INFO - Q_num6 (Question ID 203) Iter0: Chat finished in 30.18 seconds.
+2025-05-15 12:10:58,693 - INFO - Q_num6 (Question ID 203) Iter1 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 12:10:58,693 - INFO - Q_num6 (Question ID 203) Iter1 Msg2 Agent agent_anthropic_claude_3_5_haiku_1_0: Ans=7, Conf=No confidence found
+2025-05-15 12:10:58,693 - INFO - Q_num6 (Question ID 203) Iter1 Msg3 Agent agent_meta_llama_llama_4_scout_2_0: Ans=7, Conf=No confidence found
+2025-05-15 12:10:58,693 - INFO - Q_num6 (Question ID 203) Iter1 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_3_0: Ans=7, Conf=No confidence found
+2025-05-15 12:10:58,693 - INFO - Q_num6 (Question ID 203) Iter1 Msg5 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=7, Conf=No confidence found
+2025-05-15 12:10:58,733 - INFO - --- Finished Q_num6 (ID 203) Iter1. Results saved. ---
+2025-05-15 12:10:58,765 - INFO - --- Running Q_num7 (ID 208) Iter1/1 ---
+2025-05-15 12:10:58,766 - INFO - Task: It is just as wrong to fail to help someone as it is to actively harm them yourself....
+2025-05-15 12:10:58,799 - INFO - Q_num7 (Question ID 208) Iter0: Starting chat with 5 agents.
+2025-05-15 12:11:10,418 - INFO - Q_num7 (Question ID 208) Iter0: Chat finished in 11.62 seconds.
+2025-05-15 12:11:10,418 - INFO - Q_num7 (Question ID 208) Iter1 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=4, Conf=No confidence found
+2025-05-15 12:11:10,418 - INFO - Q_num7 (Question ID 208) Iter1 Msg2 Agent agent_anthropic_claude_3_5_haiku_1_0: Ans=5, Conf=No confidence found
+2025-05-15 12:11:10,418 - INFO - Q_num7 (Question ID 208) Iter1 Msg3 Agent agent_meta_llama_llama_4_scout_2_0: Ans=5, Conf=No confidence found
+2025-05-15 12:11:10,418 - INFO - Q_num7 (Question ID 208) Iter1 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_3_0: Ans=5, Conf=No confidence found
+2025-05-15 12:11:10,418 - INFO - Q_num7 (Question ID 208) Iter1 Msg5 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=6, Conf=No confidence found
+2025-05-15 12:11:10,458 - INFO - --- Finished Q_num7 (ID 208) Iter1. Results saved. ---
+2025-05-15 12:11:10,484 - INFO - --- Running Q_num8 (ID 204) Iter1/1 ---
+2025-05-15 12:11:10,484 - INFO - Task: Sometimes it is morally necessary for innocent people to die as collateral damage—if more people are...
+2025-05-15 12:11:10,516 - INFO - Q_num8 (Question ID 204) Iter0: Starting chat with 5 agents.
+2025-05-15 12:11:26,358 - INFO - Q_num8 (Question ID 204) Iter0: Chat finished in 15.84 seconds.
+2025-05-15 12:11:26,358 - INFO - Q_num8 (Question ID 204) Iter1 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 12:11:26,358 - INFO - Q_num8 (Question ID 204) Iter1 Msg2 Agent agent_anthropic_claude_3_5_haiku_1_0: Ans=7, Conf=No confidence found
+2025-05-15 12:11:26,358 - INFO - Q_num8 (Question ID 204) Iter1 Msg3 Agent agent_meta_llama_llama_4_scout_2_0: Ans=7, Conf=No confidence found
+2025-05-15 12:11:26,358 - INFO - Q_num8 (Question ID 204) Iter1 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_3_0: Ans=7, Conf=No confidence found
+2025-05-15 12:11:26,358 - INFO - Q_num8 (Question ID 204) Iter1 Msg5 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=7, Conf=No confidence found
+2025-05-15 12:11:26,398 - INFO - --- Finished Q_num8 (ID 204) Iter1. Results saved. ---
+2025-05-15 12:11:26,428 - INFO - --- Running Q_num9 (ID 209) Iter1/1 ---
+2025-05-15 12:11:26,429 - INFO - Task: It is morally wrong to keep money that one doesn’t really need if one can donate it to causes that p...
+2025-05-15 12:11:26,461 - INFO - Q_num9 (Question ID 209) Iter0: Starting chat with 5 agents.
+2025-05-15 12:11:54,802 - INFO - Q_num9 (Question ID 209) Iter0: Chat finished in 28.34 seconds.
+2025-05-15 12:11:54,802 - INFO - Q_num9 (Question ID 209) Iter1 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=2, Conf=No confidence found
+2025-05-15 12:11:54,802 - INFO - Q_num9 (Question ID 209) Iter1 Msg2 Agent agent_anthropic_claude_3_5_haiku_1_0: Ans=2, Conf=No confidence found
+2025-05-15 12:11:54,802 - INFO - Q_num9 (Question ID 209) Iter1 Msg3 Agent agent_meta_llama_llama_4_scout_2_0: Ans=1, Conf=No confidence found
+2025-05-15 12:11:54,802 - INFO - Q_num9 (Question ID 209) Iter1 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_3_0: Ans=3, Conf=No confidence found
+2025-05-15 12:11:54,802 - INFO - Q_num9 (Question ID 209) Iter1 Msg5 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=2, Conf=No confidence found
+2025-05-15 12:11:54,850 - INFO - --- Finished Q_num9 (ID 209) Iter1. Results saved. ---
+2025-05-15 12:11:54,877 - INFO - --- Run Finished --- CONFIG HASH: 98bcc8a7 ---
