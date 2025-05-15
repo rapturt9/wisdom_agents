@@ -472,11 +472,20 @@ def extract_confidence_from_response(content):
     match = re.search(r"<CONF>(.*?)</CONF>", content, re.IGNORECASE | re.DOTALL)
     return match.group(1).strip() if match else "No confidence found"
 
+
+
+########################################################
+# PROMPT HANDLER
+# SO WE CAN RUN DIFFERENT PROMPTS EASIER
+########################################################
+class PromptHandler():
+    def  __init__(self, **kwargs):
+        self.prompt = get_prompt(**kwargs)
+
 ########################################################
 # GENERAL MULTIAGENT HANDLER
 # DEFINES FUNCTIONS FOR CHECKPOINTS/LOGGING
 ########################################################
-
 class MultiAgentHandler():
     def __init__(self):
         pass
@@ -497,7 +506,7 @@ class MultiAgentHandler():
 
         return hashlib.md5(config_string.encode('utf-8')).hexdigest()[:8]
 
-    def get_multi_agent_filenames(self, chat_type, config_details, question_range, num_iterations, model_identifier="ggb"): # Added model_identifier
+    def get_multi_agent_filenames(self, chat_type, config_details, question_range, num_iterations, model_identifier="ggb", csv_dir = 'results_multi'): # Added model_identifier
         """Generates consistent filenames for multi-agent runs."""
         config_hash = self.create_config_hash(config_details)
         q_start, q_end = question_range
@@ -506,7 +515,6 @@ class MultiAgentHandler():
         # Ensure filenames clearly indicate GGB source and distinguish from old MoralBench runs
         base_filename_core = f"{chat_type}_{safe_model_id}_{config_hash}_q{q_start}-{q_end}_n{num_iterations}"
 
-        csv_dir = 'results_multi'
         log_dir = 'logs'
         checkpoint_dir = 'checkpoints'
         os.makedirs(csv_dir, exist_ok=True)
@@ -582,12 +590,16 @@ class MultiAgentHandler():
                 writer.writeheader()
             writer.writerow(run_result)
 
-
+            
 ########################################################
 # RING HANDLER
 ########################################################
+
 class RingHandler(MultiAgentHandler):
-    def __init__(self, models, Qs, nrounds=3, nrepeats=10, shuffle=False, chat_type = 'ring'):
+    def __init__(self, models, Qs, 
+                 Prompt:PromptHandler, 
+                 nrounds=3, nrepeats=10, shuffle=False, 
+                 chat_type = 'ring', csv_dir = 'results_multi'):
         self.Qs = Qs
         self.models = models
         self.QUESTION_RANGE = (1, Qs.get_total_questions() if Qs else 1) # Use total GGB questions
@@ -595,6 +607,8 @@ class RingHandler(MultiAgentHandler):
         self.N_CONVERGENCE_LOOPS = nrounds
         self.SHUFFLE_AGENTS = shuffle
         self.CHAT_TYPE = chat_type
+        self.CSV_DIR = csv_dir
+        self.PROMPT = Prompt.prompt
 
         # configuration
         self.configure()
@@ -607,11 +621,11 @@ class RingHandler(MultiAgentHandler):
         self.CONFIG_HASH = self.create_config_hash(self.config_details)
     
     def initiate_files(self):
-        self.csv_file, self.log_file, self.checkpoint_file = self.get_multi_agent_filenames(self.CHAT_TYPE, self.config_details, self.QUESTION_RANGE, self.N_ITERATIONS_PER_QUESTION, model_identifier="ensemble")
+        self.csv_file, self.log_file, self.checkpoint_file = self.get_multi_agent_filenames(self.CHAT_TYPE, self.config_details, self.QUESTION_RANGE, self.N_ITERATIONS_PER_QUESTION, model_identifier="ensemble", csv_dir=self.CSV_DIR)
         self.logger = self.setup_logger_multi(self.log_file)
         self.completed_runs = self.load_checkpoint_multi(self.checkpoint_file)
     
-    async def run_single_ring_iteration(self, task, max_loops, question_num, question_id, iteration_idx):
+    async def run_single_ring_iteration(self, task, question_num, question_id, iteration_idx):
         model_ensemble = self.MODEL_ENSEMBLE_CONFIG
         max_loops = self.N_CONVERGENCE_LOOPS
         shuffle = self.SHUFFLE_AGENTS
@@ -625,7 +639,7 @@ class RingHandler(MultiAgentHandler):
         for i, model_data in enumerate(model_ensemble):
             for j in range(model_data['number']):
                 model_name = model_data['model']
-                system_message = get_prompt(group_chat=True) # get_prompt from helpers
+                system_message = self.PROMPT # get_prompt from helpers
                 model_text_safe = re.sub(r'\W+','_', model_name)
                 agent_name = f"agent_{model_text_safe}_{i}_{j}"
                 agent = AssistantAgent(
