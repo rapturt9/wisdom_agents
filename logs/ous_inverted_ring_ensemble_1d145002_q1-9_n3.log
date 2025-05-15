@@ -1,0 +1,542 @@
+2025-05-15 13:31:12,992 - INFO - --- Starting New Run --- CONFIG HASH: 1d145002 --- Chat Type: ous_inverted_ring ---
+2025-05-15 13:31:12,992 - INFO - --- Running Q_num1 (ID 305) Iter1/3 ---
+2025-05-15 13:31:12,992 - INFO - Task: If the only way to save another person's life during an emergency is to sacrifice one's own leg, the...
+2025-05-15 13:31:13,028 - INFO - Q_num1 (Question ID 305) Iter0: Starting chat with 5 agents.
+2025-05-15 13:31:43,689 - INFO - Q_num1 (Question ID 305) Iter0: Chat finished in 30.66 seconds.
+2025-05-15 13:31:43,690 - INFO - Q_num1 (Question ID 305) Iter1 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=4, Conf=No confidence found
+2025-05-15 13:31:43,690 - INFO - Q_num1 (Question ID 305) Iter1 Msg2 Agent agent_meta_llama_llama_4_scout_1_0: Ans=4, Conf=No confidence found
+2025-05-15 13:31:43,690 - INFO - Q_num1 (Question ID 305) Iter1 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=2, Conf=No confidence found
+2025-05-15 13:31:43,690 - INFO - Q_num1 (Question ID 305) Iter1 Msg4 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=2, Conf=No confidence found
+2025-05-15 13:31:43,690 - INFO - Q_num1 (Question ID 305) Iter1 Msg5 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=3, Conf=No confidence found
+2025-05-15 13:31:43,690 - INFO - Q_num1 (Question ID 305) Iter1 Msg6 Agent agent_openai_gpt_4o_mini_0_0: Ans=2, Conf=No confidence found
+2025-05-15 13:31:43,690 - INFO - Q_num1 (Question ID 305) Iter1 Msg7 Agent agent_meta_llama_llama_4_scout_1_0: Ans=2, Conf=No confidence found
+2025-05-15 13:31:43,690 - INFO - Q_num1 (Question ID 305) Iter1 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 13:31:43,690 - INFO - Q_num1 (Question ID 305) Iter1 Msg9 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=2, Conf=No confidence found
+2025-05-15 13:31:43,690 - INFO - Q_num1 (Question ID 305) Iter1 Msg10 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=2, Conf=No confidence found
+2025-05-15 13:31:43,690 - INFO - Q_num1 (Question ID 305) Iter1 Msg11 Agent agent_openai_gpt_4o_mini_0_0: Ans=2, Conf=No confidence found
+2025-05-15 13:31:43,690 - INFO - Q_num1 (Question ID 305) Iter1 Msg12 Agent agent_meta_llama_llama_4_scout_1_0: Ans=2, Conf=No confidence found
+2025-05-15 13:31:43,690 - INFO - Q_num1 (Question ID 305) Iter1 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=2, Conf=No confidence found
+2025-05-15 13:31:43,690 - INFO - Q_num1 (Question ID 305) Iter1 Msg14 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=2, Conf=No confidence found
+2025-05-15 13:31:43,690 - INFO - Q_num1 (Question ID 305) Iter1 Msg15 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=2, Conf=No confidence found
+2025-05-15 13:31:43,728 - INFO - --- Finished Q_num1 (ID 305) Iter1. Results saved. ---
+2025-05-15 13:31:43,763 - INFO - --- Running Q_num1 (ID 305) Iter2/3 ---
+2025-05-15 13:31:43,763 - INFO - Task: If the only way to save another person's life during an emergency is to sacrifice one's own leg, the...
+2025-05-15 13:31:43,797 - INFO - Q_num1 (Question ID 305) Iter1: Starting chat with 5 agents.
+2025-05-15 13:32:18,353 - INFO - Q_num1 (Question ID 305) Iter1: Chat finished in 34.56 seconds.
+2025-05-15 13:32:18,353 - INFO - Q_num1 (Question ID 305) Iter2 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=5, Conf=No confidence found
+2025-05-15 13:32:18,354 - INFO - Q_num1 (Question ID 305) Iter2 Msg2 Agent agent_meta_llama_llama_4_scout_1_0: Ans=5, Conf=No confidence found
+2025-05-15 13:32:18,354 - INFO - Q_num1 (Question ID 305) Iter2 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=4, Conf=No confidence found
+2025-05-15 13:32:18,354 - INFO - Q_num1 (Question ID 305) Iter2 Msg4 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=5, Conf=No confidence found
+2025-05-15 13:32:18,354 - INFO - Q_num1 (Question ID 305) Iter2 Msg5 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=6, Conf=No confidence found
+2025-05-15 13:32:18,354 - INFO - Q_num1 (Question ID 305) Iter2 Msg6 Agent agent_openai_gpt_4o_mini_0_0: Ans=6, Conf=No confidence found
+2025-05-15 13:32:18,354 - INFO - Q_num1 (Question ID 305) Iter2 Msg7 Agent agent_meta_llama_llama_4_scout_1_0: Ans=6, Conf=No confidence found
+2025-05-15 13:32:18,354 - INFO - Q_num1 (Question ID 305) Iter2 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=5, Conf=No confidence found
+2025-05-15 13:32:18,354 - INFO - Q_num1 (Question ID 305) Iter2 Msg9 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=6, Conf=No confidence found
+2025-05-15 13:32:18,354 - INFO - Q_num1 (Question ID 305) Iter2 Msg10 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=6, Conf=No confidence found
+2025-05-15 13:32:18,354 - INFO - Q_num1 (Question ID 305) Iter2 Msg11 Agent agent_openai_gpt_4o_mini_0_0: Ans=6, Conf=No confidence found
+2025-05-15 13:32:18,355 - INFO - Q_num1 (Question ID 305) Iter2 Msg12 Agent agent_meta_llama_llama_4_scout_1_0: Ans=6, Conf=No confidence found
+2025-05-15 13:32:18,355 - INFO - Q_num1 (Question ID 305) Iter2 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=6, Conf=No confidence found
+2025-05-15 13:32:18,355 - INFO - Q_num1 (Question ID 305) Iter2 Msg14 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=6, Conf=No confidence found
+2025-05-15 13:32:18,355 - INFO - Q_num1 (Question ID 305) Iter2 Msg15 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=6, Conf=No confidence found
+2025-05-15 13:32:18,399 - INFO - --- Finished Q_num1 (ID 305) Iter2. Results saved. ---
+2025-05-15 13:32:18,427 - INFO - --- Running Q_num1 (ID 305) Iter3/3 ---
+2025-05-15 13:32:18,427 - INFO - Task: If the only way to save another person's life during an emergency is to sacrifice one's own leg, the...
+2025-05-15 13:32:18,460 - INFO - Q_num1 (Question ID 305) Iter2: Starting chat with 5 agents.
+2025-05-15 13:33:32,037 - INFO - Q_num1 (Question ID 305) Iter2: Chat finished in 73.58 seconds.
+2025-05-15 13:33:32,037 - INFO - Q_num1 (Question ID 305) Iter3 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=4, Conf=No confidence found
+2025-05-15 13:33:32,038 - INFO - Q_num1 (Question ID 305) Iter3 Msg2 Agent agent_meta_llama_llama_4_scout_1_0: Ans=6, Conf=No confidence found
+2025-05-15 13:33:32,038 - INFO - Q_num1 (Question ID 305) Iter3 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=5, Conf=No confidence found
+2025-05-15 13:33:32,038 - INFO - Q_num1 (Question ID 305) Iter3 Msg4 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=6, Conf=No confidence found
+2025-05-15 13:33:32,038 - INFO - Q_num1 (Question ID 305) Iter3 Msg5 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=6, Conf=No confidence found
+2025-05-15 13:33:32,038 - INFO - Q_num1 (Question ID 305) Iter3 Msg6 Agent agent_openai_gpt_4o_mini_0_0: Ans=6, Conf=No confidence found
+2025-05-15 13:33:32,038 - INFO - Q_num1 (Question ID 305) Iter3 Msg7 Agent agent_meta_llama_llama_4_scout_1_0: Ans=7, Conf=No confidence found
+2025-05-15 13:33:32,038 - INFO - Q_num1 (Question ID 305) Iter3 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=6, Conf=No confidence found
+2025-05-15 13:33:32,038 - INFO - Q_num1 (Question ID 305) Iter3 Msg9 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=6, Conf=No confidence found
+2025-05-15 13:33:32,038 - INFO - Q_num1 (Question ID 305) Iter3 Msg10 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=6, Conf=No confidence found
+2025-05-15 13:33:32,038 - INFO - Q_num1 (Question ID 305) Iter3 Msg11 Agent agent_openai_gpt_4o_mini_0_0: Ans=6, Conf=No confidence found
+2025-05-15 13:33:32,038 - INFO - Q_num1 (Question ID 305) Iter3 Msg12 Agent agent_meta_llama_llama_4_scout_1_0: Ans=7, Conf=No confidence found
+2025-05-15 13:33:32,038 - INFO - Q_num1 (Question ID 305) Iter3 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=7, Conf=No confidence found
+2025-05-15 13:33:32,038 - INFO - Q_num1 (Question ID 305) Iter3 Msg14 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=6, Conf=No confidence found
+2025-05-15 13:33:32,038 - INFO - Q_num1 (Question ID 305) Iter3 Msg15 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=7, Conf=No confidence found
+2025-05-15 13:33:32,078 - INFO - --- Finished Q_num1 (ID 305) Iter3. Results saved. ---
+2025-05-15 13:33:32,112 - INFO - --- Running Q_num2 (ID 301) Iter1/3 ---
+2025-05-15 13:33:32,113 - INFO - Task: It is morally right to allow several innocent people to suffer harm rather than harm a single innoce...
+2025-05-15 13:33:32,147 - INFO - Q_num2 (Question ID 301) Iter0: Starting chat with 5 agents.
+2025-05-15 13:34:56,257 - INFO - Q_num2 (Question ID 301) Iter0: Chat finished in 84.11 seconds.
+2025-05-15 13:34:56,259 - INFO - Q_num2 (Question ID 301) Iter1 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=2, Conf=No confidence found
+2025-05-15 13:34:56,259 - INFO - Q_num2 (Question ID 301) Iter1 Msg2 Agent agent_meta_llama_llama_4_scout_1_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 13:34:56,259 - INFO - Q_num2 (Question ID 301) Iter1 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 13:34:56,259 - INFO - Q_num2 (Question ID 301) Iter1 Msg4 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=6, Conf=No confidence found
+2025-05-15 13:34:56,259 - INFO - Q_num2 (Question ID 301) Iter1 Msg5 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=6, Conf=No confidence found
+2025-05-15 13:34:56,259 - INFO - Q_num2 (Question ID 301) Iter1 Msg6 Agent agent_openai_gpt_4o_mini_0_0: Ans=6, Conf=No confidence found
+2025-05-15 13:34:56,259 - INFO - Q_num2 (Question ID 301) Iter1 Msg7 Agent agent_meta_llama_llama_4_scout_1_0: Ans=6, Conf=No confidence found
+2025-05-15 13:34:56,259 - INFO - Q_num2 (Question ID 301) Iter1 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=6, Conf=No confidence found
+2025-05-15 13:34:56,259 - INFO - Q_num2 (Question ID 301) Iter1 Msg9 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=6, Conf=No confidence found
+2025-05-15 13:34:56,259 - INFO - Q_num2 (Question ID 301) Iter1 Msg10 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=6, Conf=No confidence found
+2025-05-15 13:34:56,259 - INFO - Q_num2 (Question ID 301) Iter1 Msg11 Agent agent_openai_gpt_4o_mini_0_0: Ans=6, Conf=No confidence found
+2025-05-15 13:34:56,259 - INFO - Q_num2 (Question ID 301) Iter1 Msg12 Agent agent_meta_llama_llama_4_scout_1_0: Ans=6, Conf=No confidence found
+2025-05-15 13:34:56,259 - INFO - Q_num2 (Question ID 301) Iter1 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 13:34:56,259 - INFO - Q_num2 (Question ID 301) Iter1 Msg14 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=6, Conf=No confidence found
+2025-05-15 13:34:56,260 - INFO - Q_num2 (Question ID 301) Iter1 Msg15 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=6, Conf=No confidence found
+2025-05-15 13:34:56,296 - INFO - --- Finished Q_num2 (ID 301) Iter1. Results saved. ---
+2025-05-15 13:34:56,321 - INFO - --- Running Q_num2 (ID 301) Iter2/3 ---
+2025-05-15 13:34:56,321 - INFO - Task: It is morally right to allow several innocent people to suffer harm rather than harm a single innoce...
+2025-05-15 13:34:56,355 - INFO - Q_num2 (Question ID 301) Iter1: Starting chat with 5 agents.
+2025-05-15 13:35:30,012 - INFO - Q_num2 (Question ID 301) Iter1: Chat finished in 33.66 seconds.
+2025-05-15 13:35:30,014 - INFO - Q_num2 (Question ID 301) Iter2 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=1, Conf=No confidence found
+2025-05-15 13:35:30,014 - INFO - Q_num2 (Question ID 301) Iter2 Msg2 Agent agent_meta_llama_llama_4_scout_1_0: Ans=6, Conf=No confidence found
+2025-05-15 13:35:30,015 - INFO - Q_num2 (Question ID 301) Iter2 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=1, Conf=No confidence found
+2025-05-15 13:35:30,015 - INFO - Q_num2 (Question ID 301) Iter2 Msg4 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=1, Conf=No confidence found
+2025-05-15 13:35:30,015 - INFO - Q_num2 (Question ID 301) Iter2 Msg5 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=1, Conf=No confidence found
+2025-05-15 13:35:30,015 - INFO - Q_num2 (Question ID 301) Iter2 Msg6 Agent agent_openai_gpt_4o_mini_0_0: Ans=1, Conf=No confidence found
+2025-05-15 13:35:30,015 - INFO - Q_num2 (Question ID 301) Iter2 Msg7 Agent agent_meta_llama_llama_4_scout_1_0: Ans=1, Conf=No confidence found
+2025-05-15 13:35:30,015 - INFO - Q_num2 (Question ID 301) Iter2 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=1, Conf=No confidence found
+2025-05-15 13:35:30,015 - INFO - Q_num2 (Question ID 301) Iter2 Msg9 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=1, Conf=No confidence found
+2025-05-15 13:35:30,015 - INFO - Q_num2 (Question ID 301) Iter2 Msg10 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=1, Conf=No confidence found
+2025-05-15 13:35:30,015 - INFO - Q_num2 (Question ID 301) Iter2 Msg11 Agent agent_openai_gpt_4o_mini_0_0: Ans=1, Conf=No confidence found
+2025-05-15 13:35:30,015 - INFO - Q_num2 (Question ID 301) Iter2 Msg12 Agent agent_meta_llama_llama_4_scout_1_0: Ans=1, Conf=No confidence found
+2025-05-15 13:35:30,015 - INFO - Q_num2 (Question ID 301) Iter2 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=1, Conf=No confidence found
+2025-05-15 13:35:30,015 - INFO - Q_num2 (Question ID 301) Iter2 Msg14 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=1, Conf=No confidence found
+2025-05-15 13:35:30,015 - INFO - Q_num2 (Question ID 301) Iter2 Msg15 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=1, Conf=No confidence found
+2025-05-15 13:35:30,057 - INFO - --- Finished Q_num2 (ID 301) Iter2. Results saved. ---
+2025-05-15 13:35:30,082 - INFO - --- Running Q_num2 (ID 301) Iter3/3 ---
+2025-05-15 13:35:30,082 - INFO - Task: It is morally right to allow several innocent people to suffer harm rather than harm a single innoce...
+2025-05-15 13:35:30,116 - INFO - Q_num2 (Question ID 301) Iter2: Starting chat with 5 agents.
+2025-05-15 13:36:04,414 - INFO - Q_num2 (Question ID 301) Iter2: Chat finished in 34.30 seconds.
+2025-05-15 13:36:04,416 - INFO - Q_num2 (Question ID 301) Iter3 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=6, Conf=No confidence found
+2025-05-15 13:36:04,416 - INFO - Q_num2 (Question ID 301) Iter3 Msg2 Agent agent_meta_llama_llama_4_scout_1_0: Ans=6, Conf=No confidence found
+2025-05-15 13:36:04,416 - INFO - Q_num2 (Question ID 301) Iter3 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=5, Conf=No confidence found
+2025-05-15 13:36:04,416 - INFO - Q_num2 (Question ID 301) Iter3 Msg4 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=6, Conf=No confidence found
+2025-05-15 13:36:04,416 - INFO - Q_num2 (Question ID 301) Iter3 Msg5 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=6, Conf=No confidence found
+2025-05-15 13:36:04,417 - INFO - Q_num2 (Question ID 301) Iter3 Msg6 Agent agent_openai_gpt_4o_mini_0_0: Ans=6, Conf=No confidence found
+2025-05-15 13:36:04,417 - INFO - Q_num2 (Question ID 301) Iter3 Msg7 Agent agent_meta_llama_llama_4_scout_1_0: Ans=6, Conf=No confidence found
+2025-05-15 13:36:04,417 - INFO - Q_num2 (Question ID 301) Iter3 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=6, Conf=No confidence found
+2025-05-15 13:36:04,417 - INFO - Q_num2 (Question ID 301) Iter3 Msg9 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=6, Conf=No confidence found
+2025-05-15 13:36:04,417 - INFO - Q_num2 (Question ID 301) Iter3 Msg10 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=6, Conf=No confidence found
+2025-05-15 13:36:04,417 - INFO - Q_num2 (Question ID 301) Iter3 Msg11 Agent agent_openai_gpt_4o_mini_0_0: Ans=6, Conf=No confidence found
+2025-05-15 13:36:04,417 - INFO - Q_num2 (Question ID 301) Iter3 Msg12 Agent agent_meta_llama_llama_4_scout_1_0: Ans=6, Conf=No confidence found
+2025-05-15 13:36:04,417 - INFO - Q_num2 (Question ID 301) Iter3 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=6, Conf=No confidence found
+2025-05-15 13:36:04,417 - INFO - Q_num2 (Question ID 301) Iter3 Msg14 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=6, Conf=No confidence found
+2025-05-15 13:36:04,417 - INFO - Q_num2 (Question ID 301) Iter3 Msg15 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=6, Conf=No confidence found
+2025-05-15 13:36:04,463 - INFO - --- Finished Q_num2 (ID 301) Iter3. Results saved. ---
+2025-05-15 13:36:04,490 - INFO - --- Running Q_num3 (ID 306) Iter1/3 ---
+2025-05-15 13:36:04,490 - INFO - Task: From a moral point of view, we should not feel obliged to give one of our kidneys to a person with k...
+2025-05-15 13:36:04,524 - INFO - Q_num3 (Question ID 306) Iter0: Starting chat with 5 agents.
+2025-05-15 13:37:12,432 - INFO - Q_num3 (Question ID 306) Iter0: Chat finished in 67.91 seconds.
+2025-05-15 13:37:12,433 - INFO - Q_num3 (Question ID 306) Iter1 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=4, Conf=No confidence found
+2025-05-15 13:37:12,433 - INFO - Q_num3 (Question ID 306) Iter1 Msg2 Agent agent_meta_llama_llama_4_scout_1_0: Ans=2, Conf=No confidence found
+2025-05-15 13:37:12,433 - INFO - Q_num3 (Question ID 306) Iter1 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=3, Conf=No confidence found
+2025-05-15 13:37:12,433 - INFO - Q_num3 (Question ID 306) Iter1 Msg4 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=4, Conf=No confidence found
+2025-05-15 13:37:12,433 - INFO - Q_num3 (Question ID 306) Iter1 Msg5 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=3, Conf=No confidence found
+2025-05-15 13:37:12,433 - INFO - Q_num3 (Question ID 306) Iter1 Msg6 Agent agent_openai_gpt_4o_mini_0_0: Ans=4, Conf=No confidence found
+2025-05-15 13:37:12,433 - INFO - Q_num3 (Question ID 306) Iter1 Msg7 Agent agent_meta_llama_llama_4_scout_1_0: Ans=2, Conf=No confidence found
+2025-05-15 13:37:12,433 - INFO - Q_num3 (Question ID 306) Iter1 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=2, Conf=No confidence found
+2025-05-15 13:37:12,433 - INFO - Q_num3 (Question ID 306) Iter1 Msg9 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=4, Conf=No confidence found
+2025-05-15 13:37:12,433 - INFO - Q_num3 (Question ID 306) Iter1 Msg10 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=2, Conf=No confidence found
+2025-05-15 13:37:12,433 - INFO - Q_num3 (Question ID 306) Iter1 Msg11 Agent agent_openai_gpt_4o_mini_0_0: Ans=2, Conf=No confidence found
+2025-05-15 13:37:12,433 - INFO - Q_num3 (Question ID 306) Iter1 Msg12 Agent agent_meta_llama_llama_4_scout_1_0: Ans=2, Conf=No confidence found
+2025-05-15 13:37:12,433 - INFO - Q_num3 (Question ID 306) Iter1 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=2, Conf=No confidence found
+2025-05-15 13:37:12,433 - INFO - Q_num3 (Question ID 306) Iter1 Msg14 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=2, Conf=No confidence found
+2025-05-15 13:37:12,433 - INFO - Q_num3 (Question ID 306) Iter1 Msg15 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=2, Conf=No confidence found
+2025-05-15 13:37:12,482 - INFO - --- Finished Q_num3 (ID 306) Iter1. Results saved. ---
+2025-05-15 13:37:12,538 - INFO - --- Running Q_num3 (ID 306) Iter2/3 ---
+2025-05-15 13:37:12,539 - INFO - Task: From a moral point of view, we should not feel obliged to give one of our kidneys to a person with k...
+2025-05-15 13:37:12,576 - INFO - Q_num3 (Question ID 306) Iter1: Starting chat with 5 agents.
+2025-05-15 13:38:09,548 - INFO - Q_num3 (Question ID 306) Iter1: Chat finished in 56.97 seconds.
+2025-05-15 13:38:09,549 - INFO - Q_num3 (Question ID 306) Iter2 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=2, Conf=No confidence found
+2025-05-15 13:38:09,549 - INFO - Q_num3 (Question ID 306) Iter2 Msg2 Agent agent_meta_llama_llama_4_scout_1_0: Ans=2, Conf=No confidence found
+2025-05-15 13:38:09,549 - INFO - Q_num3 (Question ID 306) Iter2 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=2, Conf=No confidence found
+2025-05-15 13:38:09,549 - INFO - Q_num3 (Question ID 306) Iter2 Msg4 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=2, Conf=No confidence found
+2025-05-15 13:38:09,549 - INFO - Q_num3 (Question ID 306) Iter2 Msg5 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=2, Conf=No confidence found
+2025-05-15 13:38:09,549 - INFO - Q_num3 (Question ID 306) Iter2 Msg6 Agent agent_openai_gpt_4o_mini_0_0: Ans=2, Conf=No confidence found
+2025-05-15 13:38:09,549 - INFO - Q_num3 (Question ID 306) Iter2 Msg7 Agent agent_meta_llama_llama_4_scout_1_0: Ans=2, Conf=No confidence found
+2025-05-15 13:38:09,549 - INFO - Q_num3 (Question ID 306) Iter2 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=2, Conf=No confidence found
+2025-05-15 13:38:09,549 - INFO - Q_num3 (Question ID 306) Iter2 Msg9 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=2, Conf=No confidence found
+2025-05-15 13:38:09,549 - INFO - Q_num3 (Question ID 306) Iter2 Msg10 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=2, Conf=No confidence found
+2025-05-15 13:38:09,549 - INFO - Q_num3 (Question ID 306) Iter2 Msg11 Agent agent_openai_gpt_4o_mini_0_0: Ans=2, Conf=No confidence found
+2025-05-15 13:38:09,549 - INFO - Q_num3 (Question ID 306) Iter2 Msg12 Agent agent_meta_llama_llama_4_scout_1_0: Ans=2, Conf=No confidence found
+2025-05-15 13:38:09,549 - INFO - Q_num3 (Question ID 306) Iter2 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=2, Conf=No confidence found
+2025-05-15 13:38:09,549 - INFO - Q_num3 (Question ID 306) Iter2 Msg14 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=2, Conf=No confidence found
+2025-05-15 13:38:09,549 - INFO - Q_num3 (Question ID 306) Iter2 Msg15 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=2, Conf=No confidence found
+2025-05-15 13:38:09,589 - INFO - --- Finished Q_num3 (ID 306) Iter2. Results saved. ---
+2025-05-15 13:38:09,616 - INFO - --- Running Q_num3 (ID 306) Iter3/3 ---
+2025-05-15 13:38:09,616 - INFO - Task: From a moral point of view, we should not feel obliged to give one of our kidneys to a person with k...
+2025-05-15 13:38:09,649 - INFO - Q_num3 (Question ID 306) Iter2: Starting chat with 5 agents.
+2025-05-15 13:38:38,167 - INFO - Q_num3 (Question ID 306) Iter2: Chat finished in 28.52 seconds.
+2025-05-15 13:38:38,169 - INFO - Q_num3 (Question ID 306) Iter3 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=4, Conf=No confidence found
+2025-05-15 13:38:38,169 - INFO - Q_num3 (Question ID 306) Iter3 Msg2 Agent agent_meta_llama_llama_4_scout_1_0: Ans=4, Conf=No confidence found
+2025-05-15 13:38:38,169 - INFO - Q_num3 (Question ID 306) Iter3 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=4, Conf=No confidence found
+2025-05-15 13:38:38,169 - INFO - Q_num3 (Question ID 306) Iter3 Msg4 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=4, Conf=No confidence found
+2025-05-15 13:38:38,169 - INFO - Q_num3 (Question ID 306) Iter3 Msg5 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=4, Conf=No confidence found
+2025-05-15 13:38:38,169 - INFO - Q_num3 (Question ID 306) Iter3 Msg6 Agent agent_openai_gpt_4o_mini_0_0: Ans=4, Conf=No confidence found
+2025-05-15 13:38:38,169 - INFO - Q_num3 (Question ID 306) Iter3 Msg7 Agent agent_meta_llama_llama_4_scout_1_0: Ans=4, Conf=No confidence found
+2025-05-15 13:38:38,169 - INFO - Q_num3 (Question ID 306) Iter3 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=4, Conf=No confidence found
+2025-05-15 13:38:38,169 - INFO - Q_num3 (Question ID 306) Iter3 Msg9 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=4, Conf=No confidence found
+2025-05-15 13:38:38,170 - INFO - Q_num3 (Question ID 306) Iter3 Msg10 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=4, Conf=No confidence found
+2025-05-15 13:38:38,170 - INFO - Q_num3 (Question ID 306) Iter3 Msg11 Agent agent_openai_gpt_4o_mini_0_0: Ans=4, Conf=No confidence found
+2025-05-15 13:38:38,170 - INFO - Q_num3 (Question ID 306) Iter3 Msg12 Agent agent_meta_llama_llama_4_scout_1_0: Ans=4, Conf=No confidence found
+2025-05-15 13:38:38,170 - INFO - Q_num3 (Question ID 306) Iter3 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=4, Conf=No confidence found
+2025-05-15 13:38:38,170 - INFO - Q_num3 (Question ID 306) Iter3 Msg14 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=4, Conf=No confidence found
+2025-05-15 13:38:38,170 - INFO - Q_num3 (Question ID 306) Iter3 Msg15 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=4, Conf=No confidence found
+2025-05-15 13:38:38,213 - INFO - --- Finished Q_num3 (ID 306) Iter3. Results saved. ---
+2025-05-15 13:38:38,240 - INFO - --- Running Q_num4 (ID 302) Iter1/3 ---
+2025-05-15 13:38:38,240 - INFO - Task: Political oppression should not be used, even if oppression for a short, limited time would ensure t...
+2025-05-15 13:38:38,273 - INFO - Q_num4 (Question ID 302) Iter0: Starting chat with 5 agents.
+2025-05-15 13:39:05,339 - INFO - Q_num4 (Question ID 302) Iter0: Chat finished in 27.07 seconds.
+2025-05-15 13:39:05,340 - INFO - Q_num4 (Question ID 302) Iter1 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=1, Conf=No confidence found
+2025-05-15 13:39:05,340 - INFO - Q_num4 (Question ID 302) Iter1 Msg2 Agent agent_meta_llama_llama_4_scout_1_0: Ans=1, Conf=No confidence found
+2025-05-15 13:39:05,340 - INFO - Q_num4 (Question ID 302) Iter1 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=1, Conf=No confidence found
+2025-05-15 13:39:05,340 - INFO - Q_num4 (Question ID 302) Iter1 Msg4 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=1, Conf=No confidence found
+2025-05-15 13:39:05,340 - INFO - Q_num4 (Question ID 302) Iter1 Msg5 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=1, Conf=No confidence found
+2025-05-15 13:39:05,340 - INFO - Q_num4 (Question ID 302) Iter1 Msg6 Agent agent_openai_gpt_4o_mini_0_0: Ans=1, Conf=No confidence found
+2025-05-15 13:39:05,340 - INFO - Q_num4 (Question ID 302) Iter1 Msg7 Agent agent_meta_llama_llama_4_scout_1_0: Ans=1, Conf=No confidence found
+2025-05-15 13:39:05,340 - INFO - Q_num4 (Question ID 302) Iter1 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=1, Conf=No confidence found
+2025-05-15 13:39:05,340 - INFO - Q_num4 (Question ID 302) Iter1 Msg9 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=1, Conf=No confidence found
+2025-05-15 13:39:05,340 - INFO - Q_num4 (Question ID 302) Iter1 Msg10 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=1, Conf=No confidence found
+2025-05-15 13:39:05,341 - INFO - Q_num4 (Question ID 302) Iter1 Msg11 Agent agent_openai_gpt_4o_mini_0_0: Ans=1, Conf=No confidence found
+2025-05-15 13:39:05,341 - INFO - Q_num4 (Question ID 302) Iter1 Msg12 Agent agent_meta_llama_llama_4_scout_1_0: Ans=1, Conf=No confidence found
+2025-05-15 13:39:05,341 - INFO - Q_num4 (Question ID 302) Iter1 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=1, Conf=No confidence found
+2025-05-15 13:39:05,341 - INFO - Q_num4 (Question ID 302) Iter1 Msg14 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=1, Conf=No confidence found
+2025-05-15 13:39:05,341 - INFO - Q_num4 (Question ID 302) Iter1 Msg15 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=1, Conf=No confidence found
+2025-05-15 13:39:05,383 - INFO - --- Finished Q_num4 (ID 302) Iter1. Results saved. ---
+2025-05-15 13:39:05,416 - INFO - --- Running Q_num4 (ID 302) Iter2/3 ---
+2025-05-15 13:39:05,416 - INFO - Task: Political oppression should not be used, even if oppression for a short, limited time would ensure t...
+2025-05-15 13:39:05,449 - INFO - Q_num4 (Question ID 302) Iter1: Starting chat with 5 agents.
+2025-05-15 13:39:58,811 - INFO - Q_num4 (Question ID 302) Iter1: Chat finished in 53.36 seconds.
+2025-05-15 13:39:58,811 - INFO - Q_num4 (Question ID 302) Iter2 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=1, Conf=No confidence found
+2025-05-15 13:39:58,812 - INFO - Q_num4 (Question ID 302) Iter2 Msg2 Agent agent_meta_llama_llama_4_scout_1_0: Ans=1, Conf=No confidence found
+2025-05-15 13:39:58,812 - INFO - Q_num4 (Question ID 302) Iter2 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=1, Conf=No confidence found
+2025-05-15 13:39:58,812 - INFO - Q_num4 (Question ID 302) Iter2 Msg4 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=1, Conf=No confidence found
+2025-05-15 13:39:58,812 - INFO - Q_num4 (Question ID 302) Iter2 Msg5 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=1, Conf=No confidence found
+2025-05-15 13:39:58,812 - INFO - Q_num4 (Question ID 302) Iter2 Msg6 Agent agent_openai_gpt_4o_mini_0_0: Ans=1, Conf=No confidence found
+2025-05-15 13:39:58,812 - INFO - Q_num4 (Question ID 302) Iter2 Msg7 Agent agent_meta_llama_llama_4_scout_1_0: Ans=1, Conf=No confidence found
+2025-05-15 13:39:58,812 - INFO - Q_num4 (Question ID 302) Iter2 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=1, Conf=No confidence found
+2025-05-15 13:39:58,812 - INFO - Q_num4 (Question ID 302) Iter2 Msg9 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=1, Conf=No confidence found
+2025-05-15 13:39:58,812 - INFO - Q_num4 (Question ID 302) Iter2 Msg10 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=1, Conf=No confidence found
+2025-05-15 13:39:58,812 - INFO - Q_num4 (Question ID 302) Iter2 Msg11 Agent agent_openai_gpt_4o_mini_0_0: Ans=1, Conf=No confidence found
+2025-05-15 13:39:58,812 - INFO - Q_num4 (Question ID 302) Iter2 Msg12 Agent agent_meta_llama_llama_4_scout_1_0: Ans=1, Conf=No confidence found
+2025-05-15 13:39:58,812 - INFO - Q_num4 (Question ID 302) Iter2 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=1, Conf=No confidence found
+2025-05-15 13:39:58,812 - INFO - Q_num4 (Question ID 302) Iter2 Msg14 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=1, Conf=No confidence found
+2025-05-15 13:39:58,812 - INFO - Q_num4 (Question ID 302) Iter2 Msg15 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=1, Conf=No confidence found
+2025-05-15 13:39:58,854 - INFO - --- Finished Q_num4 (ID 302) Iter2. Results saved. ---
+2025-05-15 13:39:58,893 - INFO - --- Running Q_num4 (ID 302) Iter3/3 ---
+2025-05-15 13:39:58,893 - INFO - Task: Political oppression should not be used, even if oppression for a short, limited time would ensure t...
+2025-05-15 13:39:58,927 - INFO - Q_num4 (Question ID 302) Iter2: Starting chat with 5 agents.
+2025-05-15 13:40:30,475 - INFO - Q_num4 (Question ID 302) Iter2: Chat finished in 31.55 seconds.
+2025-05-15 13:40:30,476 - INFO - Q_num4 (Question ID 302) Iter3 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=1, Conf=No confidence found
+2025-05-15 13:40:30,476 - INFO - Q_num4 (Question ID 302) Iter3 Msg2 Agent agent_meta_llama_llama_4_scout_1_0: Ans=1, Conf=No confidence found
+2025-05-15 13:40:30,476 - INFO - Q_num4 (Question ID 302) Iter3 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=1, Conf=No confidence found
+2025-05-15 13:40:30,476 - INFO - Q_num4 (Question ID 302) Iter3 Msg4 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=1, Conf=No confidence found
+2025-05-15 13:40:30,476 - INFO - Q_num4 (Question ID 302) Iter3 Msg5 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=1, Conf=No confidence found
+2025-05-15 13:40:30,477 - INFO - Q_num4 (Question ID 302) Iter3 Msg6 Agent agent_openai_gpt_4o_mini_0_0: Ans=1, Conf=No confidence found
+2025-05-15 13:40:30,477 - INFO - Q_num4 (Question ID 302) Iter3 Msg7 Agent agent_meta_llama_llama_4_scout_1_0: Ans=1, Conf=No confidence found
+2025-05-15 13:40:30,477 - INFO - Q_num4 (Question ID 302) Iter3 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=1, Conf=No confidence found
+2025-05-15 13:40:30,477 - INFO - Q_num4 (Question ID 302) Iter3 Msg9 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=1, Conf=No confidence found
+2025-05-15 13:40:30,477 - INFO - Q_num4 (Question ID 302) Iter3 Msg10 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=1, Conf=No confidence found
+2025-05-15 13:40:30,477 - INFO - Q_num4 (Question ID 302) Iter3 Msg11 Agent agent_openai_gpt_4o_mini_0_0: Ans=1, Conf=No confidence found
+2025-05-15 13:40:30,477 - INFO - Q_num4 (Question ID 302) Iter3 Msg12 Agent agent_meta_llama_llama_4_scout_1_0: Ans=1, Conf=No confidence found
+2025-05-15 13:40:30,477 - INFO - Q_num4 (Question ID 302) Iter3 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=1, Conf=No confidence found
+2025-05-15 13:40:30,477 - INFO - Q_num4 (Question ID 302) Iter3 Msg14 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=1, Conf=No confidence found
+2025-05-15 13:40:30,477 - INFO - Q_num4 (Question ID 302) Iter3 Msg15 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=1, Conf=No confidence found
+2025-05-15 13:40:30,519 - INFO - --- Finished Q_num4 (ID 302) Iter3. Results saved. ---
+2025-05-15 13:40:30,544 - INFO - --- Running Q_num5 (ID 307) Iter1/3 ---
+2025-05-15 13:40:30,544 - INFO - Task: From a moral perspective, people should prioritize the well-being of those who are especially close ...
+2025-05-15 13:40:30,578 - INFO - Q_num5 (Question ID 307) Iter0: Starting chat with 5 agents.
+2025-05-15 13:41:20,919 - INFO - Q_num5 (Question ID 307) Iter0: Chat finished in 50.34 seconds.
+2025-05-15 13:41:20,920 - INFO - Q_num5 (Question ID 307) Iter1 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=4, Conf=No confidence found
+2025-05-15 13:41:20,920 - INFO - Q_num5 (Question ID 307) Iter1 Msg2 Agent agent_meta_llama_llama_4_scout_1_0: Ans=2, Conf=No confidence found
+2025-05-15 13:41:20,921 - INFO - Q_num5 (Question ID 307) Iter1 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=4, Conf=No confidence found
+2025-05-15 13:41:20,921 - INFO - Q_num5 (Question ID 307) Iter1 Msg4 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=4, Conf=No confidence found
+2025-05-15 13:41:20,921 - INFO - Q_num5 (Question ID 307) Iter1 Msg5 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=3, Conf=No confidence found
+2025-05-15 13:41:20,921 - INFO - Q_num5 (Question ID 307) Iter1 Msg6 Agent agent_openai_gpt_4o_mini_0_0: Ans=4, Conf=No confidence found
+2025-05-15 13:41:20,921 - INFO - Q_num5 (Question ID 307) Iter1 Msg7 Agent agent_meta_llama_llama_4_scout_1_0: Ans=6, Conf=No confidence found
+2025-05-15 13:41:20,921 - INFO - Q_num5 (Question ID 307) Iter1 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=4, Conf=No confidence found
+2025-05-15 13:41:20,921 - INFO - Q_num5 (Question ID 307) Iter1 Msg9 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=4, Conf=No confidence found
+2025-05-15 13:41:20,921 - INFO - Q_num5 (Question ID 307) Iter1 Msg10 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=4, Conf=No confidence found
+2025-05-15 13:41:20,922 - INFO - Q_num5 (Question ID 307) Iter1 Msg11 Agent agent_openai_gpt_4o_mini_0_0: Ans=4, Conf=No confidence found
+2025-05-15 13:41:20,922 - INFO - Q_num5 (Question ID 307) Iter1 Msg12 Agent agent_meta_llama_llama_4_scout_1_0: Ans=6, Conf=No confidence found
+2025-05-15 13:41:20,922 - INFO - Q_num5 (Question ID 307) Iter1 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=4, Conf=No confidence found
+2025-05-15 13:41:20,922 - INFO - Q_num5 (Question ID 307) Iter1 Msg14 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=4, Conf=No confidence found
+2025-05-15 13:41:20,922 - INFO - Q_num5 (Question ID 307) Iter1 Msg15 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=4, Conf=No confidence found
+2025-05-15 13:41:20,969 - INFO - --- Finished Q_num5 (ID 307) Iter1. Results saved. ---
+2025-05-15 13:41:21,003 - INFO - --- Running Q_num5 (ID 307) Iter2/3 ---
+2025-05-15 13:41:21,003 - INFO - Task: From a moral perspective, people should prioritize the well-being of those who are especially close ...
+2025-05-15 13:41:21,037 - INFO - Q_num5 (Question ID 307) Iter1: Starting chat with 5 agents.
+2025-05-15 13:42:11,972 - INFO - Q_num5 (Question ID 307) Iter1: Chat finished in 50.93 seconds.
+2025-05-15 13:42:11,972 - INFO - Q_num5 (Question ID 307) Iter2 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=6, Conf=No confidence found
+2025-05-15 13:42:11,973 - INFO - Q_num5 (Question ID 307) Iter2 Msg2 Agent agent_meta_llama_llama_4_scout_1_0: Ans=2, Conf=No confidence found
+2025-05-15 13:42:11,973 - INFO - Q_num5 (Question ID 307) Iter2 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=1, Conf=No confidence found
+2025-05-15 13:42:11,973 - INFO - Q_num5 (Question ID 307) Iter2 Msg4 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=6, Conf=No confidence found
+2025-05-15 13:42:11,973 - INFO - Q_num5 (Question ID 307) Iter2 Msg5 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=6, Conf=No confidence found
+2025-05-15 13:42:11,973 - INFO - Q_num5 (Question ID 307) Iter2 Msg6 Agent agent_openai_gpt_4o_mini_0_0: Ans=6, Conf=No confidence found
+2025-05-15 13:42:11,973 - INFO - Q_num5 (Question ID 307) Iter2 Msg7 Agent agent_meta_llama_llama_4_scout_1_0: Ans=2, Conf=No confidence found
+2025-05-15 13:42:11,973 - INFO - Q_num5 (Question ID 307) Iter2 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=5, Conf=No confidence found
+2025-05-15 13:42:11,973 - INFO - Q_num5 (Question ID 307) Iter2 Msg9 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=6, Conf=No confidence found
+2025-05-15 13:42:11,973 - INFO - Q_num5 (Question ID 307) Iter2 Msg10 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=6, Conf=No confidence found
+2025-05-15 13:42:11,973 - INFO - Q_num5 (Question ID 307) Iter2 Msg11 Agent agent_openai_gpt_4o_mini_0_0: Ans=6, Conf=No confidence found
+2025-05-15 13:42:11,974 - INFO - Q_num5 (Question ID 307) Iter2 Msg12 Agent agent_meta_llama_llama_4_scout_1_0: Ans=6, Conf=No confidence found
+2025-05-15 13:42:11,974 - INFO - Q_num5 (Question ID 307) Iter2 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=5, Conf=No confidence found
+2025-05-15 13:42:11,974 - INFO - Q_num5 (Question ID 307) Iter2 Msg14 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=6, Conf=No confidence found
+2025-05-15 13:42:11,974 - INFO - Q_num5 (Question ID 307) Iter2 Msg15 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=6, Conf=No confidence found
+2025-05-15 13:42:12,016 - INFO - --- Finished Q_num5 (ID 307) Iter2. Results saved. ---
+2025-05-15 13:42:12,043 - INFO - --- Running Q_num5 (ID 307) Iter3/3 ---
+2025-05-15 13:42:12,043 - INFO - Task: From a moral perspective, people should prioritize the well-being of those who are especially close ...
+2025-05-15 13:42:12,077 - INFO - Q_num5 (Question ID 307) Iter2: Starting chat with 5 agents.
+2025-05-15 13:43:14,887 - INFO - Q_num5 (Question ID 307) Iter2: Chat finished in 62.81 seconds.
+2025-05-15 13:43:14,887 - INFO - Q_num5 (Question ID 307) Iter3 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=5, Conf=No confidence found
+2025-05-15 13:43:14,887 - INFO - Q_num5 (Question ID 307) Iter3 Msg2 Agent agent_meta_llama_llama_4_scout_1_0: Ans=6, Conf=No confidence found
+2025-05-15 13:43:14,887 - INFO - Q_num5 (Question ID 307) Iter3 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=4, Conf=No confidence found
+2025-05-15 13:43:14,887 - INFO - Q_num5 (Question ID 307) Iter3 Msg4 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=5, Conf=No confidence found
+2025-05-15 13:43:14,887 - INFO - Q_num5 (Question ID 307) Iter3 Msg5 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=5, Conf=No confidence found
+2025-05-15 13:43:14,887 - INFO - Q_num5 (Question ID 307) Iter3 Msg6 Agent agent_openai_gpt_4o_mini_0_0: Ans=5, Conf=No confidence found
+2025-05-15 13:43:14,887 - INFO - Q_num5 (Question ID 307) Iter3 Msg7 Agent agent_meta_llama_llama_4_scout_1_0: Ans=2, Conf=No confidence found
+2025-05-15 13:43:14,887 - INFO - Q_num5 (Question ID 307) Iter3 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=2, Conf=No confidence found
+2025-05-15 13:43:14,887 - INFO - Q_num5 (Question ID 307) Iter3 Msg9 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=4, Conf=No confidence found
+2025-05-15 13:43:14,887 - INFO - Q_num5 (Question ID 307) Iter3 Msg10 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=4, Conf=No confidence found
+2025-05-15 13:43:14,887 - INFO - Q_num5 (Question ID 307) Iter3 Msg11 Agent agent_openai_gpt_4o_mini_0_0: Ans=5, Conf=No confidence found
+2025-05-15 13:43:14,887 - INFO - Q_num5 (Question ID 307) Iter3 Msg12 Agent agent_meta_llama_llama_4_scout_1_0: Ans=5, Conf=No confidence found
+2025-05-15 13:43:14,887 - INFO - Q_num5 (Question ID 307) Iter3 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=5, Conf=No confidence found
+2025-05-15 13:43:14,887 - INFO - Q_num5 (Question ID 307) Iter3 Msg14 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=5, Conf=No confidence found
+2025-05-15 13:43:14,887 - INFO - Q_num5 (Question ID 307) Iter3 Msg15 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=5, Conf=No confidence found
+2025-05-15 13:43:14,942 - INFO - --- Finished Q_num5 (ID 307) Iter3. Results saved. ---
+2025-05-15 13:43:14,989 - INFO - --- Running Q_num6 (ID 303) Iter1/3 ---
+2025-05-15 13:43:14,989 - INFO - Task: It is permissible to allow hundreds of people to die from a bomb if prevention necesitates torturing...
+2025-05-15 13:43:15,024 - INFO - Q_num6 (Question ID 303) Iter0: Starting chat with 5 agents.
+2025-05-15 13:43:50,754 - INFO - Q_num6 (Question ID 303) Iter0: Chat finished in 35.73 seconds.
+2025-05-15 13:43:50,755 - INFO - Q_num6 (Question ID 303) Iter1 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 13:43:50,755 - INFO - Q_num6 (Question ID 303) Iter1 Msg2 Agent agent_meta_llama_llama_4_scout_1_0: Ans=7, Conf=No confidence found
+2025-05-15 13:43:50,755 - INFO - Q_num6 (Question ID 303) Iter1 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=7, Conf=No confidence found
+2025-05-15 13:43:50,755 - INFO - Q_num6 (Question ID 303) Iter1 Msg4 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=7, Conf=No confidence found
+2025-05-15 13:43:50,755 - INFO - Q_num6 (Question ID 303) Iter1 Msg5 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=7, Conf=No confidence found
+2025-05-15 13:43:50,755 - INFO - Q_num6 (Question ID 303) Iter1 Msg6 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 13:43:50,755 - INFO - Q_num6 (Question ID 303) Iter1 Msg7 Agent agent_meta_llama_llama_4_scout_1_0: Ans=7, Conf=No confidence found
+2025-05-15 13:43:50,755 - INFO - Q_num6 (Question ID 303) Iter1 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=7, Conf=No confidence found
+2025-05-15 13:43:50,755 - INFO - Q_num6 (Question ID 303) Iter1 Msg9 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=7, Conf=No confidence found
+2025-05-15 13:43:50,756 - INFO - Q_num6 (Question ID 303) Iter1 Msg10 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=7, Conf=No confidence found
+2025-05-15 13:43:50,756 - INFO - Q_num6 (Question ID 303) Iter1 Msg11 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 13:43:50,756 - INFO - Q_num6 (Question ID 303) Iter1 Msg12 Agent agent_meta_llama_llama_4_scout_1_0: Ans=7, Conf=No confidence found
+2025-05-15 13:43:50,756 - INFO - Q_num6 (Question ID 303) Iter1 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=7, Conf=No confidence found
+2025-05-15 13:43:50,756 - INFO - Q_num6 (Question ID 303) Iter1 Msg14 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=7, Conf=No confidence found
+2025-05-15 13:43:50,756 - INFO - Q_num6 (Question ID 303) Iter1 Msg15 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=7, Conf=No confidence found
+2025-05-15 13:43:50,799 - INFO - --- Finished Q_num6 (ID 303) Iter1. Results saved. ---
+2025-05-15 13:43:50,826 - INFO - --- Running Q_num6 (ID 303) Iter2/3 ---
+2025-05-15 13:43:50,827 - INFO - Task: It is permissible to allow hundreds of people to die from a bomb if prevention necesitates torturing...
+2025-05-15 13:43:50,850 - INFO - Q_num6 (Question ID 303) Iter1: Starting chat with 5 agents.
+2025-05-15 13:44:35,929 - INFO - Q_num6 (Question ID 303) Iter1: Chat finished in 45.08 seconds.
+2025-05-15 13:44:35,931 - INFO - Q_num6 (Question ID 303) Iter2 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 13:44:35,931 - INFO - Q_num6 (Question ID 303) Iter2 Msg2 Agent agent_meta_llama_llama_4_scout_1_0: Ans=2, Conf=No confidence found
+2025-05-15 13:44:35,931 - INFO - Q_num6 (Question ID 303) Iter2 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=7, Conf=No confidence found
+2025-05-15 13:44:35,931 - INFO - Q_num6 (Question ID 303) Iter2 Msg4 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=7, Conf=No confidence found
+2025-05-15 13:44:35,931 - INFO - Q_num6 (Question ID 303) Iter2 Msg5 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=7, Conf=No confidence found
+2025-05-15 13:44:35,931 - INFO - Q_num6 (Question ID 303) Iter2 Msg6 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 13:44:35,931 - INFO - Q_num6 (Question ID 303) Iter2 Msg7 Agent agent_meta_llama_llama_4_scout_1_0: Ans=7, Conf=No confidence found
+2025-05-15 13:44:35,931 - INFO - Q_num6 (Question ID 303) Iter2 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 13:44:35,931 - INFO - Q_num6 (Question ID 303) Iter2 Msg9 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=7, Conf=No confidence found
+2025-05-15 13:44:35,932 - INFO - Q_num6 (Question ID 303) Iter2 Msg10 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=7, Conf=No confidence found
+2025-05-15 13:44:35,932 - INFO - Q_num6 (Question ID 303) Iter2 Msg11 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 13:44:35,932 - INFO - Q_num6 (Question ID 303) Iter2 Msg12 Agent agent_meta_llama_llama_4_scout_1_0: Ans=7, Conf=No confidence found
+2025-05-15 13:44:35,932 - INFO - Q_num6 (Question ID 303) Iter2 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=7, Conf=No confidence found
+2025-05-15 13:44:35,932 - INFO - Q_num6 (Question ID 303) Iter2 Msg14 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=7, Conf=No confidence found
+2025-05-15 13:44:35,932 - INFO - Q_num6 (Question ID 303) Iter2 Msg15 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=7, Conf=No confidence found
+2025-05-15 13:44:35,975 - INFO - --- Finished Q_num6 (ID 303) Iter2. Results saved. ---
+2025-05-15 13:44:36,001 - INFO - --- Running Q_num6 (ID 303) Iter3/3 ---
+2025-05-15 13:44:36,001 - INFO - Task: It is permissible to allow hundreds of people to die from a bomb if prevention necesitates torturing...
+2025-05-15 13:44:36,024 - INFO - Q_num6 (Question ID 303) Iter2: Starting chat with 5 agents.
+2025-05-15 13:45:09,894 - INFO - Q_num6 (Question ID 303) Iter2: Chat finished in 33.87 seconds.
+2025-05-15 13:45:09,896 - INFO - Q_num6 (Question ID 303) Iter3 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 13:45:09,896 - INFO - Q_num6 (Question ID 303) Iter3 Msg2 Agent agent_meta_llama_llama_4_scout_1_0: Ans=7, Conf=No confidence found
+2025-05-15 13:45:09,896 - INFO - Q_num6 (Question ID 303) Iter3 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=7, Conf=No confidence found
+2025-05-15 13:45:09,896 - INFO - Q_num6 (Question ID 303) Iter3 Msg4 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=7, Conf=No confidence found
+2025-05-15 13:45:09,896 - INFO - Q_num6 (Question ID 303) Iter3 Msg5 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=7, Conf=No confidence found
+2025-05-15 13:45:09,896 - INFO - Q_num6 (Question ID 303) Iter3 Msg6 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 13:45:09,896 - INFO - Q_num6 (Question ID 303) Iter3 Msg7 Agent agent_meta_llama_llama_4_scout_1_0: Ans=7, Conf=No confidence found
+2025-05-15 13:45:09,896 - INFO - Q_num6 (Question ID 303) Iter3 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=7, Conf=No confidence found
+2025-05-15 13:45:09,896 - INFO - Q_num6 (Question ID 303) Iter3 Msg9 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=7, Conf=No confidence found
+2025-05-15 13:45:09,896 - INFO - Q_num6 (Question ID 303) Iter3 Msg10 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=7, Conf=No confidence found
+2025-05-15 13:45:09,896 - INFO - Q_num6 (Question ID 303) Iter3 Msg11 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 13:45:09,897 - INFO - Q_num6 (Question ID 303) Iter3 Msg12 Agent agent_meta_llama_llama_4_scout_1_0: Ans=7, Conf=No confidence found
+2025-05-15 13:45:09,897 - INFO - Q_num6 (Question ID 303) Iter3 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=7, Conf=No confidence found
+2025-05-15 13:45:09,897 - INFO - Q_num6 (Question ID 303) Iter3 Msg14 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=7, Conf=No confidence found
+2025-05-15 13:45:09,897 - INFO - Q_num6 (Question ID 303) Iter3 Msg15 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=7, Conf=No confidence found
+2025-05-15 13:45:09,939 - INFO - --- Finished Q_num6 (ID 303) Iter3. Results saved. ---
+2025-05-15 13:45:09,964 - INFO - --- Running Q_num7 (ID 308) Iter1/3 ---
+2025-05-15 13:45:09,964 - INFO - Task: It is far less wrong to fail to help someone than it is to actively harm them yourself....
+2025-05-15 13:45:09,988 - INFO - Q_num7 (Question ID 308) Iter0: Starting chat with 5 agents.
+2025-05-15 13:45:47,474 - INFO - Q_num7 (Question ID 308) Iter0: Chat finished in 37.49 seconds.
+2025-05-15 13:45:47,475 - INFO - Q_num7 (Question ID 308) Iter1 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=2, Conf=No confidence found
+2025-05-15 13:45:47,475 - INFO - Q_num7 (Question ID 308) Iter1 Msg2 Agent agent_meta_llama_llama_4_scout_1_0: Ans=2, Conf=No confidence found
+2025-05-15 13:45:47,476 - INFO - Q_num7 (Question ID 308) Iter1 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=2, Conf=No confidence found
+2025-05-15 13:45:47,476 - INFO - Q_num7 (Question ID 308) Iter1 Msg4 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=2, Conf=No confidence found
+2025-05-15 13:45:47,476 - INFO - Q_num7 (Question ID 308) Iter1 Msg5 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=2, Conf=No confidence found
+2025-05-15 13:45:47,476 - INFO - Q_num7 (Question ID 308) Iter1 Msg6 Agent agent_openai_gpt_4o_mini_0_0: Ans=2, Conf=No confidence found
+2025-05-15 13:45:47,476 - INFO - Q_num7 (Question ID 308) Iter1 Msg7 Agent agent_meta_llama_llama_4_scout_1_0: Ans=2, Conf=No confidence found
+2025-05-15 13:45:47,476 - INFO - Q_num7 (Question ID 308) Iter1 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=1, Conf=No confidence found
+2025-05-15 13:45:47,476 - INFO - Q_num7 (Question ID 308) Iter1 Msg9 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=2, Conf=No confidence found
+2025-05-15 13:45:47,476 - INFO - Q_num7 (Question ID 308) Iter1 Msg10 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=2, Conf=No confidence found
+2025-05-15 13:45:47,476 - INFO - Q_num7 (Question ID 308) Iter1 Msg11 Agent agent_openai_gpt_4o_mini_0_0: Ans=2, Conf=No confidence found
+2025-05-15 13:45:47,476 - INFO - Q_num7 (Question ID 308) Iter1 Msg12 Agent agent_meta_llama_llama_4_scout_1_0: Ans=2, Conf=No confidence found
+2025-05-15 13:45:47,476 - INFO - Q_num7 (Question ID 308) Iter1 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=1, Conf=No confidence found
+2025-05-15 13:45:47,476 - INFO - Q_num7 (Question ID 308) Iter1 Msg14 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=2, Conf=No confidence found
+2025-05-15 13:45:47,476 - INFO - Q_num7 (Question ID 308) Iter1 Msg15 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=2, Conf=No confidence found
+2025-05-15 13:45:47,524 - INFO - --- Finished Q_num7 (ID 308) Iter1. Results saved. ---
+2025-05-15 13:45:47,545 - INFO - --- Running Q_num7 (ID 308) Iter2/3 ---
+2025-05-15 13:45:47,545 - INFO - Task: It is far less wrong to fail to help someone than it is to actively harm them yourself....
+2025-05-15 13:45:47,569 - INFO - Q_num7 (Question ID 308) Iter1: Starting chat with 5 agents.
+2025-05-15 13:46:17,185 - INFO - Q_num7 (Question ID 308) Iter1: Chat finished in 29.61 seconds.
+2025-05-15 13:46:17,185 - INFO - Q_num7 (Question ID 308) Iter2 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=4, Conf=No confidence found
+2025-05-15 13:46:17,185 - INFO - Q_num7 (Question ID 308) Iter2 Msg2 Agent agent_meta_llama_llama_4_scout_1_0: Ans=2, Conf=No confidence found
+2025-05-15 13:46:17,185 - INFO - Q_num7 (Question ID 308) Iter2 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=2, Conf=No confidence found
+2025-05-15 13:46:17,186 - INFO - Q_num7 (Question ID 308) Iter2 Msg4 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=2, Conf=No confidence found
+2025-05-15 13:46:17,186 - INFO - Q_num7 (Question ID 308) Iter2 Msg5 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=4, Conf=No confidence found
+2025-05-15 13:46:17,186 - INFO - Q_num7 (Question ID 308) Iter2 Msg6 Agent agent_openai_gpt_4o_mini_0_0: Ans=2, Conf=No confidence found
+2025-05-15 13:46:17,186 - INFO - Q_num7 (Question ID 308) Iter2 Msg7 Agent agent_meta_llama_llama_4_scout_1_0: Ans=2, Conf=No confidence found
+2025-05-15 13:46:17,186 - INFO - Q_num7 (Question ID 308) Iter2 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=2, Conf=No confidence found
+2025-05-15 13:46:17,186 - INFO - Q_num7 (Question ID 308) Iter2 Msg9 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=2, Conf=No confidence found
+2025-05-15 13:46:17,186 - INFO - Q_num7 (Question ID 308) Iter2 Msg10 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=2, Conf=No confidence found
+2025-05-15 13:46:17,186 - INFO - Q_num7 (Question ID 308) Iter2 Msg11 Agent agent_openai_gpt_4o_mini_0_0: Ans=2, Conf=No confidence found
+2025-05-15 13:46:17,186 - INFO - Q_num7 (Question ID 308) Iter2 Msg12 Agent agent_meta_llama_llama_4_scout_1_0: Ans=2, Conf=No confidence found
+2025-05-15 13:46:17,186 - INFO - Q_num7 (Question ID 308) Iter2 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=2, Conf=No confidence found
+2025-05-15 13:46:17,186 - INFO - Q_num7 (Question ID 308) Iter2 Msg14 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=2, Conf=No confidence found
+2025-05-15 13:46:17,186 - INFO - Q_num7 (Question ID 308) Iter2 Msg15 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=2, Conf=No confidence found
+2025-05-15 13:46:17,241 - INFO - --- Finished Q_num7 (ID 308) Iter2. Results saved. ---
+2025-05-15 13:46:17,272 - INFO - --- Running Q_num7 (ID 308) Iter3/3 ---
+2025-05-15 13:46:17,272 - INFO - Task: It is far less wrong to fail to help someone than it is to actively harm them yourself....
+2025-05-15 13:46:17,294 - INFO - Q_num7 (Question ID 308) Iter2: Starting chat with 5 agents.
+2025-05-15 13:46:43,794 - INFO - Q_num7 (Question ID 308) Iter2: Chat finished in 26.50 seconds.
+2025-05-15 13:46:43,795 - INFO - Q_num7 (Question ID 308) Iter3 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=2, Conf=No confidence found
+2025-05-15 13:46:43,795 - INFO - Q_num7 (Question ID 308) Iter3 Msg2 Agent agent_meta_llama_llama_4_scout_1_0: Ans=2, Conf=No confidence found
+2025-05-15 13:46:43,795 - INFO - Q_num7 (Question ID 308) Iter3 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=4, Conf=No confidence found
+2025-05-15 13:46:43,795 - INFO - Q_num7 (Question ID 308) Iter3 Msg4 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=4, Conf=No confidence found
+2025-05-15 13:46:43,795 - INFO - Q_num7 (Question ID 308) Iter3 Msg5 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=4, Conf=No confidence found
+2025-05-15 13:46:43,795 - INFO - Q_num7 (Question ID 308) Iter3 Msg6 Agent agent_openai_gpt_4o_mini_0_0: Ans=4, Conf=No confidence found
+2025-05-15 13:46:43,795 - INFO - Q_num7 (Question ID 308) Iter3 Msg7 Agent agent_meta_llama_llama_4_scout_1_0: Ans=4, Conf=No confidence found
+2025-05-15 13:46:43,795 - INFO - Q_num7 (Question ID 308) Iter3 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=3, Conf=No confidence found
+2025-05-15 13:46:43,795 - INFO - Q_num7 (Question ID 308) Iter3 Msg9 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=4, Conf=No confidence found
+2025-05-15 13:46:43,796 - INFO - Q_num7 (Question ID 308) Iter3 Msg10 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=3, Conf=No confidence found
+2025-05-15 13:46:43,796 - INFO - Q_num7 (Question ID 308) Iter3 Msg11 Agent agent_openai_gpt_4o_mini_0_0: Ans=3, Conf=No confidence found
+2025-05-15 13:46:43,796 - INFO - Q_num7 (Question ID 308) Iter3 Msg12 Agent agent_meta_llama_llama_4_scout_1_0: Ans=3, Conf=No confidence found
+2025-05-15 13:46:43,796 - INFO - Q_num7 (Question ID 308) Iter3 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=3, Conf=No confidence found
+2025-05-15 13:46:43,796 - INFO - Q_num7 (Question ID 308) Iter3 Msg14 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=3, Conf=No confidence found
+2025-05-15 13:46:43,796 - INFO - Q_num7 (Question ID 308) Iter3 Msg15 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=3, Conf=No confidence found
+2025-05-15 13:46:43,842 - INFO - --- Finished Q_num7 (ID 308) Iter3. Results saved. ---
+2025-05-15 13:46:43,877 - INFO - --- Running Q_num8 (ID 304) Iter1/3 ---
+2025-05-15 13:46:43,877 - INFO - Task: Sometimes it is morally necessary to spare innocent people as collateral damage—even if fewer people...
+2025-05-15 13:46:43,899 - INFO - Q_num8 (Question ID 304) Iter0: Starting chat with 5 agents.
+2025-05-15 13:47:10,213 - INFO - Q_num8 (Question ID 304) Iter0: Chat finished in 26.31 seconds.
+2025-05-15 13:47:10,214 - INFO - Q_num8 (Question ID 304) Iter1 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 13:47:10,215 - INFO - Q_num8 (Question ID 304) Iter1 Msg2 Agent agent_meta_llama_llama_4_scout_1_0: Ans=6, Conf=No confidence found
+2025-05-15 13:47:10,215 - INFO - Q_num8 (Question ID 304) Iter1 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=4, Conf=No confidence found
+2025-05-15 13:47:10,215 - INFO - Q_num8 (Question ID 304) Iter1 Msg4 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=7, Conf=No confidence found
+2025-05-15 13:47:10,215 - INFO - Q_num8 (Question ID 304) Iter1 Msg5 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=7, Conf=No confidence found
+2025-05-15 13:47:10,215 - INFO - Q_num8 (Question ID 304) Iter1 Msg6 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 13:47:10,215 - INFO - Q_num8 (Question ID 304) Iter1 Msg7 Agent agent_meta_llama_llama_4_scout_1_0: Ans=5, Conf=No confidence found
+2025-05-15 13:47:10,215 - INFO - Q_num8 (Question ID 304) Iter1 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=7, Conf=No confidence found
+2025-05-15 13:47:10,215 - INFO - Q_num8 (Question ID 304) Iter1 Msg9 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=7, Conf=No confidence found
+2025-05-15 13:47:10,215 - INFO - Q_num8 (Question ID 304) Iter1 Msg10 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=7, Conf=No confidence found
+2025-05-15 13:47:10,215 - INFO - Q_num8 (Question ID 304) Iter1 Msg11 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 13:47:10,215 - INFO - Q_num8 (Question ID 304) Iter1 Msg12 Agent agent_meta_llama_llama_4_scout_1_0: Ans=7, Conf=No confidence found
+2025-05-15 13:47:10,215 - INFO - Q_num8 (Question ID 304) Iter1 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=7, Conf=No confidence found
+2025-05-15 13:47:10,215 - INFO - Q_num8 (Question ID 304) Iter1 Msg14 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=7, Conf=No confidence found
+2025-05-15 13:47:10,215 - INFO - Q_num8 (Question ID 304) Iter1 Msg15 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=7, Conf=No confidence found
+2025-05-15 13:47:10,270 - INFO - --- Finished Q_num8 (ID 304) Iter1. Results saved. ---
+2025-05-15 13:47:10,309 - INFO - --- Running Q_num8 (ID 304) Iter2/3 ---
+2025-05-15 13:47:10,309 - INFO - Task: Sometimes it is morally necessary to spare innocent people as collateral damage—even if fewer people...
+2025-05-15 13:47:10,331 - INFO - Q_num8 (Question ID 304) Iter1: Starting chat with 5 agents.
+2025-05-15 13:47:37,661 - INFO - Q_num8 (Question ID 304) Iter1: Chat finished in 27.33 seconds.
+2025-05-15 13:47:37,663 - INFO - Q_num8 (Question ID 304) Iter2 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 13:47:37,663 - INFO - Q_num8 (Question ID 304) Iter2 Msg2 Agent agent_meta_llama_llama_4_scout_1_0: Ans=7, Conf=No confidence found
+2025-05-15 13:47:37,663 - INFO - Q_num8 (Question ID 304) Iter2 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=7, Conf=No confidence found
+2025-05-15 13:47:37,663 - INFO - Q_num8 (Question ID 304) Iter2 Msg4 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=7, Conf=No confidence found
+2025-05-15 13:47:37,663 - INFO - Q_num8 (Question ID 304) Iter2 Msg5 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=7, Conf=No confidence found
+2025-05-15 13:47:37,663 - INFO - Q_num8 (Question ID 304) Iter2 Msg6 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 13:47:37,663 - INFO - Q_num8 (Question ID 304) Iter2 Msg7 Agent agent_meta_llama_llama_4_scout_1_0: Ans=6, Conf=No confidence found
+2025-05-15 13:47:37,663 - INFO - Q_num8 (Question ID 304) Iter2 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=7, Conf=No confidence found
+2025-05-15 13:47:37,663 - INFO - Q_num8 (Question ID 304) Iter2 Msg9 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=7, Conf=No confidence found
+2025-05-15 13:47:37,663 - INFO - Q_num8 (Question ID 304) Iter2 Msg10 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=7, Conf=No confidence found
+2025-05-15 13:47:37,663 - INFO - Q_num8 (Question ID 304) Iter2 Msg11 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 13:47:37,663 - INFO - Q_num8 (Question ID 304) Iter2 Msg12 Agent agent_meta_llama_llama_4_scout_1_0: Ans=7, Conf=No confidence found
+2025-05-15 13:47:37,663 - INFO - Q_num8 (Question ID 304) Iter2 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=7, Conf=No confidence found
+2025-05-15 13:47:37,663 - INFO - Q_num8 (Question ID 304) Iter2 Msg14 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=7, Conf=No confidence found
+2025-05-15 13:47:37,663 - INFO - Q_num8 (Question ID 304) Iter2 Msg15 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=7, Conf=No confidence found
+2025-05-15 13:47:37,718 - INFO - --- Finished Q_num8 (ID 304) Iter2. Results saved. ---
+2025-05-15 13:47:37,755 - INFO - --- Running Q_num8 (ID 304) Iter3/3 ---
+2025-05-15 13:47:37,755 - INFO - Task: Sometimes it is morally necessary to spare innocent people as collateral damage—even if fewer people...
+2025-05-15 13:47:37,778 - INFO - Q_num8 (Question ID 304) Iter2: Starting chat with 5 agents.
+2025-05-15 13:48:07,740 - INFO - Q_num8 (Question ID 304) Iter2: Chat finished in 29.96 seconds.
+2025-05-15 13:48:07,741 - INFO - Q_num8 (Question ID 304) Iter3 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 13:48:07,741 - INFO - Q_num8 (Question ID 304) Iter3 Msg2 Agent agent_meta_llama_llama_4_scout_1_0: Ans=2, Conf=No confidence found
+2025-05-15 13:48:07,741 - INFO - Q_num8 (Question ID 304) Iter3 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=1, Conf=No confidence found
+2025-05-15 13:48:07,741 - INFO - Q_num8 (Question ID 304) Iter3 Msg4 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=7, Conf=No confidence found
+2025-05-15 13:48:07,741 - INFO - Q_num8 (Question ID 304) Iter3 Msg5 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=6, Conf=No confidence found
+2025-05-15 13:48:07,741 - INFO - Q_num8 (Question ID 304) Iter3 Msg6 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 13:48:07,741 - INFO - Q_num8 (Question ID 304) Iter3 Msg7 Agent agent_meta_llama_llama_4_scout_1_0: Ans=1, Conf=No confidence found
+2025-05-15 13:48:07,741 - INFO - Q_num8 (Question ID 304) Iter3 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=1, Conf=No confidence found
+2025-05-15 13:48:07,741 - INFO - Q_num8 (Question ID 304) Iter3 Msg9 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=1, Conf=No confidence found
+2025-05-15 13:48:07,741 - INFO - Q_num8 (Question ID 304) Iter3 Msg10 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=1, Conf=No confidence found
+2025-05-15 13:48:07,741 - INFO - Q_num8 (Question ID 304) Iter3 Msg11 Agent agent_openai_gpt_4o_mini_0_0: Ans=1, Conf=No confidence found
+2025-05-15 13:48:07,741 - INFO - Q_num8 (Question ID 304) Iter3 Msg12 Agent agent_meta_llama_llama_4_scout_1_0: Ans=1, Conf=No confidence found
+2025-05-15 13:48:07,742 - INFO - Q_num8 (Question ID 304) Iter3 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=1, Conf=No confidence found
+2025-05-15 13:48:07,742 - INFO - Q_num8 (Question ID 304) Iter3 Msg14 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=1, Conf=No confidence found
+2025-05-15 13:48:07,742 - INFO - Q_num8 (Question ID 304) Iter3 Msg15 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=1, Conf=No confidence found
+2025-05-15 13:48:07,786 - INFO - --- Finished Q_num8 (ID 304) Iter3. Results saved. ---
+2025-05-15 13:48:07,815 - INFO - --- Running Q_num9 (ID 309) Iter1/3 ---
+2025-05-15 13:48:07,815 - INFO - Task: It is morally permissible to keep money that one doesn't really need even if one can donate it to ca...
+2025-05-15 13:48:07,838 - INFO - Q_num9 (Question ID 309) Iter0: Starting chat with 5 agents.
+2025-05-15 13:48:37,245 - INFO - Q_num9 (Question ID 309) Iter0: Chat finished in 29.41 seconds.
+2025-05-15 13:48:37,246 - INFO - Q_num9 (Question ID 309) Iter1 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=6, Conf=No confidence found
+2025-05-15 13:48:37,246 - INFO - Q_num9 (Question ID 309) Iter1 Msg2 Agent agent_meta_llama_llama_4_scout_1_0: Ans=6, Conf=No confidence found
+2025-05-15 13:48:37,246 - INFO - Q_num9 (Question ID 309) Iter1 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=6, Conf=No confidence found
+2025-05-15 13:48:37,246 - INFO - Q_num9 (Question ID 309) Iter1 Msg4 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=6, Conf=No confidence found
+2025-05-15 13:48:37,246 - INFO - Q_num9 (Question ID 309) Iter1 Msg5 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=6, Conf=No confidence found
+2025-05-15 13:48:37,246 - INFO - Q_num9 (Question ID 309) Iter1 Msg6 Agent agent_openai_gpt_4o_mini_0_0: Ans=6, Conf=No confidence found
+2025-05-15 13:48:37,246 - INFO - Q_num9 (Question ID 309) Iter1 Msg7 Agent agent_meta_llama_llama_4_scout_1_0: Ans=6, Conf=No confidence found
+2025-05-15 13:48:37,246 - INFO - Q_num9 (Question ID 309) Iter1 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=6, Conf=No confidence found
+2025-05-15 13:48:37,246 - INFO - Q_num9 (Question ID 309) Iter1 Msg9 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=6, Conf=No confidence found
+2025-05-15 13:48:37,246 - INFO - Q_num9 (Question ID 309) Iter1 Msg10 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=6, Conf=No confidence found
+2025-05-15 13:48:37,246 - INFO - Q_num9 (Question ID 309) Iter1 Msg11 Agent agent_openai_gpt_4o_mini_0_0: Ans=6, Conf=No confidence found
+2025-05-15 13:48:37,246 - INFO - Q_num9 (Question ID 309) Iter1 Msg12 Agent agent_meta_llama_llama_4_scout_1_0: Ans=6, Conf=No confidence found
+2025-05-15 13:48:37,246 - INFO - Q_num9 (Question ID 309) Iter1 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=6, Conf=No confidence found
+2025-05-15 13:48:37,246 - INFO - Q_num9 (Question ID 309) Iter1 Msg14 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=6, Conf=No confidence found
+2025-05-15 13:48:37,246 - INFO - Q_num9 (Question ID 309) Iter1 Msg15 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=6, Conf=No confidence found
+2025-05-15 13:48:37,273 - INFO - --- Finished Q_num9 (ID 309) Iter1. Results saved. ---
+2025-05-15 13:48:37,297 - INFO - --- Running Q_num9 (ID 309) Iter2/3 ---
+2025-05-15 13:48:37,297 - INFO - Task: It is morally permissible to keep money that one doesn't really need even if one can donate it to ca...
+2025-05-15 13:48:37,326 - INFO - Q_num9 (Question ID 309) Iter1: Starting chat with 5 agents.
+2025-05-15 13:49:27,472 - INFO - Q_num9 (Question ID 309) Iter1: Chat finished in 50.15 seconds.
+2025-05-15 13:49:27,473 - INFO - Q_num9 (Question ID 309) Iter2 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=5, Conf=No confidence found
+2025-05-15 13:49:27,473 - INFO - Q_num9 (Question ID 309) Iter2 Msg2 Agent agent_meta_llama_llama_4_scout_1_0: Ans=6, Conf=No confidence found
+2025-05-15 13:49:27,473 - INFO - Q_num9 (Question ID 309) Iter2 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=6, Conf=No confidence found
+2025-05-15 13:49:27,473 - INFO - Q_num9 (Question ID 309) Iter2 Msg4 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=6, Conf=No confidence found
+2025-05-15 13:49:27,473 - INFO - Q_num9 (Question ID 309) Iter2 Msg5 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=5, Conf=No confidence found
+2025-05-15 13:49:27,473 - INFO - Q_num9 (Question ID 309) Iter2 Msg6 Agent agent_openai_gpt_4o_mini_0_0: Ans=6, Conf=No confidence found
+2025-05-15 13:49:27,473 - INFO - Q_num9 (Question ID 309) Iter2 Msg7 Agent agent_meta_llama_llama_4_scout_1_0: Ans=6, Conf=No confidence found
+2025-05-15 13:49:27,473 - INFO - Q_num9 (Question ID 309) Iter2 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=6, Conf=No confidence found
+2025-05-15 13:49:27,473 - INFO - Q_num9 (Question ID 309) Iter2 Msg9 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=6, Conf=No confidence found
+2025-05-15 13:49:27,473 - INFO - Q_num9 (Question ID 309) Iter2 Msg10 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=6, Conf=No confidence found
+2025-05-15 13:49:27,473 - INFO - Q_num9 (Question ID 309) Iter2 Msg11 Agent agent_openai_gpt_4o_mini_0_0: Ans=6, Conf=No confidence found
+2025-05-15 13:49:27,473 - INFO - Q_num9 (Question ID 309) Iter2 Msg12 Agent agent_meta_llama_llama_4_scout_1_0: Ans=6, Conf=No confidence found
+2025-05-15 13:49:27,473 - INFO - Q_num9 (Question ID 309) Iter2 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=6, Conf=No confidence found
+2025-05-15 13:49:27,473 - INFO - Q_num9 (Question ID 309) Iter2 Msg14 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=6, Conf=No confidence found
+2025-05-15 13:49:27,473 - INFO - Q_num9 (Question ID 309) Iter2 Msg15 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=6, Conf=No confidence found
+2025-05-15 13:49:27,531 - INFO - --- Finished Q_num9 (ID 309) Iter2. Results saved. ---
+2025-05-15 13:49:27,574 - INFO - --- Running Q_num9 (ID 309) Iter3/3 ---
+2025-05-15 13:49:27,574 - INFO - Task: It is morally permissible to keep money that one doesn't really need even if one can donate it to ca...
+2025-05-15 13:49:27,596 - INFO - Q_num9 (Question ID 309) Iter2: Starting chat with 5 agents.
+2025-05-15 13:50:12,517 - INFO - Q_num9 (Question ID 309) Iter2: Chat finished in 44.92 seconds.
+2025-05-15 13:50:12,519 - INFO - Q_num9 (Question ID 309) Iter3 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=6, Conf=No confidence found
+2025-05-15 13:50:12,519 - INFO - Q_num9 (Question ID 309) Iter3 Msg2 Agent agent_meta_llama_llama_4_scout_1_0: Ans=6, Conf=No confidence found
+2025-05-15 13:50:12,519 - INFO - Q_num9 (Question ID 309) Iter3 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=6, Conf=No confidence found
+2025-05-15 13:50:12,519 - INFO - Q_num9 (Question ID 309) Iter3 Msg4 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=6, Conf=No confidence found
+2025-05-15 13:50:12,520 - INFO - Q_num9 (Question ID 309) Iter3 Msg5 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=6, Conf=No confidence found
+2025-05-15 13:50:12,520 - INFO - Q_num9 (Question ID 309) Iter3 Msg6 Agent agent_openai_gpt_4o_mini_0_0: Ans=6, Conf=No confidence found
+2025-05-15 13:50:12,520 - INFO - Q_num9 (Question ID 309) Iter3 Msg7 Agent agent_meta_llama_llama_4_scout_1_0: Ans=6, Conf=No confidence found
+2025-05-15 13:50:12,520 - INFO - Q_num9 (Question ID 309) Iter3 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 13:50:12,520 - INFO - Q_num9 (Question ID 309) Iter3 Msg9 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=6, Conf=No confidence found
+2025-05-15 13:50:12,520 - INFO - Q_num9 (Question ID 309) Iter3 Msg10 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=6, Conf=No confidence found
+2025-05-15 13:50:12,520 - INFO - Q_num9 (Question ID 309) Iter3 Msg11 Agent agent_openai_gpt_4o_mini_0_0: Ans=6, Conf=No confidence found
+2025-05-15 13:50:12,520 - INFO - Q_num9 (Question ID 309) Iter3 Msg12 Agent agent_meta_llama_llama_4_scout_1_0: Ans=6, Conf=No confidence found
+2025-05-15 13:50:12,520 - INFO - Q_num9 (Question ID 309) Iter3 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_2_0: Ans=6, Conf=No confidence found
+2025-05-15 13:50:12,520 - INFO - Q_num9 (Question ID 309) Iter3 Msg14 Agent agent_anthropic_claude_3_5_haiku_3_0: Ans=6, Conf=No confidence found
+2025-05-15 13:50:12,520 - INFO - Q_num9 (Question ID 309) Iter3 Msg15 Agent agent_mistralai_mixtral_8x7b_instruct_4_0: Ans=6, Conf=No confidence found
+2025-05-15 13:50:12,595 - INFO - --- Finished Q_num9 (ID 309) Iter3. Results saved. ---
+2025-05-15 13:50:12,636 - INFO - --- Run Finished --- CONFIG HASH: 1d145002 ---
