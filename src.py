@@ -599,7 +599,6 @@ class MultiAgentHandler():
 ########################################################
 # RING HANDLER
 ########################################################
-
 class RingHandler(MultiAgentHandler):
     # NOTE THAT MODELS SHOULD BE A LIST OF THE MODELS IN THE RING. 
     # IF YOU WANT MULTIPLE OF A CERTAIN MODEL, JUST PUT IT IN THE LIST THAT MANY TIMES
