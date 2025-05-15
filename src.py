@@ -19,6 +19,8 @@ import gc
 import subprocess
 import sys
 
+import pandas as pd
+
 from typing import Literal,Sequence, List, Dict, Any
 
 
@@ -809,3 +811,32 @@ class RingHandler(MultiAgentHandler):
 ########################################################
 # STAR HANDLER : TODO!
 ########################################################
+
+
+
+########################################################
+# ANALYSIS HELPERS : TODO!
+########################################################
+
+def load_and_clean_single_run(csvfiles, Qs, add_run_label = None):
+    single_df = pd.DataFrame()
+    for csv_file in csvfiles:
+        df = pd.read_csv(csv_file)
+        df.drop("confidence", axis=1, inplace=True)
+        single_df = pd.concat([single_df, df], ignore_index=True)
+
+        single_df['answer_str'] = single_df['answer'].apply(str)
+        single_df['answer'] = single_df['answer_str'].str.extract(r'(\d+)')
+        single_df['answer'] = pd.to_numeric(single_df['answer'], errors='coerce')
+    # add category to dataframe
+    single_df['category'] = single_df['question_id'].apply(lambda x: Qs.get_question_category(str(x)))
+    # add label
+    if add_run_label:
+            single_df['run_label'] = add_run_label
+     
+    return single_df
+
+
+def get_model_shortname(model_name):
+    result = re.split(r'[/_-]', model_name)
+    return result[1] 
