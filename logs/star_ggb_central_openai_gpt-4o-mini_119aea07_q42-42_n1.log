@@ -1,0 +1,45 @@
+2025-05-13 10:19:35,794 - INFO - --- Starting New Star Run (GGB) --- CONFIG HASH: 119aea07 ---
+2025-05-13 10:19:35,794 - INFO - --- Running GGB Q_num42 (ID 42) Star Iter1 ---
+2025-05-13 10:19:35,825 - INFO - Q_num42 (GGB ID 42) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mistral-7b-instruct']
+2025-05-13 10:21:07,063 - INFO - --- Starting New Star Run (GGB) --- CONFIG HASH: 119aea07 ---
+2025-05-13 10:21:07,064 - INFO - --- Running GGB Q_num42 (ID 42) Star Iter1 ---
+2025-05-13 10:21:07,103 - INFO - Q_num42 (GGB ID 42) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mistral-7b-instruct']
+2025-05-13 10:25:03,896 - INFO - --- Starting New Star Run (GGB) --- CONFIG HASH: 119aea07 ---
+2025-05-13 10:25:03,897 - INFO - --- Running GGB Q_num42 (ID 42) Star Iter1 ---
+2025-05-13 10:25:03,940 - INFO - Q_num42 (GGB ID 42) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mistral-7b-instruct']
+2025-05-13 10:32:09,539 - INFO - --- Starting New Star Run (GGB) --- CONFIG HASH: 119aea07 ---
+2025-05-13 10:32:09,539 - INFO - --- Running GGB Q_num42 (ID 42) Star Iter1 ---
+2025-05-13 10:32:09,585 - INFO - Q_num42 (GGB ID 42) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mistral-7b-instruct']
+2025-05-13 10:35:22,726 - INFO - Q_num42 (GGB ID 42) Iter0: Chat finished in 193.13s. Msgs: 62
+2025-05-13 10:35:22,727 - INFO - Q_num42 (GGB ID 42) Iter1 Msg2 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=3, Conf=No confidence found
+2025-05-13 10:35:22,727 - INFO - Q_num42 (GGB ID 42) Iter1 Msg4 Agent peripheral_mistralai_mistral_7b_instruct_2: Ans=5, Conf=No confidence found
+2025-05-13 10:35:22,728 - INFO - Q_num42 (GGB ID 42) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=No confidence found
+2025-05-13 10:35:22,728 - INFO - Q_num42 (GGB ID 42) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=No confidence found
+2025-05-13 10:35:22,728 - INFO - Q_num42 (GGB ID 42) Iter1 Msg10 Agent peripheral_mistralai_mistral_7b_instruct_2: Ans=6, Conf=No confidence found
+2025-05-13 10:35:22,728 - INFO - Q_num42 (GGB ID 42) Iter1 Msg12 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=No confidence found
+2025-05-13 10:35:22,728 - INFO - Q_num42 (GGB ID 42) Iter1 Msg14 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-13 10:35:22,728 - INFO - Q_num42 (GGB ID 42) Iter1 Msg16 Agent peripheral_mistralai_mistral_7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-13 10:35:22,728 - INFO - Q_num42 (GGB ID 42) Iter1 Msg18 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=No confidence found
+2025-05-13 10:35:22,728 - INFO - Q_num42 (GGB ID 42) Iter1 Msg20 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-13 10:35:22,728 - INFO - Q_num42 (GGB ID 42) Iter1 Msg22 Agent peripheral_mistralai_mistral_7b_instruct_2: Ans=6, Conf=No confidence found
+2025-05-13 10:35:22,728 - INFO - Q_num42 (GGB ID 42) Iter1 Msg24 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=No confidence found
+2025-05-13 10:35:22,728 - INFO - Q_num42 (GGB ID 42) Iter1 Msg26 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-13 10:35:22,728 - INFO - Q_num42 (GGB ID 42) Iter1 Msg28 Agent peripheral_mistralai_mistral_7b_instruct_2: Ans=6, Conf=No confidence found
+2025-05-13 10:35:22,728 - INFO - Q_num42 (GGB ID 42) Iter1 Msg30 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-13 10:35:22,728 - INFO - Q_num42 (GGB ID 42) Iter1 Msg32 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-13 10:35:22,728 - INFO - Q_num42 (GGB ID 42) Iter1 Msg34 Agent peripheral_mistralai_mistral_7b_instruct_2: Ans=6, Conf=No confidence found
+2025-05-13 10:35:22,728 - INFO - Q_num42 (GGB ID 42) Iter1 Msg36 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-13 10:35:22,728 - INFO - Q_num42 (GGB ID 42) Iter1 Msg38 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-13 10:35:22,728 - INFO - Q_num42 (GGB ID 42) Iter1 Msg40 Agent peripheral_mistralai_mistral_7b_instruct_2: Ans=6, Conf=No confidence found
+2025-05-13 10:35:22,728 - INFO - Q_num42 (GGB ID 42) Iter1 Msg42 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-13 10:35:22,728 - INFO - Q_num42 (GGB ID 42) Iter1 Msg44 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-13 10:35:22,728 - INFO - Q_num42 (GGB ID 42) Iter1 Msg46 Agent peripheral_mistralai_mistral_7b_instruct_2: Ans=6, Conf=No confidence found
+2025-05-13 10:35:22,728 - INFO - Q_num42 (GGB ID 42) Iter1 Msg48 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-13 10:35:22,728 - INFO - Q_num42 (GGB ID 42) Iter1 Msg50 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-13 10:35:22,728 - INFO - Q_num42 (GGB ID 42) Iter1 Msg52 Agent peripheral_mistralai_mistral_7b_instruct_2: Ans=6, Conf=No confidence found
+2025-05-13 10:35:22,729 - INFO - Q_num42 (GGB ID 42) Iter1 Msg54 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-13 10:35:22,729 - INFO - Q_num42 (GGB ID 42) Iter1 Msg56 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-13 10:35:22,729 - INFO - Q_num42 (GGB ID 42) Iter1 Msg58 Agent peripheral_mistralai_mistral_7b_instruct_2: Ans=6, Conf=No confidence found
+2025-05-13 10:35:22,729 - INFO - Q_num42 (GGB ID 42) Iter1 Msg60 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=No confidence found
+2025-05-13 10:35:22,876 - WARNING - --- GGB Q_num42 (ID 42) Star Iter1 no results. ---
+2025-05-13 10:35:22,936 - INFO - --- Star Run Finished (GGB) --- CONFIG HASH: 119aea07 ---

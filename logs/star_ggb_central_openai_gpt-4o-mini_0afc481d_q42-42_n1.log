@@ -1,0 +1,141 @@
+2025-05-13 10:52:16,014 - INFO - --- Starting New Star Run (GGB) --- CONFIG HASH: 0afc481d ---
+2025-05-13 10:52:16,015 - INFO - --- Running GGB Q_num42 (ID 42) Star Iter1 ---
+2025-05-13 10:52:16,054 - INFO - Q_num42 (GGB ID 42) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-13 10:53:22,212 - INFO - Q_num42 (GGB ID 42) Iter0: Chat finished in 66.15s. Msgs: 14
+2025-05-13 10:53:22,212 - INFO - Q_num42 (GGB ID 42) Iter1 Msg2 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=No confidence found
+2025-05-13 10:53:22,212 - INFO - Q_num42 (GGB ID 42) Iter1 Msg4 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=4, Conf=No confidence found
+2025-05-13 10:53:22,212 - INFO - Q_num42 (GGB ID 42) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=4, Conf=No confidence found
+2025-05-13 10:53:22,212 - INFO - Q_num42 (GGB ID 42) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-13 10:53:22,212 - INFO - Q_num42 (GGB ID 42) Iter1 Msg10 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5, Conf=No confidence found
+2025-05-13 10:53:22,212 - INFO - Q_num42 (GGB ID 42) Iter1 Msg12 Agent peripheral_openai_gpt_4o_mini_0: Ans=5, Conf=No confidence found
+2025-05-13 10:53:22,302 - WARNING - --- GGB Q_num42 (ID 42) Star Iter1 no results. ---
+2025-05-13 10:53:22,352 - INFO - --- Star Run Finished (GGB) --- CONFIG HASH: 0afc481d ---
+2025-05-13 11:09:26,149 - INFO - --- Starting New Star Run (GGB) --- CONFIG HASH: 0afc481d ---
+2025-05-13 11:09:26,151 - INFO - --- Running GGB Q_num42 (ID 42) Star Iter1 ---
+2025-05-13 11:09:26,243 - ERROR - Error GGB Q_num42 (ID 42) Star Iter1: BufferedChat.__init__() missing 1 required positional argument: 'buffer_size'
+Traceback (most recent call last):
+  File "/var/folders/8g/x9ncyhjj3wdchhjpvtkcr_640000gp/T/ipykernel_8606/1845360881.py", line 224, in main_star_convergence
+    star_iteration_result = await run_single_star_iteration(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/8g/x9ncyhjj3wdchhjpvtkcr_640000gp/T/ipykernel_8606/1845360881.py", line 101, in run_single_star_iteration
+    model_context=BufferedChat()
+                  ^^^^^^^^^^^^^^
+TypeError: BufferedChat.__init__() missing 1 required positional argument: 'buffer_size'
+2025-05-13 11:09:26,379 - INFO - --- Star Run Finished (GGB) --- CONFIG HASH: 0afc481d ---
+2025-05-13 11:09:55,652 - INFO - --- Starting New Star Run (GGB) --- CONFIG HASH: 0afc481d ---
+2025-05-13 11:09:55,652 - INFO - --- Running GGB Q_num42 (ID 42) Star Iter1 ---
+2025-05-13 11:09:55,678 - ERROR - Error GGB Q_num42 (ID 42) Star Iter1: BufferedChat.__init__() missing 1 required positional argument: 'buffer_size'
+Traceback (most recent call last):
+  File "/var/folders/8g/x9ncyhjj3wdchhjpvtkcr_640000gp/T/ipykernel_8606/1845360881.py", line 224, in main_star_convergence
+    star_iteration_result = await run_single_star_iteration(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/8g/x9ncyhjj3wdchhjpvtkcr_640000gp/T/ipykernel_8606/1845360881.py", line 101, in run_single_star_iteration
+    model_context=BufferedChat()
+                  ^^^^^^^^^^^^^^
+TypeError: BufferedChat.__init__() missing 1 required positional argument: 'buffer_size'
+2025-05-13 11:09:55,758 - INFO - --- Star Run Finished (GGB) --- CONFIG HASH: 0afc481d ---
+2025-05-13 11:10:35,428 - INFO - --- Starting New Star Run (GGB) --- CONFIG HASH: 0afc481d ---
+2025-05-13 11:10:35,428 - INFO - --- Running GGB Q_num42 (ID 42) Star Iter1 ---
+2025-05-13 11:10:35,453 - ERROR - Error GGB Q_num42 (ID 42) Star Iter1: BufferedChat.__init__() missing 1 required positional argument: 'buffer_size'
+Traceback (most recent call last):
+  File "/var/folders/8g/x9ncyhjj3wdchhjpvtkcr_640000gp/T/ipykernel_8606/257054474.py", line 224, in main_star_convergence
+    star_iteration_result = await run_single_star_iteration(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/8g/x9ncyhjj3wdchhjpvtkcr_640000gp/T/ipykernel_8606/257054474.py", line 101, in run_single_star_iteration
+    model_context=BufferedChat()
+                  ^^^^^^^^^^^^^^
+TypeError: BufferedChat.__init__() missing 1 required positional argument: 'buffer_size'
+2025-05-13 11:10:35,601 - INFO - --- Star Run Finished (GGB) --- CONFIG HASH: 0afc481d ---
+2025-05-13 11:10:58,920 - INFO - --- Starting New Star Run (GGB) --- CONFIG HASH: 0afc481d ---
+2025-05-13 11:10:58,921 - INFO - --- Running GGB Q_num42 (ID 42) Star Iter1 ---
+2025-05-13 11:10:58,951 - ERROR - Error GGB Q_num42 (ID 42) Star Iter1: BufferedChat.__init__() missing 1 required positional argument: 'buffer_size'
+Traceback (most recent call last):
+  File "/var/folders/8g/x9ncyhjj3wdchhjpvtkcr_640000gp/T/ipykernel_8606/2241792394.py", line 224, in main_star_convergence
+    star_iteration_result = await run_single_star_iteration(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/8g/x9ncyhjj3wdchhjpvtkcr_640000gp/T/ipykernel_8606/2241792394.py", line 101, in run_single_star_iteration
+    model_context=BufferedChat()
+                  ^^^^^^^^^^^^^^
+TypeError: BufferedChat.__init__() missing 1 required positional argument: 'buffer_size'
+2025-05-13 11:10:59,042 - INFO - --- Star Run Finished (GGB) --- CONFIG HASH: 0afc481d ---
+2025-05-13 11:12:02,508 - INFO - --- Starting New Star Run (GGB) --- CONFIG HASH: 0afc481d ---
+2025-05-13 11:12:02,509 - INFO - --- Running GGB Q_num42 (ID 42) Star Iter1 ---
+2025-05-13 11:12:02,509 - ERROR - Error GGB Q_num42 (ID 42) Star Iter1: cannot access local variable 'star_iter_checkpoint_key' where it is not associated with a value
+Traceback (most recent call last):
+  File "/var/folders/8g/x9ncyhjj3wdchhjpvtkcr_640000gp/T/ipykernel_8606/1700550529.py", line 232, in main_star_convergence
+    print("Star Iteration Checkpoint Key: ", star_iter_checkpoint_key)
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'star_iter_checkpoint_key' where it is not associated with a value
+2025-05-13 11:12:02,641 - INFO - --- Star Run Finished (GGB) --- CONFIG HASH: 0afc481d ---
+2025-05-13 11:12:39,876 - INFO - --- Starting New Star Run (GGB) --- CONFIG HASH: 0afc481d ---
+2025-05-13 11:12:39,877 - INFO - --- Running GGB Q_num42 (ID 42) Star Iter1 ---
+2025-05-13 11:12:39,877 - ERROR - Error GGB Q_num42 (ID 42) Star Iter1: cannot access local variable 'star_iter_checkpoint_key' where it is not associated with a value
+Traceback (most recent call last):
+  File "/var/folders/8g/x9ncyhjj3wdchhjpvtkcr_640000gp/T/ipykernel_8606/3739473408.py", line 232, in main_star_convergence
+    print("Star Iteration Checkpoint Key: ", star_iter_checkpoint_key)
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'star_iter_checkpoint_key' where it is not associated with a value
+2025-05-13 11:12:40,009 - INFO - --- Star Run Finished (GGB) --- CONFIG HASH: 0afc481d ---
+2025-05-13 11:13:12,157 - INFO - --- Starting New Star Run (GGB) --- CONFIG HASH: 0afc481d ---
+2025-05-13 11:13:12,158 - INFO - --- Running GGB Q_num42 (ID 42) Star Iter1 ---
+2025-05-13 11:13:12,158 - ERROR - Error GGB Q_num42 (ID 42) Star Iter1: cannot access local variable 'star_iter_checkpoint_key' where it is not associated with a value
+Traceback (most recent call last):
+  File "/var/folders/8g/x9ncyhjj3wdchhjpvtkcr_640000gp/T/ipykernel_8606/3064663987.py", line 232, in main_star_convergence
+    print("Star Iteration Checkpoint Key: ", star_iter_checkpoint_key)
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'star_iter_checkpoint_key' where it is not associated with a value
+2025-05-13 11:13:12,222 - INFO - --- Star Run Finished (GGB) --- CONFIG HASH: 0afc481d ---
+2025-05-13 11:13:45,092 - INFO - --- Starting New Star Run (GGB) --- CONFIG HASH: 0afc481d ---
+2025-05-13 11:13:45,093 - INFO - --- Running GGB Q_num42 (ID 42) Star Iter1 ---
+2025-05-13 11:13:45,093 - ERROR - Error GGB Q_num42 (ID 42) Star Iter1: cannot access local variable 'star_iter_checkpoint_key' where it is not associated with a value
+Traceback (most recent call last):
+  File "/var/folders/8g/x9ncyhjj3wdchhjpvtkcr_640000gp/T/ipykernel_8606/3858935602.py", line 232, in main_star_convergence
+    print("Star Iteration Checkpoint Key: ", star_iter_checkpoint_key)
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'star_iter_checkpoint_key' where it is not associated with a value
+2025-05-13 11:13:45,210 - INFO - --- Star Run Finished (GGB) --- CONFIG HASH: 0afc481d ---
+2025-05-13 11:14:46,325 - INFO - --- Starting New Star Run (GGB) --- CONFIG HASH: 0afc481d ---
+2025-05-13 11:14:46,326 - INFO - --- Running GGB Q_num42 (ID 42) Star Iter1 ---
+2025-05-13 11:14:46,326 - ERROR - Error GGB Q_num42 (ID 42) Star Iter1: cannot access local variable 'star_iter_checkpoint_key' where it is not associated with a value
+Traceback (most recent call last):
+  File "/var/folders/8g/x9ncyhjj3wdchhjpvtkcr_640000gp/T/ipykernel_8606/475788941.py", line 232, in main_star_convergence
+    print("Star Iteration Checkpoint Key: ", star_iter_checkpoint_key)
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'star_iter_checkpoint_key' where it is not associated with a value
+2025-05-13 11:14:46,468 - INFO - --- Star Run Finished (GGB) --- CONFIG HASH: 0afc481d ---
+2025-05-13 11:15:10,846 - INFO - --- Starting New Star Run (GGB) --- CONFIG HASH: 0afc481d ---
+2025-05-13 11:15:10,847 - INFO - --- Running GGB Q_num42 (ID 42) Star Iter1 ---
+2025-05-13 11:15:10,868 - ERROR - Error GGB Q_num42 (ID 42) Star Iter1: BufferedChat.__init__() missing 1 required positional argument: 'buffer_size'
+Traceback (most recent call last):
+  File "/var/folders/8g/x9ncyhjj3wdchhjpvtkcr_640000gp/T/ipykernel_8606/4028513287.py", line 236, in main_star_convergence
+    star_iteration_result = await run_single_star_iteration(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/8g/x9ncyhjj3wdchhjpvtkcr_640000gp/T/ipykernel_8606/4028513287.py", line 101, in run_single_star_iteration
+    model_context=BufferedChat()
+                  ^^^^^^^^^^^^^^
+TypeError: BufferedChat.__init__() missing 1 required positional argument: 'buffer_size'
+2025-05-13 11:15:10,922 - INFO - --- Star Run Finished (GGB) --- CONFIG HASH: 0afc481d ---
+2025-05-13 11:16:16,089 - INFO - --- Starting New Star Run (GGB) --- CONFIG HASH: 0afc481d ---
+2025-05-13 11:16:16,090 - INFO - --- Running GGB Q_num42 (ID 42) Star Iter1 ---
+2025-05-13 11:16:16,131 - ERROR - Error GGB Q_num42 (ID 42) Star Iter1: BufferedChat.__init__() missing 1 required positional argument: 'buffer_size'
+Traceback (most recent call last):
+  File "/var/folders/8g/x9ncyhjj3wdchhjpvtkcr_640000gp/T/ipykernel_8606/4021645093.py", line 225, in main_star_convergence
+    star_iteration_result = await run_single_star_iteration(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/8g/x9ncyhjj3wdchhjpvtkcr_640000gp/T/ipykernel_8606/4021645093.py", line 101, in run_single_star_iteration
+    model_context=BufferedChat()
+                  ^^^^^^^^^^^^^^
+TypeError: BufferedChat.__init__() missing 1 required positional argument: 'buffer_size'
+2025-05-13 11:16:16,233 - INFO - --- Star Run Finished (GGB) --- CONFIG HASH: 0afc481d ---
+2025-05-13 11:16:41,459 - INFO - --- Starting New Star Run (GGB) --- CONFIG HASH: 0afc481d ---
+2025-05-13 11:16:41,459 - INFO - --- Running GGB Q_num42 (ID 42) Star Iter1 ---
+2025-05-13 11:16:41,493 - INFO - Q_num42 (GGB ID 42) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-13 11:17:22,089 - INFO - Q_num42 (GGB ID 42) Iter0: Chat finished in 40.59s. Msgs: 14
+2025-05-13 11:17:22,090 - INFO - Q_num42 (GGB ID 42) Iter1 Msg2 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=No confidence found
+2025-05-13 11:17:22,090 - INFO - Q_num42 (GGB ID 42) Iter1 Msg4 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5, Conf=No confidence found
+2025-05-13 11:17:22,090 - INFO - Q_num42 (GGB ID 42) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=5, Conf=No confidence found
+2025-05-13 11:17:22,091 - INFO - Q_num42 (GGB ID 42) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=5, Conf=No confidence found
+2025-05-13 11:17:22,091 - INFO - Q_num42 (GGB ID 42) Iter1 Msg10 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5, Conf=No confidence found
+2025-05-13 11:17:22,091 - INFO - Q_num42 (GGB ID 42) Iter1 Msg12 Agent peripheral_openai_gpt_4o_mini_0: Ans=5, Conf=No confidence found
+2025-05-13 11:17:22,167 - WARNING - --- GGB Q_num42 (ID 42) Star Iter1 no results. ---
+2025-05-13 11:17:22,222 - INFO - --- Star Run Finished (GGB) --- CONFIG HASH: 0afc481d ---

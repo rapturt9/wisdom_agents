@@ -1,0 +1,54 @@
+2025-05-13 15:22:46,215 - INFO - --- Starting New Star Run (GGB) --- CONFIG HASH: 96af1d4f ---
+2025-05-13 15:22:46,215 - INFO - --- Running GGB Q_num42 (ID 42) Star Iter1 ---
+2025-05-13 15:22:46,310 - INFO - Q_num42 (GGB ID 42) Iter0: Starting star chat. Central: mistralai/mixtral-8x7b-instruct, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct', 'qwen/qwen-2.5-7b-instruct', 'meta-llama/llama-3.1-8b-instruct', 'google/gemini-2.0-flash-lite-001', 'google/gemini-2.5-flash-preview:thinking', 'deepseek/deepseek-chat-v3-0324']
+2025-05-13 15:30:45,752 - ERROR - Error GGB Q_num42 (ID 42) Star Iter1: TypeError: 'NoneType' object is not subscriptable
+Traceback:
+Traceback (most recent call last):
+
+  File "/Users/ram/miniforge3/envs/sitewiz/lib/python3.12/site-packages/autogen_agentchat/teams/_group_chat/_chat_agent_container.py", line 79, in handle_request
+    async for msg in self._agent.on_messages_stream(self._message_buffer, ctx.cancellation_token):
+
+  File "/Users/ram/miniforge3/envs/sitewiz/lib/python3.12/site-packages/autogen_agentchat/agents/_assistant_agent.py", line 805, in on_messages_stream
+    async for inference_output in self._call_llm(
+
+  File "/Users/ram/miniforge3/envs/sitewiz/lib/python3.12/site-packages/autogen_agentchat/agents/_assistant_agent.py", line 933, in _call_llm
+    model_result = await model_client.create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+  File "/Users/ram/miniforge3/envs/sitewiz/lib/python3.12/site-packages/autogen_ext/models/openai/_openai_client.py", line 653, in create
+    choice: Union[ParsedChoice[Any], ParsedChoice[BaseModel], Choice] = result.choices[0]
+                                                                        ~~~~~~~~~~~~~~^^^
+
+TypeError: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/var/folders/8g/x9ncyhjj3wdchhjpvtkcr_640000gp/T/ipykernel_76909/389994369.py", line 244, in main_star_convergence
+    star_iteration_result = await run_single_star_iteration(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/8g/x9ncyhjj3wdchhjpvtkcr_640000gp/T/ipykernel_76909/389994369.py", line 167, in run_single_star_iteration
+    result = await Console(team.run_stream(task=task))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ram/miniforge3/envs/sitewiz/lib/python3.12/site-packages/autogen_agentchat/ui/_console.py", line 117, in Console
+    async for message in stream:
+  File "/Users/ram/miniforge3/envs/sitewiz/lib/python3.12/site-packages/autogen_agentchat/teams/_group_chat/_base_group_chat.py", line 518, in run_stream
+    raise RuntimeError(str(message.error))
+RuntimeError: TypeError: 'NoneType' object is not subscriptable
+Traceback:
+Traceback (most recent call last):
+
+  File "/Users/ram/miniforge3/envs/sitewiz/lib/python3.12/site-packages/autogen_agentchat/teams/_group_chat/_chat_agent_container.py", line 79, in handle_request
+    async for msg in self._agent.on_messages_stream(self._message_buffer, ctx.cancellation_token):
+
+  File "/Users/ram/miniforge3/envs/sitewiz/lib/python3.12/site-packages/autogen_agentchat/agents/_assistant_agent.py", line 805, in on_messages_stream
+    async for inference_output in self._call_llm(
+
+  File "/Users/ram/miniforge3/envs/sitewiz/lib/python3.12/site-packages/autogen_agentchat/agents/_assistant_agent.py", line 933, in _call_llm
+    model_result = await model_client.create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+  File "/Users/ram/miniforge3/envs/sitewiz/lib/python3.12/site-packages/autogen_ext/models/openai/_openai_client.py", line 653, in create
+    choice: Union[ParsedChoice[Any], ParsedChoice[BaseModel], Choice] = result.choices[0]
+                                                                        ~~~~~~~~~~~~~~^^^
+
+TypeError: 'NoneType' object is not subscriptable
+
+2025-05-13 15:30:45,904 - INFO - --- Star Run Finished (GGB) --- CONFIG HASH: 96af1d4f ---
