@@ -234,15 +234,16 @@ def get_prompt(persona = None, group_chat = True, reasoning = True, confidence =
 
 def extract_answer_from_response_single(content):
     # Extract the answer from the response. Adapt this to your exact response structure.
-    start_index = content.find("<ANSWER>")
-    end_index = content.find("</ANSWER>")
-    if start_index != -1 and end_index != -1:
-        return content[start_index + len("<ANSWER>"):end_index].strip()
+    """Extracts the answer (e.g., A, B) from <ANSWER> tags."""
+    match = re.search(r"<ANSWER>(.*?)</ANSWER>", content, re.IGNORECASE | re.DOTALL)
     answers = ["1", "2", "3", "4", "5", "6", "7"]
+    if match and match.group(1).strip() in answers:
+        return match.group(1).strip()
+    # If no match, check for answers in the content
     for answer in answers:
         if answer in content:
             return answer
-    return "No answer found in the agent's response."
+    return match.group(1).strip() if match else "No answer found"
 
 def extract_confidence_from_response_single(content):
   start_index = content.find("<CONF>")
