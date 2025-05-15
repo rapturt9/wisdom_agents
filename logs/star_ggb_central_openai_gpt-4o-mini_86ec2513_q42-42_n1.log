@@ -1,0 +1,49 @@
+2025-05-13 13:05:14,702 - INFO - --- Starting New Star Run (GGB) --- CONFIG HASH: 86ec2513 ---
+2025-05-13 13:05:14,702 - INFO - --- Running GGB Q_num42 (ID 42) Star Iter1 ---
+2025-05-13 13:05:14,766 - INFO - Q_num42 (GGB ID 42) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct', 'qwen/qwen-2.5-7b-instruct', 'meta-llama/llama-3.1-8b-instruct', 'google/gemini-2.0-flash-lite-001', 'google/gemini-2.5-flash-preview:thinking', 'deepseek/deepseek-chat-v3-0324']
+2025-05-13 13:11:44,520 - INFO - --- Starting New Star Run (GGB) --- CONFIG HASH: 86ec2513 ---
+2025-05-13 13:11:44,520 - INFO - --- Running GGB Q_num42 (ID 42) Star Iter1 ---
+2025-05-13 13:11:44,579 - INFO - Q_num42 (GGB ID 42) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct', 'qwen/qwen-2.5-7b-instruct', 'meta-llama/llama-3.1-8b-instruct', 'google/gemini-2.0-flash-lite-001', 'google/gemini-2.5-flash-preview:thinking', 'deepseek/deepseek-chat-v3-0324']
+2025-05-13 13:17:39,739 - INFO - Q_num42 (GGB ID 42) Iter0: Chat finished in 355.15s. Msgs: 82
+2025-05-13 13:17:39,741 - INFO - Q_num42 (GGB ID 42) Iter1 Msg2 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-13 13:17:39,741 - INFO - Q_num42 (GGB ID 42) Iter1 Msg4 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5, Conf=No confidence found
+2025-05-13 13:17:39,741 - INFO - Q_num42 (GGB ID 42) Iter1 Msg6 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=6, Conf=No confidence found
+2025-05-13 13:17:39,741 - INFO - Q_num42 (GGB ID 42) Iter1 Msg8 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=4, Conf=No confidence found
+2025-05-13 13:17:39,741 - INFO - Q_num42 (GGB ID 42) Iter1 Msg10 Agent peripheral_google_gemini_2_0_flash_lite_001_5: Ans=5, Conf=No confidence found
+2025-05-13 13:17:39,741 - INFO - Q_num42 (GGB ID 42) Iter1 Msg12 Agent peripheral_google_gemini_2_5_flash_preview_thinking_6: Ans=6, Conf=No confidence found
+2025-05-13 13:17:39,741 - INFO - Q_num42 (GGB ID 42) Iter1 Msg14 Agent peripheral_deepseek_deepseek_chat_v3_0324_7: Ans=5, Conf=No confidence found
+2025-05-13 13:17:39,742 - INFO - Q_num42 (GGB ID 42) Iter1 Msg16 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=No confidence found
+2025-05-13 13:17:39,742 - INFO - Q_num42 (GGB ID 42) Iter1 Msg18 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=No confidence found
+2025-05-13 13:17:39,742 - INFO - Q_num42 (GGB ID 42) Iter1 Msg20 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=5, Conf=No confidence found
+2025-05-13 13:17:39,742 - INFO - Q_num42 (GGB ID 42) Iter1 Msg22 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=6, Conf=No confidence found
+2025-05-13 13:17:39,742 - INFO - Q_num42 (GGB ID 42) Iter1 Msg24 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=6, Conf=No confidence found
+2025-05-13 13:17:39,742 - INFO - Q_num42 (GGB ID 42) Iter1 Msg26 Agent peripheral_google_gemini_2_0_flash_lite_001_5: Ans=7, Conf=No confidence found
+2025-05-13 13:17:39,742 - INFO - Q_num42 (GGB ID 42) Iter1 Msg28 Agent peripheral_google_gemini_2_5_flash_preview_thinking_6: Ans=6, Conf=No confidence found
+2025-05-13 13:17:39,742 - INFO - Q_num42 (GGB ID 42) Iter1 Msg30 Agent peripheral_deepseek_deepseek_chat_v3_0324_7: Ans=6, Conf=No confidence found
+2025-05-13 13:17:39,742 - INFO - Q_num42 (GGB ID 42) Iter1 Msg32 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=No confidence found
+2025-05-13 13:17:39,742 - INFO - Q_num42 (GGB ID 42) Iter1 Msg34 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=No answer found, Conf=No confidence found
+2025-05-13 13:17:39,742 - INFO - Q_num42 (GGB ID 42) Iter1 Msg36 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=6, Conf=No confidence found
+2025-05-13 13:17:39,742 - INFO - Q_num42 (GGB ID 42) Iter1 Msg38 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=6, Conf=No confidence found
+2025-05-13 13:17:39,742 - INFO - Q_num42 (GGB ID 42) Iter1 Msg40 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=7, Conf=No confidence found
+2025-05-13 13:17:39,742 - INFO - Q_num42 (GGB ID 42) Iter1 Msg42 Agent peripheral_google_gemini_2_0_flash_lite_001_5: Ans=7, Conf=No confidence found
+2025-05-13 13:17:39,743 - INFO - Q_num42 (GGB ID 42) Iter1 Msg44 Agent peripheral_google_gemini_2_5_flash_preview_thinking_6: Ans=6, Conf=No confidence found
+2025-05-13 13:17:39,743 - INFO - Q_num42 (GGB ID 42) Iter1 Msg46 Agent peripheral_deepseek_deepseek_chat_v3_0324_7: Ans=No answer found, Conf=No confidence found
+2025-05-13 13:17:39,743 - INFO - Q_num42 (GGB ID 42) Iter1 Msg48 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=No confidence found
+2025-05-13 13:17:39,743 - INFO - Q_num42 (GGB ID 42) Iter1 Msg50 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=7, Conf=No confidence found
+2025-05-13 13:17:39,743 - INFO - Q_num42 (GGB ID 42) Iter1 Msg52 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=6, Conf=No confidence found
+2025-05-13 13:17:39,743 - INFO - Q_num42 (GGB ID 42) Iter1 Msg54 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=6, Conf=No confidence found
+2025-05-13 13:17:39,743 - INFO - Q_num42 (GGB ID 42) Iter1 Msg56 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=7, Conf=No confidence found
+2025-05-13 13:17:39,743 - INFO - Q_num42 (GGB ID 42) Iter1 Msg58 Agent peripheral_google_gemini_2_0_flash_lite_001_5: Ans=7, Conf=No confidence found
+2025-05-13 13:17:39,743 - INFO - Q_num42 (GGB ID 42) Iter1 Msg60 Agent peripheral_google_gemini_2_5_flash_preview_thinking_6: Ans=6, Conf=No confidence found
+2025-05-13 13:17:39,743 - INFO - Q_num42 (GGB ID 42) Iter1 Msg62 Agent peripheral_deepseek_deepseek_chat_v3_0324_7: Ans=7, Conf=No confidence found
+2025-05-13 13:17:39,743 - INFO - Q_num42 (GGB ID 42) Iter1 Msg64 Agent peripheral_openai_gpt_4o_mini_0: Ans=7, Conf=No confidence found
+2025-05-13 13:17:39,743 - INFO - Q_num42 (GGB ID 42) Iter1 Msg66 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=7, Conf=No confidence found
+2025-05-13 13:17:39,743 - INFO - Q_num42 (GGB ID 42) Iter1 Msg68 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=6, Conf=No confidence found
+2025-05-13 13:17:39,743 - INFO - Q_num42 (GGB ID 42) Iter1 Msg70 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=7, Conf=No confidence found
+2025-05-13 13:17:39,743 - INFO - Q_num42 (GGB ID 42) Iter1 Msg72 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=6, Conf=No confidence found
+2025-05-13 13:17:39,744 - INFO - Q_num42 (GGB ID 42) Iter1 Msg74 Agent peripheral_google_gemini_2_0_flash_lite_001_5: Ans=7, Conf=No confidence found
+2025-05-13 13:17:39,744 - INFO - Q_num42 (GGB ID 42) Iter1 Msg76 Agent peripheral_google_gemini_2_5_flash_preview_thinking_6: Ans=6, Conf=No confidence found
+2025-05-13 13:17:39,744 - INFO - Q_num42 (GGB ID 42) Iter1 Msg78 Agent peripheral_deepseek_deepseek_chat_v3_0324_7: Ans=5, Conf=No confidence found
+2025-05-13 13:17:39,744 - INFO - Q_num42 (GGB ID 42) Iter1 Msg80 Agent peripheral_openai_gpt_4o_mini_0: Ans=7, Conf=No confidence found
+2025-05-13 13:17:39,869 - WARNING - --- GGB Q_num42 (ID 42) Star Iter1 no results. ---
+2025-05-13 13:17:39,915 - INFO - --- Star Run Finished (GGB) --- CONFIG HASH: 86ec2513 ---

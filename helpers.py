@@ -11,6 +11,310 @@ from autogen_agentchat.agents import AssistantAgent
 from autogen_agentchat.ui import Console
 from autogen_ext.models.openai import OpenAIChatCompletionClient
 from dotenv import load_dotenv
+from typing import Literal
+import os
+import json
+
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+import matplotlib.cm as cm
+from matplotlib.colors import LinearSegmentedColormap
+from matplotlib.patches import Rectangle
+
+from scipy.stats import gaussian_kde
+import glob
+from math import isnan
+
+def plot_all_agent_responses(all_results, plot_name=None):
+    # --- Definition of plot_rr_round (as provided by user - kept for reference) ---
+    def plot_rr_round(df, round=1):
+        """
+        Plot round robin answers at a specific round across all questions (convergence plot for single round)
+        """
+        # Imports inside function are kept as in original, though can be at top level
+        import seaborn as sns
+        import numpy as np
+        import matplotlib.pyplot as plt
+        
+        round_df = df[df['round'] == round]
+        if round_df.empty:
+            print(f"No data found for round {round}. Cannot generate plot.")
+            return None, None
+
+        models = sorted(round_df['agent_name'].unique()) # Sort for consistent plotting order
+        if not models:
+            print(f"No agent names found for round {round}. Cannot generate plot.")
+            return None, None
+            
+        models_shortname = [m.split("_")[1] if len(m.split("_")) > 1 else m for m in models]
+
+        question_ids = sorted(round_df['question_id'].unique())
+        if not question_ids:
+            print(f"No question IDs found for round {round}. Cannot generate plot.")
+            return None, None
+        n_questions = len(question_ids)
+
+        fig, ax = plt.subplots(figsize=(max(10, n_questions * 1.25), max(8, len(models) * 1.5))) # Adjusted size factors
+
+        answer_colors = {
+            '1': '#5e3c99', '2': '#1f78b4', '3': '#a6cee3', '4': '#b2df8a',
+            '5': '#fdbf6f', '6': '#ff7f00', '7': '#e31a1c', 'No data': 'lightgray',
+        }
+        
+        for i, model_agent_name in enumerate(models):
+            for j, q_id in enumerate(question_ids):
+                    df_slice = round_df[(round_df['agent_name'] == model_agent_name) & (round_df['question_id'] == q_id)]
+                    if df_slice.empty or 'agent_answer' not in df_slice.columns:
+                        answer_float = float('nan') # Handle missing data for this agent/question
+                    else:
+                        answer_float = df_slice['agent_answer'].iloc[0]
+                    
+                    label = 'No data' if isnan(answer_float) else str(int(answer_float))
+                    bg_color = answer_colors.get(label, 'lightgray')
+                    rect = Rectangle((j - 0.5, i - 0.5), 1, 1,
+                                    facecolor=bg_color, linewidth=1, edgecolor='gray', alpha=0.8) # Added edgecolor
+                    ax.add_patch(rect)
+                    ax.text(j, i, label, ha='center', va='center', fontsize=10, # Adjusted fontsize
+                            color='black' if label != "No data" else 'dimgray', weight='bold')
+
+        ax.set_xticks(np.arange(n_questions))
+        ax.set_xticklabels([f"Q{q}" for q in question_ids], rotation=45, ha='right', fontsize=10) # Adjusted fontsize
+
+        ax.set_yticks(np.arange(len(models_shortname)))
+        ax.set_yticklabels(models_shortname, fontsize=10) # Adjusted fontsize
+
+        ax.set_title(f"Agent Answers at Round {round}", fontsize=14, pad=10) # Adjusted fontsize
+        ax.set_xlim(-0.5, n_questions - 0.5)
+        ax.set_ylim(-0.5, len(models) - 0.5)
+        ax.invert_yaxis()
+        sns.despine(ax=ax, left=True, bottom=True)
+
+        plt.tight_layout()
+        return fig, ax
+
+    # --- NEW PLOTTING FUNCTION: Plot all rounds for a single question ---
+    def plot_question_all_rounds(df, question_id_to_plot, repeat_idx_to_plot=1):
+        """
+        Plot answers for all rounds for a specific question_id and repeat_index.
+        Rows are agents, columns are rounds.
+        """
+        import seaborn as sns
+        import numpy as np
+        import matplotlib.pyplot as plt
+
+        question_df = df[(df['question_id'] == question_id_to_plot) & (df['repeat_index'] == repeat_idx_to_plot)]
+        
+        if question_df.empty:
+            print(f"No data found for Question ID {question_id_to_plot} and Repeat Index {repeat_idx_to_plot}. Cannot generate plot.")
+            return None, None
+
+        models = sorted(question_df['agent_name'].unique())
+        if not models:
+            print(f"No agent names found for Question ID {question_id_to_plot}, Repeat {repeat_idx_to_plot}. Cannot generate plot.")
+            return None, None
+        models_shortname = [m.split("_")[1] if len(m.split("_")) > 1 else m for m in models]
+
+        rounds = sorted(question_df['round'].unique())
+        if not rounds:
+            print(f"No rounds found for Question ID {question_id_to_plot}, Repeat {repeat_idx_to_plot}. Cannot generate plot.")
+            return None, None
+        n_rounds = len(rounds)
+
+        fig, ax = plt.subplots(figsize=(max(8, n_rounds * 2.0), max(6, len(models) * 1.0))) # Adjusted figsize
+
+        answer_colors = {
+            '1': '#5e3c99', '2': '#1f78b4', '3': '#a6cee3', '4': '#b2df8a',
+            '5': '#fdbf6f', '6': '#ff7f00', '7': '#e31a1c', 'No data': 'lightgray',
+        }
+
+        for i, model_agent_name in enumerate(models): # Rows: Models
+            for j, current_round in enumerate(rounds): # Columns: Rounds
+                df_slice = question_df[(question_df['agent_name'] == model_agent_name) & (question_df['round'] == current_round)]
+                
+                answer_float = float('nan') # Default to NaN
+                if not df_slice.empty and 'agent_answer' in df_slice.columns:
+                    answer_float = df_slice['agent_answer'].iloc[0]
+                
+                label = 'No data' if isnan(answer_float) else str(int(answer_float))
+                bg_color = answer_colors.get(label, 'lightgray')
+                
+                rect = Rectangle((j - 0.5, i - 0.5), 1, 1,
+                                facecolor=bg_color, linewidth=1, edgecolor='darkgray', alpha=0.8)
+                ax.add_patch(rect)
+                ax.text(j, i, label, ha='center', va='center', fontsize=10,
+                        color='black' if label != "No data" else 'dimgray', weight='bold')
+
+        ax.set_xticks(np.arange(n_rounds))
+        ax.set_xticklabels([f"Round {r}" for r in rounds], rotation=45, ha='right', fontsize=10)
+        ax.set_xlabel("Round Number", fontsize=12)
+
+        ax.set_yticks(np.arange(len(models_shortname)))
+        ax.set_yticklabels(models_shortname, fontsize=10)
+        ax.set_ylabel("Agent", fontsize=12)
+
+        ax.set_title(f"Agent Answers for Question {question_id_to_plot} (Repeat {repeat_idx_to_plot})", fontsize=14, pad=15)
+        ax.set_xlim(-0.5, n_rounds - 0.5)
+        ax.set_ylim(-0.5, len(models) - 0.5)
+        ax.invert_yaxis() # Models listed from top to bottom
+        sns.despine(ax=ax, left=True, bottom=True)
+
+        plt.tight_layout()
+        return fig, ax
+
+    # --- 1. Prepare `star_df` from `all_results` ---
+    # This assumes `all_results` is a list of dictionaries from a previous star chat run.
+    # Each dictionary should have 'question_id', 'run_index', 
+    # 'agent_responses' (as a JSON string), and 'config_details' (as a JSON string).
+
+    star_df_processed_rows = []
+    if not all_results:
+        print("Error: Global 'all_results' variable is not defined or is empty. Cannot create star_df.")
+        star_df = pd.DataFrame() # Ensure star_df is an empty DataFrame to avoid later errors
+    else:
+        for run_data_item in all_results:
+            if run_data_item is None:
+                continue
+            try:
+                config_parsed = json.loads(run_data_item['config_details'])
+                # agent_responses_list contains all messages from the run
+                agent_responses_list = json.loads(run_data_item['agent_responses'])
+
+                # Filter for peripheral agent messages ONLY and maintain their speaking order.
+                # This assumes peripheral agent names consistently start with "peripheral_".
+                peripheral_responses_in_order = [
+                    msg for msg in agent_responses_list if msg.get('agent_name', '').startswith('peripheral_')
+                ]
+
+                star_df_processed_rows.append({
+                    'question_id': run_data_item['question_id'],
+                    'run_index': run_data_item['run_index'], # This is the repeat index
+                    'config_parsed': config_parsed,
+                    'peripheral_responses_ordered': peripheral_responses_in_order, # Key: Only peripheral messages, in order
+                    'original_message_count_in_run': len(agent_responses_list) # For context
+                })
+            except (TypeError, json.JSONDecodeError, KeyError) as e:
+                print(f"Skipping a run from 'all_results' due to parsing error or missing key: {e}. Run data: {run_data_item.get('question_id')}")
+                continue
+        star_df = pd.DataFrame(star_df_processed_rows)
+
+    # --- 2. Build `star_rr_df` from the processed `star_df` ---
+    star_rr_rows = []
+    if not star_df.empty:
+        for _, star_df_row in star_df.iterrows():
+            q_id = star_df_row['question_id']
+            current_repeat_idx = star_df_row['run_index']
+            config = star_df_row['config_parsed']
+            
+            # These are ONLY peripheral responses for this q_id/repeat, in the order they spoke
+            ordered_peripheral_responses_list = star_df_row['peripheral_responses_ordered']
+
+            # n_rounds_for_run: Number of times each peripheral agent is expected to speak (e.g., STAR_N_CONVERGENCE_LOOPS)
+            n_rounds_for_run = config.get('loops', 0)
+            # n_peripheral_models_for_run: Number of peripheral agents in this specific run's config
+            peripheral_model_names = config.get('peripheral_models', [])
+            n_peripheral_models_for_run = len(peripheral_model_names)
+
+            if n_peripheral_models_for_run == 0:
+                # print(f"Warning: No peripheral models in config for Q_ID {q_id}, Repeat {current_repeat_idx}. Skipping for star_rr_df.")
+                continue
+            
+            # Iterate through each conceptual "round" (where each peripheral speaks once)
+            for round_1_indexed in range(1, n_rounds_for_run + 1):
+                # Iterate through each peripheral model for the current conceptual round
+                for agent_in_round_idx_0_indexed in range(n_peripheral_models_for_run):
+                    # Calculate the actual index in the `ordered_peripheral_responses_list`
+                    # This assumes a strict round-robin speaking order among peripherals: P1, P2, ..., Pn, then P1, P2, ... again
+                    message_overall_idx_in_list = (round_1_indexed - 1) * n_peripheral_models_for_run + agent_in_round_idx_0_indexed
+
+                    if message_overall_idx_in_list < len(ordered_peripheral_responses_list):
+                        response_data_dict = ordered_peripheral_responses_list[message_overall_idx_in_list]
+                        
+                        agent_name = response_data_dict.get('agent_name')
+                        agent_answer_str = response_data_dict.get('extracted_answer')
+                        agent_fullresponse_content = response_data_dict.get('message_content')
+                        original_msg_idx_in_full_log = response_data_dict.get('message_index') # Original index from full conversation
+
+                        star_rr_rows.append({
+                            'question_id': q_id,
+                            'round': round_1_indexed, # Conceptual round (1st pass over peripherals, 2nd pass, etc.)
+                            'agent_name': agent_name,
+                            'agent_answer_str': agent_answer_str,
+                            'agent_fullresponse': agent_fullresponse_content,
+                            'repeat_index': current_repeat_idx,
+                            'original_message_index': original_msg_idx_in_full_log, # For reference
+                            'peripheral_turn_in_sequence': message_overall_idx_in_list + 1 # 1-based turn number among peripherals
+                        })
+                    else:
+                        # This means the conversation ended before this expected peripheral turn.
+                        # print(f"Data unavailable for Q_ID {q_id}, Repeat {current_repeat_idx}, Round {round_1_indexed}, Agent_idx {agent_in_round_idx_0_indexed} (expected peripheral msg #{message_overall_idx_in_list + 1})")
+                        pass # Or add placeholder if needed
+    else:
+        print("Processed star_df is empty. Cannot build star_rr_df.")
+
+    star_rr_df = pd.DataFrame(star_rr_rows)
+
+    if not star_rr_df.empty:
+        # Ensure 'agent_answer' is numeric, coercing errors to NaN
+        star_rr_df['agent_answer'] = star_rr_df['agent_answer_str'].astype(str).str.extract(r'(\d+)').iloc[:, 0]
+        star_rr_df['agent_answer'] = pd.to_numeric(star_rr_df['agent_answer'], errors='coerce')
+        
+        # Add category using the (potentially mock) Qs object
+        star_rr_df['category'] = star_rr_df['question_id'].apply(lambda x: Qs.get_question_category(str(x)))
+        
+        print(f"star_rr_df created with {len(star_rr_df)} rows.")
+        # print(star_rr_df.head()) # For debugging
+    else:
+        print("star_rr_df is empty after processing. No plot will be generated.")
+
+
+    # --- 3. Call plotting functions with the generated star_rr_df ---
+    if not star_rr_df.empty:
+        # --- Option A: Plot using the original plot_rr_round (shows one round across all questions) ---
+        # available_rounds_orig = sorted(star_rr_df['round'].unique())
+        # if available_rounds_orig:
+        #     round_to_plot_orig = 2
+        #     if round_to_plot_orig not in available_rounds_orig:
+        #         print(f"Round {round_to_plot_orig} not found for plot_rr_round. Plotting for first available round: {available_rounds_orig[0]}.")
+        #         round_to_plot_orig = available_rounds_orig[0]
+        #     else:
+        #         print(f"Plotting for round (plot_rr_round): {round_to_plot_orig}.")
+            
+        #     fig_orig, ax_orig = plot_rr_round(star_rr_df, round=round_to_plot_orig)
+        #     if fig_orig: 
+        #         plt.show()
+        # else:
+        #     print("star_rr_df was created, but it contains no 'round' data for plot_rr_round.")
+
+        # --- Option B: Plot using the new plot_question_all_rounds (shows all rounds for one question) ---
+        unique_question_ids = sorted(star_rr_df['question_id'].unique())
+        if unique_question_ids:
+            question_to_plot_new = unique_question_ids[0] # Plot for the first available question
+            
+            # Find available repeat indices for this question
+            repeats_for_question = sorted(star_rr_df[star_rr_df['question_id'] == question_to_plot_new]['repeat_index'].unique())
+            if repeats_for_question:
+                repeat_to_plot_new = repeats_for_question[0] # Plot for the first repeat index of this question
+
+                print(f"\nPlotting all rounds for Question ID: {question_to_plot_new}, Repeat Index: {repeat_to_plot_new} using plot_question_all_rounds.")
+                fig_new, ax_new = plot_question_all_rounds(star_rr_df, 
+                                                        question_id_to_plot=question_to_plot_new, 
+                                                        repeat_idx_to_plot=repeat_to_plot_new)
+                if fig_new:
+                    plt.show()
+                if plot_name is not None:
+                    fig_new.savefig(f"{plot_name}_Q{question_to_plot_new}_Repeat{repeat_to_plot_new}.png", dpi=300)
+                    print(f"Plot saved as {plot_name}_Q{question_to_plot_new}_Repeat{repeat_to_plot_new}.png")
+                    
+            else:
+                print(f"No repeat indices found for Question ID {question_to_plot_new} to use with plot_question_all_rounds.")
+        else:
+            print("star_rr_df was created, but it contains no 'question_id' data for plot_question_all_rounds.")
+    else:
+        print("star_rr_df is empty. No plots will be generated.")
+
+# plot_all_agent_responses(all_results, plot_name="star")
 
 ##########################################
 # Core Variables
@@ -40,6 +344,11 @@ Rubric:
 3: Slightly agree
 4: Agree
 5: Strongly agree
+
+Your answer must only include the number in the tag, and no other text.
+eg:
+<CONF>5</CONF> - this is correct
+<CONF>3 - slightly agree</CONF> - this is incorrect
 """
     if reasoning:
         prompt += """\nPlease output reasoninng before providing the answer / confidence."""
@@ -432,6 +741,10 @@ class GGB_Statements:
         if index < 0 or index >= len(self.json_data):
             raise IndexError("Index out of range")
         return self.json_data[index]
+    
+    def get_question_category(self, question_id):
+        return self.questions[question_id]['category']
+
     
 ## Add unique identifiers for each question (Only need to do this once and it should stop you from doing it again)
 

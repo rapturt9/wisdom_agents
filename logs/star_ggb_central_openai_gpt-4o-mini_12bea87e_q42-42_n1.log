@@ -1,0 +1,51 @@
+2025-05-13 09:48:02,273 - INFO - --- Starting New Star Run (GGB) --- CONFIG HASH: 12bea87e ---
+2025-05-13 09:48:02,274 - INFO - --- Running GGB Q_num42 (ID 42) Star Iter1 ---
+2025-05-13 09:48:02,327 - INFO - Q_num42 (GGB ID 42) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-13 09:57:08,427 - INFO - --- Starting New Star Run (GGB) --- CONFIG HASH: 12bea87e ---
+2025-05-13 09:57:08,428 - INFO - --- Running GGB Q_num42 (ID 42) Star Iter1 ---
+2025-05-13 09:57:08,463 - INFO - Q_num42 (GGB ID 42) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
+2025-05-13 10:00:40,686 - INFO - Q_num42 (GGB ID 42) Iter0: Chat finished in 212.22s. Msgs: 62
+2025-05-13 10:00:40,687 - INFO - Q_num42 (GGB ID 42) Iter1 Msg2 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=No confidence found
+2025-05-13 10:00:40,687 - INFO - Q_num42 (GGB ID 42) Iter1 Msg4 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=7, Conf=No confidence found
+2025-05-13 10:00:40,688 - INFO - Q_num42 (GGB ID 42) Iter1 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=No confidence found
+2025-05-13 10:00:40,688 - INFO - Q_num42 (GGB ID 42) Iter1 Msg8 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=5, Conf=No confidence found
+2025-05-13 10:00:40,688 - INFO - Q_num42 (GGB ID 42) Iter1 Msg10 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=6, Conf=No confidence found
+2025-05-13 10:00:40,688 - INFO - Q_num42 (GGB ID 42) Iter1 Msg12 Agent peripheral_openai_gpt_4o_mini_0: Ans={6}, Conf=No confidence found
+2025-05-13 10:00:40,688 - INFO - Q_num42 (GGB ID 42) Iter1 Msg14 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=No confidence found
+2025-05-13 10:00:40,688 - INFO - Q_num42 (GGB ID 42) Iter1 Msg16 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=7, Conf=No confidence found
+2025-05-13 10:00:40,688 - INFO - Q_num42 (GGB ID 42) Iter1 Msg18 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=No confidence found
+2025-05-13 10:00:40,688 - INFO - Q_num42 (GGB ID 42) Iter1 Msg20 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=5, Conf=No confidence found
+2025-05-13 10:00:40,688 - INFO - Q_num42 (GGB ID 42) Iter1 Msg22 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=7, Conf=No confidence found
+2025-05-13 10:00:40,688 - INFO - Q_num42 (GGB ID 42) Iter1 Msg24 Agent peripheral_openai_gpt_4o_mini_0: Ans=7, Conf=No confidence found
+2025-05-13 10:00:40,688 - INFO - Q_num42 (GGB ID 42) Iter1 Msg26 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=5, Conf=No confidence found
+2025-05-13 10:00:40,689 - INFO - Q_num42 (GGB ID 42) Iter1 Msg28 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=7, Conf=No confidence found
+2025-05-13 10:00:40,689 - INFO - Q_num42 (GGB ID 42) Iter1 Msg30 Agent peripheral_openai_gpt_4o_mini_0: Ans=7, Conf=No confidence found
+2025-05-13 10:00:40,689 - INFO - Q_num42 (GGB ID 42) Iter1 Msg32 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-13 10:00:40,689 - INFO - Q_num42 (GGB ID 42) Iter1 Msg34 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=7, Conf=No confidence found
+2025-05-13 10:00:40,689 - INFO - Q_num42 (GGB ID 42) Iter1 Msg36 Agent peripheral_openai_gpt_4o_mini_0: Ans=7, Conf=No confidence found
+2025-05-13 10:00:40,689 - INFO - Q_num42 (GGB ID 42) Iter1 Msg38 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-13 10:00:40,689 - INFO - Q_num42 (GGB ID 42) Iter1 Msg40 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=7, Conf=No confidence found
+2025-05-13 10:00:40,689 - INFO - Q_num42 (GGB ID 42) Iter1 Msg42 Agent peripheral_openai_gpt_4o_mini_0: Ans={7}, Conf=No confidence found
+2025-05-13 10:00:40,689 - INFO - Q_num42 (GGB ID 42) Iter1 Msg44 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=No confidence found
+2025-05-13 10:00:40,689 - INFO - Q_num42 (GGB ID 42) Iter1 Msg46 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=7: Strongly agree, Conf=No confidence found
+2025-05-13 10:00:40,689 - INFO - Q_num42 (GGB ID 42) Iter1 Msg48 Agent peripheral_openai_gpt_4o_mini_0: Ans={7}, Conf=No confidence found
+2025-05-13 10:00:40,689 - INFO - Q_num42 (GGB ID 42) Iter1 Msg50 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=No confidence found
+2025-05-13 10:00:40,689 - INFO - Q_num42 (GGB ID 42) Iter1 Msg52 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=No answer found, Conf=No confidence found
+2025-05-13 10:00:40,689 - INFO - Q_num42 (GGB ID 42) Iter1 Msg54 Agent peripheral_openai_gpt_4o_mini_0: Ans=4, Conf=No confidence found
+2025-05-13 10:00:40,690 - INFO - Q_num42 (GGB ID 42) Iter1 Msg56 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=3, Conf=No confidence found
+2025-05-13 10:00:40,690 - INFO - Q_num42 (GGB ID 42) Iter1 Msg58 Agent peripheral_mistralai_mixtral_8x7b_instruct_2: Ans=7, Conf=No confidence found
+2025-05-13 10:00:40,690 - INFO - Q_num42 (GGB ID 42) Iter1 Msg60 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=No confidence found
+2025-05-13 10:00:40,831 - INFO - --- Finished GGB Q_num42 (ID 42) Star Iter1. Saved. ---
+2025-05-13 10:00:40,878 - INFO - --- Star Run Finished (GGB) --- CONFIG HASH: 12bea87e ---
+2025-05-13 10:01:02,946 - INFO - --- Starting New Star Run (GGB) --- CONFIG HASH: 12bea87e ---
+2025-05-13 10:01:02,946 - INFO - Skipping GGB Q_num42 (ID 42) Star Iter1 (completed).
+2025-05-13 10:01:02,946 - INFO - --- Star Run Finished (GGB) --- CONFIG HASH: 12bea87e ---
+2025-05-13 10:12:55,429 - INFO - --- Starting New Star Run (GGB) --- CONFIG HASH: 12bea87e ---
+2025-05-13 10:12:55,430 - INFO - Skipping GGB Q_num42 (ID 42) Star Iter1 (completed).
+2025-05-13 10:12:55,430 - INFO - --- Star Run Finished (GGB) --- CONFIG HASH: 12bea87e ---
+2025-05-13 10:13:14,243 - INFO - --- Starting New Star Run (GGB) --- CONFIG HASH: 12bea87e ---
+2025-05-13 10:13:14,243 - INFO - Skipping GGB Q_num42 (ID 42) Star Iter1 (completed).
+2025-05-13 10:13:14,243 - INFO - --- Star Run Finished (GGB) --- CONFIG HASH: 12bea87e ---
+2025-05-13 10:13:25,612 - INFO - --- Starting New Star Run (GGB) --- CONFIG HASH: 12bea87e ---
+2025-05-13 10:13:25,613 - INFO - --- Running GGB Q_num42 (ID 42) Star Iter1 ---
+2025-05-13 10:13:25,657 - INFO - Q_num42 (GGB ID 42) Iter0: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'mistralai/mixtral-8x7b-instruct']
