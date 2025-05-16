@@ -401,3 +401,149 @@ def plot_by_question(
     # Return the axes by default if we didn't create a figure,
     # or if return_fig is False
     return ax
+
+
+
+def plot_IH_v_IB(df_by_category, use_std=True, label='chat_type'):
+    # Plot KDE with models on top
+    fig, ax = plt.subplots(figsize=(10, 10))
+    # Plot human KDE first using your existing function
+    human_kde(human_df=h2, ax=ax, alpha=0.7)
+    
+    # Get unique base configurations
+    df = df_by_category.copy()
+    
+    # Create new columns to help with color mapping
+    df['base_config'] = df[label].apply(lambda x: x.replace('ous_', '').replace('_ring', '').replace('inverted_', ''))
+    df['is_inverted'] = df[label].apply(lambda x: 'inverted' in x)
+    
+    # Get unique base configurations
+    base_configs = df['base_config'].unique()
+    
+    # Use a combination of colormaps for a wider range of distinct colors
+    # Start with tab10, then tab20, then tab20b for even more variations
+    colors_tab10 = plt.cm.tab10.colors
+    colors_tab20 = plt.cm.tab20.colors
+    colors_tab20b = plt.cm.tab20b.colors
+    
+    # Combine and get unique colors
+    all_colors = []
+    all_colors.extend(colors_tab10)
+    
+    # Add more colors if needed, but ensure they're visually distinct
+    if len(base_configs) > len(all_colors):
+        for color in colors_tab20:
+            if color not in all_colors:
+                all_colors.append(color)
+    
+    if len(base_configs) > len(all_colors):
+        for color in colors_tab20b:
+            if color not in all_colors:
+                all_colors.append(color)
+    
+    # Create color mapping for base configurations
+    base_colors = {}
+    for i, config in enumerate(base_configs):
+        base_colors[config] = all_colors[i % len(all_colors)]
+    
+    # Create a map of labels to colors
+    color_map = {}
+    for label_name in df[label].unique():
+        # Extract base configuration
+        base_config = label_name.replace('ous_', '').replace('_ring', '').replace('inverted_', '')
+        # Get base color
+        color_map[label_name] = base_colors[base_config]
+    
+    # Add color to the dataframe
+    df['color'] = df[label].map(color_map)
+    
+    # Get unique labels
+    labels = df[label].unique()
+    
+    # For each model, get data for both categories and plot
+    for this_label in labels:
+        # Get IH data for this model
+        ih_data = df[(df[label] == this_label) & 
+                     (df['category'] == 'IH')]
+        
+        # Get IB data for this model
+        ib_data = df[(df[label] == this_label) & 
+                     (df['category'] == 'IB')]
+        
+        # If we have both IH and IB data for this model
+        if not ih_data.empty and not ib_data.empty:
+            ih_mean = ih_data['mean'].values[0]
+            if use_std:
+                ih_sem = ih_data['std'].values[0]
+            else: 
+                ih_sem = ih_data['sem'].values[0]
+            ib_mean = ib_data['mean'].values[0]
+            if use_std:
+                ib_sem = ib_data['std'].values[0]
+            else:
+                ib_sem = ib_data['sem'].values[0]
+            
+            # Get color from our mapping
+            color = color_map[this_label]
+            
+            # Use the same marker outline color but different fill based on inverted status
+            is_inverted = 'inverted' in this_label
+            if is_inverted:
+                # For inverted: outlined marker with no fill
+                ax.errorbar(
+                    ih_mean, ib_mean,
+                    xerr=ih_sem, yerr=ib_sem, 
+                    fmt='o', color=color, 
+                    markerfacecolor='white',  # White fill
+                    markeredgecolor=color,    # Color outline
+                    markeredgewidth=1.5,      # Thicker outline
+                    label=this_label, capsize=3
+                )
+            else:
+                # For regular: filled marker
+                ax.errorbar(
+                    ih_mean, ib_mean,
+                    xerr=ih_sem, yerr=ib_sem, 
+                    fmt='o', color=color, 
+                    markerfacecolor=color,    # Filled with color
+                    markeredgecolor=color,
+                    label=this_label, capsize=3
+                )
+    
+    # Set axis labels and limits
+    ax.set_xlabel('IH Score')
+    ax.set_ylabel('IB Score')
+    ax.set_xlim(1, 7)
+    ax.set_ylim(1, 7)
+    
+    # Sort legend for better organization
+    handles, labels_list = ax.get_legend_handles_labels()
+    
+    # Group by base configuration
+    label_base_configs = [l.replace('ous_', '').replace('_ring', '').replace('inverted_', '') for l in labels_list]
+    is_inverted_list = ['inverted' in l for l in labels_list]
+    
+    # Sort by base config first, then by inverted status (regular first, then inverted)
+    sorted_indices = sorted(range(len(labels_list)), 
+                           key=lambda i: (label_base_configs[i], is_inverted_list[i]))
+    
+    sorted_handles = [handles[i] for i in sorted_indices]
+    sorted_labels = [labels_list[i] for i in sorted_indices]
+    
+    # Create a more compact legend with multiple columns
+    n_columns = 2
+    if len(sorted_labels) > 8:
+        n_columns = 3  # Use 3 columns for many items
+        
+    ax.legend(sorted_handles, sorted_labels,
+              loc='upper center',
+              bbox_to_anchor=(0.5, -0.15), 
+              ncol=n_columns,
+              frameon=True,
+              fontsize='medium')
+    
+    plt.tight_layout()
+    plt.show()
+    
+    # Return both the figure and the dataframe with color information
+    return fig, df
