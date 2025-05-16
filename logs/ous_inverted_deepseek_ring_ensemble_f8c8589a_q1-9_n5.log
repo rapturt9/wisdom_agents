@@ -1,0 +1,1307 @@
+2025-05-16 04:53:12,640 - INFO - --- Starting New Run --- CONFIG HASH: f8c8589a --- Chat Type: ous_inverted_deepseek_ring ---
+2025-05-16 04:53:12,645 - INFO - --- Running Q_num1 (ID 305) Iter1/5 ---
+2025-05-16 04:53:12,646 - INFO - Task: If the only way to save another person's life during an emergency is to sacrifice one's own leg, the...
+2025-05-16 04:53:12,866 - INFO - Q_num1 (Question ID 305) Iter0: Starting chat with 6 agents.
+2025-05-16 04:54:26,891 - INFO - Q_num1 (Question ID 305) Iter0: Chat finished in 74.03 seconds.
+2025-05-16 04:54:26,891 - INFO - Q_num1 (Question ID 305) Iter1 Msg1 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=6, Conf=No confidence found
+2025-05-16 04:54:26,892 - INFO - Q_num1 (Question ID 305) Iter1 Msg2 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-16 04:54:26,892 - INFO - Q_num1 (Question ID 305) Iter1 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=6, Conf=No confidence found
+2025-05-16 04:54:26,892 - INFO - Q_num1 (Question ID 305) Iter1 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-16 04:54:26,892 - INFO - Q_num1 (Question ID 305) Iter1 Msg5 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=6, Conf=No confidence found
+2025-05-16 04:54:26,892 - INFO - Q_num1 (Question ID 305) Iter1 Msg6 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-16 04:54:26,892 - INFO - Q_num1 (Question ID 305) Iter1 Msg7 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=5, Conf=No confidence found
+2025-05-16 04:54:26,892 - INFO - Q_num1 (Question ID 305) Iter1 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=7, Conf=No confidence found
+2025-05-16 04:54:26,892 - INFO - Q_num1 (Question ID 305) Iter1 Msg9 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=6, Conf=No confidence found
+2025-05-16 04:54:26,892 - INFO - Q_num1 (Question ID 305) Iter1 Msg10 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-16 04:54:26,892 - INFO - Q_num1 (Question ID 305) Iter1 Msg11 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=5, Conf=No confidence found
+2025-05-16 04:54:26,892 - INFO - Q_num1 (Question ID 305) Iter1 Msg12 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=6, Conf=No confidence found
+2025-05-16 04:54:26,892 - INFO - Q_num1 (Question ID 305) Iter1 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=6, Conf=No confidence found
+2025-05-16 04:54:26,892 - INFO - Q_num1 (Question ID 305) Iter1 Msg14 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=5, Conf=No confidence found
+2025-05-16 04:54:26,893 - INFO - Q_num1 (Question ID 305) Iter1 Msg15 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=6, Conf=No confidence found
+2025-05-16 04:54:26,893 - INFO - Q_num1 (Question ID 305) Iter1 Msg16 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-16 04:54:26,893 - INFO - Q_num1 (Question ID 305) Iter1 Msg17 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=5, Conf=No confidence found
+2025-05-16 04:54:26,893 - INFO - Q_num1 (Question ID 305) Iter1 Msg18 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=6, Conf=No confidence found
+2025-05-16 04:54:26,893 - INFO - Q_num1 (Question ID 305) Iter1 Msg19 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=6, Conf=No confidence found
+2025-05-16 04:54:26,893 - INFO - Q_num1 (Question ID 305) Iter1 Msg20 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=5, Conf=No confidence found
+2025-05-16 04:54:26,893 - INFO - Q_num1 (Question ID 305) Iter1 Msg21 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=6, Conf=No confidence found
+2025-05-16 04:54:26,893 - INFO - Q_num1 (Question ID 305) Iter1 Msg22 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=6, Conf=No confidence found
+2025-05-16 04:54:26,893 - INFO - Q_num1 (Question ID 305) Iter1 Msg23 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=6, Conf=No confidence found
+2025-05-16 04:54:26,893 - INFO - Q_num1 (Question ID 305) Iter1 Msg24 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=6, Conf=No confidence found
+2025-05-16 04:54:26,984 - INFO - --- Finished Q_num1 (ID 305) Iter1. Results saved. ---
+2025-05-16 04:54:27,058 - INFO - --- Running Q_num1 (ID 305) Iter2/5 ---
+2025-05-16 04:54:27,058 - INFO - Task: If the only way to save another person's life during an emergency is to sacrifice one's own leg, the...
+2025-05-16 04:54:27,275 - INFO - Q_num1 (Question ID 305) Iter1: Starting chat with 6 agents.
+2025-05-16 04:56:17,635 - INFO - Q_num1 (Question ID 305) Iter1: Chat finished in 110.36 seconds.
+2025-05-16 04:56:17,635 - INFO - Q_num1 (Question ID 305) Iter2 Msg1 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=5, Conf=No confidence found
+2025-05-16 04:56:17,636 - INFO - Q_num1 (Question ID 305) Iter2 Msg2 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-16 04:56:17,636 - INFO - Q_num1 (Question ID 305) Iter2 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=4, Conf=No confidence found
+2025-05-16 04:56:17,636 - INFO - Q_num1 (Question ID 305) Iter2 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=4, Conf=No confidence found
+2025-05-16 04:56:17,636 - INFO - Q_num1 (Question ID 305) Iter2 Msg5 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=4, Conf=No confidence found
+2025-05-16 04:56:17,636 - INFO - Q_num1 (Question ID 305) Iter2 Msg6 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=4, Conf=No confidence found
+2025-05-16 04:56:17,636 - INFO - Q_num1 (Question ID 305) Iter2 Msg7 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=3, Conf=No confidence found
+2025-05-16 04:56:17,636 - INFO - Q_num1 (Question ID 305) Iter2 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-16 04:56:17,636 - INFO - Q_num1 (Question ID 305) Iter2 Msg9 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=3, Conf=No confidence found
+2025-05-16 04:56:17,636 - INFO - Q_num1 (Question ID 305) Iter2 Msg10 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=3, Conf=No confidence found
+2025-05-16 04:56:17,636 - INFO - Q_num1 (Question ID 305) Iter2 Msg11 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=3, Conf=No confidence found
+2025-05-16 04:56:17,636 - INFO - Q_num1 (Question ID 305) Iter2 Msg12 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-16 04:56:17,636 - INFO - Q_num1 (Question ID 305) Iter2 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=3, Conf=No confidence found
+2025-05-16 04:56:17,636 - INFO - Q_num1 (Question ID 305) Iter2 Msg14 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-16 04:56:17,636 - INFO - Q_num1 (Question ID 305) Iter2 Msg15 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=3, Conf=No confidence found
+2025-05-16 04:56:17,637 - INFO - Q_num1 (Question ID 305) Iter2 Msg16 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-16 04:56:17,637 - INFO - Q_num1 (Question ID 305) Iter2 Msg17 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=3, Conf=No confidence found
+2025-05-16 04:56:17,637 - INFO - Q_num1 (Question ID 305) Iter2 Msg18 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=3, Conf=No confidence found
+2025-05-16 04:56:17,637 - INFO - Q_num1 (Question ID 305) Iter2 Msg19 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=3, Conf=No confidence found
+2025-05-16 04:56:17,637 - INFO - Q_num1 (Question ID 305) Iter2 Msg20 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=3, Conf=No confidence found
+2025-05-16 04:56:17,637 - INFO - Q_num1 (Question ID 305) Iter2 Msg21 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-16 04:56:17,637 - INFO - Q_num1 (Question ID 305) Iter2 Msg22 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=3, Conf=No confidence found
+2025-05-16 04:56:17,637 - INFO - Q_num1 (Question ID 305) Iter2 Msg23 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-16 04:56:17,637 - INFO - Q_num1 (Question ID 305) Iter2 Msg24 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=3, Conf=No confidence found
+2025-05-16 04:56:17,725 - INFO - --- Finished Q_num1 (ID 305) Iter2. Results saved. ---
+2025-05-16 04:56:17,800 - INFO - --- Running Q_num1 (ID 305) Iter3/5 ---
+2025-05-16 04:56:17,800 - INFO - Task: If the only way to save another person's life during an emergency is to sacrifice one's own leg, the...
+2025-05-16 04:56:18,019 - INFO - Q_num1 (Question ID 305) Iter2: Starting chat with 6 agents.
+2025-05-16 04:57:33,543 - INFO - Q_num1 (Question ID 305) Iter2: Chat finished in 75.52 seconds.
+2025-05-16 04:57:33,543 - INFO - Q_num1 (Question ID 305) Iter3 Msg1 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=5, Conf=No confidence found
+2025-05-16 04:57:33,543 - INFO - Q_num1 (Question ID 305) Iter3 Msg2 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=3, Conf=No confidence found
+2025-05-16 04:57:33,543 - INFO - Q_num1 (Question ID 305) Iter3 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=2, Conf=No confidence found
+2025-05-16 04:57:33,543 - INFO - Q_num1 (Question ID 305) Iter3 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=1, Conf=No confidence found
+2025-05-16 04:57:33,543 - INFO - Q_num1 (Question ID 305) Iter3 Msg5 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=3, Conf=No confidence found
+2025-05-16 04:57:33,543 - INFO - Q_num1 (Question ID 305) Iter3 Msg6 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=2, Conf=No confidence found
+2025-05-16 04:57:33,543 - INFO - Q_num1 (Question ID 305) Iter3 Msg7 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=2, Conf=No confidence found
+2025-05-16 04:57:33,543 - INFO - Q_num1 (Question ID 305) Iter3 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-16 04:57:33,543 - INFO - Q_num1 (Question ID 305) Iter3 Msg9 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=1, Conf=No confidence found
+2025-05-16 04:57:33,544 - INFO - Q_num1 (Question ID 305) Iter3 Msg10 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=2, Conf=No confidence found
+2025-05-16 04:57:33,544 - INFO - Q_num1 (Question ID 305) Iter3 Msg11 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=1, Conf=No confidence found
+2025-05-16 04:57:33,544 - INFO - Q_num1 (Question ID 305) Iter3 Msg12 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-16 04:57:33,544 - INFO - Q_num1 (Question ID 305) Iter3 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=1, Conf=No confidence found
+2025-05-16 04:57:33,544 - INFO - Q_num1 (Question ID 305) Iter3 Msg14 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-16 04:57:33,544 - INFO - Q_num1 (Question ID 305) Iter3 Msg15 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=1, Conf=No confidence found
+2025-05-16 04:57:33,544 - INFO - Q_num1 (Question ID 305) Iter3 Msg16 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=1, Conf=No confidence found
+2025-05-16 04:57:33,544 - INFO - Q_num1 (Question ID 305) Iter3 Msg17 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=1, Conf=No confidence found
+2025-05-16 04:57:33,544 - INFO - Q_num1 (Question ID 305) Iter3 Msg18 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-16 04:57:33,544 - INFO - Q_num1 (Question ID 305) Iter3 Msg19 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=1, Conf=No confidence found
+2025-05-16 04:57:33,545 - INFO - Q_num1 (Question ID 305) Iter3 Msg20 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=1, Conf=No confidence found
+2025-05-16 04:57:33,545 - INFO - Q_num1 (Question ID 305) Iter3 Msg21 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=1, Conf=No confidence found
+2025-05-16 04:57:33,545 - INFO - Q_num1 (Question ID 305) Iter3 Msg22 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=1, Conf=No confidence found
+2025-05-16 04:57:33,545 - INFO - Q_num1 (Question ID 305) Iter3 Msg23 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=1, Conf=No confidence found
+2025-05-16 04:57:33,545 - INFO - Q_num1 (Question ID 305) Iter3 Msg24 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=1, Conf=No confidence found
+2025-05-16 04:57:33,635 - INFO - --- Finished Q_num1 (ID 305) Iter3. Results saved. ---
+2025-05-16 04:57:33,710 - INFO - --- Running Q_num1 (ID 305) Iter4/5 ---
+2025-05-16 04:57:33,710 - INFO - Task: If the only way to save another person's life during an emergency is to sacrifice one's own leg, the...
+2025-05-16 04:57:33,932 - INFO - Q_num1 (Question ID 305) Iter3: Starting chat with 6 agents.
+2025-05-16 04:59:23,599 - INFO - Q_num1 (Question ID 305) Iter3: Chat finished in 109.67 seconds.
+2025-05-16 04:59:23,599 - INFO - Q_num1 (Question ID 305) Iter4 Msg1 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=4, Conf=No confidence found
+2025-05-16 04:59:23,600 - INFO - Q_num1 (Question ID 305) Iter4 Msg2 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=3, Conf=No confidence found
+2025-05-16 04:59:23,600 - INFO - Q_num1 (Question ID 305) Iter4 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=3, Conf=No confidence found
+2025-05-16 04:59:23,600 - INFO - Q_num1 (Question ID 305) Iter4 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-16 04:59:23,600 - INFO - Q_num1 (Question ID 305) Iter4 Msg5 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=2, Conf=No confidence found
+2025-05-16 04:59:23,600 - INFO - Q_num1 (Question ID 305) Iter4 Msg6 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-16 04:59:23,600 - INFO - Q_num1 (Question ID 305) Iter4 Msg7 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=1, Conf=No confidence found
+2025-05-16 04:59:23,600 - INFO - Q_num1 (Question ID 305) Iter4 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-16 04:59:23,600 - INFO - Q_num1 (Question ID 305) Iter4 Msg9 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=5, Conf=No confidence found
+2025-05-16 04:59:23,600 - INFO - Q_num1 (Question ID 305) Iter4 Msg10 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=3, Conf=No confidence found
+2025-05-16 04:59:23,601 - INFO - Q_num1 (Question ID 305) Iter4 Msg11 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-16 04:59:23,601 - INFO - Q_num1 (Question ID 305) Iter4 Msg12 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=2, Conf=No confidence found
+2025-05-16 04:59:23,601 - INFO - Q_num1 (Question ID 305) Iter4 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=1, Conf=No confidence found
+2025-05-16 04:59:23,601 - INFO - Q_num1 (Question ID 305) Iter4 Msg14 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=2, Conf=No confidence found
+2025-05-16 04:59:23,601 - INFO - Q_num1 (Question ID 305) Iter4 Msg15 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=3, Conf=No confidence found
+2025-05-16 04:59:23,601 - INFO - Q_num1 (Question ID 305) Iter4 Msg16 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=5, Conf=No confidence found
+2025-05-16 04:59:23,601 - INFO - Q_num1 (Question ID 305) Iter4 Msg17 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-16 04:59:23,601 - INFO - Q_num1 (Question ID 305) Iter4 Msg18 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-16 04:59:23,601 - INFO - Q_num1 (Question ID 305) Iter4 Msg19 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=2, Conf=No confidence found
+2025-05-16 04:59:23,601 - INFO - Q_num1 (Question ID 305) Iter4 Msg20 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-16 04:59:23,602 - INFO - Q_num1 (Question ID 305) Iter4 Msg21 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=3, Conf=No confidence found
+2025-05-16 04:59:23,602 - INFO - Q_num1 (Question ID 305) Iter4 Msg22 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=2, Conf=No confidence found
+2025-05-16 04:59:23,602 - INFO - Q_num1 (Question ID 305) Iter4 Msg23 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=1, Conf=No confidence found
+2025-05-16 04:59:23,602 - INFO - Q_num1 (Question ID 305) Iter4 Msg24 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=1, Conf=No confidence found
+2025-05-16 04:59:23,694 - INFO - --- Finished Q_num1 (ID 305) Iter4. Results saved. ---
+2025-05-16 04:59:23,771 - INFO - --- Running Q_num1 (ID 305) Iter5/5 ---
+2025-05-16 04:59:23,771 - INFO - Task: If the only way to save another person's life during an emergency is to sacrifice one's own leg, the...
+2025-05-16 04:59:23,990 - INFO - Q_num1 (Question ID 305) Iter4: Starting chat with 6 agents.
+2025-05-16 05:01:10,643 - INFO - Q_num1 (Question ID 305) Iter4: Chat finished in 106.65 seconds.
+2025-05-16 05:01:10,643 - INFO - Q_num1 (Question ID 305) Iter5 Msg1 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=5, Conf=No confidence found
+2025-05-16 05:01:10,643 - INFO - Q_num1 (Question ID 305) Iter5 Msg2 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=6, Conf=No confidence found
+2025-05-16 05:01:10,643 - INFO - Q_num1 (Question ID 305) Iter5 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:01:10,643 - INFO - Q_num1 (Question ID 305) Iter5 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=6, Conf=No confidence found
+2025-05-16 05:01:10,643 - INFO - Q_num1 (Question ID 305) Iter5 Msg5 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=5, Conf=No confidence found
+2025-05-16 05:01:10,644 - INFO - Q_num1 (Question ID 305) Iter5 Msg6 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:01:10,644 - INFO - Q_num1 (Question ID 305) Iter5 Msg7 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=6, Conf=No confidence found
+2025-05-16 05:01:10,644 - INFO - Q_num1 (Question ID 305) Iter5 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=6, Conf=No confidence found
+2025-05-16 05:01:10,644 - INFO - Q_num1 (Question ID 305) Iter5 Msg9 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:01:10,644 - INFO - Q_num1 (Question ID 305) Iter5 Msg10 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=6, Conf=No confidence found
+2025-05-16 05:01:10,644 - INFO - Q_num1 (Question ID 305) Iter5 Msg11 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=6, Conf=No confidence found
+2025-05-16 05:01:10,644 - INFO - Q_num1 (Question ID 305) Iter5 Msg12 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:01:10,644 - INFO - Q_num1 (Question ID 305) Iter5 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=6, Conf=No confidence found
+2025-05-16 05:01:10,644 - INFO - Q_num1 (Question ID 305) Iter5 Msg14 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=6, Conf=No confidence found
+2025-05-16 05:01:10,644 - INFO - Q_num1 (Question ID 305) Iter5 Msg15 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=6, Conf=No confidence found
+2025-05-16 05:01:10,644 - INFO - Q_num1 (Question ID 305) Iter5 Msg16 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:01:10,644 - INFO - Q_num1 (Question ID 305) Iter5 Msg17 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=6, Conf=No confidence found
+2025-05-16 05:01:10,644 - INFO - Q_num1 (Question ID 305) Iter5 Msg18 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:01:10,645 - INFO - Q_num1 (Question ID 305) Iter5 Msg19 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=6, Conf=No confidence found
+2025-05-16 05:01:10,645 - INFO - Q_num1 (Question ID 305) Iter5 Msg20 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=6, Conf=No confidence found
+2025-05-16 05:01:10,645 - INFO - Q_num1 (Question ID 305) Iter5 Msg21 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=6, Conf=No confidence found
+2025-05-16 05:01:10,645 - INFO - Q_num1 (Question ID 305) Iter5 Msg22 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:01:10,645 - INFO - Q_num1 (Question ID 305) Iter5 Msg23 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=6, Conf=No confidence found
+2025-05-16 05:01:10,645 - INFO - Q_num1 (Question ID 305) Iter5 Msg24 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:01:10,736 - INFO - --- Finished Q_num1 (ID 305) Iter5. Results saved. ---
+2025-05-16 05:01:10,814 - INFO - --- Running Q_num2 (ID 301) Iter1/5 ---
+2025-05-16 05:01:10,814 - INFO - Task: It is morally right to allow several innocent people to suffer harm rather than harm a single innoce...
+2025-05-16 05:01:11,035 - INFO - Q_num2 (Question ID 301) Iter0: Starting chat with 6 agents.
+2025-05-16 05:02:58,025 - INFO - Q_num2 (Question ID 301) Iter0: Chat finished in 106.99 seconds.
+2025-05-16 05:02:58,026 - INFO - Q_num2 (Question ID 301) Iter1 Msg1 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=5, Conf=No confidence found
+2025-05-16 05:02:58,026 - INFO - Q_num2 (Question ID 301) Iter1 Msg2 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=4, Conf=No confidence found
+2025-05-16 05:02:58,026 - INFO - Q_num2 (Question ID 301) Iter1 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=6, Conf=No confidence found
+2025-05-16 05:02:58,026 - INFO - Q_num2 (Question ID 301) Iter1 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:02:58,026 - INFO - Q_num2 (Question ID 301) Iter1 Msg5 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=6, Conf=No confidence found
+2025-05-16 05:02:58,026 - INFO - Q_num2 (Question ID 301) Iter1 Msg6 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=5, Conf=No confidence found
+2025-05-16 05:02:58,026 - INFO - Q_num2 (Question ID 301) Iter1 Msg7 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=6, Conf=No confidence found
+2025-05-16 05:02:58,026 - INFO - Q_num2 (Question ID 301) Iter1 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=7, Conf=No confidence found
+2025-05-16 05:02:58,026 - INFO - Q_num2 (Question ID 301) Iter1 Msg9 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=6, Conf=No confidence found
+2025-05-16 05:02:58,026 - INFO - Q_num2 (Question ID 301) Iter1 Msg10 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=6, Conf=No confidence found
+2025-05-16 05:02:58,026 - INFO - Q_num2 (Question ID 301) Iter1 Msg11 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=7, Conf=No confidence found
+2025-05-16 05:02:58,026 - INFO - Q_num2 (Question ID 301) Iter1 Msg12 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=7, Conf=No confidence found
+2025-05-16 05:02:58,027 - INFO - Q_num2 (Question ID 301) Iter1 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:02:58,027 - INFO - Q_num2 (Question ID 301) Iter1 Msg14 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=7, Conf=No confidence found
+2025-05-16 05:02:58,027 - INFO - Q_num2 (Question ID 301) Iter1 Msg15 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=7, Conf=No confidence found
+2025-05-16 05:02:58,027 - INFO - Q_num2 (Question ID 301) Iter1 Msg16 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=7, Conf=No confidence found
+2025-05-16 05:02:58,027 - INFO - Q_num2 (Question ID 301) Iter1 Msg17 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=7, Conf=No confidence found
+2025-05-16 05:02:58,027 - INFO - Q_num2 (Question ID 301) Iter1 Msg18 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:02:58,027 - INFO - Q_num2 (Question ID 301) Iter1 Msg19 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=7, Conf=No confidence found
+2025-05-16 05:02:58,027 - INFO - Q_num2 (Question ID 301) Iter1 Msg20 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=7, Conf=No confidence found
+2025-05-16 05:02:58,027 - INFO - Q_num2 (Question ID 301) Iter1 Msg21 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=7, Conf=No confidence found
+2025-05-16 05:02:58,027 - INFO - Q_num2 (Question ID 301) Iter1 Msg22 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:02:58,027 - INFO - Q_num2 (Question ID 301) Iter1 Msg23 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=7, Conf=No confidence found
+2025-05-16 05:02:58,027 - INFO - Q_num2 (Question ID 301) Iter1 Msg24 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=7, Conf=No confidence found
+2025-05-16 05:02:58,119 - INFO - --- Finished Q_num2 (ID 301) Iter1. Results saved. ---
+2025-05-16 05:02:58,195 - INFO - --- Running Q_num2 (ID 301) Iter2/5 ---
+2025-05-16 05:02:58,195 - INFO - Task: It is morally right to allow several innocent people to suffer harm rather than harm a single innoce...
+2025-05-16 05:02:58,420 - INFO - Q_num2 (Question ID 301) Iter1: Starting chat with 6 agents.
+2025-05-16 05:04:46,244 - INFO - Q_num2 (Question ID 301) Iter1: Chat finished in 107.82 seconds.
+2025-05-16 05:04:46,245 - INFO - Q_num2 (Question ID 301) Iter2 Msg1 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=5, Conf=No confidence found
+2025-05-16 05:04:46,245 - INFO - Q_num2 (Question ID 301) Iter2 Msg2 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=3, Conf=No confidence found
+2025-05-16 05:04:46,245 - INFO - Q_num2 (Question ID 301) Iter2 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=2, Conf=No confidence found
+2025-05-16 05:04:46,245 - INFO - Q_num2 (Question ID 301) Iter2 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=1, Conf=No confidence found
+2025-05-16 05:04:46,245 - INFO - Q_num2 (Question ID 301) Iter2 Msg5 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:04:46,245 - INFO - Q_num2 (Question ID 301) Iter2 Msg6 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=6, Conf=No confidence found
+2025-05-16 05:04:46,245 - INFO - Q_num2 (Question ID 301) Iter2 Msg7 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=1, Conf=No confidence found
+2025-05-16 05:04:46,245 - INFO - Q_num2 (Question ID 301) Iter2 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=2, Conf=No confidence found
+2025-05-16 05:04:46,245 - INFO - Q_num2 (Question ID 301) Iter2 Msg9 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=1, Conf=No confidence found
+2025-05-16 05:04:46,245 - INFO - Q_num2 (Question ID 301) Iter2 Msg10 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=1, Conf=No confidence found
+2025-05-16 05:04:46,245 - INFO - Q_num2 (Question ID 301) Iter2 Msg11 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:04:46,246 - INFO - Q_num2 (Question ID 301) Iter2 Msg12 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=1, Conf=No confidence found
+2025-05-16 05:04:46,246 - INFO - Q_num2 (Question ID 301) Iter2 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=1, Conf=No confidence found
+2025-05-16 05:04:46,246 - INFO - Q_num2 (Question ID 301) Iter2 Msg14 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=1, Conf=No confidence found
+2025-05-16 05:04:46,246 - INFO - Q_num2 (Question ID 301) Iter2 Msg15 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=1, Conf=No confidence found
+2025-05-16 05:04:46,246 - INFO - Q_num2 (Question ID 301) Iter2 Msg16 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=1, Conf=No confidence found
+2025-05-16 05:04:46,246 - INFO - Q_num2 (Question ID 301) Iter2 Msg17 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=1, Conf=No confidence found
+2025-05-16 05:04:46,246 - INFO - Q_num2 (Question ID 301) Iter2 Msg18 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=1, Conf=No confidence found
+2025-05-16 05:04:46,246 - INFO - Q_num2 (Question ID 301) Iter2 Msg19 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:04:46,246 - INFO - Q_num2 (Question ID 301) Iter2 Msg20 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=1, Conf=No confidence found
+2025-05-16 05:04:46,246 - INFO - Q_num2 (Question ID 301) Iter2 Msg21 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=1, Conf=No confidence found
+2025-05-16 05:04:46,246 - INFO - Q_num2 (Question ID 301) Iter2 Msg22 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=1, Conf=No confidence found
+2025-05-16 05:04:46,246 - INFO - Q_num2 (Question ID 301) Iter2 Msg23 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=1, Conf=No confidence found
+2025-05-16 05:04:46,246 - INFO - Q_num2 (Question ID 301) Iter2 Msg24 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:04:46,338 - INFO - --- Finished Q_num2 (ID 301) Iter2. Results saved. ---
+2025-05-16 05:04:46,416 - INFO - --- Running Q_num2 (ID 301) Iter3/5 ---
+2025-05-16 05:04:46,416 - INFO - Task: It is morally right to allow several innocent people to suffer harm rather than harm a single innoce...
+2025-05-16 05:04:46,640 - INFO - Q_num2 (Question ID 301) Iter2: Starting chat with 6 agents.
+2025-05-16 05:16:31,577 - INFO - Q_num2 (Question ID 301) Iter2: Chat finished in 704.94 seconds.
+2025-05-16 05:16:31,577 - INFO - Q_num2 (Question ID 301) Iter3 Msg1 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=7, Conf=No confidence found
+2025-05-16 05:16:31,577 - INFO - Q_num2 (Question ID 301) Iter3 Msg2 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=3, Conf=No confidence found
+2025-05-16 05:16:31,577 - INFO - Q_num2 (Question ID 301) Iter3 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=7, Conf=No confidence found
+2025-05-16 05:16:31,577 - INFO - Q_num2 (Question ID 301) Iter3 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=7, Conf=No confidence found
+2025-05-16 05:16:31,578 - INFO - Q_num2 (Question ID 301) Iter3 Msg5 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=7, Conf=No confidence found
+2025-05-16 05:16:31,578 - INFO - Q_num2 (Question ID 301) Iter3 Msg6 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=7, Conf=No confidence found
+2025-05-16 05:16:31,578 - INFO - Q_num2 (Question ID 301) Iter3 Msg7 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=7, Conf=No confidence found
+2025-05-16 05:16:31,578 - INFO - Q_num2 (Question ID 301) Iter3 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=7, Conf=No confidence found
+2025-05-16 05:16:31,578 - INFO - Q_num2 (Question ID 301) Iter3 Msg9 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=7, Conf=No confidence found
+2025-05-16 05:16:31,578 - INFO - Q_num2 (Question ID 301) Iter3 Msg10 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=7, Conf=No confidence found
+2025-05-16 05:16:31,578 - INFO - Q_num2 (Question ID 301) Iter3 Msg11 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=7, Conf=No confidence found
+2025-05-16 05:16:31,578 - INFO - Q_num2 (Question ID 301) Iter3 Msg12 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=7, Conf=No confidence found
+2025-05-16 05:16:31,578 - INFO - Q_num2 (Question ID 301) Iter3 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=7, Conf=No confidence found
+2025-05-16 05:16:31,578 - INFO - Q_num2 (Question ID 301) Iter3 Msg14 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=7, Conf=No confidence found
+2025-05-16 05:16:31,578 - INFO - Q_num2 (Question ID 301) Iter3 Msg15 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=7, Conf=No confidence found
+2025-05-16 05:16:31,578 - INFO - Q_num2 (Question ID 301) Iter3 Msg16 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=7, Conf=No confidence found
+2025-05-16 05:16:31,578 - INFO - Q_num2 (Question ID 301) Iter3 Msg17 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=7, Conf=No confidence found
+2025-05-16 05:16:31,579 - INFO - Q_num2 (Question ID 301) Iter3 Msg18 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:16:31,579 - INFO - Q_num2 (Question ID 301) Iter3 Msg19 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=7, Conf=No confidence found
+2025-05-16 05:16:31,579 - INFO - Q_num2 (Question ID 301) Iter3 Msg20 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=7, Conf=No confidence found
+2025-05-16 05:16:31,579 - INFO - Q_num2 (Question ID 301) Iter3 Msg21 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=7, Conf=No confidence found
+2025-05-16 05:16:31,579 - INFO - Q_num2 (Question ID 301) Iter3 Msg22 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=7, Conf=No confidence found
+2025-05-16 05:16:31,579 - INFO - Q_num2 (Question ID 301) Iter3 Msg23 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=7, Conf=No confidence found
+2025-05-16 05:16:31,579 - INFO - Q_num2 (Question ID 301) Iter3 Msg24 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=7, Conf=No confidence found
+2025-05-16 05:16:31,666 - INFO - --- Finished Q_num2 (ID 301) Iter3. Results saved. ---
+2025-05-16 05:16:31,741 - INFO - --- Running Q_num2 (ID 301) Iter4/5 ---
+2025-05-16 05:16:31,741 - INFO - Task: It is morally right to allow several innocent people to suffer harm rather than harm a single innoce...
+2025-05-16 05:16:31,961 - INFO - Q_num2 (Question ID 301) Iter3: Starting chat with 6 agents.
+2025-05-16 05:17:33,637 - INFO - Q_num2 (Question ID 301) Iter3: Chat finished in 61.68 seconds.
+2025-05-16 05:17:33,637 - INFO - Q_num2 (Question ID 301) Iter4 Msg1 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=7, Conf=No confidence found
+2025-05-16 05:17:33,637 - INFO - Q_num2 (Question ID 301) Iter4 Msg2 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:17:33,637 - INFO - Q_num2 (Question ID 301) Iter4 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=5, Conf=No confidence found
+2025-05-16 05:17:33,638 - INFO - Q_num2 (Question ID 301) Iter4 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=4, Conf=No confidence found
+2025-05-16 05:17:33,638 - INFO - Q_num2 (Question ID 301) Iter4 Msg5 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:17:33,638 - INFO - Q_num2 (Question ID 301) Iter4 Msg6 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=6, Conf=No confidence found
+2025-05-16 05:17:33,638 - INFO - Q_num2 (Question ID 301) Iter4 Msg7 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=6, Conf=No confidence found
+2025-05-16 05:17:33,638 - INFO - Q_num2 (Question ID 301) Iter4 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=7, Conf=No confidence found
+2025-05-16 05:17:33,638 - INFO - Q_num2 (Question ID 301) Iter4 Msg9 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:17:33,638 - INFO - Q_num2 (Question ID 301) Iter4 Msg10 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=7, Conf=No confidence found
+2025-05-16 05:17:33,638 - INFO - Q_num2 (Question ID 301) Iter4 Msg11 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:17:33,638 - INFO - Q_num2 (Question ID 301) Iter4 Msg12 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=7, Conf=No confidence found
+2025-05-16 05:17:33,638 - INFO - Q_num2 (Question ID 301) Iter4 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=7, Conf=No confidence found
+2025-05-16 05:17:33,638 - INFO - Q_num2 (Question ID 301) Iter4 Msg14 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=7, Conf=No confidence found
+2025-05-16 05:17:33,638 - INFO - Q_num2 (Question ID 301) Iter4 Msg15 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=7, Conf=No confidence found
+2025-05-16 05:17:33,638 - INFO - Q_num2 (Question ID 301) Iter4 Msg16 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=7, Conf=No confidence found
+2025-05-16 05:17:33,639 - INFO - Q_num2 (Question ID 301) Iter4 Msg17 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=7, Conf=No confidence found
+2025-05-16 05:17:33,639 - INFO - Q_num2 (Question ID 301) Iter4 Msg18 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=7, Conf=No confidence found
+2025-05-16 05:17:33,639 - INFO - Q_num2 (Question ID 301) Iter4 Msg19 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:17:33,639 - INFO - Q_num2 (Question ID 301) Iter4 Msg20 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=7, Conf=No confidence found
+2025-05-16 05:17:33,639 - INFO - Q_num2 (Question ID 301) Iter4 Msg21 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=7, Conf=No confidence found
+2025-05-16 05:17:33,639 - INFO - Q_num2 (Question ID 301) Iter4 Msg22 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=7, Conf=No confidence found
+2025-05-16 05:17:33,639 - INFO - Q_num2 (Question ID 301) Iter4 Msg23 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=7, Conf=No confidence found
+2025-05-16 05:17:33,639 - INFO - Q_num2 (Question ID 301) Iter4 Msg24 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=7, Conf=No confidence found
+2025-05-16 05:17:33,728 - INFO - --- Finished Q_num2 (ID 301) Iter4. Results saved. ---
+2025-05-16 05:17:33,805 - INFO - --- Running Q_num2 (ID 301) Iter5/5 ---
+2025-05-16 05:17:33,805 - INFO - Task: It is morally right to allow several innocent people to suffer harm rather than harm a single innoce...
+2025-05-16 05:17:34,026 - INFO - Q_num2 (Question ID 301) Iter4: Starting chat with 6 agents.
+2025-05-16 05:18:27,740 - INFO - Q_num2 (Question ID 301) Iter4: Chat finished in 53.71 seconds.
+2025-05-16 05:18:27,741 - INFO - Q_num2 (Question ID 301) Iter5 Msg1 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=1, Conf=No confidence found
+2025-05-16 05:18:27,741 - INFO - Q_num2 (Question ID 301) Iter5 Msg2 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:18:27,741 - INFO - Q_num2 (Question ID 301) Iter5 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=1, Conf=No confidence found
+2025-05-16 05:18:27,741 - INFO - Q_num2 (Question ID 301) Iter5 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:18:27,741 - INFO - Q_num2 (Question ID 301) Iter5 Msg5 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=2, Conf=No confidence found
+2025-05-16 05:18:27,741 - INFO - Q_num2 (Question ID 301) Iter5 Msg6 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=1, Conf=No confidence found
+2025-05-16 05:18:27,741 - INFO - Q_num2 (Question ID 301) Iter5 Msg7 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=1, Conf=No confidence found
+2025-05-16 05:18:27,741 - INFO - Q_num2 (Question ID 301) Iter5 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:18:27,741 - INFO - Q_num2 (Question ID 301) Iter5 Msg9 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=1, Conf=No confidence found
+2025-05-16 05:18:27,741 - INFO - Q_num2 (Question ID 301) Iter5 Msg10 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:18:27,741 - INFO - Q_num2 (Question ID 301) Iter5 Msg11 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=1, Conf=No confidence found
+2025-05-16 05:18:27,741 - INFO - Q_num2 (Question ID 301) Iter5 Msg12 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=1, Conf=No confidence found
+2025-05-16 05:18:27,741 - INFO - Q_num2 (Question ID 301) Iter5 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=1, Conf=No confidence found
+2025-05-16 05:18:27,742 - INFO - Q_num2 (Question ID 301) Iter5 Msg14 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=1, Conf=No confidence found
+2025-05-16 05:18:27,742 - INFO - Q_num2 (Question ID 301) Iter5 Msg15 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=1, Conf=No confidence found
+2025-05-16 05:18:27,742 - INFO - Q_num2 (Question ID 301) Iter5 Msg16 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=1, Conf=No confidence found
+2025-05-16 05:18:27,742 - INFO - Q_num2 (Question ID 301) Iter5 Msg17 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=1, Conf=No confidence found
+2025-05-16 05:18:27,742 - INFO - Q_num2 (Question ID 301) Iter5 Msg18 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=1, Conf=No confidence found
+2025-05-16 05:18:27,742 - INFO - Q_num2 (Question ID 301) Iter5 Msg19 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:18:27,742 - INFO - Q_num2 (Question ID 301) Iter5 Msg20 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=1, Conf=No confidence found
+2025-05-16 05:18:27,742 - INFO - Q_num2 (Question ID 301) Iter5 Msg21 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=1, Conf=No confidence found
+2025-05-16 05:18:27,742 - INFO - Q_num2 (Question ID 301) Iter5 Msg22 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=1, Conf=No confidence found
+2025-05-16 05:18:27,742 - INFO - Q_num2 (Question ID 301) Iter5 Msg23 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=1, Conf=No confidence found
+2025-05-16 05:18:27,742 - INFO - Q_num2 (Question ID 301) Iter5 Msg24 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=1, Conf=No confidence found
+2025-05-16 05:18:27,832 - INFO - --- Finished Q_num2 (ID 301) Iter5. Results saved. ---
+2025-05-16 05:18:27,908 - INFO - --- Running Q_num3 (ID 306) Iter1/5 ---
+2025-05-16 05:18:27,908 - INFO - Task: From a moral point of view, we should not feel obliged to give one of our kidneys to a person with k...
+2025-05-16 05:18:28,128 - INFO - Q_num3 (Question ID 306) Iter0: Starting chat with 6 agents.
+2025-05-16 05:19:55,920 - INFO - Q_num3 (Question ID 306) Iter0: Chat finished in 87.79 seconds.
+2025-05-16 05:19:55,920 - INFO - Q_num3 (Question ID 306) Iter1 Msg1 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=4, Conf=No confidence found
+2025-05-16 05:19:55,920 - INFO - Q_num3 (Question ID 306) Iter1 Msg2 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=3, Conf=No confidence found
+2025-05-16 05:19:55,920 - INFO - Q_num3 (Question ID 306) Iter1 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=4, Conf=No confidence found
+2025-05-16 05:19:55,920 - INFO - Q_num3 (Question ID 306) Iter1 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=4, Conf=No confidence found
+2025-05-16 05:19:55,920 - INFO - Q_num3 (Question ID 306) Iter1 Msg5 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=4, Conf=No confidence found
+2025-05-16 05:19:55,920 - INFO - Q_num3 (Question ID 306) Iter1 Msg6 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=5, Conf=No confidence found
+2025-05-16 05:19:55,920 - INFO - Q_num3 (Question ID 306) Iter1 Msg7 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=6, Conf=No confidence found
+2025-05-16 05:19:55,920 - INFO - Q_num3 (Question ID 306) Iter1 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=4, Conf=No confidence found
+2025-05-16 05:19:55,921 - INFO - Q_num3 (Question ID 306) Iter1 Msg9 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=4, Conf=No confidence found
+2025-05-16 05:19:55,921 - INFO - Q_num3 (Question ID 306) Iter1 Msg10 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:19:55,921 - INFO - Q_num3 (Question ID 306) Iter1 Msg11 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=6, Conf=No confidence found
+2025-05-16 05:19:55,921 - INFO - Q_num3 (Question ID 306) Iter1 Msg12 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=6, Conf=No confidence found
+2025-05-16 05:19:55,921 - INFO - Q_num3 (Question ID 306) Iter1 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=6, Conf=No confidence found
+2025-05-16 05:19:55,921 - INFO - Q_num3 (Question ID 306) Iter1 Msg14 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=6, Conf=No confidence found
+2025-05-16 05:19:55,921 - INFO - Q_num3 (Question ID 306) Iter1 Msg15 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=6, Conf=No confidence found
+2025-05-16 05:19:55,921 - INFO - Q_num3 (Question ID 306) Iter1 Msg16 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=6, Conf=No confidence found
+2025-05-16 05:19:55,921 - INFO - Q_num3 (Question ID 306) Iter1 Msg17 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=6, Conf=No confidence found
+2025-05-16 05:19:55,921 - INFO - Q_num3 (Question ID 306) Iter1 Msg18 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=6, Conf=No confidence found
+2025-05-16 05:19:55,921 - INFO - Q_num3 (Question ID 306) Iter1 Msg19 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=6, Conf=No confidence found
+2025-05-16 05:19:55,921 - INFO - Q_num3 (Question ID 306) Iter1 Msg20 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=6, Conf=No confidence found
+2025-05-16 05:19:55,921 - INFO - Q_num3 (Question ID 306) Iter1 Msg21 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=6, Conf=No confidence found
+2025-05-16 05:19:55,922 - INFO - Q_num3 (Question ID 306) Iter1 Msg22 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=6, Conf=No confidence found
+2025-05-16 05:19:55,922 - INFO - Q_num3 (Question ID 306) Iter1 Msg23 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:19:55,922 - INFO - Q_num3 (Question ID 306) Iter1 Msg24 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=6, Conf=No confidence found
+2025-05-16 05:19:56,013 - INFO - --- Finished Q_num3 (ID 306) Iter1. Results saved. ---
+2025-05-16 05:19:56,089 - INFO - --- Running Q_num3 (ID 306) Iter2/5 ---
+2025-05-16 05:19:56,089 - INFO - Task: From a moral point of view, we should not feel obliged to give one of our kidneys to a person with k...
+2025-05-16 05:19:56,311 - INFO - Q_num3 (Question ID 306) Iter1: Starting chat with 6 agents.
+2025-05-16 05:21:12,331 - INFO - Q_num3 (Question ID 306) Iter1: Chat finished in 76.02 seconds.
+2025-05-16 05:21:12,331 - INFO - Q_num3 (Question ID 306) Iter2 Msg1 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=4, Conf=No confidence found
+2025-05-16 05:21:12,332 - INFO - Q_num3 (Question ID 306) Iter2 Msg2 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=2, Conf=No confidence found
+2025-05-16 05:21:12,332 - INFO - Q_num3 (Question ID 306) Iter2 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=3, Conf=No confidence found
+2025-05-16 05:21:12,332 - INFO - Q_num3 (Question ID 306) Iter2 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=6, Conf=No confidence found
+2025-05-16 05:21:12,332 - INFO - Q_num3 (Question ID 306) Iter2 Msg5 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=2, Conf=No confidence found
+2025-05-16 05:21:12,332 - INFO - Q_num3 (Question ID 306) Iter2 Msg6 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=2, Conf=No confidence found
+2025-05-16 05:21:12,332 - INFO - Q_num3 (Question ID 306) Iter2 Msg7 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=2, Conf=No confidence found
+2025-05-16 05:21:12,332 - INFO - Q_num3 (Question ID 306) Iter2 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=5, Conf=No confidence found
+2025-05-16 05:21:12,332 - INFO - Q_num3 (Question ID 306) Iter2 Msg9 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:21:12,332 - INFO - Q_num3 (Question ID 306) Iter2 Msg10 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=5, Conf=No confidence found
+2025-05-16 05:21:12,332 - INFO - Q_num3 (Question ID 306) Iter2 Msg11 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=2, Conf=No confidence found
+2025-05-16 05:21:12,332 - INFO - Q_num3 (Question ID 306) Iter2 Msg12 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=2, Conf=No confidence found
+2025-05-16 05:21:12,332 - INFO - Q_num3 (Question ID 306) Iter2 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=2, Conf=No confidence found
+2025-05-16 05:21:12,332 - INFO - Q_num3 (Question ID 306) Iter2 Msg14 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=4, Conf=No confidence found
+2025-05-16 05:21:12,332 - INFO - Q_num3 (Question ID 306) Iter2 Msg15 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=2, Conf=No confidence found
+2025-05-16 05:21:12,333 - INFO - Q_num3 (Question ID 306) Iter2 Msg16 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=2, Conf=No confidence found
+2025-05-16 05:21:12,333 - INFO - Q_num3 (Question ID 306) Iter2 Msg17 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=5, Conf=No confidence found
+2025-05-16 05:21:12,333 - INFO - Q_num3 (Question ID 306) Iter2 Msg18 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=4, Conf=No confidence found
+2025-05-16 05:21:12,333 - INFO - Q_num3 (Question ID 306) Iter2 Msg19 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=2, Conf=No confidence found
+2025-05-16 05:21:12,333 - INFO - Q_num3 (Question ID 306) Iter2 Msg20 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=2, Conf=No confidence found
+2025-05-16 05:21:12,333 - INFO - Q_num3 (Question ID 306) Iter2 Msg21 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=3, Conf=No confidence found
+2025-05-16 05:21:12,333 - INFO - Q_num3 (Question ID 306) Iter2 Msg22 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=2, Conf=No confidence found
+2025-05-16 05:21:12,333 - INFO - Q_num3 (Question ID 306) Iter2 Msg23 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=2, Conf=No confidence found
+2025-05-16 05:21:12,333 - INFO - Q_num3 (Question ID 306) Iter2 Msg24 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=2, Conf=No confidence found
+2025-05-16 05:21:12,419 - INFO - --- Finished Q_num3 (ID 306) Iter2. Results saved. ---
+2025-05-16 05:21:12,495 - INFO - --- Running Q_num3 (ID 306) Iter3/5 ---
+2025-05-16 05:21:12,495 - INFO - Task: From a moral point of view, we should not feel obliged to give one of our kidneys to a person with k...
+2025-05-16 05:21:12,720 - INFO - Q_num3 (Question ID 306) Iter2: Starting chat with 6 agents.
+2025-05-16 05:23:28,808 - INFO - Q_num3 (Question ID 306) Iter2: Chat finished in 136.09 seconds.
+2025-05-16 05:23:28,808 - INFO - Q_num3 (Question ID 306) Iter3 Msg1 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=3, Conf=No confidence found
+2025-05-16 05:23:28,808 - INFO - Q_num3 (Question ID 306) Iter3 Msg2 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=3, Conf=No confidence found
+2025-05-16 05:23:28,808 - INFO - Q_num3 (Question ID 306) Iter3 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=4, Conf=No confidence found
+2025-05-16 05:23:28,809 - INFO - Q_num3 (Question ID 306) Iter3 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=2, Conf=No confidence found
+2025-05-16 05:23:28,809 - INFO - Q_num3 (Question ID 306) Iter3 Msg5 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=3, Conf=No confidence found
+2025-05-16 05:23:28,809 - INFO - Q_num3 (Question ID 306) Iter3 Msg6 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=3, Conf=No confidence found
+2025-05-16 05:23:28,809 - INFO - Q_num3 (Question ID 306) Iter3 Msg7 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=2, Conf=No confidence found
+2025-05-16 05:23:28,809 - INFO - Q_num3 (Question ID 306) Iter3 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=2, Conf=No confidence found
+2025-05-16 05:23:28,809 - INFO - Q_num3 (Question ID 306) Iter3 Msg9 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=2, Conf=No confidence found
+2025-05-16 05:23:28,809 - INFO - Q_num3 (Question ID 306) Iter3 Msg10 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=3, Conf=No confidence found
+2025-05-16 05:23:28,809 - INFO - Q_num3 (Question ID 306) Iter3 Msg11 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:23:28,809 - INFO - Q_num3 (Question ID 306) Iter3 Msg12 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=3, Conf=No confidence found
+2025-05-16 05:23:28,809 - INFO - Q_num3 (Question ID 306) Iter3 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=3, Conf=No confidence found
+2025-05-16 05:23:28,809 - INFO - Q_num3 (Question ID 306) Iter3 Msg14 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:23:28,809 - INFO - Q_num3 (Question ID 306) Iter3 Msg15 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=3, Conf=No confidence found
+2025-05-16 05:23:28,809 - INFO - Q_num3 (Question ID 306) Iter3 Msg16 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=3, Conf=No confidence found
+2025-05-16 05:23:28,810 - INFO - Q_num3 (Question ID 306) Iter3 Msg17 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=3, Conf=No confidence found
+2025-05-16 05:23:28,810 - INFO - Q_num3 (Question ID 306) Iter3 Msg18 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=3, Conf=No confidence found
+2025-05-16 05:23:28,810 - INFO - Q_num3 (Question ID 306) Iter3 Msg19 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:23:28,810 - INFO - Q_num3 (Question ID 306) Iter3 Msg20 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=3, Conf=No confidence found
+2025-05-16 05:23:28,810 - INFO - Q_num3 (Question ID 306) Iter3 Msg21 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=3, Conf=No confidence found
+2025-05-16 05:23:28,810 - INFO - Q_num3 (Question ID 306) Iter3 Msg22 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=2, Conf=No confidence found
+2025-05-16 05:23:28,810 - INFO - Q_num3 (Question ID 306) Iter3 Msg23 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=3, Conf=No confidence found
+2025-05-16 05:23:28,810 - INFO - Q_num3 (Question ID 306) Iter3 Msg24 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=3, Conf=No confidence found
+2025-05-16 05:23:28,900 - INFO - --- Finished Q_num3 (ID 306) Iter3. Results saved. ---
+2025-05-16 05:23:28,976 - INFO - --- Running Q_num3 (ID 306) Iter4/5 ---
+2025-05-16 05:23:28,976 - INFO - Task: From a moral point of view, we should not feel obliged to give one of our kidneys to a person with k...
+2025-05-16 05:23:29,206 - INFO - Q_num3 (Question ID 306) Iter3: Starting chat with 6 agents.
+2025-05-16 05:24:24,239 - INFO - Q_num3 (Question ID 306) Iter3: Chat finished in 55.03 seconds.
+2025-05-16 05:24:24,240 - INFO - Q_num3 (Question ID 306) Iter4 Msg1 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=4, Conf=No confidence found
+2025-05-16 05:24:24,240 - INFO - Q_num3 (Question ID 306) Iter4 Msg2 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=4, Conf=No confidence found
+2025-05-16 05:24:24,240 - INFO - Q_num3 (Question ID 306) Iter4 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:24:24,240 - INFO - Q_num3 (Question ID 306) Iter4 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=4, Conf=No confidence found
+2025-05-16 05:24:24,240 - INFO - Q_num3 (Question ID 306) Iter4 Msg5 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:24:24,240 - INFO - Q_num3 (Question ID 306) Iter4 Msg6 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=4, Conf=No confidence found
+2025-05-16 05:24:24,240 - INFO - Q_num3 (Question ID 306) Iter4 Msg7 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=4, Conf=No confidence found
+2025-05-16 05:24:24,240 - INFO - Q_num3 (Question ID 306) Iter4 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:24:24,240 - INFO - Q_num3 (Question ID 306) Iter4 Msg9 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=4, Conf=No confidence found
+2025-05-16 05:24:24,240 - INFO - Q_num3 (Question ID 306) Iter4 Msg10 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=4, Conf=No confidence found
+2025-05-16 05:24:24,240 - INFO - Q_num3 (Question ID 306) Iter4 Msg11 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=4, Conf=No confidence found
+2025-05-16 05:24:24,240 - INFO - Q_num3 (Question ID 306) Iter4 Msg12 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:24:24,240 - INFO - Q_num3 (Question ID 306) Iter4 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=4, Conf=No confidence found
+2025-05-16 05:24:24,241 - INFO - Q_num3 (Question ID 306) Iter4 Msg14 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=4, Conf=No confidence found
+2025-05-16 05:24:24,241 - INFO - Q_num3 (Question ID 306) Iter4 Msg15 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:24:24,241 - INFO - Q_num3 (Question ID 306) Iter4 Msg16 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=4, Conf=No confidence found
+2025-05-16 05:24:24,241 - INFO - Q_num3 (Question ID 306) Iter4 Msg17 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=4, Conf=No confidence found
+2025-05-16 05:24:24,241 - INFO - Q_num3 (Question ID 306) Iter4 Msg18 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=4, Conf=No confidence found
+2025-05-16 05:24:24,241 - INFO - Q_num3 (Question ID 306) Iter4 Msg19 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:24:24,241 - INFO - Q_num3 (Question ID 306) Iter4 Msg20 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=4, Conf=No confidence found
+2025-05-16 05:24:24,241 - INFO - Q_num3 (Question ID 306) Iter4 Msg21 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:24:24,241 - INFO - Q_num3 (Question ID 306) Iter4 Msg22 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=4, Conf=No confidence found
+2025-05-16 05:24:24,241 - INFO - Q_num3 (Question ID 306) Iter4 Msg23 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=4, Conf=No confidence found
+2025-05-16 05:24:24,241 - INFO - Q_num3 (Question ID 306) Iter4 Msg24 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:24:24,329 - INFO - --- Finished Q_num3 (ID 306) Iter4. Results saved. ---
+2025-05-16 05:24:24,404 - INFO - --- Running Q_num3 (ID 306) Iter5/5 ---
+2025-05-16 05:24:24,404 - INFO - Task: From a moral point of view, we should not feel obliged to give one of our kidneys to a person with k...
+2025-05-16 05:24:24,625 - INFO - Q_num3 (Question ID 306) Iter4: Starting chat with 6 agents.
+2025-05-16 05:25:34,275 - INFO - Q_num3 (Question ID 306) Iter4: Chat finished in 69.65 seconds.
+2025-05-16 05:25:34,275 - INFO - Q_num3 (Question ID 306) Iter5 Msg1 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=4, Conf=No confidence found
+2025-05-16 05:25:34,275 - INFO - Q_num3 (Question ID 306) Iter5 Msg2 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=3, Conf=No confidence found
+2025-05-16 05:25:34,275 - INFO - Q_num3 (Question ID 306) Iter5 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=2, Conf=No confidence found
+2025-05-16 05:25:34,276 - INFO - Q_num3 (Question ID 306) Iter5 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=3, Conf=No confidence found
+2025-05-16 05:25:34,276 - INFO - Q_num3 (Question ID 306) Iter5 Msg5 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=2, Conf=No confidence found
+2025-05-16 05:25:34,276 - INFO - Q_num3 (Question ID 306) Iter5 Msg6 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=1, Conf=No confidence found
+2025-05-16 05:25:34,276 - INFO - Q_num3 (Question ID 306) Iter5 Msg7 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:25:34,276 - INFO - Q_num3 (Question ID 306) Iter5 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=3, Conf=No confidence found
+2025-05-16 05:25:34,276 - INFO - Q_num3 (Question ID 306) Iter5 Msg9 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=2, Conf=No confidence found
+2025-05-16 05:25:34,276 - INFO - Q_num3 (Question ID 306) Iter5 Msg10 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=3, Conf=No confidence found
+2025-05-16 05:25:34,276 - INFO - Q_num3 (Question ID 306) Iter5 Msg11 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=2, Conf=No confidence found
+2025-05-16 05:25:34,276 - INFO - Q_num3 (Question ID 306) Iter5 Msg12 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:25:34,276 - INFO - Q_num3 (Question ID 306) Iter5 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=3, Conf=No confidence found
+2025-05-16 05:25:34,276 - INFO - Q_num3 (Question ID 306) Iter5 Msg14 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:25:34,276 - INFO - Q_num3 (Question ID 306) Iter5 Msg15 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=2, Conf=No confidence found
+2025-05-16 05:25:34,277 - INFO - Q_num3 (Question ID 306) Iter5 Msg16 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=2, Conf=No confidence found
+2025-05-16 05:25:34,277 - INFO - Q_num3 (Question ID 306) Iter5 Msg17 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=3, Conf=No confidence found
+2025-05-16 05:25:34,277 - INFO - Q_num3 (Question ID 306) Iter5 Msg18 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=3, Conf=No confidence found
+2025-05-16 05:25:34,277 - INFO - Q_num3 (Question ID 306) Iter5 Msg19 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:25:34,277 - INFO - Q_num3 (Question ID 306) Iter5 Msg20 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=2, Conf=No confidence found
+2025-05-16 05:25:34,277 - INFO - Q_num3 (Question ID 306) Iter5 Msg21 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=2, Conf=No confidence found
+2025-05-16 05:25:34,277 - INFO - Q_num3 (Question ID 306) Iter5 Msg22 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=3, Conf=No confidence found
+2025-05-16 05:25:34,277 - INFO - Q_num3 (Question ID 306) Iter5 Msg23 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=2, Conf=No confidence found
+2025-05-16 05:25:34,277 - INFO - Q_num3 (Question ID 306) Iter5 Msg24 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=3, Conf=No confidence found
+2025-05-16 05:25:34,367 - INFO - --- Finished Q_num3 (ID 306) Iter5. Results saved. ---
+2025-05-16 05:25:34,441 - INFO - --- Running Q_num4 (ID 302) Iter1/5 ---
+2025-05-16 05:25:34,442 - INFO - Task: Political oppression should not be used, even if oppression for a short, limited time would ensure t...
+2025-05-16 05:25:34,661 - INFO - Q_num4 (Question ID 302) Iter0: Starting chat with 6 agents.
+2025-05-16 05:26:56,887 - INFO - Q_num4 (Question ID 302) Iter0: Chat finished in 82.23 seconds.
+2025-05-16 05:26:56,887 - INFO - Q_num4 (Question ID 302) Iter1 Msg1 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=6, Conf=No confidence found
+2025-05-16 05:26:56,887 - INFO - Q_num4 (Question ID 302) Iter1 Msg2 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=7, Conf=No confidence found
+2025-05-16 05:26:56,887 - INFO - Q_num4 (Question ID 302) Iter1 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=7, Conf=No confidence found
+2025-05-16 05:26:56,887 - INFO - Q_num4 (Question ID 302) Iter1 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=7, Conf=No confidence found
+2025-05-16 05:26:56,887 - INFO - Q_num4 (Question ID 302) Iter1 Msg5 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=7, Conf=No confidence found
+2025-05-16 05:26:56,887 - INFO - Q_num4 (Question ID 302) Iter1 Msg6 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=7, Conf=No confidence found
+2025-05-16 05:26:56,887 - INFO - Q_num4 (Question ID 302) Iter1 Msg7 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=7, Conf=No confidence found
+2025-05-16 05:26:56,887 - INFO - Q_num4 (Question ID 302) Iter1 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=7, Conf=No confidence found
+2025-05-16 05:26:56,888 - INFO - Q_num4 (Question ID 302) Iter1 Msg9 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=7, Conf=No confidence found
+2025-05-16 05:26:56,888 - INFO - Q_num4 (Question ID 302) Iter1 Msg10 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=7, Conf=No confidence found
+2025-05-16 05:26:56,888 - INFO - Q_num4 (Question ID 302) Iter1 Msg11 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=7, Conf=No confidence found
+2025-05-16 05:26:56,888 - INFO - Q_num4 (Question ID 302) Iter1 Msg12 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=7, Conf=No confidence found
+2025-05-16 05:26:56,888 - INFO - Q_num4 (Question ID 302) Iter1 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=7, Conf=No confidence found
+2025-05-16 05:26:56,888 - INFO - Q_num4 (Question ID 302) Iter1 Msg14 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:26:56,888 - INFO - Q_num4 (Question ID 302) Iter1 Msg15 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=7, Conf=No confidence found
+2025-05-16 05:26:56,888 - INFO - Q_num4 (Question ID 302) Iter1 Msg16 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=7, Conf=No confidence found
+2025-05-16 05:26:56,888 - INFO - Q_num4 (Question ID 302) Iter1 Msg17 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=7, Conf=No confidence found
+2025-05-16 05:26:56,888 - INFO - Q_num4 (Question ID 302) Iter1 Msg18 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=7, Conf=No confidence found
+2025-05-16 05:26:56,888 - INFO - Q_num4 (Question ID 302) Iter1 Msg19 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=7, Conf=No confidence found
+2025-05-16 05:26:56,888 - INFO - Q_num4 (Question ID 302) Iter1 Msg20 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=7, Conf=No confidence found
+2025-05-16 05:26:56,888 - INFO - Q_num4 (Question ID 302) Iter1 Msg21 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=7, Conf=No confidence found
+2025-05-16 05:26:56,888 - INFO - Q_num4 (Question ID 302) Iter1 Msg22 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=7, Conf=No confidence found
+2025-05-16 05:26:56,889 - INFO - Q_num4 (Question ID 302) Iter1 Msg23 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=7, Conf=No confidence found
+2025-05-16 05:26:56,889 - INFO - Q_num4 (Question ID 302) Iter1 Msg24 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=7, Conf=No confidence found
+2025-05-16 05:26:56,979 - INFO - --- Finished Q_num4 (ID 302) Iter1. Results saved. ---
+2025-05-16 05:26:57,054 - INFO - --- Running Q_num4 (ID 302) Iter2/5 ---
+2025-05-16 05:26:57,054 - INFO - Task: Political oppression should not be used, even if oppression for a short, limited time would ensure t...
+2025-05-16 05:26:57,275 - INFO - Q_num4 (Question ID 302) Iter1: Starting chat with 6 agents.
+2025-05-16 05:29:39,597 - INFO - Q_num4 (Question ID 302) Iter1: Chat finished in 162.32 seconds.
+2025-05-16 05:29:39,597 - INFO - Q_num4 (Question ID 302) Iter2 Msg1 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=6, Conf=No confidence found
+2025-05-16 05:29:39,597 - INFO - Q_num4 (Question ID 302) Iter2 Msg2 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=6, Conf=No confidence found
+2025-05-16 05:29:39,597 - INFO - Q_num4 (Question ID 302) Iter2 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:29:39,597 - INFO - Q_num4 (Question ID 302) Iter2 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=6, Conf=No confidence found
+2025-05-16 05:29:39,597 - INFO - Q_num4 (Question ID 302) Iter2 Msg5 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=6, Conf=No confidence found
+2025-05-16 05:29:39,597 - INFO - Q_num4 (Question ID 302) Iter2 Msg6 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=6, Conf=No confidence found
+2025-05-16 05:29:39,597 - INFO - Q_num4 (Question ID 302) Iter2 Msg7 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=6, Conf=No confidence found
+2025-05-16 05:29:39,597 - INFO - Q_num4 (Question ID 302) Iter2 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=6, Conf=No confidence found
+2025-05-16 05:29:39,597 - INFO - Q_num4 (Question ID 302) Iter2 Msg9 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=6, Conf=No confidence found
+2025-05-16 05:29:39,597 - INFO - Q_num4 (Question ID 302) Iter2 Msg10 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=6, Conf=No confidence found
+2025-05-16 05:29:39,598 - INFO - Q_num4 (Question ID 302) Iter2 Msg11 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=7, Conf=No confidence found
+2025-05-16 05:29:39,598 - INFO - Q_num4 (Question ID 302) Iter2 Msg12 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=7, Conf=No confidence found
+2025-05-16 05:29:39,598 - INFO - Q_num4 (Question ID 302) Iter2 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=7, Conf=No confidence found
+2025-05-16 05:29:39,598 - INFO - Q_num4 (Question ID 302) Iter2 Msg14 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=7, Conf=No confidence found
+2025-05-16 05:29:39,598 - INFO - Q_num4 (Question ID 302) Iter2 Msg15 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=7, Conf=No confidence found
+2025-05-16 05:29:39,598 - INFO - Q_num4 (Question ID 302) Iter2 Msg16 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=7, Conf=No confidence found
+2025-05-16 05:29:39,598 - INFO - Q_num4 (Question ID 302) Iter2 Msg17 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:29:39,598 - INFO - Q_num4 (Question ID 302) Iter2 Msg18 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=7, Conf=No confidence found
+2025-05-16 05:29:39,598 - INFO - Q_num4 (Question ID 302) Iter2 Msg19 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=7, Conf=No confidence found
+2025-05-16 05:29:39,598 - INFO - Q_num4 (Question ID 302) Iter2 Msg20 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=7, Conf=No confidence found
+2025-05-16 05:29:39,598 - INFO - Q_num4 (Question ID 302) Iter2 Msg21 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=7, Conf=No confidence found
+2025-05-16 05:29:39,598 - INFO - Q_num4 (Question ID 302) Iter2 Msg22 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=7, Conf=No confidence found
+2025-05-16 05:29:39,598 - INFO - Q_num4 (Question ID 302) Iter2 Msg23 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=7, Conf=No confidence found
+2025-05-16 05:29:39,599 - INFO - Q_num4 (Question ID 302) Iter2 Msg24 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=7, Conf=No confidence found
+2025-05-16 05:29:39,689 - INFO - --- Finished Q_num4 (ID 302) Iter2. Results saved. ---
+2025-05-16 05:29:39,766 - INFO - --- Running Q_num4 (ID 302) Iter3/5 ---
+2025-05-16 05:29:39,766 - INFO - Task: Political oppression should not be used, even if oppression for a short, limited time would ensure t...
+2025-05-16 05:29:39,989 - INFO - Q_num4 (Question ID 302) Iter2: Starting chat with 6 agents.
+2025-05-16 05:30:49,052 - INFO - Q_num4 (Question ID 302) Iter2: Chat finished in 69.06 seconds.
+2025-05-16 05:30:49,053 - INFO - Q_num4 (Question ID 302) Iter3 Msg1 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=6, Conf=No confidence found
+2025-05-16 05:30:49,053 - INFO - Q_num4 (Question ID 302) Iter3 Msg2 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=7, Conf=No confidence found
+2025-05-16 05:30:49,053 - INFO - Q_num4 (Question ID 302) Iter3 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=7, Conf=No confidence found
+2025-05-16 05:30:49,053 - INFO - Q_num4 (Question ID 302) Iter3 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=3, Conf=No confidence found
+2025-05-16 05:30:49,053 - INFO - Q_num4 (Question ID 302) Iter3 Msg5 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=3, Conf=No confidence found
+2025-05-16 05:30:49,053 - INFO - Q_num4 (Question ID 302) Iter3 Msg6 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=6, Conf=No confidence found
+2025-05-16 05:30:49,053 - INFO - Q_num4 (Question ID 302) Iter3 Msg7 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=7, Conf=No confidence found
+2025-05-16 05:30:49,053 - INFO - Q_num4 (Question ID 302) Iter3 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=7, Conf=No confidence found
+2025-05-16 05:30:49,053 - INFO - Q_num4 (Question ID 302) Iter3 Msg9 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=7, Conf=No confidence found
+2025-05-16 05:30:49,053 - INFO - Q_num4 (Question ID 302) Iter3 Msg10 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=7, Conf=No confidence found
+2025-05-16 05:30:49,053 - INFO - Q_num4 (Question ID 302) Iter3 Msg11 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:30:49,054 - INFO - Q_num4 (Question ID 302) Iter3 Msg12 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=7, Conf=No confidence found
+2025-05-16 05:30:49,054 - INFO - Q_num4 (Question ID 302) Iter3 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=7, Conf=No confidence found
+2025-05-16 05:30:49,054 - INFO - Q_num4 (Question ID 302) Iter3 Msg14 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=7, Conf=No confidence found
+2025-05-16 05:30:49,054 - INFO - Q_num4 (Question ID 302) Iter3 Msg15 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=7, Conf=No confidence found
+2025-05-16 05:30:49,054 - INFO - Q_num4 (Question ID 302) Iter3 Msg16 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=7, Conf=No confidence found
+2025-05-16 05:30:49,054 - INFO - Q_num4 (Question ID 302) Iter3 Msg17 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=7, Conf=No confidence found
+2025-05-16 05:30:49,054 - INFO - Q_num4 (Question ID 302) Iter3 Msg18 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=7, Conf=No confidence found
+2025-05-16 05:30:49,054 - INFO - Q_num4 (Question ID 302) Iter3 Msg19 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=7, Conf=No confidence found
+2025-05-16 05:30:49,054 - INFO - Q_num4 (Question ID 302) Iter3 Msg20 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=7, Conf=No confidence found
+2025-05-16 05:30:49,054 - INFO - Q_num4 (Question ID 302) Iter3 Msg21 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=7, Conf=No confidence found
+2025-05-16 05:30:49,054 - INFO - Q_num4 (Question ID 302) Iter3 Msg22 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=7, Conf=No confidence found
+2025-05-16 05:30:49,054 - INFO - Q_num4 (Question ID 302) Iter3 Msg23 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=7, Conf=No confidence found
+2025-05-16 05:30:49,054 - INFO - Q_num4 (Question ID 302) Iter3 Msg24 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=7, Conf=No confidence found
+2025-05-16 05:30:49,145 - INFO - --- Finished Q_num4 (ID 302) Iter3. Results saved. ---
+2025-05-16 05:30:49,222 - INFO - --- Running Q_num4 (ID 302) Iter4/5 ---
+2025-05-16 05:30:49,222 - INFO - Task: Political oppression should not be used, even if oppression for a short, limited time would ensure t...
+2025-05-16 05:30:49,443 - INFO - Q_num4 (Question ID 302) Iter3: Starting chat with 6 agents.
+2025-05-16 05:31:36,684 - INFO - Q_num4 (Question ID 302) Iter3: Chat finished in 47.24 seconds.
+2025-05-16 05:31:36,684 - INFO - Q_num4 (Question ID 302) Iter4 Msg1 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=6, Conf=No confidence found
+2025-05-16 05:31:36,684 - INFO - Q_num4 (Question ID 302) Iter4 Msg2 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:31:36,684 - INFO - Q_num4 (Question ID 302) Iter4 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:31:36,684 - INFO - Q_num4 (Question ID 302) Iter4 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:31:36,684 - INFO - Q_num4 (Question ID 302) Iter4 Msg5 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=7, Conf=No confidence found
+2025-05-16 05:31:36,685 - INFO - Q_num4 (Question ID 302) Iter4 Msg6 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:31:36,685 - INFO - Q_num4 (Question ID 302) Iter4 Msg7 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=7, Conf=No confidence found
+2025-05-16 05:31:36,685 - INFO - Q_num4 (Question ID 302) Iter4 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:31:36,685 - INFO - Q_num4 (Question ID 302) Iter4 Msg9 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=7, Conf=No confidence found
+2025-05-16 05:31:36,685 - INFO - Q_num4 (Question ID 302) Iter4 Msg10 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:31:36,685 - INFO - Q_num4 (Question ID 302) Iter4 Msg11 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=7, Conf=No confidence found
+2025-05-16 05:31:36,685 - INFO - Q_num4 (Question ID 302) Iter4 Msg12 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:31:36,685 - INFO - Q_num4 (Question ID 302) Iter4 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=7, Conf=No confidence found
+2025-05-16 05:31:36,685 - INFO - Q_num4 (Question ID 302) Iter4 Msg14 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=7, Conf=No confidence found
+2025-05-16 05:31:36,685 - INFO - Q_num4 (Question ID 302) Iter4 Msg15 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=7, Conf=No confidence found
+2025-05-16 05:31:36,685 - INFO - Q_num4 (Question ID 302) Iter4 Msg16 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=7, Conf=No confidence found
+2025-05-16 05:31:36,685 - INFO - Q_num4 (Question ID 302) Iter4 Msg17 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=7, Conf=No confidence found
+2025-05-16 05:31:36,685 - INFO - Q_num4 (Question ID 302) Iter4 Msg18 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:31:36,686 - INFO - Q_num4 (Question ID 302) Iter4 Msg19 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=7, Conf=No confidence found
+2025-05-16 05:31:36,686 - INFO - Q_num4 (Question ID 302) Iter4 Msg20 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=7, Conf=No confidence found
+2025-05-16 05:31:36,686 - INFO - Q_num4 (Question ID 302) Iter4 Msg21 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=7, Conf=No confidence found
+2025-05-16 05:31:36,686 - INFO - Q_num4 (Question ID 302) Iter4 Msg22 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=7, Conf=No confidence found
+2025-05-16 05:31:36,686 - INFO - Q_num4 (Question ID 302) Iter4 Msg23 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=7, Conf=No confidence found
+2025-05-16 05:31:36,686 - INFO - Q_num4 (Question ID 302) Iter4 Msg24 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=7, Conf=No confidence found
+2025-05-16 05:31:36,775 - INFO - --- Finished Q_num4 (ID 302) Iter4. Results saved. ---
+2025-05-16 05:31:36,850 - INFO - --- Running Q_num4 (ID 302) Iter5/5 ---
+2025-05-16 05:31:36,850 - INFO - Task: Political oppression should not be used, even if oppression for a short, limited time would ensure t...
+2025-05-16 05:31:37,069 - INFO - Q_num4 (Question ID 302) Iter4: Starting chat with 6 agents.
+2025-05-16 05:32:52,647 - INFO - Q_num4 (Question ID 302) Iter4: Chat finished in 75.58 seconds.
+2025-05-16 05:32:52,647 - INFO - Q_num4 (Question ID 302) Iter5 Msg1 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=6, Conf=No confidence found
+2025-05-16 05:32:52,647 - INFO - Q_num4 (Question ID 302) Iter5 Msg2 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=7, Conf=No confidence found
+2025-05-16 05:32:52,647 - INFO - Q_num4 (Question ID 302) Iter5 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:32:52,647 - INFO - Q_num4 (Question ID 302) Iter5 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=7, Conf=No confidence found
+2025-05-16 05:32:52,647 - INFO - Q_num4 (Question ID 302) Iter5 Msg5 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:32:52,647 - INFO - Q_num4 (Question ID 302) Iter5 Msg6 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=7, Conf=No confidence found
+2025-05-16 05:32:52,647 - INFO - Q_num4 (Question ID 302) Iter5 Msg7 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:32:52,648 - INFO - Q_num4 (Question ID 302) Iter5 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=7, Conf=No confidence found
+2025-05-16 05:32:52,648 - INFO - Q_num4 (Question ID 302) Iter5 Msg9 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=7, Conf=No confidence found
+2025-05-16 05:32:52,648 - INFO - Q_num4 (Question ID 302) Iter5 Msg10 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=7, Conf=No confidence found
+2025-05-16 05:32:52,648 - INFO - Q_num4 (Question ID 302) Iter5 Msg11 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=7, Conf=No confidence found
+2025-05-16 05:32:52,648 - INFO - Q_num4 (Question ID 302) Iter5 Msg12 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=7, Conf=No confidence found
+2025-05-16 05:32:52,648 - INFO - Q_num4 (Question ID 302) Iter5 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=7, Conf=No confidence found
+2025-05-16 05:32:52,648 - INFO - Q_num4 (Question ID 302) Iter5 Msg14 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=7, Conf=No confidence found
+2025-05-16 05:32:52,648 - INFO - Q_num4 (Question ID 302) Iter5 Msg15 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=7, Conf=No confidence found
+2025-05-16 05:32:52,648 - INFO - Q_num4 (Question ID 302) Iter5 Msg16 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=7, Conf=No confidence found
+2025-05-16 05:32:52,648 - INFO - Q_num4 (Question ID 302) Iter5 Msg17 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=7, Conf=No confidence found
+2025-05-16 05:32:52,648 - INFO - Q_num4 (Question ID 302) Iter5 Msg18 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=7, Conf=No confidence found
+2025-05-16 05:32:52,648 - INFO - Q_num4 (Question ID 302) Iter5 Msg19 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=7, Conf=No confidence found
+2025-05-16 05:32:52,648 - INFO - Q_num4 (Question ID 302) Iter5 Msg20 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=7, Conf=No confidence found
+2025-05-16 05:32:52,649 - INFO - Q_num4 (Question ID 302) Iter5 Msg21 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=7, Conf=No confidence found
+2025-05-16 05:32:52,649 - INFO - Q_num4 (Question ID 302) Iter5 Msg22 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=7, Conf=No confidence found
+2025-05-16 05:32:52,649 - INFO - Q_num4 (Question ID 302) Iter5 Msg23 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=7, Conf=No confidence found
+2025-05-16 05:32:52,649 - INFO - Q_num4 (Question ID 302) Iter5 Msg24 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:32:52,738 - INFO - --- Finished Q_num4 (ID 302) Iter5. Results saved. ---
+2025-05-16 05:32:52,817 - INFO - --- Running Q_num5 (ID 307) Iter1/5 ---
+2025-05-16 05:32:52,817 - INFO - Task: From a moral perspective, people should prioritize the well-being of those who are especially close ...
+2025-05-16 05:32:53,037 - INFO - Q_num5 (Question ID 307) Iter0: Starting chat with 6 agents.
+2025-05-16 05:33:46,571 - INFO - Q_num5 (Question ID 307) Iter0: Chat finished in 53.53 seconds.
+2025-05-16 05:33:46,571 - INFO - Q_num5 (Question ID 307) Iter1 Msg1 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=4, Conf=No confidence found
+2025-05-16 05:33:46,571 - INFO - Q_num5 (Question ID 307) Iter1 Msg2 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:33:46,571 - INFO - Q_num5 (Question ID 307) Iter1 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=3, Conf=No confidence found
+2025-05-16 05:33:46,571 - INFO - Q_num5 (Question ID 307) Iter1 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=5, Conf=No confidence found
+2025-05-16 05:33:46,571 - INFO - Q_num5 (Question ID 307) Iter1 Msg5 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=2, Conf=No confidence found
+2025-05-16 05:33:46,571 - INFO - Q_num5 (Question ID 307) Iter1 Msg6 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:33:46,571 - INFO - Q_num5 (Question ID 307) Iter1 Msg7 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=3, Conf=No confidence found
+2025-05-16 05:33:46,572 - INFO - Q_num5 (Question ID 307) Iter1 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=3, Conf=No confidence found
+2025-05-16 05:33:46,572 - INFO - Q_num5 (Question ID 307) Iter1 Msg9 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:33:46,572 - INFO - Q_num5 (Question ID 307) Iter1 Msg10 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=4, Conf=No confidence found
+2025-05-16 05:33:46,572 - INFO - Q_num5 (Question ID 307) Iter1 Msg11 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:33:46,572 - INFO - Q_num5 (Question ID 307) Iter1 Msg12 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=3, Conf=No confidence found
+2025-05-16 05:33:46,572 - INFO - Q_num5 (Question ID 307) Iter1 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=3, Conf=No confidence found
+2025-05-16 05:33:46,572 - INFO - Q_num5 (Question ID 307) Iter1 Msg14 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=4, Conf=No confidence found
+2025-05-16 05:33:46,572 - INFO - Q_num5 (Question ID 307) Iter1 Msg15 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=3, Conf=No confidence found
+2025-05-16 05:33:46,572 - INFO - Q_num5 (Question ID 307) Iter1 Msg16 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:33:46,572 - INFO - Q_num5 (Question ID 307) Iter1 Msg17 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=3, Conf=No confidence found
+2025-05-16 05:33:46,572 - INFO - Q_num5 (Question ID 307) Iter1 Msg18 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=3, Conf=No confidence found
+2025-05-16 05:33:46,572 - INFO - Q_num5 (Question ID 307) Iter1 Msg19 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=3, Conf=No confidence found
+2025-05-16 05:33:46,572 - INFO - Q_num5 (Question ID 307) Iter1 Msg20 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=3, Conf=No confidence found
+2025-05-16 05:33:46,573 - INFO - Q_num5 (Question ID 307) Iter1 Msg21 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=3, Conf=No confidence found
+2025-05-16 05:33:46,573 - INFO - Q_num5 (Question ID 307) Iter1 Msg22 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=3, Conf=No confidence found
+2025-05-16 05:33:46,573 - INFO - Q_num5 (Question ID 307) Iter1 Msg23 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=3, Conf=No confidence found
+2025-05-16 05:33:46,573 - INFO - Q_num5 (Question ID 307) Iter1 Msg24 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=3, Conf=No confidence found
+2025-05-16 05:33:46,661 - INFO - --- Finished Q_num5 (ID 307) Iter1. Results saved. ---
+2025-05-16 05:33:46,736 - INFO - --- Running Q_num5 (ID 307) Iter2/5 ---
+2025-05-16 05:33:46,736 - INFO - Task: From a moral perspective, people should prioritize the well-being of those who are especially close ...
+2025-05-16 05:33:46,957 - INFO - Q_num5 (Question ID 307) Iter1: Starting chat with 6 agents.
+2025-05-16 05:35:28,962 - INFO - Q_num5 (Question ID 307) Iter1: Chat finished in 102.00 seconds.
+2025-05-16 05:35:28,962 - INFO - Q_num5 (Question ID 307) Iter2 Msg1 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=4, Conf=No confidence found
+2025-05-16 05:35:28,962 - INFO - Q_num5 (Question ID 307) Iter2 Msg2 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=3, Conf=No confidence found
+2025-05-16 05:35:28,962 - INFO - Q_num5 (Question ID 307) Iter2 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=3, Conf=No confidence found
+2025-05-16 05:35:28,962 - INFO - Q_num5 (Question ID 307) Iter2 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=3, Conf=No confidence found
+2025-05-16 05:35:28,962 - INFO - Q_num5 (Question ID 307) Iter2 Msg5 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=3, Conf=No confidence found
+2025-05-16 05:35:28,963 - INFO - Q_num5 (Question ID 307) Iter2 Msg6 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=3, Conf=No confidence found
+2025-05-16 05:35:28,963 - INFO - Q_num5 (Question ID 307) Iter2 Msg7 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=3, Conf=No confidence found
+2025-05-16 05:35:28,963 - INFO - Q_num5 (Question ID 307) Iter2 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=3, Conf=No confidence found
+2025-05-16 05:35:28,963 - INFO - Q_num5 (Question ID 307) Iter2 Msg9 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=3, Conf=No confidence found
+2025-05-16 05:35:28,963 - INFO - Q_num5 (Question ID 307) Iter2 Msg10 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=3, Conf=No confidence found
+2025-05-16 05:35:28,963 - INFO - Q_num5 (Question ID 307) Iter2 Msg11 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=3, Conf=No confidence found
+2025-05-16 05:35:28,963 - INFO - Q_num5 (Question ID 307) Iter2 Msg12 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=3, Conf=No confidence found
+2025-05-16 05:35:28,963 - INFO - Q_num5 (Question ID 307) Iter2 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=3, Conf=No confidence found
+2025-05-16 05:35:28,963 - INFO - Q_num5 (Question ID 307) Iter2 Msg14 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=3, Conf=No confidence found
+2025-05-16 05:35:28,963 - INFO - Q_num5 (Question ID 307) Iter2 Msg15 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=3, Conf=No confidence found
+2025-05-16 05:35:28,964 - INFO - Q_num5 (Question ID 307) Iter2 Msg16 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=3, Conf=No confidence found
+2025-05-16 05:35:28,964 - INFO - Q_num5 (Question ID 307) Iter2 Msg17 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=3, Conf=No confidence found
+2025-05-16 05:35:28,964 - INFO - Q_num5 (Question ID 307) Iter2 Msg18 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=3, Conf=No confidence found
+2025-05-16 05:35:28,964 - INFO - Q_num5 (Question ID 307) Iter2 Msg19 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=3, Conf=No confidence found
+2025-05-16 05:35:28,964 - INFO - Q_num5 (Question ID 307) Iter2 Msg20 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=3, Conf=No confidence found
+2025-05-16 05:35:28,964 - INFO - Q_num5 (Question ID 307) Iter2 Msg21 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=3, Conf=No confidence found
+2025-05-16 05:35:28,964 - INFO - Q_num5 (Question ID 307) Iter2 Msg22 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=3, Conf=No confidence found
+2025-05-16 05:35:28,964 - INFO - Q_num5 (Question ID 307) Iter2 Msg23 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:35:28,964 - INFO - Q_num5 (Question ID 307) Iter2 Msg24 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=3, Conf=No confidence found
+2025-05-16 05:35:29,053 - INFO - --- Finished Q_num5 (ID 307) Iter2. Results saved. ---
+2025-05-16 05:35:29,128 - INFO - --- Running Q_num5 (ID 307) Iter3/5 ---
+2025-05-16 05:35:29,128 - INFO - Task: From a moral perspective, people should prioritize the well-being of those who are especially close ...
+2025-05-16 05:35:29,348 - INFO - Q_num5 (Question ID 307) Iter2: Starting chat with 6 agents.
+2025-05-16 05:36:43,858 - INFO - Q_num5 (Question ID 307) Iter2: Chat finished in 74.51 seconds.
+2025-05-16 05:36:43,858 - INFO - Q_num5 (Question ID 307) Iter3 Msg1 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=5, Conf=No confidence found
+2025-05-16 05:36:43,858 - INFO - Q_num5 (Question ID 307) Iter3 Msg2 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:36:43,858 - INFO - Q_num5 (Question ID 307) Iter3 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:36:43,858 - INFO - Q_num5 (Question ID 307) Iter3 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=3, Conf=No confidence found
+2025-05-16 05:36:43,858 - INFO - Q_num5 (Question ID 307) Iter3 Msg5 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=3, Conf=No confidence found
+2025-05-16 05:36:43,858 - INFO - Q_num5 (Question ID 307) Iter3 Msg6 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=4, Conf=No confidence found
+2025-05-16 05:36:43,858 - INFO - Q_num5 (Question ID 307) Iter3 Msg7 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=3, Conf=No confidence found
+2025-05-16 05:36:43,859 - INFO - Q_num5 (Question ID 307) Iter3 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:36:43,859 - INFO - Q_num5 (Question ID 307) Iter3 Msg9 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=3, Conf=No confidence found
+2025-05-16 05:36:43,859 - INFO - Q_num5 (Question ID 307) Iter3 Msg10 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:36:43,859 - INFO - Q_num5 (Question ID 307) Iter3 Msg11 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=3, Conf=No confidence found
+2025-05-16 05:36:43,859 - INFO - Q_num5 (Question ID 307) Iter3 Msg12 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=3, Conf=No confidence found
+2025-05-16 05:36:43,859 - INFO - Q_num5 (Question ID 307) Iter3 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:36:43,859 - INFO - Q_num5 (Question ID 307) Iter3 Msg14 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=4, Conf=No confidence found
+2025-05-16 05:36:43,859 - INFO - Q_num5 (Question ID 307) Iter3 Msg15 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=4, Conf=No confidence found
+2025-05-16 05:36:43,859 - INFO - Q_num5 (Question ID 307) Iter3 Msg16 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=4, Conf=No confidence found
+2025-05-16 05:36:43,859 - INFO - Q_num5 (Question ID 307) Iter3 Msg17 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=4, Conf=No confidence found
+2025-05-16 05:36:43,860 - INFO - Q_num5 (Question ID 307) Iter3 Msg18 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=4, Conf=No confidence found
+2025-05-16 05:36:43,860 - INFO - Q_num5 (Question ID 307) Iter3 Msg19 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=4, Conf=No confidence found
+2025-05-16 05:36:43,860 - INFO - Q_num5 (Question ID 307) Iter3 Msg20 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=4, Conf=No confidence found
+2025-05-16 05:36:43,860 - INFO - Q_num5 (Question ID 307) Iter3 Msg21 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=4, Conf=No confidence found
+2025-05-16 05:36:43,860 - INFO - Q_num5 (Question ID 307) Iter3 Msg22 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=4, Conf=No confidence found
+2025-05-16 05:36:43,860 - INFO - Q_num5 (Question ID 307) Iter3 Msg23 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=4, Conf=No confidence found
+2025-05-16 05:36:43,860 - INFO - Q_num5 (Question ID 307) Iter3 Msg24 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=4, Conf=No confidence found
+2025-05-16 05:36:43,949 - INFO - --- Finished Q_num5 (ID 307) Iter3. Results saved. ---
+2025-05-16 05:36:44,027 - INFO - --- Running Q_num5 (ID 307) Iter4/5 ---
+2025-05-16 05:36:44,027 - INFO - Task: From a moral perspective, people should prioritize the well-being of those who are especially close ...
+2025-05-16 05:36:44,256 - INFO - Q_num5 (Question ID 307) Iter3: Starting chat with 6 agents.
+2025-05-16 05:37:56,626 - INFO - Q_num5 (Question ID 307) Iter3: Chat finished in 72.37 seconds.
+2025-05-16 05:37:56,627 - INFO - Q_num5 (Question ID 307) Iter4 Msg1 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=5, Conf=No confidence found
+2025-05-16 05:37:56,627 - INFO - Q_num5 (Question ID 307) Iter4 Msg2 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=4, Conf=No confidence found
+2025-05-16 05:37:56,627 - INFO - Q_num5 (Question ID 307) Iter4 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=3, Conf=No confidence found
+2025-05-16 05:37:56,627 - INFO - Q_num5 (Question ID 307) Iter4 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=3, Conf=No confidence found
+2025-05-16 05:37:56,627 - INFO - Q_num5 (Question ID 307) Iter4 Msg5 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=4, Conf=No confidence found
+2025-05-16 05:37:56,627 - INFO - Q_num5 (Question ID 307) Iter4 Msg6 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=4, Conf=No confidence found
+2025-05-16 05:37:56,627 - INFO - Q_num5 (Question ID 307) Iter4 Msg7 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=4, Conf=No confidence found
+2025-05-16 05:37:56,627 - INFO - Q_num5 (Question ID 307) Iter4 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=4, Conf=No confidence found
+2025-05-16 05:37:56,628 - INFO - Q_num5 (Question ID 307) Iter4 Msg9 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=4, Conf=No confidence found
+2025-05-16 05:37:56,628 - INFO - Q_num5 (Question ID 307) Iter4 Msg10 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:37:56,628 - INFO - Q_num5 (Question ID 307) Iter4 Msg11 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=4, Conf=No confidence found
+2025-05-16 05:37:56,628 - INFO - Q_num5 (Question ID 307) Iter4 Msg12 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=4, Conf=No confidence found
+2025-05-16 05:37:56,628 - INFO - Q_num5 (Question ID 307) Iter4 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=4, Conf=No confidence found
+2025-05-16 05:37:56,628 - INFO - Q_num5 (Question ID 307) Iter4 Msg14 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=4, Conf=No confidence found
+2025-05-16 05:37:56,628 - INFO - Q_num5 (Question ID 307) Iter4 Msg15 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=4, Conf=No confidence found
+2025-05-16 05:37:56,628 - INFO - Q_num5 (Question ID 307) Iter4 Msg16 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:37:56,628 - INFO - Q_num5 (Question ID 307) Iter4 Msg17 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=4, Conf=No confidence found
+2025-05-16 05:37:56,628 - INFO - Q_num5 (Question ID 307) Iter4 Msg18 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=4, Conf=No confidence found
+2025-05-16 05:37:56,628 - INFO - Q_num5 (Question ID 307) Iter4 Msg19 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=4, Conf=No confidence found
+2025-05-16 05:37:56,628 - INFO - Q_num5 (Question ID 307) Iter4 Msg20 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=4, Conf=No confidence found
+2025-05-16 05:37:56,628 - INFO - Q_num5 (Question ID 307) Iter4 Msg21 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=4, Conf=No confidence found
+2025-05-16 05:37:56,628 - INFO - Q_num5 (Question ID 307) Iter4 Msg22 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=4, Conf=No confidence found
+2025-05-16 05:37:56,629 - INFO - Q_num5 (Question ID 307) Iter4 Msg23 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=4, Conf=No confidence found
+2025-05-16 05:37:56,629 - INFO - Q_num5 (Question ID 307) Iter4 Msg24 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=4, Conf=No confidence found
+2025-05-16 05:37:56,718 - INFO - --- Finished Q_num5 (ID 307) Iter4. Results saved. ---
+2025-05-16 05:37:56,793 - INFO - --- Running Q_num5 (ID 307) Iter5/5 ---
+2025-05-16 05:37:56,793 - INFO - Task: From a moral perspective, people should prioritize the well-being of those who are especially close ...
+2025-05-16 05:37:57,013 - INFO - Q_num5 (Question ID 307) Iter4: Starting chat with 6 agents.
+2025-05-16 05:39:10,282 - INFO - Q_num5 (Question ID 307) Iter4: Chat finished in 73.27 seconds.
+2025-05-16 05:39:10,283 - INFO - Q_num5 (Question ID 307) Iter5 Msg1 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=5, Conf=No confidence found
+2025-05-16 05:39:10,283 - INFO - Q_num5 (Question ID 307) Iter5 Msg2 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=4, Conf=No confidence found
+2025-05-16 05:39:10,283 - INFO - Q_num5 (Question ID 307) Iter5 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=5, Conf=No confidence found
+2025-05-16 05:39:10,283 - INFO - Q_num5 (Question ID 307) Iter5 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:39:10,283 - INFO - Q_num5 (Question ID 307) Iter5 Msg5 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=3, Conf=No confidence found
+2025-05-16 05:39:10,283 - INFO - Q_num5 (Question ID 307) Iter5 Msg6 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:39:10,283 - INFO - Q_num5 (Question ID 307) Iter5 Msg7 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=2, Conf=No confidence found
+2025-05-16 05:39:10,283 - INFO - Q_num5 (Question ID 307) Iter5 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=3, Conf=No confidence found
+2025-05-16 05:39:10,283 - INFO - Q_num5 (Question ID 307) Iter5 Msg9 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:39:10,283 - INFO - Q_num5 (Question ID 307) Iter5 Msg10 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=3, Conf=No confidence found
+2025-05-16 05:39:10,283 - INFO - Q_num5 (Question ID 307) Iter5 Msg11 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:39:10,283 - INFO - Q_num5 (Question ID 307) Iter5 Msg12 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=2, Conf=No confidence found
+2025-05-16 05:39:10,283 - INFO - Q_num5 (Question ID 307) Iter5 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=3, Conf=No confidence found
+2025-05-16 05:39:10,283 - INFO - Q_num5 (Question ID 307) Iter5 Msg14 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=3, Conf=No confidence found
+2025-05-16 05:39:10,283 - INFO - Q_num5 (Question ID 307) Iter5 Msg15 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:39:10,283 - INFO - Q_num5 (Question ID 307) Iter5 Msg16 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=2, Conf=No confidence found
+2025-05-16 05:39:10,283 - INFO - Q_num5 (Question ID 307) Iter5 Msg17 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=3, Conf=No confidence found
+2025-05-16 05:39:10,283 - INFO - Q_num5 (Question ID 307) Iter5 Msg18 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=2, Conf=No confidence found
+2025-05-16 05:39:10,283 - INFO - Q_num5 (Question ID 307) Iter5 Msg19 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=3, Conf=No confidence found
+2025-05-16 05:39:10,283 - INFO - Q_num5 (Question ID 307) Iter5 Msg20 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=3, Conf=No confidence found
+2025-05-16 05:39:10,283 - INFO - Q_num5 (Question ID 307) Iter5 Msg21 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=3, Conf=No confidence found
+2025-05-16 05:39:10,283 - INFO - Q_num5 (Question ID 307) Iter5 Msg22 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=3, Conf=No confidence found
+2025-05-16 05:39:10,283 - INFO - Q_num5 (Question ID 307) Iter5 Msg23 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=3, Conf=No confidence found
+2025-05-16 05:39:10,283 - INFO - Q_num5 (Question ID 307) Iter5 Msg24 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=3, Conf=No confidence found
+2025-05-16 05:39:10,364 - INFO - --- Finished Q_num5 (ID 307) Iter5. Results saved. ---
+2025-05-16 05:39:10,439 - INFO - --- Running Q_num6 (ID 303) Iter1/5 ---
+2025-05-16 05:39:10,439 - INFO - Task: It is permissible to allow hundreds of people to die from a bomb if prevention necesitates torturing...
+2025-05-16 05:39:10,661 - INFO - Q_num6 (Question ID 303) Iter0: Starting chat with 6 agents.
+2025-05-16 05:39:54,432 - INFO - Q_num6 (Question ID 303) Iter0: Chat finished in 43.77 seconds.
+2025-05-16 05:39:54,432 - INFO - Q_num6 (Question ID 303) Iter1 Msg1 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=7, Conf=No confidence found
+2025-05-16 05:39:54,432 - INFO - Q_num6 (Question ID 303) Iter1 Msg2 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=7, Conf=No confidence found
+2025-05-16 05:39:54,432 - INFO - Q_num6 (Question ID 303) Iter1 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=7, Conf=No confidence found
+2025-05-16 05:39:54,432 - INFO - Q_num6 (Question ID 303) Iter1 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=7, Conf=No confidence found
+2025-05-16 05:39:54,432 - INFO - Q_num6 (Question ID 303) Iter1 Msg5 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=7, Conf=No confidence found
+2025-05-16 05:39:54,432 - INFO - Q_num6 (Question ID 303) Iter1 Msg6 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=7, Conf=No confidence found
+2025-05-16 05:39:54,433 - INFO - Q_num6 (Question ID 303) Iter1 Msg7 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=7, Conf=No confidence found
+2025-05-16 05:39:54,433 - INFO - Q_num6 (Question ID 303) Iter1 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=7, Conf=No confidence found
+2025-05-16 05:39:54,433 - INFO - Q_num6 (Question ID 303) Iter1 Msg9 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=7, Conf=No confidence found
+2025-05-16 05:39:54,433 - INFO - Q_num6 (Question ID 303) Iter1 Msg10 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=7, Conf=No confidence found
+2025-05-16 05:39:54,433 - INFO - Q_num6 (Question ID 303) Iter1 Msg11 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=7, Conf=No confidence found
+2025-05-16 05:39:54,433 - INFO - Q_num6 (Question ID 303) Iter1 Msg12 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=7, Conf=No confidence found
+2025-05-16 05:39:54,433 - INFO - Q_num6 (Question ID 303) Iter1 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:39:54,433 - INFO - Q_num6 (Question ID 303) Iter1 Msg14 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=7, Conf=No confidence found
+2025-05-16 05:39:54,433 - INFO - Q_num6 (Question ID 303) Iter1 Msg15 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:39:54,433 - INFO - Q_num6 (Question ID 303) Iter1 Msg16 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=7, Conf=No confidence found
+2025-05-16 05:39:54,433 - INFO - Q_num6 (Question ID 303) Iter1 Msg17 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:39:54,433 - INFO - Q_num6 (Question ID 303) Iter1 Msg18 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=7, Conf=No confidence found
+2025-05-16 05:39:54,433 - INFO - Q_num6 (Question ID 303) Iter1 Msg19 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=7, Conf=No confidence found
+2025-05-16 05:39:54,433 - INFO - Q_num6 (Question ID 303) Iter1 Msg20 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=7, Conf=No confidence found
+2025-05-16 05:39:54,434 - INFO - Q_num6 (Question ID 303) Iter1 Msg21 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:39:54,434 - INFO - Q_num6 (Question ID 303) Iter1 Msg22 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=7, Conf=No confidence found
+2025-05-16 05:39:54,434 - INFO - Q_num6 (Question ID 303) Iter1 Msg23 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=7, Conf=No confidence found
+2025-05-16 05:39:54,434 - INFO - Q_num6 (Question ID 303) Iter1 Msg24 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=7, Conf=No confidence found
+2025-05-16 05:39:54,523 - INFO - --- Finished Q_num6 (ID 303) Iter1. Results saved. ---
+2025-05-16 05:39:54,599 - INFO - --- Running Q_num6 (ID 303) Iter2/5 ---
+2025-05-16 05:39:54,599 - INFO - Task: It is permissible to allow hundreds of people to die from a bomb if prevention necesitates torturing...
+2025-05-16 05:39:54,820 - INFO - Q_num6 (Question ID 303) Iter1: Starting chat with 6 agents.
+2025-05-16 05:41:14,566 - INFO - Q_num6 (Question ID 303) Iter1: Chat finished in 79.75 seconds.
+2025-05-16 05:41:14,566 - INFO - Q_num6 (Question ID 303) Iter2 Msg1 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=7, Conf=No confidence found
+2025-05-16 05:41:14,566 - INFO - Q_num6 (Question ID 303) Iter2 Msg2 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:41:14,566 - INFO - Q_num6 (Question ID 303) Iter2 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=7, Conf=No confidence found
+2025-05-16 05:41:14,566 - INFO - Q_num6 (Question ID 303) Iter2 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=7, Conf=No confidence found
+2025-05-16 05:41:14,566 - INFO - Q_num6 (Question ID 303) Iter2 Msg5 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=7, Conf=No confidence found
+2025-05-16 05:41:14,566 - INFO - Q_num6 (Question ID 303) Iter2 Msg6 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=7, Conf=No confidence found
+2025-05-16 05:41:14,566 - INFO - Q_num6 (Question ID 303) Iter2 Msg7 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=7, Conf=No confidence found
+2025-05-16 05:41:14,566 - INFO - Q_num6 (Question ID 303) Iter2 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=7, Conf=No confidence found
+2025-05-16 05:41:14,567 - INFO - Q_num6 (Question ID 303) Iter2 Msg9 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=7, Conf=No confidence found
+2025-05-16 05:41:14,567 - INFO - Q_num6 (Question ID 303) Iter2 Msg10 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=7, Conf=No confidence found
+2025-05-16 05:41:14,567 - INFO - Q_num6 (Question ID 303) Iter2 Msg11 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:41:14,567 - INFO - Q_num6 (Question ID 303) Iter2 Msg12 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=7, Conf=No confidence found
+2025-05-16 05:41:14,567 - INFO - Q_num6 (Question ID 303) Iter2 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=7, Conf=No confidence found
+2025-05-16 05:41:14,567 - INFO - Q_num6 (Question ID 303) Iter2 Msg14 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:41:14,567 - INFO - Q_num6 (Question ID 303) Iter2 Msg15 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=7, Conf=No confidence found
+2025-05-16 05:41:14,567 - INFO - Q_num6 (Question ID 303) Iter2 Msg16 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=7, Conf=No confidence found
+2025-05-16 05:41:14,567 - INFO - Q_num6 (Question ID 303) Iter2 Msg17 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=7, Conf=No confidence found
+2025-05-16 05:41:14,567 - INFO - Q_num6 (Question ID 303) Iter2 Msg18 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=7, Conf=No confidence found
+2025-05-16 05:41:14,567 - INFO - Q_num6 (Question ID 303) Iter2 Msg19 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=7, Conf=No confidence found
+2025-05-16 05:41:14,567 - INFO - Q_num6 (Question ID 303) Iter2 Msg20 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=7, Conf=No confidence found
+2025-05-16 05:41:14,567 - INFO - Q_num6 (Question ID 303) Iter2 Msg21 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=7, Conf=No confidence found
+2025-05-16 05:41:14,567 - INFO - Q_num6 (Question ID 303) Iter2 Msg22 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=7, Conf=No confidence found
+2025-05-16 05:41:14,568 - INFO - Q_num6 (Question ID 303) Iter2 Msg23 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=7, Conf=No confidence found
+2025-05-16 05:41:14,568 - INFO - Q_num6 (Question ID 303) Iter2 Msg24 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=7, Conf=No confidence found
+2025-05-16 05:41:14,655 - INFO - --- Finished Q_num6 (ID 303) Iter2. Results saved. ---
+2025-05-16 05:41:14,730 - INFO - --- Running Q_num6 (ID 303) Iter3/5 ---
+2025-05-16 05:41:14,730 - INFO - Task: It is permissible to allow hundreds of people to die from a bomb if prevention necesitates torturing...
+2025-05-16 05:41:14,950 - INFO - Q_num6 (Question ID 303) Iter2: Starting chat with 6 agents.
+2025-05-16 05:43:06,634 - INFO - Q_num6 (Question ID 303) Iter2: Chat finished in 111.68 seconds.
+2025-05-16 05:43:06,634 - INFO - Q_num6 (Question ID 303) Iter3 Msg1 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=7, Conf=No confidence found
+2025-05-16 05:43:06,634 - INFO - Q_num6 (Question ID 303) Iter3 Msg2 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=7, Conf=No confidence found
+2025-05-16 05:43:06,634 - INFO - Q_num6 (Question ID 303) Iter3 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=7, Conf=No confidence found
+2025-05-16 05:43:06,634 - INFO - Q_num6 (Question ID 303) Iter3 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=7, Conf=No confidence found
+2025-05-16 05:43:06,634 - INFO - Q_num6 (Question ID 303) Iter3 Msg5 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=7, Conf=No confidence found
+2025-05-16 05:43:06,634 - INFO - Q_num6 (Question ID 303) Iter3 Msg6 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=7, Conf=No confidence found
+2025-05-16 05:43:06,634 - INFO - Q_num6 (Question ID 303) Iter3 Msg7 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=7, Conf=No confidence found
+2025-05-16 05:43:06,634 - INFO - Q_num6 (Question ID 303) Iter3 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=7, Conf=No confidence found
+2025-05-16 05:43:06,634 - INFO - Q_num6 (Question ID 303) Iter3 Msg9 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=7, Conf=No confidence found
+2025-05-16 05:43:06,634 - INFO - Q_num6 (Question ID 303) Iter3 Msg10 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=7, Conf=No confidence found
+2025-05-16 05:43:06,635 - INFO - Q_num6 (Question ID 303) Iter3 Msg11 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=7, Conf=No confidence found
+2025-05-16 05:43:06,635 - INFO - Q_num6 (Question ID 303) Iter3 Msg12 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=7, Conf=No confidence found
+2025-05-16 05:43:06,635 - INFO - Q_num6 (Question ID 303) Iter3 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=7, Conf=No confidence found
+2025-05-16 05:43:06,635 - INFO - Q_num6 (Question ID 303) Iter3 Msg14 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=7, Conf=No confidence found
+2025-05-16 05:43:06,635 - INFO - Q_num6 (Question ID 303) Iter3 Msg15 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=7, Conf=No confidence found
+2025-05-16 05:43:06,635 - INFO - Q_num6 (Question ID 303) Iter3 Msg16 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=7, Conf=No confidence found
+2025-05-16 05:43:06,635 - INFO - Q_num6 (Question ID 303) Iter3 Msg17 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=7, Conf=No confidence found
+2025-05-16 05:43:06,635 - INFO - Q_num6 (Question ID 303) Iter3 Msg18 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=7, Conf=No confidence found
+2025-05-16 05:43:06,635 - INFO - Q_num6 (Question ID 303) Iter3 Msg19 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=7, Conf=No confidence found
+2025-05-16 05:43:06,635 - INFO - Q_num6 (Question ID 303) Iter3 Msg20 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=7, Conf=No confidence found
+2025-05-16 05:43:06,635 - INFO - Q_num6 (Question ID 303) Iter3 Msg21 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=7, Conf=No confidence found
+2025-05-16 05:43:06,635 - INFO - Q_num6 (Question ID 303) Iter3 Msg22 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=7, Conf=No confidence found
+2025-05-16 05:43:06,635 - INFO - Q_num6 (Question ID 303) Iter3 Msg23 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=7, Conf=No confidence found
+2025-05-16 05:43:06,635 - INFO - Q_num6 (Question ID 303) Iter3 Msg24 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=7, Conf=No confidence found
+2025-05-16 05:43:06,725 - INFO - --- Finished Q_num6 (ID 303) Iter3. Results saved. ---
+2025-05-16 05:43:06,801 - INFO - --- Running Q_num6 (ID 303) Iter4/5 ---
+2025-05-16 05:43:06,801 - INFO - Task: It is permissible to allow hundreds of people to die from a bomb if prevention necesitates torturing...
+2025-05-16 05:43:07,023 - INFO - Q_num6 (Question ID 303) Iter3: Starting chat with 6 agents.
+2025-05-16 05:43:57,897 - INFO - Q_num6 (Question ID 303) Iter3: Chat finished in 50.87 seconds.
+2025-05-16 05:43:57,897 - INFO - Q_num6 (Question ID 303) Iter4 Msg1 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=7, Conf=No confidence found
+2025-05-16 05:43:57,897 - INFO - Q_num6 (Question ID 303) Iter4 Msg2 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=7, Conf=No confidence found
+2025-05-16 05:43:57,897 - INFO - Q_num6 (Question ID 303) Iter4 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=7, Conf=No confidence found
+2025-05-16 05:43:57,898 - INFO - Q_num6 (Question ID 303) Iter4 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=7, Conf=No confidence found
+2025-05-16 05:43:57,898 - INFO - Q_num6 (Question ID 303) Iter4 Msg5 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:43:57,898 - INFO - Q_num6 (Question ID 303) Iter4 Msg6 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=7, Conf=No confidence found
+2025-05-16 05:43:57,898 - INFO - Q_num6 (Question ID 303) Iter4 Msg7 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:43:57,898 - INFO - Q_num6 (Question ID 303) Iter4 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=7, Conf=No confidence found
+2025-05-16 05:43:57,898 - INFO - Q_num6 (Question ID 303) Iter4 Msg9 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:43:57,898 - INFO - Q_num6 (Question ID 303) Iter4 Msg10 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=7, Conf=No confidence found
+2025-05-16 05:43:57,898 - INFO - Q_num6 (Question ID 303) Iter4 Msg11 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:43:57,898 - INFO - Q_num6 (Question ID 303) Iter4 Msg12 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=7, Conf=No confidence found
+2025-05-16 05:43:57,898 - INFO - Q_num6 (Question ID 303) Iter4 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=7, Conf=No confidence found
+2025-05-16 05:43:57,898 - INFO - Q_num6 (Question ID 303) Iter4 Msg14 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:43:57,898 - INFO - Q_num6 (Question ID 303) Iter4 Msg15 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=7, Conf=No confidence found
+2025-05-16 05:43:57,898 - INFO - Q_num6 (Question ID 303) Iter4 Msg16 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:43:57,899 - INFO - Q_num6 (Question ID 303) Iter4 Msg17 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=7, Conf=No confidence found
+2025-05-16 05:43:57,899 - INFO - Q_num6 (Question ID 303) Iter4 Msg18 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:43:57,899 - INFO - Q_num6 (Question ID 303) Iter4 Msg19 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=7, Conf=No confidence found
+2025-05-16 05:43:57,899 - INFO - Q_num6 (Question ID 303) Iter4 Msg20 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:43:57,899 - INFO - Q_num6 (Question ID 303) Iter4 Msg21 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=7, Conf=No confidence found
+2025-05-16 05:43:57,899 - INFO - Q_num6 (Question ID 303) Iter4 Msg22 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:43:57,899 - INFO - Q_num6 (Question ID 303) Iter4 Msg23 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=7, Conf=No confidence found
+2025-05-16 05:43:57,899 - INFO - Q_num6 (Question ID 303) Iter4 Msg24 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=7, Conf=No confidence found
+2025-05-16 05:43:57,985 - INFO - --- Finished Q_num6 (ID 303) Iter4. Results saved. ---
+2025-05-16 05:43:58,062 - INFO - --- Running Q_num6 (ID 303) Iter5/5 ---
+2025-05-16 05:43:58,062 - INFO - Task: It is permissible to allow hundreds of people to die from a bomb if prevention necesitates torturing...
+2025-05-16 05:43:58,283 - INFO - Q_num6 (Question ID 303) Iter4: Starting chat with 6 agents.
+2025-05-16 05:45:06,749 - INFO - Q_num6 (Question ID 303) Iter4: Chat finished in 68.47 seconds.
+2025-05-16 05:45:06,750 - INFO - Q_num6 (Question ID 303) Iter5 Msg1 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=7, Conf=No confidence found
+2025-05-16 05:45:06,750 - INFO - Q_num6 (Question ID 303) Iter5 Msg2 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=7, Conf=No confidence found
+2025-05-16 05:45:06,750 - INFO - Q_num6 (Question ID 303) Iter5 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=4, Conf=No confidence found
+2025-05-16 05:45:06,750 - INFO - Q_num6 (Question ID 303) Iter5 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=7, Conf=No confidence found
+2025-05-16 05:45:06,750 - INFO - Q_num6 (Question ID 303) Iter5 Msg5 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=7, Conf=No confidence found
+2025-05-16 05:45:06,750 - INFO - Q_num6 (Question ID 303) Iter5 Msg6 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=7, Conf=No confidence found
+2025-05-16 05:45:06,750 - INFO - Q_num6 (Question ID 303) Iter5 Msg7 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=7, Conf=No confidence found
+2025-05-16 05:45:06,750 - INFO - Q_num6 (Question ID 303) Iter5 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=7, Conf=No confidence found
+2025-05-16 05:45:06,750 - INFO - Q_num6 (Question ID 303) Iter5 Msg9 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=7, Conf=No confidence found
+2025-05-16 05:45:06,750 - INFO - Q_num6 (Question ID 303) Iter5 Msg10 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=7, Conf=No confidence found
+2025-05-16 05:45:06,750 - INFO - Q_num6 (Question ID 303) Iter5 Msg11 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=7, Conf=No confidence found
+2025-05-16 05:45:06,751 - INFO - Q_num6 (Question ID 303) Iter5 Msg12 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=7, Conf=No confidence found
+2025-05-16 05:45:06,751 - INFO - Q_num6 (Question ID 303) Iter5 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=7, Conf=No confidence found
+2025-05-16 05:45:06,751 - INFO - Q_num6 (Question ID 303) Iter5 Msg14 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=7, Conf=No confidence found
+2025-05-16 05:45:06,751 - INFO - Q_num6 (Question ID 303) Iter5 Msg15 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=7, Conf=No confidence found
+2025-05-16 05:45:06,751 - INFO - Q_num6 (Question ID 303) Iter5 Msg16 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=7, Conf=No confidence found
+2025-05-16 05:45:06,751 - INFO - Q_num6 (Question ID 303) Iter5 Msg17 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=7, Conf=No confidence found
+2025-05-16 05:45:06,751 - INFO - Q_num6 (Question ID 303) Iter5 Msg18 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=7, Conf=No confidence found
+2025-05-16 05:45:06,751 - INFO - Q_num6 (Question ID 303) Iter5 Msg19 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=7, Conf=No confidence found
+2025-05-16 05:45:06,751 - INFO - Q_num6 (Question ID 303) Iter5 Msg20 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=7, Conf=No confidence found
+2025-05-16 05:45:06,751 - INFO - Q_num6 (Question ID 303) Iter5 Msg21 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=7, Conf=No confidence found
+2025-05-16 05:45:06,751 - INFO - Q_num6 (Question ID 303) Iter5 Msg22 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=7, Conf=No confidence found
+2025-05-16 05:45:06,751 - INFO - Q_num6 (Question ID 303) Iter5 Msg23 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=7, Conf=No confidence found
+2025-05-16 05:45:06,751 - INFO - Q_num6 (Question ID 303) Iter5 Msg24 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=7, Conf=No confidence found
+2025-05-16 05:45:06,839 - INFO - --- Finished Q_num6 (ID 303) Iter5. Results saved. ---
+2025-05-16 05:45:06,914 - INFO - --- Running Q_num7 (ID 308) Iter1/5 ---
+2025-05-16 05:45:06,914 - INFO - Task: It is far less wrong to fail to help someone than it is to actively harm them yourself....
+2025-05-16 05:45:07,133 - INFO - Q_num7 (Question ID 308) Iter0: Starting chat with 6 agents.
+2025-05-16 05:46:19,354 - INFO - Q_num7 (Question ID 308) Iter0: Chat finished in 72.22 seconds.
+2025-05-16 05:46:19,354 - INFO - Q_num7 (Question ID 308) Iter1 Msg1 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=2, Conf=No confidence found
+2025-05-16 05:46:19,354 - INFO - Q_num7 (Question ID 308) Iter1 Msg2 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:46:19,355 - INFO - Q_num7 (Question ID 308) Iter1 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=2, Conf=No confidence found
+2025-05-16 05:46:19,355 - INFO - Q_num7 (Question ID 308) Iter1 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=2, Conf=No confidence found
+2025-05-16 05:46:19,355 - INFO - Q_num7 (Question ID 308) Iter1 Msg5 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=3, Conf=No confidence found
+2025-05-16 05:46:19,355 - INFO - Q_num7 (Question ID 308) Iter1 Msg6 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=2, Conf=No confidence found
+2025-05-16 05:46:19,355 - INFO - Q_num7 (Question ID 308) Iter1 Msg7 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=2, Conf=No confidence found
+2025-05-16 05:46:19,355 - INFO - Q_num7 (Question ID 308) Iter1 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=2, Conf=No confidence found
+2025-05-16 05:46:19,355 - INFO - Q_num7 (Question ID 308) Iter1 Msg9 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:46:19,355 - INFO - Q_num7 (Question ID 308) Iter1 Msg10 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=2, Conf=No confidence found
+2025-05-16 05:46:19,355 - INFO - Q_num7 (Question ID 308) Iter1 Msg11 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=2, Conf=No confidence found
+2025-05-16 05:46:19,355 - INFO - Q_num7 (Question ID 308) Iter1 Msg12 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=2, Conf=No confidence found
+2025-05-16 05:46:19,355 - INFO - Q_num7 (Question ID 308) Iter1 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:46:19,355 - INFO - Q_num7 (Question ID 308) Iter1 Msg14 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=3, Conf=No confidence found
+2025-05-16 05:46:19,355 - INFO - Q_num7 (Question ID 308) Iter1 Msg15 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=2, Conf=No confidence found
+2025-05-16 05:46:19,355 - INFO - Q_num7 (Question ID 308) Iter1 Msg16 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=2, Conf=No confidence found
+2025-05-16 05:46:19,356 - INFO - Q_num7 (Question ID 308) Iter1 Msg17 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=1, Conf=No confidence found
+2025-05-16 05:46:19,356 - INFO - Q_num7 (Question ID 308) Iter1 Msg18 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=2, Conf=No confidence found
+2025-05-16 05:46:19,356 - INFO - Q_num7 (Question ID 308) Iter1 Msg19 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=2, Conf=No confidence found
+2025-05-16 05:46:19,356 - INFO - Q_num7 (Question ID 308) Iter1 Msg20 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=1, Conf=No confidence found
+2025-05-16 05:46:19,356 - INFO - Q_num7 (Question ID 308) Iter1 Msg21 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=1, Conf=No confidence found
+2025-05-16 05:46:19,356 - INFO - Q_num7 (Question ID 308) Iter1 Msg22 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=1, Conf=No confidence found
+2025-05-16 05:46:19,356 - INFO - Q_num7 (Question ID 308) Iter1 Msg23 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=1, Conf=No confidence found
+2025-05-16 05:46:19,356 - INFO - Q_num7 (Question ID 308) Iter1 Msg24 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=1, Conf=No confidence found
+2025-05-16 05:46:19,446 - INFO - --- Finished Q_num7 (ID 308) Iter1. Results saved. ---
+2025-05-16 05:46:19,522 - INFO - --- Running Q_num7 (ID 308) Iter2/5 ---
+2025-05-16 05:46:19,523 - INFO - Task: It is far less wrong to fail to help someone than it is to actively harm them yourself....
+2025-05-16 05:46:19,743 - INFO - Q_num7 (Question ID 308) Iter1: Starting chat with 6 agents.
+2025-05-16 05:47:33,957 - INFO - Q_num7 (Question ID 308) Iter1: Chat finished in 74.21 seconds.
+2025-05-16 05:47:33,957 - INFO - Q_num7 (Question ID 308) Iter2 Msg1 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=2, Conf=No confidence found
+2025-05-16 05:47:33,957 - INFO - Q_num7 (Question ID 308) Iter2 Msg2 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:47:33,957 - INFO - Q_num7 (Question ID 308) Iter2 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:47:33,957 - INFO - Q_num7 (Question ID 308) Iter2 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=3, Conf=No confidence found
+2025-05-16 05:47:33,957 - INFO - Q_num7 (Question ID 308) Iter2 Msg5 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=2, Conf=No confidence found
+2025-05-16 05:47:33,958 - INFO - Q_num7 (Question ID 308) Iter2 Msg6 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=2, Conf=No confidence found
+2025-05-16 05:47:33,958 - INFO - Q_num7 (Question ID 308) Iter2 Msg7 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=2, Conf=No confidence found
+2025-05-16 05:47:33,958 - INFO - Q_num7 (Question ID 308) Iter2 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=2, Conf=No confidence found
+2025-05-16 05:47:33,958 - INFO - Q_num7 (Question ID 308) Iter2 Msg9 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=2, Conf=No confidence found
+2025-05-16 05:47:33,958 - INFO - Q_num7 (Question ID 308) Iter2 Msg10 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=2, Conf=No confidence found
+2025-05-16 05:47:33,958 - INFO - Q_num7 (Question ID 308) Iter2 Msg11 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:47:33,958 - INFO - Q_num7 (Question ID 308) Iter2 Msg12 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=2, Conf=No confidence found
+2025-05-16 05:47:33,958 - INFO - Q_num7 (Question ID 308) Iter2 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=3, Conf=No confidence found
+2025-05-16 05:47:33,958 - INFO - Q_num7 (Question ID 308) Iter2 Msg14 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:47:33,958 - INFO - Q_num7 (Question ID 308) Iter2 Msg15 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=2, Conf=No confidence found
+2025-05-16 05:47:33,959 - INFO - Q_num7 (Question ID 308) Iter2 Msg16 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=3, Conf=No confidence found
+2025-05-16 05:47:33,959 - INFO - Q_num7 (Question ID 308) Iter2 Msg17 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=3, Conf=No confidence found
+2025-05-16 05:47:33,959 - INFO - Q_num7 (Question ID 308) Iter2 Msg18 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=2, Conf=No confidence found
+2025-05-16 05:47:33,959 - INFO - Q_num7 (Question ID 308) Iter2 Msg19 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:47:33,959 - INFO - Q_num7 (Question ID 308) Iter2 Msg20 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=2, Conf=No confidence found
+2025-05-16 05:47:33,959 - INFO - Q_num7 (Question ID 308) Iter2 Msg21 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=3, Conf=No confidence found
+2025-05-16 05:47:33,959 - INFO - Q_num7 (Question ID 308) Iter2 Msg22 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=3, Conf=No confidence found
+2025-05-16 05:47:33,959 - INFO - Q_num7 (Question ID 308) Iter2 Msg23 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:47:33,959 - INFO - Q_num7 (Question ID 308) Iter2 Msg24 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=2, Conf=No confidence found
+2025-05-16 05:47:34,045 - INFO - --- Finished Q_num7 (ID 308) Iter2. Results saved. ---
+2025-05-16 05:47:34,122 - INFO - --- Running Q_num7 (ID 308) Iter3/5 ---
+2025-05-16 05:47:34,122 - INFO - Task: It is far less wrong to fail to help someone than it is to actively harm them yourself....
+2025-05-16 05:47:34,344 - INFO - Q_num7 (Question ID 308) Iter2: Starting chat with 6 agents.
+2025-05-16 05:48:53,625 - INFO - Q_num7 (Question ID 308) Iter2: Chat finished in 79.28 seconds.
+2025-05-16 05:48:53,626 - INFO - Q_num7 (Question ID 308) Iter3 Msg1 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=2, Conf=No confidence found
+2025-05-16 05:48:53,626 - INFO - Q_num7 (Question ID 308) Iter3 Msg2 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:48:53,626 - INFO - Q_num7 (Question ID 308) Iter3 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=2, Conf=No confidence found
+2025-05-16 05:48:53,626 - INFO - Q_num7 (Question ID 308) Iter3 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=2, Conf=No confidence found
+2025-05-16 05:48:53,626 - INFO - Q_num7 (Question ID 308) Iter3 Msg5 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:48:53,626 - INFO - Q_num7 (Question ID 308) Iter3 Msg6 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=3, Conf=No confidence found
+2025-05-16 05:48:53,626 - INFO - Q_num7 (Question ID 308) Iter3 Msg7 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:48:53,626 - INFO - Q_num7 (Question ID 308) Iter3 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=3, Conf=No confidence found
+2025-05-16 05:48:53,626 - INFO - Q_num7 (Question ID 308) Iter3 Msg9 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=2, Conf=No confidence found
+2025-05-16 05:48:53,626 - INFO - Q_num7 (Question ID 308) Iter3 Msg10 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=2, Conf=No confidence found
+2025-05-16 05:48:53,626 - INFO - Q_num7 (Question ID 308) Iter3 Msg11 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:48:53,627 - INFO - Q_num7 (Question ID 308) Iter3 Msg12 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=2, Conf=No confidence found
+2025-05-16 05:48:53,627 - INFO - Q_num7 (Question ID 308) Iter3 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:48:53,627 - INFO - Q_num7 (Question ID 308) Iter3 Msg14 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:48:53,627 - INFO - Q_num7 (Question ID 308) Iter3 Msg15 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=2, Conf=No confidence found
+2025-05-16 05:48:53,627 - INFO - Q_num7 (Question ID 308) Iter3 Msg16 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:48:53,627 - INFO - Q_num7 (Question ID 308) Iter3 Msg17 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=2, Conf=No confidence found
+2025-05-16 05:48:53,627 - INFO - Q_num7 (Question ID 308) Iter3 Msg18 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:48:53,627 - INFO - Q_num7 (Question ID 308) Iter3 Msg19 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:48:53,627 - INFO - Q_num7 (Question ID 308) Iter3 Msg20 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=2, Conf=No confidence found
+2025-05-16 05:48:53,627 - INFO - Q_num7 (Question ID 308) Iter3 Msg21 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=2, Conf=No confidence found
+2025-05-16 05:48:53,627 - INFO - Q_num7 (Question ID 308) Iter3 Msg22 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:48:53,627 - INFO - Q_num7 (Question ID 308) Iter3 Msg23 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:48:53,627 - INFO - Q_num7 (Question ID 308) Iter3 Msg24 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:48:53,718 - INFO - --- Finished Q_num7 (ID 308) Iter3. Results saved. ---
+2025-05-16 05:48:53,794 - INFO - --- Running Q_num7 (ID 308) Iter4/5 ---
+2025-05-16 05:48:53,794 - INFO - Task: It is far less wrong to fail to help someone than it is to actively harm them yourself....
+2025-05-16 05:48:54,009 - INFO - Q_num7 (Question ID 308) Iter3: Starting chat with 6 agents.
+2025-05-16 05:50:12,827 - INFO - Q_num7 (Question ID 308) Iter3: Chat finished in 78.82 seconds.
+2025-05-16 05:50:12,828 - INFO - Q_num7 (Question ID 308) Iter4 Msg1 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=2, Conf=No confidence found
+2025-05-16 05:50:12,828 - INFO - Q_num7 (Question ID 308) Iter4 Msg2 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=3, Conf=No confidence found
+2025-05-16 05:50:12,828 - INFO - Q_num7 (Question ID 308) Iter4 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=2, Conf=No confidence found
+2025-05-16 05:50:12,828 - INFO - Q_num7 (Question ID 308) Iter4 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:50:12,828 - INFO - Q_num7 (Question ID 308) Iter4 Msg5 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=2, Conf=No confidence found
+2025-05-16 05:50:12,828 - INFO - Q_num7 (Question ID 308) Iter4 Msg6 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=2, Conf=No confidence found
+2025-05-16 05:50:12,828 - INFO - Q_num7 (Question ID 308) Iter4 Msg7 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=2, Conf=No confidence found
+2025-05-16 05:50:12,828 - INFO - Q_num7 (Question ID 308) Iter4 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=2, Conf=No confidence found
+2025-05-16 05:50:12,828 - INFO - Q_num7 (Question ID 308) Iter4 Msg9 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:50:12,828 - INFO - Q_num7 (Question ID 308) Iter4 Msg10 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=2, Conf=No confidence found
+2025-05-16 05:50:12,828 - INFO - Q_num7 (Question ID 308) Iter4 Msg11 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:50:12,828 - INFO - Q_num7 (Question ID 308) Iter4 Msg12 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=2, Conf=No confidence found
+2025-05-16 05:50:12,829 - INFO - Q_num7 (Question ID 308) Iter4 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:50:12,829 - INFO - Q_num7 (Question ID 308) Iter4 Msg14 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=2, Conf=No confidence found
+2025-05-16 05:50:12,829 - INFO - Q_num7 (Question ID 308) Iter4 Msg15 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=2, Conf=No confidence found
+2025-05-16 05:50:12,829 - INFO - Q_num7 (Question ID 308) Iter4 Msg16 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=2, Conf=No confidence found
+2025-05-16 05:50:12,829 - INFO - Q_num7 (Question ID 308) Iter4 Msg17 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=2, Conf=No confidence found
+2025-05-16 05:50:12,829 - INFO - Q_num7 (Question ID 308) Iter4 Msg18 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=2, Conf=No confidence found
+2025-05-16 05:50:12,829 - INFO - Q_num7 (Question ID 308) Iter4 Msg19 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=2, Conf=No confidence found
+2025-05-16 05:50:12,829 - INFO - Q_num7 (Question ID 308) Iter4 Msg20 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=2, Conf=No confidence found
+2025-05-16 05:50:12,829 - INFO - Q_num7 (Question ID 308) Iter4 Msg21 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=2, Conf=No confidence found
+2025-05-16 05:50:12,829 - INFO - Q_num7 (Question ID 308) Iter4 Msg22 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=2, Conf=No confidence found
+2025-05-16 05:50:12,829 - INFO - Q_num7 (Question ID 308) Iter4 Msg23 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=2, Conf=No confidence found
+2025-05-16 05:50:12,829 - INFO - Q_num7 (Question ID 308) Iter4 Msg24 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=2, Conf=No confidence found
+2025-05-16 05:50:12,916 - INFO - --- Finished Q_num7 (ID 308) Iter4. Results saved. ---
+2025-05-16 05:50:12,992 - INFO - --- Running Q_num7 (ID 308) Iter5/5 ---
+2025-05-16 05:50:12,992 - INFO - Task: It is far less wrong to fail to help someone than it is to actively harm them yourself....
+2025-05-16 05:50:13,211 - INFO - Q_num7 (Question ID 308) Iter4: Starting chat with 6 agents.
+2025-05-16 05:51:23,715 - INFO - Q_num7 (Question ID 308) Iter4: Chat finished in 70.50 seconds.
+2025-05-16 05:51:23,715 - INFO - Q_num7 (Question ID 308) Iter5 Msg1 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=2, Conf=No confidence found
+2025-05-16 05:51:23,715 - INFO - Q_num7 (Question ID 308) Iter5 Msg2 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=2, Conf=No confidence found
+2025-05-16 05:51:23,715 - INFO - Q_num7 (Question ID 308) Iter5 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=2, Conf=No confidence found
+2025-05-16 05:51:23,716 - INFO - Q_num7 (Question ID 308) Iter5 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=2, Conf=No confidence found
+2025-05-16 05:51:23,716 - INFO - Q_num7 (Question ID 308) Iter5 Msg5 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=2, Conf=No confidence found
+2025-05-16 05:51:23,716 - INFO - Q_num7 (Question ID 308) Iter5 Msg6 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:51:23,716 - INFO - Q_num7 (Question ID 308) Iter5 Msg7 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=2, Conf=No confidence found
+2025-05-16 05:51:23,716 - INFO - Q_num7 (Question ID 308) Iter5 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=2, Conf=No confidence found
+2025-05-16 05:51:23,716 - INFO - Q_num7 (Question ID 308) Iter5 Msg9 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=2, Conf=No confidence found
+2025-05-16 05:51:23,716 - INFO - Q_num7 (Question ID 308) Iter5 Msg10 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=2, Conf=No confidence found
+2025-05-16 05:51:23,716 - INFO - Q_num7 (Question ID 308) Iter5 Msg11 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=2, Conf=No confidence found
+2025-05-16 05:51:23,716 - INFO - Q_num7 (Question ID 308) Iter5 Msg12 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=2, Conf=No confidence found
+2025-05-16 05:51:23,716 - INFO - Q_num7 (Question ID 308) Iter5 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=2, Conf=No confidence found
+2025-05-16 05:51:23,716 - INFO - Q_num7 (Question ID 308) Iter5 Msg14 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=2, Conf=No confidence found
+2025-05-16 05:51:23,716 - INFO - Q_num7 (Question ID 308) Iter5 Msg15 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=2, Conf=No confidence found
+2025-05-16 05:51:23,716 - INFO - Q_num7 (Question ID 308) Iter5 Msg16 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=2, Conf=No confidence found
+2025-05-16 05:51:23,717 - INFO - Q_num7 (Question ID 308) Iter5 Msg17 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=2, Conf=No confidence found
+2025-05-16 05:51:23,717 - INFO - Q_num7 (Question ID 308) Iter5 Msg18 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=2, Conf=No confidence found
+2025-05-16 05:51:23,717 - INFO - Q_num7 (Question ID 308) Iter5 Msg19 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=2, Conf=No confidence found
+2025-05-16 05:51:23,717 - INFO - Q_num7 (Question ID 308) Iter5 Msg20 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=2, Conf=No confidence found
+2025-05-16 05:51:23,717 - INFO - Q_num7 (Question ID 308) Iter5 Msg21 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=2, Conf=No confidence found
+2025-05-16 05:51:23,717 - INFO - Q_num7 (Question ID 308) Iter5 Msg22 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=2, Conf=No confidence found
+2025-05-16 05:51:23,717 - INFO - Q_num7 (Question ID 308) Iter5 Msg23 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=1, Conf=No confidence found
+2025-05-16 05:51:23,717 - INFO - Q_num7 (Question ID 308) Iter5 Msg24 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=2, Conf=No confidence found
+2025-05-16 05:51:23,806 - INFO - --- Finished Q_num7 (ID 308) Iter5. Results saved. ---
+2025-05-16 05:51:23,882 - INFO - --- Running Q_num8 (ID 304) Iter1/5 ---
+2025-05-16 05:51:23,882 - INFO - Task: Sometimes it is morally necessary to spare innocent people as collateral damage—even if fewer people...
+2025-05-16 05:51:24,102 - INFO - Q_num8 (Question ID 304) Iter0: Starting chat with 6 agents.
+2025-05-16 05:52:20,838 - INFO - Q_num8 (Question ID 304) Iter0: Chat finished in 56.74 seconds.
+2025-05-16 05:52:20,838 - INFO - Q_num8 (Question ID 304) Iter1 Msg1 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=4, Conf=No confidence found
+2025-05-16 05:52:20,838 - INFO - Q_num8 (Question ID 304) Iter1 Msg2 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=4, Conf=No confidence found
+2025-05-16 05:52:20,838 - INFO - Q_num8 (Question ID 304) Iter1 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=2, Conf=No confidence found
+2025-05-16 05:52:20,838 - INFO - Q_num8 (Question ID 304) Iter1 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=3, Conf=No confidence found
+2025-05-16 05:52:20,838 - INFO - Q_num8 (Question ID 304) Iter1 Msg5 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=2, Conf=No confidence found
+2025-05-16 05:52:20,838 - INFO - Q_num8 (Question ID 304) Iter1 Msg6 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=2, Conf=No confidence found
+2025-05-16 05:52:20,838 - INFO - Q_num8 (Question ID 304) Iter1 Msg7 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=1, Conf=No confidence found
+2025-05-16 05:52:20,838 - INFO - Q_num8 (Question ID 304) Iter1 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=3, Conf=No confidence found
+2025-05-16 05:52:20,839 - INFO - Q_num8 (Question ID 304) Iter1 Msg9 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=2, Conf=No confidence found
+2025-05-16 05:52:20,839 - INFO - Q_num8 (Question ID 304) Iter1 Msg10 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=2, Conf=No confidence found
+2025-05-16 05:52:20,839 - INFO - Q_num8 (Question ID 304) Iter1 Msg11 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=1, Conf=No confidence found
+2025-05-16 05:52:20,839 - INFO - Q_num8 (Question ID 304) Iter1 Msg12 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=1, Conf=No confidence found
+2025-05-16 05:52:20,839 - INFO - Q_num8 (Question ID 304) Iter1 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=3, Conf=No confidence found
+2025-05-16 05:52:20,839 - INFO - Q_num8 (Question ID 304) Iter1 Msg14 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=3, Conf=No confidence found
+2025-05-16 05:52:20,839 - INFO - Q_num8 (Question ID 304) Iter1 Msg15 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=1, Conf=No confidence found
+2025-05-16 05:52:20,839 - INFO - Q_num8 (Question ID 304) Iter1 Msg16 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=1, Conf=No confidence found
+2025-05-16 05:52:20,839 - INFO - Q_num8 (Question ID 304) Iter1 Msg17 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:52:20,839 - INFO - Q_num8 (Question ID 304) Iter1 Msg18 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=3, Conf=No confidence found
+2025-05-16 05:52:20,839 - INFO - Q_num8 (Question ID 304) Iter1 Msg19 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:52:20,839 - INFO - Q_num8 (Question ID 304) Iter1 Msg20 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=2, Conf=No confidence found
+2025-05-16 05:52:20,839 - INFO - Q_num8 (Question ID 304) Iter1 Msg21 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=1, Conf=No confidence found
+2025-05-16 05:52:20,839 - INFO - Q_num8 (Question ID 304) Iter1 Msg22 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:52:20,840 - INFO - Q_num8 (Question ID 304) Iter1 Msg23 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=4, Conf=No confidence found
+2025-05-16 05:52:20,840 - INFO - Q_num8 (Question ID 304) Iter1 Msg24 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=1, Conf=No confidence found
+2025-05-16 05:52:20,928 - INFO - --- Finished Q_num8 (ID 304) Iter1. Results saved. ---
+2025-05-16 05:52:21,003 - INFO - --- Running Q_num8 (ID 304) Iter2/5 ---
+2025-05-16 05:52:21,003 - INFO - Task: Sometimes it is morally necessary to spare innocent people as collateral damage—even if fewer people...
+2025-05-16 05:52:21,224 - INFO - Q_num8 (Question ID 304) Iter1: Starting chat with 6 agents.
+2025-05-16 05:53:23,594 - INFO - Q_num8 (Question ID 304) Iter1: Chat finished in 62.37 seconds.
+2025-05-16 05:53:23,594 - INFO - Q_num8 (Question ID 304) Iter2 Msg1 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=4, Conf=No confidence found
+2025-05-16 05:53:23,594 - INFO - Q_num8 (Question ID 304) Iter2 Msg2 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=3, Conf=No confidence found
+2025-05-16 05:53:23,594 - INFO - Q_num8 (Question ID 304) Iter2 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=5, Conf=No confidence found
+2025-05-16 05:53:23,594 - INFO - Q_num8 (Question ID 304) Iter2 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=5, Conf=No confidence found
+2025-05-16 05:53:23,594 - INFO - Q_num8 (Question ID 304) Iter2 Msg5 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=2, Conf=No confidence found
+2025-05-16 05:53:23,595 - INFO - Q_num8 (Question ID 304) Iter2 Msg6 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=2, Conf=No confidence found
+2025-05-16 05:53:23,595 - INFO - Q_num8 (Question ID 304) Iter2 Msg7 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=4, Conf=No confidence found
+2025-05-16 05:53:23,595 - INFO - Q_num8 (Question ID 304) Iter2 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:53:23,595 - INFO - Q_num8 (Question ID 304) Iter2 Msg9 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=2, Conf=No confidence found
+2025-05-16 05:53:23,595 - INFO - Q_num8 (Question ID 304) Iter2 Msg10 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=1, Conf=No confidence found
+2025-05-16 05:53:23,595 - INFO - Q_num8 (Question ID 304) Iter2 Msg11 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=1, Conf=No confidence found
+2025-05-16 05:53:23,595 - INFO - Q_num8 (Question ID 304) Iter2 Msg12 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=1, Conf=No confidence found
+2025-05-16 05:53:23,595 - INFO - Q_num8 (Question ID 304) Iter2 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=1, Conf=No confidence found
+2025-05-16 05:53:23,595 - INFO - Q_num8 (Question ID 304) Iter2 Msg14 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=1, Conf=No confidence found
+2025-05-16 05:53:23,595 - INFO - Q_num8 (Question ID 304) Iter2 Msg15 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=1, Conf=No confidence found
+2025-05-16 05:53:23,595 - INFO - Q_num8 (Question ID 304) Iter2 Msg16 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=4, Conf=No confidence found
+2025-05-16 05:53:23,595 - INFO - Q_num8 (Question ID 304) Iter2 Msg17 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=1, Conf=No confidence found
+2025-05-16 05:53:23,595 - INFO - Q_num8 (Question ID 304) Iter2 Msg18 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=1, Conf=No confidence found
+2025-05-16 05:53:23,596 - INFO - Q_num8 (Question ID 304) Iter2 Msg19 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=1, Conf=No confidence found
+2025-05-16 05:53:23,596 - INFO - Q_num8 (Question ID 304) Iter2 Msg20 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=1, Conf=No confidence found
+2025-05-16 05:53:23,596 - INFO - Q_num8 (Question ID 304) Iter2 Msg21 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=1, Conf=No confidence found
+2025-05-16 05:53:23,596 - INFO - Q_num8 (Question ID 304) Iter2 Msg22 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=1, Conf=No confidence found
+2025-05-16 05:53:23,596 - INFO - Q_num8 (Question ID 304) Iter2 Msg23 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=1, Conf=No confidence found
+2025-05-16 05:53:23,596 - INFO - Q_num8 (Question ID 304) Iter2 Msg24 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=3, Conf=No confidence found
+2025-05-16 05:53:23,688 - INFO - --- Finished Q_num8 (ID 304) Iter2. Results saved. ---
+2025-05-16 05:53:23,763 - INFO - --- Running Q_num8 (ID 304) Iter3/5 ---
+2025-05-16 05:53:23,764 - INFO - Task: Sometimes it is morally necessary to spare innocent people as collateral damage—even if fewer people...
+2025-05-16 05:53:23,991 - INFO - Q_num8 (Question ID 304) Iter2: Starting chat with 6 agents.
+2025-05-16 05:54:19,503 - INFO - Q_num8 (Question ID 304) Iter2: Chat finished in 55.51 seconds.
+2025-05-16 05:54:19,504 - INFO - Q_num8 (Question ID 304) Iter3 Msg1 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=3, Conf=No confidence found
+2025-05-16 05:54:19,504 - INFO - Q_num8 (Question ID 304) Iter3 Msg2 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=5, Conf=No confidence found
+2025-05-16 05:54:19,504 - INFO - Q_num8 (Question ID 304) Iter3 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=4, Conf=No confidence found
+2025-05-16 05:54:19,504 - INFO - Q_num8 (Question ID 304) Iter3 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=4, Conf=No confidence found
+2025-05-16 05:54:19,504 - INFO - Q_num8 (Question ID 304) Iter3 Msg5 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=4, Conf=No confidence found
+2025-05-16 05:54:19,504 - INFO - Q_num8 (Question ID 304) Iter3 Msg6 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=4, Conf=No confidence found
+2025-05-16 05:54:19,504 - INFO - Q_num8 (Question ID 304) Iter3 Msg7 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=6, Conf=No confidence found
+2025-05-16 05:54:19,504 - INFO - Q_num8 (Question ID 304) Iter3 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:54:19,504 - INFO - Q_num8 (Question ID 304) Iter3 Msg9 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=2, Conf=No confidence found
+2025-05-16 05:54:19,504 - INFO - Q_num8 (Question ID 304) Iter3 Msg10 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=1, Conf=No confidence found
+2025-05-16 05:54:19,504 - INFO - Q_num8 (Question ID 304) Iter3 Msg11 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=1, Conf=No confidence found
+2025-05-16 05:54:19,504 - INFO - Q_num8 (Question ID 304) Iter3 Msg12 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=1, Conf=No confidence found
+2025-05-16 05:54:19,504 - INFO - Q_num8 (Question ID 304) Iter3 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=1, Conf=No confidence found
+2025-05-16 05:54:19,505 - INFO - Q_num8 (Question ID 304) Iter3 Msg14 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=1, Conf=No confidence found
+2025-05-16 05:54:19,505 - INFO - Q_num8 (Question ID 304) Iter3 Msg15 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:54:19,505 - INFO - Q_num8 (Question ID 304) Iter3 Msg16 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=1, Conf=No confidence found
+2025-05-16 05:54:19,505 - INFO - Q_num8 (Question ID 304) Iter3 Msg17 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=2, Conf=No confidence found
+2025-05-16 05:54:19,505 - INFO - Q_num8 (Question ID 304) Iter3 Msg18 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=2, Conf=No confidence found
+2025-05-16 05:54:19,505 - INFO - Q_num8 (Question ID 304) Iter3 Msg19 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=2, Conf=No confidence found
+2025-05-16 05:54:19,505 - INFO - Q_num8 (Question ID 304) Iter3 Msg20 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=2, Conf=No confidence found
+2025-05-16 05:54:19,505 - INFO - Q_num8 (Question ID 304) Iter3 Msg21 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=2, Conf=No confidence found
+2025-05-16 05:54:19,505 - INFO - Q_num8 (Question ID 304) Iter3 Msg22 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=1, Conf=No confidence found
+2025-05-16 05:54:19,505 - INFO - Q_num8 (Question ID 304) Iter3 Msg23 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=1, Conf=No confidence found
+2025-05-16 05:54:19,505 - INFO - Q_num8 (Question ID 304) Iter3 Msg24 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=1, Conf=No confidence found
+2025-05-16 05:54:19,593 - INFO - --- Finished Q_num8 (ID 304) Iter3. Results saved. ---
+2025-05-16 05:54:19,668 - INFO - --- Running Q_num8 (ID 304) Iter4/5 ---
+2025-05-16 05:54:19,668 - INFO - Task: Sometimes it is morally necessary to spare innocent people as collateral damage—even if fewer people...
+2025-05-16 05:54:19,888 - INFO - Q_num8 (Question ID 304) Iter3: Starting chat with 6 agents.
+2025-05-16 05:55:31,674 - INFO - Q_num8 (Question ID 304) Iter3: Chat finished in 71.79 seconds.
+2025-05-16 05:55:31,674 - INFO - Q_num8 (Question ID 304) Iter4 Msg1 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=4, Conf=No confidence found
+2025-05-16 05:55:31,674 - INFO - Q_num8 (Question ID 304) Iter4 Msg2 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=5, Conf=No confidence found
+2025-05-16 05:55:31,675 - INFO - Q_num8 (Question ID 304) Iter4 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=7, Conf=No confidence found
+2025-05-16 05:55:31,675 - INFO - Q_num8 (Question ID 304) Iter4 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=7, Conf=No confidence found
+2025-05-16 05:55:31,675 - INFO - Q_num8 (Question ID 304) Iter4 Msg5 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:55:31,675 - INFO - Q_num8 (Question ID 304) Iter4 Msg6 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=7, Conf=No confidence found
+2025-05-16 05:55:31,675 - INFO - Q_num8 (Question ID 304) Iter4 Msg7 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=7, Conf=No confidence found
+2025-05-16 05:55:31,675 - INFO - Q_num8 (Question ID 304) Iter4 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=7, Conf=No confidence found
+2025-05-16 05:55:31,675 - INFO - Q_num8 (Question ID 304) Iter4 Msg9 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=7, Conf=No confidence found
+2025-05-16 05:55:31,675 - INFO - Q_num8 (Question ID 304) Iter4 Msg10 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=7, Conf=No confidence found
+2025-05-16 05:55:31,675 - INFO - Q_num8 (Question ID 304) Iter4 Msg11 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:55:31,675 - INFO - Q_num8 (Question ID 304) Iter4 Msg12 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=7, Conf=No confidence found
+2025-05-16 05:55:31,675 - INFO - Q_num8 (Question ID 304) Iter4 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=7, Conf=No confidence found
+2025-05-16 05:55:31,675 - INFO - Q_num8 (Question ID 304) Iter4 Msg14 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=7, Conf=No confidence found
+2025-05-16 05:55:31,676 - INFO - Q_num8 (Question ID 304) Iter4 Msg15 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=7, Conf=No confidence found
+2025-05-16 05:55:31,676 - INFO - Q_num8 (Question ID 304) Iter4 Msg16 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:55:31,676 - INFO - Q_num8 (Question ID 304) Iter4 Msg17 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=7, Conf=No confidence found
+2025-05-16 05:55:31,676 - INFO - Q_num8 (Question ID 304) Iter4 Msg18 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=7, Conf=No confidence found
+2025-05-16 05:55:31,676 - INFO - Q_num8 (Question ID 304) Iter4 Msg19 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=7, Conf=No confidence found
+2025-05-16 05:55:31,676 - INFO - Q_num8 (Question ID 304) Iter4 Msg20 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=7, Conf=No confidence found
+2025-05-16 05:55:31,676 - INFO - Q_num8 (Question ID 304) Iter4 Msg21 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:55:31,676 - INFO - Q_num8 (Question ID 304) Iter4 Msg22 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=7, Conf=No confidence found
+2025-05-16 05:55:31,676 - INFO - Q_num8 (Question ID 304) Iter4 Msg23 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=7, Conf=No confidence found
+2025-05-16 05:55:31,676 - INFO - Q_num8 (Question ID 304) Iter4 Msg24 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=7, Conf=No confidence found
+2025-05-16 05:55:31,767 - INFO - --- Finished Q_num8 (ID 304) Iter4. Results saved. ---
+2025-05-16 05:55:31,844 - INFO - --- Running Q_num8 (ID 304) Iter5/5 ---
+2025-05-16 05:55:31,844 - INFO - Task: Sometimes it is morally necessary to spare innocent people as collateral damage—even if fewer people...
+2025-05-16 05:55:32,069 - INFO - Q_num8 (Question ID 304) Iter4: Starting chat with 6 agents.
+2025-05-16 05:56:30,672 - INFO - Q_num8 (Question ID 304) Iter4: Chat finished in 58.60 seconds.
+2025-05-16 05:56:30,672 - INFO - Q_num8 (Question ID 304) Iter5 Msg1 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=6, Conf=No confidence found
+2025-05-16 05:56:30,672 - INFO - Q_num8 (Question ID 304) Iter5 Msg2 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=7, Conf=No confidence found
+2025-05-16 05:56:30,672 - INFO - Q_num8 (Question ID 304) Iter5 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=7, Conf=No confidence found
+2025-05-16 05:56:30,672 - INFO - Q_num8 (Question ID 304) Iter5 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=7, Conf=No confidence found
+2025-05-16 05:56:30,672 - INFO - Q_num8 (Question ID 304) Iter5 Msg5 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=7, Conf=No confidence found
+2025-05-16 05:56:30,672 - INFO - Q_num8 (Question ID 304) Iter5 Msg6 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:56:30,672 - INFO - Q_num8 (Question ID 304) Iter5 Msg7 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=7, Conf=No confidence found
+2025-05-16 05:56:30,672 - INFO - Q_num8 (Question ID 304) Iter5 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:56:30,672 - INFO - Q_num8 (Question ID 304) Iter5 Msg9 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=7, Conf=No confidence found
+2025-05-16 05:56:30,673 - INFO - Q_num8 (Question ID 304) Iter5 Msg10 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=7, Conf=No confidence found
+2025-05-16 05:56:30,673 - INFO - Q_num8 (Question ID 304) Iter5 Msg11 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=7, Conf=No confidence found
+2025-05-16 05:56:30,673 - INFO - Q_num8 (Question ID 304) Iter5 Msg12 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:56:30,673 - INFO - Q_num8 (Question ID 304) Iter5 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=7, Conf=No confidence found
+2025-05-16 05:56:30,673 - INFO - Q_num8 (Question ID 304) Iter5 Msg14 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=7, Conf=No confidence found
+2025-05-16 05:56:30,673 - INFO - Q_num8 (Question ID 304) Iter5 Msg15 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=7, Conf=No confidence found
+2025-05-16 05:56:30,673 - INFO - Q_num8 (Question ID 304) Iter5 Msg16 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=7, Conf=No confidence found
+2025-05-16 05:56:30,673 - INFO - Q_num8 (Question ID 304) Iter5 Msg17 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=7, Conf=No confidence found
+2025-05-16 05:56:30,673 - INFO - Q_num8 (Question ID 304) Iter5 Msg18 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=7, Conf=No confidence found
+2025-05-16 05:56:30,673 - INFO - Q_num8 (Question ID 304) Iter5 Msg19 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:56:30,673 - INFO - Q_num8 (Question ID 304) Iter5 Msg20 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=7, Conf=No confidence found
+2025-05-16 05:56:30,673 - INFO - Q_num8 (Question ID 304) Iter5 Msg21 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=7, Conf=No confidence found
+2025-05-16 05:56:30,673 - INFO - Q_num8 (Question ID 304) Iter5 Msg22 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=7, Conf=No confidence found
+2025-05-16 05:56:30,673 - INFO - Q_num8 (Question ID 304) Iter5 Msg23 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=7, Conf=No confidence found
+2025-05-16 05:56:30,673 - INFO - Q_num8 (Question ID 304) Iter5 Msg24 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=7, Conf=No confidence found
+2025-05-16 05:56:30,762 - INFO - --- Finished Q_num8 (ID 304) Iter5. Results saved. ---
+2025-05-16 05:56:30,837 - INFO - --- Running Q_num9 (ID 309) Iter1/5 ---
+2025-05-16 05:56:30,838 - INFO - Task: It is morally permissible to keep money that one doesn't really need even if one can donate it to ca...
+2025-05-16 05:56:31,057 - INFO - Q_num9 (Question ID 309) Iter0: Starting chat with 6 agents.
+2025-05-16 05:58:47,769 - INFO - Q_num9 (Question ID 309) Iter0: Chat finished in 136.71 seconds.
+2025-05-16 05:58:47,769 - INFO - Q_num9 (Question ID 309) Iter1 Msg1 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=5, Conf=No confidence found
+2025-05-16 05:58:47,769 - INFO - Q_num9 (Question ID 309) Iter1 Msg2 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=4, Conf=No confidence found
+2025-05-16 05:58:47,769 - INFO - Q_num9 (Question ID 309) Iter1 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=6, Conf=No confidence found
+2025-05-16 05:58:47,770 - INFO - Q_num9 (Question ID 309) Iter1 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=4, Conf=No confidence found
+2025-05-16 05:58:47,770 - INFO - Q_num9 (Question ID 309) Iter1 Msg5 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=4, Conf=No confidence found
+2025-05-16 05:58:47,770 - INFO - Q_num9 (Question ID 309) Iter1 Msg6 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:58:47,770 - INFO - Q_num9 (Question ID 309) Iter1 Msg7 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=3, Conf=No confidence found
+2025-05-16 05:58:47,770 - INFO - Q_num9 (Question ID 309) Iter1 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=2, Conf=No confidence found
+2025-05-16 05:58:47,770 - INFO - Q_num9 (Question ID 309) Iter1 Msg9 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=3, Conf=No confidence found
+2025-05-16 05:58:47,770 - INFO - Q_num9 (Question ID 309) Iter1 Msg10 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=2, Conf=No confidence found
+2025-05-16 05:58:47,770 - INFO - Q_num9 (Question ID 309) Iter1 Msg11 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=2, Conf=No confidence found
+2025-05-16 05:58:47,770 - INFO - Q_num9 (Question ID 309) Iter1 Msg12 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=3, Conf=No confidence found
+2025-05-16 05:58:47,770 - INFO - Q_num9 (Question ID 309) Iter1 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=3, Conf=No confidence found
+2025-05-16 05:58:47,770 - INFO - Q_num9 (Question ID 309) Iter1 Msg14 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=2, Conf=No confidence found
+2025-05-16 05:58:47,770 - INFO - Q_num9 (Question ID 309) Iter1 Msg15 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=2, Conf=No confidence found
+2025-05-16 05:58:47,770 - INFO - Q_num9 (Question ID 309) Iter1 Msg16 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=2, Conf=No confidence found
+2025-05-16 05:58:47,771 - INFO - Q_num9 (Question ID 309) Iter1 Msg17 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:58:47,771 - INFO - Q_num9 (Question ID 309) Iter1 Msg18 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=2, Conf=No confidence found
+2025-05-16 05:58:47,771 - INFO - Q_num9 (Question ID 309) Iter1 Msg19 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-16 05:58:47,771 - INFO - Q_num9 (Question ID 309) Iter1 Msg20 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=2, Conf=No confidence found
+2025-05-16 05:58:47,771 - INFO - Q_num9 (Question ID 309) Iter1 Msg21 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=2, Conf=No confidence found
+2025-05-16 05:58:47,771 - INFO - Q_num9 (Question ID 309) Iter1 Msg22 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=2, Conf=No confidence found
+2025-05-16 05:58:47,771 - INFO - Q_num9 (Question ID 309) Iter1 Msg23 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=2, Conf=No confidence found
+2025-05-16 05:58:47,771 - INFO - Q_num9 (Question ID 309) Iter1 Msg24 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=2, Conf=No confidence found
+2025-05-16 05:58:47,861 - INFO - --- Finished Q_num9 (ID 309) Iter1. Results saved. ---
+2025-05-16 05:58:47,936 - INFO - --- Running Q_num9 (ID 309) Iter2/5 ---
+2025-05-16 05:58:47,936 - INFO - Task: It is morally permissible to keep money that one doesn't really need even if one can donate it to ca...
+2025-05-16 05:58:48,155 - INFO - Q_num9 (Question ID 309) Iter1: Starting chat with 6 agents.
+2025-05-16 06:04:20,473 - INFO - Q_num9 (Question ID 309) Iter1: Chat finished in 332.32 seconds.
+2025-05-16 06:04:20,473 - INFO - Q_num9 (Question ID 309) Iter2 Msg1 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=5, Conf=No confidence found
+2025-05-16 06:04:20,473 - INFO - Q_num9 (Question ID 309) Iter2 Msg2 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-16 06:04:20,473 - INFO - Q_num9 (Question ID 309) Iter2 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=6, Conf=No confidence found
+2025-05-16 06:04:20,473 - INFO - Q_num9 (Question ID 309) Iter2 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-16 06:04:20,473 - INFO - Q_num9 (Question ID 309) Iter2 Msg5 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=6, Conf=No confidence found
+2025-05-16 06:04:20,473 - INFO - Q_num9 (Question ID 309) Iter2 Msg6 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=6, Conf=No confidence found
+2025-05-16 06:04:20,474 - INFO - Q_num9 (Question ID 309) Iter2 Msg7 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-16 06:04:20,474 - INFO - Q_num9 (Question ID 309) Iter2 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=6, Conf=No confidence found
+2025-05-16 06:04:20,474 - INFO - Q_num9 (Question ID 309) Iter2 Msg9 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=6, Conf=No confidence found
+2025-05-16 06:04:20,474 - INFO - Q_num9 (Question ID 309) Iter2 Msg10 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-16 06:04:20,474 - INFO - Q_num9 (Question ID 309) Iter2 Msg11 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=6, Conf=No confidence found
+2025-05-16 06:04:20,474 - INFO - Q_num9 (Question ID 309) Iter2 Msg12 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=6, Conf=No confidence found
+2025-05-16 06:04:20,474 - INFO - Q_num9 (Question ID 309) Iter2 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=6, Conf=No confidence found
+2025-05-16 06:04:20,474 - INFO - Q_num9 (Question ID 309) Iter2 Msg14 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-16 06:04:20,474 - INFO - Q_num9 (Question ID 309) Iter2 Msg15 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=6, Conf=No confidence found
+2025-05-16 06:04:20,474 - INFO - Q_num9 (Question ID 309) Iter2 Msg16 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=6, Conf=No confidence found
+2025-05-16 06:04:20,474 - INFO - Q_num9 (Question ID 309) Iter2 Msg17 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=6, Conf=No confidence found
+2025-05-16 06:04:20,474 - INFO - Q_num9 (Question ID 309) Iter2 Msg18 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-16 06:04:20,474 - INFO - Q_num9 (Question ID 309) Iter2 Msg19 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=6, Conf=No confidence found
+2025-05-16 06:04:20,474 - INFO - Q_num9 (Question ID 309) Iter2 Msg20 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=6, Conf=No confidence found
+2025-05-16 06:04:20,474 - INFO - Q_num9 (Question ID 309) Iter2 Msg21 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=6, Conf=No confidence found
+2025-05-16 06:04:20,475 - INFO - Q_num9 (Question ID 309) Iter2 Msg22 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=6, Conf=No confidence found
+2025-05-16 06:04:20,475 - INFO - Q_num9 (Question ID 309) Iter2 Msg23 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=6, Conf=No confidence found
+2025-05-16 06:04:20,475 - INFO - Q_num9 (Question ID 309) Iter2 Msg24 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=6, Conf=No confidence found
+2025-05-16 06:04:20,567 - INFO - --- Finished Q_num9 (ID 309) Iter2. Results saved. ---
+2025-05-16 06:04:20,642 - INFO - --- Running Q_num9 (ID 309) Iter3/5 ---
+2025-05-16 06:04:20,642 - INFO - Task: It is morally permissible to keep money that one doesn't really need even if one can donate it to ca...
+2025-05-16 06:04:20,864 - INFO - Q_num9 (Question ID 309) Iter2: Starting chat with 6 agents.
+2025-05-16 06:05:26,684 - INFO - Q_num9 (Question ID 309) Iter2: Chat finished in 65.82 seconds.
+2025-05-16 06:05:26,684 - INFO - Q_num9 (Question ID 309) Iter3 Msg1 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=5, Conf=No confidence found
+2025-05-16 06:05:26,684 - INFO - Q_num9 (Question ID 309) Iter3 Msg2 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=6, Conf=No confidence found
+2025-05-16 06:05:26,684 - INFO - Q_num9 (Question ID 309) Iter3 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=5, Conf=No confidence found
+2025-05-16 06:05:26,684 - INFO - Q_num9 (Question ID 309) Iter3 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=6, Conf=No confidence found
+2025-05-16 06:05:26,684 - INFO - Q_num9 (Question ID 309) Iter3 Msg5 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=6, Conf=No confidence found
+2025-05-16 06:05:26,684 - INFO - Q_num9 (Question ID 309) Iter3 Msg6 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=6, Conf=No confidence found
+2025-05-16 06:05:26,685 - INFO - Q_num9 (Question ID 309) Iter3 Msg7 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=5, Conf=No confidence found
+2025-05-16 06:05:26,685 - INFO - Q_num9 (Question ID 309) Iter3 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=6, Conf=No confidence found
+2025-05-16 06:05:26,685 - INFO - Q_num9 (Question ID 309) Iter3 Msg9 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=4, Conf=No confidence found
+2025-05-16 06:05:26,685 - INFO - Q_num9 (Question ID 309) Iter3 Msg10 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=6, Conf=No confidence found
+2025-05-16 06:05:26,685 - INFO - Q_num9 (Question ID 309) Iter3 Msg11 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=6, Conf=No confidence found
+2025-05-16 06:05:26,685 - INFO - Q_num9 (Question ID 309) Iter3 Msg12 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=6, Conf=No confidence found
+2025-05-16 06:05:26,685 - INFO - Q_num9 (Question ID 309) Iter3 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=6, Conf=No confidence found
+2025-05-16 06:05:26,685 - INFO - Q_num9 (Question ID 309) Iter3 Msg14 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=5, Conf=No confidence found
+2025-05-16 06:05:26,685 - INFO - Q_num9 (Question ID 309) Iter3 Msg15 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=6, Conf=No confidence found
+2025-05-16 06:05:26,685 - INFO - Q_num9 (Question ID 309) Iter3 Msg16 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=6, Conf=No confidence found
+2025-05-16 06:05:26,685 - INFO - Q_num9 (Question ID 309) Iter3 Msg17 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=6, Conf=No confidence found
+2025-05-16 06:05:26,685 - INFO - Q_num9 (Question ID 309) Iter3 Msg18 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-16 06:05:26,685 - INFO - Q_num9 (Question ID 309) Iter3 Msg19 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=6, Conf=No confidence found
+2025-05-16 06:05:26,686 - INFO - Q_num9 (Question ID 309) Iter3 Msg20 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=6, Conf=No confidence found
+2025-05-16 06:05:26,686 - INFO - Q_num9 (Question ID 309) Iter3 Msg21 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-16 06:05:26,686 - INFO - Q_num9 (Question ID 309) Iter3 Msg22 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=5, Conf=No confidence found
+2025-05-16 06:05:26,686 - INFO - Q_num9 (Question ID 309) Iter3 Msg23 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=6, Conf=No confidence found
+2025-05-16 06:05:26,686 - INFO - Q_num9 (Question ID 309) Iter3 Msg24 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=6, Conf=No confidence found
+2025-05-16 06:05:26,774 - INFO - --- Finished Q_num9 (ID 309) Iter3. Results saved. ---
+2025-05-16 06:05:26,850 - INFO - --- Running Q_num9 (ID 309) Iter4/5 ---
+2025-05-16 06:05:26,850 - INFO - Task: It is morally permissible to keep money that one doesn't really need even if one can donate it to ca...
+2025-05-16 06:05:27,070 - INFO - Q_num9 (Question ID 309) Iter3: Starting chat with 6 agents.
+2025-05-16 06:06:29,360 - INFO - Q_num9 (Question ID 309) Iter3: Chat finished in 62.29 seconds.
+2025-05-16 06:06:29,361 - INFO - Q_num9 (Question ID 309) Iter4 Msg1 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=5, Conf=No confidence found
+2025-05-16 06:06:29,361 - INFO - Q_num9 (Question ID 309) Iter4 Msg2 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=6, Conf=No confidence found
+2025-05-16 06:06:29,361 - INFO - Q_num9 (Question ID 309) Iter4 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=6, Conf=No confidence found
+2025-05-16 06:06:29,361 - INFO - Q_num9 (Question ID 309) Iter4 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=6, Conf=No confidence found
+2025-05-16 06:06:29,361 - INFO - Q_num9 (Question ID 309) Iter4 Msg5 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=7, Conf=No confidence found
+2025-05-16 06:06:29,361 - INFO - Q_num9 (Question ID 309) Iter4 Msg6 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=6, Conf=No confidence found
+2025-05-16 06:06:29,361 - INFO - Q_num9 (Question ID 309) Iter4 Msg7 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=6, Conf=No confidence found
+2025-05-16 06:06:29,361 - INFO - Q_num9 (Question ID 309) Iter4 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-16 06:06:29,361 - INFO - Q_num9 (Question ID 309) Iter4 Msg9 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=6, Conf=No confidence found
+2025-05-16 06:06:29,361 - INFO - Q_num9 (Question ID 309) Iter4 Msg10 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=6, Conf=No confidence found
+2025-05-16 06:06:29,361 - INFO - Q_num9 (Question ID 309) Iter4 Msg11 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=6, Conf=No confidence found
+2025-05-16 06:06:29,361 - INFO - Q_num9 (Question ID 309) Iter4 Msg12 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=6, Conf=No confidence found
+2025-05-16 06:06:29,362 - INFO - Q_num9 (Question ID 309) Iter4 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=6, Conf=No confidence found
+2025-05-16 06:06:29,362 - INFO - Q_num9 (Question ID 309) Iter4 Msg14 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=6, Conf=No confidence found
+2025-05-16 06:06:29,362 - INFO - Q_num9 (Question ID 309) Iter4 Msg15 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-16 06:06:29,362 - INFO - Q_num9 (Question ID 309) Iter4 Msg16 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=6, Conf=No confidence found
+2025-05-16 06:06:29,362 - INFO - Q_num9 (Question ID 309) Iter4 Msg17 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=6, Conf=No confidence found
+2025-05-16 06:06:29,362 - INFO - Q_num9 (Question ID 309) Iter4 Msg18 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=6, Conf=No confidence found
+2025-05-16 06:06:29,362 - INFO - Q_num9 (Question ID 309) Iter4 Msg19 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=6, Conf=No confidence found
+2025-05-16 06:06:29,362 - INFO - Q_num9 (Question ID 309) Iter4 Msg20 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-16 06:06:29,362 - INFO - Q_num9 (Question ID 309) Iter4 Msg21 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=6, Conf=No confidence found
+2025-05-16 06:06:29,362 - INFO - Q_num9 (Question ID 309) Iter4 Msg22 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=6, Conf=No confidence found
+2025-05-16 06:06:29,362 - INFO - Q_num9 (Question ID 309) Iter4 Msg23 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=6, Conf=No confidence found
+2025-05-16 06:06:29,362 - INFO - Q_num9 (Question ID 309) Iter4 Msg24 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-16 06:06:29,451 - INFO - --- Finished Q_num9 (ID 309) Iter4. Results saved. ---
+2025-05-16 06:06:29,530 - INFO - --- Running Q_num9 (ID 309) Iter5/5 ---
+2025-05-16 06:06:29,530 - INFO - Task: It is morally permissible to keep money that one doesn't really need even if one can donate it to ca...
+2025-05-16 06:06:29,753 - INFO - Q_num9 (Question ID 309) Iter4: Starting chat with 6 agents.
+2025-05-16 06:08:01,529 - INFO - Q_num9 (Question ID 309) Iter4: Chat finished in 91.78 seconds.
+2025-05-16 06:08:01,529 - INFO - Q_num9 (Question ID 309) Iter5 Msg1 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-16 06:08:01,529 - INFO - Q_num9 (Question ID 309) Iter5 Msg2 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=5, Conf=No confidence found
+2025-05-16 06:08:01,529 - INFO - Q_num9 (Question ID 309) Iter5 Msg3 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=6, Conf=No confidence found
+2025-05-16 06:08:01,529 - INFO - Q_num9 (Question ID 309) Iter5 Msg4 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=6, Conf=No confidence found
+2025-05-16 06:08:01,530 - INFO - Q_num9 (Question ID 309) Iter5 Msg5 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=6, Conf=No confidence found
+2025-05-16 06:08:01,530 - INFO - Q_num9 (Question ID 309) Iter5 Msg6 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=3, Conf=No confidence found
+2025-05-16 06:08:01,530 - INFO - Q_num9 (Question ID 309) Iter5 Msg7 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=5, Conf=No confidence found
+2025-05-16 06:08:01,530 - INFO - Q_num9 (Question ID 309) Iter5 Msg8 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=6, Conf=No confidence found
+2025-05-16 06:08:01,530 - INFO - Q_num9 (Question ID 309) Iter5 Msg9 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=5, Conf=No confidence found
+2025-05-16 06:08:01,530 - INFO - Q_num9 (Question ID 309) Iter5 Msg10 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=6, Conf=No confidence found
+2025-05-16 06:08:01,530 - INFO - Q_num9 (Question ID 309) Iter5 Msg11 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-16 06:08:01,530 - INFO - Q_num9 (Question ID 309) Iter5 Msg12 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=6, Conf=No confidence found
+2025-05-16 06:08:01,530 - INFO - Q_num9 (Question ID 309) Iter5 Msg13 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=6, Conf=No confidence found
+2025-05-16 06:08:01,530 - INFO - Q_num9 (Question ID 309) Iter5 Msg14 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=6, Conf=No confidence found
+2025-05-16 06:08:01,530 - INFO - Q_num9 (Question ID 309) Iter5 Msg15 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=6, Conf=No confidence found
+2025-05-16 06:08:01,530 - INFO - Q_num9 (Question ID 309) Iter5 Msg16 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=6, Conf=No confidence found
+2025-05-16 06:08:01,530 - INFO - Q_num9 (Question ID 309) Iter5 Msg17 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=6, Conf=No confidence found
+2025-05-16 06:08:01,531 - INFO - Q_num9 (Question ID 309) Iter5 Msg18 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=6, Conf=No confidence found
+2025-05-16 06:08:01,531 - INFO - Q_num9 (Question ID 309) Iter5 Msg19 Agent agent_deepseek_deepseek_chat_v3_0324_0_0: Ans=6, Conf=No confidence found
+2025-05-16 06:08:01,531 - INFO - Q_num9 (Question ID 309) Iter5 Msg20 Agent agent_deepseek_deepseek_chat_v3_0324_0_1: Ans=6, Conf=No confidence found
+2025-05-16 06:08:01,531 - INFO - Q_num9 (Question ID 309) Iter5 Msg21 Agent agent_deepseek_deepseek_chat_v3_0324_0_2: Ans=6, Conf=No confidence found
+2025-05-16 06:08:01,531 - INFO - Q_num9 (Question ID 309) Iter5 Msg22 Agent agent_deepseek_deepseek_chat_v3_0324_0_3: Ans=6, Conf=No confidence found
+2025-05-16 06:08:01,531 - INFO - Q_num9 (Question ID 309) Iter5 Msg23 Agent agent_deepseek_deepseek_chat_v3_0324_0_4: Ans=6, Conf=No confidence found
+2025-05-16 06:08:01,531 - INFO - Q_num9 (Question ID 309) Iter5 Msg24 Agent agent_deepseek_deepseek_chat_v3_0324_0_5: Ans=6, Conf=No confidence found
+2025-05-16 06:08:01,618 - INFO - --- Finished Q_num9 (ID 309) Iter5. Results saved. ---
+2025-05-16 06:08:01,694 - INFO - --- Run Finished --- CONFIG HASH: f8c8589a ---

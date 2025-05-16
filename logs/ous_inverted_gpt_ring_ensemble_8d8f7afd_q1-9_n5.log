@@ -1,0 +1,1307 @@
+2025-05-15 20:00:23,331 - INFO - --- Starting New Run --- CONFIG HASH: 8d8f7afd --- Chat Type: ous_inverted_gpt_ring ---
+2025-05-15 20:00:23,331 - INFO - --- Running Q_num1 (ID 305) Iter1/5 ---
+2025-05-15 20:00:23,331 - INFO - Task: If the only way to save another person's life during an emergency is to sacrifice one's own leg, the...
+2025-05-15 20:00:23,552 - INFO - Q_num1 (Question ID 305) Iter0: Starting chat with 6 agents.
+2025-05-15 20:00:52,867 - INFO - Q_num1 (Question ID 305) Iter0: Chat finished in 29.32 seconds.
+2025-05-15 20:00:52,867 - INFO - Q_num1 (Question ID 305) Iter1 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=5, Conf=No confidence found
+2025-05-15 20:00:52,867 - INFO - Q_num1 (Question ID 305) Iter1 Msg2 Agent agent_openai_gpt_4o_mini_0_1: Ans=5, Conf=No confidence found
+2025-05-15 20:00:52,867 - INFO - Q_num1 (Question ID 305) Iter1 Msg3 Agent agent_openai_gpt_4o_mini_0_2: Ans=5, Conf=No confidence found
+2025-05-15 20:00:52,867 - INFO - Q_num1 (Question ID 305) Iter1 Msg4 Agent agent_openai_gpt_4o_mini_0_3: Ans=5, Conf=No confidence found
+2025-05-15 20:00:52,867 - INFO - Q_num1 (Question ID 305) Iter1 Msg5 Agent agent_openai_gpt_4o_mini_0_4: Ans=5, Conf=No confidence found
+2025-05-15 20:00:52,868 - INFO - Q_num1 (Question ID 305) Iter1 Msg6 Agent agent_openai_gpt_4o_mini_0_5: Ans=5, Conf=No confidence found
+2025-05-15 20:00:52,868 - INFO - Q_num1 (Question ID 305) Iter1 Msg7 Agent agent_openai_gpt_4o_mini_0_0: Ans=5, Conf=No confidence found
+2025-05-15 20:00:52,868 - INFO - Q_num1 (Question ID 305) Iter1 Msg8 Agent agent_openai_gpt_4o_mini_0_1: Ans=5, Conf=No confidence found
+2025-05-15 20:00:52,868 - INFO - Q_num1 (Question ID 305) Iter1 Msg9 Agent agent_openai_gpt_4o_mini_0_2: Ans=5, Conf=No confidence found
+2025-05-15 20:00:52,868 - INFO - Q_num1 (Question ID 305) Iter1 Msg10 Agent agent_openai_gpt_4o_mini_0_3: Ans=5, Conf=No confidence found
+2025-05-15 20:00:52,868 - INFO - Q_num1 (Question ID 305) Iter1 Msg11 Agent agent_openai_gpt_4o_mini_0_4: Ans=5, Conf=No confidence found
+2025-05-15 20:00:52,868 - INFO - Q_num1 (Question ID 305) Iter1 Msg12 Agent agent_openai_gpt_4o_mini_0_5: Ans=5, Conf=No confidence found
+2025-05-15 20:00:52,868 - INFO - Q_num1 (Question ID 305) Iter1 Msg13 Agent agent_openai_gpt_4o_mini_0_0: Ans=5, Conf=No confidence found
+2025-05-15 20:00:52,868 - INFO - Q_num1 (Question ID 305) Iter1 Msg14 Agent agent_openai_gpt_4o_mini_0_1: Ans=5, Conf=No confidence found
+2025-05-15 20:00:52,868 - INFO - Q_num1 (Question ID 305) Iter1 Msg15 Agent agent_openai_gpt_4o_mini_0_2: Ans=5, Conf=No confidence found
+2025-05-15 20:00:52,868 - INFO - Q_num1 (Question ID 305) Iter1 Msg16 Agent agent_openai_gpt_4o_mini_0_3: Ans=5, Conf=No confidence found
+2025-05-15 20:00:52,868 - INFO - Q_num1 (Question ID 305) Iter1 Msg17 Agent agent_openai_gpt_4o_mini_0_4: Ans=5, Conf=No confidence found
+2025-05-15 20:00:52,868 - INFO - Q_num1 (Question ID 305) Iter1 Msg18 Agent agent_openai_gpt_4o_mini_0_5: Ans=5, Conf=No confidence found
+2025-05-15 20:00:52,868 - INFO - Q_num1 (Question ID 305) Iter1 Msg19 Agent agent_openai_gpt_4o_mini_0_0: Ans=5, Conf=No confidence found
+2025-05-15 20:00:52,869 - INFO - Q_num1 (Question ID 305) Iter1 Msg20 Agent agent_openai_gpt_4o_mini_0_1: Ans=5, Conf=No confidence found
+2025-05-15 20:00:52,869 - INFO - Q_num1 (Question ID 305) Iter1 Msg21 Agent agent_openai_gpt_4o_mini_0_2: Ans=5, Conf=No confidence found
+2025-05-15 20:00:52,869 - INFO - Q_num1 (Question ID 305) Iter1 Msg22 Agent agent_openai_gpt_4o_mini_0_3: Ans=5, Conf=No confidence found
+2025-05-15 20:00:52,869 - INFO - Q_num1 (Question ID 305) Iter1 Msg23 Agent agent_openai_gpt_4o_mini_0_4: Ans=5, Conf=No confidence found
+2025-05-15 20:00:52,869 - INFO - Q_num1 (Question ID 305) Iter1 Msg24 Agent agent_openai_gpt_4o_mini_0_5: Ans=5, Conf=No confidence found
+2025-05-15 20:00:52,953 - INFO - --- Finished Q_num1 (ID 305) Iter1. Results saved. ---
+2025-05-15 20:00:53,023 - INFO - --- Running Q_num1 (ID 305) Iter2/5 ---
+2025-05-15 20:00:53,023 - INFO - Task: If the only way to save another person's life during an emergency is to sacrifice one's own leg, the...
+2025-05-15 20:00:53,243 - INFO - Q_num1 (Question ID 305) Iter1: Starting chat with 6 agents.
+2025-05-15 20:01:24,314 - INFO - Q_num1 (Question ID 305) Iter1: Chat finished in 31.07 seconds.
+2025-05-15 20:01:24,314 - INFO - Q_num1 (Question ID 305) Iter2 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=5, Conf=No confidence found
+2025-05-15 20:01:24,314 - INFO - Q_num1 (Question ID 305) Iter2 Msg2 Agent agent_openai_gpt_4o_mini_0_1: Ans=2, Conf=No confidence found
+2025-05-15 20:01:24,314 - INFO - Q_num1 (Question ID 305) Iter2 Msg3 Agent agent_openai_gpt_4o_mini_0_2: Ans=4, Conf=No confidence found
+2025-05-15 20:01:24,314 - INFO - Q_num1 (Question ID 305) Iter2 Msg4 Agent agent_openai_gpt_4o_mini_0_3: Ans=3, Conf=No confidence found
+2025-05-15 20:01:24,314 - INFO - Q_num1 (Question ID 305) Iter2 Msg5 Agent agent_openai_gpt_4o_mini_0_4: Ans=4, Conf=No confidence found
+2025-05-15 20:01:24,315 - INFO - Q_num1 (Question ID 305) Iter2 Msg6 Agent agent_openai_gpt_4o_mini_0_5: Ans=4, Conf=No confidence found
+2025-05-15 20:01:24,315 - INFO - Q_num1 (Question ID 305) Iter2 Msg7 Agent agent_openai_gpt_4o_mini_0_0: Ans=3, Conf=No confidence found
+2025-05-15 20:01:24,315 - INFO - Q_num1 (Question ID 305) Iter2 Msg8 Agent agent_openai_gpt_4o_mini_0_1: Ans=2, Conf=No confidence found
+2025-05-15 20:01:24,315 - INFO - Q_num1 (Question ID 305) Iter2 Msg9 Agent agent_openai_gpt_4o_mini_0_2: Ans=3, Conf=No confidence found
+2025-05-15 20:01:24,315 - INFO - Q_num1 (Question ID 305) Iter2 Msg10 Agent agent_openai_gpt_4o_mini_0_3: Ans=3, Conf=No confidence found
+2025-05-15 20:01:24,315 - INFO - Q_num1 (Question ID 305) Iter2 Msg11 Agent agent_openai_gpt_4o_mini_0_4: Ans=3, Conf=No confidence found
+2025-05-15 20:01:24,315 - INFO - Q_num1 (Question ID 305) Iter2 Msg12 Agent agent_openai_gpt_4o_mini_0_5: Ans=3, Conf=No confidence found
+2025-05-15 20:01:24,315 - INFO - Q_num1 (Question ID 305) Iter2 Msg13 Agent agent_openai_gpt_4o_mini_0_0: Ans=3, Conf=No confidence found
+2025-05-15 20:01:24,315 - INFO - Q_num1 (Question ID 305) Iter2 Msg14 Agent agent_openai_gpt_4o_mini_0_1: Ans=3, Conf=No confidence found
+2025-05-15 20:01:24,315 - INFO - Q_num1 (Question ID 305) Iter2 Msg15 Agent agent_openai_gpt_4o_mini_0_2: Ans=3, Conf=No confidence found
+2025-05-15 20:01:24,315 - INFO - Q_num1 (Question ID 305) Iter2 Msg16 Agent agent_openai_gpt_4o_mini_0_3: Ans=3, Conf=No confidence found
+2025-05-15 20:01:24,315 - INFO - Q_num1 (Question ID 305) Iter2 Msg17 Agent agent_openai_gpt_4o_mini_0_4: Ans=3, Conf=No confidence found
+2025-05-15 20:01:24,316 - INFO - Q_num1 (Question ID 305) Iter2 Msg18 Agent agent_openai_gpt_4o_mini_0_5: Ans=3, Conf=No confidence found
+2025-05-15 20:01:24,316 - INFO - Q_num1 (Question ID 305) Iter2 Msg19 Agent agent_openai_gpt_4o_mini_0_0: Ans=3, Conf=No confidence found
+2025-05-15 20:01:24,316 - INFO - Q_num1 (Question ID 305) Iter2 Msg20 Agent agent_openai_gpt_4o_mini_0_1: Ans=3, Conf=No confidence found
+2025-05-15 20:01:24,316 - INFO - Q_num1 (Question ID 305) Iter2 Msg21 Agent agent_openai_gpt_4o_mini_0_2: Ans=3, Conf=No confidence found
+2025-05-15 20:01:24,316 - INFO - Q_num1 (Question ID 305) Iter2 Msg22 Agent agent_openai_gpt_4o_mini_0_3: Ans=3, Conf=No confidence found
+2025-05-15 20:01:24,316 - INFO - Q_num1 (Question ID 305) Iter2 Msg23 Agent agent_openai_gpt_4o_mini_0_4: Ans=3, Conf=No confidence found
+2025-05-15 20:01:24,316 - INFO - Q_num1 (Question ID 305) Iter2 Msg24 Agent agent_openai_gpt_4o_mini_0_5: Ans=3, Conf=No confidence found
+2025-05-15 20:01:24,400 - INFO - --- Finished Q_num1 (ID 305) Iter2. Results saved. ---
+2025-05-15 20:01:24,472 - INFO - --- Running Q_num1 (ID 305) Iter3/5 ---
+2025-05-15 20:01:24,472 - INFO - Task: If the only way to save another person's life during an emergency is to sacrifice one's own leg, the...
+2025-05-15 20:01:24,692 - INFO - Q_num1 (Question ID 305) Iter2: Starting chat with 6 agents.
+2025-05-15 20:01:56,766 - INFO - Q_num1 (Question ID 305) Iter2: Chat finished in 32.07 seconds.
+2025-05-15 20:01:56,766 - INFO - Q_num1 (Question ID 305) Iter3 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=5, Conf=No confidence found
+2025-05-15 20:01:56,767 - INFO - Q_num1 (Question ID 305) Iter3 Msg2 Agent agent_openai_gpt_4o_mini_0_1: Ans=4, Conf=No confidence found
+2025-05-15 20:01:56,767 - INFO - Q_num1 (Question ID 305) Iter3 Msg3 Agent agent_openai_gpt_4o_mini_0_2: Ans=3, Conf=No confidence found
+2025-05-15 20:01:56,767 - INFO - Q_num1 (Question ID 305) Iter3 Msg4 Agent agent_openai_gpt_4o_mini_0_3: Ans=2, Conf=No confidence found
+2025-05-15 20:01:56,767 - INFO - Q_num1 (Question ID 305) Iter3 Msg5 Agent agent_openai_gpt_4o_mini_0_4: Ans=2, Conf=No confidence found
+2025-05-15 20:01:56,767 - INFO - Q_num1 (Question ID 305) Iter3 Msg6 Agent agent_openai_gpt_4o_mini_0_5: Ans=2, Conf=No confidence found
+2025-05-15 20:01:56,767 - INFO - Q_num1 (Question ID 305) Iter3 Msg7 Agent agent_openai_gpt_4o_mini_0_0: Ans=2, Conf=No confidence found
+2025-05-15 20:01:56,767 - INFO - Q_num1 (Question ID 305) Iter3 Msg8 Agent agent_openai_gpt_4o_mini_0_1: Ans=2, Conf=No confidence found
+2025-05-15 20:01:56,767 - INFO - Q_num1 (Question ID 305) Iter3 Msg9 Agent agent_openai_gpt_4o_mini_0_2: Ans=2, Conf=No confidence found
+2025-05-15 20:01:56,767 - INFO - Q_num1 (Question ID 305) Iter3 Msg10 Agent agent_openai_gpt_4o_mini_0_3: Ans=2, Conf=No confidence found
+2025-05-15 20:01:56,767 - INFO - Q_num1 (Question ID 305) Iter3 Msg11 Agent agent_openai_gpt_4o_mini_0_4: Ans=2, Conf=No confidence found
+2025-05-15 20:01:56,767 - INFO - Q_num1 (Question ID 305) Iter3 Msg12 Agent agent_openai_gpt_4o_mini_0_5: Ans=2, Conf=No confidence found
+2025-05-15 20:01:56,767 - INFO - Q_num1 (Question ID 305) Iter3 Msg13 Agent agent_openai_gpt_4o_mini_0_0: Ans=2, Conf=No confidence found
+2025-05-15 20:01:56,768 - INFO - Q_num1 (Question ID 305) Iter3 Msg14 Agent agent_openai_gpt_4o_mini_0_1: Ans=2, Conf=No confidence found
+2025-05-15 20:01:56,768 - INFO - Q_num1 (Question ID 305) Iter3 Msg15 Agent agent_openai_gpt_4o_mini_0_2: Ans=2, Conf=No confidence found
+2025-05-15 20:01:56,768 - INFO - Q_num1 (Question ID 305) Iter3 Msg16 Agent agent_openai_gpt_4o_mini_0_3: Ans=2, Conf=No confidence found
+2025-05-15 20:01:56,768 - INFO - Q_num1 (Question ID 305) Iter3 Msg17 Agent agent_openai_gpt_4o_mini_0_4: Ans=2, Conf=No confidence found
+2025-05-15 20:01:56,768 - INFO - Q_num1 (Question ID 305) Iter3 Msg18 Agent agent_openai_gpt_4o_mini_0_5: Ans=2, Conf=No confidence found
+2025-05-15 20:01:56,768 - INFO - Q_num1 (Question ID 305) Iter3 Msg19 Agent agent_openai_gpt_4o_mini_0_0: Ans=2, Conf=No confidence found
+2025-05-15 20:01:56,768 - INFO - Q_num1 (Question ID 305) Iter3 Msg20 Agent agent_openai_gpt_4o_mini_0_1: Ans=2, Conf=No confidence found
+2025-05-15 20:01:56,768 - INFO - Q_num1 (Question ID 305) Iter3 Msg21 Agent agent_openai_gpt_4o_mini_0_2: Ans=2, Conf=No confidence found
+2025-05-15 20:01:56,768 - INFO - Q_num1 (Question ID 305) Iter3 Msg22 Agent agent_openai_gpt_4o_mini_0_3: Ans=2, Conf=No confidence found
+2025-05-15 20:01:56,768 - INFO - Q_num1 (Question ID 305) Iter3 Msg23 Agent agent_openai_gpt_4o_mini_0_4: Ans=2, Conf=No confidence found
+2025-05-15 20:01:56,768 - INFO - Q_num1 (Question ID 305) Iter3 Msg24 Agent agent_openai_gpt_4o_mini_0_5: Ans=2, Conf=No confidence found
+2025-05-15 20:01:56,855 - INFO - --- Finished Q_num1 (ID 305) Iter3. Results saved. ---
+2025-05-15 20:01:56,927 - INFO - --- Running Q_num1 (ID 305) Iter4/5 ---
+2025-05-15 20:01:56,927 - INFO - Task: If the only way to save another person's life during an emergency is to sacrifice one's own leg, the...
+2025-05-15 20:01:57,148 - INFO - Q_num1 (Question ID 305) Iter3: Starting chat with 6 agents.
+2025-05-15 20:02:25,807 - INFO - Q_num1 (Question ID 305) Iter3: Chat finished in 28.66 seconds.
+2025-05-15 20:02:25,807 - INFO - Q_num1 (Question ID 305) Iter4 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=5, Conf=No confidence found
+2025-05-15 20:02:25,807 - INFO - Q_num1 (Question ID 305) Iter4 Msg2 Agent agent_openai_gpt_4o_mini_0_1: Ans=4, Conf=No confidence found
+2025-05-15 20:02:25,807 - INFO - Q_num1 (Question ID 305) Iter4 Msg3 Agent agent_openai_gpt_4o_mini_0_2: Ans=4, Conf=No confidence found
+2025-05-15 20:02:25,807 - INFO - Q_num1 (Question ID 305) Iter4 Msg4 Agent agent_openai_gpt_4o_mini_0_3: Ans=3, Conf=No confidence found
+2025-05-15 20:02:25,807 - INFO - Q_num1 (Question ID 305) Iter4 Msg5 Agent agent_openai_gpt_4o_mini_0_4: Ans=3, Conf=No confidence found
+2025-05-15 20:02:25,807 - INFO - Q_num1 (Question ID 305) Iter4 Msg6 Agent agent_openai_gpt_4o_mini_0_5: Ans=3, Conf=No confidence found
+2025-05-15 20:02:25,807 - INFO - Q_num1 (Question ID 305) Iter4 Msg7 Agent agent_openai_gpt_4o_mini_0_0: Ans=3, Conf=No confidence found
+2025-05-15 20:02:25,807 - INFO - Q_num1 (Question ID 305) Iter4 Msg8 Agent agent_openai_gpt_4o_mini_0_1: Ans=3, Conf=No confidence found
+2025-05-15 20:02:25,807 - INFO - Q_num1 (Question ID 305) Iter4 Msg9 Agent agent_openai_gpt_4o_mini_0_2: Ans=3, Conf=No confidence found
+2025-05-15 20:02:25,808 - INFO - Q_num1 (Question ID 305) Iter4 Msg10 Agent agent_openai_gpt_4o_mini_0_3: Ans=3, Conf=No confidence found
+2025-05-15 20:02:25,808 - INFO - Q_num1 (Question ID 305) Iter4 Msg11 Agent agent_openai_gpt_4o_mini_0_4: Ans=3, Conf=No confidence found
+2025-05-15 20:02:25,808 - INFO - Q_num1 (Question ID 305) Iter4 Msg12 Agent agent_openai_gpt_4o_mini_0_5: Ans=3, Conf=No confidence found
+2025-05-15 20:02:25,808 - INFO - Q_num1 (Question ID 305) Iter4 Msg13 Agent agent_openai_gpt_4o_mini_0_0: Ans=3, Conf=No confidence found
+2025-05-15 20:02:25,808 - INFO - Q_num1 (Question ID 305) Iter4 Msg14 Agent agent_openai_gpt_4o_mini_0_1: Ans=3, Conf=No confidence found
+2025-05-15 20:02:25,808 - INFO - Q_num1 (Question ID 305) Iter4 Msg15 Agent agent_openai_gpt_4o_mini_0_2: Ans=3, Conf=No confidence found
+2025-05-15 20:02:25,808 - INFO - Q_num1 (Question ID 305) Iter4 Msg16 Agent agent_openai_gpt_4o_mini_0_3: Ans=3, Conf=No confidence found
+2025-05-15 20:02:25,808 - INFO - Q_num1 (Question ID 305) Iter4 Msg17 Agent agent_openai_gpt_4o_mini_0_4: Ans=3, Conf=No confidence found
+2025-05-15 20:02:25,808 - INFO - Q_num1 (Question ID 305) Iter4 Msg18 Agent agent_openai_gpt_4o_mini_0_5: Ans=3, Conf=No confidence found
+2025-05-15 20:02:25,808 - INFO - Q_num1 (Question ID 305) Iter4 Msg19 Agent agent_openai_gpt_4o_mini_0_0: Ans=3, Conf=No confidence found
+2025-05-15 20:02:25,808 - INFO - Q_num1 (Question ID 305) Iter4 Msg20 Agent agent_openai_gpt_4o_mini_0_1: Ans=3, Conf=No confidence found
+2025-05-15 20:02:25,808 - INFO - Q_num1 (Question ID 305) Iter4 Msg21 Agent agent_openai_gpt_4o_mini_0_2: Ans=3, Conf=No confidence found
+2025-05-15 20:02:25,808 - INFO - Q_num1 (Question ID 305) Iter4 Msg22 Agent agent_openai_gpt_4o_mini_0_3: Ans=3, Conf=No confidence found
+2025-05-15 20:02:25,809 - INFO - Q_num1 (Question ID 305) Iter4 Msg23 Agent agent_openai_gpt_4o_mini_0_4: Ans=3, Conf=No confidence found
+2025-05-15 20:02:25,809 - INFO - Q_num1 (Question ID 305) Iter4 Msg24 Agent agent_openai_gpt_4o_mini_0_5: Ans=3, Conf=No confidence found
+2025-05-15 20:02:25,893 - INFO - --- Finished Q_num1 (ID 305) Iter4. Results saved. ---
+2025-05-15 20:02:25,965 - INFO - --- Running Q_num1 (ID 305) Iter5/5 ---
+2025-05-15 20:02:25,965 - INFO - Task: If the only way to save another person's life during an emergency is to sacrifice one's own leg, the...
+2025-05-15 20:02:26,184 - INFO - Q_num1 (Question ID 305) Iter4: Starting chat with 6 agents.
+2025-05-15 20:02:58,412 - INFO - Q_num1 (Question ID 305) Iter4: Chat finished in 32.23 seconds.
+2025-05-15 20:02:58,412 - INFO - Q_num1 (Question ID 305) Iter5 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=4, Conf=No confidence found
+2025-05-15 20:02:58,412 - INFO - Q_num1 (Question ID 305) Iter5 Msg2 Agent agent_openai_gpt_4o_mini_0_1: Ans=3, Conf=No confidence found
+2025-05-15 20:02:58,412 - INFO - Q_num1 (Question ID 305) Iter5 Msg3 Agent agent_openai_gpt_4o_mini_0_2: Ans=3, Conf=No confidence found
+2025-05-15 20:02:58,412 - INFO - Q_num1 (Question ID 305) Iter5 Msg4 Agent agent_openai_gpt_4o_mini_0_3: Ans=3, Conf=No confidence found
+2025-05-15 20:02:58,413 - INFO - Q_num1 (Question ID 305) Iter5 Msg5 Agent agent_openai_gpt_4o_mini_0_4: Ans=3, Conf=No confidence found
+2025-05-15 20:02:58,413 - INFO - Q_num1 (Question ID 305) Iter5 Msg6 Agent agent_openai_gpt_4o_mini_0_5: Ans=3, Conf=No confidence found
+2025-05-15 20:02:58,413 - INFO - Q_num1 (Question ID 305) Iter5 Msg7 Agent agent_openai_gpt_4o_mini_0_0: Ans=4, Conf=No confidence found
+2025-05-15 20:02:58,413 - INFO - Q_num1 (Question ID 305) Iter5 Msg8 Agent agent_openai_gpt_4o_mini_0_1: Ans=3, Conf=No confidence found
+2025-05-15 20:02:58,413 - INFO - Q_num1 (Question ID 305) Iter5 Msg9 Agent agent_openai_gpt_4o_mini_0_2: Ans=3, Conf=No confidence found
+2025-05-15 20:02:58,413 - INFO - Q_num1 (Question ID 305) Iter5 Msg10 Agent agent_openai_gpt_4o_mini_0_3: Ans=3, Conf=No confidence found
+2025-05-15 20:02:58,413 - INFO - Q_num1 (Question ID 305) Iter5 Msg11 Agent agent_openai_gpt_4o_mini_0_4: Ans=3, Conf=No confidence found
+2025-05-15 20:02:58,413 - INFO - Q_num1 (Question ID 305) Iter5 Msg12 Agent agent_openai_gpt_4o_mini_0_5: Ans=3, Conf=No confidence found
+2025-05-15 20:02:58,413 - INFO - Q_num1 (Question ID 305) Iter5 Msg13 Agent agent_openai_gpt_4o_mini_0_0: Ans=3, Conf=No confidence found
+2025-05-15 20:02:58,413 - INFO - Q_num1 (Question ID 305) Iter5 Msg14 Agent agent_openai_gpt_4o_mini_0_1: Ans=3, Conf=No confidence found
+2025-05-15 20:02:58,413 - INFO - Q_num1 (Question ID 305) Iter5 Msg15 Agent agent_openai_gpt_4o_mini_0_2: Ans=3, Conf=No confidence found
+2025-05-15 20:02:58,413 - INFO - Q_num1 (Question ID 305) Iter5 Msg16 Agent agent_openai_gpt_4o_mini_0_3: Ans=3, Conf=No confidence found
+2025-05-15 20:02:58,413 - INFO - Q_num1 (Question ID 305) Iter5 Msg17 Agent agent_openai_gpt_4o_mini_0_4: Ans=3, Conf=No confidence found
+2025-05-15 20:02:58,413 - INFO - Q_num1 (Question ID 305) Iter5 Msg18 Agent agent_openai_gpt_4o_mini_0_5: Ans=3, Conf=No confidence found
+2025-05-15 20:02:58,414 - INFO - Q_num1 (Question ID 305) Iter5 Msg19 Agent agent_openai_gpt_4o_mini_0_0: Ans=3, Conf=No confidence found
+2025-05-15 20:02:58,414 - INFO - Q_num1 (Question ID 305) Iter5 Msg20 Agent agent_openai_gpt_4o_mini_0_1: Ans=3, Conf=No confidence found
+2025-05-15 20:02:58,414 - INFO - Q_num1 (Question ID 305) Iter5 Msg21 Agent agent_openai_gpt_4o_mini_0_2: Ans=3, Conf=No confidence found
+2025-05-15 20:02:58,414 - INFO - Q_num1 (Question ID 305) Iter5 Msg22 Agent agent_openai_gpt_4o_mini_0_3: Ans=3, Conf=No confidence found
+2025-05-15 20:02:58,414 - INFO - Q_num1 (Question ID 305) Iter5 Msg23 Agent agent_openai_gpt_4o_mini_0_4: Ans=3, Conf=No confidence found
+2025-05-15 20:02:58,414 - INFO - Q_num1 (Question ID 305) Iter5 Msg24 Agent agent_openai_gpt_4o_mini_0_5: Ans=3, Conf=No confidence found
+2025-05-15 20:02:58,498 - INFO - --- Finished Q_num1 (ID 305) Iter5. Results saved. ---
+2025-05-15 20:02:58,569 - INFO - --- Running Q_num2 (ID 301) Iter1/5 ---
+2025-05-15 20:02:58,569 - INFO - Task: It is morally right to allow several innocent people to suffer harm rather than harm a single innoce...
+2025-05-15 20:02:58,788 - INFO - Q_num2 (Question ID 301) Iter0: Starting chat with 6 agents.
+2025-05-15 20:03:33,946 - INFO - Q_num2 (Question ID 301) Iter0: Chat finished in 35.16 seconds.
+2025-05-15 20:03:33,947 - INFO - Q_num2 (Question ID 301) Iter1 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=6, Conf=No confidence found
+2025-05-15 20:03:33,947 - INFO - Q_num2 (Question ID 301) Iter1 Msg2 Agent agent_openai_gpt_4o_mini_0_1: Ans=7, Conf=No confidence found
+2025-05-15 20:03:33,947 - INFO - Q_num2 (Question ID 301) Iter1 Msg3 Agent agent_openai_gpt_4o_mini_0_2: Ans=7, Conf=No confidence found
+2025-05-15 20:03:33,947 - INFO - Q_num2 (Question ID 301) Iter1 Msg4 Agent agent_openai_gpt_4o_mini_0_3: Ans=7, Conf=No confidence found
+2025-05-15 20:03:33,947 - INFO - Q_num2 (Question ID 301) Iter1 Msg5 Agent agent_openai_gpt_4o_mini_0_4: Ans=7, Conf=No confidence found
+2025-05-15 20:03:33,947 - INFO - Q_num2 (Question ID 301) Iter1 Msg6 Agent agent_openai_gpt_4o_mini_0_5: Ans=7, Conf=No confidence found
+2025-05-15 20:03:33,947 - INFO - Q_num2 (Question ID 301) Iter1 Msg7 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 20:03:33,947 - INFO - Q_num2 (Question ID 301) Iter1 Msg8 Agent agent_openai_gpt_4o_mini_0_1: Ans=7, Conf=No confidence found
+2025-05-15 20:03:33,947 - INFO - Q_num2 (Question ID 301) Iter1 Msg9 Agent agent_openai_gpt_4o_mini_0_2: Ans=7, Conf=No confidence found
+2025-05-15 20:03:33,947 - INFO - Q_num2 (Question ID 301) Iter1 Msg10 Agent agent_openai_gpt_4o_mini_0_3: Ans=7, Conf=No confidence found
+2025-05-15 20:03:33,948 - INFO - Q_num2 (Question ID 301) Iter1 Msg11 Agent agent_openai_gpt_4o_mini_0_4: Ans=7, Conf=No confidence found
+2025-05-15 20:03:33,948 - INFO - Q_num2 (Question ID 301) Iter1 Msg12 Agent agent_openai_gpt_4o_mini_0_5: Ans=7, Conf=No confidence found
+2025-05-15 20:03:33,948 - INFO - Q_num2 (Question ID 301) Iter1 Msg13 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 20:03:33,948 - INFO - Q_num2 (Question ID 301) Iter1 Msg14 Agent agent_openai_gpt_4o_mini_0_1: Ans=7, Conf=No confidence found
+2025-05-15 20:03:33,948 - INFO - Q_num2 (Question ID 301) Iter1 Msg15 Agent agent_openai_gpt_4o_mini_0_2: Ans=7, Conf=No confidence found
+2025-05-15 20:03:33,948 - INFO - Q_num2 (Question ID 301) Iter1 Msg16 Agent agent_openai_gpt_4o_mini_0_3: Ans=7, Conf=No confidence found
+2025-05-15 20:03:33,948 - INFO - Q_num2 (Question ID 301) Iter1 Msg17 Agent agent_openai_gpt_4o_mini_0_4: Ans=7, Conf=No confidence found
+2025-05-15 20:03:33,948 - INFO - Q_num2 (Question ID 301) Iter1 Msg18 Agent agent_openai_gpt_4o_mini_0_5: Ans=7, Conf=No confidence found
+2025-05-15 20:03:33,948 - INFO - Q_num2 (Question ID 301) Iter1 Msg19 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 20:03:33,948 - INFO - Q_num2 (Question ID 301) Iter1 Msg20 Agent agent_openai_gpt_4o_mini_0_1: Ans=7, Conf=No confidence found
+2025-05-15 20:03:33,948 - INFO - Q_num2 (Question ID 301) Iter1 Msg21 Agent agent_openai_gpt_4o_mini_0_2: Ans=7, Conf=No confidence found
+2025-05-15 20:03:33,948 - INFO - Q_num2 (Question ID 301) Iter1 Msg22 Agent agent_openai_gpt_4o_mini_0_3: Ans=7, Conf=No confidence found
+2025-05-15 20:03:33,948 - INFO - Q_num2 (Question ID 301) Iter1 Msg23 Agent agent_openai_gpt_4o_mini_0_4: Ans=7, Conf=No confidence found
+2025-05-15 20:03:33,948 - INFO - Q_num2 (Question ID 301) Iter1 Msg24 Agent agent_openai_gpt_4o_mini_0_5: Ans=7, Conf=No confidence found
+2025-05-15 20:03:34,034 - INFO - --- Finished Q_num2 (ID 301) Iter1. Results saved. ---
+2025-05-15 20:03:34,105 - INFO - --- Running Q_num2 (ID 301) Iter2/5 ---
+2025-05-15 20:03:34,105 - INFO - Task: It is morally right to allow several innocent people to suffer harm rather than harm a single innoce...
+2025-05-15 20:03:34,326 - INFO - Q_num2 (Question ID 301) Iter1: Starting chat with 6 agents.
+2025-05-15 20:04:04,257 - INFO - Q_num2 (Question ID 301) Iter1: Chat finished in 29.93 seconds.
+2025-05-15 20:04:04,257 - INFO - Q_num2 (Question ID 301) Iter2 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=1, Conf=No confidence found
+2025-05-15 20:04:04,257 - INFO - Q_num2 (Question ID 301) Iter2 Msg2 Agent agent_openai_gpt_4o_mini_0_1: Ans=1, Conf=No confidence found
+2025-05-15 20:04:04,258 - INFO - Q_num2 (Question ID 301) Iter2 Msg3 Agent agent_openai_gpt_4o_mini_0_2: Ans=1, Conf=No confidence found
+2025-05-15 20:04:04,258 - INFO - Q_num2 (Question ID 301) Iter2 Msg4 Agent agent_openai_gpt_4o_mini_0_3: Ans=1, Conf=No confidence found
+2025-05-15 20:04:04,258 - INFO - Q_num2 (Question ID 301) Iter2 Msg5 Agent agent_openai_gpt_4o_mini_0_4: Ans=1, Conf=No confidence found
+2025-05-15 20:04:04,258 - INFO - Q_num2 (Question ID 301) Iter2 Msg6 Agent agent_openai_gpt_4o_mini_0_5: Ans=1, Conf=No confidence found
+2025-05-15 20:04:04,258 - INFO - Q_num2 (Question ID 301) Iter2 Msg7 Agent agent_openai_gpt_4o_mini_0_0: Ans=1, Conf=No confidence found
+2025-05-15 20:04:04,258 - INFO - Q_num2 (Question ID 301) Iter2 Msg8 Agent agent_openai_gpt_4o_mini_0_1: Ans=1, Conf=No confidence found
+2025-05-15 20:04:04,258 - INFO - Q_num2 (Question ID 301) Iter2 Msg9 Agent agent_openai_gpt_4o_mini_0_2: Ans=1, Conf=No confidence found
+2025-05-15 20:04:04,258 - INFO - Q_num2 (Question ID 301) Iter2 Msg10 Agent agent_openai_gpt_4o_mini_0_3: Ans=1, Conf=No confidence found
+2025-05-15 20:04:04,258 - INFO - Q_num2 (Question ID 301) Iter2 Msg11 Agent agent_openai_gpt_4o_mini_0_4: Ans=1, Conf=No confidence found
+2025-05-15 20:04:04,258 - INFO - Q_num2 (Question ID 301) Iter2 Msg12 Agent agent_openai_gpt_4o_mini_0_5: Ans=1, Conf=No confidence found
+2025-05-15 20:04:04,258 - INFO - Q_num2 (Question ID 301) Iter2 Msg13 Agent agent_openai_gpt_4o_mini_0_0: Ans=1, Conf=No confidence found
+2025-05-15 20:04:04,258 - INFO - Q_num2 (Question ID 301) Iter2 Msg14 Agent agent_openai_gpt_4o_mini_0_1: Ans=1, Conf=No confidence found
+2025-05-15 20:04:04,258 - INFO - Q_num2 (Question ID 301) Iter2 Msg15 Agent agent_openai_gpt_4o_mini_0_2: Ans=1, Conf=No confidence found
+2025-05-15 20:04:04,258 - INFO - Q_num2 (Question ID 301) Iter2 Msg16 Agent agent_openai_gpt_4o_mini_0_3: Ans=1, Conf=No confidence found
+2025-05-15 20:04:04,259 - INFO - Q_num2 (Question ID 301) Iter2 Msg17 Agent agent_openai_gpt_4o_mini_0_4: Ans=1, Conf=No confidence found
+2025-05-15 20:04:04,259 - INFO - Q_num2 (Question ID 301) Iter2 Msg18 Agent agent_openai_gpt_4o_mini_0_5: Ans=1, Conf=No confidence found
+2025-05-15 20:04:04,259 - INFO - Q_num2 (Question ID 301) Iter2 Msg19 Agent agent_openai_gpt_4o_mini_0_0: Ans=1, Conf=No confidence found
+2025-05-15 20:04:04,259 - INFO - Q_num2 (Question ID 301) Iter2 Msg20 Agent agent_openai_gpt_4o_mini_0_1: Ans=1, Conf=No confidence found
+2025-05-15 20:04:04,259 - INFO - Q_num2 (Question ID 301) Iter2 Msg21 Agent agent_openai_gpt_4o_mini_0_2: Ans=1, Conf=No confidence found
+2025-05-15 20:04:04,259 - INFO - Q_num2 (Question ID 301) Iter2 Msg22 Agent agent_openai_gpt_4o_mini_0_3: Ans=1, Conf=No confidence found
+2025-05-15 20:04:04,259 - INFO - Q_num2 (Question ID 301) Iter2 Msg23 Agent agent_openai_gpt_4o_mini_0_4: Ans=1, Conf=No confidence found
+2025-05-15 20:04:04,259 - INFO - Q_num2 (Question ID 301) Iter2 Msg24 Agent agent_openai_gpt_4o_mini_0_5: Ans=1, Conf=No confidence found
+2025-05-15 20:04:04,342 - INFO - --- Finished Q_num2 (ID 301) Iter2. Results saved. ---
+2025-05-15 20:04:04,413 - INFO - --- Running Q_num2 (ID 301) Iter3/5 ---
+2025-05-15 20:04:04,414 - INFO - Task: It is morally right to allow several innocent people to suffer harm rather than harm a single innoce...
+2025-05-15 20:04:04,633 - INFO - Q_num2 (Question ID 301) Iter2: Starting chat with 6 agents.
+2025-05-15 20:04:34,976 - INFO - Q_num2 (Question ID 301) Iter2: Chat finished in 30.34 seconds.
+2025-05-15 20:04:34,976 - INFO - Q_num2 (Question ID 301) Iter3 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=6, Conf=No confidence found
+2025-05-15 20:04:34,976 - INFO - Q_num2 (Question ID 301) Iter3 Msg2 Agent agent_openai_gpt_4o_mini_0_1: Ans=6, Conf=No confidence found
+2025-05-15 20:04:34,976 - INFO - Q_num2 (Question ID 301) Iter3 Msg3 Agent agent_openai_gpt_4o_mini_0_2: Ans=6, Conf=No confidence found
+2025-05-15 20:04:34,976 - INFO - Q_num2 (Question ID 301) Iter3 Msg4 Agent agent_openai_gpt_4o_mini_0_3: Ans=6, Conf=No confidence found
+2025-05-15 20:04:34,976 - INFO - Q_num2 (Question ID 301) Iter3 Msg5 Agent agent_openai_gpt_4o_mini_0_4: Ans=6, Conf=No confidence found
+2025-05-15 20:04:34,976 - INFO - Q_num2 (Question ID 301) Iter3 Msg6 Agent agent_openai_gpt_4o_mini_0_5: Ans=6, Conf=No confidence found
+2025-05-15 20:04:34,977 - INFO - Q_num2 (Question ID 301) Iter3 Msg7 Agent agent_openai_gpt_4o_mini_0_0: Ans=6, Conf=No confidence found
+2025-05-15 20:04:34,977 - INFO - Q_num2 (Question ID 301) Iter3 Msg8 Agent agent_openai_gpt_4o_mini_0_1: Ans=6, Conf=No confidence found
+2025-05-15 20:04:34,977 - INFO - Q_num2 (Question ID 301) Iter3 Msg9 Agent agent_openai_gpt_4o_mini_0_2: Ans=6, Conf=No confidence found
+2025-05-15 20:04:34,977 - INFO - Q_num2 (Question ID 301) Iter3 Msg10 Agent agent_openai_gpt_4o_mini_0_3: Ans=6, Conf=No confidence found
+2025-05-15 20:04:34,977 - INFO - Q_num2 (Question ID 301) Iter3 Msg11 Agent agent_openai_gpt_4o_mini_0_4: Ans=6, Conf=No confidence found
+2025-05-15 20:04:34,977 - INFO - Q_num2 (Question ID 301) Iter3 Msg12 Agent agent_openai_gpt_4o_mini_0_5: Ans=6, Conf=No confidence found
+2025-05-15 20:04:34,977 - INFO - Q_num2 (Question ID 301) Iter3 Msg13 Agent agent_openai_gpt_4o_mini_0_0: Ans=6, Conf=No confidence found
+2025-05-15 20:04:34,977 - INFO - Q_num2 (Question ID 301) Iter3 Msg14 Agent agent_openai_gpt_4o_mini_0_1: Ans=6, Conf=No confidence found
+2025-05-15 20:04:34,977 - INFO - Q_num2 (Question ID 301) Iter3 Msg15 Agent agent_openai_gpt_4o_mini_0_2: Ans=6, Conf=No confidence found
+2025-05-15 20:04:34,977 - INFO - Q_num2 (Question ID 301) Iter3 Msg16 Agent agent_openai_gpt_4o_mini_0_3: Ans=6, Conf=No confidence found
+2025-05-15 20:04:34,977 - INFO - Q_num2 (Question ID 301) Iter3 Msg17 Agent agent_openai_gpt_4o_mini_0_4: Ans=6, Conf=No confidence found
+2025-05-15 20:04:34,977 - INFO - Q_num2 (Question ID 301) Iter3 Msg18 Agent agent_openai_gpt_4o_mini_0_5: Ans=6, Conf=No confidence found
+2025-05-15 20:04:34,977 - INFO - Q_num2 (Question ID 301) Iter3 Msg19 Agent agent_openai_gpt_4o_mini_0_0: Ans=6, Conf=No confidence found
+2025-05-15 20:04:34,977 - INFO - Q_num2 (Question ID 301) Iter3 Msg20 Agent agent_openai_gpt_4o_mini_0_1: Ans=6, Conf=No confidence found
+2025-05-15 20:04:34,978 - INFO - Q_num2 (Question ID 301) Iter3 Msg21 Agent agent_openai_gpt_4o_mini_0_2: Ans=6, Conf=No confidence found
+2025-05-15 20:04:34,978 - INFO - Q_num2 (Question ID 301) Iter3 Msg22 Agent agent_openai_gpt_4o_mini_0_3: Ans=6, Conf=No confidence found
+2025-05-15 20:04:34,978 - INFO - Q_num2 (Question ID 301) Iter3 Msg23 Agent agent_openai_gpt_4o_mini_0_4: Ans=6, Conf=No confidence found
+2025-05-15 20:04:34,978 - INFO - Q_num2 (Question ID 301) Iter3 Msg24 Agent agent_openai_gpt_4o_mini_0_5: Ans=6, Conf=No confidence found
+2025-05-15 20:04:35,062 - INFO - --- Finished Q_num2 (ID 301) Iter3. Results saved. ---
+2025-05-15 20:04:35,136 - INFO - --- Running Q_num2 (ID 301) Iter4/5 ---
+2025-05-15 20:04:35,136 - INFO - Task: It is morally right to allow several innocent people to suffer harm rather than harm a single innoce...
+2025-05-15 20:04:35,355 - INFO - Q_num2 (Question ID 301) Iter3: Starting chat with 6 agents.
+2025-05-15 20:05:05,205 - INFO - Q_num2 (Question ID 301) Iter3: Chat finished in 29.85 seconds.
+2025-05-15 20:05:05,205 - INFO - Q_num2 (Question ID 301) Iter4 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 20:05:05,205 - INFO - Q_num2 (Question ID 301) Iter4 Msg2 Agent agent_openai_gpt_4o_mini_0_1: Ans=7, Conf=No confidence found
+2025-05-15 20:05:05,205 - INFO - Q_num2 (Question ID 301) Iter4 Msg3 Agent agent_openai_gpt_4o_mini_0_2: Ans=7, Conf=No confidence found
+2025-05-15 20:05:05,206 - INFO - Q_num2 (Question ID 301) Iter4 Msg4 Agent agent_openai_gpt_4o_mini_0_3: Ans=7, Conf=No confidence found
+2025-05-15 20:05:05,206 - INFO - Q_num2 (Question ID 301) Iter4 Msg5 Agent agent_openai_gpt_4o_mini_0_4: Ans=7, Conf=No confidence found
+2025-05-15 20:05:05,206 - INFO - Q_num2 (Question ID 301) Iter4 Msg6 Agent agent_openai_gpt_4o_mini_0_5: Ans=7, Conf=No confidence found
+2025-05-15 20:05:05,206 - INFO - Q_num2 (Question ID 301) Iter4 Msg7 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 20:05:05,206 - INFO - Q_num2 (Question ID 301) Iter4 Msg8 Agent agent_openai_gpt_4o_mini_0_1: Ans=7, Conf=No confidence found
+2025-05-15 20:05:05,206 - INFO - Q_num2 (Question ID 301) Iter4 Msg9 Agent agent_openai_gpt_4o_mini_0_2: Ans=7, Conf=No confidence found
+2025-05-15 20:05:05,206 - INFO - Q_num2 (Question ID 301) Iter4 Msg10 Agent agent_openai_gpt_4o_mini_0_3: Ans=7, Conf=No confidence found
+2025-05-15 20:05:05,206 - INFO - Q_num2 (Question ID 301) Iter4 Msg11 Agent agent_openai_gpt_4o_mini_0_4: Ans=7, Conf=No confidence found
+2025-05-15 20:05:05,206 - INFO - Q_num2 (Question ID 301) Iter4 Msg12 Agent agent_openai_gpt_4o_mini_0_5: Ans=7, Conf=No confidence found
+2025-05-15 20:05:05,206 - INFO - Q_num2 (Question ID 301) Iter4 Msg13 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 20:05:05,206 - INFO - Q_num2 (Question ID 301) Iter4 Msg14 Agent agent_openai_gpt_4o_mini_0_1: Ans=7, Conf=No confidence found
+2025-05-15 20:05:05,206 - INFO - Q_num2 (Question ID 301) Iter4 Msg15 Agent agent_openai_gpt_4o_mini_0_2: Ans=7, Conf=No confidence found
+2025-05-15 20:05:05,206 - INFO - Q_num2 (Question ID 301) Iter4 Msg16 Agent agent_openai_gpt_4o_mini_0_3: Ans=7, Conf=No confidence found
+2025-05-15 20:05:05,207 - INFO - Q_num2 (Question ID 301) Iter4 Msg17 Agent agent_openai_gpt_4o_mini_0_4: Ans=7, Conf=No confidence found
+2025-05-15 20:05:05,207 - INFO - Q_num2 (Question ID 301) Iter4 Msg18 Agent agent_openai_gpt_4o_mini_0_5: Ans=7, Conf=No confidence found
+2025-05-15 20:05:05,207 - INFO - Q_num2 (Question ID 301) Iter4 Msg19 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 20:05:05,207 - INFO - Q_num2 (Question ID 301) Iter4 Msg20 Agent agent_openai_gpt_4o_mini_0_1: Ans=7, Conf=No confidence found
+2025-05-15 20:05:05,207 - INFO - Q_num2 (Question ID 301) Iter4 Msg21 Agent agent_openai_gpt_4o_mini_0_2: Ans=7, Conf=No confidence found
+2025-05-15 20:05:05,207 - INFO - Q_num2 (Question ID 301) Iter4 Msg22 Agent agent_openai_gpt_4o_mini_0_3: Ans=7, Conf=No confidence found
+2025-05-15 20:05:05,207 - INFO - Q_num2 (Question ID 301) Iter4 Msg23 Agent agent_openai_gpt_4o_mini_0_4: Ans=7, Conf=No confidence found
+2025-05-15 20:05:05,207 - INFO - Q_num2 (Question ID 301) Iter4 Msg24 Agent agent_openai_gpt_4o_mini_0_5: Ans=7, Conf=No confidence found
+2025-05-15 20:05:05,295 - INFO - --- Finished Q_num2 (ID 301) Iter4. Results saved. ---
+2025-05-15 20:05:05,366 - INFO - --- Running Q_num2 (ID 301) Iter5/5 ---
+2025-05-15 20:05:05,366 - INFO - Task: It is morally right to allow several innocent people to suffer harm rather than harm a single innoce...
+2025-05-15 20:05:05,586 - INFO - Q_num2 (Question ID 301) Iter4: Starting chat with 6 agents.
+2025-05-15 20:05:39,654 - INFO - Q_num2 (Question ID 301) Iter4: Chat finished in 34.07 seconds.
+2025-05-15 20:05:39,654 - INFO - Q_num2 (Question ID 301) Iter5 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=4, Conf=No confidence found
+2025-05-15 20:05:39,655 - INFO - Q_num2 (Question ID 301) Iter5 Msg2 Agent agent_openai_gpt_4o_mini_0_1: Ans=6, Conf=No confidence found
+2025-05-15 20:05:39,655 - INFO - Q_num2 (Question ID 301) Iter5 Msg3 Agent agent_openai_gpt_4o_mini_0_2: Ans=6, Conf=No confidence found
+2025-05-15 20:05:39,655 - INFO - Q_num2 (Question ID 301) Iter5 Msg4 Agent agent_openai_gpt_4o_mini_0_3: Ans=6, Conf=No confidence found
+2025-05-15 20:05:39,655 - INFO - Q_num2 (Question ID 301) Iter5 Msg5 Agent agent_openai_gpt_4o_mini_0_4: Ans=6, Conf=No confidence found
+2025-05-15 20:05:39,655 - INFO - Q_num2 (Question ID 301) Iter5 Msg6 Agent agent_openai_gpt_4o_mini_0_5: Ans=6, Conf=No confidence found
+2025-05-15 20:05:39,655 - INFO - Q_num2 (Question ID 301) Iter5 Msg7 Agent agent_openai_gpt_4o_mini_0_0: Ans=6, Conf=No confidence found
+2025-05-15 20:05:39,655 - INFO - Q_num2 (Question ID 301) Iter5 Msg8 Agent agent_openai_gpt_4o_mini_0_1: Ans=6, Conf=No confidence found
+2025-05-15 20:05:39,655 - INFO - Q_num2 (Question ID 301) Iter5 Msg9 Agent agent_openai_gpt_4o_mini_0_2: Ans=6, Conf=No confidence found
+2025-05-15 20:05:39,655 - INFO - Q_num2 (Question ID 301) Iter5 Msg10 Agent agent_openai_gpt_4o_mini_0_3: Ans=6, Conf=No confidence found
+2025-05-15 20:05:39,655 - INFO - Q_num2 (Question ID 301) Iter5 Msg11 Agent agent_openai_gpt_4o_mini_0_4: Ans=6, Conf=No confidence found
+2025-05-15 20:05:39,655 - INFO - Q_num2 (Question ID 301) Iter5 Msg12 Agent agent_openai_gpt_4o_mini_0_5: Ans=6, Conf=No confidence found
+2025-05-15 20:05:39,655 - INFO - Q_num2 (Question ID 301) Iter5 Msg13 Agent agent_openai_gpt_4o_mini_0_0: Ans=6, Conf=No confidence found
+2025-05-15 20:05:39,655 - INFO - Q_num2 (Question ID 301) Iter5 Msg14 Agent agent_openai_gpt_4o_mini_0_1: Ans=6, Conf=No confidence found
+2025-05-15 20:05:39,655 - INFO - Q_num2 (Question ID 301) Iter5 Msg15 Agent agent_openai_gpt_4o_mini_0_2: Ans=6, Conf=No confidence found
+2025-05-15 20:05:39,656 - INFO - Q_num2 (Question ID 301) Iter5 Msg16 Agent agent_openai_gpt_4o_mini_0_3: Ans=6, Conf=No confidence found
+2025-05-15 20:05:39,656 - INFO - Q_num2 (Question ID 301) Iter5 Msg17 Agent agent_openai_gpt_4o_mini_0_4: Ans=6, Conf=No confidence found
+2025-05-15 20:05:39,656 - INFO - Q_num2 (Question ID 301) Iter5 Msg18 Agent agent_openai_gpt_4o_mini_0_5: Ans=6, Conf=No confidence found
+2025-05-15 20:05:39,656 - INFO - Q_num2 (Question ID 301) Iter5 Msg19 Agent agent_openai_gpt_4o_mini_0_0: Ans=6, Conf=No confidence found
+2025-05-15 20:05:39,656 - INFO - Q_num2 (Question ID 301) Iter5 Msg20 Agent agent_openai_gpt_4o_mini_0_1: Ans=6, Conf=No confidence found
+2025-05-15 20:05:39,656 - INFO - Q_num2 (Question ID 301) Iter5 Msg21 Agent agent_openai_gpt_4o_mini_0_2: Ans=6, Conf=No confidence found
+2025-05-15 20:05:39,656 - INFO - Q_num2 (Question ID 301) Iter5 Msg22 Agent agent_openai_gpt_4o_mini_0_3: Ans=6, Conf=No confidence found
+2025-05-15 20:05:39,656 - INFO - Q_num2 (Question ID 301) Iter5 Msg23 Agent agent_openai_gpt_4o_mini_0_4: Ans=6, Conf=No confidence found
+2025-05-15 20:05:39,656 - INFO - Q_num2 (Question ID 301) Iter5 Msg24 Agent agent_openai_gpt_4o_mini_0_5: Ans=6, Conf=No confidence found
+2025-05-15 20:05:39,739 - INFO - --- Finished Q_num2 (ID 301) Iter5. Results saved. ---
+2025-05-15 20:05:39,809 - INFO - --- Running Q_num3 (ID 306) Iter1/5 ---
+2025-05-15 20:05:39,810 - INFO - Task: From a moral point of view, we should not feel obliged to give one of our kidneys to a person with k...
+2025-05-15 20:05:40,022 - INFO - Q_num3 (Question ID 306) Iter0: Starting chat with 6 agents.
+2025-05-15 20:06:10,311 - INFO - Q_num3 (Question ID 306) Iter0: Chat finished in 30.29 seconds.
+2025-05-15 20:06:10,311 - INFO - Q_num3 (Question ID 306) Iter1 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=4, Conf=No confidence found
+2025-05-15 20:06:10,311 - INFO - Q_num3 (Question ID 306) Iter1 Msg2 Agent agent_openai_gpt_4o_mini_0_1: Ans=4, Conf=No confidence found
+2025-05-15 20:06:10,311 - INFO - Q_num3 (Question ID 306) Iter1 Msg3 Agent agent_openai_gpt_4o_mini_0_2: Ans=4, Conf=No confidence found
+2025-05-15 20:06:10,311 - INFO - Q_num3 (Question ID 306) Iter1 Msg4 Agent agent_openai_gpt_4o_mini_0_3: Ans=4, Conf=No confidence found
+2025-05-15 20:06:10,312 - INFO - Q_num3 (Question ID 306) Iter1 Msg5 Agent agent_openai_gpt_4o_mini_0_4: Ans=4, Conf=No confidence found
+2025-05-15 20:06:10,312 - INFO - Q_num3 (Question ID 306) Iter1 Msg6 Agent agent_openai_gpt_4o_mini_0_5: Ans=4, Conf=No confidence found
+2025-05-15 20:06:10,312 - INFO - Q_num3 (Question ID 306) Iter1 Msg7 Agent agent_openai_gpt_4o_mini_0_0: Ans=4, Conf=No confidence found
+2025-05-15 20:06:10,312 - INFO - Q_num3 (Question ID 306) Iter1 Msg8 Agent agent_openai_gpt_4o_mini_0_1: Ans=4, Conf=No confidence found
+2025-05-15 20:06:10,312 - INFO - Q_num3 (Question ID 306) Iter1 Msg9 Agent agent_openai_gpt_4o_mini_0_2: Ans=4, Conf=No confidence found
+2025-05-15 20:06:10,312 - INFO - Q_num3 (Question ID 306) Iter1 Msg10 Agent agent_openai_gpt_4o_mini_0_3: Ans=4, Conf=No confidence found
+2025-05-15 20:06:10,312 - INFO - Q_num3 (Question ID 306) Iter1 Msg11 Agent agent_openai_gpt_4o_mini_0_4: Ans=4, Conf=No confidence found
+2025-05-15 20:06:10,312 - INFO - Q_num3 (Question ID 306) Iter1 Msg12 Agent agent_openai_gpt_4o_mini_0_5: Ans=4, Conf=No confidence found
+2025-05-15 20:06:10,312 - INFO - Q_num3 (Question ID 306) Iter1 Msg13 Agent agent_openai_gpt_4o_mini_0_0: Ans=4, Conf=No confidence found
+2025-05-15 20:06:10,312 - INFO - Q_num3 (Question ID 306) Iter1 Msg14 Agent agent_openai_gpt_4o_mini_0_1: Ans=4, Conf=No confidence found
+2025-05-15 20:06:10,312 - INFO - Q_num3 (Question ID 306) Iter1 Msg15 Agent agent_openai_gpt_4o_mini_0_2: Ans=4, Conf=No confidence found
+2025-05-15 20:06:10,312 - INFO - Q_num3 (Question ID 306) Iter1 Msg16 Agent agent_openai_gpt_4o_mini_0_3: Ans=4, Conf=No confidence found
+2025-05-15 20:06:10,312 - INFO - Q_num3 (Question ID 306) Iter1 Msg17 Agent agent_openai_gpt_4o_mini_0_4: Ans=4, Conf=No confidence found
+2025-05-15 20:06:10,312 - INFO - Q_num3 (Question ID 306) Iter1 Msg18 Agent agent_openai_gpt_4o_mini_0_5: Ans=4, Conf=No confidence found
+2025-05-15 20:06:10,313 - INFO - Q_num3 (Question ID 306) Iter1 Msg19 Agent agent_openai_gpt_4o_mini_0_0: Ans=4, Conf=No confidence found
+2025-05-15 20:06:10,313 - INFO - Q_num3 (Question ID 306) Iter1 Msg20 Agent agent_openai_gpt_4o_mini_0_1: Ans=4, Conf=No confidence found
+2025-05-15 20:06:10,313 - INFO - Q_num3 (Question ID 306) Iter1 Msg21 Agent agent_openai_gpt_4o_mini_0_2: Ans=4, Conf=No confidence found
+2025-05-15 20:06:10,313 - INFO - Q_num3 (Question ID 306) Iter1 Msg22 Agent agent_openai_gpt_4o_mini_0_3: Ans=4, Conf=No confidence found
+2025-05-15 20:06:10,313 - INFO - Q_num3 (Question ID 306) Iter1 Msg23 Agent agent_openai_gpt_4o_mini_0_4: Ans=4, Conf=No confidence found
+2025-05-15 20:06:10,313 - INFO - Q_num3 (Question ID 306) Iter1 Msg24 Agent agent_openai_gpt_4o_mini_0_5: Ans=4, Conf=No confidence found
+2025-05-15 20:06:10,397 - INFO - --- Finished Q_num3 (ID 306) Iter1. Results saved. ---
+2025-05-15 20:06:10,468 - INFO - --- Running Q_num3 (ID 306) Iter2/5 ---
+2025-05-15 20:06:10,468 - INFO - Task: From a moral point of view, we should not feel obliged to give one of our kidneys to a person with k...
+2025-05-15 20:06:10,688 - INFO - Q_num3 (Question ID 306) Iter1: Starting chat with 6 agents.
+2025-05-15 20:06:38,981 - INFO - Q_num3 (Question ID 306) Iter1: Chat finished in 28.29 seconds.
+2025-05-15 20:06:38,982 - INFO - Q_num3 (Question ID 306) Iter2 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=4, Conf=No confidence found
+2025-05-15 20:06:38,982 - INFO - Q_num3 (Question ID 306) Iter2 Msg2 Agent agent_openai_gpt_4o_mini_0_1: Ans=4, Conf=No confidence found
+2025-05-15 20:06:38,982 - INFO - Q_num3 (Question ID 306) Iter2 Msg3 Agent agent_openai_gpt_4o_mini_0_2: Ans=4, Conf=No confidence found
+2025-05-15 20:06:38,982 - INFO - Q_num3 (Question ID 306) Iter2 Msg4 Agent agent_openai_gpt_4o_mini_0_3: Ans=4, Conf=No confidence found
+2025-05-15 20:06:38,982 - INFO - Q_num3 (Question ID 306) Iter2 Msg5 Agent agent_openai_gpt_4o_mini_0_4: Ans=4, Conf=No confidence found
+2025-05-15 20:06:38,982 - INFO - Q_num3 (Question ID 306) Iter2 Msg6 Agent agent_openai_gpt_4o_mini_0_5: Ans=4, Conf=No confidence found
+2025-05-15 20:06:38,982 - INFO - Q_num3 (Question ID 306) Iter2 Msg7 Agent agent_openai_gpt_4o_mini_0_0: Ans=4, Conf=No confidence found
+2025-05-15 20:06:38,983 - INFO - Q_num3 (Question ID 306) Iter2 Msg8 Agent agent_openai_gpt_4o_mini_0_1: Ans=4, Conf=No confidence found
+2025-05-15 20:06:38,983 - INFO - Q_num3 (Question ID 306) Iter2 Msg9 Agent agent_openai_gpt_4o_mini_0_2: Ans=4, Conf=No confidence found
+2025-05-15 20:06:38,983 - INFO - Q_num3 (Question ID 306) Iter2 Msg10 Agent agent_openai_gpt_4o_mini_0_3: Ans=4, Conf=No confidence found
+2025-05-15 20:06:38,983 - INFO - Q_num3 (Question ID 306) Iter2 Msg11 Agent agent_openai_gpt_4o_mini_0_4: Ans=4, Conf=No confidence found
+2025-05-15 20:06:38,983 - INFO - Q_num3 (Question ID 306) Iter2 Msg12 Agent agent_openai_gpt_4o_mini_0_5: Ans=4, Conf=No confidence found
+2025-05-15 20:06:38,983 - INFO - Q_num3 (Question ID 306) Iter2 Msg13 Agent agent_openai_gpt_4o_mini_0_0: Ans=4, Conf=No confidence found
+2025-05-15 20:06:38,983 - INFO - Q_num3 (Question ID 306) Iter2 Msg14 Agent agent_openai_gpt_4o_mini_0_1: Ans=4, Conf=No confidence found
+2025-05-15 20:06:38,983 - INFO - Q_num3 (Question ID 306) Iter2 Msg15 Agent agent_openai_gpt_4o_mini_0_2: Ans=4, Conf=No confidence found
+2025-05-15 20:06:38,983 - INFO - Q_num3 (Question ID 306) Iter2 Msg16 Agent agent_openai_gpt_4o_mini_0_3: Ans=4, Conf=No confidence found
+2025-05-15 20:06:38,983 - INFO - Q_num3 (Question ID 306) Iter2 Msg17 Agent agent_openai_gpt_4o_mini_0_4: Ans=4, Conf=No confidence found
+2025-05-15 20:06:38,983 - INFO - Q_num3 (Question ID 306) Iter2 Msg18 Agent agent_openai_gpt_4o_mini_0_5: Ans=4, Conf=No confidence found
+2025-05-15 20:06:38,983 - INFO - Q_num3 (Question ID 306) Iter2 Msg19 Agent agent_openai_gpt_4o_mini_0_0: Ans=4, Conf=No confidence found
+2025-05-15 20:06:38,983 - INFO - Q_num3 (Question ID 306) Iter2 Msg20 Agent agent_openai_gpt_4o_mini_0_1: Ans=4, Conf=No confidence found
+2025-05-15 20:06:38,983 - INFO - Q_num3 (Question ID 306) Iter2 Msg21 Agent agent_openai_gpt_4o_mini_0_2: Ans=4, Conf=No confidence found
+2025-05-15 20:06:38,983 - INFO - Q_num3 (Question ID 306) Iter2 Msg22 Agent agent_openai_gpt_4o_mini_0_3: Ans=4, Conf=No confidence found
+2025-05-15 20:06:38,984 - INFO - Q_num3 (Question ID 306) Iter2 Msg23 Agent agent_openai_gpt_4o_mini_0_4: Ans=4, Conf=No confidence found
+2025-05-15 20:06:38,984 - INFO - Q_num3 (Question ID 306) Iter2 Msg24 Agent agent_openai_gpt_4o_mini_0_5: Ans=4, Conf=No confidence found
+2025-05-15 20:06:39,071 - INFO - --- Finished Q_num3 (ID 306) Iter2. Results saved. ---
+2025-05-15 20:06:39,148 - INFO - --- Running Q_num3 (ID 306) Iter3/5 ---
+2025-05-15 20:06:39,148 - INFO - Task: From a moral point of view, we should not feel obliged to give one of our kidneys to a person with k...
+2025-05-15 20:06:39,369 - INFO - Q_num3 (Question ID 306) Iter2: Starting chat with 6 agents.
+2025-05-15 20:07:08,373 - INFO - Q_num3 (Question ID 306) Iter2: Chat finished in 29.00 seconds.
+2025-05-15 20:07:08,373 - INFO - Q_num3 (Question ID 306) Iter3 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=4, Conf=No confidence found
+2025-05-15 20:07:08,373 - INFO - Q_num3 (Question ID 306) Iter3 Msg2 Agent agent_openai_gpt_4o_mini_0_1: Ans=4, Conf=No confidence found
+2025-05-15 20:07:08,373 - INFO - Q_num3 (Question ID 306) Iter3 Msg3 Agent agent_openai_gpt_4o_mini_0_2: Ans=4, Conf=No confidence found
+2025-05-15 20:07:08,373 - INFO - Q_num3 (Question ID 306) Iter3 Msg4 Agent agent_openai_gpt_4o_mini_0_3: Ans=4, Conf=No confidence found
+2025-05-15 20:07:08,373 - INFO - Q_num3 (Question ID 306) Iter3 Msg5 Agent agent_openai_gpt_4o_mini_0_4: Ans=4, Conf=No confidence found
+2025-05-15 20:07:08,373 - INFO - Q_num3 (Question ID 306) Iter3 Msg6 Agent agent_openai_gpt_4o_mini_0_5: Ans=4, Conf=No confidence found
+2025-05-15 20:07:08,374 - INFO - Q_num3 (Question ID 306) Iter3 Msg7 Agent agent_openai_gpt_4o_mini_0_0: Ans=4, Conf=No confidence found
+2025-05-15 20:07:08,374 - INFO - Q_num3 (Question ID 306) Iter3 Msg8 Agent agent_openai_gpt_4o_mini_0_1: Ans=4, Conf=No confidence found
+2025-05-15 20:07:08,374 - INFO - Q_num3 (Question ID 306) Iter3 Msg9 Agent agent_openai_gpt_4o_mini_0_2: Ans=4, Conf=No confidence found
+2025-05-15 20:07:08,374 - INFO - Q_num3 (Question ID 306) Iter3 Msg10 Agent agent_openai_gpt_4o_mini_0_3: Ans=4, Conf=No confidence found
+2025-05-15 20:07:08,374 - INFO - Q_num3 (Question ID 306) Iter3 Msg11 Agent agent_openai_gpt_4o_mini_0_4: Ans=4, Conf=No confidence found
+2025-05-15 20:07:08,374 - INFO - Q_num3 (Question ID 306) Iter3 Msg12 Agent agent_openai_gpt_4o_mini_0_5: Ans=4, Conf=No confidence found
+2025-05-15 20:07:08,374 - INFO - Q_num3 (Question ID 306) Iter3 Msg13 Agent agent_openai_gpt_4o_mini_0_0: Ans=4, Conf=No confidence found
+2025-05-15 20:07:08,374 - INFO - Q_num3 (Question ID 306) Iter3 Msg14 Agent agent_openai_gpt_4o_mini_0_1: Ans=4, Conf=No confidence found
+2025-05-15 20:07:08,374 - INFO - Q_num3 (Question ID 306) Iter3 Msg15 Agent agent_openai_gpt_4o_mini_0_2: Ans=4, Conf=No confidence found
+2025-05-15 20:07:08,374 - INFO - Q_num3 (Question ID 306) Iter3 Msg16 Agent agent_openai_gpt_4o_mini_0_3: Ans=4, Conf=No confidence found
+2025-05-15 20:07:08,374 - INFO - Q_num3 (Question ID 306) Iter3 Msg17 Agent agent_openai_gpt_4o_mini_0_4: Ans=4, Conf=No confidence found
+2025-05-15 20:07:08,374 - INFO - Q_num3 (Question ID 306) Iter3 Msg18 Agent agent_openai_gpt_4o_mini_0_5: Ans=4, Conf=No confidence found
+2025-05-15 20:07:08,374 - INFO - Q_num3 (Question ID 306) Iter3 Msg19 Agent agent_openai_gpt_4o_mini_0_0: Ans=4, Conf=No confidence found
+2025-05-15 20:07:08,375 - INFO - Q_num3 (Question ID 306) Iter3 Msg20 Agent agent_openai_gpt_4o_mini_0_1: Ans=4, Conf=No confidence found
+2025-05-15 20:07:08,375 - INFO - Q_num3 (Question ID 306) Iter3 Msg21 Agent agent_openai_gpt_4o_mini_0_2: Ans=4, Conf=No confidence found
+2025-05-15 20:07:08,375 - INFO - Q_num3 (Question ID 306) Iter3 Msg22 Agent agent_openai_gpt_4o_mini_0_3: Ans=4, Conf=No confidence found
+2025-05-15 20:07:08,375 - INFO - Q_num3 (Question ID 306) Iter3 Msg23 Agent agent_openai_gpt_4o_mini_0_4: Ans=4, Conf=No confidence found
+2025-05-15 20:07:08,375 - INFO - Q_num3 (Question ID 306) Iter3 Msg24 Agent agent_openai_gpt_4o_mini_0_5: Ans=4, Conf=No confidence found
+2025-05-15 20:07:08,460 - INFO - --- Finished Q_num3 (ID 306) Iter3. Results saved. ---
+2025-05-15 20:07:08,531 - INFO - --- Running Q_num3 (ID 306) Iter4/5 ---
+2025-05-15 20:07:08,531 - INFO - Task: From a moral point of view, we should not feel obliged to give one of our kidneys to a person with k...
+2025-05-15 20:07:08,754 - INFO - Q_num3 (Question ID 306) Iter3: Starting chat with 6 agents.
+2025-05-15 20:07:41,245 - INFO - Q_num3 (Question ID 306) Iter3: Chat finished in 32.49 seconds.
+2025-05-15 20:07:41,245 - INFO - Q_num3 (Question ID 306) Iter4 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=4, Conf=No confidence found
+2025-05-15 20:07:41,245 - INFO - Q_num3 (Question ID 306) Iter4 Msg2 Agent agent_openai_gpt_4o_mini_0_1: Ans=4, Conf=No confidence found
+2025-05-15 20:07:41,245 - INFO - Q_num3 (Question ID 306) Iter4 Msg3 Agent agent_openai_gpt_4o_mini_0_2: Ans=4, Conf=No confidence found
+2025-05-15 20:07:41,245 - INFO - Q_num3 (Question ID 306) Iter4 Msg4 Agent agent_openai_gpt_4o_mini_0_3: Ans=4, Conf=No confidence found
+2025-05-15 20:07:41,245 - INFO - Q_num3 (Question ID 306) Iter4 Msg5 Agent agent_openai_gpt_4o_mini_0_4: Ans=4, Conf=No confidence found
+2025-05-15 20:07:41,245 - INFO - Q_num3 (Question ID 306) Iter4 Msg6 Agent agent_openai_gpt_4o_mini_0_5: Ans=4, Conf=No confidence found
+2025-05-15 20:07:41,245 - INFO - Q_num3 (Question ID 306) Iter4 Msg7 Agent agent_openai_gpt_4o_mini_0_0: Ans=4, Conf=No confidence found
+2025-05-15 20:07:41,245 - INFO - Q_num3 (Question ID 306) Iter4 Msg8 Agent agent_openai_gpt_4o_mini_0_1: Ans=4, Conf=No confidence found
+2025-05-15 20:07:41,245 - INFO - Q_num3 (Question ID 306) Iter4 Msg9 Agent agent_openai_gpt_4o_mini_0_2: Ans=4, Conf=No confidence found
+2025-05-15 20:07:41,245 - INFO - Q_num3 (Question ID 306) Iter4 Msg10 Agent agent_openai_gpt_4o_mini_0_3: Ans=4, Conf=No confidence found
+2025-05-15 20:07:41,245 - INFO - Q_num3 (Question ID 306) Iter4 Msg11 Agent agent_openai_gpt_4o_mini_0_4: Ans=4, Conf=No confidence found
+2025-05-15 20:07:41,246 - INFO - Q_num3 (Question ID 306) Iter4 Msg12 Agent agent_openai_gpt_4o_mini_0_5: Ans=4, Conf=No confidence found
+2025-05-15 20:07:41,246 - INFO - Q_num3 (Question ID 306) Iter4 Msg13 Agent agent_openai_gpt_4o_mini_0_0: Ans=4, Conf=No confidence found
+2025-05-15 20:07:41,246 - INFO - Q_num3 (Question ID 306) Iter4 Msg14 Agent agent_openai_gpt_4o_mini_0_1: Ans=4, Conf=No confidence found
+2025-05-15 20:07:41,246 - INFO - Q_num3 (Question ID 306) Iter4 Msg15 Agent agent_openai_gpt_4o_mini_0_2: Ans=4, Conf=No confidence found
+2025-05-15 20:07:41,246 - INFO - Q_num3 (Question ID 306) Iter4 Msg16 Agent agent_openai_gpt_4o_mini_0_3: Ans=4, Conf=No confidence found
+2025-05-15 20:07:41,246 - INFO - Q_num3 (Question ID 306) Iter4 Msg17 Agent agent_openai_gpt_4o_mini_0_4: Ans=4, Conf=No confidence found
+2025-05-15 20:07:41,246 - INFO - Q_num3 (Question ID 306) Iter4 Msg18 Agent agent_openai_gpt_4o_mini_0_5: Ans=4, Conf=No confidence found
+2025-05-15 20:07:41,246 - INFO - Q_num3 (Question ID 306) Iter4 Msg19 Agent agent_openai_gpt_4o_mini_0_0: Ans=4, Conf=No confidence found
+2025-05-15 20:07:41,246 - INFO - Q_num3 (Question ID 306) Iter4 Msg20 Agent agent_openai_gpt_4o_mini_0_1: Ans=4, Conf=No confidence found
+2025-05-15 20:07:41,246 - INFO - Q_num3 (Question ID 306) Iter4 Msg21 Agent agent_openai_gpt_4o_mini_0_2: Ans=4, Conf=No confidence found
+2025-05-15 20:07:41,246 - INFO - Q_num3 (Question ID 306) Iter4 Msg22 Agent agent_openai_gpt_4o_mini_0_3: Ans=4, Conf=No confidence found
+2025-05-15 20:07:41,246 - INFO - Q_num3 (Question ID 306) Iter4 Msg23 Agent agent_openai_gpt_4o_mini_0_4: Ans=4, Conf=No confidence found
+2025-05-15 20:07:41,246 - INFO - Q_num3 (Question ID 306) Iter4 Msg24 Agent agent_openai_gpt_4o_mini_0_5: Ans=4, Conf=No confidence found
+2025-05-15 20:07:41,334 - INFO - --- Finished Q_num3 (ID 306) Iter4. Results saved. ---
+2025-05-15 20:07:41,406 - INFO - --- Running Q_num3 (ID 306) Iter5/5 ---
+2025-05-15 20:07:41,406 - INFO - Task: From a moral point of view, we should not feel obliged to give one of our kidneys to a person with k...
+2025-05-15 20:07:41,627 - INFO - Q_num3 (Question ID 306) Iter4: Starting chat with 6 agents.
+2025-05-15 20:08:11,657 - INFO - Q_num3 (Question ID 306) Iter4: Chat finished in 30.03 seconds.
+2025-05-15 20:08:11,657 - INFO - Q_num3 (Question ID 306) Iter5 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=4, Conf=No confidence found
+2025-05-15 20:08:11,657 - INFO - Q_num3 (Question ID 306) Iter5 Msg2 Agent agent_openai_gpt_4o_mini_0_1: Ans=4, Conf=No confidence found
+2025-05-15 20:08:11,658 - INFO - Q_num3 (Question ID 306) Iter5 Msg3 Agent agent_openai_gpt_4o_mini_0_2: Ans=4, Conf=No confidence found
+2025-05-15 20:08:11,658 - INFO - Q_num3 (Question ID 306) Iter5 Msg4 Agent agent_openai_gpt_4o_mini_0_3: Ans=4, Conf=No confidence found
+2025-05-15 20:08:11,658 - INFO - Q_num3 (Question ID 306) Iter5 Msg5 Agent agent_openai_gpt_4o_mini_0_4: Ans=4, Conf=No confidence found
+2025-05-15 20:08:11,658 - INFO - Q_num3 (Question ID 306) Iter5 Msg6 Agent agent_openai_gpt_4o_mini_0_5: Ans=4, Conf=No confidence found
+2025-05-15 20:08:11,658 - INFO - Q_num3 (Question ID 306) Iter5 Msg7 Agent agent_openai_gpt_4o_mini_0_0: Ans=4, Conf=No confidence found
+2025-05-15 20:08:11,658 - INFO - Q_num3 (Question ID 306) Iter5 Msg8 Agent agent_openai_gpt_4o_mini_0_1: Ans=4, Conf=No confidence found
+2025-05-15 20:08:11,658 - INFO - Q_num3 (Question ID 306) Iter5 Msg9 Agent agent_openai_gpt_4o_mini_0_2: Ans=4, Conf=No confidence found
+2025-05-15 20:08:11,658 - INFO - Q_num3 (Question ID 306) Iter5 Msg10 Agent agent_openai_gpt_4o_mini_0_3: Ans=4, Conf=No confidence found
+2025-05-15 20:08:11,658 - INFO - Q_num3 (Question ID 306) Iter5 Msg11 Agent agent_openai_gpt_4o_mini_0_4: Ans=4, Conf=No confidence found
+2025-05-15 20:08:11,658 - INFO - Q_num3 (Question ID 306) Iter5 Msg12 Agent agent_openai_gpt_4o_mini_0_5: Ans=4, Conf=No confidence found
+2025-05-15 20:08:11,658 - INFO - Q_num3 (Question ID 306) Iter5 Msg13 Agent agent_openai_gpt_4o_mini_0_0: Ans=4, Conf=No confidence found
+2025-05-15 20:08:11,658 - INFO - Q_num3 (Question ID 306) Iter5 Msg14 Agent agent_openai_gpt_4o_mini_0_1: Ans=4, Conf=No confidence found
+2025-05-15 20:08:11,658 - INFO - Q_num3 (Question ID 306) Iter5 Msg15 Agent agent_openai_gpt_4o_mini_0_2: Ans=4, Conf=No confidence found
+2025-05-15 20:08:11,659 - INFO - Q_num3 (Question ID 306) Iter5 Msg16 Agent agent_openai_gpt_4o_mini_0_3: Ans=4, Conf=No confidence found
+2025-05-15 20:08:11,659 - INFO - Q_num3 (Question ID 306) Iter5 Msg17 Agent agent_openai_gpt_4o_mini_0_4: Ans=4, Conf=No confidence found
+2025-05-15 20:08:11,659 - INFO - Q_num3 (Question ID 306) Iter5 Msg18 Agent agent_openai_gpt_4o_mini_0_5: Ans=4, Conf=No confidence found
+2025-05-15 20:08:11,659 - INFO - Q_num3 (Question ID 306) Iter5 Msg19 Agent agent_openai_gpt_4o_mini_0_0: Ans=4, Conf=No confidence found
+2025-05-15 20:08:11,659 - INFO - Q_num3 (Question ID 306) Iter5 Msg20 Agent agent_openai_gpt_4o_mini_0_1: Ans=4, Conf=No confidence found
+2025-05-15 20:08:11,659 - INFO - Q_num3 (Question ID 306) Iter5 Msg21 Agent agent_openai_gpt_4o_mini_0_2: Ans=4, Conf=No confidence found
+2025-05-15 20:08:11,659 - INFO - Q_num3 (Question ID 306) Iter5 Msg22 Agent agent_openai_gpt_4o_mini_0_3: Ans=4, Conf=No confidence found
+2025-05-15 20:08:11,659 - INFO - Q_num3 (Question ID 306) Iter5 Msg23 Agent agent_openai_gpt_4o_mini_0_4: Ans=4, Conf=No confidence found
+2025-05-15 20:08:11,659 - INFO - Q_num3 (Question ID 306) Iter5 Msg24 Agent agent_openai_gpt_4o_mini_0_5: Ans=4, Conf=No confidence found
+2025-05-15 20:08:11,742 - INFO - --- Finished Q_num3 (ID 306) Iter5. Results saved. ---
+2025-05-15 20:08:11,812 - INFO - --- Running Q_num4 (ID 302) Iter1/5 ---
+2025-05-15 20:08:11,813 - INFO - Task: Political oppression should not be used, even if oppression for a short, limited time would ensure t...
+2025-05-15 20:08:12,033 - INFO - Q_num4 (Question ID 302) Iter0: Starting chat with 6 agents.
+2025-05-15 20:08:44,976 - INFO - Q_num4 (Question ID 302) Iter0: Chat finished in 32.94 seconds.
+2025-05-15 20:08:44,976 - INFO - Q_num4 (Question ID 302) Iter1 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=1, Conf=No confidence found
+2025-05-15 20:08:44,976 - INFO - Q_num4 (Question ID 302) Iter1 Msg2 Agent agent_openai_gpt_4o_mini_0_1: Ans=1, Conf=No confidence found
+2025-05-15 20:08:44,977 - INFO - Q_num4 (Question ID 302) Iter1 Msg3 Agent agent_openai_gpt_4o_mini_0_2: Ans=1, Conf=No confidence found
+2025-05-15 20:08:44,977 - INFO - Q_num4 (Question ID 302) Iter1 Msg4 Agent agent_openai_gpt_4o_mini_0_3: Ans=1, Conf=No confidence found
+2025-05-15 20:08:44,977 - INFO - Q_num4 (Question ID 302) Iter1 Msg5 Agent agent_openai_gpt_4o_mini_0_4: Ans=1, Conf=No confidence found
+2025-05-15 20:08:44,977 - INFO - Q_num4 (Question ID 302) Iter1 Msg6 Agent agent_openai_gpt_4o_mini_0_5: Ans=1, Conf=No confidence found
+2025-05-15 20:08:44,977 - INFO - Q_num4 (Question ID 302) Iter1 Msg7 Agent agent_openai_gpt_4o_mini_0_0: Ans=1, Conf=No confidence found
+2025-05-15 20:08:44,977 - INFO - Q_num4 (Question ID 302) Iter1 Msg8 Agent agent_openai_gpt_4o_mini_0_1: Ans=1, Conf=No confidence found
+2025-05-15 20:08:44,977 - INFO - Q_num4 (Question ID 302) Iter1 Msg9 Agent agent_openai_gpt_4o_mini_0_2: Ans=1, Conf=No confidence found
+2025-05-15 20:08:44,977 - INFO - Q_num4 (Question ID 302) Iter1 Msg10 Agent agent_openai_gpt_4o_mini_0_3: Ans=1, Conf=No confidence found
+2025-05-15 20:08:44,977 - INFO - Q_num4 (Question ID 302) Iter1 Msg11 Agent agent_openai_gpt_4o_mini_0_4: Ans=1, Conf=No confidence found
+2025-05-15 20:08:44,977 - INFO - Q_num4 (Question ID 302) Iter1 Msg12 Agent agent_openai_gpt_4o_mini_0_5: Ans=1, Conf=No confidence found
+2025-05-15 20:08:44,977 - INFO - Q_num4 (Question ID 302) Iter1 Msg13 Agent agent_openai_gpt_4o_mini_0_0: Ans=1, Conf=No confidence found
+2025-05-15 20:08:44,977 - INFO - Q_num4 (Question ID 302) Iter1 Msg14 Agent agent_openai_gpt_4o_mini_0_1: Ans=1, Conf=No confidence found
+2025-05-15 20:08:44,977 - INFO - Q_num4 (Question ID 302) Iter1 Msg15 Agent agent_openai_gpt_4o_mini_0_2: Ans=1, Conf=No confidence found
+2025-05-15 20:08:44,977 - INFO - Q_num4 (Question ID 302) Iter1 Msg16 Agent agent_openai_gpt_4o_mini_0_3: Ans=1, Conf=No confidence found
+2025-05-15 20:08:44,978 - INFO - Q_num4 (Question ID 302) Iter1 Msg17 Agent agent_openai_gpt_4o_mini_0_4: Ans=1, Conf=No confidence found
+2025-05-15 20:08:44,978 - INFO - Q_num4 (Question ID 302) Iter1 Msg18 Agent agent_openai_gpt_4o_mini_0_5: Ans=1, Conf=No confidence found
+2025-05-15 20:08:44,978 - INFO - Q_num4 (Question ID 302) Iter1 Msg19 Agent agent_openai_gpt_4o_mini_0_0: Ans=1, Conf=No confidence found
+2025-05-15 20:08:44,978 - INFO - Q_num4 (Question ID 302) Iter1 Msg20 Agent agent_openai_gpt_4o_mini_0_1: Ans=1, Conf=No confidence found
+2025-05-15 20:08:44,978 - INFO - Q_num4 (Question ID 302) Iter1 Msg21 Agent agent_openai_gpt_4o_mini_0_2: Ans=1, Conf=No confidence found
+2025-05-15 20:08:44,978 - INFO - Q_num4 (Question ID 302) Iter1 Msg22 Agent agent_openai_gpt_4o_mini_0_3: Ans=1, Conf=No confidence found
+2025-05-15 20:08:44,978 - INFO - Q_num4 (Question ID 302) Iter1 Msg23 Agent agent_openai_gpt_4o_mini_0_4: Ans=1, Conf=No confidence found
+2025-05-15 20:08:44,978 - INFO - Q_num4 (Question ID 302) Iter1 Msg24 Agent agent_openai_gpt_4o_mini_0_5: Ans=1, Conf=No confidence found
+2025-05-15 20:08:45,061 - INFO - --- Finished Q_num4 (ID 302) Iter1. Results saved. ---
+2025-05-15 20:08:45,132 - INFO - --- Running Q_num4 (ID 302) Iter2/5 ---
+2025-05-15 20:08:45,132 - INFO - Task: Political oppression should not be used, even if oppression for a short, limited time would ensure t...
+2025-05-15 20:08:45,352 - INFO - Q_num4 (Question ID 302) Iter1: Starting chat with 6 agents.
+2025-05-15 20:09:15,247 - INFO - Q_num4 (Question ID 302) Iter1: Chat finished in 29.90 seconds.
+2025-05-15 20:09:15,248 - INFO - Q_num4 (Question ID 302) Iter2 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=1, Conf=No confidence found
+2025-05-15 20:09:15,248 - INFO - Q_num4 (Question ID 302) Iter2 Msg2 Agent agent_openai_gpt_4o_mini_0_1: Ans=1, Conf=No confidence found
+2025-05-15 20:09:15,248 - INFO - Q_num4 (Question ID 302) Iter2 Msg3 Agent agent_openai_gpt_4o_mini_0_2: Ans=1, Conf=No confidence found
+2025-05-15 20:09:15,248 - INFO - Q_num4 (Question ID 302) Iter2 Msg4 Agent agent_openai_gpt_4o_mini_0_3: Ans=1, Conf=No confidence found
+2025-05-15 20:09:15,248 - INFO - Q_num4 (Question ID 302) Iter2 Msg5 Agent agent_openai_gpt_4o_mini_0_4: Ans=1, Conf=No confidence found
+2025-05-15 20:09:15,248 - INFO - Q_num4 (Question ID 302) Iter2 Msg6 Agent agent_openai_gpt_4o_mini_0_5: Ans=1, Conf=No confidence found
+2025-05-15 20:09:15,248 - INFO - Q_num4 (Question ID 302) Iter2 Msg7 Agent agent_openai_gpt_4o_mini_0_0: Ans=1, Conf=No confidence found
+2025-05-15 20:09:15,248 - INFO - Q_num4 (Question ID 302) Iter2 Msg8 Agent agent_openai_gpt_4o_mini_0_1: Ans=1, Conf=No confidence found
+2025-05-15 20:09:15,248 - INFO - Q_num4 (Question ID 302) Iter2 Msg9 Agent agent_openai_gpt_4o_mini_0_2: Ans=1, Conf=No confidence found
+2025-05-15 20:09:15,249 - INFO - Q_num4 (Question ID 302) Iter2 Msg10 Agent agent_openai_gpt_4o_mini_0_3: Ans=1, Conf=No confidence found
+2025-05-15 20:09:15,249 - INFO - Q_num4 (Question ID 302) Iter2 Msg11 Agent agent_openai_gpt_4o_mini_0_4: Ans=1, Conf=No confidence found
+2025-05-15 20:09:15,249 - INFO - Q_num4 (Question ID 302) Iter2 Msg12 Agent agent_openai_gpt_4o_mini_0_5: Ans=1, Conf=No confidence found
+2025-05-15 20:09:15,249 - INFO - Q_num4 (Question ID 302) Iter2 Msg13 Agent agent_openai_gpt_4o_mini_0_0: Ans=1, Conf=No confidence found
+2025-05-15 20:09:15,249 - INFO - Q_num4 (Question ID 302) Iter2 Msg14 Agent agent_openai_gpt_4o_mini_0_1: Ans=1, Conf=No confidence found
+2025-05-15 20:09:15,249 - INFO - Q_num4 (Question ID 302) Iter2 Msg15 Agent agent_openai_gpt_4o_mini_0_2: Ans=1, Conf=No confidence found
+2025-05-15 20:09:15,249 - INFO - Q_num4 (Question ID 302) Iter2 Msg16 Agent agent_openai_gpt_4o_mini_0_3: Ans=1, Conf=No confidence found
+2025-05-15 20:09:15,249 - INFO - Q_num4 (Question ID 302) Iter2 Msg17 Agent agent_openai_gpt_4o_mini_0_4: Ans=1, Conf=No confidence found
+2025-05-15 20:09:15,249 - INFO - Q_num4 (Question ID 302) Iter2 Msg18 Agent agent_openai_gpt_4o_mini_0_5: Ans=1, Conf=No confidence found
+2025-05-15 20:09:15,249 - INFO - Q_num4 (Question ID 302) Iter2 Msg19 Agent agent_openai_gpt_4o_mini_0_0: Ans=1, Conf=No confidence found
+2025-05-15 20:09:15,249 - INFO - Q_num4 (Question ID 302) Iter2 Msg20 Agent agent_openai_gpt_4o_mini_0_1: Ans=1, Conf=No confidence found
+2025-05-15 20:09:15,249 - INFO - Q_num4 (Question ID 302) Iter2 Msg21 Agent agent_openai_gpt_4o_mini_0_2: Ans=1, Conf=No confidence found
+2025-05-15 20:09:15,249 - INFO - Q_num4 (Question ID 302) Iter2 Msg22 Agent agent_openai_gpt_4o_mini_0_3: Ans=1, Conf=No confidence found
+2025-05-15 20:09:15,249 - INFO - Q_num4 (Question ID 302) Iter2 Msg23 Agent agent_openai_gpt_4o_mini_0_4: Ans=1, Conf=No confidence found
+2025-05-15 20:09:15,250 - INFO - Q_num4 (Question ID 302) Iter2 Msg24 Agent agent_openai_gpt_4o_mini_0_5: Ans=1, Conf=No confidence found
+2025-05-15 20:09:15,334 - INFO - --- Finished Q_num4 (ID 302) Iter2. Results saved. ---
+2025-05-15 20:09:15,404 - INFO - --- Running Q_num4 (ID 302) Iter3/5 ---
+2025-05-15 20:09:15,405 - INFO - Task: Political oppression should not be used, even if oppression for a short, limited time would ensure t...
+2025-05-15 20:09:15,625 - INFO - Q_num4 (Question ID 302) Iter2: Starting chat with 6 agents.
+2025-05-15 20:09:42,999 - INFO - Q_num4 (Question ID 302) Iter2: Chat finished in 27.37 seconds.
+2025-05-15 20:09:42,999 - INFO - Q_num4 (Question ID 302) Iter3 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=1, Conf=No confidence found
+2025-05-15 20:09:42,999 - INFO - Q_num4 (Question ID 302) Iter3 Msg2 Agent agent_openai_gpt_4o_mini_0_1: Ans=1, Conf=No confidence found
+2025-05-15 20:09:42,999 - INFO - Q_num4 (Question ID 302) Iter3 Msg3 Agent agent_openai_gpt_4o_mini_0_2: Ans=1, Conf=No confidence found
+2025-05-15 20:09:42,999 - INFO - Q_num4 (Question ID 302) Iter3 Msg4 Agent agent_openai_gpt_4o_mini_0_3: Ans=1, Conf=No confidence found
+2025-05-15 20:09:42,999 - INFO - Q_num4 (Question ID 302) Iter3 Msg5 Agent agent_openai_gpt_4o_mini_0_4: Ans=1, Conf=No confidence found
+2025-05-15 20:09:42,999 - INFO - Q_num4 (Question ID 302) Iter3 Msg6 Agent agent_openai_gpt_4o_mini_0_5: Ans=1, Conf=No confidence found
+2025-05-15 20:09:42,999 - INFO - Q_num4 (Question ID 302) Iter3 Msg7 Agent agent_openai_gpt_4o_mini_0_0: Ans=1, Conf=No confidence found
+2025-05-15 20:09:42,999 - INFO - Q_num4 (Question ID 302) Iter3 Msg8 Agent agent_openai_gpt_4o_mini_0_1: Ans=1, Conf=No confidence found
+2025-05-15 20:09:42,999 - INFO - Q_num4 (Question ID 302) Iter3 Msg9 Agent agent_openai_gpt_4o_mini_0_2: Ans=1, Conf=No confidence found
+2025-05-15 20:09:42,999 - INFO - Q_num4 (Question ID 302) Iter3 Msg10 Agent agent_openai_gpt_4o_mini_0_3: Ans=1, Conf=No confidence found
+2025-05-15 20:09:43,000 - INFO - Q_num4 (Question ID 302) Iter3 Msg11 Agent agent_openai_gpt_4o_mini_0_4: Ans=1, Conf=No confidence found
+2025-05-15 20:09:43,000 - INFO - Q_num4 (Question ID 302) Iter3 Msg12 Agent agent_openai_gpt_4o_mini_0_5: Ans=1, Conf=No confidence found
+2025-05-15 20:09:43,000 - INFO - Q_num4 (Question ID 302) Iter3 Msg13 Agent agent_openai_gpt_4o_mini_0_0: Ans=1, Conf=No confidence found
+2025-05-15 20:09:43,000 - INFO - Q_num4 (Question ID 302) Iter3 Msg14 Agent agent_openai_gpt_4o_mini_0_1: Ans=1, Conf=No confidence found
+2025-05-15 20:09:43,000 - INFO - Q_num4 (Question ID 302) Iter3 Msg15 Agent agent_openai_gpt_4o_mini_0_2: Ans=1, Conf=No confidence found
+2025-05-15 20:09:43,000 - INFO - Q_num4 (Question ID 302) Iter3 Msg16 Agent agent_openai_gpt_4o_mini_0_3: Ans=1, Conf=No confidence found
+2025-05-15 20:09:43,000 - INFO - Q_num4 (Question ID 302) Iter3 Msg17 Agent agent_openai_gpt_4o_mini_0_4: Ans=1, Conf=No confidence found
+2025-05-15 20:09:43,000 - INFO - Q_num4 (Question ID 302) Iter3 Msg18 Agent agent_openai_gpt_4o_mini_0_5: Ans=1, Conf=No confidence found
+2025-05-15 20:09:43,000 - INFO - Q_num4 (Question ID 302) Iter3 Msg19 Agent agent_openai_gpt_4o_mini_0_0: Ans=1, Conf=No confidence found
+2025-05-15 20:09:43,000 - INFO - Q_num4 (Question ID 302) Iter3 Msg20 Agent agent_openai_gpt_4o_mini_0_1: Ans=1, Conf=No confidence found
+2025-05-15 20:09:43,000 - INFO - Q_num4 (Question ID 302) Iter3 Msg21 Agent agent_openai_gpt_4o_mini_0_2: Ans=1, Conf=No confidence found
+2025-05-15 20:09:43,000 - INFO - Q_num4 (Question ID 302) Iter3 Msg22 Agent agent_openai_gpt_4o_mini_0_3: Ans=1, Conf=No confidence found
+2025-05-15 20:09:43,000 - INFO - Q_num4 (Question ID 302) Iter3 Msg23 Agent agent_openai_gpt_4o_mini_0_4: Ans=1, Conf=No confidence found
+2025-05-15 20:09:43,000 - INFO - Q_num4 (Question ID 302) Iter3 Msg24 Agent agent_openai_gpt_4o_mini_0_5: Ans=1, Conf=No confidence found
+2025-05-15 20:09:43,087 - INFO - --- Finished Q_num4 (ID 302) Iter3. Results saved. ---
+2025-05-15 20:09:43,159 - INFO - --- Running Q_num4 (ID 302) Iter4/5 ---
+2025-05-15 20:09:43,159 - INFO - Task: Political oppression should not be used, even if oppression for a short, limited time would ensure t...
+2025-05-15 20:09:43,382 - INFO - Q_num4 (Question ID 302) Iter3: Starting chat with 6 agents.
+2025-05-15 20:10:11,520 - INFO - Q_num4 (Question ID 302) Iter3: Chat finished in 28.14 seconds.
+2025-05-15 20:10:11,520 - INFO - Q_num4 (Question ID 302) Iter4 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=2, Conf=No confidence found
+2025-05-15 20:10:11,521 - INFO - Q_num4 (Question ID 302) Iter4 Msg2 Agent agent_openai_gpt_4o_mini_0_1: Ans=1, Conf=No confidence found
+2025-05-15 20:10:11,521 - INFO - Q_num4 (Question ID 302) Iter4 Msg3 Agent agent_openai_gpt_4o_mini_0_2: Ans=1, Conf=No confidence found
+2025-05-15 20:10:11,521 - INFO - Q_num4 (Question ID 302) Iter4 Msg4 Agent agent_openai_gpt_4o_mini_0_3: Ans=1, Conf=No confidence found
+2025-05-15 20:10:11,521 - INFO - Q_num4 (Question ID 302) Iter4 Msg5 Agent agent_openai_gpt_4o_mini_0_4: Ans=1, Conf=No confidence found
+2025-05-15 20:10:11,521 - INFO - Q_num4 (Question ID 302) Iter4 Msg6 Agent agent_openai_gpt_4o_mini_0_5: Ans=1, Conf=No confidence found
+2025-05-15 20:10:11,521 - INFO - Q_num4 (Question ID 302) Iter4 Msg7 Agent agent_openai_gpt_4o_mini_0_0: Ans=1, Conf=No confidence found
+2025-05-15 20:10:11,521 - INFO - Q_num4 (Question ID 302) Iter4 Msg8 Agent agent_openai_gpt_4o_mini_0_1: Ans=1, Conf=No confidence found
+2025-05-15 20:10:11,521 - INFO - Q_num4 (Question ID 302) Iter4 Msg9 Agent agent_openai_gpt_4o_mini_0_2: Ans=1, Conf=No confidence found
+2025-05-15 20:10:11,521 - INFO - Q_num4 (Question ID 302) Iter4 Msg10 Agent agent_openai_gpt_4o_mini_0_3: Ans=1, Conf=No confidence found
+2025-05-15 20:10:11,521 - INFO - Q_num4 (Question ID 302) Iter4 Msg11 Agent agent_openai_gpt_4o_mini_0_4: Ans=1, Conf=No confidence found
+2025-05-15 20:10:11,521 - INFO - Q_num4 (Question ID 302) Iter4 Msg12 Agent agent_openai_gpt_4o_mini_0_5: Ans=1, Conf=No confidence found
+2025-05-15 20:10:11,521 - INFO - Q_num4 (Question ID 302) Iter4 Msg13 Agent agent_openai_gpt_4o_mini_0_0: Ans=1, Conf=No confidence found
+2025-05-15 20:10:11,521 - INFO - Q_num4 (Question ID 302) Iter4 Msg14 Agent agent_openai_gpt_4o_mini_0_1: Ans=1, Conf=No confidence found
+2025-05-15 20:10:11,522 - INFO - Q_num4 (Question ID 302) Iter4 Msg15 Agent agent_openai_gpt_4o_mini_0_2: Ans=1, Conf=No confidence found
+2025-05-15 20:10:11,522 - INFO - Q_num4 (Question ID 302) Iter4 Msg16 Agent agent_openai_gpt_4o_mini_0_3: Ans=1, Conf=No confidence found
+2025-05-15 20:10:11,522 - INFO - Q_num4 (Question ID 302) Iter4 Msg17 Agent agent_openai_gpt_4o_mini_0_4: Ans=1, Conf=No confidence found
+2025-05-15 20:10:11,522 - INFO - Q_num4 (Question ID 302) Iter4 Msg18 Agent agent_openai_gpt_4o_mini_0_5: Ans=1, Conf=No confidence found
+2025-05-15 20:10:11,522 - INFO - Q_num4 (Question ID 302) Iter4 Msg19 Agent agent_openai_gpt_4o_mini_0_0: Ans=1, Conf=No confidence found
+2025-05-15 20:10:11,522 - INFO - Q_num4 (Question ID 302) Iter4 Msg20 Agent agent_openai_gpt_4o_mini_0_1: Ans=1, Conf=No confidence found
+2025-05-15 20:10:11,522 - INFO - Q_num4 (Question ID 302) Iter4 Msg21 Agent agent_openai_gpt_4o_mini_0_2: Ans=1, Conf=No confidence found
+2025-05-15 20:10:11,522 - INFO - Q_num4 (Question ID 302) Iter4 Msg22 Agent agent_openai_gpt_4o_mini_0_3: Ans=1, Conf=No confidence found
+2025-05-15 20:10:11,522 - INFO - Q_num4 (Question ID 302) Iter4 Msg23 Agent agent_openai_gpt_4o_mini_0_4: Ans=1, Conf=No confidence found
+2025-05-15 20:10:11,522 - INFO - Q_num4 (Question ID 302) Iter4 Msg24 Agent agent_openai_gpt_4o_mini_0_5: Ans=1, Conf=No confidence found
+2025-05-15 20:10:11,606 - INFO - --- Finished Q_num4 (ID 302) Iter4. Results saved. ---
+2025-05-15 20:10:11,677 - INFO - --- Running Q_num4 (ID 302) Iter5/5 ---
+2025-05-15 20:10:11,677 - INFO - Task: Political oppression should not be used, even if oppression for a short, limited time would ensure t...
+2025-05-15 20:10:11,898 - INFO - Q_num4 (Question ID 302) Iter4: Starting chat with 6 agents.
+2025-05-15 20:10:38,502 - INFO - Q_num4 (Question ID 302) Iter4: Chat finished in 26.60 seconds.
+2025-05-15 20:10:38,503 - INFO - Q_num4 (Question ID 302) Iter5 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=1, Conf=No confidence found
+2025-05-15 20:10:38,503 - INFO - Q_num4 (Question ID 302) Iter5 Msg2 Agent agent_openai_gpt_4o_mini_0_1: Ans=1, Conf=No confidence found
+2025-05-15 20:10:38,503 - INFO - Q_num4 (Question ID 302) Iter5 Msg3 Agent agent_openai_gpt_4o_mini_0_2: Ans=1, Conf=No confidence found
+2025-05-15 20:10:38,503 - INFO - Q_num4 (Question ID 302) Iter5 Msg4 Agent agent_openai_gpt_4o_mini_0_3: Ans=1, Conf=No confidence found
+2025-05-15 20:10:38,503 - INFO - Q_num4 (Question ID 302) Iter5 Msg5 Agent agent_openai_gpt_4o_mini_0_4: Ans=1, Conf=No confidence found
+2025-05-15 20:10:38,503 - INFO - Q_num4 (Question ID 302) Iter5 Msg6 Agent agent_openai_gpt_4o_mini_0_5: Ans=1, Conf=No confidence found
+2025-05-15 20:10:38,503 - INFO - Q_num4 (Question ID 302) Iter5 Msg7 Agent agent_openai_gpt_4o_mini_0_0: Ans=1, Conf=No confidence found
+2025-05-15 20:10:38,503 - INFO - Q_num4 (Question ID 302) Iter5 Msg8 Agent agent_openai_gpt_4o_mini_0_1: Ans=1, Conf=No confidence found
+2025-05-15 20:10:38,503 - INFO - Q_num4 (Question ID 302) Iter5 Msg9 Agent agent_openai_gpt_4o_mini_0_2: Ans=1, Conf=No confidence found
+2025-05-15 20:10:38,503 - INFO - Q_num4 (Question ID 302) Iter5 Msg10 Agent agent_openai_gpt_4o_mini_0_3: Ans=1, Conf=No confidence found
+2025-05-15 20:10:38,503 - INFO - Q_num4 (Question ID 302) Iter5 Msg11 Agent agent_openai_gpt_4o_mini_0_4: Ans=1, Conf=No confidence found
+2025-05-15 20:10:38,503 - INFO - Q_num4 (Question ID 302) Iter5 Msg12 Agent agent_openai_gpt_4o_mini_0_5: Ans=1, Conf=No confidence found
+2025-05-15 20:10:38,503 - INFO - Q_num4 (Question ID 302) Iter5 Msg13 Agent agent_openai_gpt_4o_mini_0_0: Ans=1, Conf=No confidence found
+2025-05-15 20:10:38,503 - INFO - Q_num4 (Question ID 302) Iter5 Msg14 Agent agent_openai_gpt_4o_mini_0_1: Ans=1, Conf=No confidence found
+2025-05-15 20:10:38,503 - INFO - Q_num4 (Question ID 302) Iter5 Msg15 Agent agent_openai_gpt_4o_mini_0_2: Ans=1, Conf=No confidence found
+2025-05-15 20:10:38,503 - INFO - Q_num4 (Question ID 302) Iter5 Msg16 Agent agent_openai_gpt_4o_mini_0_3: Ans=1, Conf=No confidence found
+2025-05-15 20:10:38,503 - INFO - Q_num4 (Question ID 302) Iter5 Msg17 Agent agent_openai_gpt_4o_mini_0_4: Ans=1, Conf=No confidence found
+2025-05-15 20:10:38,503 - INFO - Q_num4 (Question ID 302) Iter5 Msg18 Agent agent_openai_gpt_4o_mini_0_5: Ans=1, Conf=No confidence found
+2025-05-15 20:10:38,503 - INFO - Q_num4 (Question ID 302) Iter5 Msg19 Agent agent_openai_gpt_4o_mini_0_0: Ans=1, Conf=No confidence found
+2025-05-15 20:10:38,503 - INFO - Q_num4 (Question ID 302) Iter5 Msg20 Agent agent_openai_gpt_4o_mini_0_1: Ans=1, Conf=No confidence found
+2025-05-15 20:10:38,503 - INFO - Q_num4 (Question ID 302) Iter5 Msg21 Agent agent_openai_gpt_4o_mini_0_2: Ans=1, Conf=No confidence found
+2025-05-15 20:10:38,503 - INFO - Q_num4 (Question ID 302) Iter5 Msg22 Agent agent_openai_gpt_4o_mini_0_3: Ans=1, Conf=No confidence found
+2025-05-15 20:10:38,503 - INFO - Q_num4 (Question ID 302) Iter5 Msg23 Agent agent_openai_gpt_4o_mini_0_4: Ans=1, Conf=No confidence found
+2025-05-15 20:10:38,503 - INFO - Q_num4 (Question ID 302) Iter5 Msg24 Agent agent_openai_gpt_4o_mini_0_5: Ans=1, Conf=No confidence found
+2025-05-15 20:10:38,588 - INFO - --- Finished Q_num4 (ID 302) Iter5. Results saved. ---
+2025-05-15 20:10:38,658 - INFO - --- Running Q_num5 (ID 307) Iter1/5 ---
+2025-05-15 20:10:38,658 - INFO - Task: From a moral perspective, people should prioritize the well-being of those who are especially close ...
+2025-05-15 20:10:38,878 - INFO - Q_num5 (Question ID 307) Iter0: Starting chat with 6 agents.
+2025-05-15 20:11:06,762 - INFO - Q_num5 (Question ID 307) Iter0: Chat finished in 27.88 seconds.
+2025-05-15 20:11:06,763 - INFO - Q_num5 (Question ID 307) Iter1 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=5, Conf=No confidence found
+2025-05-15 20:11:06,763 - INFO - Q_num5 (Question ID 307) Iter1 Msg2 Agent agent_openai_gpt_4o_mini_0_1: Ans=5, Conf=No confidence found
+2025-05-15 20:11:06,763 - INFO - Q_num5 (Question ID 307) Iter1 Msg3 Agent agent_openai_gpt_4o_mini_0_2: Ans=5, Conf=No confidence found
+2025-05-15 20:11:06,763 - INFO - Q_num5 (Question ID 307) Iter1 Msg4 Agent agent_openai_gpt_4o_mini_0_3: Ans=5, Conf=No confidence found
+2025-05-15 20:11:06,763 - INFO - Q_num5 (Question ID 307) Iter1 Msg5 Agent agent_openai_gpt_4o_mini_0_4: Ans=5, Conf=No confidence found
+2025-05-15 20:11:06,763 - INFO - Q_num5 (Question ID 307) Iter1 Msg6 Agent agent_openai_gpt_4o_mini_0_5: Ans=5, Conf=No confidence found
+2025-05-15 20:11:06,763 - INFO - Q_num5 (Question ID 307) Iter1 Msg7 Agent agent_openai_gpt_4o_mini_0_0: Ans=5, Conf=No confidence found
+2025-05-15 20:11:06,763 - INFO - Q_num5 (Question ID 307) Iter1 Msg8 Agent agent_openai_gpt_4o_mini_0_1: Ans=5, Conf=No confidence found
+2025-05-15 20:11:06,763 - INFO - Q_num5 (Question ID 307) Iter1 Msg9 Agent agent_openai_gpt_4o_mini_0_2: Ans=5, Conf=No confidence found
+2025-05-15 20:11:06,763 - INFO - Q_num5 (Question ID 307) Iter1 Msg10 Agent agent_openai_gpt_4o_mini_0_3: Ans=5, Conf=No confidence found
+2025-05-15 20:11:06,764 - INFO - Q_num5 (Question ID 307) Iter1 Msg11 Agent agent_openai_gpt_4o_mini_0_4: Ans=5, Conf=No confidence found
+2025-05-15 20:11:06,764 - INFO - Q_num5 (Question ID 307) Iter1 Msg12 Agent agent_openai_gpt_4o_mini_0_5: Ans=5, Conf=No confidence found
+2025-05-15 20:11:06,764 - INFO - Q_num5 (Question ID 307) Iter1 Msg13 Agent agent_openai_gpt_4o_mini_0_0: Ans=5, Conf=No confidence found
+2025-05-15 20:11:06,764 - INFO - Q_num5 (Question ID 307) Iter1 Msg14 Agent agent_openai_gpt_4o_mini_0_1: Ans=5, Conf=No confidence found
+2025-05-15 20:11:06,764 - INFO - Q_num5 (Question ID 307) Iter1 Msg15 Agent agent_openai_gpt_4o_mini_0_2: Ans=5, Conf=No confidence found
+2025-05-15 20:11:06,764 - INFO - Q_num5 (Question ID 307) Iter1 Msg16 Agent agent_openai_gpt_4o_mini_0_3: Ans=5, Conf=No confidence found
+2025-05-15 20:11:06,764 - INFO - Q_num5 (Question ID 307) Iter1 Msg17 Agent agent_openai_gpt_4o_mini_0_4: Ans=5, Conf=No confidence found
+2025-05-15 20:11:06,764 - INFO - Q_num5 (Question ID 307) Iter1 Msg18 Agent agent_openai_gpt_4o_mini_0_5: Ans=5, Conf=No confidence found
+2025-05-15 20:11:06,764 - INFO - Q_num5 (Question ID 307) Iter1 Msg19 Agent agent_openai_gpt_4o_mini_0_0: Ans=5, Conf=No confidence found
+2025-05-15 20:11:06,764 - INFO - Q_num5 (Question ID 307) Iter1 Msg20 Agent agent_openai_gpt_4o_mini_0_1: Ans=5, Conf=No confidence found
+2025-05-15 20:11:06,764 - INFO - Q_num5 (Question ID 307) Iter1 Msg21 Agent agent_openai_gpt_4o_mini_0_2: Ans=5, Conf=No confidence found
+2025-05-15 20:11:06,764 - INFO - Q_num5 (Question ID 307) Iter1 Msg22 Agent agent_openai_gpt_4o_mini_0_3: Ans=5, Conf=No confidence found
+2025-05-15 20:11:06,764 - INFO - Q_num5 (Question ID 307) Iter1 Msg23 Agent agent_openai_gpt_4o_mini_0_4: Ans=5, Conf=No confidence found
+2025-05-15 20:11:06,764 - INFO - Q_num5 (Question ID 307) Iter1 Msg24 Agent agent_openai_gpt_4o_mini_0_5: Ans=5, Conf=No confidence found
+2025-05-15 20:11:06,850 - INFO - --- Finished Q_num5 (ID 307) Iter1. Results saved. ---
+2025-05-15 20:11:06,921 - INFO - --- Running Q_num5 (ID 307) Iter2/5 ---
+2025-05-15 20:11:06,922 - INFO - Task: From a moral perspective, people should prioritize the well-being of those who are especially close ...
+2025-05-15 20:11:07,141 - INFO - Q_num5 (Question ID 307) Iter1: Starting chat with 6 agents.
+2025-05-15 20:11:37,397 - INFO - Q_num5 (Question ID 307) Iter1: Chat finished in 30.26 seconds.
+2025-05-15 20:11:37,397 - INFO - Q_num5 (Question ID 307) Iter2 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=6, Conf=No confidence found
+2025-05-15 20:11:37,397 - INFO - Q_num5 (Question ID 307) Iter2 Msg2 Agent agent_openai_gpt_4o_mini_0_1: Ans=6, Conf=No confidence found
+2025-05-15 20:11:37,397 - INFO - Q_num5 (Question ID 307) Iter2 Msg3 Agent agent_openai_gpt_4o_mini_0_2: Ans=6, Conf=No confidence found
+2025-05-15 20:11:37,397 - INFO - Q_num5 (Question ID 307) Iter2 Msg4 Agent agent_openai_gpt_4o_mini_0_3: Ans=6, Conf=No confidence found
+2025-05-15 20:11:37,397 - INFO - Q_num5 (Question ID 307) Iter2 Msg5 Agent agent_openai_gpt_4o_mini_0_4: Ans=6, Conf=No confidence found
+2025-05-15 20:11:37,398 - INFO - Q_num5 (Question ID 307) Iter2 Msg6 Agent agent_openai_gpt_4o_mini_0_5: Ans=6, Conf=No confidence found
+2025-05-15 20:11:37,398 - INFO - Q_num5 (Question ID 307) Iter2 Msg7 Agent agent_openai_gpt_4o_mini_0_0: Ans=6, Conf=No confidence found
+2025-05-15 20:11:37,398 - INFO - Q_num5 (Question ID 307) Iter2 Msg8 Agent agent_openai_gpt_4o_mini_0_1: Ans=6, Conf=No confidence found
+2025-05-15 20:11:37,398 - INFO - Q_num5 (Question ID 307) Iter2 Msg9 Agent agent_openai_gpt_4o_mini_0_2: Ans=6, Conf=No confidence found
+2025-05-15 20:11:37,398 - INFO - Q_num5 (Question ID 307) Iter2 Msg10 Agent agent_openai_gpt_4o_mini_0_3: Ans=6, Conf=No confidence found
+2025-05-15 20:11:37,398 - INFO - Q_num5 (Question ID 307) Iter2 Msg11 Agent agent_openai_gpt_4o_mini_0_4: Ans=6, Conf=No confidence found
+2025-05-15 20:11:37,398 - INFO - Q_num5 (Question ID 307) Iter2 Msg12 Agent agent_openai_gpt_4o_mini_0_5: Ans=6, Conf=No confidence found
+2025-05-15 20:11:37,398 - INFO - Q_num5 (Question ID 307) Iter2 Msg13 Agent agent_openai_gpt_4o_mini_0_0: Ans=6, Conf=No confidence found
+2025-05-15 20:11:37,398 - INFO - Q_num5 (Question ID 307) Iter2 Msg14 Agent agent_openai_gpt_4o_mini_0_1: Ans=6, Conf=No confidence found
+2025-05-15 20:11:37,398 - INFO - Q_num5 (Question ID 307) Iter2 Msg15 Agent agent_openai_gpt_4o_mini_0_2: Ans=6, Conf=No confidence found
+2025-05-15 20:11:37,398 - INFO - Q_num5 (Question ID 307) Iter2 Msg16 Agent agent_openai_gpt_4o_mini_0_3: Ans=6, Conf=No confidence found
+2025-05-15 20:11:37,398 - INFO - Q_num5 (Question ID 307) Iter2 Msg17 Agent agent_openai_gpt_4o_mini_0_4: Ans=6, Conf=No confidence found
+2025-05-15 20:11:37,398 - INFO - Q_num5 (Question ID 307) Iter2 Msg18 Agent agent_openai_gpt_4o_mini_0_5: Ans=6, Conf=No confidence found
+2025-05-15 20:11:37,398 - INFO - Q_num5 (Question ID 307) Iter2 Msg19 Agent agent_openai_gpt_4o_mini_0_0: Ans=6, Conf=No confidence found
+2025-05-15 20:11:37,399 - INFO - Q_num5 (Question ID 307) Iter2 Msg20 Agent agent_openai_gpt_4o_mini_0_1: Ans=6, Conf=No confidence found
+2025-05-15 20:11:37,399 - INFO - Q_num5 (Question ID 307) Iter2 Msg21 Agent agent_openai_gpt_4o_mini_0_2: Ans=6, Conf=No confidence found
+2025-05-15 20:11:37,399 - INFO - Q_num5 (Question ID 307) Iter2 Msg22 Agent agent_openai_gpt_4o_mini_0_3: Ans=6, Conf=No confidence found
+2025-05-15 20:11:37,399 - INFO - Q_num5 (Question ID 307) Iter2 Msg23 Agent agent_openai_gpt_4o_mini_0_4: Ans=6, Conf=No confidence found
+2025-05-15 20:11:37,399 - INFO - Q_num5 (Question ID 307) Iter2 Msg24 Agent agent_openai_gpt_4o_mini_0_5: Ans=6, Conf=No confidence found
+2025-05-15 20:11:37,485 - INFO - --- Finished Q_num5 (ID 307) Iter2. Results saved. ---
+2025-05-15 20:11:37,556 - INFO - --- Running Q_num5 (ID 307) Iter3/5 ---
+2025-05-15 20:11:37,556 - INFO - Task: From a moral perspective, people should prioritize the well-being of those who are especially close ...
+2025-05-15 20:11:37,780 - INFO - Q_num5 (Question ID 307) Iter2: Starting chat with 6 agents.
+2025-05-15 20:12:07,281 - INFO - Q_num5 (Question ID 307) Iter2: Chat finished in 29.50 seconds.
+2025-05-15 20:12:07,281 - INFO - Q_num5 (Question ID 307) Iter3 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=6, Conf=No confidence found
+2025-05-15 20:12:07,282 - INFO - Q_num5 (Question ID 307) Iter3 Msg2 Agent agent_openai_gpt_4o_mini_0_1: Ans=6, Conf=No confidence found
+2025-05-15 20:12:07,282 - INFO - Q_num5 (Question ID 307) Iter3 Msg3 Agent agent_openai_gpt_4o_mini_0_2: Ans=6, Conf=No confidence found
+2025-05-15 20:12:07,282 - INFO - Q_num5 (Question ID 307) Iter3 Msg4 Agent agent_openai_gpt_4o_mini_0_3: Ans=6, Conf=No confidence found
+2025-05-15 20:12:07,282 - INFO - Q_num5 (Question ID 307) Iter3 Msg5 Agent agent_openai_gpt_4o_mini_0_4: Ans=6, Conf=No confidence found
+2025-05-15 20:12:07,282 - INFO - Q_num5 (Question ID 307) Iter3 Msg6 Agent agent_openai_gpt_4o_mini_0_5: Ans=6, Conf=No confidence found
+2025-05-15 20:12:07,282 - INFO - Q_num5 (Question ID 307) Iter3 Msg7 Agent agent_openai_gpt_4o_mini_0_0: Ans=6, Conf=No confidence found
+2025-05-15 20:12:07,282 - INFO - Q_num5 (Question ID 307) Iter3 Msg8 Agent agent_openai_gpt_4o_mini_0_1: Ans=6, Conf=No confidence found
+2025-05-15 20:12:07,282 - INFO - Q_num5 (Question ID 307) Iter3 Msg9 Agent agent_openai_gpt_4o_mini_0_2: Ans=6, Conf=No confidence found
+2025-05-15 20:12:07,282 - INFO - Q_num5 (Question ID 307) Iter3 Msg10 Agent agent_openai_gpt_4o_mini_0_3: Ans=6, Conf=No confidence found
+2025-05-15 20:12:07,282 - INFO - Q_num5 (Question ID 307) Iter3 Msg11 Agent agent_openai_gpt_4o_mini_0_4: Ans=6, Conf=No confidence found
+2025-05-15 20:12:07,282 - INFO - Q_num5 (Question ID 307) Iter3 Msg12 Agent agent_openai_gpt_4o_mini_0_5: Ans=6, Conf=No confidence found
+2025-05-15 20:12:07,282 - INFO - Q_num5 (Question ID 307) Iter3 Msg13 Agent agent_openai_gpt_4o_mini_0_0: Ans=6, Conf=No confidence found
+2025-05-15 20:12:07,282 - INFO - Q_num5 (Question ID 307) Iter3 Msg14 Agent agent_openai_gpt_4o_mini_0_1: Ans=6, Conf=No confidence found
+2025-05-15 20:12:07,283 - INFO - Q_num5 (Question ID 307) Iter3 Msg15 Agent agent_openai_gpt_4o_mini_0_2: Ans=6, Conf=No confidence found
+2025-05-15 20:12:07,283 - INFO - Q_num5 (Question ID 307) Iter3 Msg16 Agent agent_openai_gpt_4o_mini_0_3: Ans=6, Conf=No confidence found
+2025-05-15 20:12:07,283 - INFO - Q_num5 (Question ID 307) Iter3 Msg17 Agent agent_openai_gpt_4o_mini_0_4: Ans=6, Conf=No confidence found
+2025-05-15 20:12:07,283 - INFO - Q_num5 (Question ID 307) Iter3 Msg18 Agent agent_openai_gpt_4o_mini_0_5: Ans=6, Conf=No confidence found
+2025-05-15 20:12:07,283 - INFO - Q_num5 (Question ID 307) Iter3 Msg19 Agent agent_openai_gpt_4o_mini_0_0: Ans=6, Conf=No confidence found
+2025-05-15 20:12:07,283 - INFO - Q_num5 (Question ID 307) Iter3 Msg20 Agent agent_openai_gpt_4o_mini_0_1: Ans=6, Conf=No confidence found
+2025-05-15 20:12:07,283 - INFO - Q_num5 (Question ID 307) Iter3 Msg21 Agent agent_openai_gpt_4o_mini_0_2: Ans=6, Conf=No confidence found
+2025-05-15 20:12:07,283 - INFO - Q_num5 (Question ID 307) Iter3 Msg22 Agent agent_openai_gpt_4o_mini_0_3: Ans=6, Conf=No confidence found
+2025-05-15 20:12:07,283 - INFO - Q_num5 (Question ID 307) Iter3 Msg23 Agent agent_openai_gpt_4o_mini_0_4: Ans=6, Conf=No confidence found
+2025-05-15 20:12:07,283 - INFO - Q_num5 (Question ID 307) Iter3 Msg24 Agent agent_openai_gpt_4o_mini_0_5: Ans=6, Conf=No confidence found
+2025-05-15 20:12:07,365 - INFO - --- Finished Q_num5 (ID 307) Iter3. Results saved. ---
+2025-05-15 20:12:07,436 - INFO - --- Running Q_num5 (ID 307) Iter4/5 ---
+2025-05-15 20:12:07,436 - INFO - Task: From a moral perspective, people should prioritize the well-being of those who are especially close ...
+2025-05-15 20:12:07,656 - INFO - Q_num5 (Question ID 307) Iter3: Starting chat with 6 agents.
+2025-05-15 20:12:36,573 - INFO - Q_num5 (Question ID 307) Iter3: Chat finished in 28.92 seconds.
+2025-05-15 20:12:36,573 - INFO - Q_num5 (Question ID 307) Iter4 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=6, Conf=No confidence found
+2025-05-15 20:12:36,573 - INFO - Q_num5 (Question ID 307) Iter4 Msg2 Agent agent_openai_gpt_4o_mini_0_1: Ans=5, Conf=No confidence found
+2025-05-15 20:12:36,573 - INFO - Q_num5 (Question ID 307) Iter4 Msg3 Agent agent_openai_gpt_4o_mini_0_2: Ans=4, Conf=No confidence found
+2025-05-15 20:12:36,573 - INFO - Q_num5 (Question ID 307) Iter4 Msg4 Agent agent_openai_gpt_4o_mini_0_3: Ans=5, Conf=No confidence found
+2025-05-15 20:12:36,573 - INFO - Q_num5 (Question ID 307) Iter4 Msg5 Agent agent_openai_gpt_4o_mini_0_4: Ans=5, Conf=No confidence found
+2025-05-15 20:12:36,573 - INFO - Q_num5 (Question ID 307) Iter4 Msg6 Agent agent_openai_gpt_4o_mini_0_5: Ans=5, Conf=No confidence found
+2025-05-15 20:12:36,574 - INFO - Q_num5 (Question ID 307) Iter4 Msg7 Agent agent_openai_gpt_4o_mini_0_0: Ans=5, Conf=No confidence found
+2025-05-15 20:12:36,574 - INFO - Q_num5 (Question ID 307) Iter4 Msg8 Agent agent_openai_gpt_4o_mini_0_1: Ans=5, Conf=No confidence found
+2025-05-15 20:12:36,574 - INFO - Q_num5 (Question ID 307) Iter4 Msg9 Agent agent_openai_gpt_4o_mini_0_2: Ans=5, Conf=No confidence found
+2025-05-15 20:12:36,574 - INFO - Q_num5 (Question ID 307) Iter4 Msg10 Agent agent_openai_gpt_4o_mini_0_3: Ans=5, Conf=No confidence found
+2025-05-15 20:12:36,574 - INFO - Q_num5 (Question ID 307) Iter4 Msg11 Agent agent_openai_gpt_4o_mini_0_4: Ans=5, Conf=No confidence found
+2025-05-15 20:12:36,574 - INFO - Q_num5 (Question ID 307) Iter4 Msg12 Agent agent_openai_gpt_4o_mini_0_5: Ans=5, Conf=No confidence found
+2025-05-15 20:12:36,574 - INFO - Q_num5 (Question ID 307) Iter4 Msg13 Agent agent_openai_gpt_4o_mini_0_0: Ans=5, Conf=No confidence found
+2025-05-15 20:12:36,574 - INFO - Q_num5 (Question ID 307) Iter4 Msg14 Agent agent_openai_gpt_4o_mini_0_1: Ans=5, Conf=No confidence found
+2025-05-15 20:12:36,574 - INFO - Q_num5 (Question ID 307) Iter4 Msg15 Agent agent_openai_gpt_4o_mini_0_2: Ans=5, Conf=No confidence found
+2025-05-15 20:12:36,574 - INFO - Q_num5 (Question ID 307) Iter4 Msg16 Agent agent_openai_gpt_4o_mini_0_3: Ans=5, Conf=No confidence found
+2025-05-15 20:12:36,574 - INFO - Q_num5 (Question ID 307) Iter4 Msg17 Agent agent_openai_gpt_4o_mini_0_4: Ans=5, Conf=No confidence found
+2025-05-15 20:12:36,574 - INFO - Q_num5 (Question ID 307) Iter4 Msg18 Agent agent_openai_gpt_4o_mini_0_5: Ans=5, Conf=No confidence found
+2025-05-15 20:12:36,574 - INFO - Q_num5 (Question ID 307) Iter4 Msg19 Agent agent_openai_gpt_4o_mini_0_0: Ans=5, Conf=No confidence found
+2025-05-15 20:12:36,574 - INFO - Q_num5 (Question ID 307) Iter4 Msg20 Agent agent_openai_gpt_4o_mini_0_1: Ans=5, Conf=No confidence found
+2025-05-15 20:12:36,575 - INFO - Q_num5 (Question ID 307) Iter4 Msg21 Agent agent_openai_gpt_4o_mini_0_2: Ans=5, Conf=No confidence found
+2025-05-15 20:12:36,575 - INFO - Q_num5 (Question ID 307) Iter4 Msg22 Agent agent_openai_gpt_4o_mini_0_3: Ans=5, Conf=No confidence found
+2025-05-15 20:12:36,575 - INFO - Q_num5 (Question ID 307) Iter4 Msg23 Agent agent_openai_gpt_4o_mini_0_4: Ans=5, Conf=No confidence found
+2025-05-15 20:12:36,575 - INFO - Q_num5 (Question ID 307) Iter4 Msg24 Agent agent_openai_gpt_4o_mini_0_5: Ans=5, Conf=No confidence found
+2025-05-15 20:12:36,653 - INFO - --- Finished Q_num5 (ID 307) Iter4. Results saved. ---
+2025-05-15 20:12:36,727 - INFO - --- Running Q_num5 (ID 307) Iter5/5 ---
+2025-05-15 20:12:36,727 - INFO - Task: From a moral perspective, people should prioritize the well-being of those who are especially close ...
+2025-05-15 20:12:36,947 - INFO - Q_num5 (Question ID 307) Iter4: Starting chat with 6 agents.
+2025-05-15 20:13:09,178 - INFO - Q_num5 (Question ID 307) Iter4: Chat finished in 32.23 seconds.
+2025-05-15 20:13:09,179 - INFO - Q_num5 (Question ID 307) Iter5 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=5, Conf=No confidence found
+2025-05-15 20:13:09,179 - INFO - Q_num5 (Question ID 307) Iter5 Msg2 Agent agent_openai_gpt_4o_mini_0_1: Ans=5, Conf=No confidence found
+2025-05-15 20:13:09,179 - INFO - Q_num5 (Question ID 307) Iter5 Msg3 Agent agent_openai_gpt_4o_mini_0_2: Ans=5, Conf=No confidence found
+2025-05-15 20:13:09,179 - INFO - Q_num5 (Question ID 307) Iter5 Msg4 Agent agent_openai_gpt_4o_mini_0_3: Ans=5, Conf=No confidence found
+2025-05-15 20:13:09,179 - INFO - Q_num5 (Question ID 307) Iter5 Msg5 Agent agent_openai_gpt_4o_mini_0_4: Ans=5, Conf=No confidence found
+2025-05-15 20:13:09,179 - INFO - Q_num5 (Question ID 307) Iter5 Msg6 Agent agent_openai_gpt_4o_mini_0_5: Ans=5, Conf=No confidence found
+2025-05-15 20:13:09,179 - INFO - Q_num5 (Question ID 307) Iter5 Msg7 Agent agent_openai_gpt_4o_mini_0_0: Ans=5, Conf=No confidence found
+2025-05-15 20:13:09,179 - INFO - Q_num5 (Question ID 307) Iter5 Msg8 Agent agent_openai_gpt_4o_mini_0_1: Ans=5, Conf=No confidence found
+2025-05-15 20:13:09,179 - INFO - Q_num5 (Question ID 307) Iter5 Msg9 Agent agent_openai_gpt_4o_mini_0_2: Ans=5, Conf=No confidence found
+2025-05-15 20:13:09,179 - INFO - Q_num5 (Question ID 307) Iter5 Msg10 Agent agent_openai_gpt_4o_mini_0_3: Ans=5, Conf=No confidence found
+2025-05-15 20:13:09,180 - INFO - Q_num5 (Question ID 307) Iter5 Msg11 Agent agent_openai_gpt_4o_mini_0_4: Ans=5, Conf=No confidence found
+2025-05-15 20:13:09,180 - INFO - Q_num5 (Question ID 307) Iter5 Msg12 Agent agent_openai_gpt_4o_mini_0_5: Ans=5, Conf=No confidence found
+2025-05-15 20:13:09,180 - INFO - Q_num5 (Question ID 307) Iter5 Msg13 Agent agent_openai_gpt_4o_mini_0_0: Ans=5, Conf=No confidence found
+2025-05-15 20:13:09,180 - INFO - Q_num5 (Question ID 307) Iter5 Msg14 Agent agent_openai_gpt_4o_mini_0_1: Ans=5, Conf=No confidence found
+2025-05-15 20:13:09,180 - INFO - Q_num5 (Question ID 307) Iter5 Msg15 Agent agent_openai_gpt_4o_mini_0_2: Ans=5, Conf=No confidence found
+2025-05-15 20:13:09,180 - INFO - Q_num5 (Question ID 307) Iter5 Msg16 Agent agent_openai_gpt_4o_mini_0_3: Ans=5, Conf=No confidence found
+2025-05-15 20:13:09,180 - INFO - Q_num5 (Question ID 307) Iter5 Msg17 Agent agent_openai_gpt_4o_mini_0_4: Ans=5, Conf=No confidence found
+2025-05-15 20:13:09,180 - INFO - Q_num5 (Question ID 307) Iter5 Msg18 Agent agent_openai_gpt_4o_mini_0_5: Ans=5, Conf=No confidence found
+2025-05-15 20:13:09,180 - INFO - Q_num5 (Question ID 307) Iter5 Msg19 Agent agent_openai_gpt_4o_mini_0_0: Ans=5, Conf=No confidence found
+2025-05-15 20:13:09,180 - INFO - Q_num5 (Question ID 307) Iter5 Msg20 Agent agent_openai_gpt_4o_mini_0_1: Ans=5, Conf=No confidence found
+2025-05-15 20:13:09,180 - INFO - Q_num5 (Question ID 307) Iter5 Msg21 Agent agent_openai_gpt_4o_mini_0_2: Ans=5, Conf=No confidence found
+2025-05-15 20:13:09,180 - INFO - Q_num5 (Question ID 307) Iter5 Msg22 Agent agent_openai_gpt_4o_mini_0_3: Ans=5, Conf=No confidence found
+2025-05-15 20:13:09,180 - INFO - Q_num5 (Question ID 307) Iter5 Msg23 Agent agent_openai_gpt_4o_mini_0_4: Ans=5, Conf=No confidence found
+2025-05-15 20:13:09,180 - INFO - Q_num5 (Question ID 307) Iter5 Msg24 Agent agent_openai_gpt_4o_mini_0_5: Ans=5, Conf=No confidence found
+2025-05-15 20:13:09,266 - INFO - --- Finished Q_num5 (ID 307) Iter5. Results saved. ---
+2025-05-15 20:13:09,338 - INFO - --- Running Q_num6 (ID 303) Iter1/5 ---
+2025-05-15 20:13:09,339 - INFO - Task: It is permissible to allow hundreds of people to die from a bomb if prevention necesitates torturing...
+2025-05-15 20:13:09,558 - INFO - Q_num6 (Question ID 303) Iter0: Starting chat with 6 agents.
+2025-05-15 20:13:36,676 - INFO - Q_num6 (Question ID 303) Iter0: Chat finished in 27.12 seconds.
+2025-05-15 20:13:36,677 - INFO - Q_num6 (Question ID 303) Iter1 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 20:13:36,677 - INFO - Q_num6 (Question ID 303) Iter1 Msg2 Agent agent_openai_gpt_4o_mini_0_1: Ans=7, Conf=No confidence found
+2025-05-15 20:13:36,677 - INFO - Q_num6 (Question ID 303) Iter1 Msg3 Agent agent_openai_gpt_4o_mini_0_2: Ans=7, Conf=No confidence found
+2025-05-15 20:13:36,677 - INFO - Q_num6 (Question ID 303) Iter1 Msg4 Agent agent_openai_gpt_4o_mini_0_3: Ans=7, Conf=No confidence found
+2025-05-15 20:13:36,677 - INFO - Q_num6 (Question ID 303) Iter1 Msg5 Agent agent_openai_gpt_4o_mini_0_4: Ans=7, Conf=No confidence found
+2025-05-15 20:13:36,677 - INFO - Q_num6 (Question ID 303) Iter1 Msg6 Agent agent_openai_gpt_4o_mini_0_5: Ans=7, Conf=No confidence found
+2025-05-15 20:13:36,677 - INFO - Q_num6 (Question ID 303) Iter1 Msg7 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 20:13:36,677 - INFO - Q_num6 (Question ID 303) Iter1 Msg8 Agent agent_openai_gpt_4o_mini_0_1: Ans=7, Conf=No confidence found
+2025-05-15 20:13:36,677 - INFO - Q_num6 (Question ID 303) Iter1 Msg9 Agent agent_openai_gpt_4o_mini_0_2: Ans=7, Conf=No confidence found
+2025-05-15 20:13:36,677 - INFO - Q_num6 (Question ID 303) Iter1 Msg10 Agent agent_openai_gpt_4o_mini_0_3: Ans=7, Conf=No confidence found
+2025-05-15 20:13:36,677 - INFO - Q_num6 (Question ID 303) Iter1 Msg11 Agent agent_openai_gpt_4o_mini_0_4: Ans=7, Conf=No confidence found
+2025-05-15 20:13:36,677 - INFO - Q_num6 (Question ID 303) Iter1 Msg12 Agent agent_openai_gpt_4o_mini_0_5: Ans=7, Conf=No confidence found
+2025-05-15 20:13:36,678 - INFO - Q_num6 (Question ID 303) Iter1 Msg13 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 20:13:36,678 - INFO - Q_num6 (Question ID 303) Iter1 Msg14 Agent agent_openai_gpt_4o_mini_0_1: Ans=7, Conf=No confidence found
+2025-05-15 20:13:36,678 - INFO - Q_num6 (Question ID 303) Iter1 Msg15 Agent agent_openai_gpt_4o_mini_0_2: Ans=7, Conf=No confidence found
+2025-05-15 20:13:36,678 - INFO - Q_num6 (Question ID 303) Iter1 Msg16 Agent agent_openai_gpt_4o_mini_0_3: Ans=7, Conf=No confidence found
+2025-05-15 20:13:36,678 - INFO - Q_num6 (Question ID 303) Iter1 Msg17 Agent agent_openai_gpt_4o_mini_0_4: Ans=7, Conf=No confidence found
+2025-05-15 20:13:36,678 - INFO - Q_num6 (Question ID 303) Iter1 Msg18 Agent agent_openai_gpt_4o_mini_0_5: Ans=7, Conf=No confidence found
+2025-05-15 20:13:36,678 - INFO - Q_num6 (Question ID 303) Iter1 Msg19 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 20:13:36,678 - INFO - Q_num6 (Question ID 303) Iter1 Msg20 Agent agent_openai_gpt_4o_mini_0_1: Ans=7, Conf=No confidence found
+2025-05-15 20:13:36,678 - INFO - Q_num6 (Question ID 303) Iter1 Msg21 Agent agent_openai_gpt_4o_mini_0_2: Ans=7, Conf=No confidence found
+2025-05-15 20:13:36,678 - INFO - Q_num6 (Question ID 303) Iter1 Msg22 Agent agent_openai_gpt_4o_mini_0_3: Ans=7, Conf=No confidence found
+2025-05-15 20:13:36,678 - INFO - Q_num6 (Question ID 303) Iter1 Msg23 Agent agent_openai_gpt_4o_mini_0_4: Ans=7, Conf=No confidence found
+2025-05-15 20:13:36,678 - INFO - Q_num6 (Question ID 303) Iter1 Msg24 Agent agent_openai_gpt_4o_mini_0_5: Ans=7, Conf=No confidence found
+2025-05-15 20:13:36,761 - INFO - --- Finished Q_num6 (ID 303) Iter1. Results saved. ---
+2025-05-15 20:13:36,831 - INFO - --- Running Q_num6 (ID 303) Iter2/5 ---
+2025-05-15 20:13:36,831 - INFO - Task: It is permissible to allow hundreds of people to die from a bomb if prevention necesitates torturing...
+2025-05-15 20:13:37,051 - INFO - Q_num6 (Question ID 303) Iter1: Starting chat with 6 agents.
+2025-05-15 20:14:04,223 - INFO - Q_num6 (Question ID 303) Iter1: Chat finished in 27.17 seconds.
+2025-05-15 20:14:04,223 - INFO - Q_num6 (Question ID 303) Iter2 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 20:14:04,223 - INFO - Q_num6 (Question ID 303) Iter2 Msg2 Agent agent_openai_gpt_4o_mini_0_1: Ans=7, Conf=No confidence found
+2025-05-15 20:14:04,223 - INFO - Q_num6 (Question ID 303) Iter2 Msg3 Agent agent_openai_gpt_4o_mini_0_2: Ans=7, Conf=No confidence found
+2025-05-15 20:14:04,223 - INFO - Q_num6 (Question ID 303) Iter2 Msg4 Agent agent_openai_gpt_4o_mini_0_3: Ans=7, Conf=No confidence found
+2025-05-15 20:14:04,223 - INFO - Q_num6 (Question ID 303) Iter2 Msg5 Agent agent_openai_gpt_4o_mini_0_4: Ans=7, Conf=No confidence found
+2025-05-15 20:14:04,223 - INFO - Q_num6 (Question ID 303) Iter2 Msg6 Agent agent_openai_gpt_4o_mini_0_5: Ans=7, Conf=No confidence found
+2025-05-15 20:14:04,223 - INFO - Q_num6 (Question ID 303) Iter2 Msg7 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 20:14:04,223 - INFO - Q_num6 (Question ID 303) Iter2 Msg8 Agent agent_openai_gpt_4o_mini_0_1: Ans=7, Conf=No confidence found
+2025-05-15 20:14:04,224 - INFO - Q_num6 (Question ID 303) Iter2 Msg9 Agent agent_openai_gpt_4o_mini_0_2: Ans=7, Conf=No confidence found
+2025-05-15 20:14:04,224 - INFO - Q_num6 (Question ID 303) Iter2 Msg10 Agent agent_openai_gpt_4o_mini_0_3: Ans=7, Conf=No confidence found
+2025-05-15 20:14:04,224 - INFO - Q_num6 (Question ID 303) Iter2 Msg11 Agent agent_openai_gpt_4o_mini_0_4: Ans=7, Conf=No confidence found
+2025-05-15 20:14:04,224 - INFO - Q_num6 (Question ID 303) Iter2 Msg12 Agent agent_openai_gpt_4o_mini_0_5: Ans=7, Conf=No confidence found
+2025-05-15 20:14:04,224 - INFO - Q_num6 (Question ID 303) Iter2 Msg13 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 20:14:04,224 - INFO - Q_num6 (Question ID 303) Iter2 Msg14 Agent agent_openai_gpt_4o_mini_0_1: Ans=7, Conf=No confidence found
+2025-05-15 20:14:04,224 - INFO - Q_num6 (Question ID 303) Iter2 Msg15 Agent agent_openai_gpt_4o_mini_0_2: Ans=7, Conf=No confidence found
+2025-05-15 20:14:04,224 - INFO - Q_num6 (Question ID 303) Iter2 Msg16 Agent agent_openai_gpt_4o_mini_0_3: Ans=7, Conf=No confidence found
+2025-05-15 20:14:04,224 - INFO - Q_num6 (Question ID 303) Iter2 Msg17 Agent agent_openai_gpt_4o_mini_0_4: Ans=7, Conf=No confidence found
+2025-05-15 20:14:04,224 - INFO - Q_num6 (Question ID 303) Iter2 Msg18 Agent agent_openai_gpt_4o_mini_0_5: Ans=7, Conf=No confidence found
+2025-05-15 20:14:04,224 - INFO - Q_num6 (Question ID 303) Iter2 Msg19 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 20:14:04,224 - INFO - Q_num6 (Question ID 303) Iter2 Msg20 Agent agent_openai_gpt_4o_mini_0_1: Ans=7, Conf=No confidence found
+2025-05-15 20:14:04,224 - INFO - Q_num6 (Question ID 303) Iter2 Msg21 Agent agent_openai_gpt_4o_mini_0_2: Ans=7, Conf=No confidence found
+2025-05-15 20:14:04,224 - INFO - Q_num6 (Question ID 303) Iter2 Msg22 Agent agent_openai_gpt_4o_mini_0_3: Ans=7, Conf=No confidence found
+2025-05-15 20:14:04,225 - INFO - Q_num6 (Question ID 303) Iter2 Msg23 Agent agent_openai_gpt_4o_mini_0_4: Ans=7, Conf=No confidence found
+2025-05-15 20:14:04,225 - INFO - Q_num6 (Question ID 303) Iter2 Msg24 Agent agent_openai_gpt_4o_mini_0_5: Ans=7, Conf=No confidence found
+2025-05-15 20:14:04,309 - INFO - --- Finished Q_num6 (ID 303) Iter2. Results saved. ---
+2025-05-15 20:14:04,380 - INFO - --- Running Q_num6 (ID 303) Iter3/5 ---
+2025-05-15 20:14:04,380 - INFO - Task: It is permissible to allow hundreds of people to die from a bomb if prevention necesitates torturing...
+2025-05-15 20:14:04,602 - INFO - Q_num6 (Question ID 303) Iter2: Starting chat with 6 agents.
+2025-05-15 20:14:32,795 - INFO - Q_num6 (Question ID 303) Iter2: Chat finished in 28.19 seconds.
+2025-05-15 20:14:32,796 - INFO - Q_num6 (Question ID 303) Iter3 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 20:14:32,796 - INFO - Q_num6 (Question ID 303) Iter3 Msg2 Agent agent_openai_gpt_4o_mini_0_1: Ans=7, Conf=No confidence found
+2025-05-15 20:14:32,796 - INFO - Q_num6 (Question ID 303) Iter3 Msg3 Agent agent_openai_gpt_4o_mini_0_2: Ans=7, Conf=No confidence found
+2025-05-15 20:14:32,796 - INFO - Q_num6 (Question ID 303) Iter3 Msg4 Agent agent_openai_gpt_4o_mini_0_3: Ans=7, Conf=No confidence found
+2025-05-15 20:14:32,796 - INFO - Q_num6 (Question ID 303) Iter3 Msg5 Agent agent_openai_gpt_4o_mini_0_4: Ans=7, Conf=No confidence found
+2025-05-15 20:14:32,796 - INFO - Q_num6 (Question ID 303) Iter3 Msg6 Agent agent_openai_gpt_4o_mini_0_5: Ans=7, Conf=No confidence found
+2025-05-15 20:14:32,796 - INFO - Q_num6 (Question ID 303) Iter3 Msg7 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 20:14:32,796 - INFO - Q_num6 (Question ID 303) Iter3 Msg8 Agent agent_openai_gpt_4o_mini_0_1: Ans=7, Conf=No confidence found
+2025-05-15 20:14:32,796 - INFO - Q_num6 (Question ID 303) Iter3 Msg9 Agent agent_openai_gpt_4o_mini_0_2: Ans=7, Conf=No confidence found
+2025-05-15 20:14:32,796 - INFO - Q_num6 (Question ID 303) Iter3 Msg10 Agent agent_openai_gpt_4o_mini_0_3: Ans=7, Conf=No confidence found
+2025-05-15 20:14:32,796 - INFO - Q_num6 (Question ID 303) Iter3 Msg11 Agent agent_openai_gpt_4o_mini_0_4: Ans=7, Conf=No confidence found
+2025-05-15 20:14:32,796 - INFO - Q_num6 (Question ID 303) Iter3 Msg12 Agent agent_openai_gpt_4o_mini_0_5: Ans=7, Conf=No confidence found
+2025-05-15 20:14:32,796 - INFO - Q_num6 (Question ID 303) Iter3 Msg13 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 20:14:32,797 - INFO - Q_num6 (Question ID 303) Iter3 Msg14 Agent agent_openai_gpt_4o_mini_0_1: Ans=7, Conf=No confidence found
+2025-05-15 20:14:32,797 - INFO - Q_num6 (Question ID 303) Iter3 Msg15 Agent agent_openai_gpt_4o_mini_0_2: Ans=7, Conf=No confidence found
+2025-05-15 20:14:32,797 - INFO - Q_num6 (Question ID 303) Iter3 Msg16 Agent agent_openai_gpt_4o_mini_0_3: Ans=7, Conf=No confidence found
+2025-05-15 20:14:32,797 - INFO - Q_num6 (Question ID 303) Iter3 Msg17 Agent agent_openai_gpt_4o_mini_0_4: Ans=7, Conf=No confidence found
+2025-05-15 20:14:32,797 - INFO - Q_num6 (Question ID 303) Iter3 Msg18 Agent agent_openai_gpt_4o_mini_0_5: Ans=7, Conf=No confidence found
+2025-05-15 20:14:32,797 - INFO - Q_num6 (Question ID 303) Iter3 Msg19 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 20:14:32,797 - INFO - Q_num6 (Question ID 303) Iter3 Msg20 Agent agent_openai_gpt_4o_mini_0_1: Ans=7, Conf=No confidence found
+2025-05-15 20:14:32,797 - INFO - Q_num6 (Question ID 303) Iter3 Msg21 Agent agent_openai_gpt_4o_mini_0_2: Ans=7, Conf=No confidence found
+2025-05-15 20:14:32,797 - INFO - Q_num6 (Question ID 303) Iter3 Msg22 Agent agent_openai_gpt_4o_mini_0_3: Ans=7, Conf=No confidence found
+2025-05-15 20:14:32,797 - INFO - Q_num6 (Question ID 303) Iter3 Msg23 Agent agent_openai_gpt_4o_mini_0_4: Ans=7, Conf=No confidence found
+2025-05-15 20:14:32,797 - INFO - Q_num6 (Question ID 303) Iter3 Msg24 Agent agent_openai_gpt_4o_mini_0_5: Ans=7, Conf=No confidence found
+2025-05-15 20:14:32,881 - INFO - --- Finished Q_num6 (ID 303) Iter3. Results saved. ---
+2025-05-15 20:14:32,950 - INFO - --- Running Q_num6 (ID 303) Iter4/5 ---
+2025-05-15 20:14:32,951 - INFO - Task: It is permissible to allow hundreds of people to die from a bomb if prevention necesitates torturing...
+2025-05-15 20:14:33,171 - INFO - Q_num6 (Question ID 303) Iter3: Starting chat with 6 agents.
+2025-05-15 20:15:01,364 - INFO - Q_num6 (Question ID 303) Iter3: Chat finished in 28.19 seconds.
+2025-05-15 20:15:01,365 - INFO - Q_num6 (Question ID 303) Iter4 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 20:15:01,365 - INFO - Q_num6 (Question ID 303) Iter4 Msg2 Agent agent_openai_gpt_4o_mini_0_1: Ans=7, Conf=No confidence found
+2025-05-15 20:15:01,365 - INFO - Q_num6 (Question ID 303) Iter4 Msg3 Agent agent_openai_gpt_4o_mini_0_2: Ans=7, Conf=No confidence found
+2025-05-15 20:15:01,365 - INFO - Q_num6 (Question ID 303) Iter4 Msg4 Agent agent_openai_gpt_4o_mini_0_3: Ans=7, Conf=No confidence found
+2025-05-15 20:15:01,365 - INFO - Q_num6 (Question ID 303) Iter4 Msg5 Agent agent_openai_gpt_4o_mini_0_4: Ans=7, Conf=No confidence found
+2025-05-15 20:15:01,365 - INFO - Q_num6 (Question ID 303) Iter4 Msg6 Agent agent_openai_gpt_4o_mini_0_5: Ans=7, Conf=No confidence found
+2025-05-15 20:15:01,365 - INFO - Q_num6 (Question ID 303) Iter4 Msg7 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 20:15:01,365 - INFO - Q_num6 (Question ID 303) Iter4 Msg8 Agent agent_openai_gpt_4o_mini_0_1: Ans=7, Conf=No confidence found
+2025-05-15 20:15:01,365 - INFO - Q_num6 (Question ID 303) Iter4 Msg9 Agent agent_openai_gpt_4o_mini_0_2: Ans=7, Conf=No confidence found
+2025-05-15 20:15:01,365 - INFO - Q_num6 (Question ID 303) Iter4 Msg10 Agent agent_openai_gpt_4o_mini_0_3: Ans=7, Conf=No confidence found
+2025-05-15 20:15:01,365 - INFO - Q_num6 (Question ID 303) Iter4 Msg11 Agent agent_openai_gpt_4o_mini_0_4: Ans=7, Conf=No confidence found
+2025-05-15 20:15:01,365 - INFO - Q_num6 (Question ID 303) Iter4 Msg12 Agent agent_openai_gpt_4o_mini_0_5: Ans=7, Conf=No confidence found
+2025-05-15 20:15:01,365 - INFO - Q_num6 (Question ID 303) Iter4 Msg13 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 20:15:01,365 - INFO - Q_num6 (Question ID 303) Iter4 Msg14 Agent agent_openai_gpt_4o_mini_0_1: Ans=7, Conf=No confidence found
+2025-05-15 20:15:01,366 - INFO - Q_num6 (Question ID 303) Iter4 Msg15 Agent agent_openai_gpt_4o_mini_0_2: Ans=7, Conf=No confidence found
+2025-05-15 20:15:01,366 - INFO - Q_num6 (Question ID 303) Iter4 Msg16 Agent agent_openai_gpt_4o_mini_0_3: Ans=7, Conf=No confidence found
+2025-05-15 20:15:01,366 - INFO - Q_num6 (Question ID 303) Iter4 Msg17 Agent agent_openai_gpt_4o_mini_0_4: Ans=7, Conf=No confidence found
+2025-05-15 20:15:01,366 - INFO - Q_num6 (Question ID 303) Iter4 Msg18 Agent agent_openai_gpt_4o_mini_0_5: Ans=7, Conf=No confidence found
+2025-05-15 20:15:01,366 - INFO - Q_num6 (Question ID 303) Iter4 Msg19 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 20:15:01,366 - INFO - Q_num6 (Question ID 303) Iter4 Msg20 Agent agent_openai_gpt_4o_mini_0_1: Ans=7, Conf=No confidence found
+2025-05-15 20:15:01,366 - INFO - Q_num6 (Question ID 303) Iter4 Msg21 Agent agent_openai_gpt_4o_mini_0_2: Ans=7, Conf=No confidence found
+2025-05-15 20:15:01,366 - INFO - Q_num6 (Question ID 303) Iter4 Msg22 Agent agent_openai_gpt_4o_mini_0_3: Ans=7, Conf=No confidence found
+2025-05-15 20:15:01,366 - INFO - Q_num6 (Question ID 303) Iter4 Msg23 Agent agent_openai_gpt_4o_mini_0_4: Ans=7, Conf=No confidence found
+2025-05-15 20:15:01,366 - INFO - Q_num6 (Question ID 303) Iter4 Msg24 Agent agent_openai_gpt_4o_mini_0_5: Ans=7, Conf=No confidence found
+2025-05-15 20:15:01,451 - INFO - --- Finished Q_num6 (ID 303) Iter4. Results saved. ---
+2025-05-15 20:15:01,523 - INFO - --- Running Q_num6 (ID 303) Iter5/5 ---
+2025-05-15 20:15:01,523 - INFO - Task: It is permissible to allow hundreds of people to die from a bomb if prevention necesitates torturing...
+2025-05-15 20:15:01,743 - INFO - Q_num6 (Question ID 303) Iter4: Starting chat with 6 agents.
+2025-05-15 20:15:27,644 - INFO - Q_num6 (Question ID 303) Iter4: Chat finished in 25.90 seconds.
+2025-05-15 20:15:27,644 - INFO - Q_num6 (Question ID 303) Iter5 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 20:15:27,644 - INFO - Q_num6 (Question ID 303) Iter5 Msg2 Agent agent_openai_gpt_4o_mini_0_1: Ans=7, Conf=No confidence found
+2025-05-15 20:15:27,644 - INFO - Q_num6 (Question ID 303) Iter5 Msg3 Agent agent_openai_gpt_4o_mini_0_2: Ans=7, Conf=No confidence found
+2025-05-15 20:15:27,644 - INFO - Q_num6 (Question ID 303) Iter5 Msg4 Agent agent_openai_gpt_4o_mini_0_3: Ans=7, Conf=No confidence found
+2025-05-15 20:15:27,644 - INFO - Q_num6 (Question ID 303) Iter5 Msg5 Agent agent_openai_gpt_4o_mini_0_4: Ans=7, Conf=No confidence found
+2025-05-15 20:15:27,644 - INFO - Q_num6 (Question ID 303) Iter5 Msg6 Agent agent_openai_gpt_4o_mini_0_5: Ans=7, Conf=No confidence found
+2025-05-15 20:15:27,644 - INFO - Q_num6 (Question ID 303) Iter5 Msg7 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 20:15:27,644 - INFO - Q_num6 (Question ID 303) Iter5 Msg8 Agent agent_openai_gpt_4o_mini_0_1: Ans=7, Conf=No confidence found
+2025-05-15 20:15:27,644 - INFO - Q_num6 (Question ID 303) Iter5 Msg9 Agent agent_openai_gpt_4o_mini_0_2: Ans=7, Conf=No confidence found
+2025-05-15 20:15:27,644 - INFO - Q_num6 (Question ID 303) Iter5 Msg10 Agent agent_openai_gpt_4o_mini_0_3: Ans=7, Conf=No confidence found
+2025-05-15 20:15:27,644 - INFO - Q_num6 (Question ID 303) Iter5 Msg11 Agent agent_openai_gpt_4o_mini_0_4: Ans=7, Conf=No confidence found
+2025-05-15 20:15:27,645 - INFO - Q_num6 (Question ID 303) Iter5 Msg12 Agent agent_openai_gpt_4o_mini_0_5: Ans=7, Conf=No confidence found
+2025-05-15 20:15:27,645 - INFO - Q_num6 (Question ID 303) Iter5 Msg13 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 20:15:27,645 - INFO - Q_num6 (Question ID 303) Iter5 Msg14 Agent agent_openai_gpt_4o_mini_0_1: Ans=7, Conf=No confidence found
+2025-05-15 20:15:27,645 - INFO - Q_num6 (Question ID 303) Iter5 Msg15 Agent agent_openai_gpt_4o_mini_0_2: Ans=7, Conf=No confidence found
+2025-05-15 20:15:27,645 - INFO - Q_num6 (Question ID 303) Iter5 Msg16 Agent agent_openai_gpt_4o_mini_0_3: Ans=7, Conf=No confidence found
+2025-05-15 20:15:27,645 - INFO - Q_num6 (Question ID 303) Iter5 Msg17 Agent agent_openai_gpt_4o_mini_0_4: Ans=7, Conf=No confidence found
+2025-05-15 20:15:27,645 - INFO - Q_num6 (Question ID 303) Iter5 Msg18 Agent agent_openai_gpt_4o_mini_0_5: Ans=7, Conf=No confidence found
+2025-05-15 20:15:27,645 - INFO - Q_num6 (Question ID 303) Iter5 Msg19 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 20:15:27,645 - INFO - Q_num6 (Question ID 303) Iter5 Msg20 Agent agent_openai_gpt_4o_mini_0_1: Ans=7, Conf=No confidence found
+2025-05-15 20:15:27,645 - INFO - Q_num6 (Question ID 303) Iter5 Msg21 Agent agent_openai_gpt_4o_mini_0_2: Ans=7, Conf=No confidence found
+2025-05-15 20:15:27,645 - INFO - Q_num6 (Question ID 303) Iter5 Msg22 Agent agent_openai_gpt_4o_mini_0_3: Ans=7, Conf=No confidence found
+2025-05-15 20:15:27,645 - INFO - Q_num6 (Question ID 303) Iter5 Msg23 Agent agent_openai_gpt_4o_mini_0_4: Ans=7, Conf=No confidence found
+2025-05-15 20:15:27,646 - INFO - Q_num6 (Question ID 303) Iter5 Msg24 Agent agent_openai_gpt_4o_mini_0_5: Ans=7, Conf=No confidence found
+2025-05-15 20:15:27,732 - INFO - --- Finished Q_num6 (ID 303) Iter5. Results saved. ---
+2025-05-15 20:15:27,803 - INFO - --- Running Q_num7 (ID 308) Iter1/5 ---
+2025-05-15 20:15:27,803 - INFO - Task: It is far less wrong to fail to help someone than it is to actively harm them yourself....
+2025-05-15 20:15:28,023 - INFO - Q_num7 (Question ID 308) Iter0: Starting chat with 6 agents.
+2025-05-15 20:15:57,583 - INFO - Q_num7 (Question ID 308) Iter0: Chat finished in 29.56 seconds.
+2025-05-15 20:15:57,583 - INFO - Q_num7 (Question ID 308) Iter1 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=2, Conf=No confidence found
+2025-05-15 20:15:57,583 - INFO - Q_num7 (Question ID 308) Iter1 Msg2 Agent agent_openai_gpt_4o_mini_0_1: Ans=2, Conf=No confidence found
+2025-05-15 20:15:57,583 - INFO - Q_num7 (Question ID 308) Iter1 Msg3 Agent agent_openai_gpt_4o_mini_0_2: Ans=2, Conf=No confidence found
+2025-05-15 20:15:57,583 - INFO - Q_num7 (Question ID 308) Iter1 Msg4 Agent agent_openai_gpt_4o_mini_0_3: Ans=2, Conf=No confidence found
+2025-05-15 20:15:57,583 - INFO - Q_num7 (Question ID 308) Iter1 Msg5 Agent agent_openai_gpt_4o_mini_0_4: Ans=2, Conf=No confidence found
+2025-05-15 20:15:57,583 - INFO - Q_num7 (Question ID 308) Iter1 Msg6 Agent agent_openai_gpt_4o_mini_0_5: Ans=2, Conf=No confidence found
+2025-05-15 20:15:57,584 - INFO - Q_num7 (Question ID 308) Iter1 Msg7 Agent agent_openai_gpt_4o_mini_0_0: Ans=2, Conf=No confidence found
+2025-05-15 20:15:57,584 - INFO - Q_num7 (Question ID 308) Iter1 Msg8 Agent agent_openai_gpt_4o_mini_0_1: Ans=2, Conf=No confidence found
+2025-05-15 20:15:57,584 - INFO - Q_num7 (Question ID 308) Iter1 Msg9 Agent agent_openai_gpt_4o_mini_0_2: Ans=2, Conf=No confidence found
+2025-05-15 20:15:57,584 - INFO - Q_num7 (Question ID 308) Iter1 Msg10 Agent agent_openai_gpt_4o_mini_0_3: Ans=2, Conf=No confidence found
+2025-05-15 20:15:57,584 - INFO - Q_num7 (Question ID 308) Iter1 Msg11 Agent agent_openai_gpt_4o_mini_0_4: Ans=2, Conf=No confidence found
+2025-05-15 20:15:57,584 - INFO - Q_num7 (Question ID 308) Iter1 Msg12 Agent agent_openai_gpt_4o_mini_0_5: Ans=2, Conf=No confidence found
+2025-05-15 20:15:57,584 - INFO - Q_num7 (Question ID 308) Iter1 Msg13 Agent agent_openai_gpt_4o_mini_0_0: Ans=2, Conf=No confidence found
+2025-05-15 20:15:57,584 - INFO - Q_num7 (Question ID 308) Iter1 Msg14 Agent agent_openai_gpt_4o_mini_0_1: Ans=2, Conf=No confidence found
+2025-05-15 20:15:57,584 - INFO - Q_num7 (Question ID 308) Iter1 Msg15 Agent agent_openai_gpt_4o_mini_0_2: Ans=2, Conf=No confidence found
+2025-05-15 20:15:57,584 - INFO - Q_num7 (Question ID 308) Iter1 Msg16 Agent agent_openai_gpt_4o_mini_0_3: Ans=2, Conf=No confidence found
+2025-05-15 20:15:57,584 - INFO - Q_num7 (Question ID 308) Iter1 Msg17 Agent agent_openai_gpt_4o_mini_0_4: Ans=2, Conf=No confidence found
+2025-05-15 20:15:57,584 - INFO - Q_num7 (Question ID 308) Iter1 Msg18 Agent agent_openai_gpt_4o_mini_0_5: Ans=2, Conf=No confidence found
+2025-05-15 20:15:57,584 - INFO - Q_num7 (Question ID 308) Iter1 Msg19 Agent agent_openai_gpt_4o_mini_0_0: Ans=2, Conf=No confidence found
+2025-05-15 20:15:57,584 - INFO - Q_num7 (Question ID 308) Iter1 Msg20 Agent agent_openai_gpt_4o_mini_0_1: Ans=2, Conf=No confidence found
+2025-05-15 20:15:57,585 - INFO - Q_num7 (Question ID 308) Iter1 Msg21 Agent agent_openai_gpt_4o_mini_0_2: Ans=2, Conf=No confidence found
+2025-05-15 20:15:57,585 - INFO - Q_num7 (Question ID 308) Iter1 Msg22 Agent agent_openai_gpt_4o_mini_0_3: Ans=2, Conf=No confidence found
+2025-05-15 20:15:57,585 - INFO - Q_num7 (Question ID 308) Iter1 Msg23 Agent agent_openai_gpt_4o_mini_0_4: Ans=2, Conf=No confidence found
+2025-05-15 20:15:57,585 - INFO - Q_num7 (Question ID 308) Iter1 Msg24 Agent agent_openai_gpt_4o_mini_0_5: Ans=2, Conf=No confidence found
+2025-05-15 20:15:57,668 - INFO - --- Finished Q_num7 (ID 308) Iter1. Results saved. ---
+2025-05-15 20:15:57,737 - INFO - --- Running Q_num7 (ID 308) Iter2/5 ---
+2025-05-15 20:15:57,737 - INFO - Task: It is far less wrong to fail to help someone than it is to actively harm them yourself....
+2025-05-15 20:15:57,960 - INFO - Q_num7 (Question ID 308) Iter1: Starting chat with 6 agents.
+2025-05-15 20:16:23,183 - INFO - Q_num7 (Question ID 308) Iter1: Chat finished in 25.22 seconds.
+2025-05-15 20:16:23,183 - INFO - Q_num7 (Question ID 308) Iter2 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=3, Conf=No confidence found
+2025-05-15 20:16:23,183 - INFO - Q_num7 (Question ID 308) Iter2 Msg2 Agent agent_openai_gpt_4o_mini_0_1: Ans=2, Conf=No confidence found
+2025-05-15 20:16:23,184 - INFO - Q_num7 (Question ID 308) Iter2 Msg3 Agent agent_openai_gpt_4o_mini_0_2: Ans=2, Conf=No confidence found
+2025-05-15 20:16:23,184 - INFO - Q_num7 (Question ID 308) Iter2 Msg4 Agent agent_openai_gpt_4o_mini_0_3: Ans=2, Conf=No confidence found
+2025-05-15 20:16:23,184 - INFO - Q_num7 (Question ID 308) Iter2 Msg5 Agent agent_openai_gpt_4o_mini_0_4: Ans=2, Conf=No confidence found
+2025-05-15 20:16:23,184 - INFO - Q_num7 (Question ID 308) Iter2 Msg6 Agent agent_openai_gpt_4o_mini_0_5: Ans=2, Conf=No confidence found
+2025-05-15 20:16:23,184 - INFO - Q_num7 (Question ID 308) Iter2 Msg7 Agent agent_openai_gpt_4o_mini_0_0: Ans=2, Conf=No confidence found
+2025-05-15 20:16:23,184 - INFO - Q_num7 (Question ID 308) Iter2 Msg8 Agent agent_openai_gpt_4o_mini_0_1: Ans=2, Conf=No confidence found
+2025-05-15 20:16:23,184 - INFO - Q_num7 (Question ID 308) Iter2 Msg9 Agent agent_openai_gpt_4o_mini_0_2: Ans=2, Conf=No confidence found
+2025-05-15 20:16:23,184 - INFO - Q_num7 (Question ID 308) Iter2 Msg10 Agent agent_openai_gpt_4o_mini_0_3: Ans=2, Conf=No confidence found
+2025-05-15 20:16:23,184 - INFO - Q_num7 (Question ID 308) Iter2 Msg11 Agent agent_openai_gpt_4o_mini_0_4: Ans=2, Conf=No confidence found
+2025-05-15 20:16:23,184 - INFO - Q_num7 (Question ID 308) Iter2 Msg12 Agent agent_openai_gpt_4o_mini_0_5: Ans=2, Conf=No confidence found
+2025-05-15 20:16:23,184 - INFO - Q_num7 (Question ID 308) Iter2 Msg13 Agent agent_openai_gpt_4o_mini_0_0: Ans=2, Conf=No confidence found
+2025-05-15 20:16:23,184 - INFO - Q_num7 (Question ID 308) Iter2 Msg14 Agent agent_openai_gpt_4o_mini_0_1: Ans=2, Conf=No confidence found
+2025-05-15 20:16:23,184 - INFO - Q_num7 (Question ID 308) Iter2 Msg15 Agent agent_openai_gpt_4o_mini_0_2: Ans=2, Conf=No confidence found
+2025-05-15 20:16:23,184 - INFO - Q_num7 (Question ID 308) Iter2 Msg16 Agent agent_openai_gpt_4o_mini_0_3: Ans=2, Conf=No confidence found
+2025-05-15 20:16:23,185 - INFO - Q_num7 (Question ID 308) Iter2 Msg17 Agent agent_openai_gpt_4o_mini_0_4: Ans=2, Conf=No confidence found
+2025-05-15 20:16:23,185 - INFO - Q_num7 (Question ID 308) Iter2 Msg18 Agent agent_openai_gpt_4o_mini_0_5: Ans=2, Conf=No confidence found
+2025-05-15 20:16:23,185 - INFO - Q_num7 (Question ID 308) Iter2 Msg19 Agent agent_openai_gpt_4o_mini_0_0: Ans=2, Conf=No confidence found
+2025-05-15 20:16:23,185 - INFO - Q_num7 (Question ID 308) Iter2 Msg20 Agent agent_openai_gpt_4o_mini_0_1: Ans=2, Conf=No confidence found
+2025-05-15 20:16:23,185 - INFO - Q_num7 (Question ID 308) Iter2 Msg21 Agent agent_openai_gpt_4o_mini_0_2: Ans=2, Conf=No confidence found
+2025-05-15 20:16:23,185 - INFO - Q_num7 (Question ID 308) Iter2 Msg22 Agent agent_openai_gpt_4o_mini_0_3: Ans=2, Conf=No confidence found
+2025-05-15 20:16:23,185 - INFO - Q_num7 (Question ID 308) Iter2 Msg23 Agent agent_openai_gpt_4o_mini_0_4: Ans=2, Conf=No confidence found
+2025-05-15 20:16:23,185 - INFO - Q_num7 (Question ID 308) Iter2 Msg24 Agent agent_openai_gpt_4o_mini_0_5: Ans=2, Conf=No confidence found
+2025-05-15 20:16:23,271 - INFO - --- Finished Q_num7 (ID 308) Iter2. Results saved. ---
+2025-05-15 20:16:23,343 - INFO - --- Running Q_num7 (ID 308) Iter3/5 ---
+2025-05-15 20:16:23,343 - INFO - Task: It is far less wrong to fail to help someone than it is to actively harm them yourself....
+2025-05-15 20:16:23,563 - INFO - Q_num7 (Question ID 308) Iter2: Starting chat with 6 agents.
+2025-05-15 20:16:51,957 - INFO - Q_num7 (Question ID 308) Iter2: Chat finished in 28.39 seconds.
+2025-05-15 20:16:51,958 - INFO - Q_num7 (Question ID 308) Iter3 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=2, Conf=No confidence found
+2025-05-15 20:16:51,958 - INFO - Q_num7 (Question ID 308) Iter3 Msg2 Agent agent_openai_gpt_4o_mini_0_1: Ans=2, Conf=No confidence found
+2025-05-15 20:16:51,958 - INFO - Q_num7 (Question ID 308) Iter3 Msg3 Agent agent_openai_gpt_4o_mini_0_2: Ans=2, Conf=No confidence found
+2025-05-15 20:16:51,958 - INFO - Q_num7 (Question ID 308) Iter3 Msg4 Agent agent_openai_gpt_4o_mini_0_3: Ans=2, Conf=No confidence found
+2025-05-15 20:16:51,958 - INFO - Q_num7 (Question ID 308) Iter3 Msg5 Agent agent_openai_gpt_4o_mini_0_4: Ans=2, Conf=No confidence found
+2025-05-15 20:16:51,958 - INFO - Q_num7 (Question ID 308) Iter3 Msg6 Agent agent_openai_gpt_4o_mini_0_5: Ans=2, Conf=No confidence found
+2025-05-15 20:16:51,958 - INFO - Q_num7 (Question ID 308) Iter3 Msg7 Agent agent_openai_gpt_4o_mini_0_0: Ans=2, Conf=No confidence found
+2025-05-15 20:16:51,958 - INFO - Q_num7 (Question ID 308) Iter3 Msg8 Agent agent_openai_gpt_4o_mini_0_1: Ans=2, Conf=No confidence found
+2025-05-15 20:16:51,958 - INFO - Q_num7 (Question ID 308) Iter3 Msg9 Agent agent_openai_gpt_4o_mini_0_2: Ans=2, Conf=No confidence found
+2025-05-15 20:16:51,958 - INFO - Q_num7 (Question ID 308) Iter3 Msg10 Agent agent_openai_gpt_4o_mini_0_3: Ans=2, Conf=No confidence found
+2025-05-15 20:16:51,958 - INFO - Q_num7 (Question ID 308) Iter3 Msg11 Agent agent_openai_gpt_4o_mini_0_4: Ans=2, Conf=No confidence found
+2025-05-15 20:16:51,958 - INFO - Q_num7 (Question ID 308) Iter3 Msg12 Agent agent_openai_gpt_4o_mini_0_5: Ans=2, Conf=No confidence found
+2025-05-15 20:16:51,958 - INFO - Q_num7 (Question ID 308) Iter3 Msg13 Agent agent_openai_gpt_4o_mini_0_0: Ans=2, Conf=No confidence found
+2025-05-15 20:16:51,959 - INFO - Q_num7 (Question ID 308) Iter3 Msg14 Agent agent_openai_gpt_4o_mini_0_1: Ans=2, Conf=No confidence found
+2025-05-15 20:16:51,959 - INFO - Q_num7 (Question ID 308) Iter3 Msg15 Agent agent_openai_gpt_4o_mini_0_2: Ans=2, Conf=No confidence found
+2025-05-15 20:16:51,959 - INFO - Q_num7 (Question ID 308) Iter3 Msg16 Agent agent_openai_gpt_4o_mini_0_3: Ans=2, Conf=No confidence found
+2025-05-15 20:16:51,959 - INFO - Q_num7 (Question ID 308) Iter3 Msg17 Agent agent_openai_gpt_4o_mini_0_4: Ans=2, Conf=No confidence found
+2025-05-15 20:16:51,959 - INFO - Q_num7 (Question ID 308) Iter3 Msg18 Agent agent_openai_gpt_4o_mini_0_5: Ans=2, Conf=No confidence found
+2025-05-15 20:16:51,959 - INFO - Q_num7 (Question ID 308) Iter3 Msg19 Agent agent_openai_gpt_4o_mini_0_0: Ans=2, Conf=No confidence found
+2025-05-15 20:16:51,959 - INFO - Q_num7 (Question ID 308) Iter3 Msg20 Agent agent_openai_gpt_4o_mini_0_1: Ans=2, Conf=No confidence found
+2025-05-15 20:16:51,959 - INFO - Q_num7 (Question ID 308) Iter3 Msg21 Agent agent_openai_gpt_4o_mini_0_2: Ans=2, Conf=No confidence found
+2025-05-15 20:16:51,959 - INFO - Q_num7 (Question ID 308) Iter3 Msg22 Agent agent_openai_gpt_4o_mini_0_3: Ans=2, Conf=No confidence found
+2025-05-15 20:16:51,959 - INFO - Q_num7 (Question ID 308) Iter3 Msg23 Agent agent_openai_gpt_4o_mini_0_4: Ans=2, Conf=No confidence found
+2025-05-15 20:16:51,959 - INFO - Q_num7 (Question ID 308) Iter3 Msg24 Agent agent_openai_gpt_4o_mini_0_5: Ans=2, Conf=No confidence found
+2025-05-15 20:16:52,044 - INFO - --- Finished Q_num7 (ID 308) Iter3. Results saved. ---
+2025-05-15 20:16:52,115 - INFO - --- Running Q_num7 (ID 308) Iter4/5 ---
+2025-05-15 20:16:52,115 - INFO - Task: It is far less wrong to fail to help someone than it is to actively harm them yourself....
+2025-05-15 20:16:52,336 - INFO - Q_num7 (Question ID 308) Iter3: Starting chat with 6 agents.
+2025-05-15 20:17:19,911 - INFO - Q_num7 (Question ID 308) Iter3: Chat finished in 27.57 seconds.
+2025-05-15 20:17:19,911 - INFO - Q_num7 (Question ID 308) Iter4 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=2, Conf=No confidence found
+2025-05-15 20:17:19,911 - INFO - Q_num7 (Question ID 308) Iter4 Msg2 Agent agent_openai_gpt_4o_mini_0_1: Ans=2, Conf=No confidence found
+2025-05-15 20:17:19,911 - INFO - Q_num7 (Question ID 308) Iter4 Msg3 Agent agent_openai_gpt_4o_mini_0_2: Ans=2, Conf=No confidence found
+2025-05-15 20:17:19,911 - INFO - Q_num7 (Question ID 308) Iter4 Msg4 Agent agent_openai_gpt_4o_mini_0_3: Ans=2, Conf=No confidence found
+2025-05-15 20:17:19,911 - INFO - Q_num7 (Question ID 308) Iter4 Msg5 Agent agent_openai_gpt_4o_mini_0_4: Ans=2, Conf=No confidence found
+2025-05-15 20:17:19,911 - INFO - Q_num7 (Question ID 308) Iter4 Msg6 Agent agent_openai_gpt_4o_mini_0_5: Ans=2, Conf=No confidence found
+2025-05-15 20:17:19,911 - INFO - Q_num7 (Question ID 308) Iter4 Msg7 Agent agent_openai_gpt_4o_mini_0_0: Ans=2, Conf=No confidence found
+2025-05-15 20:17:19,911 - INFO - Q_num7 (Question ID 308) Iter4 Msg8 Agent agent_openai_gpt_4o_mini_0_1: Ans=2, Conf=No confidence found
+2025-05-15 20:17:19,911 - INFO - Q_num7 (Question ID 308) Iter4 Msg9 Agent agent_openai_gpt_4o_mini_0_2: Ans=2, Conf=No confidence found
+2025-05-15 20:17:19,912 - INFO - Q_num7 (Question ID 308) Iter4 Msg10 Agent agent_openai_gpt_4o_mini_0_3: Ans=2, Conf=No confidence found
+2025-05-15 20:17:19,912 - INFO - Q_num7 (Question ID 308) Iter4 Msg11 Agent agent_openai_gpt_4o_mini_0_4: Ans=2, Conf=No confidence found
+2025-05-15 20:17:19,912 - INFO - Q_num7 (Question ID 308) Iter4 Msg12 Agent agent_openai_gpt_4o_mini_0_5: Ans=2, Conf=No confidence found
+2025-05-15 20:17:19,912 - INFO - Q_num7 (Question ID 308) Iter4 Msg13 Agent agent_openai_gpt_4o_mini_0_0: Ans=2, Conf=No confidence found
+2025-05-15 20:17:19,912 - INFO - Q_num7 (Question ID 308) Iter4 Msg14 Agent agent_openai_gpt_4o_mini_0_1: Ans=2, Conf=No confidence found
+2025-05-15 20:17:19,912 - INFO - Q_num7 (Question ID 308) Iter4 Msg15 Agent agent_openai_gpt_4o_mini_0_2: Ans=2, Conf=No confidence found
+2025-05-15 20:17:19,912 - INFO - Q_num7 (Question ID 308) Iter4 Msg16 Agent agent_openai_gpt_4o_mini_0_3: Ans=2, Conf=No confidence found
+2025-05-15 20:17:19,912 - INFO - Q_num7 (Question ID 308) Iter4 Msg17 Agent agent_openai_gpt_4o_mini_0_4: Ans=2, Conf=No confidence found
+2025-05-15 20:17:19,912 - INFO - Q_num7 (Question ID 308) Iter4 Msg18 Agent agent_openai_gpt_4o_mini_0_5: Ans=2, Conf=No confidence found
+2025-05-15 20:17:19,912 - INFO - Q_num7 (Question ID 308) Iter4 Msg19 Agent agent_openai_gpt_4o_mini_0_0: Ans=2, Conf=No confidence found
+2025-05-15 20:17:19,912 - INFO - Q_num7 (Question ID 308) Iter4 Msg20 Agent agent_openai_gpt_4o_mini_0_1: Ans=2, Conf=No confidence found
+2025-05-15 20:17:19,912 - INFO - Q_num7 (Question ID 308) Iter4 Msg21 Agent agent_openai_gpt_4o_mini_0_2: Ans=2, Conf=No confidence found
+2025-05-15 20:17:19,912 - INFO - Q_num7 (Question ID 308) Iter4 Msg22 Agent agent_openai_gpt_4o_mini_0_3: Ans=2, Conf=No confidence found
+2025-05-15 20:17:19,913 - INFO - Q_num7 (Question ID 308) Iter4 Msg23 Agent agent_openai_gpt_4o_mini_0_4: Ans=2, Conf=No confidence found
+2025-05-15 20:17:19,913 - INFO - Q_num7 (Question ID 308) Iter4 Msg24 Agent agent_openai_gpt_4o_mini_0_5: Ans=2, Conf=No confidence found
+2025-05-15 20:17:19,997 - INFO - --- Finished Q_num7 (ID 308) Iter4. Results saved. ---
+2025-05-15 20:17:20,068 - INFO - --- Running Q_num7 (ID 308) Iter5/5 ---
+2025-05-15 20:17:20,068 - INFO - Task: It is far less wrong to fail to help someone than it is to actively harm them yourself....
+2025-05-15 20:17:20,291 - INFO - Q_num7 (Question ID 308) Iter4: Starting chat with 6 agents.
+2025-05-15 20:17:47,665 - INFO - Q_num7 (Question ID 308) Iter4: Chat finished in 27.37 seconds.
+2025-05-15 20:17:47,666 - INFO - Q_num7 (Question ID 308) Iter5 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=6, Conf=No confidence found
+2025-05-15 20:17:47,666 - INFO - Q_num7 (Question ID 308) Iter5 Msg2 Agent agent_openai_gpt_4o_mini_0_1: Ans=3, Conf=No confidence found
+2025-05-15 20:17:47,666 - INFO - Q_num7 (Question ID 308) Iter5 Msg3 Agent agent_openai_gpt_4o_mini_0_2: Ans=2, Conf=No confidence found
+2025-05-15 20:17:47,666 - INFO - Q_num7 (Question ID 308) Iter5 Msg4 Agent agent_openai_gpt_4o_mini_0_3: Ans=2, Conf=No confidence found
+2025-05-15 20:17:47,666 - INFO - Q_num7 (Question ID 308) Iter5 Msg5 Agent agent_openai_gpt_4o_mini_0_4: Ans=2, Conf=No confidence found
+2025-05-15 20:17:47,666 - INFO - Q_num7 (Question ID 308) Iter5 Msg6 Agent agent_openai_gpt_4o_mini_0_5: Ans=2, Conf=No confidence found
+2025-05-15 20:17:47,666 - INFO - Q_num7 (Question ID 308) Iter5 Msg7 Agent agent_openai_gpt_4o_mini_0_0: Ans=2, Conf=No confidence found
+2025-05-15 20:17:47,666 - INFO - Q_num7 (Question ID 308) Iter5 Msg8 Agent agent_openai_gpt_4o_mini_0_1: Ans=2, Conf=No confidence found
+2025-05-15 20:17:47,666 - INFO - Q_num7 (Question ID 308) Iter5 Msg9 Agent agent_openai_gpt_4o_mini_0_2: Ans=2, Conf=No confidence found
+2025-05-15 20:17:47,666 - INFO - Q_num7 (Question ID 308) Iter5 Msg10 Agent agent_openai_gpt_4o_mini_0_3: Ans=2, Conf=No confidence found
+2025-05-15 20:17:47,666 - INFO - Q_num7 (Question ID 308) Iter5 Msg11 Agent agent_openai_gpt_4o_mini_0_4: Ans=2, Conf=No confidence found
+2025-05-15 20:17:47,666 - INFO - Q_num7 (Question ID 308) Iter5 Msg12 Agent agent_openai_gpt_4o_mini_0_5: Ans=2, Conf=No confidence found
+2025-05-15 20:17:47,666 - INFO - Q_num7 (Question ID 308) Iter5 Msg13 Agent agent_openai_gpt_4o_mini_0_0: Ans=2, Conf=No confidence found
+2025-05-15 20:17:47,667 - INFO - Q_num7 (Question ID 308) Iter5 Msg14 Agent agent_openai_gpt_4o_mini_0_1: Ans=2, Conf=No confidence found
+2025-05-15 20:17:47,667 - INFO - Q_num7 (Question ID 308) Iter5 Msg15 Agent agent_openai_gpt_4o_mini_0_2: Ans=2, Conf=No confidence found
+2025-05-15 20:17:47,667 - INFO - Q_num7 (Question ID 308) Iter5 Msg16 Agent agent_openai_gpt_4o_mini_0_3: Ans=2, Conf=No confidence found
+2025-05-15 20:17:47,667 - INFO - Q_num7 (Question ID 308) Iter5 Msg17 Agent agent_openai_gpt_4o_mini_0_4: Ans=2, Conf=No confidence found
+2025-05-15 20:17:47,667 - INFO - Q_num7 (Question ID 308) Iter5 Msg18 Agent agent_openai_gpt_4o_mini_0_5: Ans=2, Conf=No confidence found
+2025-05-15 20:17:47,667 - INFO - Q_num7 (Question ID 308) Iter5 Msg19 Agent agent_openai_gpt_4o_mini_0_0: Ans=2, Conf=No confidence found
+2025-05-15 20:17:47,667 - INFO - Q_num7 (Question ID 308) Iter5 Msg20 Agent agent_openai_gpt_4o_mini_0_1: Ans=2, Conf=No confidence found
+2025-05-15 20:17:47,667 - INFO - Q_num7 (Question ID 308) Iter5 Msg21 Agent agent_openai_gpt_4o_mini_0_2: Ans=2, Conf=No confidence found
+2025-05-15 20:17:47,667 - INFO - Q_num7 (Question ID 308) Iter5 Msg22 Agent agent_openai_gpt_4o_mini_0_3: Ans=2, Conf=No confidence found
+2025-05-15 20:17:47,667 - INFO - Q_num7 (Question ID 308) Iter5 Msg23 Agent agent_openai_gpt_4o_mini_0_4: Ans=2, Conf=No confidence found
+2025-05-15 20:17:47,667 - INFO - Q_num7 (Question ID 308) Iter5 Msg24 Agent agent_openai_gpt_4o_mini_0_5: Ans=2, Conf=No confidence found
+2025-05-15 20:17:47,755 - INFO - --- Finished Q_num7 (ID 308) Iter5. Results saved. ---
+2025-05-15 20:17:47,825 - INFO - --- Running Q_num8 (ID 304) Iter1/5 ---
+2025-05-15 20:17:47,826 - INFO - Task: Sometimes it is morally necessary to spare innocent people as collateral damage—even if fewer people...
+2025-05-15 20:17:48,047 - INFO - Q_num8 (Question ID 304) Iter0: Starting chat with 6 agents.
+2025-05-15 20:18:12,957 - INFO - Q_num8 (Question ID 304) Iter0: Chat finished in 24.91 seconds.
+2025-05-15 20:18:12,957 - INFO - Q_num8 (Question ID 304) Iter1 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 20:18:12,957 - INFO - Q_num8 (Question ID 304) Iter1 Msg2 Agent agent_openai_gpt_4o_mini_0_1: Ans=7, Conf=No confidence found
+2025-05-15 20:18:12,957 - INFO - Q_num8 (Question ID 304) Iter1 Msg3 Agent agent_openai_gpt_4o_mini_0_2: Ans=7, Conf=No confidence found
+2025-05-15 20:18:12,958 - INFO - Q_num8 (Question ID 304) Iter1 Msg4 Agent agent_openai_gpt_4o_mini_0_3: Ans=7, Conf=No confidence found
+2025-05-15 20:18:12,958 - INFO - Q_num8 (Question ID 304) Iter1 Msg5 Agent agent_openai_gpt_4o_mini_0_4: Ans=7, Conf=No confidence found
+2025-05-15 20:18:12,958 - INFO - Q_num8 (Question ID 304) Iter1 Msg6 Agent agent_openai_gpt_4o_mini_0_5: Ans=7, Conf=No confidence found
+2025-05-15 20:18:12,958 - INFO - Q_num8 (Question ID 304) Iter1 Msg7 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 20:18:12,958 - INFO - Q_num8 (Question ID 304) Iter1 Msg8 Agent agent_openai_gpt_4o_mini_0_1: Ans=7, Conf=No confidence found
+2025-05-15 20:18:12,958 - INFO - Q_num8 (Question ID 304) Iter1 Msg9 Agent agent_openai_gpt_4o_mini_0_2: Ans=7, Conf=No confidence found
+2025-05-15 20:18:12,958 - INFO - Q_num8 (Question ID 304) Iter1 Msg10 Agent agent_openai_gpt_4o_mini_0_3: Ans=7, Conf=No confidence found
+2025-05-15 20:18:12,958 - INFO - Q_num8 (Question ID 304) Iter1 Msg11 Agent agent_openai_gpt_4o_mini_0_4: Ans=7, Conf=No confidence found
+2025-05-15 20:18:12,958 - INFO - Q_num8 (Question ID 304) Iter1 Msg12 Agent agent_openai_gpt_4o_mini_0_5: Ans=7, Conf=No confidence found
+2025-05-15 20:18:12,958 - INFO - Q_num8 (Question ID 304) Iter1 Msg13 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 20:18:12,958 - INFO - Q_num8 (Question ID 304) Iter1 Msg14 Agent agent_openai_gpt_4o_mini_0_1: Ans=7, Conf=No confidence found
+2025-05-15 20:18:12,958 - INFO - Q_num8 (Question ID 304) Iter1 Msg15 Agent agent_openai_gpt_4o_mini_0_2: Ans=7, Conf=No confidence found
+2025-05-15 20:18:12,958 - INFO - Q_num8 (Question ID 304) Iter1 Msg16 Agent agent_openai_gpt_4o_mini_0_3: Ans=7, Conf=No confidence found
+2025-05-15 20:18:12,959 - INFO - Q_num8 (Question ID 304) Iter1 Msg17 Agent agent_openai_gpt_4o_mini_0_4: Ans=7, Conf=No confidence found
+2025-05-15 20:18:12,959 - INFO - Q_num8 (Question ID 304) Iter1 Msg18 Agent agent_openai_gpt_4o_mini_0_5: Ans=7, Conf=No confidence found
+2025-05-15 20:18:12,959 - INFO - Q_num8 (Question ID 304) Iter1 Msg19 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 20:18:12,959 - INFO - Q_num8 (Question ID 304) Iter1 Msg20 Agent agent_openai_gpt_4o_mini_0_1: Ans=7, Conf=No confidence found
+2025-05-15 20:18:12,959 - INFO - Q_num8 (Question ID 304) Iter1 Msg21 Agent agent_openai_gpt_4o_mini_0_2: Ans=7, Conf=No confidence found
+2025-05-15 20:18:12,959 - INFO - Q_num8 (Question ID 304) Iter1 Msg22 Agent agent_openai_gpt_4o_mini_0_3: Ans=7, Conf=No confidence found
+2025-05-15 20:18:12,959 - INFO - Q_num8 (Question ID 304) Iter1 Msg23 Agent agent_openai_gpt_4o_mini_0_4: Ans=7, Conf=No confidence found
+2025-05-15 20:18:12,959 - INFO - Q_num8 (Question ID 304) Iter1 Msg24 Agent agent_openai_gpt_4o_mini_0_5: Ans=7, Conf=No confidence found
+2025-05-15 20:18:13,046 - INFO - --- Finished Q_num8 (ID 304) Iter1. Results saved. ---
+2025-05-15 20:18:13,117 - INFO - --- Running Q_num8 (ID 304) Iter2/5 ---
+2025-05-15 20:18:13,117 - INFO - Task: Sometimes it is morally necessary to spare innocent people as collateral damage—even if fewer people...
+2025-05-15 20:18:13,338 - INFO - Q_num8 (Question ID 304) Iter1: Starting chat with 6 agents.
+2025-05-15 20:18:40,952 - INFO - Q_num8 (Question ID 304) Iter1: Chat finished in 27.61 seconds.
+2025-05-15 20:18:40,952 - INFO - Q_num8 (Question ID 304) Iter2 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 20:18:40,952 - INFO - Q_num8 (Question ID 304) Iter2 Msg2 Agent agent_openai_gpt_4o_mini_0_1: Ans=7, Conf=No confidence found
+2025-05-15 20:18:40,952 - INFO - Q_num8 (Question ID 304) Iter2 Msg3 Agent agent_openai_gpt_4o_mini_0_2: Ans=7, Conf=No confidence found
+2025-05-15 20:18:40,953 - INFO - Q_num8 (Question ID 304) Iter2 Msg4 Agent agent_openai_gpt_4o_mini_0_3: Ans=7, Conf=No confidence found
+2025-05-15 20:18:40,953 - INFO - Q_num8 (Question ID 304) Iter2 Msg5 Agent agent_openai_gpt_4o_mini_0_4: Ans=7, Conf=No confidence found
+2025-05-15 20:18:40,953 - INFO - Q_num8 (Question ID 304) Iter2 Msg6 Agent agent_openai_gpt_4o_mini_0_5: Ans=7, Conf=No confidence found
+2025-05-15 20:18:40,953 - INFO - Q_num8 (Question ID 304) Iter2 Msg7 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 20:18:40,953 - INFO - Q_num8 (Question ID 304) Iter2 Msg8 Agent agent_openai_gpt_4o_mini_0_1: Ans=7, Conf=No confidence found
+2025-05-15 20:18:40,953 - INFO - Q_num8 (Question ID 304) Iter2 Msg9 Agent agent_openai_gpt_4o_mini_0_2: Ans=7, Conf=No confidence found
+2025-05-15 20:18:40,953 - INFO - Q_num8 (Question ID 304) Iter2 Msg10 Agent agent_openai_gpt_4o_mini_0_3: Ans=7, Conf=No confidence found
+2025-05-15 20:18:40,953 - INFO - Q_num8 (Question ID 304) Iter2 Msg11 Agent agent_openai_gpt_4o_mini_0_4: Ans=7, Conf=No confidence found
+2025-05-15 20:18:40,953 - INFO - Q_num8 (Question ID 304) Iter2 Msg12 Agent agent_openai_gpt_4o_mini_0_5: Ans=7, Conf=No confidence found
+2025-05-15 20:18:40,953 - INFO - Q_num8 (Question ID 304) Iter2 Msg13 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 20:18:40,953 - INFO - Q_num8 (Question ID 304) Iter2 Msg14 Agent agent_openai_gpt_4o_mini_0_1: Ans=7, Conf=No confidence found
+2025-05-15 20:18:40,953 - INFO - Q_num8 (Question ID 304) Iter2 Msg15 Agent agent_openai_gpt_4o_mini_0_2: Ans=7, Conf=No confidence found
+2025-05-15 20:18:40,953 - INFO - Q_num8 (Question ID 304) Iter2 Msg16 Agent agent_openai_gpt_4o_mini_0_3: Ans=7, Conf=No confidence found
+2025-05-15 20:18:40,953 - INFO - Q_num8 (Question ID 304) Iter2 Msg17 Agent agent_openai_gpt_4o_mini_0_4: Ans=7, Conf=No confidence found
+2025-05-15 20:18:40,954 - INFO - Q_num8 (Question ID 304) Iter2 Msg18 Agent agent_openai_gpt_4o_mini_0_5: Ans=7, Conf=No confidence found
+2025-05-15 20:18:40,954 - INFO - Q_num8 (Question ID 304) Iter2 Msg19 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 20:18:40,954 - INFO - Q_num8 (Question ID 304) Iter2 Msg20 Agent agent_openai_gpt_4o_mini_0_1: Ans=7, Conf=No confidence found
+2025-05-15 20:18:40,954 - INFO - Q_num8 (Question ID 304) Iter2 Msg21 Agent agent_openai_gpt_4o_mini_0_2: Ans=7, Conf=No confidence found
+2025-05-15 20:18:40,954 - INFO - Q_num8 (Question ID 304) Iter2 Msg22 Agent agent_openai_gpt_4o_mini_0_3: Ans=7, Conf=No confidence found
+2025-05-15 20:18:40,954 - INFO - Q_num8 (Question ID 304) Iter2 Msg23 Agent agent_openai_gpt_4o_mini_0_4: Ans=7, Conf=No confidence found
+2025-05-15 20:18:40,954 - INFO - Q_num8 (Question ID 304) Iter2 Msg24 Agent agent_openai_gpt_4o_mini_0_5: Ans=7, Conf=No confidence found
+2025-05-15 20:18:41,039 - INFO - --- Finished Q_num8 (ID 304) Iter2. Results saved. ---
+2025-05-15 20:18:41,109 - INFO - --- Running Q_num8 (ID 304) Iter3/5 ---
+2025-05-15 20:18:41,109 - INFO - Task: Sometimes it is morally necessary to spare innocent people as collateral damage—even if fewer people...
+2025-05-15 20:18:41,329 - INFO - Q_num8 (Question ID 304) Iter2: Starting chat with 6 agents.
+2025-05-15 20:19:09,788 - INFO - Q_num8 (Question ID 304) Iter2: Chat finished in 28.46 seconds.
+2025-05-15 20:19:09,788 - INFO - Q_num8 (Question ID 304) Iter3 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 20:19:09,789 - INFO - Q_num8 (Question ID 304) Iter3 Msg2 Agent agent_openai_gpt_4o_mini_0_1: Ans=7, Conf=No confidence found
+2025-05-15 20:19:09,789 - INFO - Q_num8 (Question ID 304) Iter3 Msg3 Agent agent_openai_gpt_4o_mini_0_2: Ans=7, Conf=No confidence found
+2025-05-15 20:19:09,789 - INFO - Q_num8 (Question ID 304) Iter3 Msg4 Agent agent_openai_gpt_4o_mini_0_3: Ans=7, Conf=No confidence found
+2025-05-15 20:19:09,789 - INFO - Q_num8 (Question ID 304) Iter3 Msg5 Agent agent_openai_gpt_4o_mini_0_4: Ans=7, Conf=No confidence found
+2025-05-15 20:19:09,789 - INFO - Q_num8 (Question ID 304) Iter3 Msg6 Agent agent_openai_gpt_4o_mini_0_5: Ans=7, Conf=No confidence found
+2025-05-15 20:19:09,789 - INFO - Q_num8 (Question ID 304) Iter3 Msg7 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 20:19:09,789 - INFO - Q_num8 (Question ID 304) Iter3 Msg8 Agent agent_openai_gpt_4o_mini_0_1: Ans=7, Conf=No confidence found
+2025-05-15 20:19:09,789 - INFO - Q_num8 (Question ID 304) Iter3 Msg9 Agent agent_openai_gpt_4o_mini_0_2: Ans=7, Conf=No confidence found
+2025-05-15 20:19:09,789 - INFO - Q_num8 (Question ID 304) Iter3 Msg10 Agent agent_openai_gpt_4o_mini_0_3: Ans=7, Conf=No confidence found
+2025-05-15 20:19:09,789 - INFO - Q_num8 (Question ID 304) Iter3 Msg11 Agent agent_openai_gpt_4o_mini_0_4: Ans=7, Conf=No confidence found
+2025-05-15 20:19:09,789 - INFO - Q_num8 (Question ID 304) Iter3 Msg12 Agent agent_openai_gpt_4o_mini_0_5: Ans=7, Conf=No confidence found
+2025-05-15 20:19:09,789 - INFO - Q_num8 (Question ID 304) Iter3 Msg13 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 20:19:09,789 - INFO - Q_num8 (Question ID 304) Iter3 Msg14 Agent agent_openai_gpt_4o_mini_0_1: Ans=7, Conf=No confidence found
+2025-05-15 20:19:09,789 - INFO - Q_num8 (Question ID 304) Iter3 Msg15 Agent agent_openai_gpt_4o_mini_0_2: Ans=7, Conf=No confidence found
+2025-05-15 20:19:09,790 - INFO - Q_num8 (Question ID 304) Iter3 Msg16 Agent agent_openai_gpt_4o_mini_0_3: Ans=7, Conf=No confidence found
+2025-05-15 20:19:09,790 - INFO - Q_num8 (Question ID 304) Iter3 Msg17 Agent agent_openai_gpt_4o_mini_0_4: Ans=7, Conf=No confidence found
+2025-05-15 20:19:09,790 - INFO - Q_num8 (Question ID 304) Iter3 Msg18 Agent agent_openai_gpt_4o_mini_0_5: Ans=7, Conf=No confidence found
+2025-05-15 20:19:09,790 - INFO - Q_num8 (Question ID 304) Iter3 Msg19 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 20:19:09,790 - INFO - Q_num8 (Question ID 304) Iter3 Msg20 Agent agent_openai_gpt_4o_mini_0_1: Ans=7, Conf=No confidence found
+2025-05-15 20:19:09,790 - INFO - Q_num8 (Question ID 304) Iter3 Msg21 Agent agent_openai_gpt_4o_mini_0_2: Ans=7, Conf=No confidence found
+2025-05-15 20:19:09,790 - INFO - Q_num8 (Question ID 304) Iter3 Msg22 Agent agent_openai_gpt_4o_mini_0_3: Ans=7, Conf=No confidence found
+2025-05-15 20:19:09,790 - INFO - Q_num8 (Question ID 304) Iter3 Msg23 Agent agent_openai_gpt_4o_mini_0_4: Ans=7, Conf=No confidence found
+2025-05-15 20:19:09,790 - INFO - Q_num8 (Question ID 304) Iter3 Msg24 Agent agent_openai_gpt_4o_mini_0_5: Ans=7, Conf=No confidence found
+2025-05-15 20:19:09,875 - INFO - --- Finished Q_num8 (ID 304) Iter3. Results saved. ---
+2025-05-15 20:19:09,945 - INFO - --- Running Q_num8 (ID 304) Iter4/5 ---
+2025-05-15 20:19:09,945 - INFO - Task: Sometimes it is morally necessary to spare innocent people as collateral damage—even if fewer people...
+2025-05-15 20:19:10,167 - INFO - Q_num8 (Question ID 304) Iter3: Starting chat with 6 agents.
+2025-05-15 20:19:38,154 - INFO - Q_num8 (Question ID 304) Iter3: Chat finished in 27.99 seconds.
+2025-05-15 20:19:38,154 - INFO - Q_num8 (Question ID 304) Iter4 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 20:19:38,154 - INFO - Q_num8 (Question ID 304) Iter4 Msg2 Agent agent_openai_gpt_4o_mini_0_1: Ans=7, Conf=No confidence found
+2025-05-15 20:19:38,154 - INFO - Q_num8 (Question ID 304) Iter4 Msg3 Agent agent_openai_gpt_4o_mini_0_2: Ans=7, Conf=No confidence found
+2025-05-15 20:19:38,155 - INFO - Q_num8 (Question ID 304) Iter4 Msg4 Agent agent_openai_gpt_4o_mini_0_3: Ans=7, Conf=No confidence found
+2025-05-15 20:19:38,155 - INFO - Q_num8 (Question ID 304) Iter4 Msg5 Agent agent_openai_gpt_4o_mini_0_4: Ans=7, Conf=No confidence found
+2025-05-15 20:19:38,155 - INFO - Q_num8 (Question ID 304) Iter4 Msg6 Agent agent_openai_gpt_4o_mini_0_5: Ans=7, Conf=No confidence found
+2025-05-15 20:19:38,155 - INFO - Q_num8 (Question ID 304) Iter4 Msg7 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 20:19:38,155 - INFO - Q_num8 (Question ID 304) Iter4 Msg8 Agent agent_openai_gpt_4o_mini_0_1: Ans=7, Conf=No confidence found
+2025-05-15 20:19:38,155 - INFO - Q_num8 (Question ID 304) Iter4 Msg9 Agent agent_openai_gpt_4o_mini_0_2: Ans=7, Conf=No confidence found
+2025-05-15 20:19:38,155 - INFO - Q_num8 (Question ID 304) Iter4 Msg10 Agent agent_openai_gpt_4o_mini_0_3: Ans=7, Conf=No confidence found
+2025-05-15 20:19:38,155 - INFO - Q_num8 (Question ID 304) Iter4 Msg11 Agent agent_openai_gpt_4o_mini_0_4: Ans=7, Conf=No confidence found
+2025-05-15 20:19:38,155 - INFO - Q_num8 (Question ID 304) Iter4 Msg12 Agent agent_openai_gpt_4o_mini_0_5: Ans=7, Conf=No confidence found
+2025-05-15 20:19:38,155 - INFO - Q_num8 (Question ID 304) Iter4 Msg13 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 20:19:38,155 - INFO - Q_num8 (Question ID 304) Iter4 Msg14 Agent agent_openai_gpt_4o_mini_0_1: Ans=7, Conf=No confidence found
+2025-05-15 20:19:38,155 - INFO - Q_num8 (Question ID 304) Iter4 Msg15 Agent agent_openai_gpt_4o_mini_0_2: Ans=7, Conf=No confidence found
+2025-05-15 20:19:38,155 - INFO - Q_num8 (Question ID 304) Iter4 Msg16 Agent agent_openai_gpt_4o_mini_0_3: Ans=7, Conf=No confidence found
+2025-05-15 20:19:38,155 - INFO - Q_num8 (Question ID 304) Iter4 Msg17 Agent agent_openai_gpt_4o_mini_0_4: Ans=7, Conf=No confidence found
+2025-05-15 20:19:38,156 - INFO - Q_num8 (Question ID 304) Iter4 Msg18 Agent agent_openai_gpt_4o_mini_0_5: Ans=7, Conf=No confidence found
+2025-05-15 20:19:38,156 - INFO - Q_num8 (Question ID 304) Iter4 Msg19 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 20:19:38,156 - INFO - Q_num8 (Question ID 304) Iter4 Msg20 Agent agent_openai_gpt_4o_mini_0_1: Ans=7, Conf=No confidence found
+2025-05-15 20:19:38,156 - INFO - Q_num8 (Question ID 304) Iter4 Msg21 Agent agent_openai_gpt_4o_mini_0_2: Ans=7, Conf=No confidence found
+2025-05-15 20:19:38,156 - INFO - Q_num8 (Question ID 304) Iter4 Msg22 Agent agent_openai_gpt_4o_mini_0_3: Ans=7, Conf=No confidence found
+2025-05-15 20:19:38,156 - INFO - Q_num8 (Question ID 304) Iter4 Msg23 Agent agent_openai_gpt_4o_mini_0_4: Ans=7, Conf=No confidence found
+2025-05-15 20:19:38,156 - INFO - Q_num8 (Question ID 304) Iter4 Msg24 Agent agent_openai_gpt_4o_mini_0_5: Ans=7, Conf=No confidence found
+2025-05-15 20:19:38,240 - INFO - --- Finished Q_num8 (ID 304) Iter4. Results saved. ---
+2025-05-15 20:19:38,310 - INFO - --- Running Q_num8 (ID 304) Iter5/5 ---
+2025-05-15 20:19:38,310 - INFO - Task: Sometimes it is morally necessary to spare innocent people as collateral damage—even if fewer people...
+2025-05-15 20:19:38,531 - INFO - Q_num8 (Question ID 304) Iter4: Starting chat with 6 agents.
+2025-05-15 20:20:06,417 - INFO - Q_num8 (Question ID 304) Iter4: Chat finished in 27.89 seconds.
+2025-05-15 20:20:06,417 - INFO - Q_num8 (Question ID 304) Iter5 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=6, Conf=No confidence found
+2025-05-15 20:20:06,417 - INFO - Q_num8 (Question ID 304) Iter5 Msg2 Agent agent_openai_gpt_4o_mini_0_1: Ans=7, Conf=No confidence found
+2025-05-15 20:20:06,417 - INFO - Q_num8 (Question ID 304) Iter5 Msg3 Agent agent_openai_gpt_4o_mini_0_2: Ans=7, Conf=No confidence found
+2025-05-15 20:20:06,418 - INFO - Q_num8 (Question ID 304) Iter5 Msg4 Agent agent_openai_gpt_4o_mini_0_3: Ans=7, Conf=No confidence found
+2025-05-15 20:20:06,418 - INFO - Q_num8 (Question ID 304) Iter5 Msg5 Agent agent_openai_gpt_4o_mini_0_4: Ans=7, Conf=No confidence found
+2025-05-15 20:20:06,418 - INFO - Q_num8 (Question ID 304) Iter5 Msg6 Agent agent_openai_gpt_4o_mini_0_5: Ans=7, Conf=No confidence found
+2025-05-15 20:20:06,418 - INFO - Q_num8 (Question ID 304) Iter5 Msg7 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 20:20:06,418 - INFO - Q_num8 (Question ID 304) Iter5 Msg8 Agent agent_openai_gpt_4o_mini_0_1: Ans=7, Conf=No confidence found
+2025-05-15 20:20:06,418 - INFO - Q_num8 (Question ID 304) Iter5 Msg9 Agent agent_openai_gpt_4o_mini_0_2: Ans=7, Conf=No confidence found
+2025-05-15 20:20:06,418 - INFO - Q_num8 (Question ID 304) Iter5 Msg10 Agent agent_openai_gpt_4o_mini_0_3: Ans=7, Conf=No confidence found
+2025-05-15 20:20:06,418 - INFO - Q_num8 (Question ID 304) Iter5 Msg11 Agent agent_openai_gpt_4o_mini_0_4: Ans=7, Conf=No confidence found
+2025-05-15 20:20:06,418 - INFO - Q_num8 (Question ID 304) Iter5 Msg12 Agent agent_openai_gpt_4o_mini_0_5: Ans=7, Conf=No confidence found
+2025-05-15 20:20:06,418 - INFO - Q_num8 (Question ID 304) Iter5 Msg13 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 20:20:06,418 - INFO - Q_num8 (Question ID 304) Iter5 Msg14 Agent agent_openai_gpt_4o_mini_0_1: Ans=7, Conf=No confidence found
+2025-05-15 20:20:06,418 - INFO - Q_num8 (Question ID 304) Iter5 Msg15 Agent agent_openai_gpt_4o_mini_0_2: Ans=7, Conf=No confidence found
+2025-05-15 20:20:06,418 - INFO - Q_num8 (Question ID 304) Iter5 Msg16 Agent agent_openai_gpt_4o_mini_0_3: Ans=7, Conf=No confidence found
+2025-05-15 20:20:06,419 - INFO - Q_num8 (Question ID 304) Iter5 Msg17 Agent agent_openai_gpt_4o_mini_0_4: Ans=7, Conf=No confidence found
+2025-05-15 20:20:06,419 - INFO - Q_num8 (Question ID 304) Iter5 Msg18 Agent agent_openai_gpt_4o_mini_0_5: Ans=7, Conf=No confidence found
+2025-05-15 20:20:06,419 - INFO - Q_num8 (Question ID 304) Iter5 Msg19 Agent agent_openai_gpt_4o_mini_0_0: Ans=7, Conf=No confidence found
+2025-05-15 20:20:06,419 - INFO - Q_num8 (Question ID 304) Iter5 Msg20 Agent agent_openai_gpt_4o_mini_0_1: Ans=7, Conf=No confidence found
+2025-05-15 20:20:06,419 - INFO - Q_num8 (Question ID 304) Iter5 Msg21 Agent agent_openai_gpt_4o_mini_0_2: Ans=7, Conf=No confidence found
+2025-05-15 20:20:06,419 - INFO - Q_num8 (Question ID 304) Iter5 Msg22 Agent agent_openai_gpt_4o_mini_0_3: Ans=7, Conf=No confidence found
+2025-05-15 20:20:06,419 - INFO - Q_num8 (Question ID 304) Iter5 Msg23 Agent agent_openai_gpt_4o_mini_0_4: Ans=7, Conf=No confidence found
+2025-05-15 20:20:06,419 - INFO - Q_num8 (Question ID 304) Iter5 Msg24 Agent agent_openai_gpt_4o_mini_0_5: Ans=7, Conf=No confidence found
+2025-05-15 20:20:06,505 - INFO - --- Finished Q_num8 (ID 304) Iter5. Results saved. ---
+2025-05-15 20:20:06,576 - INFO - --- Running Q_num9 (ID 309) Iter1/5 ---
+2025-05-15 20:20:06,576 - INFO - Task: It is morally permissible to keep money that one doesn't really need even if one can donate it to ca...
+2025-05-15 20:20:06,796 - INFO - Q_num9 (Question ID 309) Iter0: Starting chat with 6 agents.
+2025-05-15 20:20:34,887 - INFO - Q_num9 (Question ID 309) Iter0: Chat finished in 28.09 seconds.
+2025-05-15 20:20:34,887 - INFO - Q_num9 (Question ID 309) Iter1 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=5, Conf=No confidence found
+2025-05-15 20:20:34,887 - INFO - Q_num9 (Question ID 309) Iter1 Msg2 Agent agent_openai_gpt_4o_mini_0_1: Ans=6, Conf=No confidence found
+2025-05-15 20:20:34,887 - INFO - Q_num9 (Question ID 309) Iter1 Msg3 Agent agent_openai_gpt_4o_mini_0_2: Ans=6, Conf=No confidence found
+2025-05-15 20:20:34,887 - INFO - Q_num9 (Question ID 309) Iter1 Msg4 Agent agent_openai_gpt_4o_mini_0_3: Ans=5, Conf=No confidence found
+2025-05-15 20:20:34,888 - INFO - Q_num9 (Question ID 309) Iter1 Msg5 Agent agent_openai_gpt_4o_mini_0_4: Ans=6, Conf=No confidence found
+2025-05-15 20:20:34,888 - INFO - Q_num9 (Question ID 309) Iter1 Msg6 Agent agent_openai_gpt_4o_mini_0_5: Ans=6, Conf=No confidence found
+2025-05-15 20:20:34,888 - INFO - Q_num9 (Question ID 309) Iter1 Msg7 Agent agent_openai_gpt_4o_mini_0_0: Ans=6, Conf=No confidence found
+2025-05-15 20:20:34,888 - INFO - Q_num9 (Question ID 309) Iter1 Msg8 Agent agent_openai_gpt_4o_mini_0_1: Ans=6, Conf=No confidence found
+2025-05-15 20:20:34,888 - INFO - Q_num9 (Question ID 309) Iter1 Msg9 Agent agent_openai_gpt_4o_mini_0_2: Ans=6, Conf=No confidence found
+2025-05-15 20:20:34,888 - INFO - Q_num9 (Question ID 309) Iter1 Msg10 Agent agent_openai_gpt_4o_mini_0_3: Ans=6, Conf=No confidence found
+2025-05-15 20:20:34,888 - INFO - Q_num9 (Question ID 309) Iter1 Msg11 Agent agent_openai_gpt_4o_mini_0_4: Ans=6, Conf=No confidence found
+2025-05-15 20:20:34,888 - INFO - Q_num9 (Question ID 309) Iter1 Msg12 Agent agent_openai_gpt_4o_mini_0_5: Ans=6, Conf=No confidence found
+2025-05-15 20:20:34,888 - INFO - Q_num9 (Question ID 309) Iter1 Msg13 Agent agent_openai_gpt_4o_mini_0_0: Ans=6, Conf=No confidence found
+2025-05-15 20:20:34,888 - INFO - Q_num9 (Question ID 309) Iter1 Msg14 Agent agent_openai_gpt_4o_mini_0_1: Ans=6, Conf=No confidence found
+2025-05-15 20:20:34,888 - INFO - Q_num9 (Question ID 309) Iter1 Msg15 Agent agent_openai_gpt_4o_mini_0_2: Ans=6, Conf=No confidence found
+2025-05-15 20:20:34,888 - INFO - Q_num9 (Question ID 309) Iter1 Msg16 Agent agent_openai_gpt_4o_mini_0_3: Ans=6, Conf=No confidence found
+2025-05-15 20:20:34,888 - INFO - Q_num9 (Question ID 309) Iter1 Msg17 Agent agent_openai_gpt_4o_mini_0_4: Ans=6, Conf=No confidence found
+2025-05-15 20:20:34,888 - INFO - Q_num9 (Question ID 309) Iter1 Msg18 Agent agent_openai_gpt_4o_mini_0_5: Ans=6, Conf=No confidence found
+2025-05-15 20:20:34,889 - INFO - Q_num9 (Question ID 309) Iter1 Msg19 Agent agent_openai_gpt_4o_mini_0_0: Ans=6, Conf=No confidence found
+2025-05-15 20:20:34,889 - INFO - Q_num9 (Question ID 309) Iter1 Msg20 Agent agent_openai_gpt_4o_mini_0_1: Ans=6, Conf=No confidence found
+2025-05-15 20:20:34,889 - INFO - Q_num9 (Question ID 309) Iter1 Msg21 Agent agent_openai_gpt_4o_mini_0_2: Ans=6, Conf=No confidence found
+2025-05-15 20:20:34,889 - INFO - Q_num9 (Question ID 309) Iter1 Msg22 Agent agent_openai_gpt_4o_mini_0_3: Ans=6, Conf=No confidence found
+2025-05-15 20:20:34,889 - INFO - Q_num9 (Question ID 309) Iter1 Msg23 Agent agent_openai_gpt_4o_mini_0_4: Ans=6, Conf=No confidence found
+2025-05-15 20:20:34,889 - INFO - Q_num9 (Question ID 309) Iter1 Msg24 Agent agent_openai_gpt_4o_mini_0_5: Ans=6, Conf=No confidence found
+2025-05-15 20:20:34,975 - INFO - --- Finished Q_num9 (ID 309) Iter1. Results saved. ---
+2025-05-15 20:20:35,046 - INFO - --- Running Q_num9 (ID 309) Iter2/5 ---
+2025-05-15 20:20:35,046 - INFO - Task: It is morally permissible to keep money that one doesn't really need even if one can donate it to ca...
+2025-05-15 20:20:35,271 - INFO - Q_num9 (Question ID 309) Iter1: Starting chat with 6 agents.
+2025-05-15 20:21:09,066 - INFO - Q_num9 (Question ID 309) Iter1: Chat finished in 33.80 seconds.
+2025-05-15 20:21:09,066 - INFO - Q_num9 (Question ID 309) Iter2 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=4, Conf=No confidence found
+2025-05-15 20:21:09,066 - INFO - Q_num9 (Question ID 309) Iter2 Msg2 Agent agent_openai_gpt_4o_mini_0_1: Ans=4, Conf=No confidence found
+2025-05-15 20:21:09,066 - INFO - Q_num9 (Question ID 309) Iter2 Msg3 Agent agent_openai_gpt_4o_mini_0_2: Ans=3, Conf=No confidence found
+2025-05-15 20:21:09,067 - INFO - Q_num9 (Question ID 309) Iter2 Msg4 Agent agent_openai_gpt_4o_mini_0_3: Ans=3, Conf=No confidence found
+2025-05-15 20:21:09,067 - INFO - Q_num9 (Question ID 309) Iter2 Msg5 Agent agent_openai_gpt_4o_mini_0_4: Ans=3, Conf=No confidence found
+2025-05-15 20:21:09,067 - INFO - Q_num9 (Question ID 309) Iter2 Msg6 Agent agent_openai_gpt_4o_mini_0_5: Ans=3, Conf=No confidence found
+2025-05-15 20:21:09,067 - INFO - Q_num9 (Question ID 309) Iter2 Msg7 Agent agent_openai_gpt_4o_mini_0_0: Ans=3, Conf=No confidence found
+2025-05-15 20:21:09,067 - INFO - Q_num9 (Question ID 309) Iter2 Msg8 Agent agent_openai_gpt_4o_mini_0_1: Ans=3, Conf=No confidence found
+2025-05-15 20:21:09,067 - INFO - Q_num9 (Question ID 309) Iter2 Msg9 Agent agent_openai_gpt_4o_mini_0_2: Ans=3, Conf=No confidence found
+2025-05-15 20:21:09,067 - INFO - Q_num9 (Question ID 309) Iter2 Msg10 Agent agent_openai_gpt_4o_mini_0_3: Ans=3, Conf=No confidence found
+2025-05-15 20:21:09,067 - INFO - Q_num9 (Question ID 309) Iter2 Msg11 Agent agent_openai_gpt_4o_mini_0_4: Ans=3, Conf=No confidence found
+2025-05-15 20:21:09,067 - INFO - Q_num9 (Question ID 309) Iter2 Msg12 Agent agent_openai_gpt_4o_mini_0_5: Ans=3, Conf=No confidence found
+2025-05-15 20:21:09,067 - INFO - Q_num9 (Question ID 309) Iter2 Msg13 Agent agent_openai_gpt_4o_mini_0_0: Ans=3, Conf=No confidence found
+2025-05-15 20:21:09,067 - INFO - Q_num9 (Question ID 309) Iter2 Msg14 Agent agent_openai_gpt_4o_mini_0_1: Ans=3, Conf=No confidence found
+2025-05-15 20:21:09,067 - INFO - Q_num9 (Question ID 309) Iter2 Msg15 Agent agent_openai_gpt_4o_mini_0_2: Ans=3, Conf=No confidence found
+2025-05-15 20:21:09,067 - INFO - Q_num9 (Question ID 309) Iter2 Msg16 Agent agent_openai_gpt_4o_mini_0_3: Ans=3, Conf=No confidence found
+2025-05-15 20:21:09,068 - INFO - Q_num9 (Question ID 309) Iter2 Msg17 Agent agent_openai_gpt_4o_mini_0_4: Ans=3, Conf=No confidence found
+2025-05-15 20:21:09,068 - INFO - Q_num9 (Question ID 309) Iter2 Msg18 Agent agent_openai_gpt_4o_mini_0_5: Ans=3, Conf=No confidence found
+2025-05-15 20:21:09,068 - INFO - Q_num9 (Question ID 309) Iter2 Msg19 Agent agent_openai_gpt_4o_mini_0_0: Ans=3, Conf=No confidence found
+2025-05-15 20:21:09,068 - INFO - Q_num9 (Question ID 309) Iter2 Msg20 Agent agent_openai_gpt_4o_mini_0_1: Ans=3, Conf=No confidence found
+2025-05-15 20:21:09,068 - INFO - Q_num9 (Question ID 309) Iter2 Msg21 Agent agent_openai_gpt_4o_mini_0_2: Ans=3, Conf=No confidence found
+2025-05-15 20:21:09,068 - INFO - Q_num9 (Question ID 309) Iter2 Msg22 Agent agent_openai_gpt_4o_mini_0_3: Ans=3, Conf=No confidence found
+2025-05-15 20:21:09,068 - INFO - Q_num9 (Question ID 309) Iter2 Msg23 Agent agent_openai_gpt_4o_mini_0_4: Ans=3, Conf=No confidence found
+2025-05-15 20:21:09,068 - INFO - Q_num9 (Question ID 309) Iter2 Msg24 Agent agent_openai_gpt_4o_mini_0_5: Ans=3, Conf=No confidence found
+2025-05-15 20:21:09,153 - INFO - --- Finished Q_num9 (ID 309) Iter2. Results saved. ---
+2025-05-15 20:21:09,224 - INFO - --- Running Q_num9 (ID 309) Iter3/5 ---
+2025-05-15 20:21:09,224 - INFO - Task: It is morally permissible to keep money that one doesn't really need even if one can donate it to ca...
+2025-05-15 20:21:09,444 - INFO - Q_num9 (Question ID 309) Iter2: Starting chat with 6 agents.
+2025-05-15 20:21:37,986 - INFO - Q_num9 (Question ID 309) Iter2: Chat finished in 28.54 seconds.
+2025-05-15 20:21:37,986 - INFO - Q_num9 (Question ID 309) Iter3 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=6, Conf=No confidence found
+2025-05-15 20:21:37,987 - INFO - Q_num9 (Question ID 309) Iter3 Msg2 Agent agent_openai_gpt_4o_mini_0_1: Ans=5, Conf=No confidence found
+2025-05-15 20:21:37,987 - INFO - Q_num9 (Question ID 309) Iter3 Msg3 Agent agent_openai_gpt_4o_mini_0_2: Ans=5, Conf=No confidence found
+2025-05-15 20:21:37,987 - INFO - Q_num9 (Question ID 309) Iter3 Msg4 Agent agent_openai_gpt_4o_mini_0_3: Ans=5, Conf=No confidence found
+2025-05-15 20:21:37,987 - INFO - Q_num9 (Question ID 309) Iter3 Msg5 Agent agent_openai_gpt_4o_mini_0_4: Ans=5, Conf=No confidence found
+2025-05-15 20:21:37,987 - INFO - Q_num9 (Question ID 309) Iter3 Msg6 Agent agent_openai_gpt_4o_mini_0_5: Ans=5, Conf=No confidence found
+2025-05-15 20:21:37,987 - INFO - Q_num9 (Question ID 309) Iter3 Msg7 Agent agent_openai_gpt_4o_mini_0_0: Ans=5, Conf=No confidence found
+2025-05-15 20:21:37,987 - INFO - Q_num9 (Question ID 309) Iter3 Msg8 Agent agent_openai_gpt_4o_mini_0_1: Ans=5, Conf=No confidence found
+2025-05-15 20:21:37,987 - INFO - Q_num9 (Question ID 309) Iter3 Msg9 Agent agent_openai_gpt_4o_mini_0_2: Ans=5, Conf=No confidence found
+2025-05-15 20:21:37,987 - INFO - Q_num9 (Question ID 309) Iter3 Msg10 Agent agent_openai_gpt_4o_mini_0_3: Ans=5, Conf=No confidence found
+2025-05-15 20:21:37,987 - INFO - Q_num9 (Question ID 309) Iter3 Msg11 Agent agent_openai_gpt_4o_mini_0_4: Ans=5, Conf=No confidence found
+2025-05-15 20:21:37,987 - INFO - Q_num9 (Question ID 309) Iter3 Msg12 Agent agent_openai_gpt_4o_mini_0_5: Ans=5, Conf=No confidence found
+2025-05-15 20:21:37,987 - INFO - Q_num9 (Question ID 309) Iter3 Msg13 Agent agent_openai_gpt_4o_mini_0_0: Ans=5, Conf=No confidence found
+2025-05-15 20:21:37,987 - INFO - Q_num9 (Question ID 309) Iter3 Msg14 Agent agent_openai_gpt_4o_mini_0_1: Ans=5, Conf=No confidence found
+2025-05-15 20:21:37,987 - INFO - Q_num9 (Question ID 309) Iter3 Msg15 Agent agent_openai_gpt_4o_mini_0_2: Ans=5, Conf=No confidence found
+2025-05-15 20:21:37,988 - INFO - Q_num9 (Question ID 309) Iter3 Msg16 Agent agent_openai_gpt_4o_mini_0_3: Ans=5, Conf=No confidence found
+2025-05-15 20:21:37,988 - INFO - Q_num9 (Question ID 309) Iter3 Msg17 Agent agent_openai_gpt_4o_mini_0_4: Ans=5, Conf=No confidence found
+2025-05-15 20:21:37,988 - INFO - Q_num9 (Question ID 309) Iter3 Msg18 Agent agent_openai_gpt_4o_mini_0_5: Ans=5, Conf=No confidence found
+2025-05-15 20:21:37,988 - INFO - Q_num9 (Question ID 309) Iter3 Msg19 Agent agent_openai_gpt_4o_mini_0_0: Ans=5, Conf=No confidence found
+2025-05-15 20:21:37,988 - INFO - Q_num9 (Question ID 309) Iter3 Msg20 Agent agent_openai_gpt_4o_mini_0_1: Ans=5, Conf=No confidence found
+2025-05-15 20:21:37,988 - INFO - Q_num9 (Question ID 309) Iter3 Msg21 Agent agent_openai_gpt_4o_mini_0_2: Ans=5, Conf=No confidence found
+2025-05-15 20:21:37,988 - INFO - Q_num9 (Question ID 309) Iter3 Msg22 Agent agent_openai_gpt_4o_mini_0_3: Ans=5, Conf=No confidence found
+2025-05-15 20:21:37,988 - INFO - Q_num9 (Question ID 309) Iter3 Msg23 Agent agent_openai_gpt_4o_mini_0_4: Ans=5, Conf=No confidence found
+2025-05-15 20:21:37,988 - INFO - Q_num9 (Question ID 309) Iter3 Msg24 Agent agent_openai_gpt_4o_mini_0_5: Ans=5, Conf=No confidence found
+2025-05-15 20:21:38,075 - INFO - --- Finished Q_num9 (ID 309) Iter3. Results saved. ---
+2025-05-15 20:21:38,145 - INFO - --- Running Q_num9 (ID 309) Iter4/5 ---
+2025-05-15 20:21:38,145 - INFO - Task: It is morally permissible to keep money that one doesn't really need even if one can donate it to ca...
+2025-05-15 20:21:38,365 - INFO - Q_num9 (Question ID 309) Iter3: Starting chat with 6 agents.
+2025-05-15 20:22:07,044 - INFO - Q_num9 (Question ID 309) Iter3: Chat finished in 28.68 seconds.
+2025-05-15 20:22:07,045 - INFO - Q_num9 (Question ID 309) Iter4 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=5, Conf=No confidence found
+2025-05-15 20:22:07,045 - INFO - Q_num9 (Question ID 309) Iter4 Msg2 Agent agent_openai_gpt_4o_mini_0_1: Ans=4, Conf=No confidence found
+2025-05-15 20:22:07,045 - INFO - Q_num9 (Question ID 309) Iter4 Msg3 Agent agent_openai_gpt_4o_mini_0_2: Ans=5, Conf=No confidence found
+2025-05-15 20:22:07,045 - INFO - Q_num9 (Question ID 309) Iter4 Msg4 Agent agent_openai_gpt_4o_mini_0_3: Ans=4, Conf=No confidence found
+2025-05-15 20:22:07,045 - INFO - Q_num9 (Question ID 309) Iter4 Msg5 Agent agent_openai_gpt_4o_mini_0_4: Ans=4, Conf=No confidence found
+2025-05-15 20:22:07,045 - INFO - Q_num9 (Question ID 309) Iter4 Msg6 Agent agent_openai_gpt_4o_mini_0_5: Ans=4, Conf=No confidence found
+2025-05-15 20:22:07,045 - INFO - Q_num9 (Question ID 309) Iter4 Msg7 Agent agent_openai_gpt_4o_mini_0_0: Ans=4, Conf=No confidence found
+2025-05-15 20:22:07,045 - INFO - Q_num9 (Question ID 309) Iter4 Msg8 Agent agent_openai_gpt_4o_mini_0_1: Ans=4, Conf=No confidence found
+2025-05-15 20:22:07,046 - INFO - Q_num9 (Question ID 309) Iter4 Msg9 Agent agent_openai_gpt_4o_mini_0_2: Ans=4, Conf=No confidence found
+2025-05-15 20:22:07,046 - INFO - Q_num9 (Question ID 309) Iter4 Msg10 Agent agent_openai_gpt_4o_mini_0_3: Ans=4, Conf=No confidence found
+2025-05-15 20:22:07,046 - INFO - Q_num9 (Question ID 309) Iter4 Msg11 Agent agent_openai_gpt_4o_mini_0_4: Ans=4, Conf=No confidence found
+2025-05-15 20:22:07,046 - INFO - Q_num9 (Question ID 309) Iter4 Msg12 Agent agent_openai_gpt_4o_mini_0_5: Ans=4, Conf=No confidence found
+2025-05-15 20:22:07,046 - INFO - Q_num9 (Question ID 309) Iter4 Msg13 Agent agent_openai_gpt_4o_mini_0_0: Ans=4, Conf=No confidence found
+2025-05-15 20:22:07,046 - INFO - Q_num9 (Question ID 309) Iter4 Msg14 Agent agent_openai_gpt_4o_mini_0_1: Ans=4, Conf=No confidence found
+2025-05-15 20:22:07,046 - INFO - Q_num9 (Question ID 309) Iter4 Msg15 Agent agent_openai_gpt_4o_mini_0_2: Ans=4, Conf=No confidence found
+2025-05-15 20:22:07,046 - INFO - Q_num9 (Question ID 309) Iter4 Msg16 Agent agent_openai_gpt_4o_mini_0_3: Ans=4, Conf=No confidence found
+2025-05-15 20:22:07,046 - INFO - Q_num9 (Question ID 309) Iter4 Msg17 Agent agent_openai_gpt_4o_mini_0_4: Ans=4, Conf=No confidence found
+2025-05-15 20:22:07,046 - INFO - Q_num9 (Question ID 309) Iter4 Msg18 Agent agent_openai_gpt_4o_mini_0_5: Ans=4, Conf=No confidence found
+2025-05-15 20:22:07,046 - INFO - Q_num9 (Question ID 309) Iter4 Msg19 Agent agent_openai_gpt_4o_mini_0_0: Ans=4, Conf=No confidence found
+2025-05-15 20:22:07,046 - INFO - Q_num9 (Question ID 309) Iter4 Msg20 Agent agent_openai_gpt_4o_mini_0_1: Ans=4, Conf=No confidence found
+2025-05-15 20:22:07,046 - INFO - Q_num9 (Question ID 309) Iter4 Msg21 Agent agent_openai_gpt_4o_mini_0_2: Ans=4, Conf=No confidence found
+2025-05-15 20:22:07,046 - INFO - Q_num9 (Question ID 309) Iter4 Msg22 Agent agent_openai_gpt_4o_mini_0_3: Ans=4, Conf=No confidence found
+2025-05-15 20:22:07,047 - INFO - Q_num9 (Question ID 309) Iter4 Msg23 Agent agent_openai_gpt_4o_mini_0_4: Ans=4, Conf=No confidence found
+2025-05-15 20:22:07,047 - INFO - Q_num9 (Question ID 309) Iter4 Msg24 Agent agent_openai_gpt_4o_mini_0_5: Ans=4, Conf=No confidence found
+2025-05-15 20:22:07,133 - INFO - --- Finished Q_num9 (ID 309) Iter4. Results saved. ---
+2025-05-15 20:22:07,204 - INFO - --- Running Q_num9 (ID 309) Iter5/5 ---
+2025-05-15 20:22:07,205 - INFO - Task: It is morally permissible to keep money that one doesn't really need even if one can donate it to ca...
+2025-05-15 20:22:07,425 - INFO - Q_num9 (Question ID 309) Iter4: Starting chat with 6 agents.
+2025-05-15 20:22:36,895 - INFO - Q_num9 (Question ID 309) Iter4: Chat finished in 29.47 seconds.
+2025-05-15 20:22:36,895 - INFO - Q_num9 (Question ID 309) Iter5 Msg1 Agent agent_openai_gpt_4o_mini_0_0: Ans=6, Conf=No confidence found
+2025-05-15 20:22:36,895 - INFO - Q_num9 (Question ID 309) Iter5 Msg2 Agent agent_openai_gpt_4o_mini_0_1: Ans=6, Conf=No confidence found
+2025-05-15 20:22:36,895 - INFO - Q_num9 (Question ID 309) Iter5 Msg3 Agent agent_openai_gpt_4o_mini_0_2: Ans=6, Conf=No confidence found
+2025-05-15 20:22:36,895 - INFO - Q_num9 (Question ID 309) Iter5 Msg4 Agent agent_openai_gpt_4o_mini_0_3: Ans=6, Conf=No confidence found
+2025-05-15 20:22:36,895 - INFO - Q_num9 (Question ID 309) Iter5 Msg5 Agent agent_openai_gpt_4o_mini_0_4: Ans=6, Conf=No confidence found
+2025-05-15 20:22:36,896 - INFO - Q_num9 (Question ID 309) Iter5 Msg6 Agent agent_openai_gpt_4o_mini_0_5: Ans=6, Conf=No confidence found
+2025-05-15 20:22:36,896 - INFO - Q_num9 (Question ID 309) Iter5 Msg7 Agent agent_openai_gpt_4o_mini_0_0: Ans=6, Conf=No confidence found
+2025-05-15 20:22:36,896 - INFO - Q_num9 (Question ID 309) Iter5 Msg8 Agent agent_openai_gpt_4o_mini_0_1: Ans=6, Conf=No confidence found
+2025-05-15 20:22:36,896 - INFO - Q_num9 (Question ID 309) Iter5 Msg9 Agent agent_openai_gpt_4o_mini_0_2: Ans=6, Conf=No confidence found
+2025-05-15 20:22:36,896 - INFO - Q_num9 (Question ID 309) Iter5 Msg10 Agent agent_openai_gpt_4o_mini_0_3: Ans=6, Conf=No confidence found
+2025-05-15 20:22:36,896 - INFO - Q_num9 (Question ID 309) Iter5 Msg11 Agent agent_openai_gpt_4o_mini_0_4: Ans=6, Conf=No confidence found
+2025-05-15 20:22:36,896 - INFO - Q_num9 (Question ID 309) Iter5 Msg12 Agent agent_openai_gpt_4o_mini_0_5: Ans=6, Conf=No confidence found
+2025-05-15 20:22:36,896 - INFO - Q_num9 (Question ID 309) Iter5 Msg13 Agent agent_openai_gpt_4o_mini_0_0: Ans=6, Conf=No confidence found
+2025-05-15 20:22:36,896 - INFO - Q_num9 (Question ID 309) Iter5 Msg14 Agent agent_openai_gpt_4o_mini_0_1: Ans=6, Conf=No confidence found
+2025-05-15 20:22:36,896 - INFO - Q_num9 (Question ID 309) Iter5 Msg15 Agent agent_openai_gpt_4o_mini_0_2: Ans=6, Conf=No confidence found
+2025-05-15 20:22:36,896 - INFO - Q_num9 (Question ID 309) Iter5 Msg16 Agent agent_openai_gpt_4o_mini_0_3: Ans=6, Conf=No confidence found
+2025-05-15 20:22:36,896 - INFO - Q_num9 (Question ID 309) Iter5 Msg17 Agent agent_openai_gpt_4o_mini_0_4: Ans=6, Conf=No confidence found
+2025-05-15 20:22:36,896 - INFO - Q_num9 (Question ID 309) Iter5 Msg18 Agent agent_openai_gpt_4o_mini_0_5: Ans=6, Conf=No confidence found
+2025-05-15 20:22:36,896 - INFO - Q_num9 (Question ID 309) Iter5 Msg19 Agent agent_openai_gpt_4o_mini_0_0: Ans=6, Conf=No confidence found
+2025-05-15 20:22:36,896 - INFO - Q_num9 (Question ID 309) Iter5 Msg20 Agent agent_openai_gpt_4o_mini_0_1: Ans=6, Conf=No confidence found
+2025-05-15 20:22:36,897 - INFO - Q_num9 (Question ID 309) Iter5 Msg21 Agent agent_openai_gpt_4o_mini_0_2: Ans=6, Conf=No confidence found
+2025-05-15 20:22:36,897 - INFO - Q_num9 (Question ID 309) Iter5 Msg22 Agent agent_openai_gpt_4o_mini_0_3: Ans=6, Conf=No confidence found
+2025-05-15 20:22:36,897 - INFO - Q_num9 (Question ID 309) Iter5 Msg23 Agent agent_openai_gpt_4o_mini_0_4: Ans=6, Conf=No confidence found
+2025-05-15 20:22:36,897 - INFO - Q_num9 (Question ID 309) Iter5 Msg24 Agent agent_openai_gpt_4o_mini_0_5: Ans=6, Conf=No confidence found
+2025-05-15 20:22:36,979 - INFO - --- Finished Q_num9 (ID 309) Iter5. Results saved. ---
+2025-05-15 20:22:37,050 - INFO - --- Run Finished --- CONFIG HASH: 8d8f7afd ---

@@ -1,0 +1,1307 @@
+2025-05-15 22:21:31,112 - INFO - --- Starting New Run --- CONFIG HASH: 7965249f --- Chat Type: ous_gemini_ring ---
+2025-05-15 22:21:31,114 - INFO - --- Running Q_num1 (ID 205) Iter1/5 ---
+2025-05-15 22:21:31,114 - INFO - Task: If the only way to save another person’s life during an emergency is to sacrifice one’s own leg, the...
+2025-05-15 22:21:31,338 - INFO - Q_num1 (Question ID 205) Iter0: Starting chat with 6 agents.
+2025-05-15 22:21:45,075 - INFO - Q_num1 (Question ID 205) Iter0: Chat finished in 13.74 seconds.
+2025-05-15 22:21:45,075 - INFO - Q_num1 (Question ID 205) Iter1 Msg1 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={7}, Conf=No confidence found
+2025-05-15 22:21:45,075 - INFO - Q_num1 (Question ID 205) Iter1 Msg2 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:21:45,075 - INFO - Q_num1 (Question ID 205) Iter1 Msg3 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:21:45,075 - INFO - Q_num1 (Question ID 205) Iter1 Msg4 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:21:45,075 - INFO - Q_num1 (Question ID 205) Iter1 Msg5 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:21:45,075 - INFO - Q_num1 (Question ID 205) Iter1 Msg6 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:21:45,075 - INFO - Q_num1 (Question ID 205) Iter1 Msg7 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:21:45,075 - INFO - Q_num1 (Question ID 205) Iter1 Msg8 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:21:45,075 - INFO - Q_num1 (Question ID 205) Iter1 Msg9 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:21:45,075 - INFO - Q_num1 (Question ID 205) Iter1 Msg10 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={7}, Conf=No confidence found
+2025-05-15 22:21:45,076 - INFO - Q_num1 (Question ID 205) Iter1 Msg11 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={7}, Conf=No confidence found
+2025-05-15 22:21:45,076 - INFO - Q_num1 (Question ID 205) Iter1 Msg12 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={7}, Conf=No confidence found
+2025-05-15 22:21:45,076 - INFO - Q_num1 (Question ID 205) Iter1 Msg13 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={7}, Conf=No confidence found
+2025-05-15 22:21:45,076 - INFO - Q_num1 (Question ID 205) Iter1 Msg14 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={7}, Conf=No confidence found
+2025-05-15 22:21:45,076 - INFO - Q_num1 (Question ID 205) Iter1 Msg15 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={7}, Conf=No confidence found
+2025-05-15 22:21:45,076 - INFO - Q_num1 (Question ID 205) Iter1 Msg16 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={7}, Conf=No confidence found
+2025-05-15 22:21:45,076 - INFO - Q_num1 (Question ID 205) Iter1 Msg17 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={7}, Conf=No confidence found
+2025-05-15 22:21:45,076 - INFO - Q_num1 (Question ID 205) Iter1 Msg18 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={7}, Conf=No confidence found
+2025-05-15 22:21:45,076 - INFO - Q_num1 (Question ID 205) Iter1 Msg19 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={7}, Conf=No confidence found
+2025-05-15 22:21:45,076 - INFO - Q_num1 (Question ID 205) Iter1 Msg20 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={7}, Conf=No confidence found
+2025-05-15 22:21:45,076 - INFO - Q_num1 (Question ID 205) Iter1 Msg21 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={7}, Conf=No confidence found
+2025-05-15 22:21:45,076 - INFO - Q_num1 (Question ID 205) Iter1 Msg22 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={7}, Conf=No confidence found
+2025-05-15 22:21:45,076 - INFO - Q_num1 (Question ID 205) Iter1 Msg23 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={7}, Conf=No confidence found
+2025-05-15 22:21:45,076 - INFO - Q_num1 (Question ID 205) Iter1 Msg24 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={7}, Conf=No confidence found
+2025-05-15 22:21:45,166 - INFO - --- Finished Q_num1 (ID 205) Iter1. Results saved. ---
+2025-05-15 22:21:45,239 - INFO - --- Running Q_num1 (ID 205) Iter2/5 ---
+2025-05-15 22:21:45,240 - INFO - Task: If the only way to save another person’s life during an emergency is to sacrifice one’s own leg, the...
+2025-05-15 22:21:45,461 - INFO - Q_num1 (Question ID 205) Iter1: Starting chat with 6 agents.
+2025-05-15 22:21:55,828 - INFO - Q_num1 (Question ID 205) Iter1: Chat finished in 10.37 seconds.
+2025-05-15 22:21:55,829 - INFO - Q_num1 (Question ID 205) Iter2 Msg1 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={7}, Conf=No confidence found
+2025-05-15 22:21:55,829 - INFO - Q_num1 (Question ID 205) Iter2 Msg2 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:21:55,829 - INFO - Q_num1 (Question ID 205) Iter2 Msg3 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:21:55,829 - INFO - Q_num1 (Question ID 205) Iter2 Msg4 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:21:55,829 - INFO - Q_num1 (Question ID 205) Iter2 Msg5 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:21:55,829 - INFO - Q_num1 (Question ID 205) Iter2 Msg6 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:21:55,829 - INFO - Q_num1 (Question ID 205) Iter2 Msg7 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:21:55,829 - INFO - Q_num1 (Question ID 205) Iter2 Msg8 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:21:55,829 - INFO - Q_num1 (Question ID 205) Iter2 Msg9 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:21:55,829 - INFO - Q_num1 (Question ID 205) Iter2 Msg10 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:21:55,829 - INFO - Q_num1 (Question ID 205) Iter2 Msg11 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:21:55,829 - INFO - Q_num1 (Question ID 205) Iter2 Msg12 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:21:55,829 - INFO - Q_num1 (Question ID 205) Iter2 Msg13 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:21:55,830 - INFO - Q_num1 (Question ID 205) Iter2 Msg14 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:21:55,830 - INFO - Q_num1 (Question ID 205) Iter2 Msg15 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:21:55,830 - INFO - Q_num1 (Question ID 205) Iter2 Msg16 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:21:55,830 - INFO - Q_num1 (Question ID 205) Iter2 Msg17 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:21:55,830 - INFO - Q_num1 (Question ID 205) Iter2 Msg18 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:21:55,830 - INFO - Q_num1 (Question ID 205) Iter2 Msg19 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:21:55,830 - INFO - Q_num1 (Question ID 205) Iter2 Msg20 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:21:55,830 - INFO - Q_num1 (Question ID 205) Iter2 Msg21 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:21:55,830 - INFO - Q_num1 (Question ID 205) Iter2 Msg22 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:21:55,830 - INFO - Q_num1 (Question ID 205) Iter2 Msg23 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:21:55,830 - INFO - Q_num1 (Question ID 205) Iter2 Msg24 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:21:55,915 - INFO - --- Finished Q_num1 (ID 205) Iter2. Results saved. ---
+2025-05-15 22:21:55,987 - INFO - --- Running Q_num1 (ID 205) Iter3/5 ---
+2025-05-15 22:21:55,987 - INFO - Task: If the only way to save another person’s life during an emergency is to sacrifice one’s own leg, the...
+2025-05-15 22:21:56,206 - INFO - Q_num1 (Question ID 205) Iter2: Starting chat with 6 agents.
+2025-05-15 22:22:07,394 - INFO - Q_num1 (Question ID 205) Iter2: Chat finished in 11.19 seconds.
+2025-05-15 22:22:07,394 - INFO - Q_num1 (Question ID 205) Iter3 Msg1 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={7}, Conf=No confidence found
+2025-05-15 22:22:07,394 - INFO - Q_num1 (Question ID 205) Iter3 Msg2 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:07,394 - INFO - Q_num1 (Question ID 205) Iter3 Msg3 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:07,394 - INFO - Q_num1 (Question ID 205) Iter3 Msg4 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:07,394 - INFO - Q_num1 (Question ID 205) Iter3 Msg5 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:07,394 - INFO - Q_num1 (Question ID 205) Iter3 Msg6 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:07,395 - INFO - Q_num1 (Question ID 205) Iter3 Msg7 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:07,395 - INFO - Q_num1 (Question ID 205) Iter3 Msg8 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:07,395 - INFO - Q_num1 (Question ID 205) Iter3 Msg9 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:07,395 - INFO - Q_num1 (Question ID 205) Iter3 Msg10 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:07,395 - INFO - Q_num1 (Question ID 205) Iter3 Msg11 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:07,395 - INFO - Q_num1 (Question ID 205) Iter3 Msg12 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:07,395 - INFO - Q_num1 (Question ID 205) Iter3 Msg13 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:07,395 - INFO - Q_num1 (Question ID 205) Iter3 Msg14 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:07,395 - INFO - Q_num1 (Question ID 205) Iter3 Msg15 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:07,395 - INFO - Q_num1 (Question ID 205) Iter3 Msg16 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:07,395 - INFO - Q_num1 (Question ID 205) Iter3 Msg17 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:07,395 - INFO - Q_num1 (Question ID 205) Iter3 Msg18 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:07,395 - INFO - Q_num1 (Question ID 205) Iter3 Msg19 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:07,395 - INFO - Q_num1 (Question ID 205) Iter3 Msg20 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:07,396 - INFO - Q_num1 (Question ID 205) Iter3 Msg21 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:07,396 - INFO - Q_num1 (Question ID 205) Iter3 Msg22 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:07,396 - INFO - Q_num1 (Question ID 205) Iter3 Msg23 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:07,396 - INFO - Q_num1 (Question ID 205) Iter3 Msg24 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:07,485 - INFO - --- Finished Q_num1 (ID 205) Iter3. Results saved. ---
+2025-05-15 22:22:07,560 - INFO - --- Running Q_num1 (ID 205) Iter4/5 ---
+2025-05-15 22:22:07,560 - INFO - Task: If the only way to save another person’s life during an emergency is to sacrifice one’s own leg, the...
+2025-05-15 22:22:07,781 - INFO - Q_num1 (Question ID 205) Iter3: Starting chat with 6 agents.
+2025-05-15 22:22:18,255 - INFO - Q_num1 (Question ID 205) Iter3: Chat finished in 10.47 seconds.
+2025-05-15 22:22:18,255 - INFO - Q_num1 (Question ID 205) Iter4 Msg1 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=7, Conf=No confidence found
+2025-05-15 22:22:18,255 - INFO - Q_num1 (Question ID 205) Iter4 Msg2 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:18,255 - INFO - Q_num1 (Question ID 205) Iter4 Msg3 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:18,255 - INFO - Q_num1 (Question ID 205) Iter4 Msg4 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:18,255 - INFO - Q_num1 (Question ID 205) Iter4 Msg5 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:18,255 - INFO - Q_num1 (Question ID 205) Iter4 Msg6 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:18,255 - INFO - Q_num1 (Question ID 205) Iter4 Msg7 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:18,256 - INFO - Q_num1 (Question ID 205) Iter4 Msg8 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:18,256 - INFO - Q_num1 (Question ID 205) Iter4 Msg9 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:18,256 - INFO - Q_num1 (Question ID 205) Iter4 Msg10 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:18,256 - INFO - Q_num1 (Question ID 205) Iter4 Msg11 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:18,256 - INFO - Q_num1 (Question ID 205) Iter4 Msg12 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:18,256 - INFO - Q_num1 (Question ID 205) Iter4 Msg13 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:18,256 - INFO - Q_num1 (Question ID 205) Iter4 Msg14 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:18,256 - INFO - Q_num1 (Question ID 205) Iter4 Msg15 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:18,256 - INFO - Q_num1 (Question ID 205) Iter4 Msg16 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:18,256 - INFO - Q_num1 (Question ID 205) Iter4 Msg17 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:18,256 - INFO - Q_num1 (Question ID 205) Iter4 Msg18 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:18,256 - INFO - Q_num1 (Question ID 205) Iter4 Msg19 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:18,256 - INFO - Q_num1 (Question ID 205) Iter4 Msg20 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:18,256 - INFO - Q_num1 (Question ID 205) Iter4 Msg21 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:18,257 - INFO - Q_num1 (Question ID 205) Iter4 Msg22 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:18,257 - INFO - Q_num1 (Question ID 205) Iter4 Msg23 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:18,257 - INFO - Q_num1 (Question ID 205) Iter4 Msg24 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:18,341 - INFO - --- Finished Q_num1 (ID 205) Iter4. Results saved. ---
+2025-05-15 22:22:18,428 - INFO - --- Running Q_num1 (ID 205) Iter5/5 ---
+2025-05-15 22:22:18,428 - INFO - Task: If the only way to save another person’s life during an emergency is to sacrifice one’s own leg, the...
+2025-05-15 22:22:18,649 - INFO - Q_num1 (Question ID 205) Iter4: Starting chat with 6 agents.
+2025-05-15 22:22:32,560 - INFO - Q_num1 (Question ID 205) Iter4: Chat finished in 13.91 seconds.
+2025-05-15 22:22:32,560 - INFO - Q_num1 (Question ID 205) Iter5 Msg1 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={7}, Conf=No confidence found
+2025-05-15 22:22:32,560 - INFO - Q_num1 (Question ID 205) Iter5 Msg2 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:32,560 - INFO - Q_num1 (Question ID 205) Iter5 Msg3 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:32,560 - INFO - Q_num1 (Question ID 205) Iter5 Msg4 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:32,560 - INFO - Q_num1 (Question ID 205) Iter5 Msg5 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:32,560 - INFO - Q_num1 (Question ID 205) Iter5 Msg6 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:32,560 - INFO - Q_num1 (Question ID 205) Iter5 Msg7 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:32,560 - INFO - Q_num1 (Question ID 205) Iter5 Msg8 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:32,561 - INFO - Q_num1 (Question ID 205) Iter5 Msg9 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:32,561 - INFO - Q_num1 (Question ID 205) Iter5 Msg10 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:32,561 - INFO - Q_num1 (Question ID 205) Iter5 Msg11 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={7}, Conf=No confidence found
+2025-05-15 22:22:32,561 - INFO - Q_num1 (Question ID 205) Iter5 Msg12 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={7}, Conf=No confidence found
+2025-05-15 22:22:32,561 - INFO - Q_num1 (Question ID 205) Iter5 Msg13 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={7}, Conf=No confidence found
+2025-05-15 22:22:32,561 - INFO - Q_num1 (Question ID 205) Iter5 Msg14 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={7}, Conf=No confidence found
+2025-05-15 22:22:32,561 - INFO - Q_num1 (Question ID 205) Iter5 Msg15 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={7}, Conf=No confidence found
+2025-05-15 22:22:32,561 - INFO - Q_num1 (Question ID 205) Iter5 Msg16 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={7}, Conf=No confidence found
+2025-05-15 22:22:32,561 - INFO - Q_num1 (Question ID 205) Iter5 Msg17 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={7}, Conf=No confidence found
+2025-05-15 22:22:32,561 - INFO - Q_num1 (Question ID 205) Iter5 Msg18 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={7}, Conf=No confidence found
+2025-05-15 22:22:32,561 - INFO - Q_num1 (Question ID 205) Iter5 Msg19 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={7}, Conf=No confidence found
+2025-05-15 22:22:32,561 - INFO - Q_num1 (Question ID 205) Iter5 Msg20 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={7}, Conf=No confidence found
+2025-05-15 22:22:32,561 - INFO - Q_num1 (Question ID 205) Iter5 Msg21 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={7}, Conf=No confidence found
+2025-05-15 22:22:32,561 - INFO - Q_num1 (Question ID 205) Iter5 Msg22 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={7}, Conf=No confidence found
+2025-05-15 22:22:32,562 - INFO - Q_num1 (Question ID 205) Iter5 Msg23 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={7}, Conf=No confidence found
+2025-05-15 22:22:32,562 - INFO - Q_num1 (Question ID 205) Iter5 Msg24 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={7}, Conf=No confidence found
+2025-05-15 22:22:32,648 - INFO - --- Finished Q_num1 (ID 205) Iter5. Results saved. ---
+2025-05-15 22:22:32,722 - INFO - --- Running Q_num2 (ID 201) Iter1/5 ---
+2025-05-15 22:22:32,722 - INFO - Task: It is morally right to harm an innocent person if harming them is a necessary means to helping sever...
+2025-05-15 22:22:32,942 - INFO - Q_num2 (Question ID 201) Iter0: Starting chat with 6 agents.
+2025-05-15 22:22:48,428 - INFO - Q_num2 (Question ID 201) Iter0: Chat finished in 15.49 seconds.
+2025-05-15 22:22:48,429 - INFO - Q_num2 (Question ID 201) Iter1 Msg1 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={2}, Conf=No confidence found
+2025-05-15 22:22:48,429 - INFO - Q_num2 (Question ID 201) Iter1 Msg2 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:48,429 - INFO - Q_num2 (Question ID 201) Iter1 Msg3 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:48,429 - INFO - Q_num2 (Question ID 201) Iter1 Msg4 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:48,429 - INFO - Q_num2 (Question ID 201) Iter1 Msg5 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:22:48,429 - INFO - Q_num2 (Question ID 201) Iter1 Msg6 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={2}, Conf=No confidence found
+2025-05-15 22:22:48,429 - INFO - Q_num2 (Question ID 201) Iter1 Msg7 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={2}, Conf=No confidence found
+2025-05-15 22:22:48,429 - INFO - Q_num2 (Question ID 201) Iter1 Msg8 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={2}, Conf=No confidence found
+2025-05-15 22:22:48,429 - INFO - Q_num2 (Question ID 201) Iter1 Msg9 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={2}, Conf=No confidence found
+2025-05-15 22:22:48,429 - INFO - Q_num2 (Question ID 201) Iter1 Msg10 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={2}, Conf=No confidence found
+2025-05-15 22:22:48,429 - INFO - Q_num2 (Question ID 201) Iter1 Msg11 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={2}, Conf=No confidence found
+2025-05-15 22:22:48,429 - INFO - Q_num2 (Question ID 201) Iter1 Msg12 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={2}, Conf=No confidence found
+2025-05-15 22:22:48,429 - INFO - Q_num2 (Question ID 201) Iter1 Msg13 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={2}, Conf=No confidence found
+2025-05-15 22:22:48,430 - INFO - Q_num2 (Question ID 201) Iter1 Msg14 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={2}, Conf=No confidence found
+2025-05-15 22:22:48,430 - INFO - Q_num2 (Question ID 201) Iter1 Msg15 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={2}, Conf=No confidence found
+2025-05-15 22:22:48,430 - INFO - Q_num2 (Question ID 201) Iter1 Msg16 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={2}, Conf=No confidence found
+2025-05-15 22:22:48,430 - INFO - Q_num2 (Question ID 201) Iter1 Msg17 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={2}, Conf=No confidence found
+2025-05-15 22:22:48,430 - INFO - Q_num2 (Question ID 201) Iter1 Msg18 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={2}, Conf=No confidence found
+2025-05-15 22:22:48,430 - INFO - Q_num2 (Question ID 201) Iter1 Msg19 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={2}, Conf=No confidence found
+2025-05-15 22:22:48,430 - INFO - Q_num2 (Question ID 201) Iter1 Msg20 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={2}, Conf=No confidence found
+2025-05-15 22:22:48,430 - INFO - Q_num2 (Question ID 201) Iter1 Msg21 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={2}, Conf=No confidence found
+2025-05-15 22:22:48,430 - INFO - Q_num2 (Question ID 201) Iter1 Msg22 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={2}, Conf=No confidence found
+2025-05-15 22:22:48,430 - INFO - Q_num2 (Question ID 201) Iter1 Msg23 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={2}, Conf=No confidence found
+2025-05-15 22:22:48,430 - INFO - Q_num2 (Question ID 201) Iter1 Msg24 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={2}, Conf=No confidence found
+2025-05-15 22:22:48,519 - INFO - --- Finished Q_num2 (ID 201) Iter1. Results saved. ---
+2025-05-15 22:22:48,592 - INFO - --- Running Q_num2 (ID 201) Iter2/5 ---
+2025-05-15 22:22:48,592 - INFO - Task: It is morally right to harm an innocent person if harming them is a necessary means to helping sever...
+2025-05-15 22:22:48,812 - INFO - Q_num2 (Question ID 201) Iter1: Starting chat with 6 agents.
+2025-05-15 22:23:03,314 - INFO - Q_num2 (Question ID 201) Iter1: Chat finished in 14.50 seconds.
+2025-05-15 22:23:03,315 - INFO - Q_num2 (Question ID 201) Iter2 Msg1 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={2}, Conf=No confidence found
+2025-05-15 22:23:03,315 - INFO - Q_num2 (Question ID 201) Iter2 Msg2 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:23:03,315 - INFO - Q_num2 (Question ID 201) Iter2 Msg3 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:23:03,315 - INFO - Q_num2 (Question ID 201) Iter2 Msg4 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:23:03,315 - INFO - Q_num2 (Question ID 201) Iter2 Msg5 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:23:03,315 - INFO - Q_num2 (Question ID 201) Iter2 Msg6 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:23:03,315 - INFO - Q_num2 (Question ID 201) Iter2 Msg7 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:23:03,315 - INFO - Q_num2 (Question ID 201) Iter2 Msg8 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={4}, Conf=No confidence found
+2025-05-15 22:23:03,315 - INFO - Q_num2 (Question ID 201) Iter2 Msg9 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={2}, Conf=No confidence found
+2025-05-15 22:23:03,315 - INFO - Q_num2 (Question ID 201) Iter2 Msg10 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={2}, Conf=No confidence found
+2025-05-15 22:23:03,315 - INFO - Q_num2 (Question ID 201) Iter2 Msg11 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={2}, Conf=No confidence found
+2025-05-15 22:23:03,315 - INFO - Q_num2 (Question ID 201) Iter2 Msg12 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={2}, Conf=No confidence found
+2025-05-15 22:23:03,315 - INFO - Q_num2 (Question ID 201) Iter2 Msg13 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={4}, Conf=No confidence found
+2025-05-15 22:23:03,315 - INFO - Q_num2 (Question ID 201) Iter2 Msg14 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={2}, Conf=No confidence found
+2025-05-15 22:23:03,316 - INFO - Q_num2 (Question ID 201) Iter2 Msg15 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={2}, Conf=No confidence found
+2025-05-15 22:23:03,316 - INFO - Q_num2 (Question ID 201) Iter2 Msg16 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={2}, Conf=No confidence found
+2025-05-15 22:23:03,316 - INFO - Q_num2 (Question ID 201) Iter2 Msg17 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={2}, Conf=No confidence found
+2025-05-15 22:23:03,316 - INFO - Q_num2 (Question ID 201) Iter2 Msg18 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={2}, Conf=No confidence found
+2025-05-15 22:23:03,316 - INFO - Q_num2 (Question ID 201) Iter2 Msg19 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={3}, Conf=No confidence found
+2025-05-15 22:23:03,316 - INFO - Q_num2 (Question ID 201) Iter2 Msg20 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={2}, Conf=No confidence found
+2025-05-15 22:23:03,316 - INFO - Q_num2 (Question ID 201) Iter2 Msg21 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={2}, Conf=No confidence found
+2025-05-15 22:23:03,316 - INFO - Q_num2 (Question ID 201) Iter2 Msg22 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={2}, Conf=No confidence found
+2025-05-15 22:23:03,316 - INFO - Q_num2 (Question ID 201) Iter2 Msg23 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={2}, Conf=No confidence found
+2025-05-15 22:23:03,316 - INFO - Q_num2 (Question ID 201) Iter2 Msg24 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={2}, Conf=No confidence found
+2025-05-15 22:23:03,404 - INFO - --- Finished Q_num2 (ID 201) Iter2. Results saved. ---
+2025-05-15 22:23:03,477 - INFO - --- Running Q_num2 (ID 201) Iter3/5 ---
+2025-05-15 22:23:03,478 - INFO - Task: It is morally right to harm an innocent person if harming them is a necessary means to helping sever...
+2025-05-15 22:23:03,701 - INFO - Q_num2 (Question ID 201) Iter2: Starting chat with 6 agents.
+2025-05-15 22:23:21,027 - INFO - Q_num2 (Question ID 201) Iter2: Chat finished in 17.33 seconds.
+2025-05-15 22:23:21,028 - INFO - Q_num2 (Question ID 201) Iter3 Msg1 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={2}, Conf=No confidence found
+2025-05-15 22:23:21,028 - INFO - Q_num2 (Question ID 201) Iter3 Msg2 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={5}, Conf=No confidence found
+2025-05-15 22:23:21,028 - INFO - Q_num2 (Question ID 201) Iter3 Msg3 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={5}, Conf=No confidence found
+2025-05-15 22:23:21,028 - INFO - Q_num2 (Question ID 201) Iter3 Msg4 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={2}, Conf=No confidence found
+2025-05-15 22:23:21,028 - INFO - Q_num2 (Question ID 201) Iter3 Msg5 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={2}, Conf=No confidence found
+2025-05-15 22:23:21,028 - INFO - Q_num2 (Question ID 201) Iter3 Msg6 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={2}, Conf=No confidence found
+2025-05-15 22:23:21,028 - INFO - Q_num2 (Question ID 201) Iter3 Msg7 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={4}, Conf=No confidence found
+2025-05-15 22:23:21,029 - INFO - Q_num2 (Question ID 201) Iter3 Msg8 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={4}, Conf=No confidence found
+2025-05-15 22:23:21,029 - INFO - Q_num2 (Question ID 201) Iter3 Msg9 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={2}, Conf=No confidence found
+2025-05-15 22:23:21,029 - INFO - Q_num2 (Question ID 201) Iter3 Msg10 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={2}, Conf=No confidence found
+2025-05-15 22:23:21,029 - INFO - Q_num2 (Question ID 201) Iter3 Msg11 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={2}, Conf=No confidence found
+2025-05-15 22:23:21,029 - INFO - Q_num2 (Question ID 201) Iter3 Msg12 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={2}, Conf=No confidence found
+2025-05-15 22:23:21,029 - INFO - Q_num2 (Question ID 201) Iter3 Msg13 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={3}, Conf=No confidence found
+2025-05-15 22:23:21,029 - INFO - Q_num2 (Question ID 201) Iter3 Msg14 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={4}, Conf=No confidence found
+2025-05-15 22:23:21,029 - INFO - Q_num2 (Question ID 201) Iter3 Msg15 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={3}, Conf=No confidence found
+2025-05-15 22:23:21,029 - INFO - Q_num2 (Question ID 201) Iter3 Msg16 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={2}, Conf=No confidence found
+2025-05-15 22:23:21,029 - INFO - Q_num2 (Question ID 201) Iter3 Msg17 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={2}, Conf=No confidence found
+2025-05-15 22:23:21,029 - INFO - Q_num2 (Question ID 201) Iter3 Msg18 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={2}, Conf=No confidence found
+2025-05-15 22:23:21,029 - INFO - Q_num2 (Question ID 201) Iter3 Msg19 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={4}, Conf=No confidence found
+2025-05-15 22:23:21,029 - INFO - Q_num2 (Question ID 201) Iter3 Msg20 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={2}, Conf=No confidence found
+2025-05-15 22:23:21,029 - INFO - Q_num2 (Question ID 201) Iter3 Msg21 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={2}, Conf=No confidence found
+2025-05-15 22:23:21,030 - INFO - Q_num2 (Question ID 201) Iter3 Msg22 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={2}, Conf=No confidence found
+2025-05-15 22:23:21,030 - INFO - Q_num2 (Question ID 201) Iter3 Msg23 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={2}, Conf=No confidence found
+2025-05-15 22:23:21,030 - INFO - Q_num2 (Question ID 201) Iter3 Msg24 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={2}, Conf=No confidence found
+2025-05-15 22:23:21,118 - INFO - --- Finished Q_num2 (ID 201) Iter3. Results saved. ---
+2025-05-15 22:23:21,192 - INFO - --- Running Q_num2 (ID 201) Iter4/5 ---
+2025-05-15 22:23:21,193 - INFO - Task: It is morally right to harm an innocent person if harming them is a necessary means to helping sever...
+2025-05-15 22:23:21,414 - INFO - Q_num2 (Question ID 201) Iter3: Starting chat with 6 agents.
+2025-05-15 22:23:36,796 - INFO - Q_num2 (Question ID 201) Iter3: Chat finished in 15.38 seconds.
+2025-05-15 22:23:36,796 - INFO - Q_num2 (Question ID 201) Iter4 Msg1 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={5}, Conf=No confidence found
+2025-05-15 22:23:36,806 - INFO - Q_num2 (Question ID 201) Iter4 Msg2 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:23:36,806 - INFO - Q_num2 (Question ID 201) Iter4 Msg3 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:23:36,806 - INFO - Q_num2 (Question ID 201) Iter4 Msg4 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:23:36,806 - INFO - Q_num2 (Question ID 201) Iter4 Msg5 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:23:36,806 - INFO - Q_num2 (Question ID 201) Iter4 Msg6 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:23:36,807 - INFO - Q_num2 (Question ID 201) Iter4 Msg7 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:23:36,807 - INFO - Q_num2 (Question ID 201) Iter4 Msg8 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:23:36,807 - INFO - Q_num2 (Question ID 201) Iter4 Msg9 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={5}, Conf=No confidence found
+2025-05-15 22:23:36,807 - INFO - Q_num2 (Question ID 201) Iter4 Msg10 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={5}, Conf=No confidence found
+2025-05-15 22:23:36,807 - INFO - Q_num2 (Question ID 201) Iter4 Msg11 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={5}, Conf=No confidence found
+2025-05-15 22:23:36,807 - INFO - Q_num2 (Question ID 201) Iter4 Msg12 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={5}, Conf=No confidence found
+2025-05-15 22:23:36,807 - INFO - Q_num2 (Question ID 201) Iter4 Msg13 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={5}, Conf=No confidence found
+2025-05-15 22:23:36,807 - INFO - Q_num2 (Question ID 201) Iter4 Msg14 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={5}, Conf=No confidence found
+2025-05-15 22:23:36,807 - INFO - Q_num2 (Question ID 201) Iter4 Msg15 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={5}, Conf=No confidence found
+2025-05-15 22:23:36,807 - INFO - Q_num2 (Question ID 201) Iter4 Msg16 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={5}, Conf=No confidence found
+2025-05-15 22:23:36,807 - INFO - Q_num2 (Question ID 201) Iter4 Msg17 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={5}, Conf=No confidence found
+2025-05-15 22:23:36,807 - INFO - Q_num2 (Question ID 201) Iter4 Msg18 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={5}, Conf=No confidence found
+2025-05-15 22:23:36,807 - INFO - Q_num2 (Question ID 201) Iter4 Msg19 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={5}, Conf=No confidence found
+2025-05-15 22:23:36,807 - INFO - Q_num2 (Question ID 201) Iter4 Msg20 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={5}, Conf=No confidence found
+2025-05-15 22:23:36,808 - INFO - Q_num2 (Question ID 201) Iter4 Msg21 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={5}, Conf=No confidence found
+2025-05-15 22:23:36,808 - INFO - Q_num2 (Question ID 201) Iter4 Msg22 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={5}, Conf=No confidence found
+2025-05-15 22:23:36,808 - INFO - Q_num2 (Question ID 201) Iter4 Msg23 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={5}, Conf=No confidence found
+2025-05-15 22:23:36,808 - INFO - Q_num2 (Question ID 201) Iter4 Msg24 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={5}, Conf=No confidence found
+2025-05-15 22:23:36,895 - INFO - --- Finished Q_num2 (ID 201) Iter4. Results saved. ---
+2025-05-15 22:23:36,969 - INFO - --- Running Q_num2 (ID 201) Iter5/5 ---
+2025-05-15 22:23:36,969 - INFO - Task: It is morally right to harm an innocent person if harming them is a necessary means to helping sever...
+2025-05-15 22:23:37,190 - INFO - Q_num2 (Question ID 201) Iter4: Starting chat with 6 agents.
+2025-05-15 22:23:47,644 - INFO - Q_num2 (Question ID 201) Iter4: Chat finished in 10.45 seconds.
+2025-05-15 22:23:47,645 - INFO - Q_num2 (Question ID 201) Iter5 Msg1 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={2}, Conf=No confidence found
+2025-05-15 22:23:47,645 - INFO - Q_num2 (Question ID 201) Iter5 Msg2 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:23:47,645 - INFO - Q_num2 (Question ID 201) Iter5 Msg3 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:23:47,645 - INFO - Q_num2 (Question ID 201) Iter5 Msg4 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:23:47,645 - INFO - Q_num2 (Question ID 201) Iter5 Msg5 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:23:47,645 - INFO - Q_num2 (Question ID 201) Iter5 Msg6 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:23:47,645 - INFO - Q_num2 (Question ID 201) Iter5 Msg7 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:23:47,645 - INFO - Q_num2 (Question ID 201) Iter5 Msg8 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:23:47,645 - INFO - Q_num2 (Question ID 201) Iter5 Msg9 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:23:47,645 - INFO - Q_num2 (Question ID 201) Iter5 Msg10 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:23:47,645 - INFO - Q_num2 (Question ID 201) Iter5 Msg11 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:23:47,645 - INFO - Q_num2 (Question ID 201) Iter5 Msg12 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:23:47,645 - INFO - Q_num2 (Question ID 201) Iter5 Msg13 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:23:47,646 - INFO - Q_num2 (Question ID 201) Iter5 Msg14 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:23:47,646 - INFO - Q_num2 (Question ID 201) Iter5 Msg15 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:23:47,646 - INFO - Q_num2 (Question ID 201) Iter5 Msg16 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:23:47,646 - INFO - Q_num2 (Question ID 201) Iter5 Msg17 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:23:47,646 - INFO - Q_num2 (Question ID 201) Iter5 Msg18 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:23:47,646 - INFO - Q_num2 (Question ID 201) Iter5 Msg19 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:23:47,646 - INFO - Q_num2 (Question ID 201) Iter5 Msg20 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:23:47,646 - INFO - Q_num2 (Question ID 201) Iter5 Msg21 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:23:47,646 - INFO - Q_num2 (Question ID 201) Iter5 Msg22 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:23:47,646 - INFO - Q_num2 (Question ID 201) Iter5 Msg23 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:23:47,646 - INFO - Q_num2 (Question ID 201) Iter5 Msg24 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:23:47,732 - INFO - --- Finished Q_num2 (ID 201) Iter5. Results saved. ---
+2025-05-15 22:23:47,804 - INFO - --- Running Q_num3 (ID 206) Iter1/5 ---
+2025-05-15 22:23:47,804 - INFO - Task: From a moral point of view, we should feel obliged to give one of our kidneys to a person with kidne...
+2025-05-15 22:23:48,026 - INFO - Q_num3 (Question ID 206) Iter0: Starting chat with 6 agents.
+2025-05-15 22:24:05,537 - INFO - Q_num3 (Question ID 206) Iter0: Chat finished in 17.51 seconds.
+2025-05-15 22:24:05,537 - INFO - Q_num3 (Question ID 206) Iter1 Msg1 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={4}, Conf=No confidence found
+2025-05-15 22:24:05,537 - INFO - Q_num3 (Question ID 206) Iter1 Msg2 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={4}, Conf=No confidence found
+2025-05-15 22:24:05,537 - INFO - Q_num3 (Question ID 206) Iter1 Msg3 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={4}, Conf=No confidence found
+2025-05-15 22:24:05,537 - INFO - Q_num3 (Question ID 206) Iter1 Msg4 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={4}, Conf=No confidence found
+2025-05-15 22:24:05,537 - INFO - Q_num3 (Question ID 206) Iter1 Msg5 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={4}, Conf=No confidence found
+2025-05-15 22:24:05,537 - INFO - Q_num3 (Question ID 206) Iter1 Msg6 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={4}, Conf=No confidence found
+2025-05-15 22:24:05,537 - INFO - Q_num3 (Question ID 206) Iter1 Msg7 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={4}, Conf=No confidence found
+2025-05-15 22:24:05,538 - INFO - Q_num3 (Question ID 206) Iter1 Msg8 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={4}, Conf=No confidence found
+2025-05-15 22:24:05,538 - INFO - Q_num3 (Question ID 206) Iter1 Msg9 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={4}, Conf=No confidence found
+2025-05-15 22:24:05,538 - INFO - Q_num3 (Question ID 206) Iter1 Msg10 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={4}, Conf=No confidence found
+2025-05-15 22:24:05,538 - INFO - Q_num3 (Question ID 206) Iter1 Msg11 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={4}, Conf=No confidence found
+2025-05-15 22:24:05,538 - INFO - Q_num3 (Question ID 206) Iter1 Msg12 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={4}, Conf=No confidence found
+2025-05-15 22:24:05,538 - INFO - Q_num3 (Question ID 206) Iter1 Msg13 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={4}, Conf=No confidence found
+2025-05-15 22:24:05,538 - INFO - Q_num3 (Question ID 206) Iter1 Msg14 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={4}, Conf=No confidence found
+2025-05-15 22:24:05,538 - INFO - Q_num3 (Question ID 206) Iter1 Msg15 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={4}, Conf=No confidence found
+2025-05-15 22:24:05,538 - INFO - Q_num3 (Question ID 206) Iter1 Msg16 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={4}, Conf=No confidence found
+2025-05-15 22:24:05,538 - INFO - Q_num3 (Question ID 206) Iter1 Msg17 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={4}, Conf=No confidence found
+2025-05-15 22:24:05,538 - INFO - Q_num3 (Question ID 206) Iter1 Msg18 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={4}, Conf=No confidence found
+2025-05-15 22:24:05,538 - INFO - Q_num3 (Question ID 206) Iter1 Msg19 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={4}, Conf=No confidence found
+2025-05-15 22:24:05,538 - INFO - Q_num3 (Question ID 206) Iter1 Msg20 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={4}, Conf=No confidence found
+2025-05-15 22:24:05,538 - INFO - Q_num3 (Question ID 206) Iter1 Msg21 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={4}, Conf=No confidence found
+2025-05-15 22:24:05,539 - INFO - Q_num3 (Question ID 206) Iter1 Msg22 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={4}, Conf=No confidence found
+2025-05-15 22:24:05,539 - INFO - Q_num3 (Question ID 206) Iter1 Msg23 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={4}, Conf=No confidence found
+2025-05-15 22:24:05,539 - INFO - Q_num3 (Question ID 206) Iter1 Msg24 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={4}, Conf=No confidence found
+2025-05-15 22:24:05,624 - INFO - --- Finished Q_num3 (ID 206) Iter1. Results saved. ---
+2025-05-15 22:24:05,696 - INFO - --- Running Q_num3 (ID 206) Iter2/5 ---
+2025-05-15 22:24:05,696 - INFO - Task: From a moral point of view, we should feel obliged to give one of our kidneys to a person with kidne...
+2025-05-15 22:24:05,915 - INFO - Q_num3 (Question ID 206) Iter1: Starting chat with 6 agents.
+2025-05-15 22:24:23,694 - INFO - Q_num3 (Question ID 206) Iter1: Chat finished in 17.78 seconds.
+2025-05-15 22:24:23,694 - INFO - Q_num3 (Question ID 206) Iter2 Msg1 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={4}, Conf=No confidence found
+2025-05-15 22:24:23,694 - INFO - Q_num3 (Question ID 206) Iter2 Msg2 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={2}, Conf=No confidence found
+2025-05-15 22:24:23,694 - INFO - Q_num3 (Question ID 206) Iter2 Msg3 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={2}, Conf=No confidence found
+2025-05-15 22:24:23,695 - INFO - Q_num3 (Question ID 206) Iter2 Msg4 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={2}, Conf=No confidence found
+2025-05-15 22:24:23,695 - INFO - Q_num3 (Question ID 206) Iter2 Msg5 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={2}, Conf=No confidence found
+2025-05-15 22:24:23,695 - INFO - Q_num3 (Question ID 206) Iter2 Msg6 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={2}, Conf=No confidence found
+2025-05-15 22:24:23,695 - INFO - Q_num3 (Question ID 206) Iter2 Msg7 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={2}, Conf=No confidence found
+2025-05-15 22:24:23,695 - INFO - Q_num3 (Question ID 206) Iter2 Msg8 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={2}, Conf=No confidence found
+2025-05-15 22:24:23,695 - INFO - Q_num3 (Question ID 206) Iter2 Msg9 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={2}, Conf=No confidence found
+2025-05-15 22:24:23,695 - INFO - Q_num3 (Question ID 206) Iter2 Msg10 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={2}, Conf=No confidence found
+2025-05-15 22:24:23,695 - INFO - Q_num3 (Question ID 206) Iter2 Msg11 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={2}, Conf=No confidence found
+2025-05-15 22:24:23,695 - INFO - Q_num3 (Question ID 206) Iter2 Msg12 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={2}, Conf=No confidence found
+2025-05-15 22:24:23,695 - INFO - Q_num3 (Question ID 206) Iter2 Msg13 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={2}, Conf=No confidence found
+2025-05-15 22:24:23,695 - INFO - Q_num3 (Question ID 206) Iter2 Msg14 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={2}, Conf=No confidence found
+2025-05-15 22:24:23,695 - INFO - Q_num3 (Question ID 206) Iter2 Msg15 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={2}, Conf=No confidence found
+2025-05-15 22:24:23,695 - INFO - Q_num3 (Question ID 206) Iter2 Msg16 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={2}, Conf=No confidence found
+2025-05-15 22:24:23,696 - INFO - Q_num3 (Question ID 206) Iter2 Msg17 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={2}, Conf=No confidence found
+2025-05-15 22:24:23,696 - INFO - Q_num3 (Question ID 206) Iter2 Msg18 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={2}, Conf=No confidence found
+2025-05-15 22:24:23,696 - INFO - Q_num3 (Question ID 206) Iter2 Msg19 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={2}, Conf=No confidence found
+2025-05-15 22:24:23,696 - INFO - Q_num3 (Question ID 206) Iter2 Msg20 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={2}, Conf=No confidence found
+2025-05-15 22:24:23,696 - INFO - Q_num3 (Question ID 206) Iter2 Msg21 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={2}, Conf=No confidence found
+2025-05-15 22:24:23,696 - INFO - Q_num3 (Question ID 206) Iter2 Msg22 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={2}, Conf=No confidence found
+2025-05-15 22:24:23,696 - INFO - Q_num3 (Question ID 206) Iter2 Msg23 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={2}, Conf=No confidence found
+2025-05-15 22:24:23,696 - INFO - Q_num3 (Question ID 206) Iter2 Msg24 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={2}, Conf=No confidence found
+2025-05-15 22:24:23,781 - INFO - --- Finished Q_num3 (ID 206) Iter2. Results saved. ---
+2025-05-15 22:24:23,852 - INFO - --- Running Q_num3 (ID 206) Iter3/5 ---
+2025-05-15 22:24:23,852 - INFO - Task: From a moral point of view, we should feel obliged to give one of our kidneys to a person with kidne...
+2025-05-15 22:24:24,071 - INFO - Q_num3 (Question ID 206) Iter2: Starting chat with 6 agents.
+2025-05-15 22:24:37,821 - INFO - Q_num3 (Question ID 206) Iter2: Chat finished in 13.75 seconds.
+2025-05-15 22:24:37,821 - INFO - Q_num3 (Question ID 206) Iter3 Msg1 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={2}, Conf=No confidence found
+2025-05-15 22:24:37,831 - INFO - Q_num3 (Question ID 206) Iter3 Msg2 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:24:37,831 - INFO - Q_num3 (Question ID 206) Iter3 Msg3 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:24:37,831 - INFO - Q_num3 (Question ID 206) Iter3 Msg4 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:24:37,831 - INFO - Q_num3 (Question ID 206) Iter3 Msg5 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:24:37,831 - INFO - Q_num3 (Question ID 206) Iter3 Msg6 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:24:37,831 - INFO - Q_num3 (Question ID 206) Iter3 Msg7 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:24:37,831 - INFO - Q_num3 (Question ID 206) Iter3 Msg8 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:24:37,831 - INFO - Q_num3 (Question ID 206) Iter3 Msg9 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:24:37,832 - INFO - Q_num3 (Question ID 206) Iter3 Msg10 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:24:37,832 - INFO - Q_num3 (Question ID 206) Iter3 Msg11 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:24:37,832 - INFO - Q_num3 (Question ID 206) Iter3 Msg12 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:24:37,832 - INFO - Q_num3 (Question ID 206) Iter3 Msg13 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:24:37,832 - INFO - Q_num3 (Question ID 206) Iter3 Msg14 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:24:37,832 - INFO - Q_num3 (Question ID 206) Iter3 Msg15 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:24:37,832 - INFO - Q_num3 (Question ID 206) Iter3 Msg16 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={1}, Conf=No confidence found
+2025-05-15 22:24:37,832 - INFO - Q_num3 (Question ID 206) Iter3 Msg17 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={2}, Conf=No confidence found
+2025-05-15 22:24:37,832 - INFO - Q_num3 (Question ID 206) Iter3 Msg18 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={2}, Conf=No confidence found
+2025-05-15 22:24:37,832 - INFO - Q_num3 (Question ID 206) Iter3 Msg19 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={2}, Conf=No confidence found
+2025-05-15 22:24:37,832 - INFO - Q_num3 (Question ID 206) Iter3 Msg20 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={2}, Conf=No confidence found
+2025-05-15 22:24:37,832 - INFO - Q_num3 (Question ID 206) Iter3 Msg21 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={2}, Conf=No confidence found
+2025-05-15 22:24:37,832 - INFO - Q_num3 (Question ID 206) Iter3 Msg22 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={2}, Conf=No confidence found
+2025-05-15 22:24:37,832 - INFO - Q_num3 (Question ID 206) Iter3 Msg23 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={2}, Conf=No confidence found
+2025-05-15 22:24:37,833 - INFO - Q_num3 (Question ID 206) Iter3 Msg24 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={2}, Conf=No confidence found
+2025-05-15 22:24:37,922 - INFO - --- Finished Q_num3 (ID 206) Iter3. Results saved. ---
+2025-05-15 22:24:37,996 - INFO - --- Running Q_num3 (ID 206) Iter4/5 ---
+2025-05-15 22:24:37,996 - INFO - Task: From a moral point of view, we should feel obliged to give one of our kidneys to a person with kidne...
+2025-05-15 22:24:38,217 - INFO - Q_num3 (Question ID 206) Iter3: Starting chat with 6 agents.
+2025-05-15 22:24:48,884 - INFO - Q_num3 (Question ID 206) Iter3: Chat finished in 10.67 seconds.
+2025-05-15 22:24:48,884 - INFO - Q_num3 (Question ID 206) Iter4 Msg1 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={4}, Conf=No confidence found
+2025-05-15 22:24:48,884 - INFO - Q_num3 (Question ID 206) Iter4 Msg2 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:24:48,884 - INFO - Q_num3 (Question ID 206) Iter4 Msg3 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:24:48,884 - INFO - Q_num3 (Question ID 206) Iter4 Msg4 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:24:48,885 - INFO - Q_num3 (Question ID 206) Iter4 Msg5 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:24:48,885 - INFO - Q_num3 (Question ID 206) Iter4 Msg6 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:24:48,885 - INFO - Q_num3 (Question ID 206) Iter4 Msg7 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:24:48,885 - INFO - Q_num3 (Question ID 206) Iter4 Msg8 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:24:48,885 - INFO - Q_num3 (Question ID 206) Iter4 Msg9 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:24:48,885 - INFO - Q_num3 (Question ID 206) Iter4 Msg10 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:24:48,885 - INFO - Q_num3 (Question ID 206) Iter4 Msg11 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:24:48,885 - INFO - Q_num3 (Question ID 206) Iter4 Msg12 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:24:48,885 - INFO - Q_num3 (Question ID 206) Iter4 Msg13 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:24:48,885 - INFO - Q_num3 (Question ID 206) Iter4 Msg14 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:24:48,885 - INFO - Q_num3 (Question ID 206) Iter4 Msg15 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:24:48,885 - INFO - Q_num3 (Question ID 206) Iter4 Msg16 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:24:48,885 - INFO - Q_num3 (Question ID 206) Iter4 Msg17 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:24:48,885 - INFO - Q_num3 (Question ID 206) Iter4 Msg18 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:24:48,885 - INFO - Q_num3 (Question ID 206) Iter4 Msg19 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:24:48,886 - INFO - Q_num3 (Question ID 206) Iter4 Msg20 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:24:48,886 - INFO - Q_num3 (Question ID 206) Iter4 Msg21 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:24:48,886 - INFO - Q_num3 (Question ID 206) Iter4 Msg22 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:24:48,886 - INFO - Q_num3 (Question ID 206) Iter4 Msg23 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:24:48,886 - INFO - Q_num3 (Question ID 206) Iter4 Msg24 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:24:48,974 - INFO - --- Finished Q_num3 (ID 206) Iter4. Results saved. ---
+2025-05-15 22:24:49,048 - INFO - --- Running Q_num3 (ID 206) Iter5/5 ---
+2025-05-15 22:24:49,048 - INFO - Task: From a moral point of view, we should feel obliged to give one of our kidneys to a person with kidne...
+2025-05-15 22:24:49,270 - INFO - Q_num3 (Question ID 206) Iter4: Starting chat with 6 agents.
+2025-05-15 22:25:03,704 - INFO - Q_num3 (Question ID 206) Iter4: Chat finished in 14.43 seconds.
+2025-05-15 22:25:03,704 - INFO - Q_num3 (Question ID 206) Iter5 Msg1 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={4}, Conf=No confidence found
+2025-05-15 22:25:03,704 - INFO - Q_num3 (Question ID 206) Iter5 Msg2 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:03,705 - INFO - Q_num3 (Question ID 206) Iter5 Msg3 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:03,705 - INFO - Q_num3 (Question ID 206) Iter5 Msg4 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:03,705 - INFO - Q_num3 (Question ID 206) Iter5 Msg5 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:03,705 - INFO - Q_num3 (Question ID 206) Iter5 Msg6 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:03,705 - INFO - Q_num3 (Question ID 206) Iter5 Msg7 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:03,705 - INFO - Q_num3 (Question ID 206) Iter5 Msg8 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:03,705 - INFO - Q_num3 (Question ID 206) Iter5 Msg9 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={4}, Conf=No confidence found
+2025-05-15 22:25:03,705 - INFO - Q_num3 (Question ID 206) Iter5 Msg10 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={4}, Conf=No confidence found
+2025-05-15 22:25:03,705 - INFO - Q_num3 (Question ID 206) Iter5 Msg11 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={4}, Conf=No confidence found
+2025-05-15 22:25:03,705 - INFO - Q_num3 (Question ID 206) Iter5 Msg12 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={4}, Conf=No confidence found
+2025-05-15 22:25:03,705 - INFO - Q_num3 (Question ID 206) Iter5 Msg13 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={4}, Conf=No confidence found
+2025-05-15 22:25:03,705 - INFO - Q_num3 (Question ID 206) Iter5 Msg14 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={4}, Conf=No confidence found
+2025-05-15 22:25:03,706 - INFO - Q_num3 (Question ID 206) Iter5 Msg15 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={4}, Conf=No confidence found
+2025-05-15 22:25:03,706 - INFO - Q_num3 (Question ID 206) Iter5 Msg16 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={4}, Conf=No confidence found
+2025-05-15 22:25:03,706 - INFO - Q_num3 (Question ID 206) Iter5 Msg17 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={4}, Conf=No confidence found
+2025-05-15 22:25:03,706 - INFO - Q_num3 (Question ID 206) Iter5 Msg18 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={4}, Conf=No confidence found
+2025-05-15 22:25:03,706 - INFO - Q_num3 (Question ID 206) Iter5 Msg19 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={4}, Conf=No confidence found
+2025-05-15 22:25:03,706 - INFO - Q_num3 (Question ID 206) Iter5 Msg20 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={4}, Conf=No confidence found
+2025-05-15 22:25:03,706 - INFO - Q_num3 (Question ID 206) Iter5 Msg21 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={4}, Conf=No confidence found
+2025-05-15 22:25:03,706 - INFO - Q_num3 (Question ID 206) Iter5 Msg22 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={4}, Conf=No confidence found
+2025-05-15 22:25:03,706 - INFO - Q_num3 (Question ID 206) Iter5 Msg23 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={4}, Conf=No confidence found
+2025-05-15 22:25:03,706 - INFO - Q_num3 (Question ID 206) Iter5 Msg24 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={4}, Conf=No confidence found
+2025-05-15 22:25:03,794 - INFO - --- Finished Q_num3 (ID 206) Iter5. Results saved. ---
+2025-05-15 22:25:03,868 - INFO - --- Running Q_num4 (ID 202) Iter1/5 ---
+2025-05-15 22:25:03,868 - INFO - Task: If the only way to ensure the overall well-being and happiness of the people is through the use of p...
+2025-05-15 22:25:04,089 - INFO - Q_num4 (Question ID 202) Iter0: Starting chat with 6 agents.
+2025-05-15 22:25:19,411 - INFO - Q_num4 (Question ID 202) Iter0: Chat finished in 15.32 seconds.
+2025-05-15 22:25:19,412 - INFO - Q_num4 (Question ID 202) Iter1 Msg1 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={2}, Conf=No confidence found
+2025-05-15 22:25:19,412 - INFO - Q_num4 (Question ID 202) Iter1 Msg2 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:19,412 - INFO - Q_num4 (Question ID 202) Iter1 Msg3 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:19,412 - INFO - Q_num4 (Question ID 202) Iter1 Msg4 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:19,412 - INFO - Q_num4 (Question ID 202) Iter1 Msg5 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={2}, Conf=No confidence found
+2025-05-15 22:25:19,412 - INFO - Q_num4 (Question ID 202) Iter1 Msg6 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={2}, Conf=No confidence found
+2025-05-15 22:25:19,412 - INFO - Q_num4 (Question ID 202) Iter1 Msg7 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={5}, Conf=No confidence found
+2025-05-15 22:25:19,412 - INFO - Q_num4 (Question ID 202) Iter1 Msg8 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={3}, Conf=No confidence found
+2025-05-15 22:25:19,412 - INFO - Q_num4 (Question ID 202) Iter1 Msg9 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={2}, Conf=No confidence found
+2025-05-15 22:25:19,412 - INFO - Q_num4 (Question ID 202) Iter1 Msg10 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={2}, Conf=No confidence found
+2025-05-15 22:25:19,412 - INFO - Q_num4 (Question ID 202) Iter1 Msg11 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={1}, Conf=No confidence found
+2025-05-15 22:25:19,413 - INFO - Q_num4 (Question ID 202) Iter1 Msg12 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={2}, Conf=No confidence found
+2025-05-15 22:25:19,413 - INFO - Q_num4 (Question ID 202) Iter1 Msg13 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={4}, Conf=No confidence found
+2025-05-15 22:25:19,413 - INFO - Q_num4 (Question ID 202) Iter1 Msg14 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={2}, Conf=No confidence found
+2025-05-15 22:25:19,413 - INFO - Q_num4 (Question ID 202) Iter1 Msg15 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={2}, Conf=No confidence found
+2025-05-15 22:25:19,413 - INFO - Q_num4 (Question ID 202) Iter1 Msg16 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={2}, Conf=No confidence found
+2025-05-15 22:25:19,413 - INFO - Q_num4 (Question ID 202) Iter1 Msg17 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={2}, Conf=No confidence found
+2025-05-15 22:25:19,413 - INFO - Q_num4 (Question ID 202) Iter1 Msg18 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={2}, Conf=No confidence found
+2025-05-15 22:25:19,413 - INFO - Q_num4 (Question ID 202) Iter1 Msg19 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={4}, Conf=No confidence found
+2025-05-15 22:25:19,413 - INFO - Q_num4 (Question ID 202) Iter1 Msg20 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={2}, Conf=No confidence found
+2025-05-15 22:25:19,413 - INFO - Q_num4 (Question ID 202) Iter1 Msg21 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={1}, Conf=No confidence found
+2025-05-15 22:25:19,413 - INFO - Q_num4 (Question ID 202) Iter1 Msg22 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={2}, Conf=No confidence found
+2025-05-15 22:25:19,413 - INFO - Q_num4 (Question ID 202) Iter1 Msg23 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={1}, Conf=No confidence found
+2025-05-15 22:25:19,413 - INFO - Q_num4 (Question ID 202) Iter1 Msg24 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={1}, Conf=No confidence found
+2025-05-15 22:25:19,502 - INFO - --- Finished Q_num4 (ID 202) Iter1. Results saved. ---
+2025-05-15 22:25:19,575 - INFO - --- Running Q_num4 (ID 202) Iter2/5 ---
+2025-05-15 22:25:19,575 - INFO - Task: If the only way to ensure the overall well-being and happiness of the people is through the use of p...
+2025-05-15 22:25:19,796 - INFO - Q_num4 (Question ID 202) Iter1: Starting chat with 6 agents.
+2025-05-15 22:25:30,253 - INFO - Q_num4 (Question ID 202) Iter1: Chat finished in 10.46 seconds.
+2025-05-15 22:25:30,253 - INFO - Q_num4 (Question ID 202) Iter2 Msg1 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={2}, Conf=No confidence found
+2025-05-15 22:25:30,254 - INFO - Q_num4 (Question ID 202) Iter2 Msg2 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:30,254 - INFO - Q_num4 (Question ID 202) Iter2 Msg3 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:30,254 - INFO - Q_num4 (Question ID 202) Iter2 Msg4 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:30,254 - INFO - Q_num4 (Question ID 202) Iter2 Msg5 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:30,254 - INFO - Q_num4 (Question ID 202) Iter2 Msg6 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:30,254 - INFO - Q_num4 (Question ID 202) Iter2 Msg7 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:30,254 - INFO - Q_num4 (Question ID 202) Iter2 Msg8 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:30,254 - INFO - Q_num4 (Question ID 202) Iter2 Msg9 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:30,254 - INFO - Q_num4 (Question ID 202) Iter2 Msg10 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:30,254 - INFO - Q_num4 (Question ID 202) Iter2 Msg11 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:30,254 - INFO - Q_num4 (Question ID 202) Iter2 Msg12 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:30,254 - INFO - Q_num4 (Question ID 202) Iter2 Msg13 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:30,254 - INFO - Q_num4 (Question ID 202) Iter2 Msg14 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:30,254 - INFO - Q_num4 (Question ID 202) Iter2 Msg15 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:30,255 - INFO - Q_num4 (Question ID 202) Iter2 Msg16 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:30,255 - INFO - Q_num4 (Question ID 202) Iter2 Msg17 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:30,255 - INFO - Q_num4 (Question ID 202) Iter2 Msg18 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:30,255 - INFO - Q_num4 (Question ID 202) Iter2 Msg19 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:30,255 - INFO - Q_num4 (Question ID 202) Iter2 Msg20 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:30,255 - INFO - Q_num4 (Question ID 202) Iter2 Msg21 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:30,255 - INFO - Q_num4 (Question ID 202) Iter2 Msg22 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:30,255 - INFO - Q_num4 (Question ID 202) Iter2 Msg23 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:30,255 - INFO - Q_num4 (Question ID 202) Iter2 Msg24 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:30,346 - INFO - --- Finished Q_num4 (ID 202) Iter2. Results saved. ---
+2025-05-15 22:25:30,420 - INFO - --- Running Q_num4 (ID 202) Iter3/5 ---
+2025-05-15 22:25:30,420 - INFO - Task: If the only way to ensure the overall well-being and happiness of the people is through the use of p...
+2025-05-15 22:25:30,645 - INFO - Q_num4 (Question ID 202) Iter2: Starting chat with 6 agents.
+2025-05-15 22:25:41,209 - INFO - Q_num4 (Question ID 202) Iter2: Chat finished in 10.56 seconds.
+2025-05-15 22:25:41,209 - INFO - Q_num4 (Question ID 202) Iter3 Msg1 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={4}, Conf=No confidence found
+2025-05-15 22:25:41,209 - INFO - Q_num4 (Question ID 202) Iter3 Msg2 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:41,209 - INFO - Q_num4 (Question ID 202) Iter3 Msg3 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:41,210 - INFO - Q_num4 (Question ID 202) Iter3 Msg4 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:41,210 - INFO - Q_num4 (Question ID 202) Iter3 Msg5 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:41,210 - INFO - Q_num4 (Question ID 202) Iter3 Msg6 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:41,210 - INFO - Q_num4 (Question ID 202) Iter3 Msg7 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:41,210 - INFO - Q_num4 (Question ID 202) Iter3 Msg8 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:41,210 - INFO - Q_num4 (Question ID 202) Iter3 Msg9 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:41,210 - INFO - Q_num4 (Question ID 202) Iter3 Msg10 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:41,210 - INFO - Q_num4 (Question ID 202) Iter3 Msg11 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:41,210 - INFO - Q_num4 (Question ID 202) Iter3 Msg12 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:41,210 - INFO - Q_num4 (Question ID 202) Iter3 Msg13 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:41,210 - INFO - Q_num4 (Question ID 202) Iter3 Msg14 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:41,210 - INFO - Q_num4 (Question ID 202) Iter3 Msg15 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:41,210 - INFO - Q_num4 (Question ID 202) Iter3 Msg16 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:41,210 - INFO - Q_num4 (Question ID 202) Iter3 Msg17 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:41,211 - INFO - Q_num4 (Question ID 202) Iter3 Msg18 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:41,211 - INFO - Q_num4 (Question ID 202) Iter3 Msg19 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:41,211 - INFO - Q_num4 (Question ID 202) Iter3 Msg20 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:41,211 - INFO - Q_num4 (Question ID 202) Iter3 Msg21 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:41,211 - INFO - Q_num4 (Question ID 202) Iter3 Msg22 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:41,211 - INFO - Q_num4 (Question ID 202) Iter3 Msg23 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:41,211 - INFO - Q_num4 (Question ID 202) Iter3 Msg24 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:41,298 - INFO - --- Finished Q_num4 (ID 202) Iter3. Results saved. ---
+2025-05-15 22:25:41,370 - INFO - --- Running Q_num4 (ID 202) Iter4/5 ---
+2025-05-15 22:25:41,370 - INFO - Task: If the only way to ensure the overall well-being and happiness of the people is through the use of p...
+2025-05-15 22:25:41,590 - INFO - Q_num4 (Question ID 202) Iter3: Starting chat with 6 agents.
+2025-05-15 22:25:52,577 - INFO - Q_num4 (Question ID 202) Iter3: Chat finished in 10.99 seconds.
+2025-05-15 22:25:52,577 - INFO - Q_num4 (Question ID 202) Iter4 Msg1 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={2}, Conf=No confidence found
+2025-05-15 22:25:52,577 - INFO - Q_num4 (Question ID 202) Iter4 Msg2 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:52,577 - INFO - Q_num4 (Question ID 202) Iter4 Msg3 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:52,577 - INFO - Q_num4 (Question ID 202) Iter4 Msg4 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:52,577 - INFO - Q_num4 (Question ID 202) Iter4 Msg5 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:52,577 - INFO - Q_num4 (Question ID 202) Iter4 Msg6 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:52,577 - INFO - Q_num4 (Question ID 202) Iter4 Msg7 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:52,578 - INFO - Q_num4 (Question ID 202) Iter4 Msg8 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:52,578 - INFO - Q_num4 (Question ID 202) Iter4 Msg9 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:52,578 - INFO - Q_num4 (Question ID 202) Iter4 Msg10 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:52,578 - INFO - Q_num4 (Question ID 202) Iter4 Msg11 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:52,578 - INFO - Q_num4 (Question ID 202) Iter4 Msg12 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:52,578 - INFO - Q_num4 (Question ID 202) Iter4 Msg13 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:52,578 - INFO - Q_num4 (Question ID 202) Iter4 Msg14 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:52,578 - INFO - Q_num4 (Question ID 202) Iter4 Msg15 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:52,578 - INFO - Q_num4 (Question ID 202) Iter4 Msg16 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:52,578 - INFO - Q_num4 (Question ID 202) Iter4 Msg17 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:52,578 - INFO - Q_num4 (Question ID 202) Iter4 Msg18 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:52,578 - INFO - Q_num4 (Question ID 202) Iter4 Msg19 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:52,578 - INFO - Q_num4 (Question ID 202) Iter4 Msg20 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:52,578 - INFO - Q_num4 (Question ID 202) Iter4 Msg21 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:52,578 - INFO - Q_num4 (Question ID 202) Iter4 Msg22 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:52,579 - INFO - Q_num4 (Question ID 202) Iter4 Msg23 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:52,579 - INFO - Q_num4 (Question ID 202) Iter4 Msg24 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:25:52,665 - INFO - --- Finished Q_num4 (ID 202) Iter4. Results saved. ---
+2025-05-15 22:25:52,738 - INFO - --- Running Q_num4 (ID 202) Iter5/5 ---
+2025-05-15 22:25:52,738 - INFO - Task: If the only way to ensure the overall well-being and happiness of the people is through the use of p...
+2025-05-15 22:25:52,959 - INFO - Q_num4 (Question ID 202) Iter4: Starting chat with 6 agents.
+2025-05-15 22:26:06,810 - INFO - Q_num4 (Question ID 202) Iter4: Chat finished in 13.85 seconds.
+2025-05-15 22:26:06,810 - INFO - Q_num4 (Question ID 202) Iter5 Msg1 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={3}, Conf=No confidence found
+2025-05-15 22:26:06,810 - INFO - Q_num4 (Question ID 202) Iter5 Msg2 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:26:06,810 - INFO - Q_num4 (Question ID 202) Iter5 Msg3 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:26:06,810 - INFO - Q_num4 (Question ID 202) Iter5 Msg4 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:26:06,810 - INFO - Q_num4 (Question ID 202) Iter5 Msg5 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:26:06,810 - INFO - Q_num4 (Question ID 202) Iter5 Msg6 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:26:06,811 - INFO - Q_num4 (Question ID 202) Iter5 Msg7 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:26:06,811 - INFO - Q_num4 (Question ID 202) Iter5 Msg8 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:26:06,811 - INFO - Q_num4 (Question ID 202) Iter5 Msg9 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:26:06,811 - INFO - Q_num4 (Question ID 202) Iter5 Msg10 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:26:06,811 - INFO - Q_num4 (Question ID 202) Iter5 Msg11 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:26:06,811 - INFO - Q_num4 (Question ID 202) Iter5 Msg12 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:26:06,811 - INFO - Q_num4 (Question ID 202) Iter5 Msg13 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:26:06,811 - INFO - Q_num4 (Question ID 202) Iter5 Msg14 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:26:06,811 - INFO - Q_num4 (Question ID 202) Iter5 Msg15 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={3}, Conf=No confidence found
+2025-05-15 22:26:06,811 - INFO - Q_num4 (Question ID 202) Iter5 Msg16 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={3}, Conf=No confidence found
+2025-05-15 22:26:06,811 - INFO - Q_num4 (Question ID 202) Iter5 Msg17 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={2}, Conf=No confidence found
+2025-05-15 22:26:06,811 - INFO - Q_num4 (Question ID 202) Iter5 Msg18 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={2}, Conf=No confidence found
+2025-05-15 22:26:06,811 - INFO - Q_num4 (Question ID 202) Iter5 Msg19 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={2}, Conf=No confidence found
+2025-05-15 22:26:06,811 - INFO - Q_num4 (Question ID 202) Iter5 Msg20 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={3}, Conf=No confidence found
+2025-05-15 22:26:06,812 - INFO - Q_num4 (Question ID 202) Iter5 Msg21 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={2}, Conf=No confidence found
+2025-05-15 22:26:06,812 - INFO - Q_num4 (Question ID 202) Iter5 Msg22 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={2}, Conf=No confidence found
+2025-05-15 22:26:06,812 - INFO - Q_num4 (Question ID 202) Iter5 Msg23 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={1}, Conf=No confidence found
+2025-05-15 22:26:06,812 - INFO - Q_num4 (Question ID 202) Iter5 Msg24 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={1}, Conf=No confidence found
+2025-05-15 22:26:06,898 - INFO - --- Finished Q_num4 (ID 202) Iter5. Results saved. ---
+2025-05-15 22:26:06,970 - INFO - --- Running Q_num5 (ID 207) Iter1/5 ---
+2025-05-15 22:26:06,970 - INFO - Task: From a moral perspective, people should care about the well-being of all human beings on the planet ...
+2025-05-15 22:26:07,189 - INFO - Q_num5 (Question ID 207) Iter0: Starting chat with 6 agents.
+2025-05-15 22:26:23,704 - INFO - Q_num5 (Question ID 207) Iter0: Chat finished in 16.51 seconds.
+2025-05-15 22:26:23,704 - INFO - Q_num5 (Question ID 207) Iter1 Msg1 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=4, Conf=No confidence found
+2025-05-15 22:26:23,704 - INFO - Q_num5 (Question ID 207) Iter1 Msg2 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:26:23,704 - INFO - Q_num5 (Question ID 207) Iter1 Msg3 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:26:23,704 - INFO - Q_num5 (Question ID 207) Iter1 Msg4 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:26:23,704 - INFO - Q_num5 (Question ID 207) Iter1 Msg5 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:26:23,704 - INFO - Q_num5 (Question ID 207) Iter1 Msg6 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=5, Conf=No confidence found
+2025-05-15 22:26:23,704 - INFO - Q_num5 (Question ID 207) Iter1 Msg7 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=5, Conf=No confidence found
+2025-05-15 22:26:23,704 - INFO - Q_num5 (Question ID 207) Iter1 Msg8 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=5, Conf=No confidence found
+2025-05-15 22:26:23,704 - INFO - Q_num5 (Question ID 207) Iter1 Msg9 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=5, Conf=No confidence found
+2025-05-15 22:26:23,704 - INFO - Q_num5 (Question ID 207) Iter1 Msg10 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=5, Conf=No confidence found
+2025-05-15 22:26:23,704 - INFO - Q_num5 (Question ID 207) Iter1 Msg11 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=5, Conf=No confidence found
+2025-05-15 22:26:23,705 - INFO - Q_num5 (Question ID 207) Iter1 Msg12 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=5, Conf=No confidence found
+2025-05-15 22:26:23,705 - INFO - Q_num5 (Question ID 207) Iter1 Msg13 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=5, Conf=No confidence found
+2025-05-15 22:26:23,705 - INFO - Q_num5 (Question ID 207) Iter1 Msg14 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=5, Conf=No confidence found
+2025-05-15 22:26:23,705 - INFO - Q_num5 (Question ID 207) Iter1 Msg15 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=5, Conf=No confidence found
+2025-05-15 22:26:23,705 - INFO - Q_num5 (Question ID 207) Iter1 Msg16 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=5, Conf=No confidence found
+2025-05-15 22:26:23,705 - INFO - Q_num5 (Question ID 207) Iter1 Msg17 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=5, Conf=No confidence found
+2025-05-15 22:26:23,705 - INFO - Q_num5 (Question ID 207) Iter1 Msg18 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=5, Conf=No confidence found
+2025-05-15 22:26:23,705 - INFO - Q_num5 (Question ID 207) Iter1 Msg19 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=5, Conf=No confidence found
+2025-05-15 22:26:23,705 - INFO - Q_num5 (Question ID 207) Iter1 Msg20 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=5, Conf=No confidence found
+2025-05-15 22:26:23,705 - INFO - Q_num5 (Question ID 207) Iter1 Msg21 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=5, Conf=No confidence found
+2025-05-15 22:26:23,705 - INFO - Q_num5 (Question ID 207) Iter1 Msg22 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=5, Conf=No confidence found
+2025-05-15 22:26:23,705 - INFO - Q_num5 (Question ID 207) Iter1 Msg23 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=5, Conf=No confidence found
+2025-05-15 22:26:23,705 - INFO - Q_num5 (Question ID 207) Iter1 Msg24 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=5, Conf=No confidence found
+2025-05-15 22:26:23,792 - INFO - --- Finished Q_num5 (ID 207) Iter1. Results saved. ---
+2025-05-15 22:26:23,864 - INFO - --- Running Q_num5 (ID 207) Iter2/5 ---
+2025-05-15 22:26:23,864 - INFO - Task: From a moral perspective, people should care about the well-being of all human beings on the planet ...
+2025-05-15 22:26:24,087 - INFO - Q_num5 (Question ID 207) Iter1: Starting chat with 6 agents.
+2025-05-15 22:26:41,418 - INFO - Q_num5 (Question ID 207) Iter1: Chat finished in 17.33 seconds.
+2025-05-15 22:26:41,418 - INFO - Q_num5 (Question ID 207) Iter2 Msg1 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={4}, Conf=No confidence found
+2025-05-15 22:26:41,418 - INFO - Q_num5 (Question ID 207) Iter2 Msg2 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:26:41,418 - INFO - Q_num5 (Question ID 207) Iter2 Msg3 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={4}, Conf=No confidence found
+2025-05-15 22:26:41,418 - INFO - Q_num5 (Question ID 207) Iter2 Msg4 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={4}, Conf=No confidence found
+2025-05-15 22:26:41,418 - INFO - Q_num5 (Question ID 207) Iter2 Msg5 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={4}, Conf=No confidence found
+2025-05-15 22:26:41,418 - INFO - Q_num5 (Question ID 207) Iter2 Msg6 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={4}, Conf=No confidence found
+2025-05-15 22:26:41,418 - INFO - Q_num5 (Question ID 207) Iter2 Msg7 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={4}, Conf=No confidence found
+2025-05-15 22:26:41,418 - INFO - Q_num5 (Question ID 207) Iter2 Msg8 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={4}, Conf=No confidence found
+2025-05-15 22:26:41,419 - INFO - Q_num5 (Question ID 207) Iter2 Msg9 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={4}, Conf=No confidence found
+2025-05-15 22:26:41,419 - INFO - Q_num5 (Question ID 207) Iter2 Msg10 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={4}, Conf=No confidence found
+2025-05-15 22:26:41,419 - INFO - Q_num5 (Question ID 207) Iter2 Msg11 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={4}, Conf=No confidence found
+2025-05-15 22:26:41,419 - INFO - Q_num5 (Question ID 207) Iter2 Msg12 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={4}, Conf=No confidence found
+2025-05-15 22:26:41,419 - INFO - Q_num5 (Question ID 207) Iter2 Msg13 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={4}, Conf=No confidence found
+2025-05-15 22:26:41,419 - INFO - Q_num5 (Question ID 207) Iter2 Msg14 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={4}, Conf=No confidence found
+2025-05-15 22:26:41,419 - INFO - Q_num5 (Question ID 207) Iter2 Msg15 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={4}, Conf=No confidence found
+2025-05-15 22:26:41,419 - INFO - Q_num5 (Question ID 207) Iter2 Msg16 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={4}, Conf=No confidence found
+2025-05-15 22:26:41,419 - INFO - Q_num5 (Question ID 207) Iter2 Msg17 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={4}, Conf=No confidence found
+2025-05-15 22:26:41,419 - INFO - Q_num5 (Question ID 207) Iter2 Msg18 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={4}, Conf=No confidence found
+2025-05-15 22:26:41,419 - INFO - Q_num5 (Question ID 207) Iter2 Msg19 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={4}, Conf=No confidence found
+2025-05-15 22:26:41,419 - INFO - Q_num5 (Question ID 207) Iter2 Msg20 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={4}, Conf=No confidence found
+2025-05-15 22:26:41,419 - INFO - Q_num5 (Question ID 207) Iter2 Msg21 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={4}, Conf=No confidence found
+2025-05-15 22:26:41,419 - INFO - Q_num5 (Question ID 207) Iter2 Msg22 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={4}, Conf=No confidence found
+2025-05-15 22:26:41,420 - INFO - Q_num5 (Question ID 207) Iter2 Msg23 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={4}, Conf=No confidence found
+2025-05-15 22:26:41,420 - INFO - Q_num5 (Question ID 207) Iter2 Msg24 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={4}, Conf=No confidence found
+2025-05-15 22:26:41,506 - INFO - --- Finished Q_num5 (ID 207) Iter2. Results saved. ---
+2025-05-15 22:26:41,580 - INFO - --- Running Q_num5 (ID 207) Iter3/5 ---
+2025-05-15 22:26:41,580 - INFO - Task: From a moral perspective, people should care about the well-being of all human beings on the planet ...
+2025-05-15 22:26:41,799 - INFO - Q_num5 (Question ID 207) Iter2: Starting chat with 6 agents.
+2025-05-15 22:26:58,428 - INFO - Q_num5 (Question ID 207) Iter2: Chat finished in 16.63 seconds.
+2025-05-15 22:26:58,429 - INFO - Q_num5 (Question ID 207) Iter3 Msg1 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={4}, Conf=No confidence found
+2025-05-15 22:26:58,429 - INFO - Q_num5 (Question ID 207) Iter3 Msg2 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:26:58,429 - INFO - Q_num5 (Question ID 207) Iter3 Msg3 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:26:58,429 - INFO - Q_num5 (Question ID 207) Iter3 Msg4 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={5}, Conf=No confidence found
+2025-05-15 22:26:58,429 - INFO - Q_num5 (Question ID 207) Iter3 Msg5 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={4}, Conf=No confidence found
+2025-05-15 22:26:58,429 - INFO - Q_num5 (Question ID 207) Iter3 Msg6 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={3}, Conf=No confidence found
+2025-05-15 22:26:58,429 - INFO - Q_num5 (Question ID 207) Iter3 Msg7 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={4}, Conf=No confidence found
+2025-05-15 22:26:58,429 - INFO - Q_num5 (Question ID 207) Iter3 Msg8 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={5}, Conf=No confidence found
+2025-05-15 22:26:58,429 - INFO - Q_num5 (Question ID 207) Iter3 Msg9 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={4}, Conf=No confidence found
+2025-05-15 22:26:58,429 - INFO - Q_num5 (Question ID 207) Iter3 Msg10 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={4}, Conf=No confidence found
+2025-05-15 22:26:58,429 - INFO - Q_num5 (Question ID 207) Iter3 Msg11 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={4}, Conf=No confidence found
+2025-05-15 22:26:58,429 - INFO - Q_num5 (Question ID 207) Iter3 Msg12 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={4}, Conf=No confidence found
+2025-05-15 22:26:58,430 - INFO - Q_num5 (Question ID 207) Iter3 Msg13 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={4}, Conf=No confidence found
+2025-05-15 22:26:58,430 - INFO - Q_num5 (Question ID 207) Iter3 Msg14 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={4}, Conf=No confidence found
+2025-05-15 22:26:58,430 - INFO - Q_num5 (Question ID 207) Iter3 Msg15 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={4}, Conf=No confidence found
+2025-05-15 22:26:58,430 - INFO - Q_num5 (Question ID 207) Iter3 Msg16 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={4}, Conf=No confidence found
+2025-05-15 22:26:58,430 - INFO - Q_num5 (Question ID 207) Iter3 Msg17 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={4}, Conf=No confidence found
+2025-05-15 22:26:58,430 - INFO - Q_num5 (Question ID 207) Iter3 Msg18 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={4}, Conf=No confidence found
+2025-05-15 22:26:58,430 - INFO - Q_num5 (Question ID 207) Iter3 Msg19 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={3}, Conf=No confidence found
+2025-05-15 22:26:58,430 - INFO - Q_num5 (Question ID 207) Iter3 Msg20 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={4}, Conf=No confidence found
+2025-05-15 22:26:58,430 - INFO - Q_num5 (Question ID 207) Iter3 Msg21 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={4}, Conf=No confidence found
+2025-05-15 22:26:58,430 - INFO - Q_num5 (Question ID 207) Iter3 Msg22 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={4}, Conf=No confidence found
+2025-05-15 22:26:58,430 - INFO - Q_num5 (Question ID 207) Iter3 Msg23 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={4}, Conf=No confidence found
+2025-05-15 22:26:58,430 - INFO - Q_num5 (Question ID 207) Iter3 Msg24 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={4}, Conf=No confidence found
+2025-05-15 22:26:58,520 - INFO - --- Finished Q_num5 (ID 207) Iter3. Results saved. ---
+2025-05-15 22:26:58,594 - INFO - --- Running Q_num5 (ID 207) Iter4/5 ---
+2025-05-15 22:26:58,594 - INFO - Task: From a moral perspective, people should care about the well-being of all human beings on the planet ...
+2025-05-15 22:26:58,814 - INFO - Q_num5 (Question ID 207) Iter3: Starting chat with 6 agents.
+2025-05-15 22:27:09,272 - INFO - Q_num5 (Question ID 207) Iter3: Chat finished in 10.46 seconds.
+2025-05-15 22:27:09,272 - INFO - Q_num5 (Question ID 207) Iter4 Msg1 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={4}, Conf=No confidence found
+2025-05-15 22:27:09,272 - INFO - Q_num5 (Question ID 207) Iter4 Msg2 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:27:09,272 - INFO - Q_num5 (Question ID 207) Iter4 Msg3 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:27:09,272 - INFO - Q_num5 (Question ID 207) Iter4 Msg4 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:27:09,272 - INFO - Q_num5 (Question ID 207) Iter4 Msg5 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:27:09,272 - INFO - Q_num5 (Question ID 207) Iter4 Msg6 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:27:09,272 - INFO - Q_num5 (Question ID 207) Iter4 Msg7 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:27:09,272 - INFO - Q_num5 (Question ID 207) Iter4 Msg8 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:27:09,272 - INFO - Q_num5 (Question ID 207) Iter4 Msg9 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:27:09,273 - INFO - Q_num5 (Question ID 207) Iter4 Msg10 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:27:09,273 - INFO - Q_num5 (Question ID 207) Iter4 Msg11 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:27:09,273 - INFO - Q_num5 (Question ID 207) Iter4 Msg12 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:27:09,273 - INFO - Q_num5 (Question ID 207) Iter4 Msg13 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:27:09,273 - INFO - Q_num5 (Question ID 207) Iter4 Msg14 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:27:09,273 - INFO - Q_num5 (Question ID 207) Iter4 Msg15 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:27:09,273 - INFO - Q_num5 (Question ID 207) Iter4 Msg16 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:27:09,273 - INFO - Q_num5 (Question ID 207) Iter4 Msg17 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:27:09,273 - INFO - Q_num5 (Question ID 207) Iter4 Msg18 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:27:09,273 - INFO - Q_num5 (Question ID 207) Iter4 Msg19 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:27:09,273 - INFO - Q_num5 (Question ID 207) Iter4 Msg20 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:27:09,273 - INFO - Q_num5 (Question ID 207) Iter4 Msg21 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:27:09,273 - INFO - Q_num5 (Question ID 207) Iter4 Msg22 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:27:09,273 - INFO - Q_num5 (Question ID 207) Iter4 Msg23 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:27:09,273 - INFO - Q_num5 (Question ID 207) Iter4 Msg24 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:27:09,360 - INFO - --- Finished Q_num5 (ID 207) Iter4. Results saved. ---
+2025-05-15 22:27:09,433 - INFO - --- Running Q_num5 (ID 207) Iter5/5 ---
+2025-05-15 22:27:09,433 - INFO - Task: From a moral perspective, people should care about the well-being of all human beings on the planet ...
+2025-05-15 22:27:09,653 - INFO - Q_num5 (Question ID 207) Iter4: Starting chat with 6 agents.
+2025-05-15 22:27:47,894 - INFO - Q_num5 (Question ID 207) Iter4: Chat finished in 38.24 seconds.
+2025-05-15 22:27:47,894 - INFO - Q_num5 (Question ID 207) Iter5 Msg1 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={4}, Conf=No confidence found
+2025-05-15 22:27:47,894 - INFO - Q_num5 (Question ID 207) Iter5 Msg2 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={4}, Conf=No confidence found
+2025-05-15 22:27:47,894 - INFO - Q_num5 (Question ID 207) Iter5 Msg3 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={4}, Conf=No confidence found
+2025-05-15 22:27:47,895 - INFO - Q_num5 (Question ID 207) Iter5 Msg4 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={4}, Conf=No confidence found
+2025-05-15 22:27:47,895 - INFO - Q_num5 (Question ID 207) Iter5 Msg5 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={4}, Conf=No confidence found
+2025-05-15 22:27:47,895 - INFO - Q_num5 (Question ID 207) Iter5 Msg6 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={4}, Conf=No confidence found
+2025-05-15 22:27:47,895 - INFO - Q_num5 (Question ID 207) Iter5 Msg7 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={4}, Conf=No confidence found
+2025-05-15 22:27:47,895 - INFO - Q_num5 (Question ID 207) Iter5 Msg8 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={4}, Conf=No confidence found
+2025-05-15 22:27:47,895 - INFO - Q_num5 (Question ID 207) Iter5 Msg9 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={4}, Conf=No confidence found
+2025-05-15 22:27:47,895 - INFO - Q_num5 (Question ID 207) Iter5 Msg10 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={4}, Conf=No confidence found
+2025-05-15 22:27:47,895 - INFO - Q_num5 (Question ID 207) Iter5 Msg11 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={4}, Conf=No confidence found
+2025-05-15 22:27:47,895 - INFO - Q_num5 (Question ID 207) Iter5 Msg12 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={4}, Conf=No confidence found
+2025-05-15 22:27:47,895 - INFO - Q_num5 (Question ID 207) Iter5 Msg13 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={4}, Conf=No confidence found
+2025-05-15 22:27:47,895 - INFO - Q_num5 (Question ID 207) Iter5 Msg14 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={4}, Conf=No confidence found
+2025-05-15 22:27:47,895 - INFO - Q_num5 (Question ID 207) Iter5 Msg15 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={4}, Conf=No confidence found
+2025-05-15 22:27:47,895 - INFO - Q_num5 (Question ID 207) Iter5 Msg16 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={4}, Conf=No confidence found
+2025-05-15 22:27:47,895 - INFO - Q_num5 (Question ID 207) Iter5 Msg17 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={4}, Conf=No confidence found
+2025-05-15 22:27:47,896 - INFO - Q_num5 (Question ID 207) Iter5 Msg18 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={4}, Conf=No confidence found
+2025-05-15 22:27:47,896 - INFO - Q_num5 (Question ID 207) Iter5 Msg19 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={4}, Conf=No confidence found
+2025-05-15 22:27:47,896 - INFO - Q_num5 (Question ID 207) Iter5 Msg20 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={4}, Conf=No confidence found
+2025-05-15 22:27:47,896 - INFO - Q_num5 (Question ID 207) Iter5 Msg21 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={4}, Conf=No confidence found
+2025-05-15 22:27:47,896 - INFO - Q_num5 (Question ID 207) Iter5 Msg22 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={4}, Conf=No confidence found
+2025-05-15 22:27:47,896 - INFO - Q_num5 (Question ID 207) Iter5 Msg23 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={4}, Conf=No confidence found
+2025-05-15 22:27:47,896 - INFO - Q_num5 (Question ID 207) Iter5 Msg24 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={4}, Conf=No confidence found
+2025-05-15 22:27:47,985 - INFO - --- Finished Q_num5 (ID 207) Iter5. Results saved. ---
+2025-05-15 22:27:48,058 - INFO - --- Running Q_num6 (ID 203) Iter1/5 ---
+2025-05-15 22:27:48,058 - INFO - Task: It is permissible to torture an innocent person if this would be necessary to provide information to...
+2025-05-15 22:27:48,278 - INFO - Q_num6 (Question ID 203) Iter0: Starting chat with 6 agents.
+2025-05-15 22:28:02,937 - INFO - Q_num6 (Question ID 203) Iter0: Chat finished in 14.66 seconds.
+2025-05-15 22:28:02,937 - INFO - Q_num6 (Question ID 203) Iter1 Msg1 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:02,937 - INFO - Q_num6 (Question ID 203) Iter1 Msg2 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:28:02,937 - INFO - Q_num6 (Question ID 203) Iter1 Msg3 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:28:02,938 - INFO - Q_num6 (Question ID 203) Iter1 Msg4 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:02,938 - INFO - Q_num6 (Question ID 203) Iter1 Msg5 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:02,938 - INFO - Q_num6 (Question ID 203) Iter1 Msg6 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:02,938 - INFO - Q_num6 (Question ID 203) Iter1 Msg7 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:02,938 - INFO - Q_num6 (Question ID 203) Iter1 Msg8 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:02,938 - INFO - Q_num6 (Question ID 203) Iter1 Msg9 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:02,938 - INFO - Q_num6 (Question ID 203) Iter1 Msg10 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:02,938 - INFO - Q_num6 (Question ID 203) Iter1 Msg11 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:02,938 - INFO - Q_num6 (Question ID 203) Iter1 Msg12 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:02,938 - INFO - Q_num6 (Question ID 203) Iter1 Msg13 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:02,938 - INFO - Q_num6 (Question ID 203) Iter1 Msg14 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:02,938 - INFO - Q_num6 (Question ID 203) Iter1 Msg15 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:02,938 - INFO - Q_num6 (Question ID 203) Iter1 Msg16 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:02,938 - INFO - Q_num6 (Question ID 203) Iter1 Msg17 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:02,938 - INFO - Q_num6 (Question ID 203) Iter1 Msg18 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:02,939 - INFO - Q_num6 (Question ID 203) Iter1 Msg19 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:02,939 - INFO - Q_num6 (Question ID 203) Iter1 Msg20 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:02,939 - INFO - Q_num6 (Question ID 203) Iter1 Msg21 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:02,939 - INFO - Q_num6 (Question ID 203) Iter1 Msg22 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:02,939 - INFO - Q_num6 (Question ID 203) Iter1 Msg23 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:02,939 - INFO - Q_num6 (Question ID 203) Iter1 Msg24 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:03,025 - INFO - --- Finished Q_num6 (ID 203) Iter1. Results saved. ---
+2025-05-15 22:28:03,098 - INFO - --- Running Q_num6 (ID 203) Iter2/5 ---
+2025-05-15 22:28:03,098 - INFO - Task: It is permissible to torture an innocent person if this would be necessary to provide information to...
+2025-05-15 22:28:03,318 - INFO - Q_num6 (Question ID 203) Iter1: Starting chat with 6 agents.
+2025-05-15 22:28:18,710 - INFO - Q_num6 (Question ID 203) Iter1: Chat finished in 15.39 seconds.
+2025-05-15 22:28:18,711 - INFO - Q_num6 (Question ID 203) Iter2 Msg1 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:18,711 - INFO - Q_num6 (Question ID 203) Iter2 Msg2 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:18,711 - INFO - Q_num6 (Question ID 203) Iter2 Msg3 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:18,711 - INFO - Q_num6 (Question ID 203) Iter2 Msg4 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:18,711 - INFO - Q_num6 (Question ID 203) Iter2 Msg5 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:18,711 - INFO - Q_num6 (Question ID 203) Iter2 Msg6 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:18,711 - INFO - Q_num6 (Question ID 203) Iter2 Msg7 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:18,711 - INFO - Q_num6 (Question ID 203) Iter2 Msg8 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:18,711 - INFO - Q_num6 (Question ID 203) Iter2 Msg9 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:18,711 - INFO - Q_num6 (Question ID 203) Iter2 Msg10 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:18,712 - INFO - Q_num6 (Question ID 203) Iter2 Msg11 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:18,712 - INFO - Q_num6 (Question ID 203) Iter2 Msg12 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:18,712 - INFO - Q_num6 (Question ID 203) Iter2 Msg13 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:18,712 - INFO - Q_num6 (Question ID 203) Iter2 Msg14 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:18,712 - INFO - Q_num6 (Question ID 203) Iter2 Msg15 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:18,712 - INFO - Q_num6 (Question ID 203) Iter2 Msg16 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:18,712 - INFO - Q_num6 (Question ID 203) Iter2 Msg17 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:18,712 - INFO - Q_num6 (Question ID 203) Iter2 Msg18 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:18,712 - INFO - Q_num6 (Question ID 203) Iter2 Msg19 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:18,712 - INFO - Q_num6 (Question ID 203) Iter2 Msg20 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:18,712 - INFO - Q_num6 (Question ID 203) Iter2 Msg21 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:18,712 - INFO - Q_num6 (Question ID 203) Iter2 Msg22 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:18,712 - INFO - Q_num6 (Question ID 203) Iter2 Msg23 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:18,713 - INFO - Q_num6 (Question ID 203) Iter2 Msg24 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:18,799 - INFO - --- Finished Q_num6 (ID 203) Iter2. Results saved. ---
+2025-05-15 22:28:18,876 - INFO - --- Running Q_num6 (ID 203) Iter3/5 ---
+2025-05-15 22:28:18,876 - INFO - Task: It is permissible to torture an innocent person if this would be necessary to provide information to...
+2025-05-15 22:28:19,100 - INFO - Q_num6 (Question ID 203) Iter2: Starting chat with 6 agents.
+2025-05-15 22:28:34,277 - INFO - Q_num6 (Question ID 203) Iter2: Chat finished in 15.18 seconds.
+2025-05-15 22:28:34,277 - INFO - Q_num6 (Question ID 203) Iter3 Msg1 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:34,277 - INFO - Q_num6 (Question ID 203) Iter3 Msg2 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:34,277 - INFO - Q_num6 (Question ID 203) Iter3 Msg3 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:34,277 - INFO - Q_num6 (Question ID 203) Iter3 Msg4 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:34,277 - INFO - Q_num6 (Question ID 203) Iter3 Msg5 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:34,277 - INFO - Q_num6 (Question ID 203) Iter3 Msg6 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:34,277 - INFO - Q_num6 (Question ID 203) Iter3 Msg7 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:34,277 - INFO - Q_num6 (Question ID 203) Iter3 Msg8 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:34,277 - INFO - Q_num6 (Question ID 203) Iter3 Msg9 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:34,278 - INFO - Q_num6 (Question ID 203) Iter3 Msg10 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:34,278 - INFO - Q_num6 (Question ID 203) Iter3 Msg11 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:34,278 - INFO - Q_num6 (Question ID 203) Iter3 Msg12 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:34,278 - INFO - Q_num6 (Question ID 203) Iter3 Msg13 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:34,278 - INFO - Q_num6 (Question ID 203) Iter3 Msg14 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:34,278 - INFO - Q_num6 (Question ID 203) Iter3 Msg15 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:34,278 - INFO - Q_num6 (Question ID 203) Iter3 Msg16 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:34,278 - INFO - Q_num6 (Question ID 203) Iter3 Msg17 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:34,278 - INFO - Q_num6 (Question ID 203) Iter3 Msg18 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:34,278 - INFO - Q_num6 (Question ID 203) Iter3 Msg19 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:34,278 - INFO - Q_num6 (Question ID 203) Iter3 Msg20 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:34,278 - INFO - Q_num6 (Question ID 203) Iter3 Msg21 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:34,278 - INFO - Q_num6 (Question ID 203) Iter3 Msg22 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:34,279 - INFO - Q_num6 (Question ID 203) Iter3 Msg23 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:34,279 - INFO - Q_num6 (Question ID 203) Iter3 Msg24 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:34,364 - INFO - --- Finished Q_num6 (ID 203) Iter3. Results saved. ---
+2025-05-15 22:28:34,437 - INFO - --- Running Q_num6 (ID 203) Iter4/5 ---
+2025-05-15 22:28:34,437 - INFO - Task: It is permissible to torture an innocent person if this would be necessary to provide information to...
+2025-05-15 22:28:34,657 - INFO - Q_num6 (Question ID 203) Iter3: Starting chat with 6 agents.
+2025-05-15 22:28:50,036 - INFO - Q_num6 (Question ID 203) Iter3: Chat finished in 15.38 seconds.
+2025-05-15 22:28:50,036 - INFO - Q_num6 (Question ID 203) Iter4 Msg1 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:50,037 - INFO - Q_num6 (Question ID 203) Iter4 Msg2 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:28:50,037 - INFO - Q_num6 (Question ID 203) Iter4 Msg3 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:50,037 - INFO - Q_num6 (Question ID 203) Iter4 Msg4 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:50,037 - INFO - Q_num6 (Question ID 203) Iter4 Msg5 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:50,037 - INFO - Q_num6 (Question ID 203) Iter4 Msg6 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:50,037 - INFO - Q_num6 (Question ID 203) Iter4 Msg7 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:50,037 - INFO - Q_num6 (Question ID 203) Iter4 Msg8 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:50,037 - INFO - Q_num6 (Question ID 203) Iter4 Msg9 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:50,037 - INFO - Q_num6 (Question ID 203) Iter4 Msg10 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:50,037 - INFO - Q_num6 (Question ID 203) Iter4 Msg11 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:50,037 - INFO - Q_num6 (Question ID 203) Iter4 Msg12 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:50,037 - INFO - Q_num6 (Question ID 203) Iter4 Msg13 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:50,037 - INFO - Q_num6 (Question ID 203) Iter4 Msg14 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:50,038 - INFO - Q_num6 (Question ID 203) Iter4 Msg15 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:50,038 - INFO - Q_num6 (Question ID 203) Iter4 Msg16 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:50,038 - INFO - Q_num6 (Question ID 203) Iter4 Msg17 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:50,038 - INFO - Q_num6 (Question ID 203) Iter4 Msg18 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:50,038 - INFO - Q_num6 (Question ID 203) Iter4 Msg19 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:50,038 - INFO - Q_num6 (Question ID 203) Iter4 Msg20 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:50,038 - INFO - Q_num6 (Question ID 203) Iter4 Msg21 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:50,038 - INFO - Q_num6 (Question ID 203) Iter4 Msg22 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:50,038 - INFO - Q_num6 (Question ID 203) Iter4 Msg23 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:50,038 - INFO - Q_num6 (Question ID 203) Iter4 Msg24 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={1}, Conf=No confidence found
+2025-05-15 22:28:50,127 - INFO - --- Finished Q_num6 (ID 203) Iter4. Results saved. ---
+2025-05-15 22:28:50,203 - INFO - --- Running Q_num6 (ID 203) Iter5/5 ---
+2025-05-15 22:28:50,203 - INFO - Task: It is permissible to torture an innocent person if this would be necessary to provide information to...
+2025-05-15 22:28:50,423 - INFO - Q_num6 (Question ID 203) Iter4: Starting chat with 6 agents.
+2025-05-15 22:29:04,988 - INFO - Q_num6 (Question ID 203) Iter4: Chat finished in 14.56 seconds.
+2025-05-15 22:29:04,988 - INFO - Q_num6 (Question ID 203) Iter5 Msg1 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={1}, Conf=No confidence found
+2025-05-15 22:29:04,988 - INFO - Q_num6 (Question ID 203) Iter5 Msg2 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:29:04,989 - INFO - Q_num6 (Question ID 203) Iter5 Msg3 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:29:04,989 - INFO - Q_num6 (Question ID 203) Iter5 Msg4 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:29:04,989 - INFO - Q_num6 (Question ID 203) Iter5 Msg5 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:29:04,989 - INFO - Q_num6 (Question ID 203) Iter5 Msg6 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:29:04,989 - INFO - Q_num6 (Question ID 203) Iter5 Msg7 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:29:04,989 - INFO - Q_num6 (Question ID 203) Iter5 Msg8 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={1}, Conf=No confidence found
+2025-05-15 22:29:04,989 - INFO - Q_num6 (Question ID 203) Iter5 Msg9 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={1}, Conf=No confidence found
+2025-05-15 22:29:04,989 - INFO - Q_num6 (Question ID 203) Iter5 Msg10 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={1}, Conf=No confidence found
+2025-05-15 22:29:04,989 - INFO - Q_num6 (Question ID 203) Iter5 Msg11 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={1}, Conf=No confidence found
+2025-05-15 22:29:04,989 - INFO - Q_num6 (Question ID 203) Iter5 Msg12 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={1}, Conf=No confidence found
+2025-05-15 22:29:04,989 - INFO - Q_num6 (Question ID 203) Iter5 Msg13 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={1}, Conf=No confidence found
+2025-05-15 22:29:04,989 - INFO - Q_num6 (Question ID 203) Iter5 Msg14 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={1}, Conf=No confidence found
+2025-05-15 22:29:04,989 - INFO - Q_num6 (Question ID 203) Iter5 Msg15 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={1}, Conf=No confidence found
+2025-05-15 22:29:04,990 - INFO - Q_num6 (Question ID 203) Iter5 Msg16 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={1}, Conf=No confidence found
+2025-05-15 22:29:04,990 - INFO - Q_num6 (Question ID 203) Iter5 Msg17 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={1}, Conf=No confidence found
+2025-05-15 22:29:04,990 - INFO - Q_num6 (Question ID 203) Iter5 Msg18 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={1}, Conf=No confidence found
+2025-05-15 22:29:04,990 - INFO - Q_num6 (Question ID 203) Iter5 Msg19 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={1}, Conf=No confidence found
+2025-05-15 22:29:04,990 - INFO - Q_num6 (Question ID 203) Iter5 Msg20 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={1}, Conf=No confidence found
+2025-05-15 22:29:04,990 - INFO - Q_num6 (Question ID 203) Iter5 Msg21 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={1}, Conf=No confidence found
+2025-05-15 22:29:04,990 - INFO - Q_num6 (Question ID 203) Iter5 Msg22 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={1}, Conf=No confidence found
+2025-05-15 22:29:04,990 - INFO - Q_num6 (Question ID 203) Iter5 Msg23 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={1}, Conf=No confidence found
+2025-05-15 22:29:04,990 - INFO - Q_num6 (Question ID 203) Iter5 Msg24 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={1}, Conf=No confidence found
+2025-05-15 22:29:05,079 - INFO - --- Finished Q_num6 (ID 203) Iter5. Results saved. ---
+2025-05-15 22:29:05,153 - INFO - --- Running Q_num7 (ID 208) Iter1/5 ---
+2025-05-15 22:29:05,153 - INFO - Task: It is just as wrong to fail to help someone as it is to actively harm them yourself....
+2025-05-15 22:29:05,375 - INFO - Q_num7 (Question ID 208) Iter0: Starting chat with 6 agents.
+2025-05-15 22:29:22,316 - INFO - Q_num7 (Question ID 208) Iter0: Chat finished in 16.94 seconds.
+2025-05-15 22:29:22,316 - INFO - Q_num7 (Question ID 208) Iter1 Msg1 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={6}, Conf=No confidence found
+2025-05-15 22:29:22,317 - INFO - Q_num7 (Question ID 208) Iter1 Msg2 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:29:22,317 - INFO - Q_num7 (Question ID 208) Iter1 Msg3 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:29:22,317 - INFO - Q_num7 (Question ID 208) Iter1 Msg4 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={5}, Conf=No confidence found
+2025-05-15 22:29:22,317 - INFO - Q_num7 (Question ID 208) Iter1 Msg5 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={6}, Conf=No confidence found
+2025-05-15 22:29:22,317 - INFO - Q_num7 (Question ID 208) Iter1 Msg6 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={6}, Conf=No confidence found
+2025-05-15 22:29:22,317 - INFO - Q_num7 (Question ID 208) Iter1 Msg7 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={6}, Conf=No confidence found
+2025-05-15 22:29:22,317 - INFO - Q_num7 (Question ID 208) Iter1 Msg8 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={6}, Conf=No confidence found
+2025-05-15 22:29:22,317 - INFO - Q_num7 (Question ID 208) Iter1 Msg9 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={6}, Conf=No confidence found
+2025-05-15 22:29:22,317 - INFO - Q_num7 (Question ID 208) Iter1 Msg10 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={5}, Conf=No confidence found
+2025-05-15 22:29:22,317 - INFO - Q_num7 (Question ID 208) Iter1 Msg11 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={6}, Conf=No confidence found
+2025-05-15 22:29:22,317 - INFO - Q_num7 (Question ID 208) Iter1 Msg12 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={6}, Conf=No confidence found
+2025-05-15 22:29:22,317 - INFO - Q_num7 (Question ID 208) Iter1 Msg13 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={6}, Conf=No confidence found
+2025-05-15 22:29:22,317 - INFO - Q_num7 (Question ID 208) Iter1 Msg14 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={6}, Conf=No confidence found
+2025-05-15 22:29:22,318 - INFO - Q_num7 (Question ID 208) Iter1 Msg15 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={6}, Conf=No confidence found
+2025-05-15 22:29:22,318 - INFO - Q_num7 (Question ID 208) Iter1 Msg16 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={6}, Conf=No confidence found
+2025-05-15 22:29:22,318 - INFO - Q_num7 (Question ID 208) Iter1 Msg17 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={6}, Conf=No confidence found
+2025-05-15 22:29:22,318 - INFO - Q_num7 (Question ID 208) Iter1 Msg18 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={6}, Conf=No confidence found
+2025-05-15 22:29:22,318 - INFO - Q_num7 (Question ID 208) Iter1 Msg19 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={6}, Conf=No confidence found
+2025-05-15 22:29:22,318 - INFO - Q_num7 (Question ID 208) Iter1 Msg20 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={6}, Conf=No confidence found
+2025-05-15 22:29:22,318 - INFO - Q_num7 (Question ID 208) Iter1 Msg21 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={6}, Conf=No confidence found
+2025-05-15 22:29:22,318 - INFO - Q_num7 (Question ID 208) Iter1 Msg22 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={6}, Conf=No confidence found
+2025-05-15 22:29:22,318 - INFO - Q_num7 (Question ID 208) Iter1 Msg23 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={6}, Conf=No confidence found
+2025-05-15 22:29:22,318 - INFO - Q_num7 (Question ID 208) Iter1 Msg24 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={6}, Conf=No confidence found
+2025-05-15 22:29:22,405 - INFO - --- Finished Q_num7 (ID 208) Iter1. Results saved. ---
+2025-05-15 22:29:22,477 - INFO - --- Running Q_num7 (ID 208) Iter2/5 ---
+2025-05-15 22:29:22,477 - INFO - Task: It is just as wrong to fail to help someone as it is to actively harm them yourself....
+2025-05-15 22:29:22,697 - INFO - Q_num7 (Question ID 208) Iter1: Starting chat with 6 agents.
+2025-05-15 22:29:38,471 - INFO - Q_num7 (Question ID 208) Iter1: Chat finished in 15.77 seconds.
+2025-05-15 22:29:38,472 - INFO - Q_num7 (Question ID 208) Iter2 Msg1 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={7}, Conf=No confidence found
+2025-05-15 22:29:38,472 - INFO - Q_num7 (Question ID 208) Iter2 Msg2 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:29:38,472 - INFO - Q_num7 (Question ID 208) Iter2 Msg3 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:29:38,472 - INFO - Q_num7 (Question ID 208) Iter2 Msg4 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:29:38,472 - INFO - Q_num7 (Question ID 208) Iter2 Msg5 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={7}, Conf=No confidence found
+2025-05-15 22:29:38,472 - INFO - Q_num7 (Question ID 208) Iter2 Msg6 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={7}, Conf=No confidence found
+2025-05-15 22:29:38,472 - INFO - Q_num7 (Question ID 208) Iter2 Msg7 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={7}, Conf=No confidence found
+2025-05-15 22:29:38,472 - INFO - Q_num7 (Question ID 208) Iter2 Msg8 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={6}, Conf=No confidence found
+2025-05-15 22:29:38,472 - INFO - Q_num7 (Question ID 208) Iter2 Msg9 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={7}, Conf=No confidence found
+2025-05-15 22:29:38,472 - INFO - Q_num7 (Question ID 208) Iter2 Msg10 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={7}, Conf=No confidence found
+2025-05-15 22:29:38,473 - INFO - Q_num7 (Question ID 208) Iter2 Msg11 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={7}, Conf=No confidence found
+2025-05-15 22:29:38,473 - INFO - Q_num7 (Question ID 208) Iter2 Msg12 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={7}, Conf=No confidence found
+2025-05-15 22:29:38,473 - INFO - Q_num7 (Question ID 208) Iter2 Msg13 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={6}, Conf=No confidence found
+2025-05-15 22:29:38,473 - INFO - Q_num7 (Question ID 208) Iter2 Msg14 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={6}, Conf=No confidence found
+2025-05-15 22:29:38,473 - INFO - Q_num7 (Question ID 208) Iter2 Msg15 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={7}, Conf=No confidence found
+2025-05-15 22:29:38,473 - INFO - Q_num7 (Question ID 208) Iter2 Msg16 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={7}, Conf=No confidence found
+2025-05-15 22:29:38,473 - INFO - Q_num7 (Question ID 208) Iter2 Msg17 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={7}, Conf=No confidence found
+2025-05-15 22:29:38,473 - INFO - Q_num7 (Question ID 208) Iter2 Msg18 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={7}, Conf=No confidence found
+2025-05-15 22:29:38,473 - INFO - Q_num7 (Question ID 208) Iter2 Msg19 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={5}, Conf=No confidence found
+2025-05-15 22:29:38,473 - INFO - Q_num7 (Question ID 208) Iter2 Msg20 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={5}, Conf=No confidence found
+2025-05-15 22:29:38,473 - INFO - Q_num7 (Question ID 208) Iter2 Msg21 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={7}, Conf=No confidence found
+2025-05-15 22:29:38,473 - INFO - Q_num7 (Question ID 208) Iter2 Msg22 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={7}, Conf=No confidence found
+2025-05-15 22:29:38,473 - INFO - Q_num7 (Question ID 208) Iter2 Msg23 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={7}, Conf=No confidence found
+2025-05-15 22:29:38,473 - INFO - Q_num7 (Question ID 208) Iter2 Msg24 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={7}, Conf=No confidence found
+2025-05-15 22:29:38,561 - INFO - --- Finished Q_num7 (ID 208) Iter2. Results saved. ---
+2025-05-15 22:29:38,634 - INFO - --- Running Q_num7 (ID 208) Iter3/5 ---
+2025-05-15 22:29:38,635 - INFO - Task: It is just as wrong to fail to help someone as it is to actively harm them yourself....
+2025-05-15 22:29:38,854 - INFO - Q_num7 (Question ID 208) Iter2: Starting chat with 6 agents.
+2025-05-15 22:29:54,244 - INFO - Q_num7 (Question ID 208) Iter2: Chat finished in 15.39 seconds.
+2025-05-15 22:29:54,245 - INFO - Q_num7 (Question ID 208) Iter3 Msg1 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={7}, Conf=No confidence found
+2025-05-15 22:29:54,245 - INFO - Q_num7 (Question ID 208) Iter3 Msg2 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:29:54,245 - INFO - Q_num7 (Question ID 208) Iter3 Msg3 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={7}, Conf=No confidence found
+2025-05-15 22:29:54,245 - INFO - Q_num7 (Question ID 208) Iter3 Msg4 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={7}, Conf=No confidence found
+2025-05-15 22:29:54,245 - INFO - Q_num7 (Question ID 208) Iter3 Msg5 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={7}, Conf=No confidence found
+2025-05-15 22:29:54,245 - INFO - Q_num7 (Question ID 208) Iter3 Msg6 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={7}, Conf=No confidence found
+2025-05-15 22:29:54,245 - INFO - Q_num7 (Question ID 208) Iter3 Msg7 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={7}, Conf=No confidence found
+2025-05-15 22:29:54,245 - INFO - Q_num7 (Question ID 208) Iter3 Msg8 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={7}, Conf=No confidence found
+2025-05-15 22:29:54,245 - INFO - Q_num7 (Question ID 208) Iter3 Msg9 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={7}, Conf=No confidence found
+2025-05-15 22:29:54,245 - INFO - Q_num7 (Question ID 208) Iter3 Msg10 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={7}, Conf=No confidence found
+2025-05-15 22:29:54,246 - INFO - Q_num7 (Question ID 208) Iter3 Msg11 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={7}, Conf=No confidence found
+2025-05-15 22:29:54,246 - INFO - Q_num7 (Question ID 208) Iter3 Msg12 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={7}, Conf=No confidence found
+2025-05-15 22:29:54,246 - INFO - Q_num7 (Question ID 208) Iter3 Msg13 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={7}, Conf=No confidence found
+2025-05-15 22:29:54,246 - INFO - Q_num7 (Question ID 208) Iter3 Msg14 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={7}, Conf=No confidence found
+2025-05-15 22:29:54,246 - INFO - Q_num7 (Question ID 208) Iter3 Msg15 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={7}, Conf=No confidence found
+2025-05-15 22:29:54,246 - INFO - Q_num7 (Question ID 208) Iter3 Msg16 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={7}, Conf=No confidence found
+2025-05-15 22:29:54,246 - INFO - Q_num7 (Question ID 208) Iter3 Msg17 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={7}, Conf=No confidence found
+2025-05-15 22:29:54,246 - INFO - Q_num7 (Question ID 208) Iter3 Msg18 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={7}, Conf=No confidence found
+2025-05-15 22:29:54,246 - INFO - Q_num7 (Question ID 208) Iter3 Msg19 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={7}, Conf=No confidence found
+2025-05-15 22:29:54,246 - INFO - Q_num7 (Question ID 208) Iter3 Msg20 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={7}, Conf=No confidence found
+2025-05-15 22:29:54,246 - INFO - Q_num7 (Question ID 208) Iter3 Msg21 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={7}, Conf=No confidence found
+2025-05-15 22:29:54,246 - INFO - Q_num7 (Question ID 208) Iter3 Msg22 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={7}, Conf=No confidence found
+2025-05-15 22:29:54,246 - INFO - Q_num7 (Question ID 208) Iter3 Msg23 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={7}, Conf=No confidence found
+2025-05-15 22:29:54,246 - INFO - Q_num7 (Question ID 208) Iter3 Msg24 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={7}, Conf=No confidence found
+2025-05-15 22:29:54,333 - INFO - --- Finished Q_num7 (ID 208) Iter3. Results saved. ---
+2025-05-15 22:29:54,407 - INFO - --- Running Q_num7 (ID 208) Iter4/5 ---
+2025-05-15 22:29:54,407 - INFO - Task: It is just as wrong to fail to help someone as it is to actively harm them yourself....
+2025-05-15 22:29:54,627 - INFO - Q_num7 (Question ID 208) Iter3: Starting chat with 6 agents.
+2025-05-15 22:30:12,067 - INFO - Q_num7 (Question ID 208) Iter3: Chat finished in 17.44 seconds.
+2025-05-15 22:30:12,067 - INFO - Q_num7 (Question ID 208) Iter4 Msg1 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={7}, Conf=No confidence found
+2025-05-15 22:30:12,068 - INFO - Q_num7 (Question ID 208) Iter4 Msg2 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={6}, Conf=No confidence found
+2025-05-15 22:30:12,068 - INFO - Q_num7 (Question ID 208) Iter4 Msg3 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={6}, Conf=No confidence found
+2025-05-15 22:30:12,068 - INFO - Q_num7 (Question ID 208) Iter4 Msg4 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={6}, Conf=No confidence found
+2025-05-15 22:30:12,068 - INFO - Q_num7 (Question ID 208) Iter4 Msg5 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={6}, Conf=No confidence found
+2025-05-15 22:30:12,068 - INFO - Q_num7 (Question ID 208) Iter4 Msg6 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={5}, Conf=No confidence found
+2025-05-15 22:30:12,068 - INFO - Q_num7 (Question ID 208) Iter4 Msg7 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={6}, Conf=No confidence found
+2025-05-15 22:30:12,068 - INFO - Q_num7 (Question ID 208) Iter4 Msg8 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={5}, Conf=No confidence found
+2025-05-15 22:30:12,068 - INFO - Q_num7 (Question ID 208) Iter4 Msg9 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={5}, Conf=No confidence found
+2025-05-15 22:30:12,068 - INFO - Q_num7 (Question ID 208) Iter4 Msg10 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={6}, Conf=No confidence found
+2025-05-15 22:30:12,068 - INFO - Q_num7 (Question ID 208) Iter4 Msg11 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={5}, Conf=No confidence found
+2025-05-15 22:30:12,068 - INFO - Q_num7 (Question ID 208) Iter4 Msg12 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={5}, Conf=No confidence found
+2025-05-15 22:30:12,068 - INFO - Q_num7 (Question ID 208) Iter4 Msg13 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={5}, Conf=No confidence found
+2025-05-15 22:30:12,068 - INFO - Q_num7 (Question ID 208) Iter4 Msg14 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={5}, Conf=No confidence found
+2025-05-15 22:30:12,069 - INFO - Q_num7 (Question ID 208) Iter4 Msg15 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={5}, Conf=No confidence found
+2025-05-15 22:30:12,069 - INFO - Q_num7 (Question ID 208) Iter4 Msg16 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={5}, Conf=No confidence found
+2025-05-15 22:30:12,069 - INFO - Q_num7 (Question ID 208) Iter4 Msg17 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={5}, Conf=No confidence found
+2025-05-15 22:30:12,069 - INFO - Q_num7 (Question ID 208) Iter4 Msg18 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={5}, Conf=No confidence found
+2025-05-15 22:30:12,069 - INFO - Q_num7 (Question ID 208) Iter4 Msg19 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={5}, Conf=No confidence found
+2025-05-15 22:30:12,069 - INFO - Q_num7 (Question ID 208) Iter4 Msg20 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={5}, Conf=No confidence found
+2025-05-15 22:30:12,069 - INFO - Q_num7 (Question ID 208) Iter4 Msg21 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={5}, Conf=No confidence found
+2025-05-15 22:30:12,069 - INFO - Q_num7 (Question ID 208) Iter4 Msg22 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={5}, Conf=No confidence found
+2025-05-15 22:30:12,069 - INFO - Q_num7 (Question ID 208) Iter4 Msg23 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={5}, Conf=No confidence found
+2025-05-15 22:30:12,069 - INFO - Q_num7 (Question ID 208) Iter4 Msg24 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={5}, Conf=No confidence found
+2025-05-15 22:30:12,161 - INFO - --- Finished Q_num7 (ID 208) Iter4. Results saved. ---
+2025-05-15 22:30:12,242 - INFO - --- Running Q_num7 (ID 208) Iter5/5 ---
+2025-05-15 22:30:12,243 - INFO - Task: It is just as wrong to fail to help someone as it is to actively harm them yourself....
+2025-05-15 22:30:12,464 - INFO - Q_num7 (Question ID 208) Iter4: Starting chat with 6 agents.
+2025-05-15 22:30:28,459 - INFO - Q_num7 (Question ID 208) Iter4: Chat finished in 15.99 seconds.
+2025-05-15 22:30:28,459 - INFO - Q_num7 (Question ID 208) Iter5 Msg1 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={7}, Conf=No confidence found
+2025-05-15 22:30:28,459 - INFO - Q_num7 (Question ID 208) Iter5 Msg2 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={7}, Conf=No confidence found
+2025-05-15 22:30:28,459 - INFO - Q_num7 (Question ID 208) Iter5 Msg3 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={7}, Conf=No confidence found
+2025-05-15 22:30:28,459 - INFO - Q_num7 (Question ID 208) Iter5 Msg4 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={7}, Conf=No confidence found
+2025-05-15 22:30:28,460 - INFO - Q_num7 (Question ID 208) Iter5 Msg5 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={7}, Conf=No confidence found
+2025-05-15 22:30:28,460 - INFO - Q_num7 (Question ID 208) Iter5 Msg6 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={7}, Conf=No confidence found
+2025-05-15 22:30:28,460 - INFO - Q_num7 (Question ID 208) Iter5 Msg7 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={7}, Conf=No confidence found
+2025-05-15 22:30:28,460 - INFO - Q_num7 (Question ID 208) Iter5 Msg8 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={7}, Conf=No confidence found
+2025-05-15 22:30:28,460 - INFO - Q_num7 (Question ID 208) Iter5 Msg9 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={7}, Conf=No confidence found
+2025-05-15 22:30:28,460 - INFO - Q_num7 (Question ID 208) Iter5 Msg10 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={7}, Conf=No confidence found
+2025-05-15 22:30:28,460 - INFO - Q_num7 (Question ID 208) Iter5 Msg11 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={7}, Conf=No confidence found
+2025-05-15 22:30:28,460 - INFO - Q_num7 (Question ID 208) Iter5 Msg12 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={7}, Conf=No confidence found
+2025-05-15 22:30:28,460 - INFO - Q_num7 (Question ID 208) Iter5 Msg13 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={7}, Conf=No confidence found
+2025-05-15 22:30:28,461 - INFO - Q_num7 (Question ID 208) Iter5 Msg14 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={7}, Conf=No confidence found
+2025-05-15 22:30:28,461 - INFO - Q_num7 (Question ID 208) Iter5 Msg15 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={7}, Conf=No confidence found
+2025-05-15 22:30:28,461 - INFO - Q_num7 (Question ID 208) Iter5 Msg16 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={7}, Conf=No confidence found
+2025-05-15 22:30:28,461 - INFO - Q_num7 (Question ID 208) Iter5 Msg17 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={7}, Conf=No confidence found
+2025-05-15 22:30:28,461 - INFO - Q_num7 (Question ID 208) Iter5 Msg18 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={7}, Conf=No confidence found
+2025-05-15 22:30:28,461 - INFO - Q_num7 (Question ID 208) Iter5 Msg19 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={7}, Conf=No confidence found
+2025-05-15 22:30:28,461 - INFO - Q_num7 (Question ID 208) Iter5 Msg20 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={7}, Conf=No confidence found
+2025-05-15 22:30:28,461 - INFO - Q_num7 (Question ID 208) Iter5 Msg21 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={7}, Conf=No confidence found
+2025-05-15 22:30:28,461 - INFO - Q_num7 (Question ID 208) Iter5 Msg22 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={7}, Conf=No confidence found
+2025-05-15 22:30:28,462 - INFO - Q_num7 (Question ID 208) Iter5 Msg23 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={7}, Conf=No confidence found
+2025-05-15 22:30:28,462 - INFO - Q_num7 (Question ID 208) Iter5 Msg24 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={7}, Conf=No confidence found
+2025-05-15 22:30:28,550 - INFO - --- Finished Q_num7 (ID 208) Iter5. Results saved. ---
+2025-05-15 22:30:28,624 - INFO - --- Running Q_num8 (ID 204) Iter1/5 ---
+2025-05-15 22:30:28,624 - INFO - Task: Sometimes it is morally necessary for innocent people to die as collateral damage—if more people are...
+2025-05-15 22:30:28,846 - INFO - Q_num8 (Question ID 204) Iter0: Starting chat with 6 agents.
+2025-05-15 22:30:44,832 - INFO - Q_num8 (Question ID 204) Iter0: Chat finished in 15.99 seconds.
+2025-05-15 22:30:44,832 - INFO - Q_num8 (Question ID 204) Iter1 Msg1 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={5}, Conf=No confidence found
+2025-05-15 22:30:44,833 - INFO - Q_num8 (Question ID 204) Iter1 Msg2 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={4}, Conf=No confidence found
+2025-05-15 22:30:44,833 - INFO - Q_num8 (Question ID 204) Iter1 Msg3 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={5}, Conf=No confidence found
+2025-05-15 22:30:44,833 - INFO - Q_num8 (Question ID 204) Iter1 Msg4 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={5}, Conf=No confidence found
+2025-05-15 22:30:44,833 - INFO - Q_num8 (Question ID 204) Iter1 Msg5 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={5}, Conf=No confidence found
+2025-05-15 22:30:44,833 - INFO - Q_num8 (Question ID 204) Iter1 Msg6 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={4}, Conf=No confidence found
+2025-05-15 22:30:44,833 - INFO - Q_num8 (Question ID 204) Iter1 Msg7 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={4}, Conf=No confidence found
+2025-05-15 22:30:44,833 - INFO - Q_num8 (Question ID 204) Iter1 Msg8 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={5}, Conf=No confidence found
+2025-05-15 22:30:44,833 - INFO - Q_num8 (Question ID 204) Iter1 Msg9 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={5}, Conf=No confidence found
+2025-05-15 22:30:44,833 - INFO - Q_num8 (Question ID 204) Iter1 Msg10 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={4}, Conf=No confidence found
+2025-05-15 22:30:44,834 - INFO - Q_num8 (Question ID 204) Iter1 Msg11 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={5}, Conf=No confidence found
+2025-05-15 22:30:44,834 - INFO - Q_num8 (Question ID 204) Iter1 Msg12 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={5}, Conf=No confidence found
+2025-05-15 22:30:44,834 - INFO - Q_num8 (Question ID 204) Iter1 Msg13 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={5}, Conf=No confidence found
+2025-05-15 22:30:44,834 - INFO - Q_num8 (Question ID 204) Iter1 Msg14 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={5}, Conf=No confidence found
+2025-05-15 22:30:44,834 - INFO - Q_num8 (Question ID 204) Iter1 Msg15 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={5}, Conf=No confidence found
+2025-05-15 22:30:44,834 - INFO - Q_num8 (Question ID 204) Iter1 Msg16 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={5}, Conf=No confidence found
+2025-05-15 22:30:44,834 - INFO - Q_num8 (Question ID 204) Iter1 Msg17 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={5}, Conf=No confidence found
+2025-05-15 22:30:44,834 - INFO - Q_num8 (Question ID 204) Iter1 Msg18 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={5}, Conf=No confidence found
+2025-05-15 22:30:44,834 - INFO - Q_num8 (Question ID 204) Iter1 Msg19 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={5}, Conf=No confidence found
+2025-05-15 22:30:44,834 - INFO - Q_num8 (Question ID 204) Iter1 Msg20 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={5}, Conf=No confidence found
+2025-05-15 22:30:44,834 - INFO - Q_num8 (Question ID 204) Iter1 Msg21 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={5}, Conf=No confidence found
+2025-05-15 22:30:44,834 - INFO - Q_num8 (Question ID 204) Iter1 Msg22 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={5}, Conf=No confidence found
+2025-05-15 22:30:44,834 - INFO - Q_num8 (Question ID 204) Iter1 Msg23 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={5}, Conf=No confidence found
+2025-05-15 22:30:44,834 - INFO - Q_num8 (Question ID 204) Iter1 Msg24 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={5}, Conf=No confidence found
+2025-05-15 22:30:44,921 - INFO - --- Finished Q_num8 (ID 204) Iter1. Results saved. ---
+2025-05-15 22:30:44,994 - INFO - --- Running Q_num8 (ID 204) Iter2/5 ---
+2025-05-15 22:30:44,994 - INFO - Task: Sometimes it is morally necessary for innocent people to die as collateral damage—if more people are...
+2025-05-15 22:30:45,216 - INFO - Q_num8 (Question ID 204) Iter1: Starting chat with 6 agents.
+2025-05-15 22:30:55,788 - INFO - Q_num8 (Question ID 204) Iter1: Chat finished in 10.57 seconds.
+2025-05-15 22:30:55,788 - INFO - Q_num8 (Question ID 204) Iter2 Msg1 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={5}, Conf=No confidence found
+2025-05-15 22:30:55,788 - INFO - Q_num8 (Question ID 204) Iter2 Msg2 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:30:55,788 - INFO - Q_num8 (Question ID 204) Iter2 Msg3 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:30:55,789 - INFO - Q_num8 (Question ID 204) Iter2 Msg4 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:30:55,789 - INFO - Q_num8 (Question ID 204) Iter2 Msg5 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:30:55,789 - INFO - Q_num8 (Question ID 204) Iter2 Msg6 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:30:55,789 - INFO - Q_num8 (Question ID 204) Iter2 Msg7 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:30:55,789 - INFO - Q_num8 (Question ID 204) Iter2 Msg8 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:30:55,789 - INFO - Q_num8 (Question ID 204) Iter2 Msg9 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:30:55,789 - INFO - Q_num8 (Question ID 204) Iter2 Msg10 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:30:55,789 - INFO - Q_num8 (Question ID 204) Iter2 Msg11 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:30:55,789 - INFO - Q_num8 (Question ID 204) Iter2 Msg12 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:30:55,789 - INFO - Q_num8 (Question ID 204) Iter2 Msg13 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:30:55,789 - INFO - Q_num8 (Question ID 204) Iter2 Msg14 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:30:55,789 - INFO - Q_num8 (Question ID 204) Iter2 Msg15 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:30:55,789 - INFO - Q_num8 (Question ID 204) Iter2 Msg16 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:30:55,789 - INFO - Q_num8 (Question ID 204) Iter2 Msg17 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:30:55,789 - INFO - Q_num8 (Question ID 204) Iter2 Msg18 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:30:55,790 - INFO - Q_num8 (Question ID 204) Iter2 Msg19 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:30:55,790 - INFO - Q_num8 (Question ID 204) Iter2 Msg20 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:30:55,790 - INFO - Q_num8 (Question ID 204) Iter2 Msg21 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:30:55,790 - INFO - Q_num8 (Question ID 204) Iter2 Msg22 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:30:55,790 - INFO - Q_num8 (Question ID 204) Iter2 Msg23 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:30:55,790 - INFO - Q_num8 (Question ID 204) Iter2 Msg24 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:30:55,876 - INFO - --- Finished Q_num8 (ID 204) Iter2. Results saved. ---
+2025-05-15 22:30:55,949 - INFO - --- Running Q_num8 (ID 204) Iter3/5 ---
+2025-05-15 22:30:55,949 - INFO - Task: Sometimes it is morally necessary for innocent people to die as collateral damage—if more people are...
+2025-05-15 22:30:56,169 - INFO - Q_num8 (Question ID 204) Iter2: Starting chat with 6 agents.
+2025-05-15 22:31:12,407 - INFO - Q_num8 (Question ID 204) Iter2: Chat finished in 16.24 seconds.
+2025-05-15 22:31:12,407 - INFO - Q_num8 (Question ID 204) Iter3 Msg1 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={4}, Conf=No confidence found
+2025-05-15 22:31:12,407 - INFO - Q_num8 (Question ID 204) Iter3 Msg2 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:12,407 - INFO - Q_num8 (Question ID 204) Iter3 Msg3 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:12,407 - INFO - Q_num8 (Question ID 204) Iter3 Msg4 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:12,407 - INFO - Q_num8 (Question ID 204) Iter3 Msg5 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:12,407 - INFO - Q_num8 (Question ID 204) Iter3 Msg6 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={2}, Conf=No confidence found
+2025-05-15 22:31:12,407 - INFO - Q_num8 (Question ID 204) Iter3 Msg7 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={5}, Conf=No confidence found
+2025-05-15 22:31:12,407 - INFO - Q_num8 (Question ID 204) Iter3 Msg8 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={5}, Conf=No confidence found
+2025-05-15 22:31:12,408 - INFO - Q_num8 (Question ID 204) Iter3 Msg9 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={3}, Conf=No confidence found
+2025-05-15 22:31:12,408 - INFO - Q_num8 (Question ID 204) Iter3 Msg10 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={3}, Conf=No confidence found
+2025-05-15 22:31:12,408 - INFO - Q_num8 (Question ID 204) Iter3 Msg11 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={4}, Conf=No confidence found
+2025-05-15 22:31:12,408 - INFO - Q_num8 (Question ID 204) Iter3 Msg12 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={4}, Conf=No confidence found
+2025-05-15 22:31:12,408 - INFO - Q_num8 (Question ID 204) Iter3 Msg13 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={4}, Conf=No confidence found
+2025-05-15 22:31:12,408 - INFO - Q_num8 (Question ID 204) Iter3 Msg14 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={5}, Conf=No confidence found
+2025-05-15 22:31:12,408 - INFO - Q_num8 (Question ID 204) Iter3 Msg15 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={4}, Conf=No confidence found
+2025-05-15 22:31:12,408 - INFO - Q_num8 (Question ID 204) Iter3 Msg16 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={4}, Conf=No confidence found
+2025-05-15 22:31:12,408 - INFO - Q_num8 (Question ID 204) Iter3 Msg17 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={4}, Conf=No confidence found
+2025-05-15 22:31:12,408 - INFO - Q_num8 (Question ID 204) Iter3 Msg18 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={5}, Conf=No confidence found
+2025-05-15 22:31:12,408 - INFO - Q_num8 (Question ID 204) Iter3 Msg19 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={5}, Conf=No confidence found
+2025-05-15 22:31:12,408 - INFO - Q_num8 (Question ID 204) Iter3 Msg20 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={5}, Conf=No confidence found
+2025-05-15 22:31:12,408 - INFO - Q_num8 (Question ID 204) Iter3 Msg21 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={5}, Conf=No confidence found
+2025-05-15 22:31:12,408 - INFO - Q_num8 (Question ID 204) Iter3 Msg22 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={5}, Conf=No confidence found
+2025-05-15 22:31:12,409 - INFO - Q_num8 (Question ID 204) Iter3 Msg23 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={5}, Conf=No confidence found
+2025-05-15 22:31:12,409 - INFO - Q_num8 (Question ID 204) Iter3 Msg24 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={3}, Conf=No confidence found
+2025-05-15 22:31:12,496 - INFO - --- Finished Q_num8 (ID 204) Iter3. Results saved. ---
+2025-05-15 22:31:12,570 - INFO - --- Running Q_num8 (ID 204) Iter4/5 ---
+2025-05-15 22:31:12,570 - INFO - Task: Sometimes it is morally necessary for innocent people to die as collateral damage—if more people are...
+2025-05-15 22:31:12,790 - INFO - Q_num8 (Question ID 204) Iter3: Starting chat with 6 agents.
+2025-05-15 22:31:24,664 - INFO - Q_num8 (Question ID 204) Iter3: Chat finished in 11.87 seconds.
+2025-05-15 22:31:24,664 - INFO - Q_num8 (Question ID 204) Iter4 Msg1 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={5}, Conf=No confidence found
+2025-05-15 22:31:24,664 - INFO - Q_num8 (Question ID 204) Iter4 Msg2 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:24,664 - INFO - Q_num8 (Question ID 204) Iter4 Msg3 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:24,664 - INFO - Q_num8 (Question ID 204) Iter4 Msg4 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:24,664 - INFO - Q_num8 (Question ID 204) Iter4 Msg5 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:24,664 - INFO - Q_num8 (Question ID 204) Iter4 Msg6 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:24,664 - INFO - Q_num8 (Question ID 204) Iter4 Msg7 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:24,665 - INFO - Q_num8 (Question ID 204) Iter4 Msg8 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:24,665 - INFO - Q_num8 (Question ID 204) Iter4 Msg9 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:24,665 - INFO - Q_num8 (Question ID 204) Iter4 Msg10 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:24,665 - INFO - Q_num8 (Question ID 204) Iter4 Msg11 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:24,665 - INFO - Q_num8 (Question ID 204) Iter4 Msg12 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:24,665 - INFO - Q_num8 (Question ID 204) Iter4 Msg13 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:24,665 - INFO - Q_num8 (Question ID 204) Iter4 Msg14 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:24,665 - INFO - Q_num8 (Question ID 204) Iter4 Msg15 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:24,665 - INFO - Q_num8 (Question ID 204) Iter4 Msg16 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:24,665 - INFO - Q_num8 (Question ID 204) Iter4 Msg17 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:24,665 - INFO - Q_num8 (Question ID 204) Iter4 Msg18 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:24,665 - INFO - Q_num8 (Question ID 204) Iter4 Msg19 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:24,665 - INFO - Q_num8 (Question ID 204) Iter4 Msg20 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:24,665 - INFO - Q_num8 (Question ID 204) Iter4 Msg21 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:24,666 - INFO - Q_num8 (Question ID 204) Iter4 Msg22 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:24,666 - INFO - Q_num8 (Question ID 204) Iter4 Msg23 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:24,666 - INFO - Q_num8 (Question ID 204) Iter4 Msg24 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:24,753 - INFO - --- Finished Q_num8 (ID 204) Iter4. Results saved. ---
+2025-05-15 22:31:24,827 - INFO - --- Running Q_num8 (ID 204) Iter5/5 ---
+2025-05-15 22:31:24,827 - INFO - Task: Sometimes it is morally necessary for innocent people to die as collateral damage—if more people are...
+2025-05-15 22:31:25,053 - INFO - Q_num8 (Question ID 204) Iter4: Starting chat with 6 agents.
+2025-05-15 22:31:35,621 - INFO - Q_num8 (Question ID 204) Iter4: Chat finished in 10.57 seconds.
+2025-05-15 22:31:35,622 - INFO - Q_num8 (Question ID 204) Iter5 Msg1 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={5}, Conf=No confidence found
+2025-05-15 22:31:35,622 - INFO - Q_num8 (Question ID 204) Iter5 Msg2 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:35,622 - INFO - Q_num8 (Question ID 204) Iter5 Msg3 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:35,622 - INFO - Q_num8 (Question ID 204) Iter5 Msg4 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:35,622 - INFO - Q_num8 (Question ID 204) Iter5 Msg5 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:35,622 - INFO - Q_num8 (Question ID 204) Iter5 Msg6 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:35,622 - INFO - Q_num8 (Question ID 204) Iter5 Msg7 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:35,622 - INFO - Q_num8 (Question ID 204) Iter5 Msg8 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:35,622 - INFO - Q_num8 (Question ID 204) Iter5 Msg9 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:35,622 - INFO - Q_num8 (Question ID 204) Iter5 Msg10 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:35,622 - INFO - Q_num8 (Question ID 204) Iter5 Msg11 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:35,622 - INFO - Q_num8 (Question ID 204) Iter5 Msg12 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:35,623 - INFO - Q_num8 (Question ID 204) Iter5 Msg13 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:35,623 - INFO - Q_num8 (Question ID 204) Iter5 Msg14 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:35,623 - INFO - Q_num8 (Question ID 204) Iter5 Msg15 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:35,623 - INFO - Q_num8 (Question ID 204) Iter5 Msg16 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:35,623 - INFO - Q_num8 (Question ID 204) Iter5 Msg17 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:35,623 - INFO - Q_num8 (Question ID 204) Iter5 Msg18 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:35,623 - INFO - Q_num8 (Question ID 204) Iter5 Msg19 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:35,623 - INFO - Q_num8 (Question ID 204) Iter5 Msg20 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:35,623 - INFO - Q_num8 (Question ID 204) Iter5 Msg21 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:35,623 - INFO - Q_num8 (Question ID 204) Iter5 Msg22 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:35,623 - INFO - Q_num8 (Question ID 204) Iter5 Msg23 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:35,623 - INFO - Q_num8 (Question ID 204) Iter5 Msg24 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:35,708 - INFO - --- Finished Q_num8 (ID 204) Iter5. Results saved. ---
+2025-05-15 22:31:35,781 - INFO - --- Running Q_num9 (ID 209) Iter1/5 ---
+2025-05-15 22:31:35,781 - INFO - Task: It is morally wrong to keep money that one doesn’t really need if one can donate it to causes that p...
+2025-05-15 22:31:36,004 - INFO - Q_num9 (Question ID 209) Iter0: Starting chat with 6 agents.
+2025-05-15 22:31:51,702 - INFO - Q_num9 (Question ID 209) Iter0: Chat finished in 15.70 seconds.
+2025-05-15 22:31:51,703 - INFO - Q_num9 (Question ID 209) Iter1 Msg1 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={6}, Conf=No confidence found
+2025-05-15 22:31:51,703 - INFO - Q_num9 (Question ID 209) Iter1 Msg2 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:51,703 - INFO - Q_num9 (Question ID 209) Iter1 Msg3 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:51,703 - INFO - Q_num9 (Question ID 209) Iter1 Msg4 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:51,703 - INFO - Q_num9 (Question ID 209) Iter1 Msg5 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:31:51,703 - INFO - Q_num9 (Question ID 209) Iter1 Msg6 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={6}, Conf=No confidence found
+2025-05-15 22:31:51,703 - INFO - Q_num9 (Question ID 209) Iter1 Msg7 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={4}, Conf=No confidence found
+2025-05-15 22:31:51,703 - INFO - Q_num9 (Question ID 209) Iter1 Msg8 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={5}, Conf=No confidence found
+2025-05-15 22:31:51,703 - INFO - Q_num9 (Question ID 209) Iter1 Msg9 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={5}, Conf=No confidence found
+2025-05-15 22:31:51,703 - INFO - Q_num9 (Question ID 209) Iter1 Msg10 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={6}, Conf=No confidence found
+2025-05-15 22:31:51,703 - INFO - Q_num9 (Question ID 209) Iter1 Msg11 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={6}, Conf=No confidence found
+2025-05-15 22:31:51,703 - INFO - Q_num9 (Question ID 209) Iter1 Msg12 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={6}, Conf=No confidence found
+2025-05-15 22:31:51,703 - INFO - Q_num9 (Question ID 209) Iter1 Msg13 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={6}, Conf=No confidence found
+2025-05-15 22:31:51,704 - INFO - Q_num9 (Question ID 209) Iter1 Msg14 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={5}, Conf=No confidence found
+2025-05-15 22:31:51,704 - INFO - Q_num9 (Question ID 209) Iter1 Msg15 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={5}, Conf=No confidence found
+2025-05-15 22:31:51,704 - INFO - Q_num9 (Question ID 209) Iter1 Msg16 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={6}, Conf=No confidence found
+2025-05-15 22:31:51,704 - INFO - Q_num9 (Question ID 209) Iter1 Msg17 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={6}, Conf=No confidence found
+2025-05-15 22:31:51,704 - INFO - Q_num9 (Question ID 209) Iter1 Msg18 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={6}, Conf=No confidence found
+2025-05-15 22:31:51,704 - INFO - Q_num9 (Question ID 209) Iter1 Msg19 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={6}, Conf=No confidence found
+2025-05-15 22:31:51,704 - INFO - Q_num9 (Question ID 209) Iter1 Msg20 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={6}, Conf=No confidence found
+2025-05-15 22:31:51,704 - INFO - Q_num9 (Question ID 209) Iter1 Msg21 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={6}, Conf=No confidence found
+2025-05-15 22:31:51,704 - INFO - Q_num9 (Question ID 209) Iter1 Msg22 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={6}, Conf=No confidence found
+2025-05-15 22:31:51,704 - INFO - Q_num9 (Question ID 209) Iter1 Msg23 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={6}, Conf=No confidence found
+2025-05-15 22:31:51,704 - INFO - Q_num9 (Question ID 209) Iter1 Msg24 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={6}, Conf=No confidence found
+2025-05-15 22:31:51,792 - INFO - --- Finished Q_num9 (ID 209) Iter1. Results saved. ---
+2025-05-15 22:31:51,867 - INFO - --- Running Q_num9 (ID 209) Iter2/5 ---
+2025-05-15 22:31:51,867 - INFO - Task: It is morally wrong to keep money that one doesn’t really need if one can donate it to causes that p...
+2025-05-15 22:31:52,088 - INFO - Q_num9 (Question ID 209) Iter1: Starting chat with 6 agents.
+2025-05-15 22:32:04,062 - INFO - Q_num9 (Question ID 209) Iter1: Chat finished in 11.97 seconds.
+2025-05-15 22:32:04,062 - INFO - Q_num9 (Question ID 209) Iter2 Msg1 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={6}, Conf=No confidence found
+2025-05-15 22:32:04,062 - INFO - Q_num9 (Question ID 209) Iter2 Msg2 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:32:04,062 - INFO - Q_num9 (Question ID 209) Iter2 Msg3 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:32:04,062 - INFO - Q_num9 (Question ID 209) Iter2 Msg4 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:32:04,062 - INFO - Q_num9 (Question ID 209) Iter2 Msg5 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:32:04,062 - INFO - Q_num9 (Question ID 209) Iter2 Msg6 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:32:04,062 - INFO - Q_num9 (Question ID 209) Iter2 Msg7 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:32:04,062 - INFO - Q_num9 (Question ID 209) Iter2 Msg8 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:32:04,062 - INFO - Q_num9 (Question ID 209) Iter2 Msg9 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:32:04,062 - INFO - Q_num9 (Question ID 209) Iter2 Msg10 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:32:04,063 - INFO - Q_num9 (Question ID 209) Iter2 Msg11 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:32:04,063 - INFO - Q_num9 (Question ID 209) Iter2 Msg12 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:32:04,063 - INFO - Q_num9 (Question ID 209) Iter2 Msg13 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:32:04,063 - INFO - Q_num9 (Question ID 209) Iter2 Msg14 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:32:04,063 - INFO - Q_num9 (Question ID 209) Iter2 Msg15 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:32:04,063 - INFO - Q_num9 (Question ID 209) Iter2 Msg16 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:32:04,063 - INFO - Q_num9 (Question ID 209) Iter2 Msg17 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:32:04,063 - INFO - Q_num9 (Question ID 209) Iter2 Msg18 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:32:04,063 - INFO - Q_num9 (Question ID 209) Iter2 Msg19 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:32:04,063 - INFO - Q_num9 (Question ID 209) Iter2 Msg20 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:32:04,063 - INFO - Q_num9 (Question ID 209) Iter2 Msg21 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={7}, Conf=No confidence found
+2025-05-15 22:32:04,063 - INFO - Q_num9 (Question ID 209) Iter2 Msg22 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={5}, Conf=No confidence found
+2025-05-15 22:32:04,063 - INFO - Q_num9 (Question ID 209) Iter2 Msg23 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={7}, Conf=No confidence found
+2025-05-15 22:32:04,063 - INFO - Q_num9 (Question ID 209) Iter2 Msg24 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={6}, Conf=No confidence found
+2025-05-15 22:32:04,150 - INFO - --- Finished Q_num9 (ID 209) Iter2. Results saved. ---
+2025-05-15 22:32:04,224 - INFO - --- Running Q_num9 (ID 209) Iter3/5 ---
+2025-05-15 22:32:04,224 - INFO - Task: It is morally wrong to keep money that one doesn’t really need if one can donate it to causes that p...
+2025-05-15 22:32:04,444 - INFO - Q_num9 (Question ID 209) Iter2: Starting chat with 6 agents.
+2025-05-15 22:32:13,918 - INFO - Q_num9 (Question ID 209) Iter2: Chat finished in 9.47 seconds.
+2025-05-15 22:32:13,918 - INFO - Q_num9 (Question ID 209) Iter3 Msg1 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={6}, Conf=No confidence found
+2025-05-15 22:32:13,918 - INFO - Q_num9 (Question ID 209) Iter3 Msg2 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:32:13,918 - INFO - Q_num9 (Question ID 209) Iter3 Msg3 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:32:13,918 - INFO - Q_num9 (Question ID 209) Iter3 Msg4 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:32:13,918 - INFO - Q_num9 (Question ID 209) Iter3 Msg5 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:32:13,918 - INFO - Q_num9 (Question ID 209) Iter3 Msg6 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:32:13,918 - INFO - Q_num9 (Question ID 209) Iter3 Msg7 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:32:13,918 - INFO - Q_num9 (Question ID 209) Iter3 Msg8 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:32:13,918 - INFO - Q_num9 (Question ID 209) Iter3 Msg9 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:32:13,918 - INFO - Q_num9 (Question ID 209) Iter3 Msg10 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:32:13,919 - INFO - Q_num9 (Question ID 209) Iter3 Msg11 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:32:13,919 - INFO - Q_num9 (Question ID 209) Iter3 Msg12 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:32:13,919 - INFO - Q_num9 (Question ID 209) Iter3 Msg13 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:32:13,919 - INFO - Q_num9 (Question ID 209) Iter3 Msg14 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:32:13,919 - INFO - Q_num9 (Question ID 209) Iter3 Msg15 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:32:13,919 - INFO - Q_num9 (Question ID 209) Iter3 Msg16 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:32:13,919 - INFO - Q_num9 (Question ID 209) Iter3 Msg17 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:32:13,919 - INFO - Q_num9 (Question ID 209) Iter3 Msg18 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:32:13,919 - INFO - Q_num9 (Question ID 209) Iter3 Msg19 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:32:13,919 - INFO - Q_num9 (Question ID 209) Iter3 Msg20 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:32:13,919 - INFO - Q_num9 (Question ID 209) Iter3 Msg21 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:32:13,919 - INFO - Q_num9 (Question ID 209) Iter3 Msg22 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:32:13,919 - INFO - Q_num9 (Question ID 209) Iter3 Msg23 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:32:13,919 - INFO - Q_num9 (Question ID 209) Iter3 Msg24 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans=No answer found, Conf=No confidence found
+2025-05-15 22:32:14,007 - INFO - --- Finished Q_num9 (ID 209) Iter3. Results saved. ---
+2025-05-15 22:32:14,080 - INFO - --- Running Q_num9 (ID 209) Iter4/5 ---
+2025-05-15 22:32:14,080 - INFO - Task: It is morally wrong to keep money that one doesn’t really need if one can donate it to causes that p...
+2025-05-15 22:32:14,307 - INFO - Q_num9 (Question ID 209) Iter3: Starting chat with 6 agents.
+2025-05-15 22:32:32,253 - INFO - Q_num9 (Question ID 209) Iter3: Chat finished in 17.95 seconds.
+2025-05-15 22:32:32,253 - INFO - Q_num9 (Question ID 209) Iter4 Msg1 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={6}, Conf=No confidence found
+2025-05-15 22:32:32,253 - INFO - Q_num9 (Question ID 209) Iter4 Msg2 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={7}, Conf=No confidence found
+2025-05-15 22:32:32,253 - INFO - Q_num9 (Question ID 209) Iter4 Msg3 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={7}, Conf=No confidence found
+2025-05-15 22:32:32,253 - INFO - Q_num9 (Question ID 209) Iter4 Msg4 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={6}, Conf=No confidence found
+2025-05-15 22:32:32,253 - INFO - Q_num9 (Question ID 209) Iter4 Msg5 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={6}, Conf=No confidence found
+2025-05-15 22:32:32,253 - INFO - Q_num9 (Question ID 209) Iter4 Msg6 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={6}, Conf=No confidence found
+2025-05-15 22:32:32,254 - INFO - Q_num9 (Question ID 209) Iter4 Msg7 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={7}, Conf=No confidence found
+2025-05-15 22:32:32,254 - INFO - Q_num9 (Question ID 209) Iter4 Msg8 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={7}, Conf=No confidence found
+2025-05-15 22:32:32,254 - INFO - Q_num9 (Question ID 209) Iter4 Msg9 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={7}, Conf=No confidence found
+2025-05-15 22:32:32,254 - INFO - Q_num9 (Question ID 209) Iter4 Msg10 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={6}, Conf=No confidence found
+2025-05-15 22:32:32,254 - INFO - Q_num9 (Question ID 209) Iter4 Msg11 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={6}, Conf=No confidence found
+2025-05-15 22:32:32,254 - INFO - Q_num9 (Question ID 209) Iter4 Msg12 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={6}, Conf=No confidence found
+2025-05-15 22:32:32,254 - INFO - Q_num9 (Question ID 209) Iter4 Msg13 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={7}, Conf=No confidence found
+2025-05-15 22:32:32,254 - INFO - Q_num9 (Question ID 209) Iter4 Msg14 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={7}, Conf=No confidence found
+2025-05-15 22:32:32,254 - INFO - Q_num9 (Question ID 209) Iter4 Msg15 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={7}, Conf=No confidence found
+2025-05-15 22:32:32,254 - INFO - Q_num9 (Question ID 209) Iter4 Msg16 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={7}, Conf=No confidence found
+2025-05-15 22:32:32,254 - INFO - Q_num9 (Question ID 209) Iter4 Msg17 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={7}, Conf=No confidence found
+2025-05-15 22:32:32,254 - INFO - Q_num9 (Question ID 209) Iter4 Msg18 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={7}, Conf=No confidence found
+2025-05-15 22:32:32,254 - INFO - Q_num9 (Question ID 209) Iter4 Msg19 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={7}, Conf=No confidence found
+2025-05-15 22:32:32,254 - INFO - Q_num9 (Question ID 209) Iter4 Msg20 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={7}, Conf=No confidence found
+2025-05-15 22:32:32,255 - INFO - Q_num9 (Question ID 209) Iter4 Msg21 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={7}, Conf=No confidence found
+2025-05-15 22:32:32,255 - INFO - Q_num9 (Question ID 209) Iter4 Msg22 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={6}, Conf=No confidence found
+2025-05-15 22:32:32,255 - INFO - Q_num9 (Question ID 209) Iter4 Msg23 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={7}, Conf=No confidence found
+2025-05-15 22:32:32,255 - INFO - Q_num9 (Question ID 209) Iter4 Msg24 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={7}, Conf=No confidence found
+2025-05-15 22:32:32,342 - INFO - --- Finished Q_num9 (ID 209) Iter4. Results saved. ---
+2025-05-15 22:32:32,416 - INFO - --- Running Q_num9 (ID 209) Iter5/5 ---
+2025-05-15 22:32:32,416 - INFO - Task: It is morally wrong to keep money that one doesn’t really need if one can donate it to causes that p...
+2025-05-15 22:32:32,637 - INFO - Q_num9 (Question ID 209) Iter4: Starting chat with 6 agents.
+2025-05-15 22:32:48,939 - INFO - Q_num9 (Question ID 209) Iter4: Chat finished in 16.30 seconds.
+2025-05-15 22:32:48,940 - INFO - Q_num9 (Question ID 209) Iter5 Msg1 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={6}, Conf=No confidence found
+2025-05-15 22:32:48,940 - INFO - Q_num9 (Question ID 209) Iter5 Msg2 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={6}, Conf=No confidence found
+2025-05-15 22:32:48,940 - INFO - Q_num9 (Question ID 209) Iter5 Msg3 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={6}, Conf=No confidence found
+2025-05-15 22:32:48,940 - INFO - Q_num9 (Question ID 209) Iter5 Msg4 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={6}, Conf=No confidence found
+2025-05-15 22:32:48,940 - INFO - Q_num9 (Question ID 209) Iter5 Msg5 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={6}, Conf=No confidence found
+2025-05-15 22:32:48,940 - INFO - Q_num9 (Question ID 209) Iter5 Msg6 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={5}, Conf=No confidence found
+2025-05-15 22:32:48,940 - INFO - Q_num9 (Question ID 209) Iter5 Msg7 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={6}, Conf=No confidence found
+2025-05-15 22:32:48,940 - INFO - Q_num9 (Question ID 209) Iter5 Msg8 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={6}, Conf=No confidence found
+2025-05-15 22:32:48,940 - INFO - Q_num9 (Question ID 209) Iter5 Msg9 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={6}, Conf=No confidence found
+2025-05-15 22:32:48,941 - INFO - Q_num9 (Question ID 209) Iter5 Msg10 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={6}, Conf=No confidence found
+2025-05-15 22:32:48,941 - INFO - Q_num9 (Question ID 209) Iter5 Msg11 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={6}, Conf=No confidence found
+2025-05-15 22:32:48,941 - INFO - Q_num9 (Question ID 209) Iter5 Msg12 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={5}, Conf=No confidence found
+2025-05-15 22:32:48,941 - INFO - Q_num9 (Question ID 209) Iter5 Msg13 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={6}, Conf=No confidence found
+2025-05-15 22:32:48,941 - INFO - Q_num9 (Question ID 209) Iter5 Msg14 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={6}, Conf=No confidence found
+2025-05-15 22:32:48,941 - INFO - Q_num9 (Question ID 209) Iter5 Msg15 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={6}, Conf=No confidence found
+2025-05-15 22:32:48,941 - INFO - Q_num9 (Question ID 209) Iter5 Msg16 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={6}, Conf=No confidence found
+2025-05-15 22:32:48,941 - INFO - Q_num9 (Question ID 209) Iter5 Msg17 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={6}, Conf=No confidence found
+2025-05-15 22:32:48,941 - INFO - Q_num9 (Question ID 209) Iter5 Msg18 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={5}, Conf=No confidence found
+2025-05-15 22:32:48,941 - INFO - Q_num9 (Question ID 209) Iter5 Msg19 Agent agent_google_gemini_2_0_flash_lite_001_0_0: Ans={6}, Conf=No confidence found
+2025-05-15 22:32:48,941 - INFO - Q_num9 (Question ID 209) Iter5 Msg20 Agent agent_google_gemini_2_0_flash_lite_001_0_1: Ans={6}, Conf=No confidence found
+2025-05-15 22:32:48,941 - INFO - Q_num9 (Question ID 209) Iter5 Msg21 Agent agent_google_gemini_2_0_flash_lite_001_0_2: Ans={6}, Conf=No confidence found
+2025-05-15 22:32:48,941 - INFO - Q_num9 (Question ID 209) Iter5 Msg22 Agent agent_google_gemini_2_0_flash_lite_001_0_3: Ans={6}, Conf=No confidence found
+2025-05-15 22:32:48,942 - INFO - Q_num9 (Question ID 209) Iter5 Msg23 Agent agent_google_gemini_2_0_flash_lite_001_0_4: Ans={6}, Conf=No confidence found
+2025-05-15 22:32:48,942 - INFO - Q_num9 (Question ID 209) Iter5 Msg24 Agent agent_google_gemini_2_0_flash_lite_001_0_5: Ans={5}, Conf=No confidence found
+2025-05-15 22:32:49,027 - INFO - --- Finished Q_num9 (ID 209) Iter5. Results saved. ---
+2025-05-15 22:32:49,101 - INFO - --- Run Finished --- CONFIG HASH: 7965249f ---

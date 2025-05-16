@@ -1,0 +1,1307 @@
+2025-05-15 22:32:49,110 - INFO - --- Starting New Run --- CONFIG HASH: 7a188e0a --- Chat Type: ous_inverted_qwen_ring ---
+2025-05-15 22:32:49,113 - INFO - --- Running Q_num1 (ID 305) Iter1/5 ---
+2025-05-15 22:32:49,113 - INFO - Task: If the only way to save another person's life during an emergency is to sacrifice one's own leg, the...
+2025-05-15 22:32:49,336 - INFO - Q_num1 (Question ID 305) Iter0: Starting chat with 6 agents.
+2025-05-15 22:44:46,984 - INFO - Q_num1 (Question ID 305) Iter0: Chat finished in 717.65 seconds.
+2025-05-15 22:44:46,985 - INFO - Q_num1 (Question ID 305) Iter1 Msg1 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-15 22:44:46,985 - INFO - Q_num1 (Question ID 305) Iter1 Msg2 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-15 22:44:46,985 - INFO - Q_num1 (Question ID 305) Iter1 Msg3 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-15 22:44:46,985 - INFO - Q_num1 (Question ID 305) Iter1 Msg4 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-15 22:44:46,985 - INFO - Q_num1 (Question ID 305) Iter1 Msg5 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-15 22:44:46,985 - INFO - Q_num1 (Question ID 305) Iter1 Msg6 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-15 22:44:46,985 - INFO - Q_num1 (Question ID 305) Iter1 Msg7 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-15 22:44:46,985 - INFO - Q_num1 (Question ID 305) Iter1 Msg8 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-15 22:44:46,985 - INFO - Q_num1 (Question ID 305) Iter1 Msg9 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-15 22:44:46,986 - INFO - Q_num1 (Question ID 305) Iter1 Msg10 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-15 22:44:46,986 - INFO - Q_num1 (Question ID 305) Iter1 Msg11 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-15 22:44:46,986 - INFO - Q_num1 (Question ID 305) Iter1 Msg12 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-15 22:44:46,986 - INFO - Q_num1 (Question ID 305) Iter1 Msg13 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-15 22:44:46,986 - INFO - Q_num1 (Question ID 305) Iter1 Msg14 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-15 22:44:46,986 - INFO - Q_num1 (Question ID 305) Iter1 Msg15 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-15 22:44:46,986 - INFO - Q_num1 (Question ID 305) Iter1 Msg16 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-15 22:44:46,986 - INFO - Q_num1 (Question ID 305) Iter1 Msg17 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-15 22:44:46,986 - INFO - Q_num1 (Question ID 305) Iter1 Msg18 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-15 22:44:46,986 - INFO - Q_num1 (Question ID 305) Iter1 Msg19 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-15 22:44:46,986 - INFO - Q_num1 (Question ID 305) Iter1 Msg20 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-15 22:44:46,986 - INFO - Q_num1 (Question ID 305) Iter1 Msg21 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-15 22:44:46,986 - INFO - Q_num1 (Question ID 305) Iter1 Msg22 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-15 22:44:46,987 - INFO - Q_num1 (Question ID 305) Iter1 Msg23 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-15 22:44:46,987 - INFO - Q_num1 (Question ID 305) Iter1 Msg24 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-15 22:44:47,075 - INFO - --- Finished Q_num1 (ID 305) Iter1. Results saved. ---
+2025-05-15 22:44:47,147 - INFO - --- Running Q_num1 (ID 305) Iter2/5 ---
+2025-05-15 22:44:47,147 - INFO - Task: If the only way to save another person's life during an emergency is to sacrifice one's own leg, the...
+2025-05-15 22:44:47,369 - INFO - Q_num1 (Question ID 305) Iter1: Starting chat with 6 agents.
+2025-05-15 22:55:07,325 - INFO - Q_num1 (Question ID 305) Iter1: Chat finished in 619.96 seconds.
+2025-05-15 22:55:07,326 - INFO - Q_num1 (Question ID 305) Iter2 Msg1 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-15 22:55:07,326 - INFO - Q_num1 (Question ID 305) Iter2 Msg2 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-15 22:55:07,326 - INFO - Q_num1 (Question ID 305) Iter2 Msg3 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-15 22:55:07,326 - INFO - Q_num1 (Question ID 305) Iter2 Msg4 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-15 22:55:07,326 - INFO - Q_num1 (Question ID 305) Iter2 Msg5 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-15 22:55:07,326 - INFO - Q_num1 (Question ID 305) Iter2 Msg6 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-15 22:55:07,326 - INFO - Q_num1 (Question ID 305) Iter2 Msg7 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-15 22:55:07,326 - INFO - Q_num1 (Question ID 305) Iter2 Msg8 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-15 22:55:07,326 - INFO - Q_num1 (Question ID 305) Iter2 Msg9 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-15 22:55:07,326 - INFO - Q_num1 (Question ID 305) Iter2 Msg10 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-15 22:55:07,326 - INFO - Q_num1 (Question ID 305) Iter2 Msg11 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-15 22:55:07,326 - INFO - Q_num1 (Question ID 305) Iter2 Msg12 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-15 22:55:07,326 - INFO - Q_num1 (Question ID 305) Iter2 Msg13 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-15 22:55:07,327 - INFO - Q_num1 (Question ID 305) Iter2 Msg14 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-15 22:55:07,327 - INFO - Q_num1 (Question ID 305) Iter2 Msg15 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-15 22:55:07,327 - INFO - Q_num1 (Question ID 305) Iter2 Msg16 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-15 22:55:07,327 - INFO - Q_num1 (Question ID 305) Iter2 Msg17 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-15 22:55:07,327 - INFO - Q_num1 (Question ID 305) Iter2 Msg18 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-15 22:55:07,327 - INFO - Q_num1 (Question ID 305) Iter2 Msg19 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-15 22:55:07,327 - INFO - Q_num1 (Question ID 305) Iter2 Msg20 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-15 22:55:07,327 - INFO - Q_num1 (Question ID 305) Iter2 Msg21 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-15 22:55:07,327 - INFO - Q_num1 (Question ID 305) Iter2 Msg22 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-15 22:55:07,327 - INFO - Q_num1 (Question ID 305) Iter2 Msg23 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-15 22:55:07,327 - INFO - Q_num1 (Question ID 305) Iter2 Msg24 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-15 22:55:07,413 - INFO - --- Finished Q_num1 (ID 305) Iter2. Results saved. ---
+2025-05-15 22:55:07,485 - INFO - --- Running Q_num1 (ID 305) Iter3/5 ---
+2025-05-15 22:55:07,485 - INFO - Task: If the only way to save another person's life during an emergency is to sacrifice one's own leg, the...
+2025-05-15 22:55:07,700 - INFO - Q_num1 (Question ID 305) Iter2: Starting chat with 6 agents.
+2025-05-15 23:06:09,349 - INFO - Q_num1 (Question ID 305) Iter2: Chat finished in 661.65 seconds.
+2025-05-15 23:06:09,349 - INFO - Q_num1 (Question ID 305) Iter3 Msg1 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-15 23:06:09,350 - INFO - Q_num1 (Question ID 305) Iter3 Msg2 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-15 23:06:09,350 - INFO - Q_num1 (Question ID 305) Iter3 Msg3 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-15 23:06:09,350 - INFO - Q_num1 (Question ID 305) Iter3 Msg4 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-15 23:06:09,350 - INFO - Q_num1 (Question ID 305) Iter3 Msg5 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-15 23:06:09,350 - INFO - Q_num1 (Question ID 305) Iter3 Msg6 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-15 23:06:09,350 - INFO - Q_num1 (Question ID 305) Iter3 Msg7 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-15 23:06:09,350 - INFO - Q_num1 (Question ID 305) Iter3 Msg8 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-15 23:06:09,350 - INFO - Q_num1 (Question ID 305) Iter3 Msg9 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-15 23:06:09,350 - INFO - Q_num1 (Question ID 305) Iter3 Msg10 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-15 23:06:09,350 - INFO - Q_num1 (Question ID 305) Iter3 Msg11 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-15 23:06:09,350 - INFO - Q_num1 (Question ID 305) Iter3 Msg12 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-15 23:06:09,350 - INFO - Q_num1 (Question ID 305) Iter3 Msg13 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-15 23:06:09,350 - INFO - Q_num1 (Question ID 305) Iter3 Msg14 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-15 23:06:09,350 - INFO - Q_num1 (Question ID 305) Iter3 Msg15 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-15 23:06:09,351 - INFO - Q_num1 (Question ID 305) Iter3 Msg16 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-15 23:06:09,351 - INFO - Q_num1 (Question ID 305) Iter3 Msg17 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-15 23:06:09,351 - INFO - Q_num1 (Question ID 305) Iter3 Msg18 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-15 23:06:09,351 - INFO - Q_num1 (Question ID 305) Iter3 Msg19 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-15 23:06:09,351 - INFO - Q_num1 (Question ID 305) Iter3 Msg20 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-15 23:06:09,351 - INFO - Q_num1 (Question ID 305) Iter3 Msg21 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-15 23:06:09,351 - INFO - Q_num1 (Question ID 305) Iter3 Msg22 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-15 23:06:09,351 - INFO - Q_num1 (Question ID 305) Iter3 Msg23 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-15 23:06:09,351 - INFO - Q_num1 (Question ID 305) Iter3 Msg24 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-15 23:06:09,441 - INFO - --- Finished Q_num1 (ID 305) Iter3. Results saved. ---
+2025-05-15 23:06:09,515 - INFO - --- Running Q_num1 (ID 305) Iter4/5 ---
+2025-05-15 23:06:09,515 - INFO - Task: If the only way to save another person's life during an emergency is to sacrifice one's own leg, the...
+2025-05-15 23:06:09,737 - INFO - Q_num1 (Question ID 305) Iter3: Starting chat with 6 agents.
+2025-05-15 23:14:14,273 - INFO - Q_num1 (Question ID 305) Iter3: Chat finished in 484.54 seconds.
+2025-05-15 23:14:14,273 - INFO - Q_num1 (Question ID 305) Iter4 Msg1 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-15 23:14:14,273 - INFO - Q_num1 (Question ID 305) Iter4 Msg2 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-15 23:14:14,273 - INFO - Q_num1 (Question ID 305) Iter4 Msg3 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=4, Conf=No confidence found
+2025-05-15 23:14:14,273 - INFO - Q_num1 (Question ID 305) Iter4 Msg4 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-15 23:14:14,273 - INFO - Q_num1 (Question ID 305) Iter4 Msg5 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=4, Conf=No confidence found
+2025-05-15 23:14:14,273 - INFO - Q_num1 (Question ID 305) Iter4 Msg6 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-15 23:14:14,274 - INFO - Q_num1 (Question ID 305) Iter4 Msg7 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=4, Conf=No confidence found
+2025-05-15 23:14:14,274 - INFO - Q_num1 (Question ID 305) Iter4 Msg8 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=4, Conf=No confidence found
+2025-05-15 23:14:14,274 - INFO - Q_num1 (Question ID 305) Iter4 Msg9 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=4, Conf=No confidence found
+2025-05-15 23:14:14,274 - INFO - Q_num1 (Question ID 305) Iter4 Msg10 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=4, Conf=No confidence found
+2025-05-15 23:14:14,274 - INFO - Q_num1 (Question ID 305) Iter4 Msg11 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=4, Conf=No confidence found
+2025-05-15 23:14:14,274 - INFO - Q_num1 (Question ID 305) Iter4 Msg12 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=4, Conf=No confidence found
+2025-05-15 23:14:14,274 - INFO - Q_num1 (Question ID 305) Iter4 Msg13 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=4, Conf=No confidence found
+2025-05-15 23:14:14,274 - INFO - Q_num1 (Question ID 305) Iter4 Msg14 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=4, Conf=No confidence found
+2025-05-15 23:14:14,274 - INFO - Q_num1 (Question ID 305) Iter4 Msg15 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=4, Conf=No confidence found
+2025-05-15 23:14:14,274 - INFO - Q_num1 (Question ID 305) Iter4 Msg16 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=4, Conf=No confidence found
+2025-05-15 23:14:14,274 - INFO - Q_num1 (Question ID 305) Iter4 Msg17 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=4, Conf=No confidence found
+2025-05-15 23:14:14,274 - INFO - Q_num1 (Question ID 305) Iter4 Msg18 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=4, Conf=No confidence found
+2025-05-15 23:14:14,275 - INFO - Q_num1 (Question ID 305) Iter4 Msg19 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=4, Conf=No confidence found
+2025-05-15 23:14:14,275 - INFO - Q_num1 (Question ID 305) Iter4 Msg20 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=4, Conf=No confidence found
+2025-05-15 23:14:14,275 - INFO - Q_num1 (Question ID 305) Iter4 Msg21 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=4, Conf=No confidence found
+2025-05-15 23:14:14,275 - INFO - Q_num1 (Question ID 305) Iter4 Msg22 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=4, Conf=No confidence found
+2025-05-15 23:14:14,275 - INFO - Q_num1 (Question ID 305) Iter4 Msg23 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=4, Conf=No confidence found
+2025-05-15 23:14:14,275 - INFO - Q_num1 (Question ID 305) Iter4 Msg24 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=4, Conf=No confidence found
+2025-05-15 23:14:14,364 - INFO - --- Finished Q_num1 (ID 305) Iter4. Results saved. ---
+2025-05-15 23:14:14,439 - INFO - --- Running Q_num1 (ID 305) Iter5/5 ---
+2025-05-15 23:14:14,439 - INFO - Task: If the only way to save another person's life during an emergency is to sacrifice one's own leg, the...
+2025-05-15 23:14:14,663 - INFO - Q_num1 (Question ID 305) Iter4: Starting chat with 6 agents.
+2025-05-15 23:19:07,332 - INFO - Q_num1 (Question ID 305) Iter4: Chat finished in 292.67 seconds.
+2025-05-15 23:19:07,332 - INFO - Q_num1 (Question ID 305) Iter5 Msg1 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-15 23:19:07,332 - INFO - Q_num1 (Question ID 305) Iter5 Msg2 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-15 23:19:07,332 - INFO - Q_num1 (Question ID 305) Iter5 Msg3 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-15 23:19:07,332 - INFO - Q_num1 (Question ID 305) Iter5 Msg4 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-15 23:19:07,332 - INFO - Q_num1 (Question ID 305) Iter5 Msg5 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-15 23:19:07,332 - INFO - Q_num1 (Question ID 305) Iter5 Msg6 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-15 23:19:07,332 - INFO - Q_num1 (Question ID 305) Iter5 Msg7 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-15 23:19:07,333 - INFO - Q_num1 (Question ID 305) Iter5 Msg8 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-15 23:19:07,333 - INFO - Q_num1 (Question ID 305) Iter5 Msg9 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-15 23:19:07,333 - INFO - Q_num1 (Question ID 305) Iter5 Msg10 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-15 23:19:07,333 - INFO - Q_num1 (Question ID 305) Iter5 Msg11 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-15 23:19:07,333 - INFO - Q_num1 (Question ID 305) Iter5 Msg12 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-15 23:19:07,333 - INFO - Q_num1 (Question ID 305) Iter5 Msg13 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-15 23:19:07,333 - INFO - Q_num1 (Question ID 305) Iter5 Msg14 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-15 23:19:07,333 - INFO - Q_num1 (Question ID 305) Iter5 Msg15 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-15 23:19:07,333 - INFO - Q_num1 (Question ID 305) Iter5 Msg16 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-15 23:19:07,333 - INFO - Q_num1 (Question ID 305) Iter5 Msg17 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-15 23:19:07,333 - INFO - Q_num1 (Question ID 305) Iter5 Msg18 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-15 23:19:07,333 - INFO - Q_num1 (Question ID 305) Iter5 Msg19 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-15 23:19:07,333 - INFO - Q_num1 (Question ID 305) Iter5 Msg20 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-15 23:19:07,333 - INFO - Q_num1 (Question ID 305) Iter5 Msg21 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-15 23:19:07,334 - INFO - Q_num1 (Question ID 305) Iter5 Msg22 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-15 23:19:07,334 - INFO - Q_num1 (Question ID 305) Iter5 Msg23 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-15 23:19:07,334 - INFO - Q_num1 (Question ID 305) Iter5 Msg24 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-15 23:19:07,421 - INFO - --- Finished Q_num1 (ID 305) Iter5. Results saved. ---
+2025-05-15 23:19:07,495 - INFO - --- Running Q_num2 (ID 301) Iter1/5 ---
+2025-05-15 23:19:07,495 - INFO - Task: It is morally right to allow several innocent people to suffer harm rather than harm a single innoce...
+2025-05-15 23:19:07,718 - INFO - Q_num2 (Question ID 301) Iter0: Starting chat with 6 agents.
+2025-05-15 23:23:47,257 - INFO - Q_num2 (Question ID 301) Iter0: Chat finished in 279.54 seconds.
+2025-05-15 23:23:47,257 - INFO - Q_num2 (Question ID 301) Iter1 Msg1 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-15 23:23:47,257 - INFO - Q_num2 (Question ID 301) Iter1 Msg2 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-15 23:23:47,257 - INFO - Q_num2 (Question ID 301) Iter1 Msg3 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-15 23:23:47,257 - INFO - Q_num2 (Question ID 301) Iter1 Msg4 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-15 23:23:47,257 - INFO - Q_num2 (Question ID 301) Iter1 Msg5 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-15 23:23:47,257 - INFO - Q_num2 (Question ID 301) Iter1 Msg6 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-15 23:23:47,257 - INFO - Q_num2 (Question ID 301) Iter1 Msg7 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-15 23:23:47,258 - INFO - Q_num2 (Question ID 301) Iter1 Msg8 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-15 23:23:47,258 - INFO - Q_num2 (Question ID 301) Iter1 Msg9 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-15 23:23:47,258 - INFO - Q_num2 (Question ID 301) Iter1 Msg10 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-15 23:23:47,258 - INFO - Q_num2 (Question ID 301) Iter1 Msg11 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-15 23:23:47,258 - INFO - Q_num2 (Question ID 301) Iter1 Msg12 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-15 23:23:47,258 - INFO - Q_num2 (Question ID 301) Iter1 Msg13 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-15 23:23:47,258 - INFO - Q_num2 (Question ID 301) Iter1 Msg14 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-15 23:23:47,258 - INFO - Q_num2 (Question ID 301) Iter1 Msg15 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-15 23:23:47,258 - INFO - Q_num2 (Question ID 301) Iter1 Msg16 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-15 23:23:47,258 - INFO - Q_num2 (Question ID 301) Iter1 Msg17 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-15 23:23:47,258 - INFO - Q_num2 (Question ID 301) Iter1 Msg18 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-15 23:23:47,258 - INFO - Q_num2 (Question ID 301) Iter1 Msg19 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-15 23:23:47,258 - INFO - Q_num2 (Question ID 301) Iter1 Msg20 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-15 23:23:47,258 - INFO - Q_num2 (Question ID 301) Iter1 Msg21 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-15 23:23:47,259 - INFO - Q_num2 (Question ID 301) Iter1 Msg22 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-15 23:23:47,259 - INFO - Q_num2 (Question ID 301) Iter1 Msg23 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-15 23:23:47,259 - INFO - Q_num2 (Question ID 301) Iter1 Msg24 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-15 23:23:47,353 - INFO - --- Finished Q_num2 (ID 301) Iter1. Results saved. ---
+2025-05-15 23:23:47,430 - INFO - --- Running Q_num2 (ID 301) Iter2/5 ---
+2025-05-15 23:23:47,430 - INFO - Task: It is morally right to allow several innocent people to suffer harm rather than harm a single innoce...
+2025-05-15 23:23:47,653 - INFO - Q_num2 (Question ID 301) Iter1: Starting chat with 6 agents.
+2025-05-15 23:30:21,509 - INFO - Q_num2 (Question ID 301) Iter1: Chat finished in 393.86 seconds.
+2025-05-15 23:30:21,510 - INFO - Q_num2 (Question ID 301) Iter2 Msg1 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-15 23:30:21,510 - INFO - Q_num2 (Question ID 301) Iter2 Msg2 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=4, Conf=No confidence found
+2025-05-15 23:30:21,510 - INFO - Q_num2 (Question ID 301) Iter2 Msg3 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-15 23:30:21,510 - INFO - Q_num2 (Question ID 301) Iter2 Msg4 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=4, Conf=No confidence found
+2025-05-15 23:30:21,510 - INFO - Q_num2 (Question ID 301) Iter2 Msg5 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=3, Conf=No confidence found
+2025-05-15 23:30:21,510 - INFO - Q_num2 (Question ID 301) Iter2 Msg6 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=3, Conf=No confidence found
+2025-05-15 23:30:21,510 - INFO - Q_num2 (Question ID 301) Iter2 Msg7 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=3, Conf=No confidence found
+2025-05-15 23:30:21,510 - INFO - Q_num2 (Question ID 301) Iter2 Msg8 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=3, Conf=No confidence found
+2025-05-15 23:30:21,510 - INFO - Q_num2 (Question ID 301) Iter2 Msg9 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=3, Conf=No confidence found
+2025-05-15 23:30:21,510 - INFO - Q_num2 (Question ID 301) Iter2 Msg10 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=3, Conf=No confidence found
+2025-05-15 23:30:21,510 - INFO - Q_num2 (Question ID 301) Iter2 Msg11 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=3, Conf=No confidence found
+2025-05-15 23:30:21,510 - INFO - Q_num2 (Question ID 301) Iter2 Msg12 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=3, Conf=No confidence found
+2025-05-15 23:30:21,511 - INFO - Q_num2 (Question ID 301) Iter2 Msg13 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=3, Conf=No confidence found
+2025-05-15 23:30:21,511 - INFO - Q_num2 (Question ID 301) Iter2 Msg14 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=3, Conf=No confidence found
+2025-05-15 23:30:21,511 - INFO - Q_num2 (Question ID 301) Iter2 Msg15 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=3, Conf=No confidence found
+2025-05-15 23:30:21,511 - INFO - Q_num2 (Question ID 301) Iter2 Msg16 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=3, Conf=No confidence found
+2025-05-15 23:30:21,511 - INFO - Q_num2 (Question ID 301) Iter2 Msg17 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=3, Conf=No confidence found
+2025-05-15 23:30:21,511 - INFO - Q_num2 (Question ID 301) Iter2 Msg18 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=3, Conf=No confidence found
+2025-05-15 23:30:21,511 - INFO - Q_num2 (Question ID 301) Iter2 Msg19 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=3, Conf=No confidence found
+2025-05-15 23:30:21,511 - INFO - Q_num2 (Question ID 301) Iter2 Msg20 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=3, Conf=No confidence found
+2025-05-15 23:30:21,511 - INFO - Q_num2 (Question ID 301) Iter2 Msg21 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=3, Conf=No confidence found
+2025-05-15 23:30:21,511 - INFO - Q_num2 (Question ID 301) Iter2 Msg22 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=3, Conf=No confidence found
+2025-05-15 23:30:21,511 - INFO - Q_num2 (Question ID 301) Iter2 Msg23 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=3, Conf=No confidence found
+2025-05-15 23:30:21,511 - INFO - Q_num2 (Question ID 301) Iter2 Msg24 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=3, Conf=No confidence found
+2025-05-15 23:30:21,600 - INFO - --- Finished Q_num2 (ID 301) Iter2. Results saved. ---
+2025-05-15 23:30:21,673 - INFO - --- Running Q_num2 (ID 301) Iter3/5 ---
+2025-05-15 23:30:21,673 - INFO - Task: It is morally right to allow several innocent people to suffer harm rather than harm a single innoce...
+2025-05-15 23:30:21,892 - INFO - Q_num2 (Question ID 301) Iter2: Starting chat with 6 agents.
+2025-05-15 23:37:01,480 - INFO - Q_num2 (Question ID 301) Iter2: Chat finished in 399.59 seconds.
+2025-05-15 23:37:01,480 - INFO - Q_num2 (Question ID 301) Iter3 Msg1 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-15 23:37:01,480 - INFO - Q_num2 (Question ID 301) Iter3 Msg2 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-15 23:37:01,480 - INFO - Q_num2 (Question ID 301) Iter3 Msg3 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-15 23:37:01,480 - INFO - Q_num2 (Question ID 301) Iter3 Msg4 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-15 23:37:01,480 - INFO - Q_num2 (Question ID 301) Iter3 Msg5 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-15 23:37:01,480 - INFO - Q_num2 (Question ID 301) Iter3 Msg6 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-15 23:37:01,480 - INFO - Q_num2 (Question ID 301) Iter3 Msg7 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-15 23:37:01,480 - INFO - Q_num2 (Question ID 301) Iter3 Msg8 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-15 23:37:01,481 - INFO - Q_num2 (Question ID 301) Iter3 Msg9 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-15 23:37:01,481 - INFO - Q_num2 (Question ID 301) Iter3 Msg10 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-15 23:37:01,481 - INFO - Q_num2 (Question ID 301) Iter3 Msg11 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-15 23:37:01,481 - INFO - Q_num2 (Question ID 301) Iter3 Msg12 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-15 23:37:01,481 - INFO - Q_num2 (Question ID 301) Iter3 Msg13 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-15 23:37:01,481 - INFO - Q_num2 (Question ID 301) Iter3 Msg14 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-15 23:37:01,481 - INFO - Q_num2 (Question ID 301) Iter3 Msg15 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-15 23:37:01,481 - INFO - Q_num2 (Question ID 301) Iter3 Msg16 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-15 23:37:01,481 - INFO - Q_num2 (Question ID 301) Iter3 Msg17 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-15 23:37:01,481 - INFO - Q_num2 (Question ID 301) Iter3 Msg18 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-15 23:37:01,481 - INFO - Q_num2 (Question ID 301) Iter3 Msg19 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-15 23:37:01,481 - INFO - Q_num2 (Question ID 301) Iter3 Msg20 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-15 23:37:01,481 - INFO - Q_num2 (Question ID 301) Iter3 Msg21 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-15 23:37:01,481 - INFO - Q_num2 (Question ID 301) Iter3 Msg22 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-15 23:37:01,482 - INFO - Q_num2 (Question ID 301) Iter3 Msg23 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-15 23:37:01,482 - INFO - Q_num2 (Question ID 301) Iter3 Msg24 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-15 23:37:01,570 - INFO - --- Finished Q_num2 (ID 301) Iter3. Results saved. ---
+2025-05-15 23:37:01,646 - INFO - --- Running Q_num2 (ID 301) Iter4/5 ---
+2025-05-15 23:37:01,646 - INFO - Task: It is morally right to allow several innocent people to suffer harm rather than harm a single innoce...
+2025-05-15 23:37:01,872 - INFO - Q_num2 (Question ID 301) Iter3: Starting chat with 6 agents.
+2025-05-15 23:45:50,659 - INFO - Q_num2 (Question ID 301) Iter3: Chat finished in 528.79 seconds.
+2025-05-15 23:45:50,659 - INFO - Q_num2 (Question ID 301) Iter4 Msg1 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=6, Conf=No confidence found
+2025-05-15 23:45:50,659 - INFO - Q_num2 (Question ID 301) Iter4 Msg2 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-15 23:45:50,659 - INFO - Q_num2 (Question ID 301) Iter4 Msg3 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-15 23:45:50,660 - INFO - Q_num2 (Question ID 301) Iter4 Msg4 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-15 23:45:50,660 - INFO - Q_num2 (Question ID 301) Iter4 Msg5 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=4, Conf=No confidence found
+2025-05-15 23:45:50,660 - INFO - Q_num2 (Question ID 301) Iter4 Msg6 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-15 23:45:50,660 - INFO - Q_num2 (Question ID 301) Iter4 Msg7 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=4, Conf=No confidence found
+2025-05-15 23:45:50,660 - INFO - Q_num2 (Question ID 301) Iter4 Msg8 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-15 23:45:50,660 - INFO - Q_num2 (Question ID 301) Iter4 Msg9 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-15 23:45:50,660 - INFO - Q_num2 (Question ID 301) Iter4 Msg10 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=4, Conf=No confidence found
+2025-05-15 23:45:50,660 - INFO - Q_num2 (Question ID 301) Iter4 Msg11 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-15 23:45:50,660 - INFO - Q_num2 (Question ID 301) Iter4 Msg12 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-15 23:45:50,660 - INFO - Q_num2 (Question ID 301) Iter4 Msg13 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-15 23:45:50,660 - INFO - Q_num2 (Question ID 301) Iter4 Msg14 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-15 23:45:50,660 - INFO - Q_num2 (Question ID 301) Iter4 Msg15 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-15 23:45:50,660 - INFO - Q_num2 (Question ID 301) Iter4 Msg16 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-15 23:45:50,660 - INFO - Q_num2 (Question ID 301) Iter4 Msg17 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-15 23:45:50,661 - INFO - Q_num2 (Question ID 301) Iter4 Msg18 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-15 23:45:50,661 - INFO - Q_num2 (Question ID 301) Iter4 Msg19 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-15 23:45:50,661 - INFO - Q_num2 (Question ID 301) Iter4 Msg20 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-15 23:45:50,661 - INFO - Q_num2 (Question ID 301) Iter4 Msg21 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-15 23:45:50,661 - INFO - Q_num2 (Question ID 301) Iter4 Msg22 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-15 23:45:50,661 - INFO - Q_num2 (Question ID 301) Iter4 Msg23 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-15 23:45:50,661 - INFO - Q_num2 (Question ID 301) Iter4 Msg24 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-15 23:45:50,749 - INFO - --- Finished Q_num2 (ID 301) Iter4. Results saved. ---
+2025-05-15 23:45:50,824 - INFO - --- Running Q_num2 (ID 301) Iter5/5 ---
+2025-05-15 23:45:50,824 - INFO - Task: It is morally right to allow several innocent people to suffer harm rather than harm a single innoce...
+2025-05-15 23:45:51,047 - INFO - Q_num2 (Question ID 301) Iter4: Starting chat with 6 agents.
+2025-05-15 23:56:07,046 - INFO - Q_num2 (Question ID 301) Iter4: Chat finished in 616.00 seconds.
+2025-05-15 23:56:07,046 - INFO - Q_num2 (Question ID 301) Iter5 Msg1 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-15 23:56:07,046 - INFO - Q_num2 (Question ID 301) Iter5 Msg2 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-15 23:56:07,046 - INFO - Q_num2 (Question ID 301) Iter5 Msg3 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-15 23:56:07,046 - INFO - Q_num2 (Question ID 301) Iter5 Msg4 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-15 23:56:07,047 - INFO - Q_num2 (Question ID 301) Iter5 Msg5 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-15 23:56:07,047 - INFO - Q_num2 (Question ID 301) Iter5 Msg6 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-15 23:56:07,047 - INFO - Q_num2 (Question ID 301) Iter5 Msg7 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-15 23:56:07,047 - INFO - Q_num2 (Question ID 301) Iter5 Msg8 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-15 23:56:07,047 - INFO - Q_num2 (Question ID 301) Iter5 Msg9 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-15 23:56:07,047 - INFO - Q_num2 (Question ID 301) Iter5 Msg10 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-15 23:56:07,047 - INFO - Q_num2 (Question ID 301) Iter5 Msg11 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-15 23:56:07,047 - INFO - Q_num2 (Question ID 301) Iter5 Msg12 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-15 23:56:07,047 - INFO - Q_num2 (Question ID 301) Iter5 Msg13 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-15 23:56:07,047 - INFO - Q_num2 (Question ID 301) Iter5 Msg14 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-15 23:56:07,047 - INFO - Q_num2 (Question ID 301) Iter5 Msg15 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-15 23:56:07,047 - INFO - Q_num2 (Question ID 301) Iter5 Msg16 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-15 23:56:07,047 - INFO - Q_num2 (Question ID 301) Iter5 Msg17 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-15 23:56:07,047 - INFO - Q_num2 (Question ID 301) Iter5 Msg18 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-15 23:56:07,048 - INFO - Q_num2 (Question ID 301) Iter5 Msg19 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-15 23:56:07,048 - INFO - Q_num2 (Question ID 301) Iter5 Msg20 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-15 23:56:07,048 - INFO - Q_num2 (Question ID 301) Iter5 Msg21 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-15 23:56:07,048 - INFO - Q_num2 (Question ID 301) Iter5 Msg22 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-15 23:56:07,048 - INFO - Q_num2 (Question ID 301) Iter5 Msg23 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-15 23:56:07,048 - INFO - Q_num2 (Question ID 301) Iter5 Msg24 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-15 23:56:07,137 - INFO - --- Finished Q_num2 (ID 301) Iter5. Results saved. ---
+2025-05-15 23:56:07,212 - INFO - --- Running Q_num3 (ID 306) Iter1/5 ---
+2025-05-15 23:56:07,212 - INFO - Task: From a moral point of view, we should not feel obliged to give one of our kidneys to a person with k...
+2025-05-15 23:56:07,431 - INFO - Q_num3 (Question ID 306) Iter0: Starting chat with 6 agents.
+2025-05-16 00:05:39,436 - INFO - Q_num3 (Question ID 306) Iter0: Chat finished in 572.01 seconds.
+2025-05-16 00:05:39,437 - INFO - Q_num3 (Question ID 306) Iter1 Msg1 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=4, Conf=No confidence found
+2025-05-16 00:05:39,437 - INFO - Q_num3 (Question ID 306) Iter1 Msg2 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=4, Conf=No confidence found
+2025-05-16 00:05:39,437 - INFO - Q_num3 (Question ID 306) Iter1 Msg3 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=4, Conf=No confidence found
+2025-05-16 00:05:39,437 - INFO - Q_num3 (Question ID 306) Iter1 Msg4 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=4, Conf=No confidence found
+2025-05-16 00:05:39,437 - INFO - Q_num3 (Question ID 306) Iter1 Msg5 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=4, Conf=No confidence found
+2025-05-16 00:05:39,437 - INFO - Q_num3 (Question ID 306) Iter1 Msg6 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=4, Conf=No confidence found
+2025-05-16 00:05:39,437 - INFO - Q_num3 (Question ID 306) Iter1 Msg7 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=4, Conf=No confidence found
+2025-05-16 00:05:39,437 - INFO - Q_num3 (Question ID 306) Iter1 Msg8 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=4, Conf=No confidence found
+2025-05-16 00:05:39,437 - INFO - Q_num3 (Question ID 306) Iter1 Msg9 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=4, Conf=No confidence found
+2025-05-16 00:05:39,437 - INFO - Q_num3 (Question ID 306) Iter1 Msg10 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=4, Conf=No confidence found
+2025-05-16 00:05:39,437 - INFO - Q_num3 (Question ID 306) Iter1 Msg11 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=4, Conf=No confidence found
+2025-05-16 00:05:39,437 - INFO - Q_num3 (Question ID 306) Iter1 Msg12 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=4, Conf=No confidence found
+2025-05-16 00:05:39,438 - INFO - Q_num3 (Question ID 306) Iter1 Msg13 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=4, Conf=No confidence found
+2025-05-16 00:05:39,438 - INFO - Q_num3 (Question ID 306) Iter1 Msg14 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=4, Conf=No confidence found
+2025-05-16 00:05:39,438 - INFO - Q_num3 (Question ID 306) Iter1 Msg15 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=4, Conf=No confidence found
+2025-05-16 00:05:39,438 - INFO - Q_num3 (Question ID 306) Iter1 Msg16 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=4, Conf=No confidence found
+2025-05-16 00:05:39,438 - INFO - Q_num3 (Question ID 306) Iter1 Msg17 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=4, Conf=No confidence found
+2025-05-16 00:05:39,438 - INFO - Q_num3 (Question ID 306) Iter1 Msg18 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=4, Conf=No confidence found
+2025-05-16 00:05:39,438 - INFO - Q_num3 (Question ID 306) Iter1 Msg19 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=4, Conf=No confidence found
+2025-05-16 00:05:39,438 - INFO - Q_num3 (Question ID 306) Iter1 Msg20 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=4, Conf=No confidence found
+2025-05-16 00:05:39,438 - INFO - Q_num3 (Question ID 306) Iter1 Msg21 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=4, Conf=No confidence found
+2025-05-16 00:05:39,438 - INFO - Q_num3 (Question ID 306) Iter1 Msg22 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=4, Conf=No confidence found
+2025-05-16 00:05:39,438 - INFO - Q_num3 (Question ID 306) Iter1 Msg23 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=4, Conf=No confidence found
+2025-05-16 00:05:39,438 - INFO - Q_num3 (Question ID 306) Iter1 Msg24 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=4, Conf=No confidence found
+2025-05-16 00:05:39,526 - INFO - --- Finished Q_num3 (ID 306) Iter1. Results saved. ---
+2025-05-16 00:05:39,599 - INFO - --- Running Q_num3 (ID 306) Iter2/5 ---
+2025-05-16 00:05:39,599 - INFO - Task: From a moral point of view, we should not feel obliged to give one of our kidneys to a person with k...
+2025-05-16 00:05:39,820 - INFO - Q_num3 (Question ID 306) Iter1: Starting chat with 6 agents.
+2025-05-16 00:17:40,686 - INFO - Q_num3 (Question ID 306) Iter1: Chat finished in 720.87 seconds.
+2025-05-16 00:17:40,687 - INFO - Q_num3 (Question ID 306) Iter2 Msg1 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=4, Conf=No confidence found
+2025-05-16 00:17:40,687 - INFO - Q_num3 (Question ID 306) Iter2 Msg2 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-16 00:17:40,687 - INFO - Q_num3 (Question ID 306) Iter2 Msg3 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=4, Conf=No confidence found
+2025-05-16 00:17:40,687 - INFO - Q_num3 (Question ID 306) Iter2 Msg4 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=4, Conf=No confidence found
+2025-05-16 00:17:40,687 - INFO - Q_num3 (Question ID 306) Iter2 Msg5 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=4, Conf=No confidence found
+2025-05-16 00:17:40,687 - INFO - Q_num3 (Question ID 306) Iter2 Msg6 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=4, Conf=No confidence found
+2025-05-16 00:17:40,687 - INFO - Q_num3 (Question ID 306) Iter2 Msg7 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=4, Conf=No confidence found
+2025-05-16 00:17:40,688 - INFO - Q_num3 (Question ID 306) Iter2 Msg8 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=4, Conf=No confidence found
+2025-05-16 00:17:40,688 - INFO - Q_num3 (Question ID 306) Iter2 Msg9 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=4, Conf=No confidence found
+2025-05-16 00:17:40,688 - INFO - Q_num3 (Question ID 306) Iter2 Msg10 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=4, Conf=No confidence found
+2025-05-16 00:17:40,688 - INFO - Q_num3 (Question ID 306) Iter2 Msg11 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=4, Conf=No confidence found
+2025-05-16 00:17:40,688 - INFO - Q_num3 (Question ID 306) Iter2 Msg12 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=4, Conf=No confidence found
+2025-05-16 00:17:40,688 - INFO - Q_num3 (Question ID 306) Iter2 Msg13 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=4, Conf=No confidence found
+2025-05-16 00:17:40,688 - INFO - Q_num3 (Question ID 306) Iter2 Msg14 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=4, Conf=No confidence found
+2025-05-16 00:17:40,688 - INFO - Q_num3 (Question ID 306) Iter2 Msg15 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=4, Conf=No confidence found
+2025-05-16 00:17:40,688 - INFO - Q_num3 (Question ID 306) Iter2 Msg16 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=4, Conf=No confidence found
+2025-05-16 00:17:40,688 - INFO - Q_num3 (Question ID 306) Iter2 Msg17 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=4, Conf=No confidence found
+2025-05-16 00:17:40,688 - INFO - Q_num3 (Question ID 306) Iter2 Msg18 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=4, Conf=No confidence found
+2025-05-16 00:17:40,689 - INFO - Q_num3 (Question ID 306) Iter2 Msg19 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=4, Conf=No confidence found
+2025-05-16 00:17:40,689 - INFO - Q_num3 (Question ID 306) Iter2 Msg20 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=4, Conf=No confidence found
+2025-05-16 00:17:40,689 - INFO - Q_num3 (Question ID 306) Iter2 Msg21 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=4, Conf=No confidence found
+2025-05-16 00:17:40,689 - INFO - Q_num3 (Question ID 306) Iter2 Msg22 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=4, Conf=No confidence found
+2025-05-16 00:17:40,689 - INFO - Q_num3 (Question ID 306) Iter2 Msg23 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=4, Conf=No confidence found
+2025-05-16 00:17:40,689 - INFO - Q_num3 (Question ID 306) Iter2 Msg24 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=4, Conf=No confidence found
+2025-05-16 00:17:40,775 - INFO - --- Finished Q_num3 (ID 306) Iter2. Results saved. ---
+2025-05-16 00:17:40,848 - INFO - --- Running Q_num3 (ID 306) Iter3/5 ---
+2025-05-16 00:17:40,848 - INFO - Task: From a moral point of view, we should not feel obliged to give one of our kidneys to a person with k...
+2025-05-16 00:17:41,068 - INFO - Q_num3 (Question ID 306) Iter2: Starting chat with 6 agents.
+2025-05-16 00:26:25,082 - INFO - Q_num3 (Question ID 306) Iter2: Chat finished in 524.01 seconds.
+2025-05-16 00:26:25,082 - INFO - Q_num3 (Question ID 306) Iter3 Msg1 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=4, Conf=No confidence found
+2025-05-16 00:26:25,082 - INFO - Q_num3 (Question ID 306) Iter3 Msg2 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-16 00:26:25,082 - INFO - Q_num3 (Question ID 306) Iter3 Msg3 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=4, Conf=No confidence found
+2025-05-16 00:26:25,082 - INFO - Q_num3 (Question ID 306) Iter3 Msg4 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=4, Conf=No confidence found
+2025-05-16 00:26:25,082 - INFO - Q_num3 (Question ID 306) Iter3 Msg5 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=4, Conf=No confidence found
+2025-05-16 00:26:25,082 - INFO - Q_num3 (Question ID 306) Iter3 Msg6 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=4, Conf=No confidence found
+2025-05-16 00:26:25,083 - INFO - Q_num3 (Question ID 306) Iter3 Msg7 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=4, Conf=No confidence found
+2025-05-16 00:26:25,083 - INFO - Q_num3 (Question ID 306) Iter3 Msg8 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=4, Conf=No confidence found
+2025-05-16 00:26:25,083 - INFO - Q_num3 (Question ID 306) Iter3 Msg9 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=4, Conf=No confidence found
+2025-05-16 00:26:25,083 - INFO - Q_num3 (Question ID 306) Iter3 Msg10 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=4, Conf=No confidence found
+2025-05-16 00:26:25,083 - INFO - Q_num3 (Question ID 306) Iter3 Msg11 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=4, Conf=No confidence found
+2025-05-16 00:26:25,083 - INFO - Q_num3 (Question ID 306) Iter3 Msg12 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=4, Conf=No confidence found
+2025-05-16 00:26:25,083 - INFO - Q_num3 (Question ID 306) Iter3 Msg13 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=4, Conf=No confidence found
+2025-05-16 00:26:25,083 - INFO - Q_num3 (Question ID 306) Iter3 Msg14 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=4, Conf=No confidence found
+2025-05-16 00:26:25,083 - INFO - Q_num3 (Question ID 306) Iter3 Msg15 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=4, Conf=No confidence found
+2025-05-16 00:26:25,083 - INFO - Q_num3 (Question ID 306) Iter3 Msg16 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=4, Conf=No confidence found
+2025-05-16 00:26:25,083 - INFO - Q_num3 (Question ID 306) Iter3 Msg17 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=4, Conf=No confidence found
+2025-05-16 00:26:25,083 - INFO - Q_num3 (Question ID 306) Iter3 Msg18 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=4, Conf=No confidence found
+2025-05-16 00:26:25,083 - INFO - Q_num3 (Question ID 306) Iter3 Msg19 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=4, Conf=No confidence found
+2025-05-16 00:26:25,083 - INFO - Q_num3 (Question ID 306) Iter3 Msg20 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=4, Conf=No confidence found
+2025-05-16 00:26:25,084 - INFO - Q_num3 (Question ID 306) Iter3 Msg21 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=4, Conf=No confidence found
+2025-05-16 00:26:25,084 - INFO - Q_num3 (Question ID 306) Iter3 Msg22 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=4, Conf=No confidence found
+2025-05-16 00:26:25,084 - INFO - Q_num3 (Question ID 306) Iter3 Msg23 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=4, Conf=No confidence found
+2025-05-16 00:26:25,084 - INFO - Q_num3 (Question ID 306) Iter3 Msg24 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=4, Conf=No confidence found
+2025-05-16 00:26:25,171 - INFO - --- Finished Q_num3 (ID 306) Iter3. Results saved. ---
+2025-05-16 00:26:25,245 - INFO - --- Running Q_num3 (ID 306) Iter4/5 ---
+2025-05-16 00:26:25,245 - INFO - Task: From a moral point of view, we should not feel obliged to give one of our kidneys to a person with k...
+2025-05-16 00:26:25,470 - INFO - Q_num3 (Question ID 306) Iter3: Starting chat with 6 agents.
+2025-05-16 00:39:39,622 - INFO - Q_num3 (Question ID 306) Iter3: Chat finished in 794.15 seconds.
+2025-05-16 00:39:39,623 - INFO - Q_num3 (Question ID 306) Iter4 Msg1 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 00:39:39,623 - INFO - Q_num3 (Question ID 306) Iter4 Msg2 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 00:39:39,623 - INFO - Q_num3 (Question ID 306) Iter4 Msg3 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 00:39:39,623 - INFO - Q_num3 (Question ID 306) Iter4 Msg4 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 00:39:39,623 - INFO - Q_num3 (Question ID 306) Iter4 Msg5 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 00:39:39,623 - INFO - Q_num3 (Question ID 306) Iter4 Msg6 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 00:39:39,623 - INFO - Q_num3 (Question ID 306) Iter4 Msg7 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 00:39:39,623 - INFO - Q_num3 (Question ID 306) Iter4 Msg8 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 00:39:39,623 - INFO - Q_num3 (Question ID 306) Iter4 Msg9 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 00:39:39,623 - INFO - Q_num3 (Question ID 306) Iter4 Msg10 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 00:39:39,623 - INFO - Q_num3 (Question ID 306) Iter4 Msg11 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 00:39:39,623 - INFO - Q_num3 (Question ID 306) Iter4 Msg12 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 00:39:39,623 - INFO - Q_num3 (Question ID 306) Iter4 Msg13 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 00:39:39,624 - INFO - Q_num3 (Question ID 306) Iter4 Msg14 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 00:39:39,624 - INFO - Q_num3 (Question ID 306) Iter4 Msg15 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 00:39:39,624 - INFO - Q_num3 (Question ID 306) Iter4 Msg16 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 00:39:39,624 - INFO - Q_num3 (Question ID 306) Iter4 Msg17 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 00:39:39,624 - INFO - Q_num3 (Question ID 306) Iter4 Msg18 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 00:39:39,624 - INFO - Q_num3 (Question ID 306) Iter4 Msg19 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 00:39:39,624 - INFO - Q_num3 (Question ID 306) Iter4 Msg20 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 00:39:39,624 - INFO - Q_num3 (Question ID 306) Iter4 Msg21 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 00:39:39,624 - INFO - Q_num3 (Question ID 306) Iter4 Msg22 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 00:39:39,624 - INFO - Q_num3 (Question ID 306) Iter4 Msg23 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 00:39:39,624 - INFO - Q_num3 (Question ID 306) Iter4 Msg24 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 00:39:39,710 - INFO - --- Finished Q_num3 (ID 306) Iter4. Results saved. ---
+2025-05-16 00:39:39,782 - INFO - --- Running Q_num3 (ID 306) Iter5/5 ---
+2025-05-16 00:39:39,782 - INFO - Task: From a moral point of view, we should not feel obliged to give one of our kidneys to a person with k...
+2025-05-16 00:39:40,001 - INFO - Q_num3 (Question ID 306) Iter4: Starting chat with 6 agents.
+2025-05-16 00:46:52,053 - INFO - Q_num3 (Question ID 306) Iter4: Chat finished in 432.05 seconds.
+2025-05-16 00:46:52,053 - INFO - Q_num3 (Question ID 306) Iter5 Msg1 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 00:46:52,063 - INFO - Q_num3 (Question ID 306) Iter5 Msg2 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-16 00:46:52,063 - INFO - Q_num3 (Question ID 306) Iter5 Msg3 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 00:46:52,063 - INFO - Q_num3 (Question ID 306) Iter5 Msg4 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 00:46:52,063 - INFO - Q_num3 (Question ID 306) Iter5 Msg5 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 00:46:52,063 - INFO - Q_num3 (Question ID 306) Iter5 Msg6 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 00:46:52,063 - INFO - Q_num3 (Question ID 306) Iter5 Msg7 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 00:46:52,063 - INFO - Q_num3 (Question ID 306) Iter5 Msg8 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 00:46:52,063 - INFO - Q_num3 (Question ID 306) Iter5 Msg9 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 00:46:52,063 - INFO - Q_num3 (Question ID 306) Iter5 Msg10 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 00:46:52,063 - INFO - Q_num3 (Question ID 306) Iter5 Msg11 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 00:46:52,063 - INFO - Q_num3 (Question ID 306) Iter5 Msg12 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 00:46:52,063 - INFO - Q_num3 (Question ID 306) Iter5 Msg13 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 00:46:52,063 - INFO - Q_num3 (Question ID 306) Iter5 Msg14 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 00:46:52,064 - INFO - Q_num3 (Question ID 306) Iter5 Msg15 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 00:46:52,064 - INFO - Q_num3 (Question ID 306) Iter5 Msg16 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 00:46:52,064 - INFO - Q_num3 (Question ID 306) Iter5 Msg17 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 00:46:52,064 - INFO - Q_num3 (Question ID 306) Iter5 Msg18 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 00:46:52,064 - INFO - Q_num3 (Question ID 306) Iter5 Msg19 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 00:46:52,064 - INFO - Q_num3 (Question ID 306) Iter5 Msg20 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 00:46:52,064 - INFO - Q_num3 (Question ID 306) Iter5 Msg21 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 00:46:52,064 - INFO - Q_num3 (Question ID 306) Iter5 Msg22 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 00:46:52,064 - INFO - Q_num3 (Question ID 306) Iter5 Msg23 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 00:46:52,064 - INFO - Q_num3 (Question ID 306) Iter5 Msg24 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 00:46:52,150 - INFO - --- Finished Q_num3 (ID 306) Iter5. Results saved. ---
+2025-05-16 00:46:52,221 - INFO - --- Running Q_num4 (ID 302) Iter1/5 ---
+2025-05-16 00:46:52,221 - INFO - Task: Political oppression should not be used, even if oppression for a short, limited time would ensure t...
+2025-05-16 00:46:52,442 - INFO - Q_num4 (Question ID 302) Iter0: Starting chat with 6 agents.
+2025-05-16 00:56:00,316 - INFO - Q_num4 (Question ID 302) Iter0: Chat finished in 547.87 seconds.
+2025-05-16 00:56:00,317 - INFO - Q_num4 (Question ID 302) Iter1 Msg1 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=7, Conf=No confidence found
+2025-05-16 00:56:00,317 - INFO - Q_num4 (Question ID 302) Iter1 Msg2 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=1, Conf=No confidence found
+2025-05-16 00:56:00,317 - INFO - Q_num4 (Question ID 302) Iter1 Msg3 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=7, Conf=No confidence found
+2025-05-16 00:56:00,317 - INFO - Q_num4 (Question ID 302) Iter1 Msg4 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=7, Conf=No confidence found
+2025-05-16 00:56:00,317 - INFO - Q_num4 (Question ID 302) Iter1 Msg5 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=7, Conf=No confidence found
+2025-05-16 00:56:00,317 - INFO - Q_num4 (Question ID 302) Iter1 Msg6 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=7, Conf=No confidence found
+2025-05-16 00:56:00,317 - INFO - Q_num4 (Question ID 302) Iter1 Msg7 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=7, Conf=No confidence found
+2025-05-16 00:56:00,317 - INFO - Q_num4 (Question ID 302) Iter1 Msg8 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=7, Conf=No confidence found
+2025-05-16 00:56:00,318 - INFO - Q_num4 (Question ID 302) Iter1 Msg9 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=7, Conf=No confidence found
+2025-05-16 00:56:00,318 - INFO - Q_num4 (Question ID 302) Iter1 Msg10 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=7, Conf=No confidence found
+2025-05-16 00:56:00,318 - INFO - Q_num4 (Question ID 302) Iter1 Msg11 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=7, Conf=No confidence found
+2025-05-16 00:56:00,318 - INFO - Q_num4 (Question ID 302) Iter1 Msg12 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=7, Conf=No confidence found
+2025-05-16 00:56:00,318 - INFO - Q_num4 (Question ID 302) Iter1 Msg13 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=7, Conf=No confidence found
+2025-05-16 00:56:00,318 - INFO - Q_num4 (Question ID 302) Iter1 Msg14 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=7, Conf=No confidence found
+2025-05-16 00:56:00,318 - INFO - Q_num4 (Question ID 302) Iter1 Msg15 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=7, Conf=No confidence found
+2025-05-16 00:56:00,318 - INFO - Q_num4 (Question ID 302) Iter1 Msg16 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=7, Conf=No confidence found
+2025-05-16 00:56:00,318 - INFO - Q_num4 (Question ID 302) Iter1 Msg17 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=7, Conf=No confidence found
+2025-05-16 00:56:00,318 - INFO - Q_num4 (Question ID 302) Iter1 Msg18 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=7, Conf=No confidence found
+2025-05-16 00:56:00,318 - INFO - Q_num4 (Question ID 302) Iter1 Msg19 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=7, Conf=No confidence found
+2025-05-16 00:56:00,318 - INFO - Q_num4 (Question ID 302) Iter1 Msg20 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=7, Conf=No confidence found
+2025-05-16 00:56:00,318 - INFO - Q_num4 (Question ID 302) Iter1 Msg21 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=7, Conf=No confidence found
+2025-05-16 00:56:00,318 - INFO - Q_num4 (Question ID 302) Iter1 Msg22 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=7, Conf=No confidence found
+2025-05-16 00:56:00,318 - INFO - Q_num4 (Question ID 302) Iter1 Msg23 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=7, Conf=No confidence found
+2025-05-16 00:56:00,319 - INFO - Q_num4 (Question ID 302) Iter1 Msg24 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=7, Conf=No confidence found
+2025-05-16 00:56:00,405 - INFO - --- Finished Q_num4 (ID 302) Iter1. Results saved. ---
+2025-05-16 00:56:00,476 - INFO - --- Running Q_num4 (ID 302) Iter2/5 ---
+2025-05-16 00:56:00,477 - INFO - Task: Political oppression should not be used, even if oppression for a short, limited time would ensure t...
+2025-05-16 00:56:00,698 - INFO - Q_num4 (Question ID 302) Iter1: Starting chat with 6 agents.
+2025-05-16 01:03:46,951 - INFO - Q_num4 (Question ID 302) Iter1: Chat finished in 466.25 seconds.
+2025-05-16 01:03:46,951 - INFO - Q_num4 (Question ID 302) Iter2 Msg1 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=1, Conf=No confidence found
+2025-05-16 01:03:46,951 - INFO - Q_num4 (Question ID 302) Iter2 Msg2 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=1, Conf=No confidence found
+2025-05-16 01:03:46,952 - INFO - Q_num4 (Question ID 302) Iter2 Msg3 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=1, Conf=No confidence found
+2025-05-16 01:03:46,952 - INFO - Q_num4 (Question ID 302) Iter2 Msg4 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=1, Conf=No confidence found
+2025-05-16 01:03:46,952 - INFO - Q_num4 (Question ID 302) Iter2 Msg5 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=1, Conf=No confidence found
+2025-05-16 01:03:46,952 - INFO - Q_num4 (Question ID 302) Iter2 Msg6 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=1, Conf=No confidence found
+2025-05-16 01:03:46,952 - INFO - Q_num4 (Question ID 302) Iter2 Msg7 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=1, Conf=No confidence found
+2025-05-16 01:03:46,952 - INFO - Q_num4 (Question ID 302) Iter2 Msg8 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=1, Conf=No confidence found
+2025-05-16 01:03:46,952 - INFO - Q_num4 (Question ID 302) Iter2 Msg9 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=1, Conf=No confidence found
+2025-05-16 01:03:46,952 - INFO - Q_num4 (Question ID 302) Iter2 Msg10 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=1, Conf=No confidence found
+2025-05-16 01:03:46,952 - INFO - Q_num4 (Question ID 302) Iter2 Msg11 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=1, Conf=No confidence found
+2025-05-16 01:03:46,952 - INFO - Q_num4 (Question ID 302) Iter2 Msg12 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=1, Conf=No confidence found
+2025-05-16 01:03:46,952 - INFO - Q_num4 (Question ID 302) Iter2 Msg13 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=1, Conf=No confidence found
+2025-05-16 01:03:46,952 - INFO - Q_num4 (Question ID 302) Iter2 Msg14 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=1, Conf=No confidence found
+2025-05-16 01:03:46,952 - INFO - Q_num4 (Question ID 302) Iter2 Msg15 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=1, Conf=No confidence found
+2025-05-16 01:03:46,952 - INFO - Q_num4 (Question ID 302) Iter2 Msg16 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=1, Conf=No confidence found
+2025-05-16 01:03:46,953 - INFO - Q_num4 (Question ID 302) Iter2 Msg17 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=1, Conf=No confidence found
+2025-05-16 01:03:46,953 - INFO - Q_num4 (Question ID 302) Iter2 Msg18 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=1, Conf=No confidence found
+2025-05-16 01:03:46,953 - INFO - Q_num4 (Question ID 302) Iter2 Msg19 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=1, Conf=No confidence found
+2025-05-16 01:03:46,953 - INFO - Q_num4 (Question ID 302) Iter2 Msg20 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=1, Conf=No confidence found
+2025-05-16 01:03:46,953 - INFO - Q_num4 (Question ID 302) Iter2 Msg21 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=1, Conf=No confidence found
+2025-05-16 01:03:46,953 - INFO - Q_num4 (Question ID 302) Iter2 Msg22 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=1, Conf=No confidence found
+2025-05-16 01:03:46,953 - INFO - Q_num4 (Question ID 302) Iter2 Msg23 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=1, Conf=No confidence found
+2025-05-16 01:03:46,953 - INFO - Q_num4 (Question ID 302) Iter2 Msg24 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=1, Conf=No confidence found
+2025-05-16 01:03:47,041 - INFO - --- Finished Q_num4 (ID 302) Iter2. Results saved. ---
+2025-05-16 01:03:47,115 - INFO - --- Running Q_num4 (ID 302) Iter3/5 ---
+2025-05-16 01:03:47,115 - INFO - Task: Political oppression should not be used, even if oppression for a short, limited time would ensure t...
+2025-05-16 01:03:47,336 - INFO - Q_num4 (Question ID 302) Iter2: Starting chat with 6 agents.
+2025-05-16 01:12:39,850 - INFO - Q_num4 (Question ID 302) Iter2: Chat finished in 532.51 seconds.
+2025-05-16 01:12:39,850 - INFO - Q_num4 (Question ID 302) Iter3 Msg1 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=3, Conf=No confidence found
+2025-05-16 01:12:39,851 - INFO - Q_num4 (Question ID 302) Iter3 Msg2 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=3, Conf=No confidence found
+2025-05-16 01:12:39,851 - INFO - Q_num4 (Question ID 302) Iter3 Msg3 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=3, Conf=No confidence found
+2025-05-16 01:12:39,851 - INFO - Q_num4 (Question ID 302) Iter3 Msg4 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=3, Conf=No confidence found
+2025-05-16 01:12:39,851 - INFO - Q_num4 (Question ID 302) Iter3 Msg5 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=3, Conf=No confidence found
+2025-05-16 01:12:39,851 - INFO - Q_num4 (Question ID 302) Iter3 Msg6 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=3, Conf=No confidence found
+2025-05-16 01:12:39,851 - INFO - Q_num4 (Question ID 302) Iter3 Msg7 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=3, Conf=No confidence found
+2025-05-16 01:12:39,851 - INFO - Q_num4 (Question ID 302) Iter3 Msg8 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=3, Conf=No confidence found
+2025-05-16 01:12:39,851 - INFO - Q_num4 (Question ID 302) Iter3 Msg9 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=3, Conf=No confidence found
+2025-05-16 01:12:39,851 - INFO - Q_num4 (Question ID 302) Iter3 Msg10 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=3, Conf=No confidence found
+2025-05-16 01:12:39,851 - INFO - Q_num4 (Question ID 302) Iter3 Msg11 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=3, Conf=No confidence found
+2025-05-16 01:12:39,851 - INFO - Q_num4 (Question ID 302) Iter3 Msg12 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=3, Conf=No confidence found
+2025-05-16 01:12:39,851 - INFO - Q_num4 (Question ID 302) Iter3 Msg13 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=3, Conf=No confidence found
+2025-05-16 01:12:39,852 - INFO - Q_num4 (Question ID 302) Iter3 Msg14 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=3, Conf=No confidence found
+2025-05-16 01:12:39,852 - INFO - Q_num4 (Question ID 302) Iter3 Msg15 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=3, Conf=No confidence found
+2025-05-16 01:12:39,852 - INFO - Q_num4 (Question ID 302) Iter3 Msg16 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=3, Conf=No confidence found
+2025-05-16 01:12:39,852 - INFO - Q_num4 (Question ID 302) Iter3 Msg17 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=3, Conf=No confidence found
+2025-05-16 01:12:39,852 - INFO - Q_num4 (Question ID 302) Iter3 Msg18 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=3, Conf=No confidence found
+2025-05-16 01:12:39,852 - INFO - Q_num4 (Question ID 302) Iter3 Msg19 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=3, Conf=No confidence found
+2025-05-16 01:12:39,852 - INFO - Q_num4 (Question ID 302) Iter3 Msg20 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=3, Conf=No confidence found
+2025-05-16 01:12:39,852 - INFO - Q_num4 (Question ID 302) Iter3 Msg21 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=3, Conf=No confidence found
+2025-05-16 01:12:39,852 - INFO - Q_num4 (Question ID 302) Iter3 Msg22 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=3, Conf=No confidence found
+2025-05-16 01:12:39,852 - INFO - Q_num4 (Question ID 302) Iter3 Msg23 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=3, Conf=No confidence found
+2025-05-16 01:12:39,852 - INFO - Q_num4 (Question ID 302) Iter3 Msg24 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=3, Conf=No confidence found
+2025-05-16 01:12:39,939 - INFO - --- Finished Q_num4 (ID 302) Iter3. Results saved. ---
+2025-05-16 01:12:40,012 - INFO - --- Running Q_num4 (ID 302) Iter4/5 ---
+2025-05-16 01:12:40,012 - INFO - Task: Political oppression should not be used, even if oppression for a short, limited time would ensure t...
+2025-05-16 01:12:40,232 - INFO - Q_num4 (Question ID 302) Iter3: Starting chat with 6 agents.
+2025-05-16 01:20:25,870 - INFO - Q_num4 (Question ID 302) Iter3: Chat finished in 465.64 seconds.
+2025-05-16 01:20:25,871 - INFO - Q_num4 (Question ID 302) Iter4 Msg1 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 01:20:25,871 - INFO - Q_num4 (Question ID 302) Iter4 Msg2 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 01:20:25,871 - INFO - Q_num4 (Question ID 302) Iter4 Msg3 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 01:20:25,871 - INFO - Q_num4 (Question ID 302) Iter4 Msg4 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 01:20:25,871 - INFO - Q_num4 (Question ID 302) Iter4 Msg5 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 01:20:25,871 - INFO - Q_num4 (Question ID 302) Iter4 Msg6 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 01:20:25,871 - INFO - Q_num4 (Question ID 302) Iter4 Msg7 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 01:20:25,871 - INFO - Q_num4 (Question ID 302) Iter4 Msg8 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 01:20:25,871 - INFO - Q_num4 (Question ID 302) Iter4 Msg9 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 01:20:25,871 - INFO - Q_num4 (Question ID 302) Iter4 Msg10 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 01:20:25,871 - INFO - Q_num4 (Question ID 302) Iter4 Msg11 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 01:20:25,871 - INFO - Q_num4 (Question ID 302) Iter4 Msg12 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 01:20:25,872 - INFO - Q_num4 (Question ID 302) Iter4 Msg13 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 01:20:25,872 - INFO - Q_num4 (Question ID 302) Iter4 Msg14 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 01:20:25,872 - INFO - Q_num4 (Question ID 302) Iter4 Msg15 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 01:20:25,872 - INFO - Q_num4 (Question ID 302) Iter4 Msg16 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 01:20:25,872 - INFO - Q_num4 (Question ID 302) Iter4 Msg17 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 01:20:25,872 - INFO - Q_num4 (Question ID 302) Iter4 Msg18 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 01:20:25,872 - INFO - Q_num4 (Question ID 302) Iter4 Msg19 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 01:20:25,872 - INFO - Q_num4 (Question ID 302) Iter4 Msg20 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 01:20:25,872 - INFO - Q_num4 (Question ID 302) Iter4 Msg21 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 01:20:25,872 - INFO - Q_num4 (Question ID 302) Iter4 Msg22 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 01:20:25,872 - INFO - Q_num4 (Question ID 302) Iter4 Msg23 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 01:20:25,872 - INFO - Q_num4 (Question ID 302) Iter4 Msg24 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 01:20:25,960 - INFO - --- Finished Q_num4 (ID 302) Iter4. Results saved. ---
+2025-05-16 01:20:26,034 - INFO - --- Running Q_num4 (ID 302) Iter5/5 ---
+2025-05-16 01:20:26,034 - INFO - Task: Political oppression should not be used, even if oppression for a short, limited time would ensure t...
+2025-05-16 01:20:26,255 - INFO - Q_num4 (Question ID 302) Iter4: Starting chat with 6 agents.
+2025-05-16 01:31:51,907 - INFO - Q_num4 (Question ID 302) Iter4: Chat finished in 685.65 seconds.
+2025-05-16 01:31:51,908 - INFO - Q_num4 (Question ID 302) Iter5 Msg1 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 01:31:51,908 - INFO - Q_num4 (Question ID 302) Iter5 Msg2 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 01:31:51,908 - INFO - Q_num4 (Question ID 302) Iter5 Msg3 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 01:31:51,908 - INFO - Q_num4 (Question ID 302) Iter5 Msg4 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 01:31:51,908 - INFO - Q_num4 (Question ID 302) Iter5 Msg5 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 01:31:51,908 - INFO - Q_num4 (Question ID 302) Iter5 Msg6 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 01:31:51,908 - INFO - Q_num4 (Question ID 302) Iter5 Msg7 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 01:31:51,908 - INFO - Q_num4 (Question ID 302) Iter5 Msg8 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 01:31:51,908 - INFO - Q_num4 (Question ID 302) Iter5 Msg9 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 01:31:51,908 - INFO - Q_num4 (Question ID 302) Iter5 Msg10 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 01:31:51,908 - INFO - Q_num4 (Question ID 302) Iter5 Msg11 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 01:31:51,908 - INFO - Q_num4 (Question ID 302) Iter5 Msg12 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 01:31:51,908 - INFO - Q_num4 (Question ID 302) Iter5 Msg13 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 01:31:51,909 - INFO - Q_num4 (Question ID 302) Iter5 Msg14 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 01:31:51,909 - INFO - Q_num4 (Question ID 302) Iter5 Msg15 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 01:31:51,909 - INFO - Q_num4 (Question ID 302) Iter5 Msg16 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 01:31:51,909 - INFO - Q_num4 (Question ID 302) Iter5 Msg17 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 01:31:51,909 - INFO - Q_num4 (Question ID 302) Iter5 Msg18 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 01:31:51,909 - INFO - Q_num4 (Question ID 302) Iter5 Msg19 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 01:31:51,909 - INFO - Q_num4 (Question ID 302) Iter5 Msg20 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 01:31:51,909 - INFO - Q_num4 (Question ID 302) Iter5 Msg21 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 01:31:51,909 - INFO - Q_num4 (Question ID 302) Iter5 Msg22 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 01:31:51,909 - INFO - Q_num4 (Question ID 302) Iter5 Msg23 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 01:31:51,909 - INFO - Q_num4 (Question ID 302) Iter5 Msg24 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 01:31:52,000 - INFO - --- Finished Q_num4 (ID 302) Iter5. Results saved. ---
+2025-05-16 01:31:52,072 - INFO - --- Running Q_num5 (ID 307) Iter1/5 ---
+2025-05-16 01:31:52,073 - INFO - Task: From a moral perspective, people should prioritize the well-being of those who are especially close ...
+2025-05-16 01:31:52,295 - INFO - Q_num5 (Question ID 307) Iter0: Starting chat with 6 agents.
+2025-05-16 01:39:28,988 - INFO - Q_num5 (Question ID 307) Iter0: Chat finished in 456.69 seconds.
+2025-05-16 01:39:28,988 - INFO - Q_num5 (Question ID 307) Iter1 Msg1 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=4, Conf=No confidence found
+2025-05-16 01:39:28,989 - INFO - Q_num5 (Question ID 307) Iter1 Msg2 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-16 01:39:28,989 - INFO - Q_num5 (Question ID 307) Iter1 Msg3 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=4, Conf=No confidence found
+2025-05-16 01:39:28,989 - INFO - Q_num5 (Question ID 307) Iter1 Msg4 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=4, Conf=No confidence found
+2025-05-16 01:39:28,989 - INFO - Q_num5 (Question ID 307) Iter1 Msg5 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=4, Conf=No confidence found
+2025-05-16 01:39:28,989 - INFO - Q_num5 (Question ID 307) Iter1 Msg6 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=4, Conf=No confidence found
+2025-05-16 01:39:28,989 - INFO - Q_num5 (Question ID 307) Iter1 Msg7 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=4, Conf=No confidence found
+2025-05-16 01:39:28,989 - INFO - Q_num5 (Question ID 307) Iter1 Msg8 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=4, Conf=No confidence found
+2025-05-16 01:39:28,989 - INFO - Q_num5 (Question ID 307) Iter1 Msg9 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=4, Conf=No confidence found
+2025-05-16 01:39:28,989 - INFO - Q_num5 (Question ID 307) Iter1 Msg10 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=4, Conf=No confidence found
+2025-05-16 01:39:28,989 - INFO - Q_num5 (Question ID 307) Iter1 Msg11 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=4, Conf=No confidence found
+2025-05-16 01:39:28,989 - INFO - Q_num5 (Question ID 307) Iter1 Msg12 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=4, Conf=No confidence found
+2025-05-16 01:39:28,989 - INFO - Q_num5 (Question ID 307) Iter1 Msg13 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=4, Conf=No confidence found
+2025-05-16 01:39:28,989 - INFO - Q_num5 (Question ID 307) Iter1 Msg14 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=4, Conf=No confidence found
+2025-05-16 01:39:28,990 - INFO - Q_num5 (Question ID 307) Iter1 Msg15 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=4, Conf=No confidence found
+2025-05-16 01:39:28,990 - INFO - Q_num5 (Question ID 307) Iter1 Msg16 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=4, Conf=No confidence found
+2025-05-16 01:39:28,990 - INFO - Q_num5 (Question ID 307) Iter1 Msg17 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=4, Conf=No confidence found
+2025-05-16 01:39:28,990 - INFO - Q_num5 (Question ID 307) Iter1 Msg18 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=4, Conf=No confidence found
+2025-05-16 01:39:28,990 - INFO - Q_num5 (Question ID 307) Iter1 Msg19 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=4, Conf=No confidence found
+2025-05-16 01:39:28,990 - INFO - Q_num5 (Question ID 307) Iter1 Msg20 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=4, Conf=No confidence found
+2025-05-16 01:39:28,990 - INFO - Q_num5 (Question ID 307) Iter1 Msg21 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=4, Conf=No confidence found
+2025-05-16 01:39:28,990 - INFO - Q_num5 (Question ID 307) Iter1 Msg22 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=4, Conf=No confidence found
+2025-05-16 01:39:28,990 - INFO - Q_num5 (Question ID 307) Iter1 Msg23 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=4, Conf=No confidence found
+2025-05-16 01:39:28,990 - INFO - Q_num5 (Question ID 307) Iter1 Msg24 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=4, Conf=No confidence found
+2025-05-16 01:39:29,076 - INFO - --- Finished Q_num5 (ID 307) Iter1. Results saved. ---
+2025-05-16 01:39:29,148 - INFO - --- Running Q_num5 (ID 307) Iter2/5 ---
+2025-05-16 01:39:29,148 - INFO - Task: From a moral perspective, people should prioritize the well-being of those who are especially close ...
+2025-05-16 01:39:29,363 - INFO - Q_num5 (Question ID 307) Iter1: Starting chat with 6 agents.
+2025-05-16 01:46:08,245 - INFO - Q_num5 (Question ID 307) Iter1: Chat finished in 398.88 seconds.
+2025-05-16 01:46:08,245 - INFO - Q_num5 (Question ID 307) Iter2 Msg1 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 01:46:08,255 - INFO - Q_num5 (Question ID 307) Iter2 Msg2 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-16 01:46:08,256 - INFO - Q_num5 (Question ID 307) Iter2 Msg3 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 01:46:08,256 - INFO - Q_num5 (Question ID 307) Iter2 Msg4 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 01:46:08,256 - INFO - Q_num5 (Question ID 307) Iter2 Msg5 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 01:46:08,256 - INFO - Q_num5 (Question ID 307) Iter2 Msg6 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 01:46:08,256 - INFO - Q_num5 (Question ID 307) Iter2 Msg7 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 01:46:08,256 - INFO - Q_num5 (Question ID 307) Iter2 Msg8 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 01:46:08,256 - INFO - Q_num5 (Question ID 307) Iter2 Msg9 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 01:46:08,256 - INFO - Q_num5 (Question ID 307) Iter2 Msg10 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 01:46:08,256 - INFO - Q_num5 (Question ID 307) Iter2 Msg11 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 01:46:08,256 - INFO - Q_num5 (Question ID 307) Iter2 Msg12 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 01:46:08,257 - INFO - Q_num5 (Question ID 307) Iter2 Msg13 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 01:46:08,257 - INFO - Q_num5 (Question ID 307) Iter2 Msg14 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 01:46:08,257 - INFO - Q_num5 (Question ID 307) Iter2 Msg15 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 01:46:08,257 - INFO - Q_num5 (Question ID 307) Iter2 Msg16 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 01:46:08,257 - INFO - Q_num5 (Question ID 307) Iter2 Msg17 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 01:46:08,257 - INFO - Q_num5 (Question ID 307) Iter2 Msg18 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 01:46:08,257 - INFO - Q_num5 (Question ID 307) Iter2 Msg19 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 01:46:08,257 - INFO - Q_num5 (Question ID 307) Iter2 Msg20 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 01:46:08,257 - INFO - Q_num5 (Question ID 307) Iter2 Msg21 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 01:46:08,257 - INFO - Q_num5 (Question ID 307) Iter2 Msg22 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 01:46:08,258 - INFO - Q_num5 (Question ID 307) Iter2 Msg23 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 01:46:08,258 - INFO - Q_num5 (Question ID 307) Iter2 Msg24 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 01:46:08,344 - INFO - --- Finished Q_num5 (ID 307) Iter2. Results saved. ---
+2025-05-16 01:46:08,416 - INFO - --- Running Q_num5 (ID 307) Iter3/5 ---
+2025-05-16 01:46:08,416 - INFO - Task: From a moral perspective, people should prioritize the well-being of those who are especially close ...
+2025-05-16 01:46:08,632 - INFO - Q_num5 (Question ID 307) Iter2: Starting chat with 6 agents.
+2025-05-16 01:50:38,688 - INFO - Q_num5 (Question ID 307) Iter2: Chat finished in 270.06 seconds.
+2025-05-16 01:50:38,688 - INFO - Q_num5 (Question ID 307) Iter3 Msg1 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=4, Conf=No confidence found
+2025-05-16 01:50:38,688 - INFO - Q_num5 (Question ID 307) Iter3 Msg2 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=4, Conf=No confidence found
+2025-05-16 01:50:38,689 - INFO - Q_num5 (Question ID 307) Iter3 Msg3 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=4, Conf=No confidence found
+2025-05-16 01:50:38,689 - INFO - Q_num5 (Question ID 307) Iter3 Msg4 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=4, Conf=No confidence found
+2025-05-16 01:50:38,689 - INFO - Q_num5 (Question ID 307) Iter3 Msg5 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=4, Conf=No confidence found
+2025-05-16 01:50:38,689 - INFO - Q_num5 (Question ID 307) Iter3 Msg6 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=4, Conf=No confidence found
+2025-05-16 01:50:38,689 - INFO - Q_num5 (Question ID 307) Iter3 Msg7 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=4, Conf=No confidence found
+2025-05-16 01:50:38,689 - INFO - Q_num5 (Question ID 307) Iter3 Msg8 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=4, Conf=No confidence found
+2025-05-16 01:50:38,689 - INFO - Q_num5 (Question ID 307) Iter3 Msg9 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=4, Conf=No confidence found
+2025-05-16 01:50:38,689 - INFO - Q_num5 (Question ID 307) Iter3 Msg10 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=4, Conf=No confidence found
+2025-05-16 01:50:38,689 - INFO - Q_num5 (Question ID 307) Iter3 Msg11 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=4, Conf=No confidence found
+2025-05-16 01:50:38,689 - INFO - Q_num5 (Question ID 307) Iter3 Msg12 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=4, Conf=No confidence found
+2025-05-16 01:50:38,689 - INFO - Q_num5 (Question ID 307) Iter3 Msg13 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=4, Conf=No confidence found
+2025-05-16 01:50:38,689 - INFO - Q_num5 (Question ID 307) Iter3 Msg14 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=4, Conf=No confidence found
+2025-05-16 01:50:38,689 - INFO - Q_num5 (Question ID 307) Iter3 Msg15 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=4, Conf=No confidence found
+2025-05-16 01:50:38,689 - INFO - Q_num5 (Question ID 307) Iter3 Msg16 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=4, Conf=No confidence found
+2025-05-16 01:50:38,690 - INFO - Q_num5 (Question ID 307) Iter3 Msg17 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=4, Conf=No confidence found
+2025-05-16 01:50:38,690 - INFO - Q_num5 (Question ID 307) Iter3 Msg18 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=4, Conf=No confidence found
+2025-05-16 01:50:38,690 - INFO - Q_num5 (Question ID 307) Iter3 Msg19 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=4, Conf=No confidence found
+2025-05-16 01:50:38,690 - INFO - Q_num5 (Question ID 307) Iter3 Msg20 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=4, Conf=No confidence found
+2025-05-16 01:50:38,690 - INFO - Q_num5 (Question ID 307) Iter3 Msg21 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=4, Conf=No confidence found
+2025-05-16 01:50:38,690 - INFO - Q_num5 (Question ID 307) Iter3 Msg22 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=4, Conf=No confidence found
+2025-05-16 01:50:38,690 - INFO - Q_num5 (Question ID 307) Iter3 Msg23 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=4, Conf=No confidence found
+2025-05-16 01:50:38,690 - INFO - Q_num5 (Question ID 307) Iter3 Msg24 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=4, Conf=No confidence found
+2025-05-16 01:50:38,779 - INFO - --- Finished Q_num5 (ID 307) Iter3. Results saved. ---
+2025-05-16 01:50:38,851 - INFO - --- Running Q_num5 (ID 307) Iter4/5 ---
+2025-05-16 01:50:38,851 - INFO - Task: From a moral perspective, people should prioritize the well-being of those who are especially close ...
+2025-05-16 01:50:39,073 - INFO - Q_num5 (Question ID 307) Iter3: Starting chat with 6 agents.
+2025-05-16 01:53:31,793 - INFO - Q_num5 (Question ID 307) Iter3: Chat finished in 172.72 seconds.
+2025-05-16 01:53:31,793 - INFO - Q_num5 (Question ID 307) Iter4 Msg1 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 01:53:31,793 - INFO - Q_num5 (Question ID 307) Iter4 Msg2 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=No answer found, Conf=No confidence found
+2025-05-16 01:53:31,794 - INFO - Q_num5 (Question ID 307) Iter4 Msg3 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 01:53:31,794 - INFO - Q_num5 (Question ID 307) Iter4 Msg4 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 01:53:31,794 - INFO - Q_num5 (Question ID 307) Iter4 Msg5 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 01:53:31,794 - INFO - Q_num5 (Question ID 307) Iter4 Msg6 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 01:53:31,794 - INFO - Q_num5 (Question ID 307) Iter4 Msg7 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 01:53:31,794 - INFO - Q_num5 (Question ID 307) Iter4 Msg8 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 01:53:31,794 - INFO - Q_num5 (Question ID 307) Iter4 Msg9 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 01:53:31,794 - INFO - Q_num5 (Question ID 307) Iter4 Msg10 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 01:53:31,794 - INFO - Q_num5 (Question ID 307) Iter4 Msg11 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 01:53:31,794 - INFO - Q_num5 (Question ID 307) Iter4 Msg12 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 01:53:31,794 - INFO - Q_num5 (Question ID 307) Iter4 Msg13 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 01:53:31,795 - INFO - Q_num5 (Question ID 307) Iter4 Msg14 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 01:53:31,795 - INFO - Q_num5 (Question ID 307) Iter4 Msg15 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 01:53:31,795 - INFO - Q_num5 (Question ID 307) Iter4 Msg16 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 01:53:31,795 - INFO - Q_num5 (Question ID 307) Iter4 Msg17 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 01:53:31,795 - INFO - Q_num5 (Question ID 307) Iter4 Msg18 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 01:53:31,795 - INFO - Q_num5 (Question ID 307) Iter4 Msg19 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 01:53:31,795 - INFO - Q_num5 (Question ID 307) Iter4 Msg20 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 01:53:31,795 - INFO - Q_num5 (Question ID 307) Iter4 Msg21 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 01:53:31,795 - INFO - Q_num5 (Question ID 307) Iter4 Msg22 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 01:53:31,795 - INFO - Q_num5 (Question ID 307) Iter4 Msg23 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 01:53:31,795 - INFO - Q_num5 (Question ID 307) Iter4 Msg24 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 01:53:31,884 - INFO - --- Finished Q_num5 (ID 307) Iter4. Results saved. ---
+2025-05-16 01:53:31,957 - INFO - --- Running Q_num5 (ID 307) Iter5/5 ---
+2025-05-16 01:53:31,957 - INFO - Task: From a moral perspective, people should prioritize the well-being of those who are especially close ...
+2025-05-16 01:53:32,173 - INFO - Q_num5 (Question ID 307) Iter4: Starting chat with 6 agents.
+2025-05-16 01:58:06,686 - INFO - Q_num5 (Question ID 307) Iter4: Chat finished in 274.51 seconds.
+2025-05-16 01:58:06,687 - INFO - Q_num5 (Question ID 307) Iter5 Msg1 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 01:58:06,687 - INFO - Q_num5 (Question ID 307) Iter5 Msg2 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 01:58:06,687 - INFO - Q_num5 (Question ID 307) Iter5 Msg3 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 01:58:06,687 - INFO - Q_num5 (Question ID 307) Iter5 Msg4 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 01:58:06,687 - INFO - Q_num5 (Question ID 307) Iter5 Msg5 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 01:58:06,687 - INFO - Q_num5 (Question ID 307) Iter5 Msg6 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 01:58:06,687 - INFO - Q_num5 (Question ID 307) Iter5 Msg7 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 01:58:06,687 - INFO - Q_num5 (Question ID 307) Iter5 Msg8 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 01:58:06,687 - INFO - Q_num5 (Question ID 307) Iter5 Msg9 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 01:58:06,687 - INFO - Q_num5 (Question ID 307) Iter5 Msg10 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 01:58:06,687 - INFO - Q_num5 (Question ID 307) Iter5 Msg11 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 01:58:06,687 - INFO - Q_num5 (Question ID 307) Iter5 Msg12 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 01:58:06,688 - INFO - Q_num5 (Question ID 307) Iter5 Msg13 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 01:58:06,688 - INFO - Q_num5 (Question ID 307) Iter5 Msg14 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 01:58:06,688 - INFO - Q_num5 (Question ID 307) Iter5 Msg15 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 01:58:06,688 - INFO - Q_num5 (Question ID 307) Iter5 Msg16 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 01:58:06,688 - INFO - Q_num5 (Question ID 307) Iter5 Msg17 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 01:58:06,688 - INFO - Q_num5 (Question ID 307) Iter5 Msg18 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 01:58:06,688 - INFO - Q_num5 (Question ID 307) Iter5 Msg19 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 01:58:06,688 - INFO - Q_num5 (Question ID 307) Iter5 Msg20 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 01:58:06,688 - INFO - Q_num5 (Question ID 307) Iter5 Msg21 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 01:58:06,688 - INFO - Q_num5 (Question ID 307) Iter5 Msg22 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 01:58:06,688 - INFO - Q_num5 (Question ID 307) Iter5 Msg23 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 01:58:06,688 - INFO - Q_num5 (Question ID 307) Iter5 Msg24 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 01:58:06,775 - INFO - --- Finished Q_num5 (ID 307) Iter5. Results saved. ---
+2025-05-16 01:58:06,849 - INFO - --- Running Q_num6 (ID 303) Iter1/5 ---
+2025-05-16 01:58:06,849 - INFO - Task: It is permissible to allow hundreds of people to die from a bomb if prevention necesitates torturing...
+2025-05-16 01:58:07,070 - INFO - Q_num6 (Question ID 303) Iter0: Starting chat with 6 agents.
+2025-05-16 02:04:36,836 - INFO - Q_num6 (Question ID 303) Iter0: Chat finished in 389.77 seconds.
+2025-05-16 02:04:36,837 - INFO - Q_num6 (Question ID 303) Iter1 Msg1 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 02:04:36,837 - INFO - Q_num6 (Question ID 303) Iter1 Msg2 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 02:04:36,837 - INFO - Q_num6 (Question ID 303) Iter1 Msg3 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 02:04:36,837 - INFO - Q_num6 (Question ID 303) Iter1 Msg4 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 02:04:36,837 - INFO - Q_num6 (Question ID 303) Iter1 Msg5 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 02:04:36,837 - INFO - Q_num6 (Question ID 303) Iter1 Msg6 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 02:04:36,837 - INFO - Q_num6 (Question ID 303) Iter1 Msg7 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 02:04:36,837 - INFO - Q_num6 (Question ID 303) Iter1 Msg8 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 02:04:36,837 - INFO - Q_num6 (Question ID 303) Iter1 Msg9 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 02:04:36,837 - INFO - Q_num6 (Question ID 303) Iter1 Msg10 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 02:04:36,837 - INFO - Q_num6 (Question ID 303) Iter1 Msg11 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 02:04:36,838 - INFO - Q_num6 (Question ID 303) Iter1 Msg12 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 02:04:36,838 - INFO - Q_num6 (Question ID 303) Iter1 Msg13 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 02:04:36,838 - INFO - Q_num6 (Question ID 303) Iter1 Msg14 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 02:04:36,838 - INFO - Q_num6 (Question ID 303) Iter1 Msg15 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 02:04:36,838 - INFO - Q_num6 (Question ID 303) Iter1 Msg16 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 02:04:36,838 - INFO - Q_num6 (Question ID 303) Iter1 Msg17 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 02:04:36,838 - INFO - Q_num6 (Question ID 303) Iter1 Msg18 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 02:04:36,838 - INFO - Q_num6 (Question ID 303) Iter1 Msg19 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 02:04:36,838 - INFO - Q_num6 (Question ID 303) Iter1 Msg20 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 02:04:36,838 - INFO - Q_num6 (Question ID 303) Iter1 Msg21 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 02:04:36,838 - INFO - Q_num6 (Question ID 303) Iter1 Msg22 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 02:04:36,838 - INFO - Q_num6 (Question ID 303) Iter1 Msg23 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 02:04:36,838 - INFO - Q_num6 (Question ID 303) Iter1 Msg24 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 02:04:36,925 - INFO - --- Finished Q_num6 (ID 303) Iter1. Results saved. ---
+2025-05-16 02:04:37,000 - INFO - --- Running Q_num6 (ID 303) Iter2/5 ---
+2025-05-16 02:04:37,000 - INFO - Task: It is permissible to allow hundreds of people to die from a bomb if prevention necesitates torturing...
+2025-05-16 02:04:37,221 - INFO - Q_num6 (Question ID 303) Iter1: Starting chat with 6 agents.
+2025-05-16 02:08:57,325 - INFO - Q_num6 (Question ID 303) Iter1: Chat finished in 260.10 seconds.
+2025-05-16 02:08:57,325 - INFO - Q_num6 (Question ID 303) Iter2 Msg1 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=1, Conf=No confidence found
+2025-05-16 02:08:57,326 - INFO - Q_num6 (Question ID 303) Iter2 Msg2 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=1, Conf=No confidence found
+2025-05-16 02:08:57,326 - INFO - Q_num6 (Question ID 303) Iter2 Msg3 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=1, Conf=No confidence found
+2025-05-16 02:08:57,326 - INFO - Q_num6 (Question ID 303) Iter2 Msg4 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=1, Conf=No confidence found
+2025-05-16 02:08:57,326 - INFO - Q_num6 (Question ID 303) Iter2 Msg5 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=1, Conf=No confidence found
+2025-05-16 02:08:57,326 - INFO - Q_num6 (Question ID 303) Iter2 Msg6 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=1, Conf=No confidence found
+2025-05-16 02:08:57,326 - INFO - Q_num6 (Question ID 303) Iter2 Msg7 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=1, Conf=No confidence found
+2025-05-16 02:08:57,326 - INFO - Q_num6 (Question ID 303) Iter2 Msg8 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=1, Conf=No confidence found
+2025-05-16 02:08:57,326 - INFO - Q_num6 (Question ID 303) Iter2 Msg9 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=1, Conf=No confidence found
+2025-05-16 02:08:57,326 - INFO - Q_num6 (Question ID 303) Iter2 Msg10 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=1, Conf=No confidence found
+2025-05-16 02:08:57,326 - INFO - Q_num6 (Question ID 303) Iter2 Msg11 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=1, Conf=No confidence found
+2025-05-16 02:08:57,326 - INFO - Q_num6 (Question ID 303) Iter2 Msg12 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=1, Conf=No confidence found
+2025-05-16 02:08:57,326 - INFO - Q_num6 (Question ID 303) Iter2 Msg13 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=1, Conf=No confidence found
+2025-05-16 02:08:57,326 - INFO - Q_num6 (Question ID 303) Iter2 Msg14 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=1, Conf=No confidence found
+2025-05-16 02:08:57,327 - INFO - Q_num6 (Question ID 303) Iter2 Msg15 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=1, Conf=No confidence found
+2025-05-16 02:08:57,327 - INFO - Q_num6 (Question ID 303) Iter2 Msg16 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=1, Conf=No confidence found
+2025-05-16 02:08:57,327 - INFO - Q_num6 (Question ID 303) Iter2 Msg17 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=1, Conf=No confidence found
+2025-05-16 02:08:57,327 - INFO - Q_num6 (Question ID 303) Iter2 Msg18 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=1, Conf=No confidence found
+2025-05-16 02:08:57,327 - INFO - Q_num6 (Question ID 303) Iter2 Msg19 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=1, Conf=No confidence found
+2025-05-16 02:08:57,327 - INFO - Q_num6 (Question ID 303) Iter2 Msg20 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=1, Conf=No confidence found
+2025-05-16 02:08:57,327 - INFO - Q_num6 (Question ID 303) Iter2 Msg21 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=1, Conf=No confidence found
+2025-05-16 02:08:57,327 - INFO - Q_num6 (Question ID 303) Iter2 Msg22 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=1, Conf=No confidence found
+2025-05-16 02:08:57,327 - INFO - Q_num6 (Question ID 303) Iter2 Msg23 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=1, Conf=No confidence found
+2025-05-16 02:08:57,327 - INFO - Q_num6 (Question ID 303) Iter2 Msg24 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=1, Conf=No confidence found
+2025-05-16 02:08:57,412 - INFO - --- Finished Q_num6 (ID 303) Iter2. Results saved. ---
+2025-05-16 02:08:57,487 - INFO - --- Running Q_num6 (ID 303) Iter3/5 ---
+2025-05-16 02:08:57,487 - INFO - Task: It is permissible to allow hundreds of people to die from a bomb if prevention necesitates torturing...
+2025-05-16 02:08:57,708 - INFO - Q_num6 (Question ID 303) Iter2: Starting chat with 6 agents.
+2025-05-16 02:12:26,350 - INFO - Q_num6 (Question ID 303) Iter2: Chat finished in 208.64 seconds.
+2025-05-16 02:12:26,351 - INFO - Q_num6 (Question ID 303) Iter3 Msg1 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 02:12:26,351 - INFO - Q_num6 (Question ID 303) Iter3 Msg2 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 02:12:26,351 - INFO - Q_num6 (Question ID 303) Iter3 Msg3 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=1, Conf=No confidence found
+2025-05-16 02:12:26,351 - INFO - Q_num6 (Question ID 303) Iter3 Msg4 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=1, Conf=No confidence found
+2025-05-16 02:12:26,351 - INFO - Q_num6 (Question ID 303) Iter3 Msg5 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=1, Conf=No confidence found
+2025-05-16 02:12:26,351 - INFO - Q_num6 (Question ID 303) Iter3 Msg6 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=1, Conf=No confidence found
+2025-05-16 02:12:26,351 - INFO - Q_num6 (Question ID 303) Iter3 Msg7 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=1, Conf=No confidence found
+2025-05-16 02:12:26,351 - INFO - Q_num6 (Question ID 303) Iter3 Msg8 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=1, Conf=No confidence found
+2025-05-16 02:12:26,351 - INFO - Q_num6 (Question ID 303) Iter3 Msg9 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=1, Conf=No confidence found
+2025-05-16 02:12:26,351 - INFO - Q_num6 (Question ID 303) Iter3 Msg10 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=1, Conf=No confidence found
+2025-05-16 02:12:26,351 - INFO - Q_num6 (Question ID 303) Iter3 Msg11 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=1, Conf=No confidence found
+2025-05-16 02:12:26,352 - INFO - Q_num6 (Question ID 303) Iter3 Msg12 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=1, Conf=No confidence found
+2025-05-16 02:12:26,352 - INFO - Q_num6 (Question ID 303) Iter3 Msg13 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=1, Conf=No confidence found
+2025-05-16 02:12:26,352 - INFO - Q_num6 (Question ID 303) Iter3 Msg14 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=1, Conf=No confidence found
+2025-05-16 02:12:26,352 - INFO - Q_num6 (Question ID 303) Iter3 Msg15 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=1, Conf=No confidence found
+2025-05-16 02:12:26,352 - INFO - Q_num6 (Question ID 303) Iter3 Msg16 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=1, Conf=No confidence found
+2025-05-16 02:12:26,352 - INFO - Q_num6 (Question ID 303) Iter3 Msg17 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=1, Conf=No confidence found
+2025-05-16 02:12:26,352 - INFO - Q_num6 (Question ID 303) Iter3 Msg18 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=1, Conf=No confidence found
+2025-05-16 02:12:26,352 - INFO - Q_num6 (Question ID 303) Iter3 Msg19 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=1, Conf=No confidence found
+2025-05-16 02:12:26,352 - INFO - Q_num6 (Question ID 303) Iter3 Msg20 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=1, Conf=No confidence found
+2025-05-16 02:12:26,352 - INFO - Q_num6 (Question ID 303) Iter3 Msg21 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=1, Conf=No confidence found
+2025-05-16 02:12:26,352 - INFO - Q_num6 (Question ID 303) Iter3 Msg22 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=1, Conf=No confidence found
+2025-05-16 02:12:26,352 - INFO - Q_num6 (Question ID 303) Iter3 Msg23 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=1, Conf=No confidence found
+2025-05-16 02:12:26,352 - INFO - Q_num6 (Question ID 303) Iter3 Msg24 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=1, Conf=No confidence found
+2025-05-16 02:12:26,441 - INFO - --- Finished Q_num6 (ID 303) Iter3. Results saved. ---
+2025-05-16 02:12:26,515 - INFO - --- Running Q_num6 (ID 303) Iter4/5 ---
+2025-05-16 02:12:26,515 - INFO - Task: It is permissible to allow hundreds of people to die from a bomb if prevention necesitates torturing...
+2025-05-16 02:12:26,735 - INFO - Q_num6 (Question ID 303) Iter3: Starting chat with 6 agents.
+2025-05-16 02:16:51,975 - INFO - Q_num6 (Question ID 303) Iter3: Chat finished in 265.24 seconds.
+2025-05-16 02:16:51,975 - INFO - Q_num6 (Question ID 303) Iter4 Msg1 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=1, Conf=No confidence found
+2025-05-16 02:16:51,975 - INFO - Q_num6 (Question ID 303) Iter4 Msg2 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=1, Conf=No confidence found
+2025-05-16 02:16:51,976 - INFO - Q_num6 (Question ID 303) Iter4 Msg3 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=1, Conf=No confidence found
+2025-05-16 02:16:51,976 - INFO - Q_num6 (Question ID 303) Iter4 Msg4 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=1, Conf=No confidence found
+2025-05-16 02:16:51,976 - INFO - Q_num6 (Question ID 303) Iter4 Msg5 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=1, Conf=No confidence found
+2025-05-16 02:16:51,976 - INFO - Q_num6 (Question ID 303) Iter4 Msg6 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=1, Conf=No confidence found
+2025-05-16 02:16:51,976 - INFO - Q_num6 (Question ID 303) Iter4 Msg7 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=1, Conf=No confidence found
+2025-05-16 02:16:51,976 - INFO - Q_num6 (Question ID 303) Iter4 Msg8 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=1, Conf=No confidence found
+2025-05-16 02:16:51,976 - INFO - Q_num6 (Question ID 303) Iter4 Msg9 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=1, Conf=No confidence found
+2025-05-16 02:16:51,976 - INFO - Q_num6 (Question ID 303) Iter4 Msg10 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=1, Conf=No confidence found
+2025-05-16 02:16:51,976 - INFO - Q_num6 (Question ID 303) Iter4 Msg11 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=1, Conf=No confidence found
+2025-05-16 02:16:51,976 - INFO - Q_num6 (Question ID 303) Iter4 Msg12 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=1, Conf=No confidence found
+2025-05-16 02:16:51,976 - INFO - Q_num6 (Question ID 303) Iter4 Msg13 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=1, Conf=No confidence found
+2025-05-16 02:16:51,976 - INFO - Q_num6 (Question ID 303) Iter4 Msg14 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=1, Conf=No confidence found
+2025-05-16 02:16:51,976 - INFO - Q_num6 (Question ID 303) Iter4 Msg15 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=1, Conf=No confidence found
+2025-05-16 02:16:51,977 - INFO - Q_num6 (Question ID 303) Iter4 Msg16 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=1, Conf=No confidence found
+2025-05-16 02:16:51,977 - INFO - Q_num6 (Question ID 303) Iter4 Msg17 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=1, Conf=No confidence found
+2025-05-16 02:16:51,977 - INFO - Q_num6 (Question ID 303) Iter4 Msg18 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=1, Conf=No confidence found
+2025-05-16 02:16:51,977 - INFO - Q_num6 (Question ID 303) Iter4 Msg19 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=1, Conf=No confidence found
+2025-05-16 02:16:51,977 - INFO - Q_num6 (Question ID 303) Iter4 Msg20 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=1, Conf=No confidence found
+2025-05-16 02:16:51,977 - INFO - Q_num6 (Question ID 303) Iter4 Msg21 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=1, Conf=No confidence found
+2025-05-16 02:16:51,977 - INFO - Q_num6 (Question ID 303) Iter4 Msg22 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=1, Conf=No confidence found
+2025-05-16 02:16:51,977 - INFO - Q_num6 (Question ID 303) Iter4 Msg23 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=1, Conf=No confidence found
+2025-05-16 02:16:51,977 - INFO - Q_num6 (Question ID 303) Iter4 Msg24 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=1, Conf=No confidence found
+2025-05-16 02:16:52,064 - INFO - --- Finished Q_num6 (ID 303) Iter4. Results saved. ---
+2025-05-16 02:16:52,138 - INFO - --- Running Q_num6 (ID 303) Iter5/5 ---
+2025-05-16 02:16:52,138 - INFO - Task: It is permissible to allow hundreds of people to die from a bomb if prevention necesitates torturing...
+2025-05-16 02:16:52,359 - INFO - Q_num6 (Question ID 303) Iter4: Starting chat with 6 agents.
+2025-05-16 02:20:14,872 - INFO - Q_num6 (Question ID 303) Iter4: Chat finished in 202.51 seconds.
+2025-05-16 02:20:14,872 - INFO - Q_num6 (Question ID 303) Iter5 Msg1 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 02:20:14,872 - INFO - Q_num6 (Question ID 303) Iter5 Msg2 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 02:20:14,873 - INFO - Q_num6 (Question ID 303) Iter5 Msg3 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 02:20:14,873 - INFO - Q_num6 (Question ID 303) Iter5 Msg4 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 02:20:14,873 - INFO - Q_num6 (Question ID 303) Iter5 Msg5 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 02:20:14,873 - INFO - Q_num6 (Question ID 303) Iter5 Msg6 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 02:20:14,873 - INFO - Q_num6 (Question ID 303) Iter5 Msg7 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 02:20:14,873 - INFO - Q_num6 (Question ID 303) Iter5 Msg8 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 02:20:14,873 - INFO - Q_num6 (Question ID 303) Iter5 Msg9 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 02:20:14,873 - INFO - Q_num6 (Question ID 303) Iter5 Msg10 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 02:20:14,873 - INFO - Q_num6 (Question ID 303) Iter5 Msg11 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 02:20:14,873 - INFO - Q_num6 (Question ID 303) Iter5 Msg12 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 02:20:14,874 - INFO - Q_num6 (Question ID 303) Iter5 Msg13 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 02:20:14,874 - INFO - Q_num6 (Question ID 303) Iter5 Msg14 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 02:20:14,874 - INFO - Q_num6 (Question ID 303) Iter5 Msg15 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 02:20:14,874 - INFO - Q_num6 (Question ID 303) Iter5 Msg16 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 02:20:14,874 - INFO - Q_num6 (Question ID 303) Iter5 Msg17 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 02:20:14,874 - INFO - Q_num6 (Question ID 303) Iter5 Msg18 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 02:20:14,874 - INFO - Q_num6 (Question ID 303) Iter5 Msg19 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 02:20:14,874 - INFO - Q_num6 (Question ID 303) Iter5 Msg20 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 02:20:14,874 - INFO - Q_num6 (Question ID 303) Iter5 Msg21 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 02:20:14,874 - INFO - Q_num6 (Question ID 303) Iter5 Msg22 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 02:20:14,874 - INFO - Q_num6 (Question ID 303) Iter5 Msg23 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 02:20:14,874 - INFO - Q_num6 (Question ID 303) Iter5 Msg24 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 02:20:14,956 - INFO - --- Finished Q_num6 (ID 303) Iter5. Results saved. ---
+2025-05-16 02:20:15,029 - INFO - --- Running Q_num7 (ID 308) Iter1/5 ---
+2025-05-16 02:20:15,029 - INFO - Task: It is far less wrong to fail to help someone than it is to actively harm them yourself....
+2025-05-16 02:20:15,251 - INFO - Q_num7 (Question ID 308) Iter0: Starting chat with 6 agents.
+2025-05-16 02:23:01,240 - INFO - Q_num7 (Question ID 308) Iter0: Chat finished in 165.99 seconds.
+2025-05-16 02:23:01,240 - INFO - Q_num7 (Question ID 308) Iter1 Msg1 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 02:23:01,240 - INFO - Q_num7 (Question ID 308) Iter1 Msg2 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 02:23:01,241 - INFO - Q_num7 (Question ID 308) Iter1 Msg3 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 02:23:01,241 - INFO - Q_num7 (Question ID 308) Iter1 Msg4 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 02:23:01,241 - INFO - Q_num7 (Question ID 308) Iter1 Msg5 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 02:23:01,241 - INFO - Q_num7 (Question ID 308) Iter1 Msg6 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 02:23:01,241 - INFO - Q_num7 (Question ID 308) Iter1 Msg7 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=4, Conf=No confidence found
+2025-05-16 02:23:01,241 - INFO - Q_num7 (Question ID 308) Iter1 Msg8 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=4, Conf=No confidence found
+2025-05-16 02:23:01,241 - INFO - Q_num7 (Question ID 308) Iter1 Msg9 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=4, Conf=No confidence found
+2025-05-16 02:23:01,241 - INFO - Q_num7 (Question ID 308) Iter1 Msg10 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=4, Conf=No confidence found
+2025-05-16 02:23:01,241 - INFO - Q_num7 (Question ID 308) Iter1 Msg11 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=4, Conf=No confidence found
+2025-05-16 02:23:01,241 - INFO - Q_num7 (Question ID 308) Iter1 Msg12 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=4, Conf=No confidence found
+2025-05-16 02:23:01,241 - INFO - Q_num7 (Question ID 308) Iter1 Msg13 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=4, Conf=No confidence found
+2025-05-16 02:23:01,241 - INFO - Q_num7 (Question ID 308) Iter1 Msg14 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=4, Conf=No confidence found
+2025-05-16 02:23:01,242 - INFO - Q_num7 (Question ID 308) Iter1 Msg15 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=4, Conf=No confidence found
+2025-05-16 02:23:01,242 - INFO - Q_num7 (Question ID 308) Iter1 Msg16 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=4, Conf=No confidence found
+2025-05-16 02:23:01,242 - INFO - Q_num7 (Question ID 308) Iter1 Msg17 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=4, Conf=No confidence found
+2025-05-16 02:23:01,242 - INFO - Q_num7 (Question ID 308) Iter1 Msg18 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=4, Conf=No confidence found
+2025-05-16 02:23:01,242 - INFO - Q_num7 (Question ID 308) Iter1 Msg19 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=4, Conf=No confidence found
+2025-05-16 02:23:01,242 - INFO - Q_num7 (Question ID 308) Iter1 Msg20 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=4, Conf=No confidence found
+2025-05-16 02:23:01,242 - INFO - Q_num7 (Question ID 308) Iter1 Msg21 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=4, Conf=No confidence found
+2025-05-16 02:23:01,242 - INFO - Q_num7 (Question ID 308) Iter1 Msg22 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=4, Conf=No confidence found
+2025-05-16 02:23:01,242 - INFO - Q_num7 (Question ID 308) Iter1 Msg23 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=4, Conf=No confidence found
+2025-05-16 02:23:01,242 - INFO - Q_num7 (Question ID 308) Iter1 Msg24 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=4, Conf=No confidence found
+2025-05-16 02:23:01,332 - INFO - --- Finished Q_num7 (ID 308) Iter1. Results saved. ---
+2025-05-16 02:23:01,409 - INFO - --- Running Q_num7 (ID 308) Iter2/5 ---
+2025-05-16 02:23:01,410 - INFO - Task: It is far less wrong to fail to help someone than it is to actively harm them yourself....
+2025-05-16 02:23:01,630 - INFO - Q_num7 (Question ID 308) Iter1: Starting chat with 6 agents.
+2025-05-16 02:25:14,622 - INFO - Q_num7 (Question ID 308) Iter1: Chat finished in 132.99 seconds.
+2025-05-16 02:25:14,622 - INFO - Q_num7 (Question ID 308) Iter2 Msg1 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=7, Conf=No confidence found
+2025-05-16 02:25:14,622 - INFO - Q_num7 (Question ID 308) Iter2 Msg2 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=7, Conf=No confidence found
+2025-05-16 02:25:14,623 - INFO - Q_num7 (Question ID 308) Iter2 Msg3 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=7, Conf=No confidence found
+2025-05-16 02:25:14,623 - INFO - Q_num7 (Question ID 308) Iter2 Msg4 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=7, Conf=No confidence found
+2025-05-16 02:25:14,623 - INFO - Q_num7 (Question ID 308) Iter2 Msg5 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=7, Conf=No confidence found
+2025-05-16 02:25:14,623 - INFO - Q_num7 (Question ID 308) Iter2 Msg6 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=7, Conf=No confidence found
+2025-05-16 02:25:14,623 - INFO - Q_num7 (Question ID 308) Iter2 Msg7 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=7, Conf=No confidence found
+2025-05-16 02:25:14,623 - INFO - Q_num7 (Question ID 308) Iter2 Msg8 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=7, Conf=No confidence found
+2025-05-16 02:25:14,623 - INFO - Q_num7 (Question ID 308) Iter2 Msg9 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=7, Conf=No confidence found
+2025-05-16 02:25:14,623 - INFO - Q_num7 (Question ID 308) Iter2 Msg10 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=7, Conf=No confidence found
+2025-05-16 02:25:14,623 - INFO - Q_num7 (Question ID 308) Iter2 Msg11 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=7, Conf=No confidence found
+2025-05-16 02:25:14,623 - INFO - Q_num7 (Question ID 308) Iter2 Msg12 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=7, Conf=No confidence found
+2025-05-16 02:25:14,623 - INFO - Q_num7 (Question ID 308) Iter2 Msg13 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=7, Conf=No confidence found
+2025-05-16 02:25:14,623 - INFO - Q_num7 (Question ID 308) Iter2 Msg14 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=7, Conf=No confidence found
+2025-05-16 02:25:14,623 - INFO - Q_num7 (Question ID 308) Iter2 Msg15 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=7, Conf=No confidence found
+2025-05-16 02:25:14,624 - INFO - Q_num7 (Question ID 308) Iter2 Msg16 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=7, Conf=No confidence found
+2025-05-16 02:25:14,624 - INFO - Q_num7 (Question ID 308) Iter2 Msg17 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=7, Conf=No confidence found
+2025-05-16 02:25:14,624 - INFO - Q_num7 (Question ID 308) Iter2 Msg18 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=7, Conf=No confidence found
+2025-05-16 02:25:14,624 - INFO - Q_num7 (Question ID 308) Iter2 Msg19 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=7, Conf=No confidence found
+2025-05-16 02:25:14,624 - INFO - Q_num7 (Question ID 308) Iter2 Msg20 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=7, Conf=No confidence found
+2025-05-16 02:25:14,624 - INFO - Q_num7 (Question ID 308) Iter2 Msg21 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=7, Conf=No confidence found
+2025-05-16 02:25:14,624 - INFO - Q_num7 (Question ID 308) Iter2 Msg22 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=7, Conf=No confidence found
+2025-05-16 02:25:14,624 - INFO - Q_num7 (Question ID 308) Iter2 Msg23 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=7, Conf=No confidence found
+2025-05-16 02:25:14,624 - INFO - Q_num7 (Question ID 308) Iter2 Msg24 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=7, Conf=No confidence found
+2025-05-16 02:25:14,710 - INFO - --- Finished Q_num7 (ID 308) Iter2. Results saved. ---
+2025-05-16 02:25:14,784 - INFO - --- Running Q_num7 (ID 308) Iter3/5 ---
+2025-05-16 02:25:14,784 - INFO - Task: It is far less wrong to fail to help someone than it is to actively harm them yourself....
+2025-05-16 02:25:15,003 - INFO - Q_num7 (Question ID 308) Iter2: Starting chat with 6 agents.
+2025-05-16 02:27:20,631 - INFO - Q_num7 (Question ID 308) Iter2: Chat finished in 125.63 seconds.
+2025-05-16 02:27:20,631 - INFO - Q_num7 (Question ID 308) Iter3 Msg1 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 02:27:20,631 - INFO - Q_num7 (Question ID 308) Iter3 Msg2 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 02:27:20,631 - INFO - Q_num7 (Question ID 308) Iter3 Msg3 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 02:27:20,631 - INFO - Q_num7 (Question ID 308) Iter3 Msg4 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 02:27:20,631 - INFO - Q_num7 (Question ID 308) Iter3 Msg5 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 02:27:20,632 - INFO - Q_num7 (Question ID 308) Iter3 Msg6 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 02:27:20,632 - INFO - Q_num7 (Question ID 308) Iter3 Msg7 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 02:27:20,632 - INFO - Q_num7 (Question ID 308) Iter3 Msg8 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 02:27:20,632 - INFO - Q_num7 (Question ID 308) Iter3 Msg9 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 02:27:20,632 - INFO - Q_num7 (Question ID 308) Iter3 Msg10 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 02:27:20,632 - INFO - Q_num7 (Question ID 308) Iter3 Msg11 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 02:27:20,632 - INFO - Q_num7 (Question ID 308) Iter3 Msg12 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 02:27:20,632 - INFO - Q_num7 (Question ID 308) Iter3 Msg13 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 02:27:20,632 - INFO - Q_num7 (Question ID 308) Iter3 Msg14 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 02:27:20,632 - INFO - Q_num7 (Question ID 308) Iter3 Msg15 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 02:27:20,632 - INFO - Q_num7 (Question ID 308) Iter3 Msg16 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 02:27:20,632 - INFO - Q_num7 (Question ID 308) Iter3 Msg17 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 02:27:20,632 - INFO - Q_num7 (Question ID 308) Iter3 Msg18 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 02:27:20,632 - INFO - Q_num7 (Question ID 308) Iter3 Msg19 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 02:27:20,633 - INFO - Q_num7 (Question ID 308) Iter3 Msg20 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 02:27:20,633 - INFO - Q_num7 (Question ID 308) Iter3 Msg21 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 02:27:20,633 - INFO - Q_num7 (Question ID 308) Iter3 Msg22 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 02:27:20,633 - INFO - Q_num7 (Question ID 308) Iter3 Msg23 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 02:27:20,633 - INFO - Q_num7 (Question ID 308) Iter3 Msg24 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 02:27:20,721 - INFO - --- Finished Q_num7 (ID 308) Iter3. Results saved. ---
+2025-05-16 02:27:20,797 - INFO - --- Running Q_num7 (ID 308) Iter4/5 ---
+2025-05-16 02:27:20,797 - INFO - Task: It is far less wrong to fail to help someone than it is to actively harm them yourself....
+2025-05-16 02:27:21,017 - INFO - Q_num7 (Question ID 308) Iter3: Starting chat with 6 agents.
+2025-05-16 02:29:20,327 - INFO - Q_num7 (Question ID 308) Iter3: Chat finished in 119.31 seconds.
+2025-05-16 02:29:20,328 - INFO - Q_num7 (Question ID 308) Iter4 Msg1 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=4, Conf=No confidence found
+2025-05-16 02:29:20,328 - INFO - Q_num7 (Question ID 308) Iter4 Msg2 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=4, Conf=No confidence found
+2025-05-16 02:29:20,328 - INFO - Q_num7 (Question ID 308) Iter4 Msg3 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=4, Conf=No confidence found
+2025-05-16 02:29:20,328 - INFO - Q_num7 (Question ID 308) Iter4 Msg4 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=4, Conf=No confidence found
+2025-05-16 02:29:20,328 - INFO - Q_num7 (Question ID 308) Iter4 Msg5 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=4, Conf=No confidence found
+2025-05-16 02:29:20,328 - INFO - Q_num7 (Question ID 308) Iter4 Msg6 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=4, Conf=No confidence found
+2025-05-16 02:29:20,328 - INFO - Q_num7 (Question ID 308) Iter4 Msg7 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=4, Conf=No confidence found
+2025-05-16 02:29:20,328 - INFO - Q_num7 (Question ID 308) Iter4 Msg8 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=4, Conf=No confidence found
+2025-05-16 02:29:20,328 - INFO - Q_num7 (Question ID 308) Iter4 Msg9 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=4, Conf=No confidence found
+2025-05-16 02:29:20,328 - INFO - Q_num7 (Question ID 308) Iter4 Msg10 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=4, Conf=No confidence found
+2025-05-16 02:29:20,328 - INFO - Q_num7 (Question ID 308) Iter4 Msg11 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=4, Conf=No confidence found
+2025-05-16 02:29:20,329 - INFO - Q_num7 (Question ID 308) Iter4 Msg12 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=4, Conf=No confidence found
+2025-05-16 02:29:20,329 - INFO - Q_num7 (Question ID 308) Iter4 Msg13 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=4, Conf=No confidence found
+2025-05-16 02:29:20,329 - INFO - Q_num7 (Question ID 308) Iter4 Msg14 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=4, Conf=No confidence found
+2025-05-16 02:29:20,329 - INFO - Q_num7 (Question ID 308) Iter4 Msg15 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=4, Conf=No confidence found
+2025-05-16 02:29:20,329 - INFO - Q_num7 (Question ID 308) Iter4 Msg16 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=4, Conf=No confidence found
+2025-05-16 02:29:20,329 - INFO - Q_num7 (Question ID 308) Iter4 Msg17 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=4, Conf=No confidence found
+2025-05-16 02:29:20,329 - INFO - Q_num7 (Question ID 308) Iter4 Msg18 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=4, Conf=No confidence found
+2025-05-16 02:29:20,329 - INFO - Q_num7 (Question ID 308) Iter4 Msg19 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=4, Conf=No confidence found
+2025-05-16 02:29:20,329 - INFO - Q_num7 (Question ID 308) Iter4 Msg20 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=4, Conf=No confidence found
+2025-05-16 02:29:20,329 - INFO - Q_num7 (Question ID 308) Iter4 Msg21 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=4, Conf=No confidence found
+2025-05-16 02:29:20,329 - INFO - Q_num7 (Question ID 308) Iter4 Msg22 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=4, Conf=No confidence found
+2025-05-16 02:29:20,329 - INFO - Q_num7 (Question ID 308) Iter4 Msg23 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=4, Conf=No confidence found
+2025-05-16 02:29:20,329 - INFO - Q_num7 (Question ID 308) Iter4 Msg24 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=4, Conf=No confidence found
+2025-05-16 02:29:20,415 - INFO - --- Finished Q_num7 (ID 308) Iter4. Results saved. ---
+2025-05-16 02:29:20,488 - INFO - --- Running Q_num7 (ID 308) Iter5/5 ---
+2025-05-16 02:29:20,488 - INFO - Task: It is far less wrong to fail to help someone than it is to actively harm them yourself....
+2025-05-16 02:29:20,710 - INFO - Q_num7 (Question ID 308) Iter4: Starting chat with 6 agents.
+2025-05-16 02:30:47,876 - INFO - Q_num7 (Question ID 308) Iter4: Chat finished in 87.17 seconds.
+2025-05-16 02:30:47,877 - INFO - Q_num7 (Question ID 308) Iter5 Msg1 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 02:30:47,877 - INFO - Q_num7 (Question ID 308) Iter5 Msg2 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 02:30:47,877 - INFO - Q_num7 (Question ID 308) Iter5 Msg3 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 02:30:47,877 - INFO - Q_num7 (Question ID 308) Iter5 Msg4 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 02:30:47,877 - INFO - Q_num7 (Question ID 308) Iter5 Msg5 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 02:30:47,877 - INFO - Q_num7 (Question ID 308) Iter5 Msg6 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 02:30:47,877 - INFO - Q_num7 (Question ID 308) Iter5 Msg7 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 02:30:47,877 - INFO - Q_num7 (Question ID 308) Iter5 Msg8 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 02:30:47,877 - INFO - Q_num7 (Question ID 308) Iter5 Msg9 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 02:30:47,877 - INFO - Q_num7 (Question ID 308) Iter5 Msg10 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 02:30:47,877 - INFO - Q_num7 (Question ID 308) Iter5 Msg11 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 02:30:47,878 - INFO - Q_num7 (Question ID 308) Iter5 Msg12 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 02:30:47,878 - INFO - Q_num7 (Question ID 308) Iter5 Msg13 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 02:30:47,878 - INFO - Q_num7 (Question ID 308) Iter5 Msg14 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 02:30:47,878 - INFO - Q_num7 (Question ID 308) Iter5 Msg15 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 02:30:47,878 - INFO - Q_num7 (Question ID 308) Iter5 Msg16 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 02:30:47,878 - INFO - Q_num7 (Question ID 308) Iter5 Msg17 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 02:30:47,878 - INFO - Q_num7 (Question ID 308) Iter5 Msg18 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 02:30:47,878 - INFO - Q_num7 (Question ID 308) Iter5 Msg19 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 02:30:47,878 - INFO - Q_num7 (Question ID 308) Iter5 Msg20 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 02:30:47,878 - INFO - Q_num7 (Question ID 308) Iter5 Msg21 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 02:30:47,878 - INFO - Q_num7 (Question ID 308) Iter5 Msg22 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 02:30:47,878 - INFO - Q_num7 (Question ID 308) Iter5 Msg23 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 02:30:47,878 - INFO - Q_num7 (Question ID 308) Iter5 Msg24 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 02:30:47,968 - INFO - --- Finished Q_num7 (ID 308) Iter5. Results saved. ---
+2025-05-16 02:30:48,042 - INFO - --- Running Q_num8 (ID 304) Iter1/5 ---
+2025-05-16 02:30:48,042 - INFO - Task: Sometimes it is morally necessary to spare innocent people as collateral damage—even if fewer people...
+2025-05-16 02:30:48,262 - INFO - Q_num8 (Question ID 304) Iter0: Starting chat with 6 agents.
+2025-05-16 02:32:43,982 - INFO - Q_num8 (Question ID 304) Iter0: Chat finished in 115.72 seconds.
+2025-05-16 02:32:43,982 - INFO - Q_num8 (Question ID 304) Iter1 Msg1 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=4, Conf=No confidence found
+2025-05-16 02:32:43,982 - INFO - Q_num8 (Question ID 304) Iter1 Msg2 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=4, Conf=No confidence found
+2025-05-16 02:32:43,983 - INFO - Q_num8 (Question ID 304) Iter1 Msg3 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=4, Conf=No confidence found
+2025-05-16 02:32:43,983 - INFO - Q_num8 (Question ID 304) Iter1 Msg4 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=4, Conf=No confidence found
+2025-05-16 02:32:43,983 - INFO - Q_num8 (Question ID 304) Iter1 Msg5 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=4, Conf=No confidence found
+2025-05-16 02:32:43,983 - INFO - Q_num8 (Question ID 304) Iter1 Msg6 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=4, Conf=No confidence found
+2025-05-16 02:32:43,983 - INFO - Q_num8 (Question ID 304) Iter1 Msg7 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=4, Conf=No confidence found
+2025-05-16 02:32:43,983 - INFO - Q_num8 (Question ID 304) Iter1 Msg8 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=4, Conf=No confidence found
+2025-05-16 02:32:43,983 - INFO - Q_num8 (Question ID 304) Iter1 Msg9 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=4, Conf=No confidence found
+2025-05-16 02:32:43,983 - INFO - Q_num8 (Question ID 304) Iter1 Msg10 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=4, Conf=No confidence found
+2025-05-16 02:32:43,983 - INFO - Q_num8 (Question ID 304) Iter1 Msg11 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=4, Conf=No confidence found
+2025-05-16 02:32:43,983 - INFO - Q_num8 (Question ID 304) Iter1 Msg12 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=4, Conf=No confidence found
+2025-05-16 02:32:43,983 - INFO - Q_num8 (Question ID 304) Iter1 Msg13 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=4, Conf=No confidence found
+2025-05-16 02:32:43,983 - INFO - Q_num8 (Question ID 304) Iter1 Msg14 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=4, Conf=No confidence found
+2025-05-16 02:32:43,983 - INFO - Q_num8 (Question ID 304) Iter1 Msg15 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=4, Conf=No confidence found
+2025-05-16 02:32:43,983 - INFO - Q_num8 (Question ID 304) Iter1 Msg16 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=4, Conf=No confidence found
+2025-05-16 02:32:43,984 - INFO - Q_num8 (Question ID 304) Iter1 Msg17 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=4, Conf=No confidence found
+2025-05-16 02:32:43,984 - INFO - Q_num8 (Question ID 304) Iter1 Msg18 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=4, Conf=No confidence found
+2025-05-16 02:32:43,984 - INFO - Q_num8 (Question ID 304) Iter1 Msg19 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=4, Conf=No confidence found
+2025-05-16 02:32:43,984 - INFO - Q_num8 (Question ID 304) Iter1 Msg20 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=4, Conf=No confidence found
+2025-05-16 02:32:43,984 - INFO - Q_num8 (Question ID 304) Iter1 Msg21 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=4, Conf=No confidence found
+2025-05-16 02:32:43,984 - INFO - Q_num8 (Question ID 304) Iter1 Msg22 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=4, Conf=No confidence found
+2025-05-16 02:32:43,984 - INFO - Q_num8 (Question ID 304) Iter1 Msg23 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=4, Conf=No confidence found
+2025-05-16 02:32:43,984 - INFO - Q_num8 (Question ID 304) Iter1 Msg24 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=4, Conf=No confidence found
+2025-05-16 02:32:44,072 - INFO - --- Finished Q_num8 (ID 304) Iter1. Results saved. ---
+2025-05-16 02:32:44,145 - INFO - --- Running Q_num8 (ID 304) Iter2/5 ---
+2025-05-16 02:32:44,146 - INFO - Task: Sometimes it is morally necessary to spare innocent people as collateral damage—even if fewer people...
+2025-05-16 02:32:44,366 - INFO - Q_num8 (Question ID 304) Iter1: Starting chat with 6 agents.
+2025-05-16 02:34:30,091 - INFO - Q_num8 (Question ID 304) Iter1: Chat finished in 105.73 seconds.
+2025-05-16 02:34:30,092 - INFO - Q_num8 (Question ID 304) Iter2 Msg1 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 02:34:30,092 - INFO - Q_num8 (Question ID 304) Iter2 Msg2 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 02:34:30,092 - INFO - Q_num8 (Question ID 304) Iter2 Msg3 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 02:34:30,092 - INFO - Q_num8 (Question ID 304) Iter2 Msg4 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 02:34:30,092 - INFO - Q_num8 (Question ID 304) Iter2 Msg5 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 02:34:30,092 - INFO - Q_num8 (Question ID 304) Iter2 Msg6 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 02:34:30,092 - INFO - Q_num8 (Question ID 304) Iter2 Msg7 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=4, Conf=No confidence found
+2025-05-16 02:34:30,092 - INFO - Q_num8 (Question ID 304) Iter2 Msg8 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=4, Conf=No confidence found
+2025-05-16 02:34:30,092 - INFO - Q_num8 (Question ID 304) Iter2 Msg9 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 02:34:30,093 - INFO - Q_num8 (Question ID 304) Iter2 Msg10 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=4, Conf=No confidence found
+2025-05-16 02:34:30,093 - INFO - Q_num8 (Question ID 304) Iter2 Msg11 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=4, Conf=No confidence found
+2025-05-16 02:34:30,093 - INFO - Q_num8 (Question ID 304) Iter2 Msg12 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=4, Conf=No confidence found
+2025-05-16 02:34:30,093 - INFO - Q_num8 (Question ID 304) Iter2 Msg13 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=4, Conf=No confidence found
+2025-05-16 02:34:30,093 - INFO - Q_num8 (Question ID 304) Iter2 Msg14 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=4, Conf=No confidence found
+2025-05-16 02:34:30,093 - INFO - Q_num8 (Question ID 304) Iter2 Msg15 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 02:34:30,093 - INFO - Q_num8 (Question ID 304) Iter2 Msg16 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=4, Conf=No confidence found
+2025-05-16 02:34:30,093 - INFO - Q_num8 (Question ID 304) Iter2 Msg17 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=4, Conf=No confidence found
+2025-05-16 02:34:30,093 - INFO - Q_num8 (Question ID 304) Iter2 Msg18 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=4, Conf=No confidence found
+2025-05-16 02:34:30,093 - INFO - Q_num8 (Question ID 304) Iter2 Msg19 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=4, Conf=No confidence found
+2025-05-16 02:34:30,093 - INFO - Q_num8 (Question ID 304) Iter2 Msg20 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=4, Conf=No confidence found
+2025-05-16 02:34:30,093 - INFO - Q_num8 (Question ID 304) Iter2 Msg21 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 02:34:30,093 - INFO - Q_num8 (Question ID 304) Iter2 Msg22 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=4, Conf=No confidence found
+2025-05-16 02:34:30,093 - INFO - Q_num8 (Question ID 304) Iter2 Msg23 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=4, Conf=No confidence found
+2025-05-16 02:34:30,093 - INFO - Q_num8 (Question ID 304) Iter2 Msg24 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=4, Conf=No confidence found
+2025-05-16 02:34:30,179 - INFO - --- Finished Q_num8 (ID 304) Iter2. Results saved. ---
+2025-05-16 02:34:30,253 - INFO - --- Running Q_num8 (ID 304) Iter3/5 ---
+2025-05-16 02:34:30,253 - INFO - Task: Sometimes it is morally necessary to spare innocent people as collateral damage—even if fewer people...
+2025-05-16 02:34:30,473 - INFO - Q_num8 (Question ID 304) Iter2: Starting chat with 6 agents.
+2025-05-16 02:36:47,519 - INFO - Q_num8 (Question ID 304) Iter2: Chat finished in 137.05 seconds.
+2025-05-16 02:36:47,519 - INFO - Q_num8 (Question ID 304) Iter3 Msg1 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 02:36:47,519 - INFO - Q_num8 (Question ID 304) Iter3 Msg2 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 02:36:47,519 - INFO - Q_num8 (Question ID 304) Iter3 Msg3 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 02:36:47,519 - INFO - Q_num8 (Question ID 304) Iter3 Msg4 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 02:36:47,519 - INFO - Q_num8 (Question ID 304) Iter3 Msg5 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 02:36:47,519 - INFO - Q_num8 (Question ID 304) Iter3 Msg6 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 02:36:47,520 - INFO - Q_num8 (Question ID 304) Iter3 Msg7 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 02:36:47,520 - INFO - Q_num8 (Question ID 304) Iter3 Msg8 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 02:36:47,520 - INFO - Q_num8 (Question ID 304) Iter3 Msg9 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 02:36:47,520 - INFO - Q_num8 (Question ID 304) Iter3 Msg10 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 02:36:47,520 - INFO - Q_num8 (Question ID 304) Iter3 Msg11 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 02:36:47,520 - INFO - Q_num8 (Question ID 304) Iter3 Msg12 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 02:36:47,520 - INFO - Q_num8 (Question ID 304) Iter3 Msg13 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 02:36:47,520 - INFO - Q_num8 (Question ID 304) Iter3 Msg14 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 02:36:47,520 - INFO - Q_num8 (Question ID 304) Iter3 Msg15 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 02:36:47,520 - INFO - Q_num8 (Question ID 304) Iter3 Msg16 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 02:36:47,520 - INFO - Q_num8 (Question ID 304) Iter3 Msg17 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 02:36:47,520 - INFO - Q_num8 (Question ID 304) Iter3 Msg18 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 02:36:47,520 - INFO - Q_num8 (Question ID 304) Iter3 Msg19 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 02:36:47,520 - INFO - Q_num8 (Question ID 304) Iter3 Msg20 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 02:36:47,521 - INFO - Q_num8 (Question ID 304) Iter3 Msg21 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 02:36:47,521 - INFO - Q_num8 (Question ID 304) Iter3 Msg22 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 02:36:47,521 - INFO - Q_num8 (Question ID 304) Iter3 Msg23 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 02:36:47,521 - INFO - Q_num8 (Question ID 304) Iter3 Msg24 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 02:36:47,609 - INFO - --- Finished Q_num8 (ID 304) Iter3. Results saved. ---
+2025-05-16 02:36:47,684 - INFO - --- Running Q_num8 (ID 304) Iter4/5 ---
+2025-05-16 02:36:47,684 - INFO - Task: Sometimes it is morally necessary to spare innocent people as collateral damage—even if fewer people...
+2025-05-16 02:36:47,904 - INFO - Q_num8 (Question ID 304) Iter3: Starting chat with 6 agents.
+2025-05-16 02:38:11,445 - INFO - Q_num8 (Question ID 304) Iter3: Chat finished in 83.54 seconds.
+2025-05-16 02:38:11,445 - INFO - Q_num8 (Question ID 304) Iter4 Msg1 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=6, Conf=No confidence found
+2025-05-16 02:38:11,445 - INFO - Q_num8 (Question ID 304) Iter4 Msg2 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 02:38:11,445 - INFO - Q_num8 (Question ID 304) Iter4 Msg3 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=2, Conf=No confidence found
+2025-05-16 02:38:11,446 - INFO - Q_num8 (Question ID 304) Iter4 Msg4 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 02:38:11,446 - INFO - Q_num8 (Question ID 304) Iter4 Msg5 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 02:38:11,446 - INFO - Q_num8 (Question ID 304) Iter4 Msg6 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 02:38:11,446 - INFO - Q_num8 (Question ID 304) Iter4 Msg7 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 02:38:11,446 - INFO - Q_num8 (Question ID 304) Iter4 Msg8 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 02:38:11,446 - INFO - Q_num8 (Question ID 304) Iter4 Msg9 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 02:38:11,446 - INFO - Q_num8 (Question ID 304) Iter4 Msg10 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 02:38:11,446 - INFO - Q_num8 (Question ID 304) Iter4 Msg11 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 02:38:11,446 - INFO - Q_num8 (Question ID 304) Iter4 Msg12 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 02:38:11,446 - INFO - Q_num8 (Question ID 304) Iter4 Msg13 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 02:38:11,446 - INFO - Q_num8 (Question ID 304) Iter4 Msg14 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 02:38:11,446 - INFO - Q_num8 (Question ID 304) Iter4 Msg15 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 02:38:11,446 - INFO - Q_num8 (Question ID 304) Iter4 Msg16 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 02:38:11,446 - INFO - Q_num8 (Question ID 304) Iter4 Msg17 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 02:38:11,447 - INFO - Q_num8 (Question ID 304) Iter4 Msg18 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 02:38:11,447 - INFO - Q_num8 (Question ID 304) Iter4 Msg19 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 02:38:11,447 - INFO - Q_num8 (Question ID 304) Iter4 Msg20 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 02:38:11,447 - INFO - Q_num8 (Question ID 304) Iter4 Msg21 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 02:38:11,447 - INFO - Q_num8 (Question ID 304) Iter4 Msg22 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 02:38:11,447 - INFO - Q_num8 (Question ID 304) Iter4 Msg23 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 02:38:11,447 - INFO - Q_num8 (Question ID 304) Iter4 Msg24 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 02:38:11,535 - INFO - --- Finished Q_num8 (ID 304) Iter4. Results saved. ---
+2025-05-16 02:38:11,608 - INFO - --- Running Q_num8 (ID 304) Iter5/5 ---
+2025-05-16 02:38:11,608 - INFO - Task: Sometimes it is morally necessary to spare innocent people as collateral damage—even if fewer people...
+2025-05-16 02:38:11,828 - INFO - Q_num8 (Question ID 304) Iter4: Starting chat with 6 agents.
+2025-05-16 02:39:39,100 - INFO - Q_num8 (Question ID 304) Iter4: Chat finished in 87.27 seconds.
+2025-05-16 02:39:39,100 - INFO - Q_num8 (Question ID 304) Iter5 Msg1 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 02:39:39,100 - INFO - Q_num8 (Question ID 304) Iter5 Msg2 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 02:39:39,101 - INFO - Q_num8 (Question ID 304) Iter5 Msg3 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 02:39:39,101 - INFO - Q_num8 (Question ID 304) Iter5 Msg4 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 02:39:39,101 - INFO - Q_num8 (Question ID 304) Iter5 Msg5 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 02:39:39,101 - INFO - Q_num8 (Question ID 304) Iter5 Msg6 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 02:39:39,101 - INFO - Q_num8 (Question ID 304) Iter5 Msg7 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 02:39:39,101 - INFO - Q_num8 (Question ID 304) Iter5 Msg8 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 02:39:39,101 - INFO - Q_num8 (Question ID 304) Iter5 Msg9 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 02:39:39,101 - INFO - Q_num8 (Question ID 304) Iter5 Msg10 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 02:39:39,101 - INFO - Q_num8 (Question ID 304) Iter5 Msg11 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 02:39:39,102 - INFO - Q_num8 (Question ID 304) Iter5 Msg12 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 02:39:39,102 - INFO - Q_num8 (Question ID 304) Iter5 Msg13 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 02:39:39,102 - INFO - Q_num8 (Question ID 304) Iter5 Msg14 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 02:39:39,102 - INFO - Q_num8 (Question ID 304) Iter5 Msg15 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 02:39:39,102 - INFO - Q_num8 (Question ID 304) Iter5 Msg16 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 02:39:39,102 - INFO - Q_num8 (Question ID 304) Iter5 Msg17 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 02:39:39,102 - INFO - Q_num8 (Question ID 304) Iter5 Msg18 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 02:39:39,102 - INFO - Q_num8 (Question ID 304) Iter5 Msg19 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 02:39:39,102 - INFO - Q_num8 (Question ID 304) Iter5 Msg20 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 02:39:39,102 - INFO - Q_num8 (Question ID 304) Iter5 Msg21 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 02:39:39,103 - INFO - Q_num8 (Question ID 304) Iter5 Msg22 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 02:39:39,103 - INFO - Q_num8 (Question ID 304) Iter5 Msg23 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 02:39:39,103 - INFO - Q_num8 (Question ID 304) Iter5 Msg24 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 02:39:39,194 - INFO - --- Finished Q_num8 (ID 304) Iter5. Results saved. ---
+2025-05-16 02:39:39,271 - INFO - --- Running Q_num9 (ID 309) Iter1/5 ---
+2025-05-16 02:39:39,271 - INFO - Task: It is morally permissible to keep money that one doesn't really need even if one can donate it to ca...
+2025-05-16 02:39:39,492 - INFO - Q_num9 (Question ID 309) Iter0: Starting chat with 6 agents.
+2025-05-16 02:40:59,012 - INFO - Q_num9 (Question ID 309) Iter0: Chat finished in 79.52 seconds.
+2025-05-16 02:40:59,013 - INFO - Q_num9 (Question ID 309) Iter1 Msg1 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 02:40:59,013 - INFO - Q_num9 (Question ID 309) Iter1 Msg2 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 02:40:59,013 - INFO - Q_num9 (Question ID 309) Iter1 Msg3 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=4, Conf=No confidence found
+2025-05-16 02:40:59,013 - INFO - Q_num9 (Question ID 309) Iter1 Msg4 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 02:40:59,013 - INFO - Q_num9 (Question ID 309) Iter1 Msg5 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 02:40:59,013 - INFO - Q_num9 (Question ID 309) Iter1 Msg6 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=6, Conf=No confidence found
+2025-05-16 02:40:59,013 - INFO - Q_num9 (Question ID 309) Iter1 Msg7 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=6, Conf=No confidence found
+2025-05-16 02:40:59,014 - INFO - Q_num9 (Question ID 309) Iter1 Msg8 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 02:40:59,014 - INFO - Q_num9 (Question ID 309) Iter1 Msg9 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 02:40:59,014 - INFO - Q_num9 (Question ID 309) Iter1 Msg10 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 02:40:59,014 - INFO - Q_num9 (Question ID 309) Iter1 Msg11 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=6, Conf=No confidence found
+2025-05-16 02:40:59,014 - INFO - Q_num9 (Question ID 309) Iter1 Msg12 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=6, Conf=No confidence found
+2025-05-16 02:40:59,014 - INFO - Q_num9 (Question ID 309) Iter1 Msg13 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=6, Conf=No confidence found
+2025-05-16 02:40:59,014 - INFO - Q_num9 (Question ID 309) Iter1 Msg14 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 02:40:59,014 - INFO - Q_num9 (Question ID 309) Iter1 Msg15 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 02:40:59,014 - INFO - Q_num9 (Question ID 309) Iter1 Msg16 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 02:40:59,014 - INFO - Q_num9 (Question ID 309) Iter1 Msg17 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=6, Conf=No confidence found
+2025-05-16 02:40:59,014 - INFO - Q_num9 (Question ID 309) Iter1 Msg18 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=6, Conf=No confidence found
+2025-05-16 02:40:59,014 - INFO - Q_num9 (Question ID 309) Iter1 Msg19 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=6, Conf=No confidence found
+2025-05-16 02:40:59,014 - INFO - Q_num9 (Question ID 309) Iter1 Msg20 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 02:40:59,014 - INFO - Q_num9 (Question ID 309) Iter1 Msg21 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 02:40:59,014 - INFO - Q_num9 (Question ID 309) Iter1 Msg22 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=6, Conf=No confidence found
+2025-05-16 02:40:59,015 - INFO - Q_num9 (Question ID 309) Iter1 Msg23 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=6, Conf=No confidence found
+2025-05-16 02:40:59,015 - INFO - Q_num9 (Question ID 309) Iter1 Msg24 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=6, Conf=No confidence found
+2025-05-16 02:40:59,106 - INFO - --- Finished Q_num9 (ID 309) Iter1. Results saved. ---
+2025-05-16 02:40:59,185 - INFO - --- Running Q_num9 (ID 309) Iter2/5 ---
+2025-05-16 02:40:59,185 - INFO - Task: It is morally permissible to keep money that one doesn't really need even if one can donate it to ca...
+2025-05-16 02:40:59,408 - INFO - Q_num9 (Question ID 309) Iter1: Starting chat with 6 agents.
+2025-05-16 02:41:57,273 - INFO - Q_num9 (Question ID 309) Iter1: Chat finished in 57.87 seconds.
+2025-05-16 02:41:57,274 - INFO - Q_num9 (Question ID 309) Iter2 Msg1 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 02:41:57,274 - INFO - Q_num9 (Question ID 309) Iter2 Msg2 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 02:41:57,274 - INFO - Q_num9 (Question ID 309) Iter2 Msg3 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 02:41:57,274 - INFO - Q_num9 (Question ID 309) Iter2 Msg4 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 02:41:57,274 - INFO - Q_num9 (Question ID 309) Iter2 Msg5 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 02:41:57,274 - INFO - Q_num9 (Question ID 309) Iter2 Msg6 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 02:41:57,274 - INFO - Q_num9 (Question ID 309) Iter2 Msg7 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 02:41:57,274 - INFO - Q_num9 (Question ID 309) Iter2 Msg8 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 02:41:57,274 - INFO - Q_num9 (Question ID 309) Iter2 Msg9 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 02:41:57,274 - INFO - Q_num9 (Question ID 309) Iter2 Msg10 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 02:41:57,274 - INFO - Q_num9 (Question ID 309) Iter2 Msg11 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 02:41:57,275 - INFO - Q_num9 (Question ID 309) Iter2 Msg12 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 02:41:57,275 - INFO - Q_num9 (Question ID 309) Iter2 Msg13 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 02:41:57,275 - INFO - Q_num9 (Question ID 309) Iter2 Msg14 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 02:41:57,275 - INFO - Q_num9 (Question ID 309) Iter2 Msg15 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 02:41:57,275 - INFO - Q_num9 (Question ID 309) Iter2 Msg16 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 02:41:57,275 - INFO - Q_num9 (Question ID 309) Iter2 Msg17 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 02:41:57,275 - INFO - Q_num9 (Question ID 309) Iter2 Msg18 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 02:41:57,275 - INFO - Q_num9 (Question ID 309) Iter2 Msg19 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 02:41:57,275 - INFO - Q_num9 (Question ID 309) Iter2 Msg20 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 02:41:57,275 - INFO - Q_num9 (Question ID 309) Iter2 Msg21 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 02:41:57,275 - INFO - Q_num9 (Question ID 309) Iter2 Msg22 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 02:41:57,275 - INFO - Q_num9 (Question ID 309) Iter2 Msg23 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 02:41:57,275 - INFO - Q_num9 (Question ID 309) Iter2 Msg24 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 02:41:57,362 - INFO - --- Finished Q_num9 (ID 309) Iter2. Results saved. ---
+2025-05-16 02:41:57,436 - INFO - --- Running Q_num9 (ID 309) Iter3/5 ---
+2025-05-16 02:41:57,437 - INFO - Task: It is morally permissible to keep money that one doesn't really need even if one can donate it to ca...
+2025-05-16 02:41:57,655 - INFO - Q_num9 (Question ID 309) Iter2: Starting chat with 6 agents.
+2025-05-16 02:43:02,077 - INFO - Q_num9 (Question ID 309) Iter2: Chat finished in 64.42 seconds.
+2025-05-16 02:43:02,077 - INFO - Q_num9 (Question ID 309) Iter3 Msg1 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 02:43:02,077 - INFO - Q_num9 (Question ID 309) Iter3 Msg2 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 02:43:02,077 - INFO - Q_num9 (Question ID 309) Iter3 Msg3 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 02:43:02,077 - INFO - Q_num9 (Question ID 309) Iter3 Msg4 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 02:43:02,077 - INFO - Q_num9 (Question ID 309) Iter3 Msg5 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 02:43:02,078 - INFO - Q_num9 (Question ID 309) Iter3 Msg6 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 02:43:02,078 - INFO - Q_num9 (Question ID 309) Iter3 Msg7 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 02:43:02,078 - INFO - Q_num9 (Question ID 309) Iter3 Msg8 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 02:43:02,078 - INFO - Q_num9 (Question ID 309) Iter3 Msg9 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 02:43:02,078 - INFO - Q_num9 (Question ID 309) Iter3 Msg10 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 02:43:02,078 - INFO - Q_num9 (Question ID 309) Iter3 Msg11 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 02:43:02,078 - INFO - Q_num9 (Question ID 309) Iter3 Msg12 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 02:43:02,078 - INFO - Q_num9 (Question ID 309) Iter3 Msg13 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 02:43:02,078 - INFO - Q_num9 (Question ID 309) Iter3 Msg14 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 02:43:02,078 - INFO - Q_num9 (Question ID 309) Iter3 Msg15 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 02:43:02,078 - INFO - Q_num9 (Question ID 309) Iter3 Msg16 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 02:43:02,078 - INFO - Q_num9 (Question ID 309) Iter3 Msg17 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 02:43:02,078 - INFO - Q_num9 (Question ID 309) Iter3 Msg18 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 02:43:02,079 - INFO - Q_num9 (Question ID 309) Iter3 Msg19 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 02:43:02,079 - INFO - Q_num9 (Question ID 309) Iter3 Msg20 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 02:43:02,079 - INFO - Q_num9 (Question ID 309) Iter3 Msg21 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 02:43:02,079 - INFO - Q_num9 (Question ID 309) Iter3 Msg22 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 02:43:02,079 - INFO - Q_num9 (Question ID 309) Iter3 Msg23 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 02:43:02,079 - INFO - Q_num9 (Question ID 309) Iter3 Msg24 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 02:43:02,166 - INFO - --- Finished Q_num9 (ID 309) Iter3. Results saved. ---
+2025-05-16 02:43:02,240 - INFO - --- Running Q_num9 (ID 309) Iter4/5 ---
+2025-05-16 02:43:02,240 - INFO - Task: It is morally permissible to keep money that one doesn't really need even if one can donate it to ca...
+2025-05-16 02:43:02,460 - INFO - Q_num9 (Question ID 309) Iter3: Starting chat with 6 agents.
+2025-05-16 02:44:08,762 - INFO - Q_num9 (Question ID 309) Iter3: Chat finished in 66.30 seconds.
+2025-05-16 02:44:08,763 - INFO - Q_num9 (Question ID 309) Iter4 Msg1 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 02:44:08,763 - INFO - Q_num9 (Question ID 309) Iter4 Msg2 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 02:44:08,763 - INFO - Q_num9 (Question ID 309) Iter4 Msg3 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 02:44:08,763 - INFO - Q_num9 (Question ID 309) Iter4 Msg4 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 02:44:08,763 - INFO - Q_num9 (Question ID 309) Iter4 Msg5 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 02:44:08,763 - INFO - Q_num9 (Question ID 309) Iter4 Msg6 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 02:44:08,763 - INFO - Q_num9 (Question ID 309) Iter4 Msg7 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 02:44:08,763 - INFO - Q_num9 (Question ID 309) Iter4 Msg8 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 02:44:08,763 - INFO - Q_num9 (Question ID 309) Iter4 Msg9 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 02:44:08,763 - INFO - Q_num9 (Question ID 309) Iter4 Msg10 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 02:44:08,763 - INFO - Q_num9 (Question ID 309) Iter4 Msg11 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 02:44:08,763 - INFO - Q_num9 (Question ID 309) Iter4 Msg12 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 02:44:08,764 - INFO - Q_num9 (Question ID 309) Iter4 Msg13 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 02:44:08,764 - INFO - Q_num9 (Question ID 309) Iter4 Msg14 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 02:44:08,764 - INFO - Q_num9 (Question ID 309) Iter4 Msg15 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 02:44:08,764 - INFO - Q_num9 (Question ID 309) Iter4 Msg16 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 02:44:08,764 - INFO - Q_num9 (Question ID 309) Iter4 Msg17 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 02:44:08,764 - INFO - Q_num9 (Question ID 309) Iter4 Msg18 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 02:44:08,764 - INFO - Q_num9 (Question ID 309) Iter4 Msg19 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=5, Conf=No confidence found
+2025-05-16 02:44:08,764 - INFO - Q_num9 (Question ID 309) Iter4 Msg20 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=5, Conf=No confidence found
+2025-05-16 02:44:08,764 - INFO - Q_num9 (Question ID 309) Iter4 Msg21 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=5, Conf=No confidence found
+2025-05-16 02:44:08,764 - INFO - Q_num9 (Question ID 309) Iter4 Msg22 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=5, Conf=No confidence found
+2025-05-16 02:44:08,764 - INFO - Q_num9 (Question ID 309) Iter4 Msg23 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=5, Conf=No confidence found
+2025-05-16 02:44:08,764 - INFO - Q_num9 (Question ID 309) Iter4 Msg24 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=5, Conf=No confidence found
+2025-05-16 02:44:08,854 - INFO - --- Finished Q_num9 (ID 309) Iter4. Results saved. ---
+2025-05-16 02:44:08,929 - INFO - --- Running Q_num9 (ID 309) Iter5/5 ---
+2025-05-16 02:44:08,929 - INFO - Task: It is morally permissible to keep money that one doesn't really need even if one can donate it to ca...
+2025-05-16 02:44:09,146 - INFO - Q_num9 (Question ID 309) Iter4: Starting chat with 6 agents.
+2025-05-16 02:45:27,608 - INFO - Q_num9 (Question ID 309) Iter4: Chat finished in 78.46 seconds.
+2025-05-16 02:45:27,609 - INFO - Q_num9 (Question ID 309) Iter5 Msg1 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=4, Conf=No confidence found
+2025-05-16 02:45:27,609 - INFO - Q_num9 (Question ID 309) Iter5 Msg2 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=4, Conf=No confidence found
+2025-05-16 02:45:27,609 - INFO - Q_num9 (Question ID 309) Iter5 Msg3 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=4, Conf=No confidence found
+2025-05-16 02:45:27,609 - INFO - Q_num9 (Question ID 309) Iter5 Msg4 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=4, Conf=No confidence found
+2025-05-16 02:45:27,609 - INFO - Q_num9 (Question ID 309) Iter5 Msg5 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=4, Conf=No confidence found
+2025-05-16 02:45:27,609 - INFO - Q_num9 (Question ID 309) Iter5 Msg6 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=4, Conf=No confidence found
+2025-05-16 02:45:27,609 - INFO - Q_num9 (Question ID 309) Iter5 Msg7 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=4, Conf=No confidence found
+2025-05-16 02:45:27,609 - INFO - Q_num9 (Question ID 309) Iter5 Msg8 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=4, Conf=No confidence found
+2025-05-16 02:45:27,609 - INFO - Q_num9 (Question ID 309) Iter5 Msg9 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=4, Conf=No confidence found
+2025-05-16 02:45:27,609 - INFO - Q_num9 (Question ID 309) Iter5 Msg10 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=4, Conf=No confidence found
+2025-05-16 02:45:27,609 - INFO - Q_num9 (Question ID 309) Iter5 Msg11 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=4, Conf=No confidence found
+2025-05-16 02:45:27,610 - INFO - Q_num9 (Question ID 309) Iter5 Msg12 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=4, Conf=No confidence found
+2025-05-16 02:45:27,610 - INFO - Q_num9 (Question ID 309) Iter5 Msg13 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=4, Conf=No confidence found
+2025-05-16 02:45:27,610 - INFO - Q_num9 (Question ID 309) Iter5 Msg14 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=4, Conf=No confidence found
+2025-05-16 02:45:27,610 - INFO - Q_num9 (Question ID 309) Iter5 Msg15 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=4, Conf=No confidence found
+2025-05-16 02:45:27,610 - INFO - Q_num9 (Question ID 309) Iter5 Msg16 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=4, Conf=No confidence found
+2025-05-16 02:45:27,610 - INFO - Q_num9 (Question ID 309) Iter5 Msg17 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=4, Conf=No confidence found
+2025-05-16 02:45:27,610 - INFO - Q_num9 (Question ID 309) Iter5 Msg18 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=4, Conf=No confidence found
+2025-05-16 02:45:27,610 - INFO - Q_num9 (Question ID 309) Iter5 Msg19 Agent agent_qwen_qwen_2_5_7b_instruct_0_0: Ans=4, Conf=No confidence found
+2025-05-16 02:45:27,610 - INFO - Q_num9 (Question ID 309) Iter5 Msg20 Agent agent_qwen_qwen_2_5_7b_instruct_0_1: Ans=4, Conf=No confidence found
+2025-05-16 02:45:27,610 - INFO - Q_num9 (Question ID 309) Iter5 Msg21 Agent agent_qwen_qwen_2_5_7b_instruct_0_2: Ans=4, Conf=No confidence found
+2025-05-16 02:45:27,610 - INFO - Q_num9 (Question ID 309) Iter5 Msg22 Agent agent_qwen_qwen_2_5_7b_instruct_0_3: Ans=4, Conf=No confidence found
+2025-05-16 02:45:27,610 - INFO - Q_num9 (Question ID 309) Iter5 Msg23 Agent agent_qwen_qwen_2_5_7b_instruct_0_4: Ans=4, Conf=No confidence found
+2025-05-16 02:45:27,610 - INFO - Q_num9 (Question ID 309) Iter5 Msg24 Agent agent_qwen_qwen_2_5_7b_instruct_0_5: Ans=4, Conf=No confidence found
+2025-05-16 02:45:27,698 - INFO - --- Finished Q_num9 (ID 309) Iter5. Results saved. ---
+2025-05-16 02:45:27,770 - INFO - --- Run Finished --- CONFIG HASH: 7a188e0a ---
