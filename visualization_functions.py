@@ -117,6 +117,7 @@ def plot_rr_round(df, round=3):
 # ############################################
 # PLOT EACH QUESTION BY GROUPING (eg model or whatever)
 # ############################################
+
 def plot_by_question(
     data: pd.DataFrame,
     group_by: Union[str, List[str]] = 'model_name',
@@ -125,7 +126,7 @@ def plot_by_question(
     value_col: str = 'mean',
     error_col: str = 'std',
     label_col: Optional[str] = None,
-    ax: Optional[plt.Axes] = None,  # Add axis parameter for subplot support
+    ax: Optional[plt.Axes] = None,
     figsize: tuple = (15, 6),
     colormap: str = 'tab10',
     title: Optional[str] = 'Mean Values by Question and Group',
@@ -145,72 +146,28 @@ def plot_by_question(
     min_width: float = 0.05,
     max_width: float = 0.4,
     sort_by_category: bool = True,
-    return_fig: bool = True  # Control what's returned
+    return_fig: bool = True,
+    # Parameters for consistent configuration styling
+    match_inverted_colors: bool = True,
+    inverted_indicator: str = 'inverted',
+    # Parameters for legend positioning
+    bbox_to_anchor: Optional[tuple] = None,
+    ncol: int = 1
 ) -> Union[plt.Figure, plt.Axes]:
     """
     Creates a plot of mean values by question with error bars, grouped by specified columns.
     Questions are automatically sorted by category first, then by question identifier.
     
-    Parameters:
+    Additional parameters:
     -----------
-    data : pandas.DataFrame
-        The DataFrame containing the aggregated data to plot
-    group_by : str or list of str
-        Column(s) to group by (e.g., 'model_name' or ['model_name', 'run_type'])
-    question_id_col : str
-        Column containing the question identifiers
-    category_col : str
-        Column that defines categories for coloring and grouping
-    value_col : str
-        Column containing the mean values to plot
-    error_col : str
-        Column containing standard deviation for error bars
-    label_col : str, optional
-        Column to use for labels in the legend. If None, will construct from group_by
-    ax : matplotlib.axes.Axes, optional
-        Existing axes to plot on. If None, creates a new figure and axes.
-    figsize : tuple
-        Figure size as (width, height) in inches (used only if ax is None)
-    colormap : str
-        Name of the matplotlib colormap to use
-    title : str, optional
-        Plot title
-    grid_alpha : float
-        Transparency for grid lines
-    marker_style : str
-        Marker style for data points
-    capsize : int
-        Size of caps on error bars
-    rotate_xticks : int
-        Rotation angle for x-tick labels
-    category_colors : dict, optional
-        Mapping of category values to colors
-    category_order : list, optional
-        Order of categories (e.g., ['IH', 'IB']). If None, sorts alphabetically.
-    use_sem : bool
-        If True, use standard error of mean instead of standard deviation
-    sem_col : str
-        Column name for standard error of mean (if use_sem is True)
-    show_legend : bool
-        Whether to display the legend
-    legend_loc : str
-        Location for the legend
-    y_label : str
-        Label for y-axis
-    x_label : str
-        Label for x-axis
-    width_fill_percentage, min_width, max_width : float
-        Parameters controlling the width calculation for group offsets
-    sort_by_category : bool
-        If True, sort questions by category first, then by question ID
-    return_fig : bool
-        If True, returns the figure object. If False, returns just the axes object.
-        Only relevant when ax=None (creating a new figure).
-        
-    Returns:
-    --------
-    matplotlib.figure.Figure or matplotlib.axes.Axes
-        The figure or axes object depending on return_fig parameter
+    match_inverted_colors: bool
+        If True, pairs regular and inverted configurations with same colors but different fill
+    inverted_indicator: str
+        String that identifies inverted variants in label_col values
+    bbox_to_anchor: tuple, optional
+        Position to place the legend outside the axes
+    ncol: int
+        Number of columns in the legend
     """
     # Create new figure and axes if not provided
     if ax is None:
@@ -256,29 +213,80 @@ def plot_by_question(
     
     # Get unique groups
     groups = sorted(data[label_col].unique())
-    num_groups = len(groups)
     
-    # Calculate width based on number of groups
-    width = max(min(width_fill_percentage / num_groups, max_width), min_width)
-    
-    # Define colors for groups
-    # if hasattr(plt.cm, 'get_cmap'):  # For backwards compatibility with older matplotlib
-    #     group_cmap = plt.cm.get_cmap(colormap, num_groups)
-    # else:  # For matplotlib 3.7+
-    group_cmap = plt.colormaps[colormap].resampled(num_groups)
-    group_colors = {group: group_cmap(i) for i, group in enumerate(groups)}
+    # Extract base configurations for color matching if requested
+    if match_inverted_colors:
+        # Create mapping from label to base configuration
+        data = data.copy()  # Avoid modifying the original
+        
+        # Define proper base config extraction
+        def extract_base_config(label):
+            base = label
+            if 'ous_' in base:
+                base = base.replace('ous_', '')
+            if '_ring' in base:
+                base = base.replace('_ring', '')
+            if 'inverted_' in base:
+                base = base.replace('inverted_', '')
+            return base
+        
+        # Apply the extraction function
+        data['_base_config_'] = data[label_col].apply(extract_base_config)
+        data['_is_inverted_'] = data[label_col].apply(
+            lambda x: inverted_indicator in x
+        )
+        
+        # Get unique base configurations
+        base_configs = sorted(set(data['_base_config_']))
+        
+        # Use a combination of colormaps for a wider range of distinct colors
+        colors_tab10 = plt.cm.tab10.colors
+        colors_tab20 = plt.cm.tab20.colors
+        colors_tab20b = plt.cm.tab20b.colors
+        
+        # Combine and get unique colors
+        all_colors = []
+        all_colors.extend(colors_tab10)
+        
+        # Add more colors if needed, but ensure they're visually distinct
+        if len(base_configs) > len(all_colors):
+            for color in colors_tab20:
+                if color not in all_colors:
+                    all_colors.append(color)
+        
+        if len(base_configs) > len(all_colors):
+            for color in colors_tab20b:
+                if color not in all_colors:
+                    all_colors.append(color)
+        
+        # Create color mapping for base configurations
+        base_color_map = {}
+        for i, config in enumerate(base_configs):
+            base_color_map[config] = all_colors[i % len(all_colors)]
+        
+        # Create a map of labels to colors with proper base config matching
+        group_colors = {}
+        for label_name in groups:
+            # Extract the base configuration directly
+            base_config = extract_base_config(label_name)
+            group_colors[label_name] = base_color_map[base_config]
+    else:
+        # Use original color mapping approach
+        num_groups = len(groups)
+        group_cmap = plt.colormaps[colormap].resampled(num_groups)
+        group_colors = {group: group_cmap(i) for i, group in enumerate(groups)}
     
     # Default category colors if not provided
     if category_colors is None:
-        # if hasattr(plt.cm, 'get_cmap'):  # For backwards compatibility with older matplotlib
-        #     category_cmap = plt.cm.get_cmap('Set1', len(categories))
-        # else:  # For matplotlib 3.7+
         category_cmap = plt.colormaps['Set1'].resampled(len(categories))
-
         category_colors = {cat: category_cmap(i) for i, cat in enumerate(categories)}
     
+    # Calculate width based on number of groups
+    num_groups = len(groups)
+    width = max(min(width_fill_percentage / num_groups, max_width), min_width)
+    
     # Create positions for the points (offset from question number index)
-    # Note: We're using the index in question_nums, not the actual question ID value
+    
     positions = {}
     for i, group in enumerate(groups):
         # This creates a slight offset for each group (-0.25, 0, 0.25 for 3 groups)
@@ -289,9 +297,15 @@ def plot_by_question(
     question_positions = {q: i for i, q in enumerate(question_nums)}
     
     # Plot the data for each group
-    for i, group in enumerate(groups):
+    for group in groups:
         # Get the data for this group
         group_data = data[data[label_col] == group]
+        
+        # Determine if this is an inverted configuration
+        is_inverted = inverted_indicator in group if match_inverted_colors else False
+        
+        # Get color for this group
+        color = group_colors[group]
         
         # Plot only the question numbers that exist for this group
         for q_num in question_nums:
@@ -305,18 +319,37 @@ def plot_by_question(
                 # Get the position index for this question
                 q_idx = question_positions[q_num]
                 
-                ax.errorbar(
-                    positions[group][q_idx],  # Use the precomputed position
-                    q_data[value_col].values[0],
-                    yerr=q_data[yerr_col].values[0],
-                    fmt=marker_style,  # Use circles as markers
-                    color=group_colors[group],
-                    label=group if q_idx == 0 else "",  # Only add to legend once
-                    capsize=capsize,  # Add caps to error bars
-                    markersize=6,
-                    markeredgecolor='black',
-                    markeredgewidth=0.5
-                )
+                # Adjust marker appearance based on regular vs inverted status
+                if match_inverted_colors and is_inverted:
+                    # For inverted: outlined marker with no fill
+                    ax.errorbar(
+                        positions[group][q_idx],
+                        q_data[value_col].values[0],
+                        yerr=q_data[yerr_col].values[0],
+                        fmt=marker_style,
+                        color=color,                # Error bar color
+                        markerfacecolor='white',    # White fill
+                        markeredgecolor=color,      # Color outline
+                        markeredgewidth=1.5,        # Thicker outline
+                        label=group if q_idx == 0 else "",  # Only add to legend once
+                        capsize=capsize,
+                        markersize=6
+                    )
+                else:
+                    # For regular: filled marker
+                    ax.errorbar(
+                        positions[group][q_idx],
+                        q_data[value_col].values[0],
+                        yerr=q_data[yerr_col].values[0],
+                        fmt=marker_style,
+                        color=color,                # Error bar color
+                        markerfacecolor=color,      # Filled with color
+                        markeredgecolor='black',    # Black outline for contrast
+                        markeredgewidth=0.5,
+                        label=group if q_idx == 0 else "",  # Only add to legend once
+                        capsize=capsize,
+                        markersize=6
+                    )
     
     # Set x-ticks at question positions (not the offset positions)
     ax.set_xticks(range(len(question_nums)))
@@ -383,15 +416,52 @@ def plot_by_question(
                 ax.text(np.mean(indices), y_text, f'{cat} Category', 
                         color=category_colors[cat], ha='center', fontsize=12)
     
-    # Add labels and legend
+    # Sort the legend by base configuration for better organization
+    if show_legend:
+        handles, labels_list = ax.get_legend_handles_labels()
+        
+        if match_inverted_colors:
+            # Group by base configuration
+            base_configs_for_labels = []
+            is_inverted_list = []
+            
+            for label in labels_list:
+                is_inverted = inverted_indicator in label
+                is_inverted_list.append(is_inverted)
+                
+                # Find the base configuration using the same extraction function
+                base_config = extract_base_config(label)
+                base_configs_for_labels.append(base_config)
+            
+            # Sort by base config first, then by inverted status (regular first, then inverted)
+            sorted_indices = sorted(range(len(labels_list)), 
+                                   key=lambda i: (base_configs_for_labels[i], is_inverted_list[i]))
+            
+            sorted_handles = [handles[i] for i in sorted_indices]
+            sorted_labels = [labels_list[i] for i in sorted_indices]
+            
+            # Create legend with additional parameters if provided
+            if bbox_to_anchor:
+                ax.legend(sorted_handles, sorted_labels, 
+                         loc=legend_loc, 
+                         bbox_to_anchor=bbox_to_anchor, 
+                         ncol=ncol)
+            else:
+                ax.legend(sorted_handles, sorted_labels, loc=legend_loc, ncol=ncol)
+        else:
+            # Create legend with additional parameters if provided
+            if bbox_to_anchor:
+                ax.legend(loc=legend_loc, bbox_to_anchor=bbox_to_anchor, ncol=ncol)
+            else:
+                ax.legend(loc=legend_loc, ncol=ncol)
+    
+    # Add labels and title
     ax.set_xlabel(x_label)
     ax.set_ylabel(y_label)
     if title:
         ax.set_title(title)
-    
-    if show_legend:
-        ax.legend(loc=legend_loc)
-    
+
+
     # Adjust layout if we created the figure
     if created_figure:
         plt.tight_layout()
@@ -404,7 +474,7 @@ def plot_by_question(
 
 
 
-def plot_IH_v_IB(df_by_category, use_std=True, label='chat_type'):
+def plot_IH_v_IB(df_by_category, use_std=True, label='chat_type', ax_lims = [1,7]):
     # Plot KDE with models on top
     fig, ax = plt.subplots(figsize=(10, 10))
     # Plot human KDE first using your existing function
@@ -513,8 +583,8 @@ def plot_IH_v_IB(df_by_category, use_std=True, label='chat_type'):
     # Set axis labels and limits
     ax.set_xlabel('IH Score')
     ax.set_ylabel('IB Score')
-    ax.set_xlim(1, 7)
-    ax.set_ylim(1, 7)
+    ax.set_xlim(ax_lims[0], ax_lims[1])
+    ax.set_ylim(ax_lims[0], ax_lims[1])
     
     # Sort legend for better organization
     handles, labels_list = ax.get_legend_handles_labels()
