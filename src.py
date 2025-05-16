@@ -33,6 +33,14 @@ from autogen_agentchat.teams import RoundRobinGroupChat
 from autogen_agentchat.conditions import MaxMessageTermination
 import logging # Added for logger setup in run_single_agent_and_save
 
+from pydantic import BaseModel
+from typing_extensions import Self
+
+from autogen_core._component_config import Component
+from autogen_core.models import FunctionExecutionResultMessage, LLMMessage
+from autogen_core.model_context._chat_completion_context import ChatCompletionContext
+from autogen_agentchat.messages import BaseAgentEvent, BaseChatMessage 
+
 
 ##########################################
 # Core Variables
@@ -470,7 +478,7 @@ class Single_Agent_Handler():
 
 ##########################################
 # MULTIAGENT HELPERS
-# TODO: WIP!
+# NOTE: WIP!
 ##########################################
 
 
@@ -481,13 +489,25 @@ class Single_Agent_Handler():
 def extract_answer_from_response(content):
     """Extracts the answer (e.g., A, B) from <ANSWER> tags."""
     match = re.search(r"<ANSWER>(.*?)</ANSWER>", content, re.IGNORECASE | re.DOTALL)
+    answers = ["1", "2", "3", "4", "5", "6", "7"]
+    if match and match.group(1).strip() in answers:
+        return match.group(1).strip()
+    # If no match, check for answers in the content
+    for answer in answers:
+        if answer in content:
+            return answer
     return match.group(1).strip() if match else "No answer found"
 
 def extract_confidence_from_response(content):
     """Extracts the confidence number from <CONF> tags."""
     match = re.search(r"<CONF>(.*?)</CONF>", content, re.IGNORECASE | re.DOTALL)
-    return match.group(1).strip() if match else "No confidence found"
-
+    if match:
+        return match.group(1).strip()
+    answers = ["1", "2", "3", "4", "5", "6", "7"]
+    for answer in answers:
+        if answer in content:
+            return answer
+    return "No confidence found"
 
 
 ########################################################
