@@ -1135,8 +1135,8 @@ class StarHandler(MultiAgentHandler):
         self.logger.info(f"--- Star Run Finished  --- CONFIG HASH: {self.CONFIG_HASH} ---")
         return all_results
 
-    async def run_star_main_async(self): # Renamed
-        return await self.main_star_convergence()
+    # async def run_star_main_async(self): # Renamed
+    #     return await self.main_star_convergence()
 
 
 ########################################################
