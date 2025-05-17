@@ -1183,7 +1183,11 @@ def ring_to_roundrobin_df(ring_df, Qs):
     # nubmer of rounds, models, and repeats assumes that all questions 
     # have the same rounds, the same models and the same number of repeats (and all models have the same number of repeats)
     n_rounds = ring_df['config_details'][0]['loops'] # number of rounds per round robin
-    n_models = len(ring_df['config_details'][0]['ensemble']) # number of models/agents
+    
+    # n_models = len(ring_df['config_details'][0]['ensemble']) # number of models/agents (only works for hetero)
+    n_models = sum([x['number'] for x in ring_df['config_details'][0]['ensemble']])
+
+    # print(f'{n_models}')
     repeats = ring_df['run_index'].unique()
     n_repeats = repeats.max() # number of repeats (same question different round robin)
 
@@ -1219,7 +1223,7 @@ def ring_to_roundrobin_df(ring_df, Qs):
 
                     # sanity check
                     # print(f'{repeat}, {idx},{dict_idx}')
-                    
+                    message_idx = round_robin_responses[idx][dict_idx]['message_index']
                     agent_name = round_robin_responses[idx][dict_idx]['agent_name']
                     agent_model = round_robin_responses[idx][dict_idx]['agent_model']
                     agent_answer = round_robin_responses[idx][dict_idx]['extracted_answer']
@@ -1228,7 +1232,7 @@ def ring_to_roundrobin_df(ring_df, Qs):
                         'question_num' : q_num, 
                         'question_id': q_id, # starts at 1
                         'round': round+1, # starts at 1
-                        'message_index': msg_idx, # starts at 1
+                        'message_index': message_idx, # starts at 1
                         'agent_name': agent_name,
                         'agent_model':agent_model,
                         'agent_answer_str': agent_answer,
