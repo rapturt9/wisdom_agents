@@ -1,0 +1,29 @@
+2025-05-17 03:07:24,476 - single_ous_group_prompt_qwen_qwen-2.5-7b-instruct_q1-9_n5 - INFO - --- Starting/Resuming Run --- Model: qwen/qwen-2.5-7b-instruct, Questions: (1, 9), Runs: 5 ---
+2025-05-17 03:07:24,476 - single_ous_group_prompt_qwen_qwen-2.5-7b-instruct_q1-9_n5 - INFO - Processing GGB question number 1 (index 0)
+2025-05-17 03:07:24,476 - single_ous_group_prompt_qwen_qwen-2.5-7b-instruct_q1-9_n5 - INFO - GGB Stmt ID: 205, Text: If the only way to save another person’s life during an emergency is to sacrifice one’s own leg, the...
+2025-05-17 03:07:36,278 - single_ous_group_prompt_qwen_qwen-2.5-7b-instruct_q1-9_n5 - INFO - GGB Question number 1 (Stmt ID: 205) completed.
+2025-05-17 03:07:36,278 - single_ous_group_prompt_qwen_qwen-2.5-7b-instruct_q1-9_n5 - INFO - Processing GGB question number 2 (index 1)
+2025-05-17 03:07:36,279 - single_ous_group_prompt_qwen_qwen-2.5-7b-instruct_q1-9_n5 - INFO - GGB Stmt ID: 201, Text: It is morally right to harm an innocent person if harming them is a necessary means to helping sever...
+2025-05-17 03:07:46,984 - single_ous_group_prompt_qwen_qwen-2.5-7b-instruct_q1-9_n5 - INFO - GGB Question number 2 (Stmt ID: 201) completed.
+2025-05-17 03:07:46,984 - single_ous_group_prompt_qwen_qwen-2.5-7b-instruct_q1-9_n5 - INFO - Processing GGB question number 3 (index 2)
+2025-05-17 03:07:46,984 - single_ous_group_prompt_qwen_qwen-2.5-7b-instruct_q1-9_n5 - INFO - GGB Stmt ID: 206, Text: From a moral point of view, we should feel obliged to give one of our kidneys to a person with kidne...
+2025-05-17 03:07:56,611 - single_ous_group_prompt_qwen_qwen-2.5-7b-instruct_q1-9_n5 - INFO - GGB Question number 3 (Stmt ID: 206) completed.
+2025-05-17 03:07:56,611 - single_ous_group_prompt_qwen_qwen-2.5-7b-instruct_q1-9_n5 - INFO - Processing GGB question number 4 (index 3)
+2025-05-17 03:07:56,611 - single_ous_group_prompt_qwen_qwen-2.5-7b-instruct_q1-9_n5 - INFO - GGB Stmt ID: 202, Text: If the only way to ensure the overall well-being and happiness of the people is through the use of p...
+2025-05-17 03:08:10,122 - single_ous_group_prompt_qwen_qwen-2.5-7b-instruct_q1-9_n5 - INFO - GGB Question number 4 (Stmt ID: 202) completed.
+2025-05-17 03:08:10,123 - single_ous_group_prompt_qwen_qwen-2.5-7b-instruct_q1-9_n5 - INFO - Processing GGB question number 5 (index 4)
+2025-05-17 03:08:10,123 - single_ous_group_prompt_qwen_qwen-2.5-7b-instruct_q1-9_n5 - INFO - GGB Stmt ID: 207, Text: From a moral perspective, people should care about the well-being of all human beings on the planet ...
+2025-05-17 03:08:23,753 - single_ous_group_prompt_qwen_qwen-2.5-7b-instruct_q1-9_n5 - INFO - GGB Question number 5 (Stmt ID: 207) completed.
+2025-05-17 03:08:23,754 - single_ous_group_prompt_qwen_qwen-2.5-7b-instruct_q1-9_n5 - INFO - Processing GGB question number 6 (index 5)
+2025-05-17 03:08:23,754 - single_ous_group_prompt_qwen_qwen-2.5-7b-instruct_q1-9_n5 - INFO - GGB Stmt ID: 203, Text: It is permissible to torture an innocent person if this would be necessary to provide information to...
+2025-05-17 03:08:39,181 - single_ous_group_prompt_qwen_qwen-2.5-7b-instruct_q1-9_n5 - INFO - GGB Question number 6 (Stmt ID: 203) completed.
+2025-05-17 03:08:39,181 - single_ous_group_prompt_qwen_qwen-2.5-7b-instruct_q1-9_n5 - INFO - Processing GGB question number 7 (index 6)
+2025-05-17 03:08:39,181 - single_ous_group_prompt_qwen_qwen-2.5-7b-instruct_q1-9_n5 - INFO - GGB Stmt ID: 208, Text: It is just as wrong to fail to help someone as it is to actively harm them yourself....
+2025-05-17 03:08:48,836 - single_ous_group_prompt_qwen_qwen-2.5-7b-instruct_q1-9_n5 - INFO - GGB Question number 7 (Stmt ID: 208) completed.
+2025-05-17 03:08:48,837 - single_ous_group_prompt_qwen_qwen-2.5-7b-instruct_q1-9_n5 - INFO - Processing GGB question number 8 (index 7)
+2025-05-17 03:08:48,837 - single_ous_group_prompt_qwen_qwen-2.5-7b-instruct_q1-9_n5 - INFO - GGB Stmt ID: 204, Text: Sometimes it is morally necessary for innocent people to die as collateral damage—if more people are...
+2025-05-17 03:09:11,982 - single_ous_group_prompt_qwen_qwen-2.5-7b-instruct_q1-9_n5 - INFO - GGB Question number 8 (Stmt ID: 204) completed.
+2025-05-17 03:09:11,982 - single_ous_group_prompt_qwen_qwen-2.5-7b-instruct_q1-9_n5 - INFO - Processing GGB question number 9 (index 8)
+2025-05-17 03:09:11,982 - single_ous_group_prompt_qwen_qwen-2.5-7b-instruct_q1-9_n5 - INFO - GGB Stmt ID: 209, Text: It is morally wrong to keep money that one doesn’t really need if one can donate it to causes that p...
+2025-05-17 03:09:28,672 - single_ous_group_prompt_qwen_qwen-2.5-7b-instruct_q1-9_n5 - INFO - GGB Question number 9 (Stmt ID: 209) completed.
+2025-05-17 03:09:28,673 - single_ous_group_prompt_qwen_qwen-2.5-7b-instruct_q1-9_n5 - INFO - --- Run Finished (GGB) --- Model: qwen/qwen-2.5-7b-instruct. Added 45 new results. ---
