@@ -236,13 +236,30 @@ def get_prompt(persona = None, group_chat = True, reasoning = True, confidence =
     
     return prompt
 
+########################################################
+# PROMPT HANDLER
+# SO WE CAN RUN DIFFERENT PROMPTS EASIER
+########################################################
+class PromptHandler():
+    def  __init__(self, persona = None, group_chat = True, reasoning = True, confidence = False, answer = True, alternative_prompt = None, invert_answer=False, secret= False):
+        self.persona = persona
+        self.group_chat = group_chat
+        self.reasoning = reasoning
+        self.confidence = confidence
+        self.answer = answer
+        self.alternative_prompt = alternative_prompt
+        self.invert_answer = invert_answer
+        self.secret = secret
+
+        self.prompt = get_prompt(persona = self.persona, 
+                                 group_chat = self.group_chat, reasoning = self.reasoning, confidence= self.confidence, answer=self.answer, alternative_prompt = self.alternative_prompt, invert_answer=self.invert_answer, secret= self.secret)
+
 
 #################################################
-# GET ANSWER FROM MODEL RESPONSE (SINGLE AGENT)
-#################################################
+# GET ANSWER FROM MODEL RESPONSE
+#################################################        
 
-def extract_answer_from_response_single(content):
-    # Extract the answer from the response. Adapt this to your exact response structure.
+def extract_answer_from_response(content):
     """Extracts the answer (e.g., A, B) from <ANSWER> tags."""
     match = re.search(r"<ANSWER>(.*?)</ANSWER>", content, re.IGNORECASE | re.DOTALL)
     answers = ["1", "2", "3", "4", "5", "6", "7"]
@@ -254,16 +271,18 @@ def extract_answer_from_response_single(content):
             return answer
     return match.group(1).strip() if match else "No answer found"
 
-def extract_confidence_from_response_single(content):
-  start_index = content.find("<CONF>")
-  end_index = content.find("</CONF>")
-  if start_index != -1 and end_index != -1:
-    return content[start_index + len("<CONF>"):end_index]
-  answers = ["1", "2", "3", "4", "5", "6", "7"]
-  for answer in answers:
-      if answer in content:
-          return answer
-  return "No confidence found in the agent's response."
+def extract_confidence_from_response(content):
+    """Extracts the confidence number from <CONF> tags."""
+    match = re.search(r"<CONF>(.*?)</CONF>", content, re.IGNORECASE | re.DOTALL)
+    if match:
+        return match.group(1).strip()
+    answers = ["1", "2", "3", "4", "5", "6", "7"]
+    for answer in answers:
+        if answer in content:
+            return answer
+    return "No confidence found"
+
+
 
 ########################################################
 # FUNCTIONS FOR CHECKPOINTS/LOGGING (SINGLE AGENT)
@@ -332,20 +351,19 @@ def load_checkpoint(checkpoint_file):
 # SINGLE AGENT HANDLER
 ##########################################
 class Single_Agent_Handler():
-  def __init__(self, model_name:str, ggb_question_handler, prompt_template = None, dirs = None, base = None): # Renamed to ggb_question_handler
+  def __init__(self, model_name:str, Qs, Prompt:PromptHandler, dirs: list | None = ['results', 'logs', 'checkpoints'], base: str | None = 'single', n_repeats = 12): 
+    # Dirs can be none or a list of [csv dir, log dir checkpoint_dir]
     self.dirs = dirs
     self.base = base
     self.model_name = model_name
-    self.ggb_questions = ggb_question_handler # Using GGB_Statements instance
-    self.client = get_client(model_name) # get_client is from helpers
-    if prompt_template is None:
-      self.prompt = get_prompt(group_chat=False) # get_prompt is from helpers
-    else:
-      self.prompt = prompt_template
+    self.Qs = Qs # Using GGB_Statements instance
+    self.prompt = Prompt.prompt
+    self.n_repeats = n_repeats
+    self.question_range = (1, Qs.get_total_questions() if Qs else 1)
 
   async def run_single_agent_single_question(self, question_number=1): # question_number is 1-based
     # returns full response (content of message), answer, confidence, question_id
-    question_data = self.ggb_questions.get_question_by_index(question_number - 1) # 0-based index
+    question_data = self.Qs.get_question_by_index(question_number - 1) # 0-based index
 
     if question_data is None or 'statement' not in question_data or 'statement_id' not in question_data:
       print(f"Question data for index {question_number-1} (number {question_number}) not found or malformed!")
@@ -355,7 +373,7 @@ class Single_Agent_Handler():
 
     agent = AssistantAgent(
         name="assistant_agent",
-        model_client=self.client,
+        model_client = get_client(self.model_name),
         system_message=self.prompt
     )
 
@@ -363,21 +381,21 @@ class Single_Agent_Handler():
     result = await Console(team.run_stream(task=question_text))
 
     response_content = result.messages[-1].content
-    answer = extract_answer_from_response_single(response_content)
-    confidence = extract_confidence_from_response_single(response_content)
+    answer = extract_answer_from_response(response_content)
+    confidence = extract_confidence_from_response(response_content)
 
     return answer, confidence, response_content, question_id
 
-  async def run_single_agent_multiple_times(self, question_number=1, num_runs=10):
+  async def run_single_agent_multiple_times(self, question_number):
     results = []
-    for _ in range(num_runs):
+    for _ in range(self.n_repeats):
         run_output = await self.run_single_agent_single_question(question_number)
         if run_output and run_output[0] is not None: # Check if answer is not None
             results.append(run_output) # (answer, confidence, response_content, question_id)
         else:
             print(f"Task returned None or malformed data for question {question_number}")
             # Append a placeholder if necessary, or handle error
-            results.append((None, None, None, self.ggb_questions.get_question_by_index(question_number - 1).get('statement_id', 'unknown_id_error')))
+            results.append((None, None, None, self.Qs.get_question_by_index(question_number - 1).get('statement_id', 'unknown_id_error')))
 
     answers = [res[0] for res in results]
     confidences = [res[1] for res in results]
@@ -386,10 +404,10 @@ class Single_Agent_Handler():
 
     return answers, confidences, responses, question_ids[0] if question_ids else None
 
-  async def run_single_agent_and_save(self, question_range=(1, 88), num_runs=1):
+  async def run_single_agent_and_save(self):
     model_name = self.model_name
-    q_start, q_end = question_range
-    csv_file, log_file, checkpoint_file = get_consistent_filenames(model_name, question_range, num_runs, dirs = self.dirs, base = self.base)
+    q_start, q_end = self.question_range
+    csv_file, log_file, checkpoint_file = get_consistent_filenames(model_name, self.question_range, self.n_repeats, dirs = self.dirs, base = self.base)
     completed_runs = load_checkpoint(checkpoint_file)
     all_results_this_session = []
     question_numbers_to_process = list(range(q_start, q_end + 1))
@@ -403,8 +421,8 @@ class Single_Agent_Handler():
         file_handler.setFormatter(formatter)
         logger.addHandler(file_handler)
 
-    print(f"Starting/Resuming run for model {model_name} using GGB questions")
-    logger.info(f"--- Starting/Resuming Run (GGB) --- Model: {model_name}, Questions: {question_range}, Runs: {num_runs} ---")
+    print(f"Starting/Resuming run for model {model_name} using questions")
+    logger.info(f"--- Starting/Resuming Run --- Model: {model_name}, Questions: {self.question_range}, Runs: {self.n_repeats} ---")
 
     model_checkpoint_key = str(model_name) 
     if model_checkpoint_key not in completed_runs:
@@ -420,7 +438,7 @@ class Single_Agent_Handler():
             logger.info(f"Processing GGB question number {question_num} (index {question_num-1})")
 
             # Fetch GGB question_data to log statement_id and text
-            question_data = self.ggb_questions.get_question_by_index(question_num - 1)
+            question_data = self.Qs.get_question_by_index(question_num - 1)
             if not question_data or 'statement_id' not in question_data:
                 logger.warning(f"GGB Question for index {question_num-1} not found or malformed! Skipping.")
                 continue
@@ -429,7 +447,7 @@ class Single_Agent_Handler():
 
             answers, confidences, responses, q_id_from_run = await self.run_single_agent_multiple_times(
                 question_number=question_num,
-                num_runs=num_runs
+                num_runs=self.n_repeats
             )
             if q_id_from_run != current_question_id and q_id_from_run is not None:
                  logger.warning(f"Mismatch in question ID for Q_num {question_num}. Expected {current_question_id}, got {q_id_from_run}")
@@ -480,45 +498,6 @@ class Single_Agent_Handler():
 ##########################################
 # MULTIAGENT HELPERS
 # NOTE: WIP!
-##########################################
-
-
-#################################################
-# GET ANSWER FROM MODEL RESPONSE (MULTI AGENT)
-#################################################        
-
-def extract_answer_from_response(content):
-    """Extracts the answer (e.g., A, B) from <ANSWER> tags."""
-    match = re.search(r"<ANSWER>(.*?)</ANSWER>", content, re.IGNORECASE | re.DOTALL)
-    answers = ["1", "2", "3", "4", "5", "6", "7"]
-    if match and match.group(1).strip() in answers:
-        return match.group(1).strip()
-    # If no match, check for answers in the content
-    for answer in answers:
-        if answer in content:
-            return answer
-    return match.group(1).strip() if match else "No answer found"
-
-def extract_confidence_from_response(content):
-    """Extracts the confidence number from <CONF> tags."""
-    match = re.search(r"<CONF>(.*?)</CONF>", content, re.IGNORECASE | re.DOTALL)
-    if match:
-        return match.group(1).strip()
-    answers = ["1", "2", "3", "4", "5", "6", "7"]
-    for answer in answers:
-        if answer in content:
-            return answer
-    return "No confidence found"
-
-
-########################################################
-# PROMPT HANDLER
-# SO WE CAN RUN DIFFERENT PROMPTS EASIER
-########################################################
-class PromptHandler():
-    def  __init__(self, **kwargs):
-        self.prompt = get_prompt(**kwargs)
-
 ########################################################
 # GENERAL MULTIAGENT HANDLER
 # DEFINES FUNCTIONS FOR CHECKPOINTS/LOGGING
@@ -893,6 +872,18 @@ class StarHandler(MultiAgentHandler):
         self.EVIL_AGENT = evil_agent
         self.EVIL_SUPERVISOR = is_supervisor_evil
 
+        if self.EVIL_AGENT:
+            self.evil_prompt = PromptHandler(group_chat = Prompt.group_chat,
+                                              persona="red teaming agent aiming to have significantly different answers from the other agents.",
+                                              reasoning = Prompt.reasoning, 
+                                              confidence = Prompt.confidence, 
+                                              answer = Prompt.answer, 
+                                              alternative_prompt = Prompt.alternative_prompt, 
+                                              invert_answer=Prompt.invert_answer, 
+                                              secret= Prompt.secret)
+        else: 
+            self.evil_prompt = None
+
         self.SUPERVISOR_CONVERGENCE = supervisor_convergence
         
         # save run or not 
@@ -973,9 +964,10 @@ class StarHandler(MultiAgentHandler):
 
         peripheral_agent_names_list = []
         for i, p_model_name in enumerate(self.PERIPHERAL_MODELS):
-            system_message = get_prompt(group_chat=True) # Peripheral agents get the group chat prompt
-            if self.EVIL_AGENT is not None and i == self.EVIL_AGENT:
-                system_message = get_prompt(group_chat=True, persona="red teaming agent aiming to have significantly different answers from the other agents.")
+            system_message = self.PROMPT # Peripheral agents get the group chat prompt
+            if self.evil_prompt is not None and i == self.EVIL_AGENT:
+                system_message = self.evil_agent_prompt
+
             model_text_safe = re.sub(r'\W+','_', p_model_name)
             p_agent_name = f"peripheral_{model_text_safe}_{i}"
             p_agent = AssistantAgent(
