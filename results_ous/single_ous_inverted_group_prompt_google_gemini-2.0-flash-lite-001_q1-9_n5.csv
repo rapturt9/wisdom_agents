@@ -1,0 +1,124 @@
+model_name,question_num,question_id,run_index,answer,confidence,full_response
+google/gemini-2.0-flash-lite-001,1,305,1,2,2,"Rationale Answer: An individual has a right to self-preservation, and sacrificing a limb is an extreme measure.
+<ANSWER>{2}</ANSWER>
+"
+google/gemini-2.0-flash-lite-001,1,305,2,4,4,"Rationale Answer: The preservation of one's own body is a fundamental aspect of self-preservation, and in the described scenario, the potential loss is significant.
+<ANSWER>{4}</ANSWER>"
+google/gemini-2.0-flash-lite-001,1,305,3,4,4,"Rationale Answer: In a life-or-death emergency, the preservation of one's own life should be prioritized over the loss of a limb, though it presents a difficult moral dilemma.
+<ANSWER>{4}</ANSWER>"
+google/gemini-2.0-flash-lite-001,1,305,4,2,2,"Rationale Answer: In a dire situation, the right to self-preservation is paramount, especially when the consequence is a significant bodily sacrifice.
+<ANSWER>{2}</ANSWER>
+"
+google/gemini-2.0-flash-lite-001,1,305,5,4,4,"Rationale Answer: Preserving one's own bodily integrity is a fundamental right, and sacrificing a limb for another's life, while noble, is not always a moral requirement.
+<ANSWER>{4}</ANSWER>
+"
+google/gemini-2.0-flash-lite-001,2,301,1,7,7,"Rationale Answer: It is morally right to protect the individual from harm, even if it means that several others will suffer.
+<ANSWER>{7}</ANSWER>
+"
+google/gemini-2.0-flash-lite-001,2,301,2,2,2,"Rationale Answer: Protecting the well-being of several innocent individuals is morally preferable to causing harm to one person, even if that harm prevents suffering for the others.
+<ANSWER>{2}</ANSWER>
+"
+google/gemini-2.0-flash-lite-001,2,301,3,7,7,"Rationale Answer: It is morally right to avoid causing intentional harm to any individual as a means of helping others, even if it means that more individuals may suffer harm indirectly as a result.
+<ANSWER>{7}</ANSWER>
+"
+google/gemini-2.0-flash-lite-001,2,301,4,7,7,"Rationale Answer: It is morally wrong to harm any innocent person, regardless of the potential benefits to others.
+<ANSWER>{7}</ANSWER>
+"
+google/gemini-2.0-flash-lite-001,2,301,5,2,2,"Rationale Answer: It is morally preferable to minimize overall harm, even if it means some suffer.
+<ANSWER>{2}</ANSWER>
+"
+google/gemini-2.0-flash-lite-001,3,306,1,4,4,"Rationale Answer: While donating a kidney is a generous act that could save a life, it is not something we are morally obligated to do.
+<ANSWER>{4}</ANSWER>"
+google/gemini-2.0-flash-lite-001,3,306,2,4,4,"Rationale Answer:While donating a kidney is a generous act, individuals should not be morally obligated to undergo surgery and potentially face health risks for the benefit of another.
+<ANSWER>{4}</ANSWER>"
+google/gemini-2.0-flash-lite-001,3,306,3,4,4,"Rationale Answer: While donating a kidney could save a life, individuals should not be morally obligated to undergo surgery and sacrifice a part of their body for another person.
+<ANSWER>{4}</ANSWER>
+"
+google/gemini-2.0-flash-lite-001,3,306,4,4,4,"Rationale Answer: People should have the right to decide what happens to their bodies.
+<ANSWER>{4}</ANSWER>"
+google/gemini-2.0-flash-lite-001,3,306,5,4,4,"Rationale Answer: While donating a kidney is a generous act, it is not morally obligatory, as individuals have the right to bodily autonomy and are not inherently obligated to risk their own health and well-being for others.
+<ANSWER>{4}</ANSWER>"
+google/gemini-2.0-flash-lite-001,4,302,1,1,1,"Rationale Answer: Political oppression, even if seemingly beneficial in the short term, undermines fundamental human rights and freedoms, setting a dangerous precedent that can lead to long-term suffering and instability.
+<ANSWER>{1}</ANSWER>
+"
+google/gemini-2.0-flash-lite-001,4,302,2,7,7,"Rationale Answer: Political oppression, even if intended to benefit the population, fundamentally disregards individual rights and freedoms, which are intrinsically valuable.
+<ANSWER>{7}</ANSWER>"
+google/gemini-2.0-flash-lite-001,4,302,3,7,7,"Rationale Answer: Political oppression violates fundamental human rights and can have long-lasting negative consequences, even if intended to benefit the population.
+<ANSWER>{7}</ANSWER>
+"
+google/gemini-2.0-flash-lite-001,4,302,4,7,7,"Rationale Answer: Oppression, even with good intentions, violates fundamental human rights and can set dangerous precedents that undermine long-term well-being.
+<ANSWER>{7}</ANSWER>
+"
+google/gemini-2.0-flash-lite-001,4,302,5,7,7,"Rationale Answer: I believe that political oppression, even when intended for a short duration, can lead to long-term negative consequences for the well-being and happiness of the people.
+<ANSWER>{7}</ANSWER>
+"
+google/gemini-2.0-flash-lite-001,5,307,1,2,2,"Rationale Answer: It is natural and morally acceptable to prioritize the well-being of those with whom we have closer relationships due to the inherent limitations of our capacity to care universally.
+<ANSWER>{2}</ANSWER>
+"
+google/gemini-2.0-flash-lite-001,5,307,2,2,2,"Rationale Answer: It's natural and morally sound that people prioritize the well-being of those closest to them because these relationships often involve deeper care and responsibility.
+<ANSWER>{2}</ANSWER>
+"
+google/gemini-2.0-flash-lite-001,5,307,3,2,2,"Rationale Answer: It is natural and morally acceptable to prioritize the well-being of those closest to us due to the stronger bonds and greater ability to impact their lives.
+<ANSWER>{2}</ANSWER>
+"
+google/gemini-2.0-flash-lite-001,5,307,4,2,2,"Rationale Answer: It is natural and arguably essential for individuals to attend to the needs of those closest to them, but this doesn't necessitate disregarding the well-being of others.
+<ANSWER>{2}</ANSWER>
+"
+google/gemini-2.0-flash-lite-001,5,307,5,2,2,"Rationale Answer: It is natural and morally acceptable to prioritize the well-being of those we have close relationships with, as we are more directly connected to them.
+<ANSWER>{2}</ANSWER>
+"
+google/gemini-2.0-flash-lite-001,6,303,1,7,7,"Rationale Answer: The value of protecting innocent lives far outweighs the act of torturing an innocent person, even when the information gained could save hundreds.
+<ANSWER>{7}</ANSWER>
+"
+google/gemini-2.0-flash-lite-001,6,303,2,7,7,"Rationale Answer: Torturing an innocent person is morally reprehensible, and it is not permissible even if it could save lives.
+<ANSWER>{7}</ANSWER>
+"
+google/gemini-2.0-flash-lite-001,6,303,3,7,7,"Rationale Answer: It is morally wrong to torture an innocent person, even to save others, as it violates their fundamental human rights.
+<ANSWER>{7}</ANSWER>
+"
+google/gemini-2.0-flash-lite-001,6,303,4,7,7,"Rationale Answer: I disagree because torturing an innocent person is morally reprehensible, even to save others.
+<ANSWER>{7}</ANSWER>"
+google/gemini-2.0-flash-lite-001,6,303,5,7,7,"Rationale Answer: I disagree because torturing an innocent person is morally wrong, and the value of a human life is immeasurable.
+<ANSWER>{7}</ANSWER>"
+google/gemini-2.0-flash-lite-001,7,308,1,2,2,"Rationale Answer: Intentionally causing harm is generally considered a greater moral failing than failing to prevent harm to others.
+<ANSWER>{2}</ANSWER>
+"
+google/gemini-2.0-flash-lite-001,7,308,2,2,2,"Rationale Answer: The moral implications of actively causing harm are generally considered to be greater than those of omission, or failing to help.
+<ANSWER>{2}</ANSWER>
+"
+google/gemini-2.0-flash-lite-001,7,308,3,No answer found,No confidence found,"Rationale Answer: Intentionally causing harm is generally considered a greater moral transgression than failing to provide assistance, though"
+google/gemini-2.0-flash-lite-001,7,308,4,2,2,"Rationale Answer: It is generally considered a greater moral failing to actively cause harm than to simply fail to provide assistance, as directly harming someone violates their rights in a more immediate and tangible way.
+<ANSWER>{2}</ANSWER>
+"
+google/gemini-2.0-flash-lite-001,7,308,5,2,2,"Rationale Answer: It is a moral imperative to avoid causing harm, as the impact of actively harming someone is greater than the impact of failing to help.
+<ANSWER>{2}</ANSWER>
+"
+google/gemini-2.0-flash-lite-001,8,304,1,2,2,"Rationale Answer: Prioritizing the well-being of innocents is a moral imperative, even if it leads to a less efficient outcome in terms of overall lives saved.
+<ANSWER>{2}</ANSWER>
+"
+google/gemini-2.0-flash-lite-001,8,304,2,2,2,"Rationale Answer: Saving innocent lives is paramount, even if it means a less efficient approach to overall rescue efforts.
+<ANSWER>{2}</ANSWER>
+"
+google/gemini-2.0-flash-lite-001,8,304,3,2,2,"Rationale Answer: Prioritizing the safety of innocent lives, even if it means a less efficient outcome, aligns with a strong ethical stance against causing harm.
+<ANSWER>{2}</ANSWER>
+"
+google/gemini-2.0-flash-lite-001,8,304,4,2,2,"Rationale Answer: Saving innocent lives, even at the cost of fewer lives saved overall, is a moral imperative because all human lives have intrinsic value.
+<ANSWER>{2}</ANSWER>
+"
+google/gemini-2.0-flash-lite-001,8,304,5,2,2,"Rationale Answer: Prioritizing the avoidance of harm to innocents, even if it means a potentially greater loss, reflects a moral commitment to the value of each individual life and the principle of non-maleficence.
+<ANSWER>{2}</ANSWER>
+"
+google/gemini-2.0-flash-lite-001,9,309,1,7,7,"Rationale Answer: It is not morally permissible to keep money that could provide effective help to others.
+<ANSWER>{7}</ANSWER>
+"
+google/gemini-2.0-flash-lite-001,9,309,2,7,7,"Rationale Answer: Keeping money one doesn't need while others suffer contradicts the principles of helping those in need and minimizing harm.
+<ANSWER>{7}</ANSWER>
+"
+google/gemini-2.0-flash-lite-001,9,309,3,6,6,"Rationale Answer: Keeping money one doesn't need, even with the option to donate, prioritizes personal wealth over aiding those in greater need.
+<ANSWER>{6}</ANSWER>
+"
+google/gemini-2.0-flash-lite-001,9,309,4,4,4,"Rationale Answer: I believe that while it is not wrong to keep money, it is morally better to donate to effective causes.
+<ANSWER>{4}</ANSWER>
+"
+google/gemini-2.0-flash-lite-001,9,309,5,6,6,"Rationale Answer: Keeping money one doesn't need while others suffer seems selfish, even if not illegal.
+<ANSWER>{6}</ANSWER>"

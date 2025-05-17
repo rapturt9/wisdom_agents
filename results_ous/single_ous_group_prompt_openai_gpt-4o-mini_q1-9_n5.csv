@@ -1,0 +1,89 @@
+model_name,question_num,question_id,run_index,answer,confidence,full_response
+openai/gpt-4o-mini,1,205,1,5,5,"Rationale Answer: Sacrificing a leg to save a life can be seen as a moral imperative, although the extent of obligation may vary based on personal values and circumstances.  
+<ANSWER>5</ANSWER>"
+openai/gpt-4o-mini,1,205,2,5,5,"Rationale Answer: The moral obligation to save a life can justify significant personal sacrifice, but the extremity of losing a limb for another person varies by context and individual perspective.  
+<ANSWER>5</ANSWER>"
+openai/gpt-4o-mini,1,205,3,4,4,"Rationale Answer: Sacrificing one's own leg to save another's life presents a moral dilemma that weighs personal sacrifice against the value of a life; while heroic, it is not universally required as individuals might prioritize self-preservation based on circumstance and context.  
+<ANSWER>4</ANSWER>"
+openai/gpt-4o-mini,1,205,4,4,4,"Rationale Answer: Sacrificing one's own leg to save another person's life is a deeply personal moral choice, but many would argue that self-sacrifice is not obligatory.  
+<ANSWER>4</ANSWER>"
+openai/gpt-4o-mini,1,205,5,4,4,"Rationale Answer: While sacrificing one’s own leg to save another can be seen as a noble act, the moral obligation to do so may depend on various factors including the potential for recovery and the value placed on one's own life versus another's.  
+<ANSWER>4</ANSWER>"
+openai/gpt-4o-mini,2,201,1,2,2,"Rationale Answer: This reasoning falls into a utilitarian perspective, where the greater good may justify the harm of a few; however, harming innocents is fundamentally unethical. 
+<ANSWER>2</ANSWER>"
+openai/gpt-4o-mini,2,201,2,3,3,"Rationale Answer: The principle of utilitarianism suggests that harming one innocent person for the greater good can be justified, but moral considerations about the intrinsic value of every individual must also be taken into account.  
+<ANSWER>3</ANSWER>"
+openai/gpt-4o-mini,2,201,3,2,2,"Rationale Answer: Harming an innocent person is ethically questionable regardless of the consequences, as it undermines the principle of respecting individual rights.  
+<ANSWER>2</ANSWER>"
+openai/gpt-4o-mini,2,201,4,3,3,"Rationale Answer: The principle of utilitarianism suggests that the greatest good for the greatest number might justify harming an innocent person, but the moral implications of such actions are highly contentious and often viewed as fundamentally wrong. 
+<ANSWER>3</ANSWER>"
+openai/gpt-4o-mini,2,201,5,1,1,"Rationale Answer: Harming an innocent person cannot be justified, even for the greater good, as it violates fundamental moral principles of rights and dignity.  
+<ANSWER>1</ANSWER>"
+openai/gpt-4o-mini,3,206,1,3,3,"Rationale Answer: While it is commendable to help those in need, individuals should not be morally obligated to sacrifice their organs, as it involves personal risk and the consideration of bodily autonomy.  
+<ANSWER>3</ANSWER>"
+openai/gpt-4o-mini,3,206,2,4,4,"Rationale Answer: While donating a kidney can save a life, moral obligations should be weighed against personal autonomy and the risks involved in surgery. 
+<ANSWER>4</ANSWER>"
+openai/gpt-4o-mini,3,206,3,4,4,"Rationale Answer: While the ability to live with one kidney might suggest an obligation, moral decisions involve personal autonomy and the right to choose, which can make such an obligation disputable.  
+<ANSWER>4</ANSWER>"
+openai/gpt-4o-mini,3,206,4,4,4,"Rationale Answer: While it is morally commendable to help others in need, the obligation to give up a kidney is not universally applicable as it involves significant personal risk and sacrifice.  
+<ANSWER>4</ANSWER>"
+openai/gpt-4o-mini,3,206,5,4,4,"Rationale Answer: While it is true that individuals can live with one kidney, the decision to donate should be based on personal choice rather than obligation.  
+<ANSWER>4</ANSWER>"
+openai/gpt-4o-mini,4,202,1,2,2,Rationale Answer: The potential justification for short-term political oppression in the name of achieving overall well-being and happiness raises ethical concerns about individual rights and freedoms. <ANSWER>2</ANSWER>
+openai/gpt-4o-mini,4,202,2,2,2,"Rationale Answer: Using political oppression, even temporarily, undermines fundamental rights and freedoms, which can lead to greater harm in the long term. 
+<ANSWER>2</ANSWER>"
+openai/gpt-4o-mini,4,202,3,1,1,"Rationale Answer: Political oppression, even if temporary, undermines fundamental freedoms and rights, and history shows that such measures often lead to long-term negative consequences. 
+<ANSWER>1</ANSWER>"
+openai/gpt-4o-mini,4,202,4,2,2,"Rationale Answer: While the goal of ensuring well-being and happiness is admirable, using political oppression undermines personal freedoms and can lead to long-term negative consequences. <ANSWER>2</ANSWER>"
+openai/gpt-4o-mini,4,202,5,2,2,"Rationale Answer: Political oppression, even for a limited time, often leads to more harm than good and undermines the fundamental freedoms and rights of individuals.  
+<ANSWER>2</ANSWER>"
+openai/gpt-4o-mini,5,207,1,4,4,"Rationale Answer: While it is a noble idea to care for all human beings equally, it is also natural for people to prioritize the well-being of those closest to them due to emotional bonds and responsibilities.  
+<ANSWER>4</ANSWER>"
+openai/gpt-4o-mini,5,207,2,4,4,"Rationale Answer: While it's ideal to promote equal concern for all, human nature often leads to prioritizing close relationships, making this perspective challenging to uphold consistently.  
+<ANSWER>4</ANSWER>"
+openai/gpt-4o-mini,5,207,3,6,6,"Rationale Answer: While it's natural to have stronger ties with those close to us, from a moral standpoint, we should strive for equal consideration of all individuals' well-being.  
+<ANSWER>6</ANSWER>"
+openai/gpt-4o-mini,5,207,4,4,4,"Rationale Answer: I believe that while it is important to care for all human beings, a practical moral perspective often leads individuals to prioritize the well-being of those they are closest to due to emotional bonds and responsibilities. 
+<ANSWER>4</ANSWER>"
+openai/gpt-4o-mini,5,207,5,4,4,"Rationale Answer: While it's ideal to care for all equally, human nature often leads us to prioritize those we know personally, making a strict adherence to this perspective unrealistic.  
+<ANSWER>4</ANSWER>"
+openai/gpt-4o-mini,6,203,1,1,1,"Rationale Answer: The moral implications of torture, especially against an innocent person, violate fundamental ethical principles that uphold human rights, regardless of the potential outcomes. 
+<ANSWER>1</ANSWER>"
+openai/gpt-4o-mini,6,203,2,1,1,"Rationale Answer: Torturing an innocent person is fundamentally immoral and violates human rights, regardless of the potential outcomes. 
+<ANSWER>1</ANSWER>"
+openai/gpt-4o-mini,6,203,3,1,1,"Rationale Answer: Torturing an innocent person undermines moral principles and legal standards, making it unacceptable regardless of potential outcomes.  
+<ANSWER>1</ANSWER>"
+openai/gpt-4o-mini,6,203,4,1,1,"Rationale Answer: Torturing an innocent person undermines moral principles and the rule of law, regardless of the potential consequences.  
+<ANSWER>1</ANSWER>"
+openai/gpt-4o-mini,6,203,5,1,1,"Rationale Answer: Torturing an innocent person is morally wrong, as it violates their rights and dignity, and there are often alternative ways to gather information without resorting to such unethical means.  
+<ANSWER>1</ANSWER>"
+openai/gpt-4o-mini,7,208,1,6,6,"Rationale Answer: Failing to help someone in need can be just as morally significant as causing direct harm, as both actions contribute to a negative outcome.  
+<ANSWER>6</ANSWER>"
+openai/gpt-4o-mini,7,208,2,4,4,"Rationale Answer: While failing to help can be morally concerning, actively harming someone involves a greater level of culpability and intent.  
+<ANSWER>4</ANSWER>"
+openai/gpt-4o-mini,7,208,3,6,6,"Rationale Answer: Failing to help someone in need can be morally comparable to causing harm, as both actions can lead to negative outcomes for the individual.  
+<ANSWER>6</ANSWER>"
+openai/gpt-4o-mini,7,208,4,5,5,"Rationale Answer: I believe that while both negligence and active harm are morally wrong, the intent and action involved in actively harming someone carry a greater moral weight, making them not entirely equivalent.  
+<ANSWER>5</ANSWER>"
+openai/gpt-4o-mini,7,208,5,6,6,"Rationale Answer: Both failing to help someone in need and actively causing harm can lead to negative outcomes, suggesting a moral equivalence in their wrongness. 
+<ANSWER>6</ANSWER>"
+openai/gpt-4o-mini,8,204,1,2,2,"Rationale Answer: This perspective raises ethical concerns about the value of individual lives and the justification of harm for perceived greater good.  
+<ANSWER>2</ANSWER>"
+openai/gpt-4o-mini,8,204,2,2,2,"Rationale Answer: The morality of sacrificing innocent lives for a greater good is highly contentious and often viewed as unjustifiable, leading to my disagreement with this statement.  
+<ANSWER>2</ANSWER>"
+openai/gpt-4o-mini,8,204,3,1,1,"Rationale Answer: This perspective justifies the loss of innocent lives for a perceived greater good, which is morally problematic. 
+<ANSWER>1</ANSWER>"
+openai/gpt-4o-mini,8,204,4,1,1,"Rationale Answer: The idea of sacrificing innocent lives for a greater good is fundamentally problematic and undermines moral principles that prioritize the sanctity of life.  
+<ANSWER>1</ANSWER>"
+openai/gpt-4o-mini,8,204,5,1,1,"Rationale Answer: The value of human life should outweigh the justification for collateral damage, making it morally unacceptable to sacrifice innocent lives even for a greater good. 
+<ANSWER>1</ANSWER>"
+openai/gpt-4o-mini,9,209,1,7,7,"Rationale Answer: There is a moral imperative to help those in need when one has excess resources that can make a significant difference. 
+<ANSWER>7</ANSWER>"
+openai/gpt-4o-mini,9,209,2,6,6,"Rationale Answer: Keeping money that one doesn’t need when it can provide significant help to those in need is ethically debatable, but generally aligns with the idea of moral responsibility to assist others.  
+<ANSWER>6</ANSWER>"
+openai/gpt-4o-mini,9,209,3,6,6,"Rationale Answer: Morally, if individuals have excess resources that could be used to alleviate suffering or support important causes, it is better to share those resources with those in need.  
+<ANSWER>6</ANSWER>"
+openai/gpt-4o-mini,9,209,4,6,6,"Rationale Answer: Many people suffer from poverty and lack essential resources, so using surplus wealth to help others aligns with moral responsibility.  
+<ANSWER>6</ANSWER>"
+openai/gpt-4o-mini,9,209,5,6,6,"Rationale Answer: It is generally considered a moral responsibility to assist others in need when one has excess resources that could significantly improve their situation. 
+<ANSWER>6</ANSWER>"

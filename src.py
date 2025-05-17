@@ -446,9 +446,7 @@ class Single_Agent_Handler():
             logger.info(f"GGB Stmt ID: {current_question_id}, Text: {question_data['statement'][:100]}...")
 
             answers, confidences, responses, q_id_from_run = await self.run_single_agent_multiple_times(
-                question_number=question_num,
-                num_runs=self.n_repeats
-            )
+                question_number=question_num)
             if q_id_from_run != current_question_id and q_id_from_run is not None:
                  logger.warning(f"Mismatch in question ID for Q_num {question_num}. Expected {current_question_id}, got {q_id_from_run}")
             # Use current_question_id as the definitive ID for this loop iteration

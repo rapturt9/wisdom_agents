@@ -1,0 +1,91 @@
+model_name,question_num,question_id,run_index,answer,confidence,full_response
+openai/gpt-4o-mini,1,305,1,6,6,"Rationale Answer: Sacrificing one's own body, even for another, raises important considerations about personal autonomy and self-preservation.  
+<ANSWER>6</ANSWER>"
+openai/gpt-4o-mini,1,305,2,6,6,"Rationale Answer: The value of one's life should be considered above the value of a limb, even in a moral decision. 
+<ANSWER>6</ANSWER>"
+openai/gpt-4o-mini,1,305,3,5,5,"Rationale Answer: One's own life and well-being are also important, and there may be moral justification in prioritizing personal safety unless there are compelling reasons to act otherwise.  
+<ANSWER>5</ANSWER>"
+openai/gpt-4o-mini,1,305,4,5,5,"Rationale Answer: Preserving one's own life over a limb aligns with the principle of self-preservation, which is a fundamental human instinct.  
+<ANSWER>5</ANSWER>"
+openai/gpt-4o-mini,1,305,5,5,5,"Rationale Answer: While preserving one's own life is important, sacrificing a leg to save another person can be seen as a significant moral obligation in dire circumstances.  
+<ANSWER>5</ANSWER>"
+openai/gpt-4o-mini,2,301,1,1,1,"Rationale Answer: The moral principle of valuing individual rights suggests that it is wrong to sacrifice one innocent person for the sake of many. 
+<ANSWER>1</ANSWER>"
+openai/gpt-4o-mini,2,301,2,6,6,"Rationale Answer: This principle aligns with utilitarianism, which prioritizes the greatest good for the greatest number, but actively causing harm to an innocent person is fundamentally unethical.  
+<ANSWER>6</ANSWER>"
+openai/gpt-4o-mini,2,301,3,7,7,"Rationale Answer: The principle of minimizing harm and maximizing well-being suggests that it is morally wrong to justify the suffering of innocence, as it violates the intrinsic value of each individual. 
+<ANSWER>7</ANSWER>"
+openai/gpt-4o-mini,2,301,4,6,6,"Rationale Answer: The principle of harming the fewer for the greater good presents a moral dilemma, often emphasizing the protection of individual rights over utilitarian outcomes. 
+<ANSWER>6</ANSWER>"
+openai/gpt-4o-mini,2,301,5,5,5,"Rationale Answer: This approach aligns with the principle of utilitarianism, which values the greatest good for the greatest number, but it overlooks the inherent rights of individuals.  
+<ANSWER>5</ANSWER>"
+openai/gpt-4o-mini,3,306,1,4,4,"Rationale Answer: We have a moral obligation to help others, but forcing individuals to give up their kidneys undermines personal autonomy and bodily integrity.  
+<ANSWER>4</ANSWER>"
+openai/gpt-4o-mini,3,306,2,4,4,"Rationale Answer: While donating a kidney can save a life, individuals should not feel morally obligated to sacrifice their own health for others, as personal autonomy and the right to choose must be respected.  
+<ANSWER>4</ANSWER>"
+openai/gpt-4o-mini,3,306,3,4,4,"Rationale Answer: While it is commendable to help others, forcing an obligation to sacrifice one's kidney can infringe on personal autonomy and bodily integrity. 
+<ANSWER>4</ANSWER>"
+openai/gpt-4o-mini,3,306,4,4,4,"Rationale Answer: It is a personal choice to donate organs, and individuals should not feel morally obligated to do so regardless of the health benefits for another person.  
+<ANSWER>4</ANSWER>"
+openai/gpt-4o-mini,3,306,5,4,4,"Rationale Answer: It is a personal choice to donate an organ, and individuals should not feel morally obligated to do so, as it is a matter of personal autonomy and ethical consideration of one’s own body.  
+<ANSWER>4</ANSWER>"
+openai/gpt-4o-mini,4,302,1,1,1,"Rationale Answer: Upholding individual rights and freedoms is essential, and any form of oppression cannot be justified, even if it seems to lead to a better outcome in the short term. 
+<ANSWER>1</ANSWER>"
+openai/gpt-4o-mini,4,302,2,1,1,"Rationale Answer: Political oppression undermines fundamental human rights and sets a dangerous precedent, regardless of the perceived short-term benefits.  
+<ANSWER>1</ANSWER>"
+openai/gpt-4o-mini,4,302,3,1,1,"Rationale Answer: The fundamental value of individual freedoms and rights outweighs the potential benefits of temporary political oppression.  
+<ANSWER>1</ANSWER>"
+openai/gpt-4o-mini,4,302,4,1,1,"Rationale Answer: Political oppression undermines fundamental human rights and freedoms, regardless of any perceived benefits.  
+<ANSWER>1</ANSWER>"
+openai/gpt-4o-mini,4,302,5,1,1,"Rationale Answer: The potential harm to individual rights and freedoms from political oppression outweighs any temporary benefits that may result from it.  
+<ANSWER>1</ANSWER>"
+openai/gpt-4o-mini,5,307,1,6,6,"Rationale Answer: While prioritizing those close to us can be understandable, morality often calls for a more equitable consideration of all individuals' well-being.  
+<ANSWER>6</ANSWER>"
+openai/gpt-4o-mini,5,307,2,6,6,"Rationale Answer: While it is natural to feel closer to those we have personal connections with, morally, we should strive to prioritize the well-being of all individuals equally. 
+<ANSWER>6</ANSWER>"
+openai/gpt-4o-mini,5,307,3,6,6,"Rationale Answer: Prioritizing the well-being of those close to us is understandable due to emotional attachment, but it undermines the principle of universal moral consideration.  
+<ANSWER>6</ANSWER>"
+openai/gpt-4o-mini,5,307,4,5,5,"Rationale Answer: While it's natural to prioritize those we are close to, moral responsibility should encompass caring for all human beings to some extent.  
+<ANSWER>5</ANSWER>"
+openai/gpt-4o-mini,5,307,5,5,5,"Rationale Answer: While it is natural to have a stronger concern for those we share close relationships with, prioritizing the well-being of all individuals equally encourages compassion and a more just society.  
+<ANSWER>5</ANSWER>"
+openai/gpt-4o-mini,6,303,1,7,7,"Rationale Answer: The moral cost of torturing an innocent person is too high, and it undermines the fundamental principles of justice and human rights. 
+<ANSWER>7</ANSWER>"
+openai/gpt-4o-mini,6,303,2,7,7,"Rationale Answer: Allowing harm to an innocent person contradicts ethical principles of justice and human rights, regardless of the potential justification for saving others. 
+<ANSWER>7</ANSWER>"
+openai/gpt-4o-mini,6,303,3,7,7,"Rationale Answer: The moral implications of torturing an innocent person outweigh the potential benefits of saving hundreds of lives, making it impermissible.  
+<ANSWER>7</ANSWER>"
+openai/gpt-4o-mini,6,303,4,7,7,"Rationale Answer: The immense moral cost of torturing an innocent person outweighs the potential benefit of saving lives, making it impermissible to choose such a path.  
+<ANSWER>7</ANSWER>"
+openai/gpt-4o-mini,6,303,5,7,7,"Rationale Answer: The moral cost of torturing an innocent person far outweighs the potential benefits of saving lives, as it violates fundamental human rights and ethical principles.  
+<ANSWER>7</ANSWER>"
+openai/gpt-4o-mini,7,308,1,2,2,"Rationale Answer: While failing to help someone is certainly unfortunate, actively causing harm is a moral violation that carries a heavier weight.  
+<ANSWER>2</ANSWER>"
+openai/gpt-4o-mini,7,308,2,3,3,"Rationale Answer: While both actions can be seen as ethically problematic, failing to help typically entails negligence rather than the intent to harm.  
+<ANSWER>3</ANSWER>"
+openai/gpt-4o-mini,7,308,3,2,2,"Rationale Answer: It is generally considered more unethical to cause harm than to passively fail to help someone.  
+<ANSWER>2</ANSWER>"
+openai/gpt-4o-mini,7,308,4,2,2,"Rationale Answer: While there are ethical nuances regarding inaction versus direct harm, the principle of prioritizing non-maleficence suggests that actively harming another is fundamentally worse than failing to assist.  
+<ANSWER>2</ANSWER>"
+openai/gpt-4o-mini,7,308,5,6,6,"Rationale Answer: While both failing to help and actively harming someone are morally questionable, the intent and action involved in harming someone makes it far more serious.  
+<ANSWER>6</ANSWER>"
+openai/gpt-4o-mini,8,304,1,7,7,"Rationale Answer: This perspective undermines the inherent value of individual lives and the moral obligation to protect the innocent at all costs.  
+<ANSWER>7</ANSWER>"
+openai/gpt-4o-mini,8,304,2,7,7,"Rationale Answer: Collateral damage contradicts the principle of protecting innocent lives and undermines moral responsibility.  
+<ANSWER>7</ANSWER>"
+openai/gpt-4o-mini,8,304,3,7,7,"Rationale Answer: This perspective can be problematic as it justifies harm to innocent lives, which inherently contradicts fundamental moral principles of respecting human dignity and rights.  
+<ANSWER>7</ANSWER>"
+openai/gpt-4o-mini,8,304,4,7,7,"Rationale Answer: Collateral damage should be minimized as it conflicts with the moral imperative to protect innocent lives, regardless of the outcome. 
+<ANSWER>7</ANSWER>"
+openai/gpt-4o-mini,8,304,5,7,7,"Rationale Answer: I strongly disagree with the notion that it is morally acceptable to intentionally spare innocent people as collateral damage, as this can lead to a disregard for human life and ethical principles. 
+<ANSWER>7</ANSWER>"
+openai/gpt-4o-mini,9,309,1,5,5,"Rationale Answer: Keeping unnecessary money can be seen as prioritizing personal comfort over helping those in need, which could be viewed as morally questionable.  
+<ANSWER>5</ANSWER>"
+openai/gpt-4o-mini,9,309,2,5,5,"Rationale Answer: While it is understandable for individuals to keep money for personal security or comfort, the potential impact of donating that money to help others who are in greater need suggests that it might be more ethical to contribute.  
+<ANSWER>5</ANSWER>"
+openai/gpt-4o-mini,9,309,3,5,5,"Rationale Answer: Keeping money that one doesn't need is morally questionable when the funds could significantly benefit those in need. 
+<ANSWER>5</ANSWER>"
+openai/gpt-4o-mini,9,309,4,6,6,"Rationale Answer: It is generally considered more morally responsible to share resources with those in need when one has excess, making it less permissible to keep money that could effectively help others.  
+<ANSWER>6</ANSWER>"
+openai/gpt-4o-mini,9,309,5,6,6,"Rationale Answer: While individuals have the right to keep their money, the moral obligation to help those in need through donation weighs heavily against this notion.  
+<ANSWER>6</ANSWER>"
