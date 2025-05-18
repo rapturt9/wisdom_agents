@@ -1,0 +1,107 @@
+model_name,question_num,question_id,run_index,answer,confidence,full_response
+deepseek/deepseek-chat-v3-0324,1,305,1,6,6,"Rationale Answer: While self-preservation is important, the moral imperative to save a life generally outweighs the sacrifice of a limb in an emergency.  
+<ANSWER>6</ANSWER>"
+deepseek/deepseek-chat-v3-0324,1,305,2,6,6,"Rationale Answer: While self-preservation is natural, valuing one's leg over another person's life conflicts with moral duties to prioritize human life in emergencies.  
+
+<ANSWER>6</ANSWER>"
+deepseek/deepseek-chat-v3-0324,1,305,3,6,6,"Rationale Answer: While self-preservation is important, the moral imperative to save a life generally outweighs the sacrifice of a limb.  
+<ANSWER>6</ANSWER>"
+deepseek/deepseek-chat-v3-0324,1,305,4,6,6,"Rationale Answer: While self-preservation is a natural instinct, the moral imperative to save a life generally outweighs the personal cost of losing a limb.  
+<ANSWER>6</ANSWER>"
+deepseek/deepseek-chat-v3-0324,1,305,5,6,6,"Rationale Answer: While self-preservation is a natural instinct, the moral imperative to save a life generally outweighs the personal cost of losing a limb.  
+
+<ANSWER>6</ANSWER>"
+deepseek/deepseek-chat-v3-0324,2,301,1,2,2,"Rationale Answer: Prioritizing the avoidance of actively harming an innocent individual over passively allowing harm to multiple innocents aligns with deontological ethics, which emphasizes the intrinsic morality of actions over consequences.  
+<ANSWER>2</ANSWER>"
+deepseek/deepseek-chat-v3-0324,2,301,2,4,4,"Rationale Answer: Prioritizing the well-being of the many over the few can lead to moral complications regarding individual rights.  
+<ANSWER>4</ANSWER>"
+deepseek/deepseek-chat-v3-0324,2,301,3,4,4,"Rationale Answer: The principle of minimizing harm suggests that it is morally preferable to avoid actively causing harm to an individual, even if it results in passive suffering of multiple others.  
+<ANSWER>4</ANSWER>"
+deepseek/deepseek-chat-v3-0324,2,301,4,6,6,Rationale Answer: Allowing harm to multiple innocent people contradicts the fundamental moral principle of minimizing suffering and valuing each individual's rights equally. <ANSWER>6</ANSWER>
+deepseek/deepseek-chat-v3-0324,2,301,5,6,6,"Rationale Answer: It is morally preferable to avoid harming any innocent person, even if it means allowing harm to come to others, as actively causing harm violates fundamental ethical principles.
+
+<ANSWER>6</ANSWER>"
+deepseek/deepseek-chat-v3-0324,3,306,1,5,5," 
+
+Rationale Answer: While altruism is commendable, personal bodily autonomy and the right to make decisions about one's own body are fundamental moral principles.
+
+<ANSWER>5</ANSWER>"
+deepseek/deepseek-chat-v3-0324,3,306,2,4,4,"Rationale Answer: While altruism is commendable, bodily autonomy and personal choice are fundamental moral principles that should not be overridden by obligation. <ANSWER>4</ANSWER>"
+deepseek/deepseek-chat-v3-0324,3,306,3,5,5,"Rationale Answer: While it is a compassionate act to donate a kidney, individual autonomy and bodily integrity are fundamental moral principles that do not necessarily require such a sacrifice.  
+
+<ANSWER>5</ANSWER>"
+deepseek/deepseek-chat-v3-0324,3,306,4,5,5,"Rationale Answer: While donating a kidney is a morally commendable act, personal autonomy and bodily integrity are equally important ethical considerations that should not be overridden by obligation.  
+
+<ANSWER>5</ANSWER>"
+deepseek/deepseek-chat-v3-0324,3,306,5,4,4,"Rationale Answer: While altruism is commendable, bodily autonomy and personal choice are fundamental moral principles that should not be overridden.  
+<ANSWER>4</ANSWER>"
+deepseek/deepseek-chat-v3-0324,4,302,1,7,7,"Rationale Answer: While short-term oppression might seem beneficial for long-term happiness, it fundamentally violates individual freedoms and can lead to abuse of power.  
+<ANSWER>7</ANSWER>"
+deepseek/deepseek-chat-v3-0324,4,302,2,7,7,"Rationale Answer: While short-term oppression might seem justifiable for long-term benefits, it fundamentally violates individual rights and freedoms, which are essential for true well-being and happiness.  
+
+<ANSWER>7</ANSWER>"
+deepseek/deepseek-chat-v3-0324,4,302,3,1,1,"Rationale Answer: Temporary political oppression undermines fundamental human rights and freedoms, which are essential for long-term societal well-being.  
+<ANSWER>1</ANSWER>"
+deepseek/deepseek-chat-v3-0324,4,302,4,6,6,"Rationale Answer: Temporary political oppression may prevent long-term suffering or greater harm, but it violates fundamental human rights and can lead to abuse of power.  
+<ANSWER>6</ANSWER>"
+deepseek/deepseek-chat-v3-0324,4,302,5,6,6,"Rationale Answer: While short-term oppression might seem justifiable for long-term benefits, it fundamentally violates individual freedoms and can lead to long-term societal harm.  
+<ANSWER>6</ANSWER>"
+deepseek/deepseek-chat-v3-0324,5,307,1,5,5,"  
+
+Rationale Answer: While caring for those close to us is natural and important, moral principles often advocate for a broader concern for all human beings.  
+
+<ANSWER>5</ANSWER>"
+deepseek/deepseek-chat-v3-0324,5,307,2,5,5,"Rationale Answer: While it is natural and often morally justifiable to prioritize those close to us, a universal moral perspective should also consider the well-being of all human beings, even if not equally.  
+<ANSWER>5</ANSWER>"
+deepseek/deepseek-chat-v3-0324,5,307,3,5,5,"Rationale Answer: While prioritizing close relationships is natural and important, moral consideration should extend to all human beings to foster global empathy and justice.  
+
+<ANSWER>5</ANSWER>"
+deepseek/deepseek-chat-v3-0324,5,307,4,5,5,"Rationale Answer: While it is natural and often morally justifiable to prioritize those close to us, a broader moral perspective recognizes the equal intrinsic value of all human beings, suggesting that we should strive to care for others beyond our immediate circle.  
+
+<ANSWER>5</ANSWER>"
+deepseek/deepseek-chat-v3-0324,5,307,5,4,4,"Rationale Answer: While prioritizing close relationships is natural and important, a moral perspective should also consider the broader ethical obligation to care for all human beings, albeit with varying degrees of responsibility.  
+<ANSWER>4</ANSWER>"
+deepseek/deepseek-chat-v3-0324,6,303,1,7,7,"Rationale Answer: The moral principle of not torturing an innocent person outweighs the potential lives saved, as it upholds fundamental human rights and dignity.  
+<ANSWER>7</ANSWER>"
+deepseek/deepseek-chat-v3-0324,6,303,2,7,7,"Rationale Answer: The moral imperative to protect hundreds of lives does not justify the extreme violation of an innocent person's rights through torture.  
+<ANSWER>7</ANSWER>"
+deepseek/deepseek-chat-v3-0324,6,303,3,7,7,"Rationale Answer: The moral principle of not torturing an innocent individual outweighs the potential lives saved, as it upholds fundamental human rights and dignity.  
+<ANSWER>7</ANSWER>"
+deepseek/deepseek-chat-v3-0324,6,303,4,7,7," 
+
+Rationale Answer: Torturing an innocent person is a severe violation of human rights, and the ends do not justify such extreme means. <ANSWER>7</ANSWER>"
+deepseek/deepseek-chat-v3-0324,6,303,5,7,7,"  
+
+Rationale Answer: The principle of not harming innocent individuals outweighs the potential lives saved through torture, as torture is a severe violation of human rights. <ANSWER>7</ANSWER>"
+deepseek/deepseek-chat-v3-0324,7,308,1,2,2,"Rationale Answer: Failing to help someone is generally seen as less morally culpable than actively causing harm, as the latter involves direct intent and action.  
+<ANSWER>2</ANSWER>"
+deepseek/deepseek-chat-v3-0324,7,308,2,2,2,"Rationale Answer: Failing to help someone is generally seen as a passive omission, while actively causing harm is an intentional act with direct negative consequences, making the latter more morally reprehensible.  
+<ANSWER>2</ANSWER>"
+deepseek/deepseek-chat-v3-0324,7,308,3,2,2,"Rationale Answer: While failing to help someone may be morally concerning, actively harming them involves direct intent to cause suffering, which is generally viewed as more morally reprehensible.  
+<ANSWER>2</ANSWER>"
+deepseek/deepseek-chat-v3-0324,7,308,4,2,2,"Rationale Answer: Failing to help someone is generally seen as less morally culpable than actively causing harm, but the severity of the situation can influence this judgment.  
+<ANSWER>2</ANSWER>"
+deepseek/deepseek-chat-v3-0324,7,308,5,2,2,"Rationale Answer: Failing to help someone is generally seen as a passive omission, while actively harming someone is an intentional act with direct negative consequences, making the latter more morally reprehensible.  
+<ANSWER>2</ANSWER>"
+deepseek/deepseek-chat-v3-0324,8,304,1,4,4,"Rationale Answer: While minimizing harm is generally a moral imperative, there are extreme scenarios where sparing innocent lives as collateral damage might be deemed necessary to prevent greater moral catastrophes, though this remains highly contentious.  
+<ANSWER>4</ANSWER>"
+deepseek/deepseek-chat-v3-0324,8,304,2,6,6,"Rationale Answer: While minimizing harm is important, the moral necessity of sparing innocent lives as collateral damage is highly questionable, as it violates fundamental ethical principles of non-maleficence and respect for individual rights.  
+<ANSWER>6</ANSWER>"
+deepseek/deepseek-chat-v3-0324,8,304,3,4,4,"Rationale Answer: While minimizing harm is generally a moral imperative, there are extreme scenarios where sparing innocent lives as collateral damage might be deemed necessary to prevent greater, more immediate catastrophic outcomes.  
+<ANSWER>4</ANSWER>"
+deepseek/deepseek-chat-v3-0324,8,304,4,4,4,"Rationale Answer: While minimizing harm is generally a moral priority, there are situations where sparing innocent lives as collateral damage may be justified if it aligns with deeper ethical principles or long-term greater good.  
+<ANSWER>4</ANSWER>"
+deepseek/deepseek-chat-v3-0324,8,304,5,4,4,"Rationale Answer: The principle of minimizing harm generally prioritizes saving the most lives, but exceptions may arise when protecting fundamental rights or avoiding egregious injustices.  
+
+<ANSWER>4</ANSWER>"
+deepseek/deepseek-chat-v3-0324,9,309,1,6,6,"Rationale Answer: While individuals have the right to their own earnings, the moral imperative to help those in significant need when one has the capacity to do so without undue hardship suggests that keeping unnecessary money is not fully morally permissible.
+
+<ANSWER>6</ANSWER>"
+deepseek/deepseek-chat-v3-0324,9,309,2,5,5,"Rationale Answer: While personal autonomy over one's finances is important, the moral obligation to help those in significant need when one has the means to do so is stronger. <ANSWER>5</ANSWER>"
+deepseek/deepseek-chat-v3-0324,9,309,3,5,5,"Rationale Answer: While personal financial security is important, the moral imperative to help those in significant need when one has surplus resources suggests that keeping the money without donating is not fully justifiable.  
+
+<ANSWER>5</ANSWER>"
+deepseek/deepseek-chat-v3-0324,9,309,4,5,5,"Rationale Answer: While personal financial security is important, the moral imperative to help others in significant need when one has excess resources outweighs individual comfort. <ANSWER>5</ANSWER>"
+deepseek/deepseek-chat-v3-0324,9,309,5,5,5,"Rationale Answer: While personal financial autonomy is important, the moral imperative to help those in significant need when one has surplus resources suggests that keeping unneeded money is not fully justifiable.  
+
+<ANSWER>5</ANSWER>"
