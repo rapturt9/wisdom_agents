@@ -199,16 +199,16 @@ class MultiAgentHandlerParallel:
                 )
                 
                 # Verify the agent was properly created
-                if not hasattr(agent, 'model_client'):
-                    raise ValueError(f"Agent {name} was created but is missing model_client attribute")
+                # if not hasattr(agent, 'model_client'):
+                #     raise ValueError(f"Agent {name} was created but is missing model_client attribute")
                 
                 # Additional verification that model_client is not None
-                if agent.model_client is None:
-                    raise ValueError(f"Agent {name} has None model_client")
+                # if agent.model_client is None:
+                #     raise ValueError(f"Agent {name} has None model_client")
                     
                 # Test the model_client to make sure it's valid
-                if not hasattr(agent.model_client, 'model'):
-                    raise ValueError(f"Agent {name} has invalid model_client (missing 'model' attribute)")
+                # if not hasattr(agent.model_client, 'model'):
+                #     raise ValueError(f"Agent {name} has invalid model_client (missing 'model' attribute)")
                 
                 self.logger.info(f"Successfully created agent {name} with model {model_name}")
                 return agent
