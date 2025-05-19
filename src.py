@@ -65,7 +65,7 @@ except ImportError:
     # Local environment
     API_KEY = os.environ.get("OPENROUTER_API_KEY")  # Local environment variable
 
-def get_client(model = "openai/gpt-4o-mini"):
+def get_client(model):
   client = OpenAIChatCompletionClient(
       api_key=API_KEY,
       base_url="https://openrouter.ai/api/v1",
