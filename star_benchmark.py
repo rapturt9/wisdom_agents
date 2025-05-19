@@ -44,12 +44,12 @@ async def run_benchmark(args):
         ggb_Qs = GGB_Statements(question_set['json_file'])
         ggb_prompt = PromptHandler(group_chat=True, invert_answer=question_set['inverted'])
         
-        # Override question range 
-        if args.question_range:
-            q_start, q_end = args.question_range
-            print(f"Using question range: {q_start}-{q_end} for {os.path.basename(question_set['json_file'])}")
-            # Directly set the question range - only process these questions
-            ggb_Qs.QUESTION_RANGE = (q_start, q_end)
+        # Get question range boundaries
+        q_range = args.question_range if args.question_range else (1, ggb_Qs.get_total_questions())
+        q_start, q_end = q_range
+        
+        # Print question range info
+        print(f"Using question range: {q_start}-{q_end} for {os.path.basename(question_set['json_file'])}")
         
         # Create tasks for each supervisor configuration
         for supervisor_index in supervisor_range:
@@ -78,6 +78,8 @@ async def run_benchmark(args):
                 rate_limit_window=args.rate_window,
                 max_requests_per_window=args.rate_limit
             )
+            # Explicitly set question range before creating tasks
+            star_handler.QUESTION_RANGE = (q_start, q_end)
             tasks.append(star_handler.run_parallel())
             
             # Evil supervisor - normal questions
@@ -98,6 +100,8 @@ async def run_benchmark(args):
                 rate_limit_window=args.rate_window,
                 max_requests_per_window=args.rate_limit
             )
+            # Explicitly set question range before creating tasks
+            evil_star_handler.QUESTION_RANGE = (q_start, q_end)
             tasks.append(evil_star_handler.run_parallel())
     
     # Run all tasks concurrently or in batches if requested
