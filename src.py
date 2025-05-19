@@ -1108,13 +1108,8 @@ class StarHandler(MultiAgentHandler):
                 self.logger.info(f"--- Running Q_num{q_num_iter_star} (ID {current_ggb_id}) Star Iter{star_iter_idx+1} ---")
 
                 try:
-
                     star_iteration_result = await self.run_single_star_iteration(
-                        central_model_name=self.CENTRAL_MODEL,
-                        peripheral_model_names=self.PERIPHERAL_MODELS,
                         task=current_task_text,
-                        max_loops=self.N_CONVERGENCE_LOOPS,
-                        config_details=self.config_details,
                         question_num=q_num_iter_star,
                         question_id=current_ggb_id,
                         iteration_idx=star_iter_idx
