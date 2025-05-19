@@ -45,19 +45,20 @@ async def run_benchmark(args):
         ggb_prompt = PromptHandler(group_chat=True, invert_answer=question_set['inverted'])
         
         # Get question range boundaries
-        if args.question_range:
-            q_start, q_end = args.question_range
-            print(f"Using question range: {q_start}-{q_end} for {os.path.basename(question_set['json_file'])}")
-            # Set directly on the question object for consistency with original code
-            ggb_Qs.QUESTION_RANGE = (q_start, q_end)
-        else:
-            print(f"Using all questions from {os.path.basename(question_set['json_file'])}")
-            q_start, q_end = 1, ggb_Qs.get_total_questions()
+        q_range = args.question_range if args.question_range else (1, ggb_Qs.get_total_questions())
+        q_start, q_end = q_range
+        
+        # Print question range info
+        print(f"Using question range: {q_start}-{q_end} for {os.path.basename(question_set['json_file'])}")
         
         # Create tasks for each supervisor configuration
         for supervisor_index in supervisor_range:
             # Get supervisor name for chat type
             supervisor_shortname = models[supervisor_index].split('/')[-1]
+            
+            # Generate a consistent seed for this supervisor model
+            # This ensures evil and non-evil use the same seed for the same model
+            seed_for_model = hash(models[supervisor_index]) % 10000
             
             # Regular supervisor - normal questions
             run_chat_type = f'star_supervisor_{supervisor_shortname}'
@@ -70,16 +71,38 @@ async def run_benchmark(args):
                 nrounds=args.rounds,       
                 nrepeats=args.repeats,     
                 shuffle=args.shuffle,
-                random_seed=None,  # No need for fixed seed anymore
+                random_seed=seed_for_model,  # Same seed for consistent agent ordering
                 chat_type=f'ggb_{run_chat_type}{question_set["suffix"]}',
                 max_workers=args.workers,
                 max_concurrent_clients=args.concurrent_clients,
                 rate_limit_window=args.rate_window,
                 max_requests_per_window=args.rate_limit
             )
-            # Explicitly set question range on the handler
+            # Explicitly set question range before creating tasks
             star_handler.QUESTION_RANGE = (q_start, q_end)
             tasks.append(star_handler.run_parallel())
+            
+            # Evil supervisor - normal questions
+            evil_run_chat_type = f'star_evil_supervisor_{supervisor_shortname}'
+            evil_star_handler = StarHandlerParallel(
+                models=models,
+                Qs=ggb_Qs,
+                Prompt=ggb_prompt,
+                supervisor_index=supervisor_index,
+                is_supervisor_evil=True,
+                nrounds=args.rounds,       
+                nrepeats=args.repeats,     
+                shuffle=args.shuffle,
+                random_seed=seed_for_model,  # Same seed as non-evil for consistency
+                chat_type=f'ggb_{evil_run_chat_type}{question_set["suffix"]}',
+                max_workers=args.workers,
+                max_concurrent_clients=args.concurrent_clients,
+                rate_limit_window=args.rate_window,
+                max_requests_per_window=args.rate_limit
+            )
+            # Explicitly set question range before creating tasks
+            evil_star_handler.QUESTION_RANGE = (q_start, q_end)
+            tasks.append(evil_star_handler.run_parallel())
     
     # Run all tasks concurrently or in batches if requested
     if args.batch_mode and len(tasks) > 1:
