@@ -65,24 +65,48 @@ except ImportError:
     # Local environment
     API_KEY = os.environ.get("OPENROUTER_API_KEY")  # Local environment variable
 
-def get_client(model):
-  client = OpenAIChatCompletionClient(
-      api_key=API_KEY,
-      base_url="https://openrouter.ai/api/v1",
-      model=model,
-      temperature=TEMP,
-      model_info = {
-          "vision": False,
-          "function_calling": False,
-          "json_output": False,
-          "structured_output": False,
-          "family": "unknown",
-      },
+# def get_client(model):
+#   client = OpenAIChatCompletionClient(
+#       api_key=API_KEY,
+#       base_url="https://openrouter.ai/api/v1",
+#       model=model,
+#       temperature=TEMP,
+#       model_info = {
+#           "vision": False,
+#           "function_calling": False,
+#           "json_output": False,
+#           "structured_output": False,
+#           "family": "unknown",
+#       },
       
-  )
-  return client
+#   )
+#   return client
 
-
+def get_client(model = "openai/gpt-4o-mini"):
+    """
+    Get a client for the specified model.
+    Returns an initialized OpenAIChatCompletionClient.
+    """
+    client = OpenAIChatCompletionClient(
+        api_key=API_KEY,
+        base_url="https://openrouter.ai/api/v1",
+        model=model,
+        temperature=TEMP,
+        model_info = {
+            "vision": False,
+            "function_calling": False,
+            "json_output": False,
+            "structured_output": False,
+            "family": "unknown",
+        },
+    )
+    
+    # Ensure the model attribute exists on all clients
+    # This is needed for the validation check in create_agent_safely
+    if not hasattr(client, 'model'):
+        client.model = model
+        
+    return client
 
 
 ##########################################
