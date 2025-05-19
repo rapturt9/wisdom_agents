@@ -1,0 +1,733 @@
+2025-05-19 14:06:36,550 - INFO - Starting parallel run for ggb_star_evil_supervisor_gpt-4o-mini
+2025-05-19 14:06:36,669 - INFO - Created 1080 tasks for parallel processing with 8 workers
+2025-05-19 14:06:36,786 - INFO - Starting Q_num53 (ID 53) Iter2 (attempt 1)
+2025-05-19 14:06:36,794 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:36,794 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:06:36,795 - INFO - Starting Q_num77 (ID 77) Iter2 (attempt 1)
+2025-05-19 14:06:36,802 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:36,802 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:06:36,803 - INFO - Starting Q_num19 (ID 19) Iter7 (attempt 1)
+2025-05-19 14:06:36,811 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:36,811 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:06:36,812 - INFO - Starting Q_num19 (ID 19) Iter5 (attempt 1)
+2025-05-19 14:06:36,819 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:36,819 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:06:36,820 - INFO - Starting Q_num34 (ID 34) Iter2 (attempt 1)
+2025-05-19 14:06:36,828 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:36,828 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:06:36,829 - INFO - Starting Q_num35 (ID 35) Iter11 (attempt 1)
+2025-05-19 14:06:36,837 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:36,837 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:06:36,839 - INFO - Starting Q_num13 (ID 13) Iter3 (attempt 1)
+2025-05-19 14:06:36,847 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:36,847 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:06:36,848 - INFO - Starting Q_num25 (ID 25) Iter5 (attempt 1)
+2025-05-19 14:06:36,857 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:36,857 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:06:38,803 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:38,803 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:06:38,813 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:38,814 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:06:38,823 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:38,823 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:06:38,831 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:38,831 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:06:38,845 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:38,845 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:06:38,856 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:38,856 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:06:38,865 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:38,865 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:06:38,874 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:38,875 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:06:42,812 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 3: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:42,813 - ERROR - All 3 attempts to create agent central_supervisor failed
+2025-05-19 14:06:42,813 - ERROR - Failed to create central agent: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:42,813 - WARNING - No result for Q_num53 Iter2 on attempt 1
+2025-05-19 14:06:42,813 - INFO - Retrying in 2.0s...
+2025-05-19 14:06:42,822 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 3: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:42,822 - ERROR - All 3 attempts to create agent central_supervisor failed
+2025-05-19 14:06:42,822 - ERROR - Failed to create central agent: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:42,822 - WARNING - No result for Q_num77 Iter2 on attempt 1
+2025-05-19 14:06:42,822 - INFO - Retrying in 2.0s...
+2025-05-19 14:06:42,831 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 3: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:42,831 - ERROR - All 3 attempts to create agent central_supervisor failed
+2025-05-19 14:06:42,831 - ERROR - Failed to create central agent: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:42,831 - WARNING - No result for Q_num19 Iter7 on attempt 1
+2025-05-19 14:06:42,831 - INFO - Retrying in 2.0s...
+2025-05-19 14:06:42,839 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 3: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:42,840 - ERROR - All 3 attempts to create agent central_supervisor failed
+2025-05-19 14:06:42,840 - ERROR - Failed to create central agent: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:42,840 - WARNING - No result for Q_num19 Iter5 on attempt 1
+2025-05-19 14:06:42,840 - INFO - Retrying in 2.0s...
+2025-05-19 14:06:42,855 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 3: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:42,856 - ERROR - All 3 attempts to create agent central_supervisor failed
+2025-05-19 14:06:42,856 - ERROR - Failed to create central agent: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:42,856 - WARNING - No result for Q_num34 Iter2 on attempt 1
+2025-05-19 14:06:42,856 - INFO - Retrying in 2.0s...
+2025-05-19 14:06:42,866 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 3: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:42,866 - ERROR - All 3 attempts to create agent central_supervisor failed
+2025-05-19 14:06:42,866 - ERROR - Failed to create central agent: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:42,866 - WARNING - No result for Q_num35 Iter11 on attempt 1
+2025-05-19 14:06:42,866 - INFO - Retrying in 2.0s...
+2025-05-19 14:06:42,874 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 3: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:42,875 - ERROR - All 3 attempts to create agent central_supervisor failed
+2025-05-19 14:06:42,875 - ERROR - Failed to create central agent: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:42,875 - WARNING - No result for Q_num13 Iter3 on attempt 1
+2025-05-19 14:06:42,875 - INFO - Retrying in 2.0s...
+2025-05-19 14:06:42,883 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 3: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:42,883 - ERROR - All 3 attempts to create agent central_supervisor failed
+2025-05-19 14:06:42,883 - ERROR - Failed to create central agent: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:42,883 - WARNING - No result for Q_num25 Iter5 on attempt 1
+2025-05-19 14:06:42,883 - INFO - Retrying in 2.0s...
+2025-05-19 14:06:45,191 - INFO - Starting Q_num53 (ID 53) Iter2 (attempt 2)
+2025-05-19 14:06:45,199 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:45,199 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:06:45,235 - INFO - Starting Q_num77 (ID 77) Iter2 (attempt 2)
+2025-05-19 14:06:45,243 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:45,243 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:06:45,284 - INFO - Starting Q_num19 (ID 19) Iter7 (attempt 2)
+2025-05-19 14:06:45,292 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:45,292 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:06:45,329 - INFO - Starting Q_num19 (ID 19) Iter5 (attempt 2)
+2025-05-19 14:06:45,336 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:45,336 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:06:45,377 - INFO - Starting Q_num34 (ID 34) Iter2 (attempt 2)
+2025-05-19 14:06:45,385 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:45,385 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:06:45,482 - INFO - Starting Q_num35 (ID 35) Iter11 (attempt 2)
+2025-05-19 14:06:45,492 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:45,493 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:06:45,568 - INFO - Starting Q_num13 (ID 13) Iter3 (attempt 2)
+2025-05-19 14:06:45,578 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:45,578 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:06:45,644 - INFO - Starting Q_num25 (ID 25) Iter5 (attempt 2)
+2025-05-19 14:06:45,656 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:45,656 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:06:47,206 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:47,206 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:06:47,250 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:47,250 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:06:47,300 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:47,300 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:06:47,344 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:47,344 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:06:47,393 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:47,393 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:06:47,500 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:47,500 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:06:47,589 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:47,589 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:06:47,668 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:47,668 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:06:51,217 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 3: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:51,217 - ERROR - All 3 attempts to create agent central_supervisor failed
+2025-05-19 14:06:51,217 - ERROR - Failed to create central agent: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:51,217 - WARNING - No result for Q_num53 Iter2 on attempt 2
+2025-05-19 14:06:51,217 - INFO - Retrying in 4.0s...
+2025-05-19 14:06:51,262 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 3: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:51,262 - ERROR - All 3 attempts to create agent central_supervisor failed
+2025-05-19 14:06:51,262 - ERROR - Failed to create central agent: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:51,262 - WARNING - No result for Q_num77 Iter2 on attempt 2
+2025-05-19 14:06:51,262 - INFO - Retrying in 4.0s...
+2025-05-19 14:06:51,307 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 3: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:51,307 - ERROR - All 3 attempts to create agent central_supervisor failed
+2025-05-19 14:06:51,307 - ERROR - Failed to create central agent: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:51,308 - WARNING - No result for Q_num19 Iter7 on attempt 2
+2025-05-19 14:06:51,308 - INFO - Retrying in 4.0s...
+2025-05-19 14:06:51,351 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 3: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:51,351 - ERROR - All 3 attempts to create agent central_supervisor failed
+2025-05-19 14:06:51,351 - ERROR - Failed to create central agent: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:51,351 - WARNING - No result for Q_num19 Iter5 on attempt 2
+2025-05-19 14:06:51,352 - INFO - Retrying in 4.0s...
+2025-05-19 14:06:51,401 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 3: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:51,401 - ERROR - All 3 attempts to create agent central_supervisor failed
+2025-05-19 14:06:51,401 - ERROR - Failed to create central agent: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:51,401 - WARNING - No result for Q_num34 Iter2 on attempt 2
+2025-05-19 14:06:51,401 - INFO - Retrying in 4.0s...
+2025-05-19 14:06:51,508 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 3: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:51,509 - ERROR - All 3 attempts to create agent central_supervisor failed
+2025-05-19 14:06:51,509 - ERROR - Failed to create central agent: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:51,509 - WARNING - No result for Q_num35 Iter11 on attempt 2
+2025-05-19 14:06:51,509 - INFO - Retrying in 4.0s...
+2025-05-19 14:06:51,603 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 3: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:51,603 - ERROR - All 3 attempts to create agent central_supervisor failed
+2025-05-19 14:06:51,603 - ERROR - Failed to create central agent: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:51,603 - WARNING - No result for Q_num13 Iter3 on attempt 2
+2025-05-19 14:06:51,603 - INFO - Retrying in 4.0s...
+2025-05-19 14:06:51,676 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 3: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:51,676 - ERROR - All 3 attempts to create agent central_supervisor failed
+2025-05-19 14:06:51,676 - ERROR - Failed to create central agent: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:51,676 - WARNING - No result for Q_num25 Iter5 on attempt 2
+2025-05-19 14:06:51,676 - INFO - Retrying in 4.0s...
+2025-05-19 14:06:55,253 - INFO - Starting Q_num53 (ID 53) Iter2 (attempt 3)
+2025-05-19 14:06:55,260 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:55,260 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:06:55,296 - INFO - Starting Q_num77 (ID 77) Iter2 (attempt 3)
+2025-05-19 14:06:55,302 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:55,302 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:06:55,345 - INFO - Starting Q_num19 (ID 19) Iter7 (attempt 3)
+2025-05-19 14:06:55,352 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:55,352 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:06:55,393 - INFO - Starting Q_num19 (ID 19) Iter5 (attempt 3)
+2025-05-19 14:06:55,400 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:55,400 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:06:55,438 - INFO - Starting Q_num34 (ID 34) Iter2 (attempt 3)
+2025-05-19 14:06:55,445 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:55,445 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:06:55,560 - INFO - Starting Q_num35 (ID 35) Iter11 (attempt 3)
+2025-05-19 14:06:55,566 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:55,568 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:06:55,641 - INFO - Starting Q_num13 (ID 13) Iter3 (attempt 3)
+2025-05-19 14:06:55,647 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:55,647 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:06:55,712 - INFO - Starting Q_num25 (ID 25) Iter5 (attempt 3)
+2025-05-19 14:06:55,718 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:55,718 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:06:57,270 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:57,270 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:06:57,313 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:57,313 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:06:57,363 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:57,363 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:06:57,410 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:57,410 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:06:57,455 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:57,455 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:06:57,583 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:57,583 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:06:57,658 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:57,658 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:06:57,729 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:06:57,729 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:07:01,365 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 3: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:07:01,366 - ERROR - All 3 attempts to create agent central_supervisor failed
+2025-05-19 14:07:01,366 - ERROR - Failed to create central agent: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:07:01,366 - WARNING - No result for Q_num53 Iter2 on attempt 3
+2025-05-19 14:07:01,366 - INFO - Retrying in 8.0s...
+2025-05-19 14:07:01,386 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 3: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:07:01,387 - ERROR - All 3 attempts to create agent central_supervisor failed
+2025-05-19 14:07:01,387 - ERROR - Failed to create central agent: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:07:01,387 - WARNING - No result for Q_num77 Iter2 on attempt 3
+2025-05-19 14:07:01,387 - INFO - Retrying in 8.0s...
+2025-05-19 14:07:01,400 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 3: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:07:01,400 - ERROR - All 3 attempts to create agent central_supervisor failed
+2025-05-19 14:07:01,400 - ERROR - Failed to create central agent: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:07:01,400 - WARNING - No result for Q_num19 Iter7 on attempt 3
+2025-05-19 14:07:01,400 - INFO - Retrying in 8.0s...
+2025-05-19 14:07:01,423 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 3: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:07:01,423 - ERROR - All 3 attempts to create agent central_supervisor failed
+2025-05-19 14:07:01,423 - ERROR - Failed to create central agent: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:07:01,423 - WARNING - No result for Q_num19 Iter5 on attempt 3
+2025-05-19 14:07:01,423 - INFO - Retrying in 8.0s...
+2025-05-19 14:07:01,465 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 3: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:07:01,465 - ERROR - All 3 attempts to create agent central_supervisor failed
+2025-05-19 14:07:01,465 - ERROR - Failed to create central agent: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:07:01,465 - WARNING - No result for Q_num34 Iter2 on attempt 3
+2025-05-19 14:07:01,465 - INFO - Retrying in 8.0s...
+2025-05-19 14:07:01,594 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 3: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:07:01,594 - ERROR - All 3 attempts to create agent central_supervisor failed
+2025-05-19 14:07:01,594 - ERROR - Failed to create central agent: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:07:01,594 - WARNING - No result for Q_num35 Iter11 on attempt 3
+2025-05-19 14:07:01,594 - INFO - Retrying in 8.0s...
+2025-05-19 14:07:01,667 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 3: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:07:01,667 - ERROR - All 3 attempts to create agent central_supervisor failed
+2025-05-19 14:07:01,667 - ERROR - Failed to create central agent: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:07:01,667 - WARNING - No result for Q_num13 Iter3 on attempt 3
+2025-05-19 14:07:01,667 - INFO - Retrying in 8.0s...
+2025-05-19 14:07:01,738 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 3: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:07:01,738 - ERROR - All 3 attempts to create agent central_supervisor failed
+2025-05-19 14:07:01,739 - ERROR - Failed to create central agent: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:07:01,739 - WARNING - No result for Q_num25 Iter5 on attempt 3
+2025-05-19 14:07:01,739 - INFO - Retrying in 8.0s...
+2025-05-19 14:07:09,403 - INFO - Starting Q_num53 (ID 53) Iter2 (attempt 4)
+2025-05-19 14:07:09,411 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:07:09,411 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:07:09,449 - INFO - Starting Q_num77 (ID 77) Iter2 (attempt 4)
+2025-05-19 14:07:09,457 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:07:09,457 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:07:09,493 - INFO - Starting Q_num19 (ID 19) Iter7 (attempt 4)
+2025-05-19 14:07:09,501 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:07:09,501 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:07:09,541 - INFO - Starting Q_num19 (ID 19) Iter5 (attempt 4)
+2025-05-19 14:07:09,549 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:07:09,549 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:07:09,586 - INFO - Starting Q_num34 (ID 34) Iter2 (attempt 4)
+2025-05-19 14:07:09,595 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:07:09,595 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:07:09,635 - INFO - Starting Q_num35 (ID 35) Iter11 (attempt 4)
+2025-05-19 14:07:09,644 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:07:09,644 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:07:09,706 - INFO - Starting Q_num13 (ID 13) Iter3 (attempt 4)
+2025-05-19 14:07:09,715 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:07:09,715 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:07:09,777 - INFO - Starting Q_num25 (ID 25) Iter5 (attempt 4)
+2025-05-19 14:07:09,785 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:07:09,785 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:08:43,754 - INFO - Starting parallel run for ggb_star_evil_supervisor_gpt-4o-mini
+2025-05-19 14:08:43,921 - INFO - Created 1080 tasks for parallel processing with 8 workers
+2025-05-19 14:08:44,147 - INFO - Starting Q_num35 (ID 35) Iter7 (attempt 1)
+2025-05-19 14:08:44,159 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:08:44,159 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:08:44,160 - INFO - Starting Q_num2 (ID 2) Iter1 (attempt 1)
+2025-05-19 14:08:44,171 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:08:44,171 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:08:44,171 - INFO - Starting Q_num26 (ID 26) Iter5 (attempt 1)
+2025-05-19 14:08:44,181 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:08:44,181 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:08:44,181 - INFO - Starting Q_num76 (ID 76) Iter10 (attempt 1)
+2025-05-19 14:08:44,192 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:08:44,192 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:08:44,192 - INFO - Starting Q_num6 (ID 6) Iter10 (attempt 1)
+2025-05-19 14:08:44,200 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:08:44,200 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:08:44,200 - INFO - Starting Q_num42 (ID 42) Iter8 (attempt 1)
+2025-05-19 14:08:44,209 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:08:44,209 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:08:44,209 - INFO - Starting Q_num16 (ID 16) Iter6 (attempt 1)
+2025-05-19 14:08:44,218 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:08:44,218 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:08:44,218 - INFO - Starting Q_num59 (ID 59) Iter12 (attempt 1)
+2025-05-19 14:08:44,227 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:08:44,227 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:08:46,168 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:08:46,168 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:08:46,181 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:08:46,181 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:08:46,190 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:08:46,190 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:08:46,201 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:08:46,201 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:08:46,210 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:08:46,210 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:08:46,218 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:08:46,218 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:08:46,227 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:08:46,227 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:08:46,236 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:08:46,236 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:08:50,177 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 3: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:08:50,177 - ERROR - All 3 attempts to create agent central_supervisor failed
+2025-05-19 14:08:50,177 - ERROR - Failed to create central agent: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:08:50,177 - WARNING - No result for Q_num35 Iter7 on attempt 1
+2025-05-19 14:08:50,177 - INFO - Retrying in 2.0s...
+2025-05-19 14:08:50,189 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 3: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:08:50,189 - ERROR - All 3 attempts to create agent central_supervisor failed
+2025-05-19 14:08:50,189 - ERROR - Failed to create central agent: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:08:50,189 - WARNING - No result for Q_num2 Iter1 on attempt 1
+2025-05-19 14:08:50,189 - INFO - Retrying in 2.0s...
+2025-05-19 14:08:50,197 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 3: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:08:50,197 - ERROR - All 3 attempts to create agent central_supervisor failed
+2025-05-19 14:08:50,197 - ERROR - Failed to create central agent: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:08:50,197 - WARNING - No result for Q_num26 Iter5 on attempt 1
+2025-05-19 14:08:50,197 - INFO - Retrying in 2.0s...
+2025-05-19 14:08:50,208 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 3: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:08:50,208 - ERROR - All 3 attempts to create agent central_supervisor failed
+2025-05-19 14:08:50,208 - ERROR - Failed to create central agent: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:08:50,208 - WARNING - No result for Q_num76 Iter10 on attempt 1
+2025-05-19 14:08:50,208 - INFO - Retrying in 2.0s...
+2025-05-19 14:08:50,217 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 3: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:08:50,217 - ERROR - All 3 attempts to create agent central_supervisor failed
+2025-05-19 14:08:50,217 - ERROR - Failed to create central agent: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:08:50,217 - WARNING - No result for Q_num6 Iter10 on attempt 1
+2025-05-19 14:08:50,217 - INFO - Retrying in 2.0s...
+2025-05-19 14:08:50,225 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 3: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:08:50,225 - ERROR - All 3 attempts to create agent central_supervisor failed
+2025-05-19 14:08:50,225 - ERROR - Failed to create central agent: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:08:50,225 - WARNING - No result for Q_num42 Iter8 on attempt 1
+2025-05-19 14:08:50,225 - INFO - Retrying in 2.0s...
+2025-05-19 14:08:50,234 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 3: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:08:50,234 - ERROR - All 3 attempts to create agent central_supervisor failed
+2025-05-19 14:08:50,234 - ERROR - Failed to create central agent: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:08:50,234 - WARNING - No result for Q_num16 Iter6 on attempt 1
+2025-05-19 14:08:50,234 - INFO - Retrying in 2.0s...
+2025-05-19 14:08:50,244 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 3: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:08:50,244 - ERROR - All 3 attempts to create agent central_supervisor failed
+2025-05-19 14:08:50,244 - ERROR - Failed to create central agent: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:08:50,244 - WARNING - No result for Q_num59 Iter12 on attempt 1
+2025-05-19 14:08:50,244 - INFO - Retrying in 2.0s...
+2025-05-19 14:10:12,159 - INFO - Starting parallel run for ggb_star_evil_supervisor_gpt-4o-mini
+2025-05-19 14:10:12,302 - INFO - Created 1080 tasks for parallel processing with 8 workers
+2025-05-19 14:10:12,384 - INFO - Starting Q_num31 (ID 31) Iter7 (attempt 1)
+2025-05-19 14:10:12,392 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:10:12,392 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:10:12,393 - INFO - Starting Q_num48 (ID 48) Iter2 (attempt 1)
+2025-05-19 14:10:12,400 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:10:12,400 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:10:12,401 - INFO - Starting Q_num5 (ID 5) Iter6 (attempt 1)
+2025-05-19 14:10:12,410 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:10:12,410 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:10:12,410 - INFO - Starting Q_num80 (ID 80) Iter3 (attempt 1)
+2025-05-19 14:10:12,418 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:10:12,418 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:10:12,419 - INFO - Starting Q_num23 (ID 23) Iter12 (attempt 1)
+2025-05-19 14:10:12,427 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:10:12,427 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:10:12,428 - INFO - Starting Q_num38 (ID 38) Iter1 (attempt 1)
+2025-05-19 14:10:12,436 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:10:12,436 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:10:12,436 - INFO - Starting Q_num56 (ID 56) Iter5 (attempt 1)
+2025-05-19 14:10:12,445 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:10:12,445 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:10:12,445 - INFO - Starting Q_num90 (ID 90) Iter10 (attempt 1)
+2025-05-19 14:10:12,453 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:10:12,453 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:10:14,479 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:10:14,479 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:10:14,496 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:10:14,496 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:10:14,507 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:10:14,507 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:10:14,517 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:10:14,517 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:10:14,526 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:10:14,526 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:10:14,535 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:10:14,535 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:10:14,543 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:10:14,543 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:10:14,553 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:10:14,553 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:10:18,489 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 3: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:10:18,489 - ERROR - All 3 attempts to create agent central_supervisor failed
+2025-05-19 14:10:18,489 - ERROR - Failed to create central agent: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:10:18,489 - WARNING - No result for Q_num31 Iter7 on attempt 1
+2025-05-19 14:10:18,489 - INFO - Retrying in 2.0s...
+2025-05-19 14:10:18,507 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 3: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:10:18,507 - ERROR - All 3 attempts to create agent central_supervisor failed
+2025-05-19 14:10:18,507 - ERROR - Failed to create central agent: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:10:18,507 - WARNING - No result for Q_num48 Iter2 on attempt 1
+2025-05-19 14:10:18,507 - INFO - Retrying in 2.0s...
+2025-05-19 14:10:18,518 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 3: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:10:18,518 - ERROR - All 3 attempts to create agent central_supervisor failed
+2025-05-19 14:10:18,518 - ERROR - Failed to create central agent: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:10:18,518 - WARNING - No result for Q_num5 Iter6 on attempt 1
+2025-05-19 14:10:18,518 - INFO - Retrying in 2.0s...
+2025-05-19 14:10:18,528 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 3: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:10:18,528 - ERROR - All 3 attempts to create agent central_supervisor failed
+2025-05-19 14:10:18,528 - ERROR - Failed to create central agent: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:10:18,528 - WARNING - No result for Q_num80 Iter3 on attempt 1
+2025-05-19 14:10:18,528 - INFO - Retrying in 2.0s...
+2025-05-19 14:10:18,536 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 3: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:10:18,536 - ERROR - All 3 attempts to create agent central_supervisor failed
+2025-05-19 14:10:18,536 - ERROR - Failed to create central agent: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:10:18,536 - WARNING - No result for Q_num23 Iter12 on attempt 1
+2025-05-19 14:10:18,536 - INFO - Retrying in 2.0s...
+2025-05-19 14:10:18,544 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 3: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:10:18,544 - ERROR - All 3 attempts to create agent central_supervisor failed
+2025-05-19 14:10:18,544 - ERROR - Failed to create central agent: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:10:18,544 - WARNING - No result for Q_num38 Iter1 on attempt 1
+2025-05-19 14:10:18,545 - INFO - Retrying in 2.0s...
+2025-05-19 14:10:18,553 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 3: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:10:18,553 - ERROR - All 3 attempts to create agent central_supervisor failed
+2025-05-19 14:10:18,553 - ERROR - Failed to create central agent: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:10:18,553 - WARNING - No result for Q_num56 Iter5 on attempt 1
+2025-05-19 14:10:18,553 - INFO - Retrying in 2.0s...
+2025-05-19 14:10:18,562 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 3: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:10:18,562 - ERROR - All 3 attempts to create agent central_supervisor failed
+2025-05-19 14:10:18,562 - ERROR - Failed to create central agent: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:10:18,562 - WARNING - No result for Q_num90 Iter10 on attempt 1
+2025-05-19 14:10:18,562 - INFO - Retrying in 2.0s...
+2025-05-19 14:10:20,881 - INFO - Starting Q_num31 (ID 31) Iter7 (attempt 2)
+2025-05-19 14:10:20,889 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:10:20,889 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:10:20,932 - INFO - Starting Q_num48 (ID 48) Iter2 (attempt 2)
+2025-05-19 14:10:20,940 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:10:20,940 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:10:20,984 - INFO - Starting Q_num5 (ID 5) Iter6 (attempt 2)
+2025-05-19 14:10:20,995 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:10:20,995 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:10:21,033 - INFO - Starting Q_num80 (ID 80) Iter3 (attempt 2)
+2025-05-19 14:10:21,042 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:10:21,042 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:10:21,082 - INFO - Starting Q_num23 (ID 23) Iter12 (attempt 2)
+2025-05-19 14:10:21,090 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:10:21,090 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:10:21,128 - INFO - Starting Q_num38 (ID 38) Iter1 (attempt 2)
+2025-05-19 14:10:21,136 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:10:21,137 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:10:21,175 - INFO - Starting Q_num56 (ID 56) Iter5 (attempt 2)
+2025-05-19 14:10:21,183 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:10:21,183 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:10:21,221 - INFO - Starting Q_num90 (ID 90) Iter10 (attempt 2)
+2025-05-19 14:10:21,230 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:10:21,230 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:10:22,899 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:10:22,899 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:10:22,951 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:10:22,951 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:10:23,004 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:10:23,004 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:10:23,051 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:10:23,051 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:10:23,100 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:10:23,100 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:10:23,146 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:10:23,146 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:10:23,192 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:10:23,192 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:10:23,238 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:10:23,238 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:16:10,962 - INFO - Starting parallel run for ggb_star_evil_supervisor_gpt-4o-mini
+2025-05-19 14:16:11,077 - INFO - Created 1080 tasks for parallel processing with 8 workers
+2025-05-19 14:16:11,152 - INFO - Starting Q_num19 (ID 19) Iter5 (attempt 1)
+2025-05-19 14:16:11,160 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:16:11,160 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:16:11,161 - INFO - Starting Q_num10 (ID 10) Iter3 (attempt 1)
+2025-05-19 14:16:11,168 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:16:11,169 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:16:11,169 - INFO - Starting Q_num41 (ID 41) Iter2 (attempt 1)
+2025-05-19 14:16:11,177 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:16:11,177 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:16:11,177 - INFO - Starting Q_num44 (ID 44) Iter1 (attempt 1)
+2025-05-19 14:16:11,185 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:16:11,185 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:16:11,185 - INFO - Starting Q_num77 (ID 77) Iter2 (attempt 1)
+2025-05-19 14:16:11,194 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:16:11,194 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:16:11,194 - INFO - Starting Q_num81 (ID 81) Iter5 (attempt 1)
+2025-05-19 14:16:11,202 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:16:11,202 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:16:11,202 - INFO - Starting Q_num26 (ID 26) Iter6 (attempt 1)
+2025-05-19 14:16:11,210 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:16:11,210 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:16:11,211 - INFO - Starting Q_num46 (ID 46) Iter6 (attempt 1)
+2025-05-19 14:16:11,219 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:16:11,219 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:16:13,175 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:16:13,175 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:16:13,183 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:16:13,183 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:16:13,192 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:16:13,192 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:16:13,200 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:16:13,200 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:16:13,210 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:16:13,210 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:16:13,218 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:16:13,218 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:16:13,227 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:16:13,227 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:16:13,236 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:16:13,236 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:16:17,248 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 3: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:16:17,248 - ERROR - All 3 attempts to create agent central_supervisor failed
+2025-05-19 14:16:17,248 - ERROR - Failed to create central agent: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:16:17,248 - WARNING - No result for Q_num19 Iter5 on attempt 1
+2025-05-19 14:16:17,248 - INFO - Retrying in 2.0s...
+2025-05-19 14:16:17,257 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 3: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:16:17,257 - ERROR - All 3 attempts to create agent central_supervisor failed
+2025-05-19 14:16:17,257 - ERROR - Failed to create central agent: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:16:17,257 - WARNING - No result for Q_num10 Iter3 on attempt 1
+2025-05-19 14:16:17,257 - INFO - Retrying in 2.0s...
+2025-05-19 14:16:17,266 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 3: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:16:17,266 - ERROR - All 3 attempts to create agent central_supervisor failed
+2025-05-19 14:16:17,266 - ERROR - Failed to create central agent: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:16:17,266 - WARNING - No result for Q_num41 Iter2 on attempt 1
+2025-05-19 14:16:17,266 - INFO - Retrying in 2.0s...
+2025-05-19 14:16:17,276 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 3: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:16:17,276 - ERROR - All 3 attempts to create agent central_supervisor failed
+2025-05-19 14:16:17,276 - ERROR - Failed to create central agent: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:16:17,276 - WARNING - No result for Q_num44 Iter1 on attempt 1
+2025-05-19 14:16:17,276 - INFO - Retrying in 2.0s...
+2025-05-19 14:16:17,287 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 3: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:16:17,287 - ERROR - All 3 attempts to create agent central_supervisor failed
+2025-05-19 14:16:17,287 - ERROR - Failed to create central agent: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:16:17,287 - WARNING - No result for Q_num77 Iter2 on attempt 1
+2025-05-19 14:16:17,287 - INFO - Retrying in 2.0s...
+2025-05-19 14:16:17,297 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 3: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:16:17,297 - ERROR - All 3 attempts to create agent central_supervisor failed
+2025-05-19 14:16:17,297 - ERROR - Failed to create central agent: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:16:17,297 - WARNING - No result for Q_num81 Iter5 on attempt 1
+2025-05-19 14:16:17,297 - INFO - Retrying in 2.0s...
+2025-05-19 14:16:17,305 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 3: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:16:17,305 - ERROR - All 3 attempts to create agent central_supervisor failed
+2025-05-19 14:16:17,305 - ERROR - Failed to create central agent: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:16:17,305 - WARNING - No result for Q_num26 Iter6 on attempt 1
+2025-05-19 14:16:17,305 - INFO - Retrying in 2.0s...
+2025-05-19 14:16:17,315 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 3: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:16:17,315 - ERROR - All 3 attempts to create agent central_supervisor failed
+2025-05-19 14:16:17,315 - ERROR - Failed to create central agent: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:16:17,315 - WARNING - No result for Q_num46 Iter6 on attempt 1
+2025-05-19 14:16:17,315 - INFO - Retrying in 2.0s...
+2025-05-19 14:16:19,599 - INFO - Starting Q_num19 (ID 19) Iter5 (attempt 2)
+2025-05-19 14:16:19,608 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:16:19,608 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:16:19,646 - INFO - Starting Q_num10 (ID 10) Iter3 (attempt 2)
+2025-05-19 14:16:19,656 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:16:19,656 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:16:19,695 - INFO - Starting Q_num41 (ID 41) Iter2 (attempt 2)
+2025-05-19 14:16:19,703 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:16:19,703 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:16:19,740 - INFO - Starting Q_num44 (ID 44) Iter1 (attempt 2)
+2025-05-19 14:16:19,748 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:16:19,748 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:16:19,787 - INFO - Starting Q_num77 (ID 77) Iter2 (attempt 2)
+2025-05-19 14:16:19,796 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:16:19,796 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:19:46,432 - INFO - Starting parallel run for ggb_star_evil_supervisor_gpt-4o-mini
+2025-05-19 14:19:46,527 - INFO - Created 1080 tasks for parallel processing with 8 workers
+2025-05-19 14:19:46,603 - INFO - Starting Q_num9 (ID 9) Iter11 (attempt 1)
+2025-05-19 14:19:46,612 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:19:46,612 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:19:46,612 - INFO - Starting Q_num50 (ID 50) Iter4 (attempt 1)
+2025-05-19 14:19:46,620 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:19:46,620 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:19:46,620 - INFO - Starting Q_num83 (ID 83) Iter4 (attempt 1)
+2025-05-19 14:19:46,628 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:19:46,628 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:19:46,629 - INFO - Starting Q_num71 (ID 71) Iter5 (attempt 1)
+2025-05-19 14:19:46,637 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:19:46,637 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:19:46,637 - INFO - Starting Q_num79 (ID 79) Iter2 (attempt 1)
+2025-05-19 14:19:46,646 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:19:46,646 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:19:46,646 - INFO - Starting Q_num21 (ID 21) Iter7 (attempt 1)
+2025-05-19 14:19:46,654 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:19:46,655 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:19:46,655 - INFO - Starting Q_num40 (ID 40) Iter11 (attempt 1)
+2025-05-19 14:19:46,733 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:19:46,733 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:19:46,733 - INFO - Starting Q_num72 (ID 72) Iter9 (attempt 1)
+2025-05-19 14:19:46,753 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:19:46,753 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:19:48,619 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:19:48,619 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:19:48,627 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:19:48,627 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:19:48,635 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:19:48,635 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:19:48,644 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:19:48,644 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:19:48,653 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:19:48,653 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:19:48,662 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:19:48,662 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:19:48,740 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:19:48,740 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:19:48,761 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: Agent central_supervisor was created but is missing model_client attribute
+2025-05-19 14:19:48,761 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:20:49,052 - INFO - Starting parallel run for ggb_star_evil_supervisor_gpt-4o-mini
+2025-05-19 14:20:49,134 - INFO - Created 1080 tasks for parallel processing with 8 workers
+2025-05-19 14:20:49,209 - INFO - Starting Q_num35 (ID 35) Iter12 (attempt 1)
+2025-05-19 14:20:49,217 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: 'AssistantAgent' object has no attribute 'model_client'
+2025-05-19 14:20:49,217 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:20:49,217 - INFO - Starting Q_num76 (ID 76) Iter12 (attempt 1)
+2025-05-19 14:20:49,224 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: 'AssistantAgent' object has no attribute 'model_client'
+2025-05-19 14:20:49,224 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:20:49,224 - INFO - Starting Q_num15 (ID 15) Iter3 (attempt 1)
+2025-05-19 14:20:49,232 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: 'AssistantAgent' object has no attribute 'model_client'
+2025-05-19 14:20:49,232 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:20:49,233 - INFO - Starting Q_num45 (ID 45) Iter7 (attempt 1)
+2025-05-19 14:20:49,241 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: 'AssistantAgent' object has no attribute 'model_client'
+2025-05-19 14:20:49,241 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:20:49,242 - INFO - Starting Q_num11 (ID 11) Iter2 (attempt 1)
+2025-05-19 14:20:49,250 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: 'AssistantAgent' object has no attribute 'model_client'
+2025-05-19 14:20:49,250 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:20:49,251 - INFO - Starting Q_num4 (ID 4) Iter9 (attempt 1)
+2025-05-19 14:20:49,258 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: 'AssistantAgent' object has no attribute 'model_client'
+2025-05-19 14:20:49,258 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:20:49,258 - INFO - Starting Q_num1 (ID 1) Iter12 (attempt 1)
+2025-05-19 14:20:49,266 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: 'AssistantAgent' object has no attribute 'model_client'
+2025-05-19 14:20:49,266 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:20:49,266 - INFO - Starting Q_num32 (ID 32) Iter10 (attempt 1)
+2025-05-19 14:20:49,274 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 1: 'AssistantAgent' object has no attribute 'model_client'
+2025-05-19 14:20:49,274 - INFO - Retrying agent creation in 2.00s...
+2025-05-19 14:20:51,288 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: 'AssistantAgent' object has no attribute 'model_client'
+2025-05-19 14:20:51,289 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:20:51,298 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: 'AssistantAgent' object has no attribute 'model_client'
+2025-05-19 14:20:51,298 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:20:51,306 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: 'AssistantAgent' object has no attribute 'model_client'
+2025-05-19 14:20:51,306 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:20:51,314 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: 'AssistantAgent' object has no attribute 'model_client'
+2025-05-19 14:20:51,314 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:20:51,321 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: 'AssistantAgent' object has no attribute 'model_client'
+2025-05-19 14:20:51,321 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:20:51,335 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: 'AssistantAgent' object has no attribute 'model_client'
+2025-05-19 14:20:51,335 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:20:51,403 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: 'AssistantAgent' object has no attribute 'model_client'
+2025-05-19 14:20:51,403 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:20:51,434 - ERROR - Failed to create agent central_supervisor with model openai/gpt-4o-mini, attempt 2: 'AssistantAgent' object has no attribute 'model_client'
+2025-05-19 14:20:51,434 - INFO - Retrying agent creation in 4.00s...
+2025-05-19 14:24:36,751 - INFO - Starting parallel run for ggb_star_evil_supervisor_gpt-4o-mini
+2025-05-19 14:24:36,859 - INFO - Created 1080 tasks for parallel processing with 8 workers
+2025-05-19 14:24:36,941 - INFO - Starting Q_num10 (ID 10) Iter5 (attempt 1)
+2025-05-19 14:24:36,950 - INFO - Successfully created agent central_supervisor with model openai/gpt-4o-mini
+2025-05-19 14:24:36,950 - INFO - Starting Q_num69 (ID 69) Iter2 (attempt 1)
+2025-05-19 14:24:36,958 - INFO - Successfully created agent central_supervisor with model openai/gpt-4o-mini
+2025-05-19 14:24:36,959 - INFO - Starting Q_num17 (ID 17) Iter6 (attempt 1)
+2025-05-19 14:24:36,967 - INFO - Successfully created agent central_supervisor with model openai/gpt-4o-mini
+2025-05-19 14:24:36,968 - INFO - Starting Q_num74 (ID 74) Iter5 (attempt 1)
+2025-05-19 14:24:36,976 - INFO - Successfully created agent central_supervisor with model openai/gpt-4o-mini
+2025-05-19 14:24:36,976 - INFO - Starting Q_num48 (ID 48) Iter3 (attempt 1)
+2025-05-19 14:24:36,987 - INFO - Successfully created agent central_supervisor with model openai/gpt-4o-mini
+2025-05-19 14:24:36,988 - INFO - Starting Q_num15 (ID 15) Iter3 (attempt 1)
+2025-05-19 14:24:37,001 - INFO - Successfully created agent central_supervisor with model openai/gpt-4o-mini
+2025-05-19 14:24:37,002 - INFO - Starting Q_num62 (ID 62) Iter8 (attempt 1)
+2025-05-19 14:24:37,012 - INFO - Successfully created agent central_supervisor with model openai/gpt-4o-mini
+2025-05-19 14:24:37,013 - INFO - Starting Q_num88 (ID 88) Iter10 (attempt 1)
+2025-05-19 14:24:37,021 - INFO - Successfully created agent central_supervisor with model openai/gpt-4o-mini
+2025-05-19 14:24:37,735 - INFO - Successfully created agent peripheral_openai_gpt_4o_mini_0 with model openai/gpt-4o-mini
+2025-05-19 14:24:37,745 - INFO - Successfully created agent peripheral_anthropic_claude_3_5_haiku_1 with model anthropic/claude-3.5-haiku
+2025-05-19 14:24:37,755 - INFO - Successfully created agent peripheral_google_gemini_2_0_flash_lite_001_2 with model google/gemini-2.0-flash-lite-001
+2025-05-19 14:24:37,765 - INFO - Successfully created agent peripheral_qwen_qwen_2_5_7b_instruct_3 with model qwen/qwen-2.5-7b-instruct
+2025-05-19 14:24:37,774 - INFO - Successfully created agent peripheral_meta_llama_llama_3_1_8b_instruct_4 with model meta-llama/llama-3.1-8b-instruct
+2025-05-19 14:24:37,787 - INFO - Successfully created agent peripheral_deepseek_deepseek_chat_v3_0324_5 with model deepseek/deepseek-chat-v3-0324
+2025-05-19 14:24:37,796 - INFO - Successfully created agent peripheral_openai_gpt_4o_mini_0 with model openai/gpt-4o-mini
+2025-05-19 14:24:37,805 - INFO - Successfully created agent peripheral_anthropic_claude_3_5_haiku_1 with model anthropic/claude-3.5-haiku
+2025-05-19 14:24:37,815 - INFO - Successfully created agent peripheral_google_gemini_2_0_flash_lite_001_2 with model google/gemini-2.0-flash-lite-001
+2025-05-19 14:24:37,823 - INFO - Successfully created agent peripheral_qwen_qwen_2_5_7b_instruct_3 with model qwen/qwen-2.5-7b-instruct
+2025-05-19 14:24:37,833 - INFO - Successfully created agent peripheral_meta_llama_llama_3_1_8b_instruct_4 with model meta-llama/llama-3.1-8b-instruct
+2025-05-19 14:24:37,843 - INFO - Successfully created agent peripheral_deepseek_deepseek_chat_v3_0324_5 with model deepseek/deepseek-chat-v3-0324
+2025-05-19 14:24:37,852 - INFO - Successfully created agent peripheral_openai_gpt_4o_mini_0 with model openai/gpt-4o-mini
+2025-05-19 14:24:37,861 - INFO - Successfully created agent peripheral_anthropic_claude_3_5_haiku_1 with model anthropic/claude-3.5-haiku
+2025-05-19 14:24:37,870 - INFO - Successfully created agent peripheral_google_gemini_2_0_flash_lite_001_2 with model google/gemini-2.0-flash-lite-001
+2025-05-19 14:24:37,879 - INFO - Successfully created agent peripheral_qwen_qwen_2_5_7b_instruct_3 with model qwen/qwen-2.5-7b-instruct
+2025-05-19 14:24:37,889 - INFO - Successfully created agent peripheral_meta_llama_llama_3_1_8b_instruct_4 with model meta-llama/llama-3.1-8b-instruct
+2025-05-19 14:24:37,899 - INFO - Successfully created agent peripheral_deepseek_deepseek_chat_v3_0324_5 with model deepseek/deepseek-chat-v3-0324
+2025-05-19 14:24:37,907 - INFO - Successfully created agent peripheral_openai_gpt_4o_mini_0 with model openai/gpt-4o-mini
+2025-05-19 14:24:37,916 - INFO - Successfully created agent peripheral_anthropic_claude_3_5_haiku_1 with model anthropic/claude-3.5-haiku
+2025-05-19 14:24:37,925 - INFO - Successfully created agent peripheral_google_gemini_2_0_flash_lite_001_2 with model google/gemini-2.0-flash-lite-001
+2025-05-19 14:24:37,934 - INFO - Successfully created agent peripheral_qwen_qwen_2_5_7b_instruct_3 with model qwen/qwen-2.5-7b-instruct
+2025-05-19 14:24:37,943 - INFO - Successfully created agent peripheral_meta_llama_llama_3_1_8b_instruct_4 with model meta-llama/llama-3.1-8b-instruct
+2025-05-19 14:24:37,952 - INFO - Successfully created agent peripheral_deepseek_deepseek_chat_v3_0324_5 with model deepseek/deepseek-chat-v3-0324
+2025-05-19 14:24:37,960 - INFO - Successfully created agent peripheral_openai_gpt_4o_mini_0 with model openai/gpt-4o-mini
+2025-05-19 14:24:37,968 - INFO - Successfully created agent peripheral_anthropic_claude_3_5_haiku_1 with model anthropic/claude-3.5-haiku
+2025-05-19 14:24:37,978 - INFO - Successfully created agent peripheral_google_gemini_2_0_flash_lite_001_2 with model google/gemini-2.0-flash-lite-001
+2025-05-19 14:24:37,986 - INFO - Successfully created agent peripheral_qwen_qwen_2_5_7b_instruct_3 with model qwen/qwen-2.5-7b-instruct
+2025-05-19 14:24:37,996 - INFO - Successfully created agent peripheral_meta_llama_llama_3_1_8b_instruct_4 with model meta-llama/llama-3.1-8b-instruct
+2025-05-19 14:24:38,005 - INFO - Successfully created agent peripheral_deepseek_deepseek_chat_v3_0324_5 with model deepseek/deepseek-chat-v3-0324
+2025-05-19 14:24:38,015 - INFO - Successfully created agent peripheral_openai_gpt_4o_mini_0 with model openai/gpt-4o-mini
+2025-05-19 14:24:38,025 - INFO - Successfully created agent peripheral_anthropic_claude_3_5_haiku_1 with model anthropic/claude-3.5-haiku
+2025-05-19 14:24:38,037 - INFO - Successfully created agent peripheral_google_gemini_2_0_flash_lite_001_2 with model google/gemini-2.0-flash-lite-001
+2025-05-19 14:24:38,051 - INFO - Successfully created agent peripheral_qwen_qwen_2_5_7b_instruct_3 with model qwen/qwen-2.5-7b-instruct
+2025-05-19 14:24:38,059 - INFO - Successfully created agent peripheral_meta_llama_llama_3_1_8b_instruct_4 with model meta-llama/llama-3.1-8b-instruct
+2025-05-19 14:24:38,069 - INFO - Successfully created agent peripheral_deepseek_deepseek_chat_v3_0324_5 with model deepseek/deepseek-chat-v3-0324
+2025-05-19 14:24:38,080 - INFO - Successfully created agent peripheral_openai_gpt_4o_mini_0 with model openai/gpt-4o-mini
+2025-05-19 14:24:38,099 - INFO - Successfully created agent peripheral_anthropic_claude_3_5_haiku_1 with model anthropic/claude-3.5-haiku
+2025-05-19 14:24:38,119 - INFO - Successfully created agent peripheral_google_gemini_2_0_flash_lite_001_2 with model google/gemini-2.0-flash-lite-001
+2025-05-19 14:24:38,136 - INFO - Successfully created agent peripheral_qwen_qwen_2_5_7b_instruct_3 with model qwen/qwen-2.5-7b-instruct
+2025-05-19 14:24:38,145 - INFO - Successfully created agent peripheral_meta_llama_llama_3_1_8b_instruct_4 with model meta-llama/llama-3.1-8b-instruct
+2025-05-19 14:24:38,154 - INFO - Successfully created agent peripheral_deepseek_deepseek_chat_v3_0324_5 with model deepseek/deepseek-chat-v3-0324
+2025-05-19 14:24:38,165 - INFO - Successfully created agent peripheral_openai_gpt_4o_mini_0 with model openai/gpt-4o-mini
+2025-05-19 14:24:38,173 - INFO - Successfully created agent peripheral_anthropic_claude_3_5_haiku_1 with model anthropic/claude-3.5-haiku
+2025-05-19 14:24:38,182 - INFO - Successfully created agent peripheral_google_gemini_2_0_flash_lite_001_2 with model google/gemini-2.0-flash-lite-001
+2025-05-19 14:24:38,192 - INFO - Successfully created agent peripheral_qwen_qwen_2_5_7b_instruct_3 with model qwen/qwen-2.5-7b-instruct
+2025-05-19 14:24:38,202 - INFO - Successfully created agent peripheral_meta_llama_llama_3_1_8b_instruct_4 with model meta-llama/llama-3.1-8b-instruct
+2025-05-19 14:24:38,213 - INFO - Successfully created agent peripheral_deepseek_deepseek_chat_v3_0324_5 with model deepseek/deepseek-chat-v3-0324
+2025-05-19 14:24:38,307 - INFO - Q_num10 (ID 10) Iter4: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: 6 models
+2025-05-19 14:24:38,319 - INFO - Q_num69 (ID 69) Iter1: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: 6 models
+2025-05-19 14:24:38,332 - INFO - Q_num17 (ID 17) Iter5: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: 6 models
+2025-05-19 14:24:38,346 - INFO - Q_num74 (ID 74) Iter4: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: 6 models
+2025-05-19 14:24:38,362 - INFO - Q_num48 (ID 48) Iter2: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: 6 models
+2025-05-19 14:24:38,372 - INFO - Q_num15 (ID 15) Iter2: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: 6 models
+2025-05-19 14:24:38,382 - INFO - Q_num62 (ID 62) Iter7: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: 6 models
+2025-05-19 14:24:38,392 - INFO - Q_num88 (ID 88) Iter9: Starting star chat. Central: openai/gpt-4o-mini, Peripherals: 6 models
+2025-05-19 14:24:46,170 - INFO - Completed parallel run for ggb_star_evil_supervisor_gpt-4o-mini
+2025-05-19 14:24:46,170 - INFO - 
+Progress Report for ggb_star_evil_supervisor_gpt-4o-mini:
+- Completed: 0/1080 tasks (0.00%)
+- Main checkpoint entries: 0
+- In progress: 0
+- Remaining: 1080 tasks
+

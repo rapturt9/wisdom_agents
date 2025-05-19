@@ -1,0 +1,84 @@
+2025-05-15 16:46:21,331 - INFO - --- Starting New Star Run (GGB) --- CONFIG HASH: 323c149b ---
+2025-05-15 16:46:21,331 - INFO - --- Running GGB Q_num48 (ID 48) Star Iter1 ---
+2025-05-15 16:46:21,402 - INFO - Q_num48 (GGB ID 48) Iter0: Starting star chat. Central: qwen/qwen-2.5-7b-instruct, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'google/gemini-2.0-flash-lite-001', 'qwen/qwen-2.5-7b-instruct', 'meta-llama/llama-3.1-8b-instruct', 'deepseek/deepseek-chat-v3-0324']
+2025-05-15 17:03:51,544 - INFO - Q_num48 (GGB ID 48) Iter0: Chat finished in 1050.13s. Msgs: 50
+2025-05-15 17:03:51,546 - ERROR - Error GGB Q_num48 (ID 48) Star Iter1: name 'conf_ext' is not defined
+Traceback (most recent call last):
+  File "/var/folders/8g/x9ncyhjj3wdchhjpvtkcr_640000gp/T/ipykernel_6834/3623355272.py", line 259, in main_star_convergence
+    star_iteration_result = await run_single_star_iteration(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/8g/x9ncyhjj3wdchhjpvtkcr_640000gp/T/ipykernel_6834/3623355272.py", line 207, in run_single_star_iteration
+    star_logger.info(f"Q_num{question_num} (GGB ID {question_id}) Iter{iteration_idx+1} Msg{msg_idx} Agent {p_agent_name}: Ans={answer_ext}, Conf={conf_ext}")
+                                                                                                                                                   ^^^^^^^^
+NameError: name 'conf_ext' is not defined
+2025-05-15 17:03:51,997 - INFO - --- Running GGB Q_num49 (ID 49) Star Iter1 ---
+2025-05-15 17:03:52,113 - INFO - Q_num49 (GGB ID 49) Iter0: Starting star chat. Central: qwen/qwen-2.5-7b-instruct, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'google/gemini-2.0-flash-lite-001', 'qwen/qwen-2.5-7b-instruct', 'meta-llama/llama-3.1-8b-instruct', 'deepseek/deepseek-chat-v3-0324']
+2025-05-15 17:32:49,052 - INFO - Q_num49 (GGB ID 49) Iter0: Chat finished in 1736.93s. Msgs: 50
+2025-05-15 17:32:49,058 - ERROR - Error GGB Q_num49 (ID 49) Star Iter1: name 'conf_ext' is not defined
+Traceback (most recent call last):
+  File "/var/folders/8g/x9ncyhjj3wdchhjpvtkcr_640000gp/T/ipykernel_6834/3623355272.py", line 259, in main_star_convergence
+    star_iteration_result = await run_single_star_iteration(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/8g/x9ncyhjj3wdchhjpvtkcr_640000gp/T/ipykernel_6834/3623355272.py", line 207, in run_single_star_iteration
+    star_logger.info(f"Q_num{question_num} (GGB ID {question_id}) Iter{iteration_idx+1} Msg{msg_idx} Agent {p_agent_name}: Ans={answer_ext}, Conf={conf_ext}")
+                                                                                                                                                   ^^^^^^^^
+NameError: name 'conf_ext' is not defined
+2025-05-15 17:32:49,699 - INFO - --- Star Run Finished (GGB) --- CONFIG HASH: 323c149b ---
+2025-05-16 07:54:45,981 - INFO - --- Starting New Star Run (GGB) --- CONFIG HASH: 323c149b ---
+2025-05-16 07:54:45,981 - INFO - --- Running GGB Q_num48 (ID 48) Star Iter1 ---
+2025-05-16 07:54:46,262 - INFO - Q_num48 (GGB ID 48) Iter0: Starting star chat. Central: qwen/qwen-2.5-7b-instruct, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'google/gemini-2.0-flash-lite-001', 'qwen/qwen-2.5-7b-instruct', 'meta-llama/llama-3.1-8b-instruct', 'deepseek/deepseek-chat-v3-0324']
+2025-05-16 08:03:42,398 - INFO - Q_num48 (GGB ID 48) Iter0: Chat finished in 536.13s. Msgs: 50
+2025-05-16 08:03:42,401 - INFO - Q_num48 (GGB ID 48) Iter1 Msg2 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4
+2025-05-16 08:03:42,401 - INFO - Q_num48 (GGB ID 48) Iter1 Msg4 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=3
+2025-05-16 08:03:42,401 - INFO - Q_num48 (GGB ID 48) Iter1 Msg6 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=5
+2025-05-16 08:03:42,401 - INFO - Q_num48 (GGB ID 48) Iter1 Msg8 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=3
+2025-05-16 08:03:42,401 - INFO - Q_num48 (GGB ID 48) Iter1 Msg10 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=5
+2025-05-16 08:03:42,401 - INFO - Q_num48 (GGB ID 48) Iter1 Msg12 Agent peripheral_openai_gpt_4o_mini_0: Ans=5
+2025-05-16 08:03:42,401 - INFO - Q_num48 (GGB ID 48) Iter1 Msg14 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4
+2025-05-16 08:03:42,401 - INFO - Q_num48 (GGB ID 48) Iter1 Msg16 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=5
+2025-05-16 08:03:42,401 - INFO - Q_num48 (GGB ID 48) Iter1 Msg18 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=5
+2025-05-16 08:03:42,401 - INFO - Q_num48 (GGB ID 48) Iter1 Msg20 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=4
+2025-05-16 08:03:42,402 - INFO - Q_num48 (GGB ID 48) Iter1 Msg22 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=4
+2025-05-16 08:03:42,402 - INFO - Q_num48 (GGB ID 48) Iter1 Msg24 Agent peripheral_openai_gpt_4o_mini_0: Ans=5
+2025-05-16 08:03:42,402 - INFO - Q_num48 (GGB ID 48) Iter1 Msg26 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=5
+2025-05-16 08:03:42,402 - INFO - Q_num48 (GGB ID 48) Iter1 Msg28 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=6
+2025-05-16 08:03:42,402 - INFO - Q_num48 (GGB ID 48) Iter1 Msg30 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=5
+2025-05-16 08:03:42,402 - INFO - Q_num48 (GGB ID 48) Iter1 Msg32 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=6
+2025-05-16 08:03:42,402 - INFO - Q_num48 (GGB ID 48) Iter1 Msg34 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=5
+2025-05-16 08:03:42,402 - INFO - Q_num48 (GGB ID 48) Iter1 Msg36 Agent peripheral_openai_gpt_4o_mini_0: Ans=6
+2025-05-16 08:03:42,402 - INFO - Q_num48 (GGB ID 48) Iter1 Msg38 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6
+2025-05-16 08:03:42,402 - INFO - Q_num48 (GGB ID 48) Iter1 Msg40 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=4
+2025-05-16 08:03:42,402 - INFO - Q_num48 (GGB ID 48) Iter1 Msg42 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=3
+2025-05-16 08:03:42,402 - INFO - Q_num48 (GGB ID 48) Iter1 Msg44 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=7
+2025-05-16 08:03:42,402 - INFO - Q_num48 (GGB ID 48) Iter1 Msg46 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=3
+2025-05-16 08:03:42,402 - INFO - Q_num48 (GGB ID 48) Iter1 Msg48 Agent peripheral_openai_gpt_4o_mini_0: Ans=6
+2025-05-16 08:03:42,883 - WARNING - --- GGB Q_num48 (ID 48) Star Iter1 no results. ---
+2025-05-16 08:03:42,958 - INFO - --- Running GGB Q_num49 (ID 49) Star Iter1 ---
+2025-05-16 08:03:43,107 - INFO - Q_num49 (GGB ID 49) Iter0: Starting star chat. Central: qwen/qwen-2.5-7b-instruct, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'google/gemini-2.0-flash-lite-001', 'qwen/qwen-2.5-7b-instruct', 'meta-llama/llama-3.1-8b-instruct', 'deepseek/deepseek-chat-v3-0324']
+2025-05-16 08:19:55,162 - INFO - Q_num49 (GGB ID 49) Iter0: Chat finished in 972.05s. Msgs: 50
+2025-05-16 08:19:55,170 - INFO - Q_num49 (GGB ID 49) Iter1 Msg2 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=3
+2025-05-16 08:19:55,170 - INFO - Q_num49 (GGB ID 49) Iter1 Msg4 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=5
+2025-05-16 08:19:55,170 - INFO - Q_num49 (GGB ID 49) Iter1 Msg6 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=6
+2025-05-16 08:19:55,170 - INFO - Q_num49 (GGB ID 49) Iter1 Msg8 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=7
+2025-05-16 08:19:55,170 - INFO - Q_num49 (GGB ID 49) Iter1 Msg10 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=6
+2025-05-16 08:19:55,170 - INFO - Q_num49 (GGB ID 49) Iter1 Msg12 Agent peripheral_openai_gpt_4o_mini_0: Ans=7
+2025-05-16 08:19:55,170 - INFO - Q_num49 (GGB ID 49) Iter1 Msg14 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=5
+2025-05-16 08:19:55,170 - INFO - Q_num49 (GGB ID 49) Iter1 Msg16 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=5
+2025-05-16 08:19:55,170 - INFO - Q_num49 (GGB ID 49) Iter1 Msg18 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=7
+2025-05-16 08:19:55,170 - INFO - Q_num49 (GGB ID 49) Iter1 Msg20 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=7
+2025-05-16 08:19:55,170 - INFO - Q_num49 (GGB ID 49) Iter1 Msg22 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=7
+2025-05-16 08:19:55,170 - INFO - Q_num49 (GGB ID 49) Iter1 Msg24 Agent peripheral_openai_gpt_4o_mini_0: Ans=7
+2025-05-16 08:19:55,170 - INFO - Q_num49 (GGB ID 49) Iter1 Msg26 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6
+2025-05-16 08:19:55,170 - INFO - Q_num49 (GGB ID 49) Iter1 Msg28 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=5
+2025-05-16 08:19:55,170 - INFO - Q_num49 (GGB ID 49) Iter1 Msg30 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=7
+2025-05-16 08:19:55,170 - INFO - Q_num49 (GGB ID 49) Iter1 Msg32 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=7
+2025-05-16 08:19:55,170 - INFO - Q_num49 (GGB ID 49) Iter1 Msg34 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=7
+2025-05-16 08:19:55,171 - INFO - Q_num49 (GGB ID 49) Iter1 Msg36 Agent peripheral_openai_gpt_4o_mini_0: Ans=7
+2025-05-16 08:19:55,171 - INFO - Q_num49 (GGB ID 49) Iter1 Msg38 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=7
+2025-05-16 08:19:55,171 - INFO - Q_num49 (GGB ID 49) Iter1 Msg40 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=5
+2025-05-16 08:19:55,171 - INFO - Q_num49 (GGB ID 49) Iter1 Msg42 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=7
+2025-05-16 08:19:55,171 - INFO - Q_num49 (GGB ID 49) Iter1 Msg44 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=7
+2025-05-16 08:19:55,171 - INFO - Q_num49 (GGB ID 49) Iter1 Msg46 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=5
+2025-05-16 08:19:55,171 - INFO - Q_num49 (GGB ID 49) Iter1 Msg48 Agent peripheral_openai_gpt_4o_mini_0: Ans=7
+2025-05-16 08:19:55,531 - WARNING - --- GGB Q_num49 (ID 49) Star Iter1 no results. ---
+2025-05-16 08:19:55,577 - INFO - --- Star Run Finished (GGB) --- CONFIG HASH: 323c149b ---
