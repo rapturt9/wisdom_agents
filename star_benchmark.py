@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 """
 Star topology benchmark runner.
-Example: python star_benchmark.py --range 0 3 --rounds 4 --repeats 12 --processes 3 
+Example: python star_benchmark.py --range 0 3 --rounds 4 --repeats 12 --processes 3
 """
 
 import sys
@@ -28,8 +28,8 @@ def main():
                         help='Workers per handler')
     parser.add_argument('--processes', type=int, default=3, 
                         help='Concurrent handler processes')
-    parser.add_argument('--shuffle', action='store_true', 
-                        help='Shuffle agent order')
+    parser.add_argument('--shuffle', action='store_true', default=True,
+                        help='Shuffle agent order (default: True)')
     parser.add_argument('--with-inverted', action='store_true', 
                         help='Also run with inverted questions')
     parser.add_argument('--question-range', nargs=2, type=int, default=None,
@@ -60,21 +60,90 @@ def main():
         # Run the benchmark
         print(f"Starting star benchmark for supervisor indices {list(supervisor_range)}")
         print(f"Using {args.rounds} rounds and {args.repeats} repeats per question")
+        print(f"Shuffle agents: {'Enabled' if args.shuffle else 'Disabled'}")
+        print(f"Inverted questions: {'Enabled' if args.with_inverted else 'Disabled'}")
         
-        # Run async function
-        asyncio.run(run_stars_parallel(
-            models,
-            ggb_Qs,
-            ous_prompt,
-            inverted_prompt if args.with_inverted else None,
-            supervisor_range,
-            nrounds=args.rounds,
-            nrepeats=args.repeats,
-            shuffle=args.shuffle,
-            use_inverted=args.with_inverted,
-            max_processes=args.processes,
-            max_workers_per_process=args.workers
-        ))
+        # Since the run_stars_parallel function might be altered 
+        # to accept shuffle, we'll create handlers directly similar to ring
+        from src import StarHandlerParallel
+        
+        # Create tasks for each supervisor
+        tasks = []
+        
+        for supervisor_index in supervisor_range:
+            # Get supervisor name for chat type
+            supervisor_shortname = models[supervisor_index].split('/')[-1]
+            
+            # Regular supervisor - normal questions
+            run_chat_type = f'star_supervisor_{supervisor_shortname}'
+            star_handler = StarHandlerParallel(
+                models=models,
+                Qs=ggb_Qs,
+                Prompt=ous_prompt,
+                supervisor_index=supervisor_index,
+                is_supervisor_evil=False,
+                nrounds=args.rounds,
+                nrepeats=args.repeats,
+                shuffle=args.shuffle,  # Pass the shuffle flag
+                chat_type=f'ggb_{run_chat_type}',
+                max_workers=args.workers
+            )
+            tasks.append(star_handler.run_parallel())
+            
+            # Evil supervisor - normal questions
+            evil_run_chat_type = f'star_evil_supervisor_{supervisor_shortname}'
+            evil_star_handler = StarHandlerParallel(
+                models=models,
+                Qs=ggb_Qs,
+                Prompt=ous_prompt,
+                supervisor_index=supervisor_index,
+                is_supervisor_evil=True,
+                nrounds=args.rounds,
+                nrepeats=args.repeats,
+                shuffle=args.shuffle,  # Pass the shuffle flag
+                chat_type=f'ggb_{evil_run_chat_type}',
+                max_workers=args.workers
+            )
+            tasks.append(evil_star_handler.run_parallel())
+            
+            # If using inverted questions, add those handlers
+            if args.with_inverted and ggb_iQs:
+                # Regular supervisor - inverted questions
+                inv_star_handler = StarHandlerParallel(
+                    models=models,
+                    Qs=ggb_iQs,
+                    Prompt=inverted_prompt,
+                    supervisor_index=supervisor_index,
+                    is_supervisor_evil=False,
+                    nrounds=args.rounds,
+                    nrepeats=args.repeats,
+                    shuffle=args.shuffle,  # Pass the shuffle flag
+                    chat_type=f'ggb_inverted_{run_chat_type}',
+                    max_workers=args.workers
+                )
+                tasks.append(inv_star_handler.run_parallel())
+                
+                # Evil supervisor - inverted questions
+                inv_evil_star_handler = StarHandlerParallel(
+                    models=models,
+                    Qs=ggb_iQs,
+                    Prompt=inverted_prompt,
+                    supervisor_index=supervisor_index,
+                    is_supervisor_evil=True,
+                    nrounds=args.rounds,
+                    nrepeats=args.repeats,
+                    shuffle=args.shuffle,  # Pass the shuffle flag
+                    chat_type=f'ggb_inverted_{evil_run_chat_type}',
+                    max_workers=args.workers
+                )
+                tasks.append(inv_evil_star_handler.run_parallel())
+        
+        # Process tasks in batches based on max_processes
+        # This batching is important to avoid launching too many parallel handlers
+        max_processes = args.processes
+        for i in range(0, len(tasks), max_processes):
+            batch = tasks[i:i+max_processes]
+            asyncio.run(asyncio.gather(*batch))
         
         print("Benchmark completed successfully")
         

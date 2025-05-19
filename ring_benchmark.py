@@ -10,7 +10,6 @@ import asyncio
 
 # Import what we need from src
 from src import models, GGB_Statements, PromptHandler
-from src import run_all_rings_parallel
 
 # Hardcoded paths - change these if needed
 QUESTION_JSON = 'GGB_benchmark/GreatestGoodBenchmark.json'
@@ -24,8 +23,8 @@ def main():
                         help='Number of rounds in each conversation')
     parser.add_argument('--repeats', type=int, default=12, 
                         help='Number of iterations per question')
-    parser.add_argument('--shuffle', action='store_true', 
-                        help='Shuffle agent order')
+    parser.add_argument('--shuffle', action='store_true', default=True,
+                        help='Shuffle agent order (default: True)')
     parser.add_argument('--with-inverted', action='store_true', 
                         help='Also run with inverted questions')
     parser.add_argument('--question-range', nargs=2, type=int, default=None,
@@ -61,13 +60,12 @@ def main():
         print(f"Shuffle agents: {'Enabled' if args.shuffle else 'Disabled'}")
         print(f"Inverted questions: {'Enabled' if args.with_inverted else 'Disabled'}")
         
-        # We need to modify run_all_rings_parallel to accept the shuffle parameter
-        # For now, let's directly create and run handlers one by one
-        from src import RingHandlerParallel
-        
         # Create tasks for each model configuration
         tasks = []
         n_models = len(models)
+        
+        # Import the handler directly
+        from src import RingHandlerParallel
         
         for i in my_range:
             if i == 0:
@@ -85,7 +83,7 @@ def main():
                 Prompt=ous_prompt,
                 nrounds=args.rounds,
                 nrepeats=args.repeats,
-                shuffle=args.shuffle,
+                shuffle=args.shuffle,  # Pass the shuffle flag here
                 chat_type=f'ggb_{run_chat_type}',
                 max_workers=args.workers
             )
@@ -99,7 +97,7 @@ def main():
                     Prompt=inverted_prompt,
                     nrounds=args.rounds,
                     nrepeats=args.repeats,
-                    shuffle=args.shuffle,
+                    shuffle=args.shuffle,  # Pass the shuffle flag here
                     chat_type=f'ggb_inverted_{run_chat_type}',
                     max_workers=args.workers
                 )
