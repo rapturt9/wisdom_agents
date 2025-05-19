@@ -67,6 +67,7 @@ async def run_benchmark(args):
                 Prompt=ggb_prompt,
                 supervisor_index=supervisor_index,
                 is_supervisor_evil=False,
+                save_central_messages=True,
                 nrounds=args.rounds,       
                 nrepeats=args.repeats,     
                 shuffle=args.shuffle,

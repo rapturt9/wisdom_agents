@@ -907,7 +907,7 @@ class StarHandlerParallel(MultiAgentHandlerParallel):
     def __init__(self, models, Qs, Prompt, 
                  supervisor_index=0, is_supervisor_evil=False,
                  supervisor_convergence=True, evil_agent_idx=None,
-                 save_central_messages=False, nrounds=4, nrepeats=12, shuffle=True, 
+                 save_central_messages=True, nrounds=4, nrepeats=12, shuffle=True, 
                  chat_type='star', csv_dir='results_multi', max_workers=8, 
                  random_seed=None, max_concurrent_clients=10, rate_limit_window=60,
                  max_requests_per_window=100):
