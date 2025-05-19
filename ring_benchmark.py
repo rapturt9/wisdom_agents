@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-Ring topology benchmark runner.
+Ring topology benchmark runner with improved error handling and range enforcement.
 Example: python ring_benchmark.py --range 0 0 --question-range 4 5 --rounds 2 --repeats 2
 """
 
@@ -44,14 +44,19 @@ async def run_benchmark(args):
         ggb_Qs = GGB_Statements(question_set['json_file'])
         ggb_prompt = PromptHandler(group_chat=True, invert_answer=question_set['inverted'])
         
-        # Override question range 
-        if args.question_range:
-            q_start, q_end = args.question_range
-            print(f"Using question range: {q_start}-{q_end} for {os.path.basename(question_set['json_file'])}")
-            ggb_Qs.QUESTION_RANGE = (q_start, q_end)
+        # Get question range boundaries
+        q_range = args.question_range if args.question_range else (1, ggb_Qs.get_total_questions())
+        q_start, q_end = q_range
+        
+        # Print question range info
+        print(f"Using question range: {q_start}-{q_end} for {os.path.basename(question_set['json_file'])}")
         
         # Create tasks for each model configuration
         for i in my_range:
+            # Generate a consistent seed for this model configuration
+            # This ensures the same random agent order when using shuffle=True
+            seed_for_model = hash(f"ring_model_{i}") % 10000
+            
             if i == 0:
                 # Heterogeneous model configuration (all models)
                 run_models = models
@@ -76,6 +81,9 @@ async def run_benchmark(args):
                 rate_limit_window=args.rate_window,
                 max_requests_per_window=args.rate_limit
             )
+            
+            # Explicitly set question range before creating tasks
+            ring.QUESTION_RANGE = (q_start, q_end)
             
             # Store the task
             tasks.append(ring.run_parallel())
