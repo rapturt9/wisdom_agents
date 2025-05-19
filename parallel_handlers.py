@@ -22,13 +22,12 @@ from datetime import datetime
 import gc
 from filelock import FileLock
 from typing import List, Dict, Any, Tuple, Optional, Callable
-from autogen_ext.models.openai import OpenAIChatCompletionClient
+
 from autogen_agentchat.agents import AssistantAgent
 from autogen_agentchat.ui import Console
 from autogen_agentchat.teams import RoundRobinGroupChat, SelectorGroupChat
 from autogen_agentchat.conditions import MaxMessageTermination
-from dotenv import load_dotenv
-import google
+
 # Import necessary utility functions
 from src import get_client, extract_answer_from_response, extract_confidence_from_response, BufferedChat
 
@@ -185,50 +184,36 @@ class MultiAgentHandlerParallel:
         """Create an agent with proper error handling and retry logic"""
         max_retries = 3
         base_delay = 2.0
-
-        load_dotenv()
-
-        API_KEY = None
-        try:
-            # Google Colab environment
-            from google.colab import userdata
-            API_KEY = userdata.get('OPENROUTER_API_KEY')  # Colab secret name
-        except ImportError:
-            # Local environment
-            API_KEY = os.environ.get("OPENROUTER_API_KEY")  # Local environment variable
-        TEMP = 1
-    
+        
         for attempt in range(max_retries):
             try:
+                # Always use fresh_client=True in parallel mode to avoid sharing issues
+                client = await self.client_pool.get_client(model_name, fresh_client=True)
                 
                 # Create the agent
                 agent = AssistantAgent(
                     name=name,
-                    model_client=OpenAIChatCompletionClient(
-                        api_key=API_KEY,
-                        base_url="https://openrouter.ai/api/v1",
-                        model=model_name,
-                        temperature=TEMP,
-                        model_info = {
-                            "vision": False,
-                            "function_calling": False,
-                            "json_output": False,
-                            "structured_output": False,
-                            "family": "unknown",
-                        },
-                    ),
+                    model_client=client,
                     system_message=system_message,
                     model_context=model_context
                 )
-                # print(f"Creating agent {name} with model {model_name}")
-                # print(agent)
-
+                
+                # Verify the agent was properly created
+                if not hasattr(agent, 'model_client'):
+                    raise ValueError(f"Agent {name} was created but is missing model_client attribute")
+                
+                # Additional verification that model_client is not None
+                if agent.model_client is None:
+                    raise ValueError(f"Agent {name} has None model_client")
+                    
+                # Test the model_client to make sure it's valid
+                if not hasattr(agent.model_client, 'model'):
+                    raise ValueError(f"Agent {name} has invalid model_client (missing 'model' attribute)")
+                
                 self.logger.info(f"Successfully created agent {name} with model {model_name}")
                 return agent
                 
             except Exception as e:
-                import traceback
-                traceback.print_exc()
                 self.logger.error(f"Failed to create agent {name} with model {model_name}, attempt {attempt+1}: {str(e)}")
                 
                 if attempt < max_retries - 1:
