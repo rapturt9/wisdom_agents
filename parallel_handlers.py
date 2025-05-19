@@ -39,21 +39,15 @@ class ClientPool:
     """Pool of API clients with rate limiting protection"""
     
     def __init__(self, max_concurrent=10, rate_limit_window=60, max_requests_per_window=100):
-        """
-        Initialize a client pool with rate limiting.
-        
-        Args:
-            max_concurrent: Maximum number of concurrent clients
-            rate_limit_window: Time window in seconds for rate limiting
-            max_requests_per_window: Maximum requests allowed in the window
-        """
-        self.clients = {}  # Model name -> client
-        self.locks = {}  # Model name -> lock
-        self.request_timestamps = {}  # Model name -> list of request timestamps
+        # Each process will have its own clients dictionary
+        self.clients = {}
+        self.locks = {}
+        self.request_timestamps = {}
         self.max_concurrent = max_concurrent
-        self.rate_limit_window = rate_limit_window  # seconds
+        self.rate_limit_window = rate_limit_window
         self.max_requests_per_window = max_requests_per_window
         self.global_semaphore = asyncio.Semaphore(max_concurrent)
+        self.process_id = os.getpid()  # Track the process ID
         
         # Set up logging
         self.logger = logging.getLogger('client_pool')
@@ -65,15 +59,18 @@ class ClientPool:
             self.logger.setLevel(logging.INFO)
     
     async def get_client(self, model_name, fresh_client=False, max_retries=5, initial_retry_delay=1.0):
-        """
-        Get a client with retry logic and rate limiting protection
+        """Get a client with retry logic and rate limiting protection"""
+        # Always create fresh clients in worker processes to avoid sharing issues
+        current_pid = os.getpid()
+        if current_pid != self.process_id:
+            self.process_id = current_pid
+            self.clients = {}  # Reset clients for new process
+            self.locks = {}
+            self.request_timestamps = {}
+            fresh_client = True  # Always use fresh client in new process
+            self.logger.info(f"New process detected (PID {current_pid}), using fresh clients")
         
-        Args:
-            model_name: Name of the model to get client for
-            fresh_client: If True, always create a new client instance
-            max_retries: Maximum number of retries for client creation
-            initial_retry_delay: Initial delay between retries
-        """
+        # Create lock if needed
         if model_name not in self.locks:
             self.locks[model_name] = asyncio.Lock()
             self.request_timestamps[model_name] = []
@@ -88,13 +85,33 @@ class ClientPool:
                         # Create client if it doesn't exist or if fresh client requested
                         if model_name not in self.clients or fresh_client:
                             if fresh_client and model_name in self.clients:
-                                # Log that we're creating a fresh client
                                 self.logger.info(f"Creating fresh client for {model_name} as requested")
                             
-                            self.clients[model_name] = get_client(model_name)
+                            # Import get_client directly here to avoid any import issues
+                            from src import get_client as src_get_client
+                            try:
+                                # Create the client with explicit error handling
+                                self.logger.info(f"Getting client for {model_name} in process {current_pid}")
+                                client = src_get_client(model_name)
+                                if client is None:
+                                    raise ValueError(f"get_client returned None for {model_name}")
+                                
+                                # Test the client by accessing a key attribute
+                                if not hasattr(client, 'model'):
+                                    raise ValueError(f"Client for {model_name} is missing 'model' attribute")
+                                    
+                                self.clients[model_name] = client
+                                self.logger.info(f"Successfully created client for {model_name} in process {current_pid}")
+                            except Exception as e:
+                                self.logger.error(f"Error creating client for {model_name}: {str(e)}")
+                                raise
                         
                         # Record this request timestamp
                         self._record_request(model_name)
+                        
+                        # Return a validated client
+                        if self.clients[model_name] is None:
+                            raise ValueError(f"Client for {model_name} is None")
                         
                         return self.clients[model_name]
                         
@@ -108,7 +125,7 @@ class ClientPool:
                     retry_delay = initial_retry_delay * (2 ** attempt)
                     self.logger.info(f"Retrying in {retry_delay:.2f} seconds...")
                     await asyncio.sleep(retry_delay)
-    
+
     async def _check_rate_limit(self, model_name):
         """Check if we're hitting rate limits and wait if necessary"""
         now = time.time()
@@ -164,24 +181,14 @@ class MultiAgentHandlerParallel:
         )
     
     async def create_agent_safely(self, name, model_name, system_message, model_context=None, fresh_client=True):
-        """
-        Create an agent with proper error handling and retry logic
-        
-        Args:
-            name: Agent name
-            model_name: Model name to use
-            system_message: System message for the agent
-            model_context: Optional model context
-            fresh_client: If True, always create a new client instance
-        """
+        """Create an agent with proper error handling and retry logic"""
         max_retries = 3
         base_delay = 2.0
         
         for attempt in range(max_retries):
             try:
-                # Get a client from the pool with retry logic built in
-                # Always use fresh_client=True to ensure each agent has an independent client
-                client = await self.client_pool.get_client(model_name, fresh_client=fresh_client)
+                # Always use fresh_client=True in parallel mode to avoid sharing issues
+                client = await self.client_pool.get_client(model_name, fresh_client=True)
                 
                 # Create the agent
                 agent = AssistantAgent(
@@ -194,7 +201,16 @@ class MultiAgentHandlerParallel:
                 # Verify the agent was properly created
                 if not hasattr(agent, 'model_client'):
                     raise ValueError(f"Agent {name} was created but is missing model_client attribute")
+                
+                # Additional verification that model_client is not None
+                if agent.model_client is None:
+                    raise ValueError(f"Agent {name} has None model_client")
                     
+                # Test the model_client to make sure it's valid
+                if not hasattr(agent.model_client, 'model'):
+                    raise ValueError(f"Agent {name} has invalid model_client (missing 'model' attribute)")
+                
+                self.logger.info(f"Successfully created agent {name} with model {model_name}")
                 return agent
                 
             except Exception as e:
@@ -208,7 +224,7 @@ class MultiAgentHandlerParallel:
                 else:
                     self.logger.error(f"All {max_retries} attempts to create agent {name} failed")
                     raise
-        
+    
     def get_multi_agent_filenames(self, chat_type, config_details, question_range, num_iterations, model_identifier="ggb", csv_dir='results_multi'):
         """Generates consistent filenames for multi-agent runs."""
         config_hash = self.create_config_hash(config_details)
@@ -570,8 +586,11 @@ Progress Report for {chat_type}:
         random.shuffle(tasks)
         return tasks
     
+    
     async def run_parallel(self):
         """Run all tasks in parallel with semaphore-controlled concurrency."""
+        # Modify to use process-local resources
+        # Force fresh client creation in each process
         self.logger.info(f"Starting parallel run for {self.CHAT_TYPE}")
         print(f"Starting parallel run for {self.CHAT_TYPE}")
         
@@ -586,6 +605,7 @@ Progress Report for {chat_type}:
             
         self.logger.info(f"Created {total_tasks} tasks for parallel processing with {self.max_workers} workers")
         print(f"Created {total_tasks} tasks for parallel processing with {self.max_workers} workers")
+        
         
         # Set up a background task to consolidate checkpoints periodically
         async def consolidate_periodically():
