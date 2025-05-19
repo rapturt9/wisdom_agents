@@ -7,6 +7,10 @@ Example: python ring_benchmark.py --range 0 0 --question-range 4 5 --rounds 2 --
 import sys
 import argparse
 import asyncio
+import os
+import time
+import json
+from datetime import datetime
 
 # Import what we need from src
 from src import models, GGB_Statements, PromptHandler
@@ -19,29 +23,26 @@ async def run_benchmark(args):
     """Async function to run the benchmark"""
     # Load questions
     ggb_Qs = GGB_Statements(QUESTION_JSON)
-    ggb_iQs = GGB_Statements(INVERTED_JSON) if args.with_inverted else None
     
-    # Override question range if specified
+    # Override question range 
     if args.question_range:
         q_start, q_end = args.question_range
+        print(f"Using question range: {q_start}-{q_end}")
+        # Directly set the question range - only process these questions
         ggb_Qs.QUESTION_RANGE = (q_start, q_end)
-        if ggb_iQs:
-            ggb_iQs.QUESTION_RANGE = (q_start, q_end)
     
     # Create prompts
     ous_prompt = PromptHandler(group_chat=True)
-    inverted_prompt = PromptHandler(group_chat=True, invert_answer=True)
     
     # Set model range
     start_idx, end_idx = args.range
     my_range = range(start_idx, end_idx + 1)
     
-    # Import the handler directly
+    # Create tasks for each model configuration
     from src import RingHandlerParallel
     
-    # Create tasks for each model configuration
-    tasks = []
     n_models = len(models)
+    tasks = []
     
     for i in my_range:
         if i == 0:
@@ -52,34 +53,22 @@ async def run_benchmark(args):
             model_shortname = models[i-1].split('/')[-1]
             run_chat_type = f'{model_shortname}_ring'
         
-        # Regular questions
+        # Create the handler with the specific parameters
         ring = RingHandlerParallel(
             models=run_models,
             Qs=ggb_Qs,
             Prompt=ous_prompt,
-            nrounds=args.rounds,
-            nrepeats=args.repeats,
+            nrounds=args.rounds,     # Pass the rounds parameter
+            nrepeats=args.repeats,   # Pass the repeats parameter
             shuffle=args.shuffle,
             chat_type=f'ggb_{run_chat_type}',
             max_workers=args.workers
         )
-        tasks.append(ring.run_parallel())
         
-        # Inverted questions if requested
-        if args.with_inverted and ggb_iQs:
-            inv_ring = RingHandlerParallel(
-                models=run_models,
-                Qs=ggb_iQs,
-                Prompt=inverted_prompt,
-                nrounds=args.rounds,
-                nrepeats=args.repeats,
-                shuffle=args.shuffle,
-                chat_type=f'ggb_inverted_{run_chat_type}',
-                max_workers=args.workers
-            )
-            tasks.append(inv_ring.run_parallel())
+        # Store the task
+        tasks.append(ring.run_parallel())
     
-    # Run all tasks concurrently - this is the correct way to await them
+    # Run all tasks concurrently
     await asyncio.gather(*tasks)
 
 def main():
@@ -108,7 +97,7 @@ def main():
         print(f"Starting ring benchmark for model indices {list(my_range)}")
         print(f"Using {args.rounds} rounds and {args.repeats} repeats per question")
         print(f"Shuffle agents: {'Enabled' if args.shuffle else 'Disabled'}")
-        print(f"Inverted questions: {'Enabled' if args.with_inverted else 'Disabled'}")
+        print(f"Workers per handler: {args.workers}")
         
         # Run the benchmark using asyncio.run correctly
         asyncio.run(run_benchmark(args))

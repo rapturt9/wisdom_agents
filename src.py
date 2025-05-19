@@ -1673,8 +1673,8 @@ class RingHandlerParallel(MultiAgentHandlerParallel):
         }
 
         # Clean up to prevent memory leaks - VERY IMPORTANT
-        for agent in agents:
-            del agent.model_client  # Explicitly delete the client
+        # for agent in agents:
+        #     del agent.model_client  # Explicitly delete the client
         del agents, team, result
         gc.collect()  # Force garbage collection
 
@@ -2118,7 +2118,8 @@ class StarHandlerParallel(MultiAgentHandlerParallel):
 
         # Clean up to prevent memory leaks - VERY IMPORTANT
         for agent in agents:
-            del agent.model_client  # Explicitly delete the client
+            if hasattr(agent,'model_client'):
+                del agent.model_client  # Explicitly delete the client
         del agents, team, result, fresh_central_client
         gc.collect()  # Force garbage collection
 
