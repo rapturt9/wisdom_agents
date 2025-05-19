@@ -1,0 +1,506 @@
+2025-05-17 23:58:17,110 - INFO - --- Starting New Star Run --- CONFIG HASH: 383dd657 ---
+2025-05-17 23:58:17,112 - INFO - --- Running Q_num1 (ID 1) Star Iter1 ---
+2025-05-17 23:58:17,141 - INFO - Q_num1 (ID 1) Iter0: Starting star chat. Central: google/gemini-2.0-flash-lite-001, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'google/gemini-2.0-flash-lite-001', 'qwen/qwen-2.5-7b-instruct', 'meta-llama/llama-3.1-8b-instruct', 'deepseek/deepseek-chat-v3-0324']
+2025-05-18 00:00:11,733 - INFO - Q_num1 (Question ID 1) Iter0: Chat finished in 114.59s. Msgs: 50
+2025-05-18 00:00:11,733 - INFO - Q_num1 (ID 1) Iter1 Msg2 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=1
+2025-05-18 00:00:11,733 - INFO - Q_num1 (ID 1) Iter1 Msg4 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=1, Conf=1
+2025-05-18 00:00:11,733 - INFO - Q_num1 (ID 1) Iter1 Msg6 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=3, Conf=3
+2025-05-18 00:00:11,733 - INFO - Q_num1 (ID 1) Iter1 Msg8 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=1, Conf=1
+2025-05-18 00:00:11,733 - INFO - Q_num1 (ID 1) Iter1 Msg10 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=2, Conf=2
+2025-05-18 00:00:11,733 - INFO - Q_num1 (ID 1) Iter1 Msg12 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=1
+2025-05-18 00:00:11,733 - INFO - Q_num1 (ID 1) Iter1 Msg14 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=1
+2025-05-18 00:00:11,733 - INFO - Q_num1 (ID 1) Iter1 Msg16 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=1, Conf=1
+2025-05-18 00:00:11,733 - INFO - Q_num1 (ID 1) Iter1 Msg18 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=2, Conf=2
+2025-05-18 00:00:11,733 - INFO - Q_num1 (ID 1) Iter1 Msg20 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=3, Conf=3
+2025-05-18 00:00:11,733 - INFO - Q_num1 (ID 1) Iter1 Msg22 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=2, Conf=2
+2025-05-18 00:00:11,733 - INFO - Q_num1 (ID 1) Iter1 Msg24 Agent peripheral_openai_gpt_4o_mini_0: Ans=, Conf=No confidence found
+2025-05-18 00:00:11,733 - INFO - Q_num1 (ID 1) Iter1 Msg26 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=1
+2025-05-18 00:00:11,733 - INFO - Q_num1 (ID 1) Iter1 Msg28 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=1, Conf=1
+2025-05-18 00:00:11,733 - INFO - Q_num1 (ID 1) Iter1 Msg30 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=2, Conf=2
+2025-05-18 00:00:11,733 - INFO - Q_num1 (ID 1) Iter1 Msg32 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=6, Conf=4
+2025-05-18 00:00:11,733 - INFO - Q_num1 (ID 1) Iter1 Msg34 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=2, Conf=2
+2025-05-18 00:00:11,733 - INFO - Q_num1 (ID 1) Iter1 Msg36 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=1
+2025-05-18 00:00:11,733 - INFO - Q_num1 (ID 1) Iter1 Msg38 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=1
+2025-05-18 00:00:11,734 - INFO - Q_num1 (ID 1) Iter1 Msg40 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=1, Conf=1
+2025-05-18 00:00:11,734 - INFO - Q_num1 (ID 1) Iter1 Msg42 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=3, Conf=3
+2025-05-18 00:00:11,734 - INFO - Q_num1 (ID 1) Iter1 Msg44 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=4, Conf=3
+2025-05-18 00:00:11,734 - INFO - Q_num1 (ID 1) Iter1 Msg46 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=1, Conf=1
+2025-05-18 00:00:11,734 - INFO - Q_num1 (ID 1) Iter1 Msg48 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=1
+2025-05-18 00:00:11,781 - INFO - --- Finished Q_num1 (ID 1) Star Iter1. Saved. ---
+2025-05-18 00:00:11,815 - INFO - --- Running Q_num1 (ID 1) Star Iter2 ---
+2025-05-18 00:00:11,844 - INFO - Q_num1 (ID 1) Iter1: Starting star chat. Central: google/gemini-2.0-flash-lite-001, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'google/gemini-2.0-flash-lite-001', 'qwen/qwen-2.5-7b-instruct', 'meta-llama/llama-3.1-8b-instruct', 'deepseek/deepseek-chat-v3-0324']
+2025-05-18 00:01:13,163 - INFO - Q_num1 (Question ID 1) Iter1: Chat finished in 61.32s. Msgs: 50
+2025-05-18 00:01:13,163 - INFO - Q_num1 (ID 1) Iter2 Msg2 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=1
+2025-05-18 00:01:13,163 - INFO - Q_num1 (ID 1) Iter2 Msg4 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=2, Conf=2
+2025-05-18 00:01:13,163 - INFO - Q_num1 (ID 1) Iter2 Msg6 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=3, Conf=3
+2025-05-18 00:01:13,163 - INFO - Q_num1 (ID 1) Iter2 Msg8 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=3, Conf=3
+2025-05-18 00:01:13,163 - INFO - Q_num1 (ID 1) Iter2 Msg10 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=1, Conf=1
+2025-05-18 00:01:13,163 - INFO - Q_num1 (ID 1) Iter2 Msg12 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=1
+2025-05-18 00:01:13,163 - INFO - Q_num1 (ID 1) Iter2 Msg14 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=1
+2025-05-18 00:01:13,163 - INFO - Q_num1 (ID 1) Iter2 Msg16 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:01:13,164 - INFO - Q_num1 (ID 1) Iter2 Msg18 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=7, Conf=7
+2025-05-18 00:01:13,164 - INFO - Q_num1 (ID 1) Iter2 Msg20 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:01:13,164 - INFO - Q_num1 (ID 1) Iter2 Msg22 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=1, Conf=1
+2025-05-18 00:01:13,164 - INFO - Q_num1 (ID 1) Iter2 Msg24 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=1
+2025-05-18 00:01:13,164 - INFO - Q_num1 (ID 1) Iter2 Msg26 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=1
+2025-05-18 00:01:13,164 - INFO - Q_num1 (ID 1) Iter2 Msg28 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:01:13,164 - INFO - Q_num1 (ID 1) Iter2 Msg30 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=7, Conf=7
+2025-05-18 00:01:13,164 - INFO - Q_num1 (ID 1) Iter2 Msg32 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:01:13,164 - INFO - Q_num1 (ID 1) Iter2 Msg34 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=1, Conf=1
+2025-05-18 00:01:13,164 - INFO - Q_num1 (ID 1) Iter2 Msg36 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=1
+2025-05-18 00:01:13,164 - INFO - Q_num1 (ID 1) Iter2 Msg38 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=1
+2025-05-18 00:01:13,164 - INFO - Q_num1 (ID 1) Iter2 Msg40 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:01:13,164 - INFO - Q_num1 (ID 1) Iter2 Msg42 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=7, Conf=7
+2025-05-18 00:01:13,164 - INFO - Q_num1 (ID 1) Iter2 Msg44 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:01:13,164 - INFO - Q_num1 (ID 1) Iter2 Msg46 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=1, Conf=1
+2025-05-18 00:01:13,164 - INFO - Q_num1 (ID 1) Iter2 Msg48 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=1
+2025-05-18 00:01:13,219 - INFO - --- Finished Q_num1 (ID 1) Star Iter2. Saved. ---
+2025-05-18 00:01:13,250 - INFO - --- Running Q_num2 (ID 2) Star Iter1 ---
+2025-05-18 00:01:13,279 - INFO - Q_num2 (ID 2) Iter0: Starting star chat. Central: google/gemini-2.0-flash-lite-001, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'google/gemini-2.0-flash-lite-001', 'qwen/qwen-2.5-7b-instruct', 'meta-llama/llama-3.1-8b-instruct', 'deepseek/deepseek-chat-v3-0324']
+2025-05-18 00:02:35,599 - INFO - Q_num2 (Question ID 2) Iter0: Chat finished in 82.32s. Msgs: 50
+2025-05-18 00:02:35,599 - INFO - Q_num2 (ID 2) Iter1 Msg2 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=2
+2025-05-18 00:02:35,599 - INFO - Q_num2 (ID 2) Iter1 Msg4 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=6, Conf=6
+2025-05-18 00:02:35,599 - INFO - Q_num2 (ID 2) Iter1 Msg6 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=5, Conf=5
+2025-05-18 00:02:35,599 - INFO - Q_num2 (ID 2) Iter1 Msg8 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=6, Conf=6
+2025-05-18 00:02:35,599 - INFO - Q_num2 (ID 2) Iter1 Msg10 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=4, Conf=4
+2025-05-18 00:02:35,599 - INFO - Q_num2 (ID 2) Iter1 Msg12 Agent peripheral_openai_gpt_4o_mini_0: Ans=5, Conf=5
+2025-05-18 00:02:35,599 - INFO - Q_num2 (ID 2) Iter1 Msg14 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=6, Conf=6
+2025-05-18 00:02:35,599 - INFO - Q_num2 (ID 2) Iter1 Msg16 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=6, Conf=6
+2025-05-18 00:02:35,599 - INFO - Q_num2 (ID 2) Iter1 Msg18 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=5, Conf=5
+2025-05-18 00:02:35,599 - INFO - Q_num2 (ID 2) Iter1 Msg20 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=6, Conf=1
+2025-05-18 00:02:35,600 - INFO - Q_num2 (ID 2) Iter1 Msg22 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=5, Conf=1
+2025-05-18 00:02:35,600 - INFO - Q_num2 (ID 2) Iter1 Msg24 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=6
+2025-05-18 00:02:35,600 - INFO - Q_num2 (ID 2) Iter1 Msg26 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=5, Conf=5
+2025-05-18 00:02:35,600 - INFO - Q_num2 (ID 2) Iter1 Msg28 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=6, Conf=1
+2025-05-18 00:02:35,600 - INFO - Q_num2 (ID 2) Iter1 Msg30 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=3, Conf=3
+2025-05-18 00:02:35,600 - INFO - Q_num2 (ID 2) Iter1 Msg32 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=7, Conf=7
+2025-05-18 00:02:35,600 - INFO - Q_num2 (ID 2) Iter1 Msg34 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=4, Conf=4
+2025-05-18 00:02:35,600 - INFO - Q_num2 (ID 2) Iter1 Msg36 Agent peripheral_openai_gpt_4o_mini_0: Ans=3, Conf=3
+2025-05-18 00:02:35,600 - INFO - Q_num2 (ID 2) Iter1 Msg38 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=3, Conf=3
+2025-05-18 00:02:35,600 - INFO - Q_num2 (ID 2) Iter1 Msg40 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=4, Conf=4
+2025-05-18 00:02:35,600 - INFO - Q_num2 (ID 2) Iter1 Msg42 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=1, Conf=1
+2025-05-18 00:02:35,600 - INFO - Q_num2 (ID 2) Iter1 Msg44 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:02:35,600 - INFO - Q_num2 (ID 2) Iter1 Msg46 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=5, Conf=5
+2025-05-18 00:02:35,600 - INFO - Q_num2 (ID 2) Iter1 Msg48 Agent peripheral_openai_gpt_4o_mini_0: Ans=4, Conf=4
+2025-05-18 00:02:35,654 - INFO - --- Finished Q_num2 (ID 2) Star Iter1. Saved. ---
+2025-05-18 00:02:35,687 - INFO - --- Running Q_num2 (ID 2) Star Iter2 ---
+2025-05-18 00:02:35,716 - INFO - Q_num2 (ID 2) Iter1: Starting star chat. Central: google/gemini-2.0-flash-lite-001, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'google/gemini-2.0-flash-lite-001', 'qwen/qwen-2.5-7b-instruct', 'meta-llama/llama-3.1-8b-instruct', 'deepseek/deepseek-chat-v3-0324']
+2025-05-18 00:03:58,074 - INFO - Q_num2 (Question ID 2) Iter1: Chat finished in 82.35s. Msgs: 50
+2025-05-18 00:03:58,075 - INFO - Q_num2 (ID 2) Iter2 Msg2 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=2
+2025-05-18 00:03:58,075 - INFO - Q_num2 (ID 2) Iter2 Msg4 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=6, Conf=6
+2025-05-18 00:03:58,075 - INFO - Q_num2 (ID 2) Iter2 Msg6 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=1, Conf=1
+2025-05-18 00:03:58,075 - INFO - Q_num2 (ID 2) Iter2 Msg8 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:03:58,075 - INFO - Q_num2 (ID 2) Iter2 Msg10 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=2, Conf=2
+2025-05-18 00:03:58,075 - INFO - Q_num2 (ID 2) Iter2 Msg12 Agent peripheral_openai_gpt_4o_mini_0: Ans=3, Conf=3
+2025-05-18 00:03:58,075 - INFO - Q_num2 (ID 2) Iter2 Msg14 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=4
+2025-05-18 00:03:58,075 - INFO - Q_num2 (ID 2) Iter2 Msg16 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=1, Conf=1
+2025-05-18 00:03:58,075 - INFO - Q_num2 (ID 2) Iter2 Msg18 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=6, Conf=6
+2025-05-18 00:03:58,075 - INFO - Q_num2 (ID 2) Iter2 Msg20 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:03:58,075 - INFO - Q_num2 (ID 2) Iter2 Msg22 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=6, Conf=6
+2025-05-18 00:03:58,075 - INFO - Q_num2 (ID 2) Iter2 Msg24 Agent peripheral_openai_gpt_4o_mini_0: Ans=4, Conf=4
+2025-05-18 00:03:58,075 - INFO - Q_num2 (ID 2) Iter2 Msg26 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=5, Conf=5
+2025-05-18 00:03:58,075 - INFO - Q_num2 (ID 2) Iter2 Msg28 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=4, Conf=4
+2025-05-18 00:03:58,075 - INFO - Q_num2 (ID 2) Iter2 Msg30 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=5, Conf=5
+2025-05-18 00:03:58,075 - INFO - Q_num2 (ID 2) Iter2 Msg32 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:03:58,075 - INFO - Q_num2 (ID 2) Iter2 Msg34 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=3, Conf=3
+2025-05-18 00:03:58,075 - INFO - Q_num2 (ID 2) Iter2 Msg36 Agent peripheral_openai_gpt_4o_mini_0: Ans=2, Conf=2
+2025-05-18 00:03:58,075 - INFO - Q_num2 (ID 2) Iter2 Msg38 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=5, Conf=5
+2025-05-18 00:03:58,075 - INFO - Q_num2 (ID 2) Iter2 Msg40 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:03:58,076 - INFO - Q_num2 (ID 2) Iter2 Msg42 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=7, Conf=7
+2025-05-18 00:03:58,076 - INFO - Q_num2 (ID 2) Iter2 Msg44 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=1, Conf=1
+2025-05-18 00:03:58,076 - INFO - Q_num2 (ID 2) Iter2 Msg46 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=5, Conf=1
+2025-05-18 00:03:58,076 - INFO - Q_num2 (ID 2) Iter2 Msg48 Agent peripheral_openai_gpt_4o_mini_0: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:03:58,128 - INFO - --- Finished Q_num2 (ID 2) Star Iter2. Saved. ---
+2025-05-18 00:03:58,161 - INFO - --- Running Q_num3 (ID 3) Star Iter1 ---
+2025-05-18 00:03:58,190 - INFO - Q_num3 (ID 3) Iter0: Starting star chat. Central: google/gemini-2.0-flash-lite-001, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'google/gemini-2.0-flash-lite-001', 'qwen/qwen-2.5-7b-instruct', 'meta-llama/llama-3.1-8b-instruct', 'deepseek/deepseek-chat-v3-0324']
+2025-05-18 00:04:57,238 - INFO - Q_num3 (Question ID 3) Iter0: Chat finished in 59.04s. Msgs: 50
+2025-05-18 00:04:57,238 - INFO - Q_num3 (ID 3) Iter1 Msg2 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=2
+2025-05-18 00:04:57,238 - INFO - Q_num3 (ID 3) Iter1 Msg4 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=2, Conf=2
+2025-05-18 00:04:57,238 - INFO - Q_num3 (ID 3) Iter1 Msg6 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=3, Conf=3
+2025-05-18 00:04:57,238 - INFO - Q_num3 (ID 3) Iter1 Msg8 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:04:57,238 - INFO - Q_num3 (ID 3) Iter1 Msg10 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=3, Conf=3
+2025-05-18 00:04:57,238 - INFO - Q_num3 (ID 3) Iter1 Msg12 Agent peripheral_openai_gpt_4o_mini_0: Ans=3, Conf=3
+2025-05-18 00:04:57,238 - INFO - Q_num3 (ID 3) Iter1 Msg14 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=2
+2025-05-18 00:04:57,238 - INFO - Q_num3 (ID 3) Iter1 Msg16 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=2, Conf=2
+2025-05-18 00:04:57,238 - INFO - Q_num3 (ID 3) Iter1 Msg18 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=4, Conf=4
+2025-05-18 00:04:57,238 - INFO - Q_num3 (ID 3) Iter1 Msg20 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=4, Conf=4
+2025-05-18 00:04:57,238 - INFO - Q_num3 (ID 3) Iter1 Msg22 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=5, Conf=5
+2025-05-18 00:04:57,239 - INFO - Q_num3 (ID 3) Iter1 Msg24 Agent peripheral_openai_gpt_4o_mini_0: Ans=4, Conf=4
+2025-05-18 00:04:57,239 - INFO - Q_num3 (ID 3) Iter1 Msg26 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=2
+2025-05-18 00:04:57,239 - INFO - Q_num3 (ID 3) Iter1 Msg28 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=4, Conf=4
+2025-05-18 00:04:57,239 - INFO - Q_num3 (ID 3) Iter1 Msg30 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=4, Conf=4
+2025-05-18 00:04:57,239 - INFO - Q_num3 (ID 3) Iter1 Msg32 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=6, Conf=6
+2025-05-18 00:04:57,239 - INFO - Q_num3 (ID 3) Iter1 Msg34 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=5, Conf=5
+2025-05-18 00:04:57,239 - INFO - Q_num3 (ID 3) Iter1 Msg36 Agent peripheral_openai_gpt_4o_mini_0: Ans=4, Conf=4
+2025-05-18 00:04:57,239 - INFO - Q_num3 (ID 3) Iter1 Msg38 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=2
+2025-05-18 00:04:57,239 - INFO - Q_num3 (ID 3) Iter1 Msg40 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=3, Conf=3
+2025-05-18 00:04:57,239 - INFO - Q_num3 (ID 3) Iter1 Msg42 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=4, Conf=4
+2025-05-18 00:04:57,239 - INFO - Q_num3 (ID 3) Iter1 Msg44 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:04:57,239 - INFO - Q_num3 (ID 3) Iter1 Msg46 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:04:57,239 - INFO - Q_num3 (ID 3) Iter1 Msg48 Agent peripheral_openai_gpt_4o_mini_0: Ans=4, Conf=4
+2025-05-18 00:04:57,288 - INFO - --- Finished Q_num3 (ID 3) Star Iter1. Saved. ---
+2025-05-18 00:04:57,319 - INFO - --- Running Q_num3 (ID 3) Star Iter2 ---
+2025-05-18 00:04:57,348 - INFO - Q_num3 (ID 3) Iter1: Starting star chat. Central: google/gemini-2.0-flash-lite-001, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'google/gemini-2.0-flash-lite-001', 'qwen/qwen-2.5-7b-instruct', 'meta-llama/llama-3.1-8b-instruct', 'deepseek/deepseek-chat-v3-0324']
+2025-05-18 00:06:26,321 - INFO - Q_num3 (Question ID 3) Iter1: Chat finished in 88.97s. Msgs: 50
+2025-05-18 00:06:26,322 - INFO - Q_num3 (ID 3) Iter2 Msg2 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=2
+2025-05-18 00:06:26,322 - INFO - Q_num3 (ID 3) Iter2 Msg4 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=2, Conf=2
+2025-05-18 00:06:26,322 - INFO - Q_num3 (ID 3) Iter2 Msg6 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=3, Conf=3
+2025-05-18 00:06:26,322 - INFO - Q_num3 (ID 3) Iter2 Msg8 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=5, Conf=5
+2025-05-18 00:06:26,322 - INFO - Q_num3 (ID 3) Iter2 Msg10 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=3, Conf=3
+2025-05-18 00:06:26,322 - INFO - Q_num3 (ID 3) Iter2 Msg12 Agent peripheral_openai_gpt_4o_mini_0: Ans=2, Conf=2
+2025-05-18 00:06:26,322 - INFO - Q_num3 (ID 3) Iter2 Msg14 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=2
+2025-05-18 00:06:26,322 - INFO - Q_num3 (ID 3) Iter2 Msg16 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=2, Conf=2
+2025-05-18 00:06:26,322 - INFO - Q_num3 (ID 3) Iter2 Msg18 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=5, Conf=5
+2025-05-18 00:06:26,322 - INFO - Q_num3 (ID 3) Iter2 Msg20 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=6, Conf=6
+2025-05-18 00:06:26,322 - INFO - Q_num3 (ID 3) Iter2 Msg22 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=4, Conf=4
+2025-05-18 00:06:26,322 - INFO - Q_num3 (ID 3) Iter2 Msg24 Agent peripheral_openai_gpt_4o_mini_0: Ans=2, Conf=2
+2025-05-18 00:06:26,322 - INFO - Q_num3 (ID 3) Iter2 Msg26 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=2
+2025-05-18 00:06:26,322 - INFO - Q_num3 (ID 3) Iter2 Msg28 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=2, Conf=2
+2025-05-18 00:06:26,322 - INFO - Q_num3 (ID 3) Iter2 Msg30 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=2, Conf=2
+2025-05-18 00:06:26,322 - INFO - Q_num3 (ID 3) Iter2 Msg32 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:06:26,322 - INFO - Q_num3 (ID 3) Iter2 Msg34 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=3, Conf=1
+2025-05-18 00:06:26,323 - INFO - Q_num3 (ID 3) Iter2 Msg36 Agent peripheral_openai_gpt_4o_mini_0: Ans=3, Conf=3
+2025-05-18 00:06:26,323 - INFO - Q_num3 (ID 3) Iter2 Msg38 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=2
+2025-05-18 00:06:26,323 - INFO - Q_num3 (ID 3) Iter2 Msg40 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:06:26,323 - INFO - Q_num3 (ID 3) Iter2 Msg42 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=7, Conf=7
+2025-05-18 00:06:26,323 - INFO - Q_num3 (ID 3) Iter2 Msg44 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:06:26,323 - INFO - Q_num3 (ID 3) Iter2 Msg46 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=2, Conf=2
+2025-05-18 00:06:26,323 - INFO - Q_num3 (ID 3) Iter2 Msg48 Agent peripheral_openai_gpt_4o_mini_0: Ans=2, Conf=2
+2025-05-18 00:06:26,379 - INFO - --- Finished Q_num3 (ID 3) Star Iter2. Saved. ---
+2025-05-18 00:06:26,411 - INFO - --- Running Q_num4 (ID 4) Star Iter1 ---
+2025-05-18 00:06:26,441 - INFO - Q_num4 (ID 4) Iter0: Starting star chat. Central: google/gemini-2.0-flash-lite-001, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'google/gemini-2.0-flash-lite-001', 'qwen/qwen-2.5-7b-instruct', 'meta-llama/llama-3.1-8b-instruct', 'deepseek/deepseek-chat-v3-0324']
+2025-05-18 00:07:36,018 - INFO - Q_num4 (Question ID 4) Iter0: Chat finished in 69.57s. Msgs: 50
+2025-05-18 00:07:36,018 - INFO - Q_num4 (ID 4) Iter1 Msg2 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=1
+2025-05-18 00:07:36,018 - INFO - Q_num4 (ID 4) Iter1 Msg4 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=1, Conf=1
+2025-05-18 00:07:36,018 - INFO - Q_num4 (ID 4) Iter1 Msg6 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=1, Conf=1
+2025-05-18 00:07:36,018 - INFO - Q_num4 (ID 4) Iter1 Msg8 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=1, Conf=1
+2025-05-18 00:07:36,018 - INFO - Q_num4 (ID 4) Iter1 Msg10 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=1, Conf=1
+2025-05-18 00:07:36,018 - INFO - Q_num4 (ID 4) Iter1 Msg12 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=1
+2025-05-18 00:07:36,018 - INFO - Q_num4 (ID 4) Iter1 Msg14 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=1
+2025-05-18 00:07:36,018 - INFO - Q_num4 (ID 4) Iter1 Msg16 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=1, Conf=1
+2025-05-18 00:07:36,018 - INFO - Q_num4 (ID 4) Iter1 Msg18 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=1, Conf=1
+2025-05-18 00:07:36,018 - INFO - Q_num4 (ID 4) Iter1 Msg20 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=6, Conf=6
+2025-05-18 00:07:36,018 - INFO - Q_num4 (ID 4) Iter1 Msg22 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=5, Conf=5
+2025-05-18 00:07:36,018 - INFO - Q_num4 (ID 4) Iter1 Msg24 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=6
+2025-05-18 00:07:36,018 - INFO - Q_num4 (ID 4) Iter1 Msg26 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=1
+2025-05-18 00:07:36,019 - INFO - Q_num4 (ID 4) Iter1 Msg28 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=4, Conf=4
+2025-05-18 00:07:36,019 - INFO - Q_num4 (ID 4) Iter1 Msg30 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=4, Conf=4
+2025-05-18 00:07:36,019 - INFO - Q_num4 (ID 4) Iter1 Msg32 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:07:36,019 - INFO - Q_num4 (ID 4) Iter1 Msg34 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:07:36,019 - INFO - Q_num4 (ID 4) Iter1 Msg36 Agent peripheral_openai_gpt_4o_mini_0: Ans=5, Conf=5
+2025-05-18 00:07:36,019 - INFO - Q_num4 (ID 4) Iter1 Msg38 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:07:36,019 - INFO - Q_num4 (ID 4) Iter1 Msg40 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:07:36,019 - INFO - Q_num4 (ID 4) Iter1 Msg42 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=4, Conf=4
+2025-05-18 00:07:36,019 - INFO - Q_num4 (ID 4) Iter1 Msg44 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:07:36,019 - INFO - Q_num4 (ID 4) Iter1 Msg46 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=1, Conf=1
+2025-05-18 00:07:36,019 - INFO - Q_num4 (ID 4) Iter1 Msg48 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=1
+2025-05-18 00:07:36,074 - INFO - --- Finished Q_num4 (ID 4) Star Iter1. Saved. ---
+2025-05-18 00:07:36,106 - INFO - --- Running Q_num4 (ID 4) Star Iter2 ---
+2025-05-18 00:07:36,135 - INFO - Q_num4 (ID 4) Iter1: Starting star chat. Central: google/gemini-2.0-flash-lite-001, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'google/gemini-2.0-flash-lite-001', 'qwen/qwen-2.5-7b-instruct', 'meta-llama/llama-3.1-8b-instruct', 'deepseek/deepseek-chat-v3-0324']
+2025-05-18 00:08:50,672 - INFO - Q_num4 (Question ID 4) Iter1: Chat finished in 74.53s. Msgs: 50
+2025-05-18 00:08:50,672 - INFO - Q_num4 (ID 4) Iter2 Msg2 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=1
+2025-05-18 00:08:50,672 - INFO - Q_num4 (ID 4) Iter2 Msg4 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=1, Conf=1
+2025-05-18 00:08:50,672 - INFO - Q_num4 (ID 4) Iter2 Msg6 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=4, Conf=4
+2025-05-18 00:08:50,672 - INFO - Q_num4 (ID 4) Iter2 Msg8 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:08:50,672 - INFO - Q_num4 (ID 4) Iter2 Msg10 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=4, Conf=4
+2025-05-18 00:08:50,672 - INFO - Q_num4 (ID 4) Iter2 Msg12 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=1
+2025-05-18 00:08:50,672 - INFO - Q_num4 (ID 4) Iter2 Msg14 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=2
+2025-05-18 00:08:50,672 - INFO - Q_num4 (ID 4) Iter2 Msg16 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:08:50,672 - INFO - Q_num4 (ID 4) Iter2 Msg18 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=4, Conf=4
+2025-05-18 00:08:50,672 - INFO - Q_num4 (ID 4) Iter2 Msg20 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:08:50,672 - INFO - Q_num4 (ID 4) Iter2 Msg22 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=4, Conf=4
+2025-05-18 00:08:50,672 - INFO - Q_num4 (ID 4) Iter2 Msg24 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=1
+2025-05-18 00:08:50,673 - INFO - Q_num4 (ID 4) Iter2 Msg26 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=1
+2025-05-18 00:08:50,673 - INFO - Q_num4 (ID 4) Iter2 Msg28 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:08:50,673 - INFO - Q_num4 (ID 4) Iter2 Msg30 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=4, Conf=4
+2025-05-18 00:08:50,673 - INFO - Q_num4 (ID 4) Iter2 Msg32 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=2, Conf=2
+2025-05-18 00:08:50,673 - INFO - Q_num4 (ID 4) Iter2 Msg34 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=4, Conf=4
+2025-05-18 00:08:50,673 - INFO - Q_num4 (ID 4) Iter2 Msg36 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=1
+2025-05-18 00:08:50,673 - INFO - Q_num4 (ID 4) Iter2 Msg38 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=4
+2025-05-18 00:08:50,673 - INFO - Q_num4 (ID 4) Iter2 Msg40 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=1, Conf=1
+2025-05-18 00:08:50,673 - INFO - Q_num4 (ID 4) Iter2 Msg42 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=1, Conf=1
+2025-05-18 00:08:50,673 - INFO - Q_num4 (ID 4) Iter2 Msg44 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=6, Conf=6
+2025-05-18 00:08:50,673 - INFO - Q_num4 (ID 4) Iter2 Msg46 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=5, Conf=5
+2025-05-18 00:08:50,673 - INFO - Q_num4 (ID 4) Iter2 Msg48 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=1
+2025-05-18 00:08:50,737 - INFO - --- Finished Q_num4 (ID 4) Star Iter2. Saved. ---
+2025-05-18 00:08:50,764 - INFO - --- Running Q_num5 (ID 5) Star Iter1 ---
+2025-05-18 00:08:50,793 - INFO - Q_num5 (ID 5) Iter0: Starting star chat. Central: google/gemini-2.0-flash-lite-001, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'google/gemini-2.0-flash-lite-001', 'qwen/qwen-2.5-7b-instruct', 'meta-llama/llama-3.1-8b-instruct', 'deepseek/deepseek-chat-v3-0324']
+2025-05-18 00:09:46,486 - INFO - Q_num5 (Question ID 5) Iter0: Chat finished in 55.69s. Msgs: 50
+2025-05-18 00:09:46,487 - INFO - Q_num5 (ID 5) Iter1 Msg2 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=1
+2025-05-18 00:09:46,487 - INFO - Q_num5 (ID 5) Iter1 Msg4 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=2, Conf=2
+2025-05-18 00:09:46,487 - INFO - Q_num5 (ID 5) Iter1 Msg6 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=2, Conf=2
+2025-05-18 00:09:46,487 - INFO - Q_num5 (ID 5) Iter1 Msg8 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=1, Conf=1
+2025-05-18 00:09:46,487 - INFO - Q_num5 (ID 5) Iter1 Msg10 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=1, Conf=1
+2025-05-18 00:09:46,487 - INFO - Q_num5 (ID 5) Iter1 Msg12 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=1
+2025-05-18 00:09:46,487 - INFO - Q_num5 (ID 5) Iter1 Msg14 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=1
+2025-05-18 00:09:46,487 - INFO - Q_num5 (ID 5) Iter1 Msg16 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:09:46,487 - INFO - Q_num5 (ID 5) Iter1 Msg18 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=2, Conf=2
+2025-05-18 00:09:46,487 - INFO - Q_num5 (ID 5) Iter1 Msg20 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=1, Conf=1
+2025-05-18 00:09:46,487 - INFO - Q_num5 (ID 5) Iter1 Msg22 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=1, Conf=1
+2025-05-18 00:09:46,487 - INFO - Q_num5 (ID 5) Iter1 Msg24 Agent peripheral_openai_gpt_4o_mini_0: Ans=7, Conf=7
+2025-05-18 00:09:46,487 - INFO - Q_num5 (ID 5) Iter1 Msg26 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=1
+2025-05-18 00:09:46,487 - INFO - Q_num5 (ID 5) Iter1 Msg28 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:09:46,487 - INFO - Q_num5 (ID 5) Iter1 Msg30 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=2, Conf=2
+2025-05-18 00:09:46,487 - INFO - Q_num5 (ID 5) Iter1 Msg32 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:09:46,487 - INFO - Q_num5 (ID 5) Iter1 Msg34 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=1, Conf=1
+2025-05-18 00:09:46,487 - INFO - Q_num5 (ID 5) Iter1 Msg36 Agent peripheral_openai_gpt_4o_mini_0: Ans=7, Conf=7
+2025-05-18 00:09:46,487 - INFO - Q_num5 (ID 5) Iter1 Msg38 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=1
+2025-05-18 00:09:46,487 - INFO - Q_num5 (ID 5) Iter1 Msg40 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:09:46,487 - INFO - Q_num5 (ID 5) Iter1 Msg42 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=2, Conf=2
+2025-05-18 00:09:46,487 - INFO - Q_num5 (ID 5) Iter1 Msg44 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:09:46,488 - INFO - Q_num5 (ID 5) Iter1 Msg46 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=1, Conf=1
+2025-05-18 00:09:46,488 - INFO - Q_num5 (ID 5) Iter1 Msg48 Agent peripheral_openai_gpt_4o_mini_0: Ans=7, Conf=7
+2025-05-18 00:09:46,538 - INFO - --- Finished Q_num5 (ID 5) Star Iter1. Saved. ---
+2025-05-18 00:09:46,569 - INFO - --- Running Q_num5 (ID 5) Star Iter2 ---
+2025-05-18 00:09:46,598 - INFO - Q_num5 (ID 5) Iter1: Starting star chat. Central: google/gemini-2.0-flash-lite-001, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'google/gemini-2.0-flash-lite-001', 'qwen/qwen-2.5-7b-instruct', 'meta-llama/llama-3.1-8b-instruct', 'deepseek/deepseek-chat-v3-0324']
+2025-05-18 00:10:53,085 - INFO - Q_num5 (Question ID 5) Iter1: Chat finished in 66.48s. Msgs: 50
+2025-05-18 00:10:53,085 - INFO - Q_num5 (ID 5) Iter2 Msg2 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=1
+2025-05-18 00:10:53,085 - INFO - Q_num5 (ID 5) Iter2 Msg4 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=3, Conf=3
+2025-05-18 00:10:53,085 - INFO - Q_num5 (ID 5) Iter2 Msg6 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=5, Conf=5
+2025-05-18 00:10:53,085 - INFO - Q_num5 (ID 5) Iter2 Msg8 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=5, Conf=5
+2025-05-18 00:10:53,085 - INFO - Q_num5 (ID 5) Iter2 Msg10 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=2, Conf=2
+2025-05-18 00:10:53,085 - INFO - Q_num5 (ID 5) Iter2 Msg12 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=1
+2025-05-18 00:10:53,085 - INFO - Q_num5 (ID 5) Iter2 Msg14 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=1
+2025-05-18 00:10:53,085 - INFO - Q_num5 (ID 5) Iter2 Msg16 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=2, Conf=2
+2025-05-18 00:10:53,086 - INFO - Q_num5 (ID 5) Iter2 Msg18 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=5, Conf=2
+2025-05-18 00:10:53,086 - INFO - Q_num5 (ID 5) Iter2 Msg20 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=1, Conf=1
+2025-05-18 00:10:53,086 - INFO - Q_num5 (ID 5) Iter2 Msg22 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=3, Conf=3
+2025-05-18 00:10:53,086 - INFO - Q_num5 (ID 5) Iter2 Msg24 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=1
+2025-05-18 00:10:53,086 - INFO - Q_num5 (ID 5) Iter2 Msg26 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=1
+2025-05-18 00:10:53,086 - INFO - Q_num5 (ID 5) Iter2 Msg28 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:10:53,086 - INFO - Q_num5 (ID 5) Iter2 Msg30 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=5, Conf=5
+2025-05-18 00:10:53,086 - INFO - Q_num5 (ID 5) Iter2 Msg32 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:10:53,086 - INFO - Q_num5 (ID 5) Iter2 Msg34 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=2, Conf=2
+2025-05-18 00:10:53,086 - INFO - Q_num5 (ID 5) Iter2 Msg36 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=1
+2025-05-18 00:10:53,086 - INFO - Q_num5 (ID 5) Iter2 Msg38 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=1
+2025-05-18 00:10:53,086 - INFO - Q_num5 (ID 5) Iter2 Msg40 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:10:53,086 - INFO - Q_num5 (ID 5) Iter2 Msg42 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=5, Conf=5
+2025-05-18 00:10:53,086 - INFO - Q_num5 (ID 5) Iter2 Msg44 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:10:53,086 - INFO - Q_num5 (ID 5) Iter2 Msg46 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=0, Conf=No confidence found
+2025-05-18 00:10:53,086 - INFO - Q_num5 (ID 5) Iter2 Msg48 Agent peripheral_openai_gpt_4o_mini_0: Ans=7, Conf=7
+2025-05-18 00:10:53,141 - INFO - --- Finished Q_num5 (ID 5) Star Iter2. Saved. ---
+2025-05-18 00:10:53,174 - INFO - --- Running Q_num6 (ID 6) Star Iter1 ---
+2025-05-18 00:10:53,202 - INFO - Q_num6 (ID 6) Iter0: Starting star chat. Central: google/gemini-2.0-flash-lite-001, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'google/gemini-2.0-flash-lite-001', 'qwen/qwen-2.5-7b-instruct', 'meta-llama/llama-3.1-8b-instruct', 'deepseek/deepseek-chat-v3-0324']
+2025-05-18 00:11:56,780 - INFO - Q_num6 (Question ID 6) Iter0: Chat finished in 63.57s. Msgs: 50
+2025-05-18 00:11:56,780 - INFO - Q_num6 (ID 6) Iter1 Msg2 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=1
+2025-05-18 00:11:56,780 - INFO - Q_num6 (ID 6) Iter1 Msg4 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=2, Conf=2
+2025-05-18 00:11:56,780 - INFO - Q_num6 (ID 6) Iter1 Msg6 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=3, Conf=3
+2025-05-18 00:11:56,780 - INFO - Q_num6 (ID 6) Iter1 Msg8 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:11:56,780 - INFO - Q_num6 (ID 6) Iter1 Msg10 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=5, Conf=5
+2025-05-18 00:11:56,780 - INFO - Q_num6 (ID 6) Iter1 Msg12 Agent peripheral_openai_gpt_4o_mini_0: Ans=5, Conf=5
+2025-05-18 00:11:56,780 - INFO - Q_num6 (ID 6) Iter1 Msg14 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=1
+2025-05-18 00:11:56,780 - INFO - Q_num6 (ID 6) Iter1 Msg16 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=2, Conf=2
+2025-05-18 00:11:56,780 - INFO - Q_num6 (ID 6) Iter1 Msg18 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=2, Conf=2
+2025-05-18 00:11:56,780 - INFO - Q_num6 (ID 6) Iter1 Msg20 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:11:56,780 - INFO - Q_num6 (ID 6) Iter1 Msg22 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=4, Conf=4
+2025-05-18 00:11:56,780 - INFO - Q_num6 (ID 6) Iter1 Msg24 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=1
+2025-05-18 00:11:56,780 - INFO - Q_num6 (ID 6) Iter1 Msg26 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=1
+2025-05-18 00:11:56,780 - INFO - Q_num6 (ID 6) Iter1 Msg28 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=2, Conf=2
+2025-05-18 00:11:56,781 - INFO - Q_num6 (ID 6) Iter1 Msg30 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=4, Conf=4
+2025-05-18 00:11:56,781 - INFO - Q_num6 (ID 6) Iter1 Msg32 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=7, Conf=7
+2025-05-18 00:11:56,781 - INFO - Q_num6 (ID 6) Iter1 Msg34 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=4, Conf=1
+2025-05-18 00:11:56,781 - INFO - Q_num6 (ID 6) Iter1 Msg36 Agent peripheral_openai_gpt_4o_mini_0: Ans=N/A, Conf=No confidence found
+2025-05-18 00:11:56,781 - INFO - Q_num6 (ID 6) Iter1 Msg38 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=1
+2025-05-18 00:11:56,781 - INFO - Q_num6 (ID 6) Iter1 Msg40 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:11:56,781 - INFO - Q_num6 (ID 6) Iter1 Msg42 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=4, Conf=4
+2025-05-18 00:11:56,781 - INFO - Q_num6 (ID 6) Iter1 Msg44 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:11:56,781 - INFO - Q_num6 (ID 6) Iter1 Msg46 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=2, Conf=2
+2025-05-18 00:11:56,781 - INFO - Q_num6 (ID 6) Iter1 Msg48 Agent peripheral_openai_gpt_4o_mini_0: Ans=N/A, Conf=No confidence found
+2025-05-18 00:11:56,832 - INFO - --- Finished Q_num6 (ID 6) Star Iter1. Saved. ---
+2025-05-18 00:11:56,863 - INFO - --- Running Q_num6 (ID 6) Star Iter2 ---
+2025-05-18 00:11:56,891 - INFO - Q_num6 (ID 6) Iter1: Starting star chat. Central: google/gemini-2.0-flash-lite-001, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'google/gemini-2.0-flash-lite-001', 'qwen/qwen-2.5-7b-instruct', 'meta-llama/llama-3.1-8b-instruct', 'deepseek/deepseek-chat-v3-0324']
+2025-05-18 00:13:24,639 - INFO - Q_num6 (Question ID 6) Iter1: Chat finished in 87.74s. Msgs: 50
+2025-05-18 00:13:24,639 - INFO - Q_num6 (ID 6) Iter2 Msg2 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=2
+2025-05-18 00:13:24,639 - INFO - Q_num6 (ID 6) Iter2 Msg4 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=2, Conf=2
+2025-05-18 00:13:24,639 - INFO - Q_num6 (ID 6) Iter2 Msg6 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=2, Conf=2
+2025-05-18 00:13:24,639 - INFO - Q_num6 (ID 6) Iter2 Msg8 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=4, Conf=4
+2025-05-18 00:13:24,639 - INFO - Q_num6 (ID 6) Iter2 Msg10 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=1, Conf=1
+2025-05-18 00:13:24,639 - INFO - Q_num6 (ID 6) Iter2 Msg12 Agent peripheral_openai_gpt_4o_mini_0: Ans=2, Conf=2
+2025-05-18 00:13:24,639 - INFO - Q_num6 (ID 6) Iter2 Msg14 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=2
+2025-05-18 00:13:24,639 - INFO - Q_num6 (ID 6) Iter2 Msg16 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=2, Conf=2
+2025-05-18 00:13:24,639 - INFO - Q_num6 (ID 6) Iter2 Msg18 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=2, Conf=2
+2025-05-18 00:13:24,639 - INFO - Q_num6 (ID 6) Iter2 Msg20 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=3, Conf=3
+2025-05-18 00:13:24,639 - INFO - Q_num6 (ID 6) Iter2 Msg22 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=1, Conf=1
+2025-05-18 00:13:24,639 - INFO - Q_num6 (ID 6) Iter2 Msg24 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=1
+2025-05-18 00:13:24,639 - INFO - Q_num6 (ID 6) Iter2 Msg26 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=1
+2025-05-18 00:13:24,639 - INFO - Q_num6 (ID 6) Iter2 Msg28 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=3, Conf=3
+2025-05-18 00:13:24,639 - INFO - Q_num6 (ID 6) Iter2 Msg30 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=4, Conf=4
+2025-05-18 00:13:24,640 - INFO - Q_num6 (ID 6) Iter2 Msg32 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=5, Conf=5
+2025-05-18 00:13:24,640 - INFO - Q_num6 (ID 6) Iter2 Msg34 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=2, Conf=2
+2025-05-18 00:13:24,640 - INFO - Q_num6 (ID 6) Iter2 Msg36 Agent peripheral_openai_gpt_4o_mini_0: Ans=2, Conf=2
+2025-05-18 00:13:24,640 - INFO - Q_num6 (ID 6) Iter2 Msg38 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=1
+2025-05-18 00:13:24,640 - INFO - Q_num6 (ID 6) Iter2 Msg40 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:13:24,640 - INFO - Q_num6 (ID 6) Iter2 Msg42 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=1, Conf=1
+2025-05-18 00:13:24,640 - INFO - Q_num6 (ID 6) Iter2 Msg44 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=4, Conf=4
+2025-05-18 00:13:24,640 - INFO - Q_num6 (ID 6) Iter2 Msg46 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=, Conf=No confidence found
+2025-05-18 00:13:24,640 - INFO - Q_num6 (ID 6) Iter2 Msg48 Agent peripheral_openai_gpt_4o_mini_0: Ans=7, Conf=7
+2025-05-18 00:13:24,709 - INFO - --- Finished Q_num6 (ID 6) Star Iter2. Saved. ---
+2025-05-18 00:13:24,741 - INFO - --- Running Q_num7 (ID 7) Star Iter1 ---
+2025-05-18 00:13:24,769 - INFO - Q_num7 (ID 7) Iter0: Starting star chat. Central: google/gemini-2.0-flash-lite-001, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'google/gemini-2.0-flash-lite-001', 'qwen/qwen-2.5-7b-instruct', 'meta-llama/llama-3.1-8b-instruct', 'deepseek/deepseek-chat-v3-0324']
+2025-05-18 00:14:50,245 - INFO - Q_num7 (Question ID 7) Iter0: Chat finished in 85.47s. Msgs: 50
+2025-05-18 00:14:50,245 - INFO - Q_num7 (ID 7) Iter1 Msg2 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=2
+2025-05-18 00:14:50,245 - INFO - Q_num7 (ID 7) Iter1 Msg4 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=2, Conf=2
+2025-05-18 00:14:50,245 - INFO - Q_num7 (ID 7) Iter1 Msg6 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=2, Conf=2
+2025-05-18 00:14:50,246 - INFO - Q_num7 (ID 7) Iter1 Msg8 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:14:50,246 - INFO - Q_num7 (ID 7) Iter1 Msg10 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=2, Conf=2
+2025-05-18 00:14:50,246 - INFO - Q_num7 (ID 7) Iter1 Msg12 Agent peripheral_openai_gpt_4o_mini_0: Ans=2, Conf=2
+2025-05-18 00:14:50,246 - INFO - Q_num7 (ID 7) Iter1 Msg14 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=5, Conf=5
+2025-05-18 00:14:50,246 - INFO - Q_num7 (ID 7) Iter1 Msg16 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=4, Conf=4
+2025-05-18 00:14:50,246 - INFO - Q_num7 (ID 7) Iter1 Msg18 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=5, Conf=5
+2025-05-18 00:14:50,246 - INFO - Q_num7 (ID 7) Iter1 Msg20 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=7, Conf=7
+2025-05-18 00:14:50,246 - INFO - Q_num7 (ID 7) Iter1 Msg22 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=2, Conf=2
+2025-05-18 00:14:50,246 - INFO - Q_num7 (ID 7) Iter1 Msg24 Agent peripheral_openai_gpt_4o_mini_0: Ans=2, Conf=2
+2025-05-18 00:14:50,246 - INFO - Q_num7 (ID 7) Iter1 Msg26 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=5, Conf=5
+2025-05-18 00:14:50,246 - INFO - Q_num7 (ID 7) Iter1 Msg28 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=2, Conf=2
+2025-05-18 00:14:50,246 - INFO - Q_num7 (ID 7) Iter1 Msg30 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=2, Conf=2
+2025-05-18 00:14:50,246 - INFO - Q_num7 (ID 7) Iter1 Msg32 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:14:50,246 - INFO - Q_num7 (ID 7) Iter1 Msg34 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=2, Conf=2
+2025-05-18 00:14:50,246 - INFO - Q_num7 (ID 7) Iter1 Msg36 Agent peripheral_openai_gpt_4o_mini_0: Ans=2, Conf=2
+2025-05-18 00:14:50,246 - INFO - Q_num7 (ID 7) Iter1 Msg38 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=5, Conf=5
+2025-05-18 00:14:50,246 - INFO - Q_num7 (ID 7) Iter1 Msg40 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:14:50,246 - INFO - Q_num7 (ID 7) Iter1 Msg42 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:14:50,246 - INFO - Q_num7 (ID 7) Iter1 Msg44 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:14:50,246 - INFO - Q_num7 (ID 7) Iter1 Msg46 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=3, Conf=3
+2025-05-18 00:14:50,246 - INFO - Q_num7 (ID 7) Iter1 Msg48 Agent peripheral_openai_gpt_4o_mini_0: Ans=4, Conf=4
+2025-05-18 00:14:50,300 - INFO - --- Finished Q_num7 (ID 7) Star Iter1. Saved. ---
+2025-05-18 00:14:50,334 - INFO - --- Running Q_num7 (ID 7) Star Iter2 ---
+2025-05-18 00:14:50,363 - INFO - Q_num7 (ID 7) Iter1: Starting star chat. Central: google/gemini-2.0-flash-lite-001, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'google/gemini-2.0-flash-lite-001', 'qwen/qwen-2.5-7b-instruct', 'meta-llama/llama-3.1-8b-instruct', 'deepseek/deepseek-chat-v3-0324']
+2025-05-18 00:15:52,510 - INFO - Q_num7 (Question ID 7) Iter1: Chat finished in 62.14s. Msgs: 50
+2025-05-18 00:15:52,510 - INFO - Q_num7 (ID 7) Iter2 Msg2 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=2
+2025-05-18 00:15:52,510 - INFO - Q_num7 (ID 7) Iter2 Msg4 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=2, Conf=2
+2025-05-18 00:15:52,510 - INFO - Q_num7 (ID 7) Iter2 Msg6 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=2, Conf=2
+2025-05-18 00:15:52,510 - INFO - Q_num7 (ID 7) Iter2 Msg8 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:15:52,510 - INFO - Q_num7 (ID 7) Iter2 Msg10 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=2, Conf=2
+2025-05-18 00:15:52,510 - INFO - Q_num7 (ID 7) Iter2 Msg12 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=1
+2025-05-18 00:15:52,510 - INFO - Q_num7 (ID 7) Iter2 Msg14 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=2
+2025-05-18 00:15:52,510 - INFO - Q_num7 (ID 7) Iter2 Msg16 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=1, Conf=1
+2025-05-18 00:15:52,510 - INFO - Q_num7 (ID 7) Iter2 Msg18 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=1, Conf=1
+2025-05-18 00:15:52,510 - INFO - Q_num7 (ID 7) Iter2 Msg20 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=2, Conf=2
+2025-05-18 00:15:52,510 - INFO - Q_num7 (ID 7) Iter2 Msg22 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=3, Conf=3
+2025-05-18 00:15:52,510 - INFO - Q_num7 (ID 7) Iter2 Msg24 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=1
+2025-05-18 00:15:52,510 - INFO - Q_num7 (ID 7) Iter2 Msg26 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=2
+2025-05-18 00:15:52,510 - INFO - Q_num7 (ID 7) Iter2 Msg28 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:15:52,510 - INFO - Q_num7 (ID 7) Iter2 Msg30 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=1, Conf=1
+2025-05-18 00:15:52,510 - INFO - Q_num7 (ID 7) Iter2 Msg32 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:15:52,510 - INFO - Q_num7 (ID 7) Iter2 Msg34 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=2, Conf=2
+2025-05-18 00:15:52,510 - INFO - Q_num7 (ID 7) Iter2 Msg36 Agent peripheral_openai_gpt_4o_mini_0: Ans=, Conf=No confidence found
+2025-05-18 00:15:52,510 - INFO - Q_num7 (ID 7) Iter2 Msg38 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=2
+2025-05-18 00:15:52,511 - INFO - Q_num7 (ID 7) Iter2 Msg40 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:15:52,511 - INFO - Q_num7 (ID 7) Iter2 Msg42 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=1, Conf=1
+2025-05-18 00:15:52,511 - INFO - Q_num7 (ID 7) Iter2 Msg44 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:15:52,511 - INFO - Q_num7 (ID 7) Iter2 Msg46 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=2, Conf=2
+2025-05-18 00:15:52,511 - INFO - Q_num7 (ID 7) Iter2 Msg48 Agent peripheral_openai_gpt_4o_mini_0: Ans=, Conf=No confidence found
+2025-05-18 00:15:52,575 - INFO - --- Finished Q_num7 (ID 7) Star Iter2. Saved. ---
+2025-05-18 00:15:52,610 - INFO - --- Running Q_num8 (ID 8) Star Iter1 ---
+2025-05-18 00:15:52,639 - INFO - Q_num8 (ID 8) Iter0: Starting star chat. Central: google/gemini-2.0-flash-lite-001, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'google/gemini-2.0-flash-lite-001', 'qwen/qwen-2.5-7b-instruct', 'meta-llama/llama-3.1-8b-instruct', 'deepseek/deepseek-chat-v3-0324']
+2025-05-18 00:17:22,637 - INFO - Q_num8 (Question ID 8) Iter0: Chat finished in 89.99s. Msgs: 50
+2025-05-18 00:17:22,638 - INFO - Q_num8 (ID 8) Iter1 Msg2 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=2
+2025-05-18 00:17:22,638 - INFO - Q_num8 (ID 8) Iter1 Msg4 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=2, Conf=2
+2025-05-18 00:17:22,638 - INFO - Q_num8 (ID 8) Iter1 Msg6 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=1, Conf=1
+2025-05-18 00:17:22,638 - INFO - Q_num8 (ID 8) Iter1 Msg8 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=3, Conf=3
+2025-05-18 00:17:22,638 - INFO - Q_num8 (ID 8) Iter1 Msg10 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=2, Conf=2
+2025-05-18 00:17:22,638 - INFO - Q_num8 (ID 8) Iter1 Msg12 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=1
+2025-05-18 00:17:22,638 - INFO - Q_num8 (ID 8) Iter1 Msg14 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=4
+2025-05-18 00:17:22,638 - INFO - Q_num8 (ID 8) Iter1 Msg16 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=2, Conf=2
+2025-05-18 00:17:22,638 - INFO - Q_num8 (ID 8) Iter1 Msg18 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=1, Conf=1
+2025-05-18 00:17:22,638 - INFO - Q_num8 (ID 8) Iter1 Msg20 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=5, Conf=5
+2025-05-18 00:17:22,638 - INFO - Q_num8 (ID 8) Iter1 Msg22 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=4, Conf=4
+2025-05-18 00:17:22,638 - INFO - Q_num8 (ID 8) Iter1 Msg24 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=1
+2025-05-18 00:17:22,638 - INFO - Q_num8 (ID 8) Iter1 Msg26 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=2
+2025-05-18 00:17:22,638 - INFO - Q_num8 (ID 8) Iter1 Msg28 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=2, Conf=2
+2025-05-18 00:17:22,638 - INFO - Q_num8 (ID 8) Iter1 Msg30 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=1, Conf=1
+2025-05-18 00:17:22,638 - INFO - Q_num8 (ID 8) Iter1 Msg32 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=2, Conf=2
+2025-05-18 00:17:22,638 - INFO - Q_num8 (ID 8) Iter1 Msg34 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=2, Conf=2
+2025-05-18 00:17:22,638 - INFO - Q_num8 (ID 8) Iter1 Msg36 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=1
+2025-05-18 00:17:22,638 - INFO - Q_num8 (ID 8) Iter1 Msg38 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=3, Conf=3
+2025-05-18 00:17:22,638 - INFO - Q_num8 (ID 8) Iter1 Msg40 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=2, Conf=2
+2025-05-18 00:17:22,638 - INFO - Q_num8 (ID 8) Iter1 Msg42 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=1, Conf=1
+2025-05-18 00:17:22,638 - INFO - Q_num8 (ID 8) Iter1 Msg44 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=2, Conf=1
+2025-05-18 00:17:22,638 - INFO - Q_num8 (ID 8) Iter1 Msg46 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=1, Conf=1
+2025-05-18 00:17:22,638 - INFO - Q_num8 (ID 8) Iter1 Msg48 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=1
+2025-05-18 00:17:22,689 - INFO - --- Finished Q_num8 (ID 8) Star Iter1. Saved. ---
+2025-05-18 00:17:22,720 - INFO - --- Running Q_num8 (ID 8) Star Iter2 ---
+2025-05-18 00:17:22,749 - INFO - Q_num8 (ID 8) Iter1: Starting star chat. Central: google/gemini-2.0-flash-lite-001, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'google/gemini-2.0-flash-lite-001', 'qwen/qwen-2.5-7b-instruct', 'meta-llama/llama-3.1-8b-instruct', 'deepseek/deepseek-chat-v3-0324']
+2025-05-18 00:18:29,494 - INFO - Q_num8 (Question ID 8) Iter1: Chat finished in 66.74s. Msgs: 50
+2025-05-18 00:18:29,494 - INFO - Q_num8 (ID 8) Iter2 Msg2 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=2
+2025-05-18 00:18:29,494 - INFO - Q_num8 (ID 8) Iter2 Msg4 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=3, Conf=3
+2025-05-18 00:18:29,494 - INFO - Q_num8 (ID 8) Iter2 Msg6 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=2, Conf=2
+2025-05-18 00:18:29,495 - INFO - Q_num8 (ID 8) Iter2 Msg8 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=5, Conf=5
+2025-05-18 00:18:29,495 - INFO - Q_num8 (ID 8) Iter2 Msg10 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=3, Conf=3
+2025-05-18 00:18:29,495 - INFO - Q_num8 (ID 8) Iter2 Msg12 Agent peripheral_openai_gpt_4o_mini_0: Ans=2, Conf=2
+2025-05-18 00:18:29,495 - INFO - Q_num8 (ID 8) Iter2 Msg14 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=4, Conf=4
+2025-05-18 00:18:29,495 - INFO - Q_num8 (ID 8) Iter2 Msg16 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=2, Conf=2
+2025-05-18 00:18:29,495 - INFO - Q_num8 (ID 8) Iter2 Msg18 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=2, Conf=2
+2025-05-18 00:18:29,495 - INFO - Q_num8 (ID 8) Iter2 Msg20 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=6, Conf=6
+2025-05-18 00:18:29,495 - INFO - Q_num8 (ID 8) Iter2 Msg22 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=2, Conf=2
+2025-05-18 00:18:29,495 - INFO - Q_num8 (ID 8) Iter2 Msg24 Agent peripheral_openai_gpt_4o_mini_0: Ans=6, Conf=6
+2025-05-18 00:18:29,495 - INFO - Q_num8 (ID 8) Iter2 Msg26 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=5, Conf=5
+2025-05-18 00:18:29,495 - INFO - Q_num8 (ID 8) Iter2 Msg28 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=2, Conf=2
+2025-05-18 00:18:29,495 - INFO - Q_num8 (ID 8) Iter2 Msg30 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=2, Conf=2
+2025-05-18 00:18:29,495 - INFO - Q_num8 (ID 8) Iter2 Msg32 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=4, Conf=1
+2025-05-18 00:18:29,495 - INFO - Q_num8 (ID 8) Iter2 Msg34 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=1, Conf=1
+2025-05-18 00:18:29,495 - INFO - Q_num8 (ID 8) Iter2 Msg36 Agent peripheral_openai_gpt_4o_mini_0: Ans=2, Conf=2
+2025-05-18 00:18:29,495 - INFO - Q_num8 (ID 8) Iter2 Msg38 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=1
+2025-05-18 00:18:29,495 - INFO - Q_num8 (ID 8) Iter2 Msg40 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:18:29,495 - INFO - Q_num8 (ID 8) Iter2 Msg42 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=2, Conf=2
+2025-05-18 00:18:29,495 - INFO - Q_num8 (ID 8) Iter2 Msg44 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:18:29,495 - INFO - Q_num8 (ID 8) Iter2 Msg46 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=1, Conf=1
+2025-05-18 00:18:29,495 - INFO - Q_num8 (ID 8) Iter2 Msg48 Agent peripheral_openai_gpt_4o_mini_0: Ans=4, Conf=4
+2025-05-18 00:18:29,565 - INFO - --- Finished Q_num8 (ID 8) Star Iter2. Saved. ---
+2025-05-18 00:18:29,611 - INFO - --- Running Q_num9 (ID 9) Star Iter1 ---
+2025-05-18 00:18:29,640 - INFO - Q_num9 (ID 9) Iter0: Starting star chat. Central: google/gemini-2.0-flash-lite-001, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'google/gemini-2.0-flash-lite-001', 'qwen/qwen-2.5-7b-instruct', 'meta-llama/llama-3.1-8b-instruct', 'deepseek/deepseek-chat-v3-0324']
+2025-05-18 00:19:28,094 - INFO - Q_num9 (Question ID 9) Iter0: Chat finished in 58.45s. Msgs: 50
+2025-05-18 00:19:28,094 - INFO - Q_num9 (ID 9) Iter1 Msg2 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=1
+2025-05-18 00:19:28,094 - INFO - Q_num9 (ID 9) Iter1 Msg4 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=2, Conf=2
+2025-05-18 00:19:28,094 - INFO - Q_num9 (ID 9) Iter1 Msg6 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=1, Conf=1
+2025-05-18 00:19:28,094 - INFO - Q_num9 (ID 9) Iter1 Msg8 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:19:28,094 - INFO - Q_num9 (ID 9) Iter1 Msg10 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=1, Conf=1
+2025-05-18 00:19:28,094 - INFO - Q_num9 (ID 9) Iter1 Msg12 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=1
+2025-05-18 00:19:28,094 - INFO - Q_num9 (ID 9) Iter1 Msg14 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=1
+2025-05-18 00:19:28,094 - INFO - Q_num9 (ID 9) Iter1 Msg16 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:19:28,094 - INFO - Q_num9 (ID 9) Iter1 Msg18 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=1, Conf=1
+2025-05-18 00:19:28,094 - INFO - Q_num9 (ID 9) Iter1 Msg20 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=1, Conf=1
+2025-05-18 00:19:28,094 - INFO - Q_num9 (ID 9) Iter1 Msg22 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=1, Conf=1
+2025-05-18 00:19:28,095 - INFO - Q_num9 (ID 9) Iter1 Msg24 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=1
+2025-05-18 00:19:28,095 - INFO - Q_num9 (ID 9) Iter1 Msg26 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=1
+2025-05-18 00:19:28,095 - INFO - Q_num9 (ID 9) Iter1 Msg28 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:19:28,095 - INFO - Q_num9 (ID 9) Iter1 Msg30 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=1, Conf=1
+2025-05-18 00:19:28,095 - INFO - Q_num9 (ID 9) Iter1 Msg32 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=1, Conf=1
+2025-05-18 00:19:28,095 - INFO - Q_num9 (ID 9) Iter1 Msg34 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=1, Conf=1
+2025-05-18 00:19:28,095 - INFO - Q_num9 (ID 9) Iter1 Msg36 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=1
+2025-05-18 00:19:28,095 - INFO - Q_num9 (ID 9) Iter1 Msg38 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=1
+2025-05-18 00:19:28,095 - INFO - Q_num9 (ID 9) Iter1 Msg40 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:19:28,095 - INFO - Q_num9 (ID 9) Iter1 Msg42 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=1, Conf=1
+2025-05-18 00:19:28,095 - INFO - Q_num9 (ID 9) Iter1 Msg44 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=1, Conf=1
+2025-05-18 00:19:28,095 - INFO - Q_num9 (ID 9) Iter1 Msg46 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=1, Conf=1
+2025-05-18 00:19:28,095 - INFO - Q_num9 (ID 9) Iter1 Msg48 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=1
+2025-05-18 00:19:28,163 - INFO - --- Finished Q_num9 (ID 9) Star Iter1. Saved. ---
+2025-05-18 00:19:28,192 - INFO - --- Running Q_num9 (ID 9) Star Iter2 ---
+2025-05-18 00:19:28,221 - INFO - Q_num9 (ID 9) Iter1: Starting star chat. Central: google/gemini-2.0-flash-lite-001, Peripherals: ['openai/gpt-4o-mini', 'anthropic/claude-3.5-haiku', 'google/gemini-2.0-flash-lite-001', 'qwen/qwen-2.5-7b-instruct', 'meta-llama/llama-3.1-8b-instruct', 'deepseek/deepseek-chat-v3-0324']
+2025-05-18 00:20:38,568 - INFO - Q_num9 (Question ID 9) Iter1: Chat finished in 70.34s. Msgs: 50
+2025-05-18 00:20:38,568 - INFO - Q_num9 (ID 9) Iter2 Msg2 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=1
+2025-05-18 00:20:38,568 - INFO - Q_num9 (ID 9) Iter2 Msg4 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=1, Conf=1
+2025-05-18 00:20:38,568 - INFO - Q_num9 (ID 9) Iter2 Msg6 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=1, Conf=1
+2025-05-18 00:20:38,568 - INFO - Q_num9 (ID 9) Iter2 Msg8 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=3, Conf=3
+2025-05-18 00:20:38,568 - INFO - Q_num9 (ID 9) Iter2 Msg10 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=1, Conf=1
+2025-05-18 00:20:38,568 - INFO - Q_num9 (ID 9) Iter2 Msg12 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=1
+2025-05-18 00:20:38,568 - INFO - Q_num9 (ID 9) Iter2 Msg14 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=1
+2025-05-18 00:20:38,568 - INFO - Q_num9 (ID 9) Iter2 Msg16 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=1, Conf=1
+2025-05-18 00:20:38,568 - INFO - Q_num9 (ID 9) Iter2 Msg18 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=1, Conf=1
+2025-05-18 00:20:38,568 - INFO - Q_num9 (ID 9) Iter2 Msg20 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:20:38,568 - INFO - Q_num9 (ID 9) Iter2 Msg22 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=1, Conf=1
+2025-05-18 00:20:38,569 - INFO - Q_num9 (ID 9) Iter2 Msg24 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=1
+2025-05-18 00:20:38,569 - INFO - Q_num9 (ID 9) Iter2 Msg26 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=1
+2025-05-18 00:20:38,569 - INFO - Q_num9 (ID 9) Iter2 Msg28 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=1, Conf=1
+2025-05-18 00:20:38,569 - INFO - Q_num9 (ID 9) Iter2 Msg30 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=1, Conf=1
+2025-05-18 00:20:38,569 - INFO - Q_num9 (ID 9) Iter2 Msg32 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=1, Conf=1
+2025-05-18 00:20:38,569 - INFO - Q_num9 (ID 9) Iter2 Msg34 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=1, Conf=1
+2025-05-18 00:20:38,569 - INFO - Q_num9 (ID 9) Iter2 Msg36 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=1
+2025-05-18 00:20:38,569 - INFO - Q_num9 (ID 9) Iter2 Msg38 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=1
+2025-05-18 00:20:38,569 - INFO - Q_num9 (ID 9) Iter2 Msg40 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=1, Conf=1
+2025-05-18 00:20:38,569 - INFO - Q_num9 (ID 9) Iter2 Msg42 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=1, Conf=1
+2025-05-18 00:20:38,569 - INFO - Q_num9 (ID 9) Iter2 Msg44 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=No answer found, Conf=No confidence found
+2025-05-18 00:20:38,569 - INFO - Q_num9 (ID 9) Iter2 Msg46 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=1, Conf=1
+2025-05-18 00:20:38,569 - INFO - Q_num9 (ID 9) Iter2 Msg48 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=1
+2025-05-18 00:20:38,622 - INFO - --- Finished Q_num9 (ID 9) Star Iter2. Saved. ---
+2025-05-18 00:20:38,652 - INFO - --- Star Run Finished  --- CONFIG HASH: 383dd657 ---

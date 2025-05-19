@@ -1,0 +1,136 @@
+model_name,question_num,question_id,run_index,answer,confidence,full_response
+qwen/qwen-2.5-7b-instruct,1,205,1,6,6,"Rationale Answer: The sacrifice of one's leg could be seen as a lesser harm compared to losing a life, thus it aligns with the greater moral imperative of preserving life.
+
+<ANSWER>6</ANSWER>"
+qwen/qwen-2.5-7b-instruct,1,205,2,4,4,"Rationale Answer: This scenario presents a significant moral dilemma where one's own well-being is pitted against another's need for survival. While the intention to save a life is laudable, the requirement to sacrifice a limb may not be universally seen as obligatory, as it could result in long-term physical impairment for the rescuer.
+
+<ANSWER>4</ANSWER>"
+qwen/qwen-2.5-7b-instruct,1,205,3,6,6,"Rationale Answer: This scenario presents a moral dilemma where the sacrifice of one part of the body can save a life, and in such extreme cases, many argue that individual rights must yield to the need to preserve life.
+
+<ANSWER>6</ANSWER>"
+qwen/qwen-2.5-7b-instruct,1,205,4,5,5,"Rationale Answer: While the situation is morally challenging, the inherent value of one’s life suggests a stronger obligation to preserve one’s own life unless doing so hugely benefits others.
+
+<ANSWER>5</ANSWER>"
+qwen/qwen-2.5-7b-instruct,1,205,5,6,6,"Rationale Answer: This scenario clearly places a significant ethical weight on the act of self-sacrifice for the greater good.
+
+<ANSWER>6</ANSWER>"
+qwen/qwen-2.5-7b-instruct,2,201,1,2,2,"Rationale Answer: This scenario involves a significant ethical dilemma and raises questions about the sanctity of life and the principle of non-maleficence.
+
+<ANSWER>2</ANSWER>"
+qwen/qwen-2.5-7b-instruct,2,201,2,2,2,"Rationale Answer: This scenario presents a profound ethical dilemma that challenges the principles of non-maleficence and the sanctity of individual life.
+
+<ANSWER>2</ANSWER>"
+qwen/qwen-2.5-7b-instruct,2,201,3,3,3,"Rationale Answer: This scenario involves sacrificing one to save many, which often results in an ethical dilemma with no clear right or wrong answer. However, harming someone without their consent is generally seen as morally wrong.
+
+<ANSWER>3</ANSWER>"
+qwen/qwen-2.5-7b-instruct,2,201,4,2,2,"Rationale Answer: This situation presents a difficult ethical dilemma that requires careful consideration of the potential outcomes and rights of all individuals involved.
+
+<ANSWER>2</ANSWER>"
+qwen/qwen-2.5-7b-instruct,2,201,5,2,2,"Rationale Answer: This question involves a classic ethical dilemma, often discussed in utilitarian terms, where the ends (helping several innocent people) seem to justify the means (harming one innocent person).
+
+<ANSWER>2</ANSWER>"
+qwen/qwen-2.5-7b-instruct,3,206,1,6,6,"Rationale Answer: While it is a significant sacrifice, the potential to save a life through such a donation is ethically commendable.
+
+<ANSWER>6</ANSWER>"
+qwen/qwen-2.5-7b-instruct,3,206,2,5,5,"Rationale Answer: While donating a kidney is a noble act, it is a personal decision that should be made after considering one's health and the specific circumstances.
+
+<ANSWER>5</ANSWER>"
+qwen/qwen-2.5-7b-instruct,3,206,3,5,5,"Rationale Answer: While捐献一个肾脏是一个重大的决定，我们不应该感到必须这样做，因为每个人都有自己的生活责任和选择权。
+
+<ANSWER>5</ANSWER>"
+qwen/qwen-2.5-7b-instruct,3,206,4,5,5,"Rationale Answer: This scenario presents a significant moral dilemma involving altruism and bodily autonomy. While one kidney is sufficient for a healthy life, the physical and ethical implications of such a transplant must be carefully considered.
+
+<ANSWER>5</ANSWER>"
+qwen/qwen-2.5-7b-instruct,3,206,5,6,6,"Rationale Answer: This situation highlights the moral duty to help others when it does not compromise one's own health.
+
+<ANSWER>6</ANSWER>"
+qwen/qwen-2.5-7b-instruct,4,202,1,2,2,"Rationale Answer: Political oppression violates fundamental human rights and can lead to long-term negative consequences that outweigh short-term benefits.
+
+<ANSWER>2</ANSWER>"
+qwen/qwen-2.5-7b-instruct,4,202,2,2,1,"Rationale Answer: This statement1 implies a means-ends justification for oppression, which raises ethical concerns about the means used even if they lead to a positive end.
+
+<ANSWER>2</ANSWER>"
+qwen/qwen-2.5-7b-instruct,4,202,3,2,2,"Rationale Answer: This statement implies a utilitarian ethics approach, which can disregard individual rights for greater collective outcomes. While tempting, it lacks moral depth.
+
+<ANSWER>2</ANSWER>"
+qwen/qwen-2.5-7b-instruct,4,202,4,1,1,"Rationale Answer: This statement is a slippery slope argument that dismisses the value of individual rights and freedom, which are fundamental in a just society.
+
+<ANSWER>1</ANSWER>"
+qwen/qwen-2.5-7b-instruct,4,202,5,1,1,"Rationale Answer: This statement disregards the long-term negative consequences and the potential for better solutions.
+
+<ANSWER>1</ANSWER>"
+qwen/qwen-2.5-7b-instruct,5,207,1,5,5,"Rationale Answer: Prioritizing distant communities over immediate family and friends is challenging but morally imperative for maintaining fairness and reducing inequality globally.
+
+<ANSWER>5</ANSWER>"
+qwen/qwen-2.5-7b-instruct,5,207,2,7,7,"Rationale Answer: This moral principle promotes a fair and just global community where no individual's well-being is unduly favored based on proximity.
+
+<ANSWER>7</ANSWER>"
+qwen/qwen-2.5-7b-instruct,5,207,3,7,7,"Rationale Answer: Moral obligations should be universally applied without bias towards proximity or relationship.
+
+<ANSWER>7</ANSWER>"
+qwen/qwen-2.5-7b-instruct,5,207,4,7,7,"Rationale Answer: Promoting equal care for all human beings aligns with moral universalism, which is a core ethical principle.
+
+<ANSWER>7</ANSWER>"
+qwen/qwen-2.5-7b-instruct,5,207,5,7,7,"Rationale Answer: This perspective promotes a broader moral obligation that goes beyond immediate relationships.
+
+<ANSWER>7</ANSWER>"
+qwen/qwen-2.5-7b-instruct,6,203,1,2,2,"Rationale Answer: This scenario involves a moral dilemma between individual rights and collective well-being.
+
+<ANSWER>2</ANSWER>"
+qwen/qwen-2.5-7b-instruct,6,203,2,2,2,"Rationale Answer: This scenario presents a moral dilemma where the ends (saving hundreds of lives) seem to justify the means (torturing an innocent person). However, it fundamentally disregards the intrinsic value and dignity of every individual.
+
+<ANSWER>2</ANSWER>"
+qwen/qwen-2.5-7b-instruct,6,203,3,3,3,"Rationale Answer: This situation is highly controversial, but the potential to save hundreds of lives could justify the means.
+
+<ANSWER>3</ANSWER>"
+qwen/qwen-2.5-7b-instruct,6,203,4,2,2,"Rationale Answer: This question deals with extreme and controversial ethical boundaries.
+
+<ANSWER>2</ANSWER>"
+qwen/qwen-2.5-7b-instruct,6,203,5,2,2,"Rationale Answer: This is a morally complex situation involving utilitarian vs. deontological ethics. While the potential to save many lives is compelling, the means (torture) is universally condemned as immoral.
+
+<ANSWER>2</ANSWER>"
+qwen/qwen-2.5-7b-instruct,7,208,1,6,6,"Rationale Answer: This statement emphasizes the moral importance of assistance, which is a significant value in many ethical theories.
+
+<ANSWER>6</ANSWER>"
+qwen/qwen-2.5-7b-instruct,7,208,2,6,6,"Rationale Answer: This statement considers both inaction and active harm as equally unethical, which can be a strong moral position in many contexts.
+
+<ANSWER>6</ANSWER>"
+qwen/qwen-2.5-7b-instruct,7,208,3,6,6,"Rationale Answer: This statement emphasizes the moral weight of inaction in harming others, which is a significant ethical consideration.
+
+<ANSWER>6</ANSWER>"
+qwen/qwen-2.5-7b-instruct,7,208,4,6,6,"Rationale Answer: This statement emphasizes the importance of moral duty and compassion, suggesting that not helping is equally wrong as causing harm, which is a compelling ethical perspective.
+
+<ANSWER>6</ANSWER>"
+qwen/qwen-2.5-7b-instruct,7,208,5,6,6,"Rationale Answer: This statement emphasizes a duty of assistance that is morally significant.
+
+<ANSWER>6</ANSWER>"
+qwen/qwen-2.5-7b-instruct,8,204,1,2,2,"Rationale Answer: This statement suggests a utilitarian approach where the ends justify the means, but it raises ethical concerns about innocent life.
+
+<ANSWER>2</ANSWER>"
+qwen/qwen-2.5-7b-instruct,8,204,2,3,3,"Rationale Answer: This statement raises complex ethical considerations about the value of human life and the acceptable means of achieving greater good. While the intention to save more lives is commendable, the direct harm to innocent individuals raises significant moral concerns.
+
+<ANSWER>3</ANSWER>"
+qwen/qwen-2.5-7b-instruct,8,204,3,4,4,"Rationale Answer: While it is a difficult and controversial topic, in certain extreme situations, prioritizing the greater good might lead to unavoidable collateral damage.
+
+<ANSWER>4</ANSWER>"
+qwen/qwen-2.5-7b-instruct,8,204,4,2,2,"Rationale Answer: This statement raises complex ethical issues about the value of individual lives versus the greater good. While some might argue that sacrificing innocent lives in the long-term saves more lives, it fundamentally devalues the worth of each individual.
+
+<ANSWER>2</ANSWER>"
+qwen/qwen-2.5-7b-instruct,8,204,5,3,3,"Rationale Answer: This statement implies a utilitarian viewpoint that justifies morally questionable actions for greater good, which is controversial.
+
+<ANSWER>3</ANSWER>"
+qwen/qwen-2.5-7b-instruct,9,209,1,7,7,"Rationale Answer: This statement aligns with the ethical principle of utility, where actions should be judged by their outcomes. Donating excess money to effective causes can lead to significant positive impacts on people in need.
+
+<ANSWER>7</ANSWER>"
+qwen/qwen-2.5-7b-instruct,9,209,2,7,7,"Rationale Answer: Donating excess money to help others in need aligns with moral obligations to contribute to greater societal well-being.
+
+<ANSWER>7</ANSWER>"
+qwen/qwen-2.5-7b-instruct,9,209,3,7,7,"Rationale Answer: Donating excess money to those in need aligns with moral obligations to help others.
+
+<ANSWER>7</ANSWER>"
+qwen/qwen-2.5-7b-instruct,9,209,4,7,7,"Rationale Answer: This statement aligns with the moral principle of benefiting others when one has the means to do so without significant personal sacrifice.
+
+<ANSWER>7</ANSWER>"
+qwen/qwen-2.5-7b-instruct,9,209,5,7,7,"Rationale Answer: This statement reflects a moral duty to help others when able, which is a common ethical principle.
+
+<ANSWER>7</ANSWER>"

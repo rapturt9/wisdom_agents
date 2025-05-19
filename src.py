@@ -65,24 +65,48 @@ except ImportError:
     # Local environment
     API_KEY = os.environ.get("OPENROUTER_API_KEY")  # Local environment variable
 
-def get_client(model = "openai/gpt-4o-mini"):
-  client = OpenAIChatCompletionClient(
-      api_key=API_KEY,
-      base_url="https://openrouter.ai/api/v1",
-      model=model,
-      temperature=TEMP,
-      model_info = {
-          "vision": False,
-          "function_calling": False,
-          "json_output": False,
-          "structured_output": False,
-          "family": "unknown",
-      },
+# def get_client(model):
+#   client = OpenAIChatCompletionClient(
+#       api_key=API_KEY,
+#       base_url="https://openrouter.ai/api/v1",
+#       model=model,
+#       temperature=TEMP,
+#       model_info = {
+#           "vision": False,
+#           "function_calling": False,
+#           "json_output": False,
+#           "structured_output": False,
+#           "family": "unknown",
+#       },
       
-  )
-  return client
-client = get_client()
+#   )
+#   return client
 
+def get_client(model = "openai/gpt-4o-mini"):
+    """
+    Get a client for the specified model.
+    Returns an initialized OpenAIChatCompletionClient.
+    """
+    client = OpenAIChatCompletionClient(
+        api_key=API_KEY,
+        base_url="https://openrouter.ai/api/v1",
+        model=model,
+        temperature=TEMP,
+        model_info = {
+            "vision": False,
+            "function_calling": False,
+            "json_output": False,
+            "structured_output": False,
+            "family": "unknown",
+        },
+    )
+    
+    # Ensure the model attribute exists on all clients
+    # This is needed for the validation check in create_agent_safely
+    if not hasattr(client, 'model'):
+        client.model = model
+        
+    return client
 
 
 ##########################################
@@ -161,7 +185,7 @@ with open(QUESTION_JSON, 'w') as f:
 # GGB Questions
 Qs = GGB_Statements(QUESTION_JSON)
 # GGB Inverted Questions
-InvertQs = GGB_Statements(INVERTED_JSON)
+iQs = GGB_Statements(INVERTED_JSON)
 
 ##########################################
 # PROMPT
@@ -236,13 +260,30 @@ def get_prompt(persona = None, group_chat = True, reasoning = True, confidence =
     
     return prompt
 
+########################################################
+# PROMPT HANDLER
+# SO WE CAN RUN DIFFERENT PROMPTS EASIER
+########################################################
+class PromptHandler():
+    def  __init__(self, persona = None, group_chat = True, reasoning = True, confidence = False, answer = True, alternative_prompt = None, invert_answer=False, secret= False):
+        self.persona = persona
+        self.group_chat = group_chat
+        self.reasoning = reasoning
+        self.confidence = confidence
+        self.answer = answer
+        self.alternative_prompt = alternative_prompt
+        self.invert_answer = invert_answer
+        self.secret = secret
+
+        self.prompt = get_prompt(persona = self.persona, 
+                                 group_chat = self.group_chat, reasoning = self.reasoning, confidence= self.confidence, answer=self.answer, alternative_prompt = self.alternative_prompt, invert_answer=self.invert_answer, secret= self.secret)
+
 
 #################################################
-# GET ANSWER FROM MODEL RESPONSE (SINGLE AGENT)
-#################################################
+# GET ANSWER FROM MODEL RESPONSE
+#################################################        
 
-def extract_answer_from_response_single(content):
-    # Extract the answer from the response. Adapt this to your exact response structure.
+def extract_answer_from_response(content):
     """Extracts the answer (e.g., A, B) from <ANSWER> tags."""
     match = re.search(r"<ANSWER>(.*?)</ANSWER>", content, re.IGNORECASE | re.DOTALL)
     answers = ["1", "2", "3", "4", "5", "6", "7"]
@@ -254,16 +295,18 @@ def extract_answer_from_response_single(content):
             return answer
     return match.group(1).strip() if match else "No answer found"
 
-def extract_confidence_from_response_single(content):
-  start_index = content.find("<CONF>")
-  end_index = content.find("</CONF>")
-  if start_index != -1 and end_index != -1:
-    return content[start_index + len("<CONF>"):end_index]
-  answers = ["1", "2", "3", "4", "5", "6", "7"]
-  for answer in answers:
-      if answer in content:
-          return answer
-  return "No confidence found in the agent's response."
+def extract_confidence_from_response(content):
+    """Extracts the confidence number from <CONF> tags."""
+    match = re.search(r"<CONF>(.*?)</CONF>", content, re.IGNORECASE | re.DOTALL)
+    if match:
+        return match.group(1).strip()
+    answers = ["1", "2", "3", "4", "5", "6", "7"]
+    for answer in answers:
+        if answer in content:
+            return answer
+    return "No confidence found"
+
+
 
 ########################################################
 # FUNCTIONS FOR CHECKPOINTS/LOGGING (SINGLE AGENT)
@@ -332,20 +375,19 @@ def load_checkpoint(checkpoint_file):
 # SINGLE AGENT HANDLER
 ##########################################
 class Single_Agent_Handler():
-  def __init__(self, model_name:str, ggb_question_handler, prompt_template = None, dirs = None, base = None): # Renamed to ggb_question_handler
+  def __init__(self, model_name:str, Qs, Prompt:PromptHandler, dirs: list | None = ['results', 'logs', 'checkpoints'], base: str | None = 'single', n_repeats = 12): 
+    # Dirs can be none or a list of [csv dir, log dir checkpoint_dir]
     self.dirs = dirs
     self.base = base
     self.model_name = model_name
-    self.ggb_questions = ggb_question_handler # Using GGB_Statements instance
-    self.client = get_client(model_name) # get_client is from helpers
-    if prompt_template is None:
-      self.prompt = get_prompt(group_chat=False) # get_prompt is from helpers
-    else:
-      self.prompt = prompt_template
+    self.Qs = Qs # Using GGB_Statements instance
+    self.prompt = Prompt.prompt
+    self.n_repeats = n_repeats
+    self.question_range = (1, Qs.get_total_questions() if Qs else 1)
 
   async def run_single_agent_single_question(self, question_number=1): # question_number is 1-based
     # returns full response (content of message), answer, confidence, question_id
-    question_data = self.ggb_questions.get_question_by_index(question_number - 1) # 0-based index
+    question_data = self.Qs.get_question_by_index(question_number - 1) # 0-based index
 
     if question_data is None or 'statement' not in question_data or 'statement_id' not in question_data:
       print(f"Question data for index {question_number-1} (number {question_number}) not found or malformed!")
@@ -355,7 +397,7 @@ class Single_Agent_Handler():
 
     agent = AssistantAgent(
         name="assistant_agent",
-        model_client=self.client,
+        model_client = get_client(self.model_name),
         system_message=self.prompt
     )
 
@@ -363,21 +405,21 @@ class Single_Agent_Handler():
     result = await Console(team.run_stream(task=question_text))
 
     response_content = result.messages[-1].content
-    answer = extract_answer_from_response_single(response_content)
-    confidence = extract_confidence_from_response_single(response_content)
+    answer = extract_answer_from_response(response_content)
+    confidence = extract_confidence_from_response(response_content)
 
     return answer, confidence, response_content, question_id
 
-  async def run_single_agent_multiple_times(self, question_number=1, num_runs=10):
+  async def run_single_agent_multiple_times(self, question_number):
     results = []
-    for _ in range(num_runs):
+    for _ in range(self.n_repeats):
         run_output = await self.run_single_agent_single_question(question_number)
         if run_output and run_output[0] is not None: # Check if answer is not None
             results.append(run_output) # (answer, confidence, response_content, question_id)
         else:
             print(f"Task returned None or malformed data for question {question_number}")
             # Append a placeholder if necessary, or handle error
-            results.append((None, None, None, self.ggb_questions.get_question_by_index(question_number - 1).get('statement_id', 'unknown_id_error')))
+            results.append((None, None, None, self.Qs.get_question_by_index(question_number - 1).get('statement_id', 'unknown_id_error')))
 
     answers = [res[0] for res in results]
     confidences = [res[1] for res in results]
@@ -386,10 +428,10 @@ class Single_Agent_Handler():
 
     return answers, confidences, responses, question_ids[0] if question_ids else None
 
-  async def run_single_agent_and_save(self, question_range=(1, 88), num_runs=1):
+  async def run_single_agent_and_save(self):
     model_name = self.model_name
-    q_start, q_end = question_range
-    csv_file, log_file, checkpoint_file = get_consistent_filenames(model_name, question_range, num_runs, dirs = self.dirs, base = self.base)
+    q_start, q_end = self.question_range
+    csv_file, log_file, checkpoint_file = get_consistent_filenames(model_name, self.question_range, self.n_repeats, dirs = self.dirs, base = self.base)
     completed_runs = load_checkpoint(checkpoint_file)
     all_results_this_session = []
     question_numbers_to_process = list(range(q_start, q_end + 1))
@@ -403,8 +445,8 @@ class Single_Agent_Handler():
         file_handler.setFormatter(formatter)
         logger.addHandler(file_handler)
 
-    print(f"Starting/Resuming run for model {model_name} using GGB questions")
-    logger.info(f"--- Starting/Resuming Run (GGB) --- Model: {model_name}, Questions: {question_range}, Runs: {num_runs} ---")
+    print(f"Starting/Resuming run for model {model_name} using questions")
+    logger.info(f"--- Starting/Resuming Run --- Model: {model_name}, Questions: {self.question_range}, Runs: {self.n_repeats} ---")
 
     model_checkpoint_key = str(model_name) 
     if model_checkpoint_key not in completed_runs:
@@ -416,21 +458,19 @@ class Single_Agent_Handler():
             continue
 
         try:
-            print(f"Processing GGB question number {question_num} (index {question_num-1})...")
-            logger.info(f"Processing GGB question number {question_num} (index {question_num-1})")
+            print(f"Processing question number {question_num} (index {question_num-1})...")
+            logger.info(f"Processing question number {question_num} (index {question_num-1})")
 
             # Fetch GGB question_data to log statement_id and text
-            question_data = self.ggb_questions.get_question_by_index(question_num - 1)
+            question_data = self.Qs.get_question_by_index(question_num - 1)
             if not question_data or 'statement_id' not in question_data:
-                logger.warning(f"GGB Question for index {question_num-1} not found or malformed! Skipping.")
+                logger.warning(f"Question for index {question_num-1} not found or malformed! Skipping.")
                 continue
             current_question_id = question_data['statement_id'] # This is GGB statement_id
-            logger.info(f"GGB Stmt ID: {current_question_id}, Text: {question_data['statement'][:100]}...")
+            logger.info(f"Stmt ID: {current_question_id}, Text: {question_data['statement'][:100]}...")
 
             answers, confidences, responses, q_id_from_run = await self.run_single_agent_multiple_times(
-                question_number=question_num,
-                num_runs=num_runs
-            )
+                question_number=question_num)
             if q_id_from_run != current_question_id and q_id_from_run is not None:
                  logger.warning(f"Mismatch in question ID for Q_num {question_num}. Expected {current_question_id}, got {q_id_from_run}")
             # Use current_question_id as the definitive ID for this loop iteration
@@ -452,16 +492,16 @@ class Single_Agent_Handler():
             all_results_this_session.extend(question_results_for_csv)
             completed_runs[model_checkpoint_key][q_checkpoint_key] = True
             save_checkpoint(checkpoint_file, completed_runs)
-            print(f"  GGB Question number {question_num} (Stmt ID: {current_question_id}) completed and saved.")
-            logger.info(f"GGB Question number {question_num} (Stmt ID: {current_question_id}) completed.")
+            print(f"Question number {question_num} (Stmt ID: {current_question_id}) completed and saved.")
+            logger.info(f"Question number {question_num} (Stmt ID: {current_question_id}) completed.")
 
         except Exception as e:
-            print(f"Error processing GGB question number {question_num}: {str(e)}")
-            logger.error(f"Error processing GGB question number {question_num}: {str(e)}", exc_info=True)
+            print(f"Error processing question number {question_num}: {str(e)}")
+            logger.error(f"Error processing question number {question_num}: {str(e)}", exc_info=True)
 
     processed_count = len(all_results_this_session)
-    print(f"Run finished for model {model_name}. Added {processed_count} new GGB results this session.")
-    logger.info(f"--- Run Finished (GGB) --- Model: {model_name}. Added {processed_count} new results. ---")
+    print(f"Run finished for model {model_name}. Added {processed_count} new results this session.")
+    logger.info(f"--- Run Finished --- Model: {model_name}. Added {processed_count} new results. ---")
     return all_results_this_session, csv_file, log_file
 
   def _write_to_csv(self, results, csv_file):
@@ -477,49 +517,11 @@ class Single_Agent_Handler():
                 writer.writeheader()
             writer.writerows(results)
 
-##########################################
+
+
+########################################################
 # MULTIAGENT HELPERS
-# NOTE: WIP!
-##########################################
-
-
-#################################################
-# GET ANSWER FROM MODEL RESPONSE (MULTI AGENT)
-#################################################        
-
-def extract_answer_from_response(content):
-    """Extracts the answer (e.g., A, B) from <ANSWER> tags."""
-    match = re.search(r"<ANSWER>(.*?)</ANSWER>", content, re.IGNORECASE | re.DOTALL)
-    answers = ["1", "2", "3", "4", "5", "6", "7"]
-    if match and match.group(1).strip() in answers:
-        return match.group(1).strip()
-    # If no match, check for answers in the content
-    for answer in answers:
-        if answer in content:
-            return answer
-    return match.group(1).strip() if match else "No answer found"
-
-def extract_confidence_from_response(content):
-    """Extracts the confidence number from <CONF> tags."""
-    match = re.search(r"<CONF>(.*?)</CONF>", content, re.IGNORECASE | re.DOTALL)
-    if match:
-        return match.group(1).strip()
-    answers = ["1", "2", "3", "4", "5", "6", "7"]
-    for answer in answers:
-        if answer in content:
-            return answer
-    return "No confidence found"
-
-
-########################################################
-# PROMPT HANDLER
-# SO WE CAN RUN DIFFERENT PROMPTS EASIER
-########################################################
-class PromptHandler():
-    def  __init__(self, **kwargs):
-        self.prompt = get_prompt(**kwargs)
-
-########################################################
+###########################################
 # GENERAL MULTIAGENT HANDLER
 # DEFINES FUNCTIONS FOR CHECKPOINTS/LOGGING
 ########################################################
@@ -636,7 +638,7 @@ class RingHandler(MultiAgentHandler):
     # IF YOU WANT MULTIPLE OF A CERTAIN MODEL, JUST PUT IT IN THE LIST THAT MANY TIMES
     def __init__(self, models, Qs, 
                  Prompt:PromptHandler, 
-                 nrounds=3, nrepeats=10, shuffle=False, 
+                 nrounds=4, nrepeats=12, shuffle=True, 
                  chat_type = 'ring', csv_dir = 'results_multi'):
         self.Qs = Qs
         self.models = models
@@ -666,7 +668,6 @@ class RingHandler(MultiAgentHandler):
     async def run_single_ring_iteration(self, task, question_num, question_id, iteration_idx):
         model_ensemble = self.MODEL_ENSEMBLE_CONFIG
         max_loops = self.N_CONVERGENCE_LOOPS
-        shuffle = self.SHUFFLE_AGENTS
 
         """Runs one iteration of the round-robin chat, returning aggregated results."""
         agents = []
@@ -689,7 +690,7 @@ class RingHandler(MultiAgentHandler):
                 agents.append(agent)
                 agent_index += 1
 
-        if shuffle:
+        if self.SHUFFLE_AGENTS:
             random.shuffle(agents)
 
         num_agents = len(agents)
@@ -866,13 +867,13 @@ class BufferedChat(ChatCompletionContext, Component[BufferedChatCompletionContex
 
 
 ########################################################
-# STAR HANDLER : TODO!
+# STAR HANDLER 
 ########################################################
 class StarHandler(MultiAgentHandler):
     def __init__(self, models, Qs, 
                  Prompt:PromptHandler, 
-                 nrounds=4, nrepeats=10, shuffle=False, 
-                 chat_type = 'star', evil_agent = None,
+                 nrounds=4, nrepeats=10, shuffle=True, 
+                 chat_type = 'star', evil_agent_idx = None,
                  supervisor_index = 1,  
                  supervisor_convergence:bool = True, 
                  is_supervisor_evil:bool = False,
@@ -890,8 +891,20 @@ class StarHandler(MultiAgentHandler):
         
         self.SUPERVISOR_INDEX = supervisor_index 
 
-        self.EVIL_AGENT = evil_agent
+        self.EVIL_AGENT = evil_agent_idx
         self.EVIL_SUPERVISOR = is_supervisor_evil
+
+        if self.EVIL_AGENT:
+            self.evil_prompt = PromptHandler(group_chat = Prompt.group_chat,
+                                              persona="red teaming agent aiming to have significantly different answers from the other agents.",
+                                              reasoning = Prompt.reasoning, 
+                                              confidence = Prompt.confidence, 
+                                              answer = Prompt.answer, 
+                                              alternative_prompt = Prompt.alternative_prompt, 
+                                              invert_answer=Prompt.invert_answer, 
+                                              secret= Prompt.secret)
+        else: 
+            self.evil_prompt = None
 
         self.SUPERVISOR_CONVERGENCE = supervisor_convergence
         
@@ -930,6 +943,7 @@ class StarHandler(MultiAgentHandler):
         
 
         self.CONFIG_HASH = self.create_config_hash(self.config_details)
+
 
     def initiate_files(self):
             # Construct a more descriptive model_identifier for star chat filenames
@@ -973,9 +987,10 @@ class StarHandler(MultiAgentHandler):
 
         peripheral_agent_names_list = []
         for i, p_model_name in enumerate(self.PERIPHERAL_MODELS):
-            system_message = get_prompt(group_chat=True) # Peripheral agents get the group chat prompt
-            if self.EVIL_AGENT is not None and i == self.EVIL_AGENT:
-                system_message = get_prompt(group_chat=True, persona="red teaming agent aiming to have significantly different answers from the other agents.")
+            system_message = self.PROMPT # Peripheral agents get the group chat prompt
+            if self.evil_prompt is not None and i == self.EVIL_AGENT:
+                system_message = self.evil_agent_prompt
+
             model_text_safe = re.sub(r'\W+','_', p_model_name)
             p_agent_name = f"peripheral_{model_text_safe}_{i}"
             p_agent = AssistantAgent(
@@ -988,12 +1003,24 @@ class StarHandler(MultiAgentHandler):
             agent_map[p_agent_name] = p_model_name
             peripheral_agent_names_list.append(p_agent_name)
 
+        if self.SHUFFLE_AGENTS:
+            shuffle_indices = list(range(len(peripheral_agent_names_list)))
+            # Shuffle the indices
+            random.shuffle(shuffle_indices)
+            # Create new shuffled lists using the same permutation
+            shuffled_peripherals = [peripheral_agent_names_list[i] for i in shuffle_indices]
+            shuffled_agents = [agents[0]] + [agents[i+1] for i in shuffle_indices]
+            agents = shuffled_agents
+            peripheral_agent_names_list = shuffled_peripherals
+            
+
+
         num_peripherals = len(peripheral_agent_names_list)
         if num_peripherals == 0:
-            self.logger.warning(f"Q_num{question_num} (GGB ID {question_id}) Iter{iteration_idx}: No peripheral agents, skipping.")
+            self.logger.warning(f"Q_num{question_num} (ID {question_id}) Iter{iteration_idx}: No peripheral agents, skipping.")
             return None
 
-        self.logger.info(f"Q_num{question_num} (GGB ID {question_id}) Iter{iteration_idx}: Starting star chat. Central: {self.CENTRAL_MODEL}, Peripherals: {self.PERIPHERAL_MODELS}")
+        self.logger.info(f"Q_num{question_num} (ID {question_id}) Iter{iteration_idx}: Starting star chat. Central: {self.CENTRAL_MODEL}, Peripherals: {self.PERIPHERAL_MODELS}")
 
         current_peripheral_idx = 0
         peripheral_turns_taken = [0] * num_peripherals
@@ -1054,7 +1081,7 @@ class StarHandler(MultiAgentHandler):
                     'agent_name': p_agent_name, 'agent_model': p_model_name, 'message_index': msg_idx,
                     'extracted_answer': answer_ext, 'message_content': message_obj.content
                 })
-                self.logger.info(f"Q_num{question_num} (GGB ID {question_id}) Iter{iteration_idx+1} Msg{msg_idx} Agent {p_agent_name}: Ans={answer_ext}, Conf={conf_ext}")
+                self.logger.info(f"Q_num{question_num} (ID {question_id}) Iter{iteration_idx+1} Msg{msg_idx} Agent {p_agent_name}: Ans={answer_ext}, Conf={conf_ext}")
 
         run_result_data_dict = {
             'question_num': question_num, 'question_id': question_id, 'run_index': iteration_idx + 1,
@@ -1073,13 +1100,13 @@ class StarHandler(MultiAgentHandler):
             self.logger.error("Qs, CENTRAL_MODEL, or PERIPHERAL_MODELS not available. Aborting star run.")
             return
 
-        # global QUESTION_RANGE
+
         if self.QUESTION_RANGE[1] > self.Qs.get_total_questions():
             self.QUESTION_RANGE = (self.QUESTION_RANGE[0], self.Qs.get_total_questions())
             print(f"Adjusted star question upper range to {self.QUESTION_RANGE[1]}.")
 
-        print(f"Starting {self.CHAT_TYPE} run with GGB questions.")
-        self.logger.info(f"--- Starting New Star Run (GGB) --- CONFIG HASH: {self.CONFIG_HASH} ---")
+        print(f"Starting {self.CHAT_TYPE} run with questions.")
+        self.logger.info(f"--- Starting New Star Run --- CONFIG HASH: {self.CONFIG_HASH} ---")
         all_results = []
         for q_num_iter_star in range(self.QUESTION_RANGE[0], self.QUESTION_RANGE[1] + 1):
             q_star_checkpoint_key = str(q_num_iter_star)
@@ -1088,7 +1115,7 @@ class StarHandler(MultiAgentHandler):
 
             ggb_question_data = Qs.get_question_by_index(q_num_iter_star - 1)
             if not ggb_question_data or 'statement' not in ggb_question_data or 'statement_id' not in ggb_question_data:
-                self.logger.error(f"GGB Question for index {q_num_iter_star-1} (num {q_num_iter_star}) malformed. Skipping.")
+                self.logger.error(f"Question for index {q_num_iter_star-1} (num {q_num_iter_star}) malformed. Skipping.")
                 continue
             current_task_text = ggb_question_data['statement']
             current_ggb_id = ggb_question_data['statement_id']
@@ -1097,21 +1124,16 @@ class StarHandler(MultiAgentHandler):
                 if self.SAVE_RESULTS:
                     star_iter_checkpoint_key = str(star_iter_idx)
                     if self.completed_runs.get(q_star_checkpoint_key, {}).get(star_iter_checkpoint_key, False):
-                        print(f"Skipping GGB Q_num {q_num_iter_star} (ID {current_ggb_id}), Star Iter {star_iter_idx+1} (completed).")
-                        self.logger.info(f"Skipping GGB Q_num{q_num_iter_star} (ID {current_ggb_id}) Star Iter{star_iter_idx+1} (completed).")
+                        print(f"Skipping Q_num {q_num_iter_star} (ID {current_ggb_id}), Star Iter {star_iter_idx+1} (completed).")
+                        self.logger.info(f"Skipping Q_num{q_num_iter_star} (ID {current_ggb_id}) Star Iter{star_iter_idx+1} (completed).")
                         continue
 
-                print(f"--- Running GGB Q_num {q_num_iter_star} (ID {current_ggb_id}), Star Iter {star_iter_idx+1}/{self.N_ITERATIONS_PER_QUESTION} ---")
-                self.logger.info(f"--- Running GGB Q_num{q_num_iter_star} (ID {current_ggb_id}) Star Iter{star_iter_idx+1} ---")
+                print(f"--- Running Q_num {q_num_iter_star} (ID {current_ggb_id}), Star Iter {star_iter_idx+1}/{self.N_ITERATIONS_PER_QUESTION} ---")
+                self.logger.info(f"--- Running Q_num{q_num_iter_star} (ID {current_ggb_id}) Star Iter{star_iter_idx+1} ---")
 
                 try:
-
                     star_iteration_result = await self.run_single_star_iteration(
-                        central_model_name=self.CENTRAL_MODEL,
-                        peripheral_model_names=self.PERIPHERAL_MODELS,
                         task=current_task_text,
-                        max_loops=self.N_CONVERGENCE_LOOPS,
-                        config_details=self.config_details,
                         question_num=q_num_iter_star,
                         question_id=current_ggb_id,
                         iteration_idx=star_iter_idx
@@ -1121,19 +1143,19 @@ class StarHandler(MultiAgentHandler):
                         self.write_to_csv_multi(star_iteration_result, self.csv_file)
                         self.completed_runs[q_star_checkpoint_key][star_iter_checkpoint_key] = True
                         self.save_checkpoint_multi(self.checkpoint_file, self.completed_runs)
-                        self.logger.info(f"--- Finished GGB Q_num{q_num_iter_star} (ID {current_ggb_id}) Star Iter{star_iter_idx+1}. Saved. ---")
+                        self.logger.info(f"--- Finished Q_num{q_num_iter_star} (ID {current_ggb_id}) Star Iter{star_iter_idx+1}. Saved. ---")
                     else:
-                        self.logger.warning(f"--- GGB Q_num{q_num_iter_star} (ID {current_ggb_id}) Star Iter{star_iter_idx+1} no results. ---")
+                        self.logger.warning(f"--- Q_num{q_num_iter_star} (ID {current_ggb_id}) Star Iter{star_iter_idx+1} no results. ---")
                 except Exception as e_star:
-                    print(f"Error in GGB Q_num {q_num_iter_star} (ID {current_ggb_id}), Star Iter {star_iter_idx+1}: {e_star}")
-                    self.logger.error(f"Error GGB Q_num{q_num_iter_star} (ID {current_ggb_id}) Star Iter{star_iter_idx+1}: {e_star}", exc_info=True)
+                    print(f"Error in Q_num {q_num_iter_star} (ID {current_ggb_id}), Star Iter {star_iter_idx+1}: {e_star}")
+                    self.logger.error(f"Error Q_num{q_num_iter_star} (ID {current_ggb_id}) Star Iter{star_iter_idx+1}: {e_star}", exc_info=True)
                 finally: gc.collect()
 
-        self.logger.info(f"--- Star Run Finished (GGB) --- CONFIG HASH: {self.CONFIG_HASH} ---")
+        self.logger.info(f"--- Star Run Finished  --- CONFIG HASH: {self.CONFIG_HASH} ---")
         return all_results
 
-    async def run_star_main_async(self): # Renamed
-        return await self.main_star_convergence()
+    # async def run_star_main_async(self): # Renamed
+    #     return await self.main_star_convergence()
 
 
 ########################################################
@@ -1183,7 +1205,11 @@ def ring_to_roundrobin_df(ring_df, Qs):
     # nubmer of rounds, models, and repeats assumes that all questions 
     # have the same rounds, the same models and the same number of repeats (and all models have the same number of repeats)
     n_rounds = ring_df['config_details'][0]['loops'] # number of rounds per round robin
-    n_models = len(ring_df['config_details'][0]['ensemble']) # number of models/agents
+    
+    # n_models = len(ring_df['config_details'][0]['ensemble']) # number of models/agents (only works for hetero)
+    n_models = sum([x['number'] for x in ring_df['config_details'][0]['ensemble']])
+
+    # print(f'{n_models}')
     repeats = ring_df['run_index'].unique()
     n_repeats = repeats.max() # number of repeats (same question different round robin)
 
@@ -1219,7 +1245,7 @@ def ring_to_roundrobin_df(ring_df, Qs):
 
                     # sanity check
                     # print(f'{repeat}, {idx},{dict_idx}')
-                    
+                    message_idx = round_robin_responses[idx][dict_idx]['message_index']
                     agent_name = round_robin_responses[idx][dict_idx]['agent_name']
                     agent_model = round_robin_responses[idx][dict_idx]['agent_model']
                     agent_answer = round_robin_responses[idx][dict_idx]['extracted_answer']
@@ -1228,7 +1254,7 @@ def ring_to_roundrobin_df(ring_df, Qs):
                         'question_num' : q_num, 
                         'question_id': q_id, # starts at 1
                         'round': round+1, # starts at 1
-                        'message_index': msg_idx, # starts at 1
+                        'message_index': message_idx, # starts at 1
                         'agent_name': agent_name,
                         'agent_model':agent_model,
                         'agent_answer_str': agent_answer,
@@ -1249,3 +1275,6 @@ def ring_to_roundrobin_df(ring_df, Qs):
     ring_rr_df['chat_type'] = ring_df['chat_type'].iloc[0]
 
     return ring_rr_df
+
+
+
