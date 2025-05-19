@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 """
 Ring topology benchmark runner with improved error handling and range enforcement.
-Example: python ring_benchmark.py --range 0 0 --question-range 4 5 --rounds 2 --repeats 2
+Example: python ring_benchmark.py --range 5 5  --rounds 4 --repeats 12
 """
 
 import sys
