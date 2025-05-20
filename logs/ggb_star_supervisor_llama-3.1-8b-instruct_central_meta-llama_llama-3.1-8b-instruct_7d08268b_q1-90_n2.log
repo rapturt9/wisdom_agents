@@ -1,0 +1,169 @@
+2025-05-20 16:05:56,815 - INFO - Starting parallel run for ggb_star_supervisor_llama-3.1-8b-instruct
+2025-05-20 16:05:56,818 - INFO - Skipping Q_num1 (ID 1) Iter2 (already completed)
+2025-05-20 16:05:56,840 - INFO - Skipping Q_num12 (ID 12) Iter1 (already completed)
+2025-05-20 16:05:56,868 - INFO - Skipping Q_num26 (ID 26) Iter1 (already completed)
+2025-05-20 16:05:56,890 - INFO - Skipping Q_num37 (ID 37) Iter1 (already completed)
+2025-05-20 16:05:56,908 - INFO - Skipping Q_num42 (ID 42) Iter2 (already completed)
+2025-05-20 16:05:56,924 - INFO - Skipping Q_num51 (ID 51) Iter1 (already completed)
+2025-05-20 16:05:56,936 - INFO - Skipping Q_num57 (ID 57) Iter1 (already completed)
+2025-05-20 16:05:56,948 - INFO - Skipping Q_num63 (ID 63) Iter2 (already completed)
+2025-05-20 16:05:56,951 - INFO - Skipping Q_num65 (ID 65) Iter2 (already completed)
+2025-05-20 16:05:56,960 - INFO - Skipping Q_num69 (ID 69) Iter2 (already completed)
+2025-05-20 16:05:56,988 - INFO - Skipping Q_num83 (ID 83) Iter2 (already completed)
+2025-05-20 16:05:56,998 - INFO - Skipping Q_num89 (ID 89) Iter2 (already completed)
+2025-05-20 16:05:57,001 - INFO - Created 168 tasks for parallel processing with 8 workers
+2025-05-20 16:05:57,004 - INFO - Starting Q_num60 (ID 60) Iter2 (attempt 1)
+2025-05-20 16:05:57,190 - INFO - Successfully created agent central_supervisor with model meta-llama/llama-3.1-8b-instruct
+2025-05-20 16:05:57,191 - INFO - Starting Q_num14 (ID 14) Iter2 (attempt 1)
+2025-05-20 16:05:57,397 - INFO - Successfully created agent central_supervisor with model meta-llama/llama-3.1-8b-instruct
+2025-05-20 16:05:57,399 - INFO - Starting Q_num26 (ID 26) Iter2 (attempt 1)
+2025-05-20 16:05:57,607 - INFO - Successfully created agent central_supervisor with model meta-llama/llama-3.1-8b-instruct
+2025-05-20 16:05:57,609 - INFO - Starting Q_num73 (ID 73) Iter2 (attempt 1)
+2025-05-20 16:05:57,806 - INFO - Successfully created agent central_supervisor with model meta-llama/llama-3.1-8b-instruct
+2025-05-20 16:05:57,808 - INFO - Starting Q_num23 (ID 23) Iter2 (attempt 1)
+2025-05-20 16:05:58,024 - INFO - Successfully created agent central_supervisor with model meta-llama/llama-3.1-8b-instruct
+2025-05-20 16:05:58,026 - INFO - Starting Q_num80 (ID 80) Iter1 (attempt 1)
+2025-05-20 16:05:58,233 - INFO - Successfully created agent central_supervisor with model meta-llama/llama-3.1-8b-instruct
+2025-05-20 16:05:58,234 - INFO - Starting Q_num50 (ID 50) Iter1 (attempt 1)
+2025-05-20 16:05:58,427 - INFO - Successfully created agent central_supervisor with model meta-llama/llama-3.1-8b-instruct
+2025-05-20 16:05:58,430 - INFO - Starting Q_num27 (ID 27) Iter2 (attempt 1)
+2025-05-20 16:05:58,622 - INFO - Successfully created agent central_supervisor with model meta-llama/llama-3.1-8b-instruct
+2025-05-20 16:05:58,816 - INFO - Successfully created agent peripheral_openai_gpt_4o_mini_0 with model openai/gpt-4o-mini
+2025-05-20 16:05:59,008 - INFO - Successfully created agent peripheral_anthropic_claude_3_5_haiku_1 with model anthropic/claude-3.5-haiku
+2025-05-20 16:05:59,202 - INFO - Successfully created agent peripheral_google_gemini_2_0_flash_lite_001_2 with model google/gemini-2.0-flash-lite-001
+2025-05-20 16:05:59,392 - INFO - Successfully created agent peripheral_qwen_qwen_2_5_7b_instruct_3 with model qwen/qwen-2.5-7b-instruct
+2025-05-20 16:05:59,582 - INFO - Successfully created agent peripheral_meta_llama_llama_3_1_8b_instruct_4 with model meta-llama/llama-3.1-8b-instruct
+2025-05-20 16:05:59,770 - INFO - Successfully created agent peripheral_deepseek_deepseek_chat_v3_0324_5 with model deepseek/deepseek-chat-v3-0324
+2025-05-20 16:05:59,964 - INFO - Successfully created agent peripheral_openai_gpt_4o_mini_0 with model openai/gpt-4o-mini
+2025-05-20 16:06:00,163 - INFO - Successfully created agent peripheral_anthropic_claude_3_5_haiku_1 with model anthropic/claude-3.5-haiku
+2025-05-20 16:06:00,351 - INFO - Successfully created agent peripheral_google_gemini_2_0_flash_lite_001_2 with model google/gemini-2.0-flash-lite-001
+2025-05-20 16:06:00,540 - INFO - Successfully created agent peripheral_qwen_qwen_2_5_7b_instruct_3 with model qwen/qwen-2.5-7b-instruct
+2025-05-20 16:06:00,729 - INFO - Successfully created agent peripheral_meta_llama_llama_3_1_8b_instruct_4 with model meta-llama/llama-3.1-8b-instruct
+2025-05-20 16:06:00,921 - INFO - Successfully created agent peripheral_deepseek_deepseek_chat_v3_0324_5 with model deepseek/deepseek-chat-v3-0324
+2025-05-20 16:06:01,116 - INFO - Successfully created agent peripheral_openai_gpt_4o_mini_0 with model openai/gpt-4o-mini
+2025-05-20 16:06:01,306 - INFO - Successfully created agent peripheral_anthropic_claude_3_5_haiku_1 with model anthropic/claude-3.5-haiku
+2025-05-20 16:06:01,508 - INFO - Successfully created agent peripheral_google_gemini_2_0_flash_lite_001_2 with model google/gemini-2.0-flash-lite-001
+2025-05-20 16:06:01,714 - INFO - Successfully created agent peripheral_qwen_qwen_2_5_7b_instruct_3 with model qwen/qwen-2.5-7b-instruct
+2025-05-20 16:06:01,913 - INFO - Successfully created agent peripheral_meta_llama_llama_3_1_8b_instruct_4 with model meta-llama/llama-3.1-8b-instruct
+2025-05-20 16:06:02,107 - INFO - Successfully created agent peripheral_deepseek_deepseek_chat_v3_0324_5 with model deepseek/deepseek-chat-v3-0324
+2025-05-20 16:06:02,299 - INFO - Successfully created agent peripheral_openai_gpt_4o_mini_0 with model openai/gpt-4o-mini
+2025-05-20 16:06:02,551 - INFO - Successfully created agent peripheral_anthropic_claude_3_5_haiku_1 with model anthropic/claude-3.5-haiku
+2025-05-20 16:06:02,744 - INFO - Successfully created agent peripheral_google_gemini_2_0_flash_lite_001_2 with model google/gemini-2.0-flash-lite-001
+2025-05-20 16:06:02,931 - INFO - Successfully created agent peripheral_qwen_qwen_2_5_7b_instruct_3 with model qwen/qwen-2.5-7b-instruct
+2025-05-20 16:06:03,117 - INFO - Successfully created agent peripheral_meta_llama_llama_3_1_8b_instruct_4 with model meta-llama/llama-3.1-8b-instruct
+2025-05-20 16:06:03,304 - INFO - Successfully created agent peripheral_deepseek_deepseek_chat_v3_0324_5 with model deepseek/deepseek-chat-v3-0324
+2025-05-20 16:06:03,490 - INFO - Successfully created agent peripheral_openai_gpt_4o_mini_0 with model openai/gpt-4o-mini
+2025-05-20 16:06:03,678 - INFO - Successfully created agent peripheral_anthropic_claude_3_5_haiku_1 with model anthropic/claude-3.5-haiku
+2025-05-20 16:06:03,868 - INFO - Successfully created agent peripheral_google_gemini_2_0_flash_lite_001_2 with model google/gemini-2.0-flash-lite-001
+2025-05-20 16:06:04,056 - INFO - Successfully created agent peripheral_qwen_qwen_2_5_7b_instruct_3 with model qwen/qwen-2.5-7b-instruct
+2025-05-20 16:06:04,251 - INFO - Successfully created agent peripheral_meta_llama_llama_3_1_8b_instruct_4 with model meta-llama/llama-3.1-8b-instruct
+2025-05-20 16:06:04,436 - INFO - Successfully created agent peripheral_deepseek_deepseek_chat_v3_0324_5 with model deepseek/deepseek-chat-v3-0324
+2025-05-20 16:06:04,624 - INFO - Successfully created agent peripheral_openai_gpt_4o_mini_0 with model openai/gpt-4o-mini
+2025-05-20 16:06:04,813 - INFO - Successfully created agent peripheral_anthropic_claude_3_5_haiku_1 with model anthropic/claude-3.5-haiku
+2025-05-20 16:06:05,002 - INFO - Successfully created agent peripheral_google_gemini_2_0_flash_lite_001_2 with model google/gemini-2.0-flash-lite-001
+2025-05-20 16:06:05,192 - INFO - Successfully created agent peripheral_qwen_qwen_2_5_7b_instruct_3 with model qwen/qwen-2.5-7b-instruct
+2025-05-20 16:06:05,382 - INFO - Successfully created agent peripheral_meta_llama_llama_3_1_8b_instruct_4 with model meta-llama/llama-3.1-8b-instruct
+2025-05-20 16:06:05,574 - INFO - Successfully created agent peripheral_deepseek_deepseek_chat_v3_0324_5 with model deepseek/deepseek-chat-v3-0324
+2025-05-20 16:06:05,769 - INFO - Successfully created agent peripheral_openai_gpt_4o_mini_0 with model openai/gpt-4o-mini
+2025-05-20 16:06:05,960 - INFO - Successfully created agent peripheral_anthropic_claude_3_5_haiku_1 with model anthropic/claude-3.5-haiku
+2025-05-20 16:06:06,149 - INFO - Successfully created agent peripheral_google_gemini_2_0_flash_lite_001_2 with model google/gemini-2.0-flash-lite-001
+2025-05-20 16:06:06,333 - INFO - Successfully created agent peripheral_qwen_qwen_2_5_7b_instruct_3 with model qwen/qwen-2.5-7b-instruct
+2025-05-20 16:06:06,523 - INFO - Successfully created agent peripheral_meta_llama_llama_3_1_8b_instruct_4 with model meta-llama/llama-3.1-8b-instruct
+2025-05-20 16:06:06,708 - INFO - Successfully created agent peripheral_deepseek_deepseek_chat_v3_0324_5 with model deepseek/deepseek-chat-v3-0324
+2025-05-20 16:06:06,891 - INFO - Successfully created agent peripheral_openai_gpt_4o_mini_0 with model openai/gpt-4o-mini
+2025-05-20 16:06:07,083 - INFO - Successfully created agent peripheral_anthropic_claude_3_5_haiku_1 with model anthropic/claude-3.5-haiku
+2025-05-20 16:06:07,267 - INFO - Successfully created agent peripheral_google_gemini_2_0_flash_lite_001_2 with model google/gemini-2.0-flash-lite-001
+2025-05-20 16:06:07,454 - INFO - Successfully created agent peripheral_qwen_qwen_2_5_7b_instruct_3 with model qwen/qwen-2.5-7b-instruct
+2025-05-20 16:06:07,660 - INFO - Successfully created agent peripheral_meta_llama_llama_3_1_8b_instruct_4 with model meta-llama/llama-3.1-8b-instruct
+2025-05-20 16:06:07,843 - INFO - Successfully created agent peripheral_deepseek_deepseek_chat_v3_0324_5 with model deepseek/deepseek-chat-v3-0324
+2025-05-20 16:06:07,843 - INFO - Q_num60 (ID 60) Iter1: Starting star chat. Central: meta-llama/llama-3.1-8b-instruct, Peripherals: 6 models
+2025-05-20 16:06:08,033 - INFO - Q_num14 (ID 14) Iter1: Starting star chat. Central: meta-llama/llama-3.1-8b-instruct, Peripherals: 6 models
+2025-05-20 16:06:08,221 - INFO - Q_num26 (ID 26) Iter1: Starting star chat. Central: meta-llama/llama-3.1-8b-instruct, Peripherals: 6 models
+2025-05-20 16:06:08,410 - INFO - Q_num73 (ID 73) Iter1: Starting star chat. Central: meta-llama/llama-3.1-8b-instruct, Peripherals: 6 models
+2025-05-20 16:06:08,599 - INFO - Q_num23 (ID 23) Iter1: Starting star chat. Central: meta-llama/llama-3.1-8b-instruct, Peripherals: 6 models
+2025-05-20 16:06:08,789 - INFO - Q_num80 (ID 80) Iter0: Starting star chat. Central: meta-llama/llama-3.1-8b-instruct, Peripherals: 6 models
+2025-05-20 16:06:08,975 - INFO - Q_num50 (ID 50) Iter0: Starting star chat. Central: meta-llama/llama-3.1-8b-instruct, Peripherals: 6 models
+2025-05-20 16:06:09,161 - INFO - Q_num27 (ID 27) Iter1: Starting star chat. Central: meta-llama/llama-3.1-8b-instruct, Peripherals: 6 models
+2025-05-20 16:09:19,344 - INFO - Q_num14 (ID 14) Iter1: Chat finished in 191.12s. Msgs: 50
+2025-05-20 16:09:19,345 - INFO - Q_num14 (ID 14) Iter2 Msg2 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=1
+2025-05-20 16:09:19,345 - INFO - Q_num14 (ID 14) Iter2 Msg4 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=3, Conf=1
+2025-05-20 16:09:19,345 - INFO - Q_num14 (ID 14) Iter2 Msg6 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=6, Conf=6
+2025-05-20 16:09:19,345 - INFO - Q_num14 (ID 14) Iter2 Msg8 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=1, Conf=1
+2025-05-20 16:09:19,345 - INFO - Q_num14 (ID 14) Iter2 Msg10 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=1
+2025-05-20 16:09:19,345 - INFO - Q_num14 (ID 14) Iter2 Msg12 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=1, Conf=1
+2025-05-20 16:09:19,345 - INFO - Q_num14 (ID 14) Iter2 Msg14 Agent peripheral_openai_gpt_4o_mini_0: Ans=5, Conf=5
+2025-05-20 16:09:19,345 - INFO - Q_num14 (ID 14) Iter2 Msg16 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=1, Conf=1
+2025-05-20 16:09:19,346 - INFO - Q_num14 (ID 14) Iter2 Msg18 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=1, Conf=1
+2025-05-20 16:09:19,346 - INFO - Q_num14 (ID 14) Iter2 Msg20 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=1, Conf=1
+2025-05-20 16:09:19,346 - INFO - Q_num14 (ID 14) Iter2 Msg22 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=1
+2025-05-20 16:09:19,346 - INFO - Q_num14 (ID 14) Iter2 Msg24 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=1, Conf=1
+2025-05-20 16:09:19,346 - INFO - Q_num14 (ID 14) Iter2 Msg26 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=1
+2025-05-20 16:09:19,346 - INFO - Q_num14 (ID 14) Iter2 Msg28 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=1, Conf=1
+2025-05-20 16:09:19,346 - INFO - Q_num14 (ID 14) Iter2 Msg30 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=1, Conf=1
+2025-05-20 16:09:19,346 - INFO - Q_num14 (ID 14) Iter2 Msg32 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=1, Conf=1
+2025-05-20 16:09:19,347 - INFO - Q_num14 (ID 14) Iter2 Msg34 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=1
+2025-05-20 16:09:19,347 - INFO - Q_num14 (ID 14) Iter2 Msg36 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=1, Conf=1
+2025-05-20 16:09:19,347 - INFO - Q_num14 (ID 14) Iter2 Msg38 Agent peripheral_openai_gpt_4o_mini_0: Ans=1, Conf=1
+2025-05-20 16:09:19,347 - INFO - Q_num14 (ID 14) Iter2 Msg40 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=1, Conf=1
+2025-05-20 16:09:19,347 - INFO - Q_num14 (ID 14) Iter2 Msg42 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=1, Conf=1
+2025-05-20 16:09:19,347 - INFO - Q_num14 (ID 14) Iter2 Msg44 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=1, Conf=1
+2025-05-20 16:09:19,347 - INFO - Q_num14 (ID 14) Iter2 Msg46 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=1, Conf=1
+2025-05-20 16:09:19,347 - INFO - Q_num14 (ID 14) Iter2 Msg48 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=1, Conf=1
+2025-05-20 16:09:19,444 - INFO - Completed Q_num14 (ID 14) Iter2
+2025-05-20 16:09:19,537 - INFO - Starting Q_num39 (ID 39) Iter1 (attempt 1)
+2025-05-20 16:09:19,755 - INFO - Successfully created agent central_supervisor with model meta-llama/llama-3.1-8b-instruct
+2025-05-20 16:09:19,981 - INFO - Successfully created agent peripheral_openai_gpt_4o_mini_0 with model openai/gpt-4o-mini
+2025-05-20 16:09:20,186 - INFO - Successfully created agent peripheral_anthropic_claude_3_5_haiku_1 with model anthropic/claude-3.5-haiku
+2025-05-20 16:09:20,381 - INFO - Successfully created agent peripheral_google_gemini_2_0_flash_lite_001_2 with model google/gemini-2.0-flash-lite-001
+2025-05-20 16:09:20,602 - INFO - Successfully created agent peripheral_qwen_qwen_2_5_7b_instruct_3 with model qwen/qwen-2.5-7b-instruct
+2025-05-20 16:09:20,803 - INFO - Successfully created agent peripheral_meta_llama_llama_3_1_8b_instruct_4 with model meta-llama/llama-3.1-8b-instruct
+2025-05-20 16:09:21,009 - INFO - Successfully created agent peripheral_deepseek_deepseek_chat_v3_0324_5 with model deepseek/deepseek-chat-v3-0324
+2025-05-20 16:09:21,018 - INFO - Q_num39 (ID 39) Iter0: Starting star chat. Central: meta-llama/llama-3.1-8b-instruct, Peripherals: 6 models
+2025-05-20 16:10:52,755 - INFO - Q_num26 (ID 26) Iter1: Chat finished in 284.35s. Msgs: 50
+2025-05-20 16:10:52,756 - INFO - Q_num26 (ID 26) Iter2 Msg2 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=2
+2025-05-20 16:10:52,756 - INFO - Q_num26 (ID 26) Iter2 Msg4 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=3, Conf=3
+2025-05-20 16:10:52,756 - INFO - Q_num26 (ID 26) Iter2 Msg6 Agent peripheral_openai_gpt_4o_mini_0: Ans=2, Conf=2
+2025-05-20 16:10:52,756 - INFO - Q_num26 (ID 26) Iter2 Msg8 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=2, Conf=2
+2025-05-20 16:10:52,756 - INFO - Q_num26 (ID 26) Iter2 Msg10 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=3, Conf=3
+2025-05-20 16:10:52,756 - INFO - Q_num26 (ID 26) Iter2 Msg12 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=4, Conf=4
+2025-05-20 16:10:52,756 - INFO - Q_num26 (ID 26) Iter2 Msg14 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=3, Conf=3
+2025-05-20 16:10:52,756 - INFO - Q_num26 (ID 26) Iter2 Msg16 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=7, Conf=1
+2025-05-20 16:10:52,756 - INFO - Q_num26 (ID 26) Iter2 Msg18 Agent peripheral_openai_gpt_4o_mini_0: Ans=7, Conf=7
+2025-05-20 16:10:52,756 - INFO - Q_num26 (ID 26) Iter2 Msg20 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=7, Conf=7
+2025-05-20 16:10:52,756 - INFO - Q_num26 (ID 26) Iter2 Msg22 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=1, Conf=1
+2025-05-20 16:10:52,756 - INFO - Q_num26 (ID 26) Iter2 Msg24 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=2, Conf=2
+2025-05-20 16:10:52,756 - INFO - Q_num26 (ID 26) Iter2 Msg26 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=2
+2025-05-20 16:10:52,757 - INFO - Q_num26 (ID 26) Iter2 Msg28 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=No answer found, Conf=No confidence found
+2025-05-20 16:10:52,757 - INFO - Q_num26 (ID 26) Iter2 Msg30 Agent peripheral_openai_gpt_4o_mini_0: Ans=7, Conf=7
+2025-05-20 16:10:52,757 - INFO - Q_num26 (ID 26) Iter2 Msg32 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=7, Conf=7
+2025-05-20 16:10:52,757 - INFO - Q_num26 (ID 26) Iter2 Msg34 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=7, Conf=7
+2025-05-20 16:10:52,757 - INFO - Q_num26 (ID 26) Iter2 Msg36 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=3, Conf=3
+2025-05-20 16:10:52,757 - INFO - Q_num26 (ID 26) Iter2 Msg38 Agent peripheral_anthropic_claude_3_5_haiku_1: Ans=2, Conf=2
+2025-05-20 16:10:52,757 - INFO - Q_num26 (ID 26) Iter2 Msg40 Agent peripheral_meta_llama_llama_3_1_8b_instruct_4: Ans=No answer found, Conf=No confidence found
+2025-05-20 16:10:52,757 - INFO - Q_num26 (ID 26) Iter2 Msg42 Agent peripheral_openai_gpt_4o_mini_0: Ans=7, Conf=7
+2025-05-20 16:10:52,757 - INFO - Q_num26 (ID 26) Iter2 Msg44 Agent peripheral_qwen_qwen_2_5_7b_instruct_3: Ans=7, Conf=7
+2025-05-20 16:10:52,757 - INFO - Q_num26 (ID 26) Iter2 Msg46 Agent peripheral_deepseek_deepseek_chat_v3_0324_5: Ans=7, Conf=2
+2025-05-20 16:10:52,757 - INFO - Q_num26 (ID 26) Iter2 Msg48 Agent peripheral_google_gemini_2_0_flash_lite_001_2: Ans=3, Conf=3
+2025-05-20 16:10:52,848 - INFO - Completed Q_num26 (ID 26) Iter2
+2025-05-20 16:10:52,944 - INFO - Starting Q_num40 (ID 40) Iter2 (attempt 1)
+2025-05-20 16:10:53,164 - INFO - Successfully created agent central_supervisor with model meta-llama/llama-3.1-8b-instruct
+2025-05-20 16:10:53,384 - INFO - Successfully created agent peripheral_openai_gpt_4o_mini_0 with model openai/gpt-4o-mini
+2025-05-20 16:10:53,593 - INFO - Successfully created agent peripheral_anthropic_claude_3_5_haiku_1 with model anthropic/claude-3.5-haiku
+2025-05-20 16:10:53,793 - INFO - Successfully created agent peripheral_google_gemini_2_0_flash_lite_001_2 with model google/gemini-2.0-flash-lite-001
+2025-05-20 16:10:54,015 - INFO - Successfully created agent peripheral_qwen_qwen_2_5_7b_instruct_3 with model qwen/qwen-2.5-7b-instruct
+2025-05-20 16:10:54,216 - INFO - Successfully created agent peripheral_meta_llama_llama_3_1_8b_instruct_4 with model meta-llama/llama-3.1-8b-instruct
+2025-05-20 16:10:54,414 - INFO - Successfully created agent peripheral_deepseek_deepseek_chat_v3_0324_5 with model deepseek/deepseek-chat-v3-0324
+2025-05-20 16:10:54,426 - INFO - Q_num40 (ID 40) Iter1: Starting star chat. Central: meta-llama/llama-3.1-8b-instruct, Peripherals: 6 models
+2025-05-20 16:11:32,621 - WARNING - Chat timeout, attempt 1/3
+2025-05-20 16:11:42,288 - WARNING - Chat timeout, attempt 1/3
+2025-05-20 16:12:14,896 - WARNING - Chat timeout, attempt 1/3
+2025-05-20 16:12:26,148 - WARNING - Chat timeout, attempt 1/3
+2025-05-20 16:12:42,321 - WARNING - Chat timeout, attempt 1/3
+2025-05-20 16:13:34,659 - INFO - Completed parallel run for ggb_star_supervisor_llama-3.1-8b-instruct
+2025-05-20 16:13:34,659 - INFO - 
+Progress Report for ggb_star_supervisor_llama-3.1-8b-instruct:
+- Completed: 34/180 tasks (18.89%)
+- Main checkpoint entries: 2
+- In progress: 32
+- Remaining: 146 tasks
+
