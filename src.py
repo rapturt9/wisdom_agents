@@ -1283,6 +1283,17 @@ def ring_to_roundrobin_df(ring_df, Qs):
 
     # print(f'{n_models}')
     repeats = ring_df['run_index'].unique()
+    
+    # add 1 to repeat if starts at 0 else add 0 when saving
+    minrep = min(repeats)
+    if minrep == 0:
+        add_to_repeat = 1
+    elif minrep == 1:
+        add_to_repeat = 0
+    else:
+        Warning(f'repeats start at {minrep}')
+        add_to_repeat = 0
+
     n_repeats = repeats.max() # number of repeats (same question different round robin)
 
     if n_repeats == 1:
@@ -1331,7 +1342,7 @@ def ring_to_roundrobin_df(ring_df, Qs):
                         'agent_model':agent_model,
                         'agent_answer_str': agent_answer,
                         'agent_fullresponse': agent_fullresponse,
-                        'repeat_index': repeat + 1 # starts at 1
+                        'repeat_index': repeat + add_to_repeat # should start at 1
                     })
         del round_robin_df
         del round_robin_responses
