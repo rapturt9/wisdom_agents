@@ -497,8 +497,8 @@ def plot_IH_v_IB(df_by_category, use_std=True, label='chat_type', ax_lims = [1,7
     df = df_by_category.copy()
     
     # Create new columns to help with color mapping
-    df['base_config'] = df[label].apply(lambda x: x.replace('ous_', '').replace('_ring', '').replace('inverted_', ''))
-    df['is_inverted'] = df[label].apply(lambda x: 'inverted' in x)
+    df['base_config'] = df[label].apply(lambda x: x.replace('ous_', '').replace('_ring', '').replace('inverted_', '').replace('GGB_',''))
+    df['is_inverted'] = df[label].apply(lambda x: 'inverted' in x.lower())
     
     # Get unique base configurations
     base_configs = df['base_config'].unique()
@@ -533,7 +533,7 @@ def plot_IH_v_IB(df_by_category, use_std=True, label='chat_type', ax_lims = [1,7
     color_map = {}
     for label_name in df[label].unique():
         # Extract base configuration
-        base_config = label_name.replace('ous_', '').replace('_ring', '').replace('inverted_', '')
+        base_config = label_name.replace('ous_', '').replace('_ring', '').replace('inverted_', '').replace('GGB_','')
         # Get base color
         color_map[label_name] = base_colors[base_config]
     
