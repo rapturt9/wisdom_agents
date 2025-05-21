@@ -52,6 +52,7 @@ def human_kde(human_df=h2, ax=None, alpha=1, colormap='Greys'):
 # ############################################
 # CONVERGENCE FOR ROUND
 # ############################################
+
 def plot_rr_round(df, round=3):
     """
     Plot round robin answers at a specific round across all questions (convergence plot for single round)
@@ -71,7 +72,19 @@ def plot_rr_round(df, round=3):
     question_ids = round_df['question_id'].unique()
     n_questions = len(question_ids)
 
-    fig, ax = plt.subplots(figsize=(n_questions * 1.25, len(models) * 3))
+    # fig, ax = plt.subplots(figsize=(n_questions * 1.25, len(models) * 3))
+    fig, ax = plt.subplots(figsize=(n_questions * .5, len(models)))
+
+    # text_size = 65
+    text_size = 20
+    
+    axtitle = f"Round {round}"
+    if 'chat_type' in df.columns:
+
+        if len(df['chat_type'].unique()) > 1:
+            Warning('\n More than one chat type is asked to be plotted. Not plotting \n')
+            return
+        axtitle = axtitle + df['chat_type'].unique()[0]
 
     answer_colors = {
         '1': '#960808ff',
@@ -98,12 +111,12 @@ def plot_rr_round(df, round=3):
 
     ax.set_xticks(np.arange(n_questions))
     ax.set_xticklabels([f"Q{i}" for i in question_ids],
-                       rotation=45, ha='right', fontsize=65)
+                       rotation=45, ha='right', fontsize=text_size)
 
     ax.set_yticks(np.arange(len(models_shortname)))
-    ax.set_yticklabels(models_shortname, fontsize=65)  #  Now uses short model names
+    ax.set_yticklabels(models_shortname, fontsize=text_size)  #  Now uses short model names
 
-    ax.set_title(f"Round {round}", fontsize=65, pad=12)
+    ax.set_title(axtitle, fontsize=text_size, pad=12)
     ax.set_xlim(-0.5, n_questions - 0.5)
     ax.set_ylim(-0.5, len(models) - 0.5)
     ax.invert_yaxis()
