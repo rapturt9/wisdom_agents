@@ -1,9 +1,15 @@
 import pandas as pd
 import re
 import json
+from src import get_model_shortname
 ########################################################
 # ANALYSIS HELPERS : TODO!
 ########################################################
+
+# def get_model_shortname(model_name):
+#     result = re.split(r'[/_-]', model_name)
+#     return result[1] 
+
 
 def load_and_clean_single_run(csvfiles, Qs, add_run_label = None):
     single_df = pd.DataFrame()
@@ -24,9 +30,7 @@ def load_and_clean_single_run(csvfiles, Qs, add_run_label = None):
     return single_df
 
 
-def get_model_shortname(model_name):
-    result = re.split(r'[/_-]', model_name)
-    return result[1] 
+
 
 def ring_csv_to_df(csv_file, Qs):
     df = pd.read_csv(csv_file)
