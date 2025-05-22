@@ -632,8 +632,14 @@ def plot_IH_v_IB(df_by_category, use_std=True, label='chat_type', ax_lims = [1,7
     # Return both the figure and the dataframe with color information
     return fig, df
 
-
+################################
 # CLEANUP FOR PAPER FIGURES: 
+################################
+
+# FOR AIES: 
+col_width = 3.3125 # inches
+text_wdith = 7.0 # inches
+
 def cleanup_IBvIH_plot(f,marker_size=4, fontsize=9):
     ax = f.axes[0]  # Get the main axes
     # ax = axs[0]
