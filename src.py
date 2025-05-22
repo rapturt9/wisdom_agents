@@ -1362,4 +1362,43 @@ def get_model_shortname(model_name):
 #     return ring_rr_df
 
 
+#******************
+# Random choice data for plotting, for answering values 1-7 with uniform distribution
 
+#random_choice_answer_mean = 4 # uses a priori knowledge of random response: from compact calculation: summing all possible values and dividing by number of distinct values 28/7, Likert scale 1-7, independent of small sample size of 12 iterations
+#random_choice_answer_stddev = 2 # uses a priori knowledge of random response: from compact formula for discrete uniform distribution over range [a,b]: sqrt(((b-a+1)^2-1)/12)
+#random_choice_answer_singlequestion_sem = 2/np.sqrt(12) # is stddev/sqrt(12)
+#random_choice_answer_ihavg_sem = 2/np.sqrt(12*40) # is stddev/sqrt(N)
+#random_choice_answer_ibavg_sem = 2/np.sqrt(12*50) # is stddev/sqrt(N)
+# test for null hypotehsis that models are answering randomly, so the true population mean of model responses = 4
+# should use t-test since only have 12 iterations of one questions when comparing single questions:
+# score = (avg_model - avg_rand)/SEM_model, then get p value from t-test distribution, using degrees of freedom = 12-1 = 11 
+# interpreation of p: if < 5% then reject null hypothesis, so 'statistically inconsistent to come from a random process', or 'less than 5% chance of seeing this data if responses were random' (not strictly the same as 'model responses are less than 5% likely to be random', or stronger, 'model responses are more than 95% liekly to not be random'- this requires Bayesian framework computing P(hypohtesis|data) with different stats model)
+
+
+def get_p_val_multiquant(avg_model_per_q):
+    """
+    Perform a one-sample t-test over multiple questions (each question gives one mean).
+    
+    Parameters:
+    - avg_model_per_q: array-like, mean model response for each question (length = 40 or 50 dep on if called for IH or IB)
+    
+    Returns:
+    - p_val: the two-tailed p-value for overall average across all questions for IH, IB score
+    """
+    avg_rand = 4.0
+    avg_model_per_q = np.array(avg_model_per_q)
+    n = len(avg_model_per_q)
+    df = n - 1
+    x_bar = np.mean(avg_model_per_q)
+    s = np.std(avg_model_per_q, ddof=1)
+    sem = s / np.sqrt(n)
+
+    t_score = (x_bar - avg_rand) / sem
+    p_val = stats.t.sf(np.abs(t_score), df) * 2
+
+    return p_val
+
+# comparison to humans: two-sample t-test (independent samples) for comparing means
+# use two-sample t-test statistic t = (avgmodel-avghuman)/sqrt(SEM_mod^2 + SEM_human^2), and degrees of freedom = (SEM_mod^2 + SEM_hum^2)^2/(SEM_mod^(2+2)/(Nmod-1) + SEM_hum^(2+2)/(Nhum-1))
+# and use t distribution for degrees of freedom to get the p value, then compare to 0.05- if < 0.05 model reject the null: responses statistically inconsistent to be aligned with human responses, or significant deviation from human responses
