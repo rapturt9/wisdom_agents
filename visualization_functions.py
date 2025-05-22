@@ -640,7 +640,7 @@ def plot_IH_v_IB(df_by_category, use_std=True, label='chat_type', ax_lims = [1,7
 col_width = 3.3125 # inches
 text_wdith = 7.0 # inches
 
-def cleanup_IBvIH_plot(f,marker_size=4, fontsize=9, col_width = col_width):
+def cleanup_IBvIH_plot(f,marker_size=4, font_size=9, col_width = col_width):
     ax = f.axes[0]  # Get the main axes
     # ax = axs[0]
 
