@@ -29,15 +29,20 @@ async def run_benchmark(args):
     tasks = []
     
     # Determine which question sets to run
-    question_sets = [
-        {'json_file': QUESTION_JSON, 'inverted': False, 'suffix': ''},
-    ]
-    
-    if args.with_inverted:
-        question_sets.append(
-            {'json_file': INVERTED_JSON, 'inverted': True, 'suffix': '_inverted'}
-        )
-    
+    if args.only_inverted:
+        question_sets = [
+            {'json_file': INVERTED_JSON, 'inverted': True, 'suffix': '_inverted'},
+            ]
+    else: 
+        question_sets = [
+            {'json_file': QUESTION_JSON, 'inverted': False, 'suffix': ''},
+        ]
+        
+        if args.with_inverted:
+            question_sets.append(
+                {'json_file': INVERTED_JSON, 'inverted': True, 'suffix': '_inverted'}
+            )
+        
     # Process each question set
     for question_set in question_sets:
         # Load questions
@@ -120,6 +125,8 @@ def main():
                         help='Process handlers in batches rather than all concurrently')
     parser.add_argument('--batch-size', type=int, default=2,
                         help='Number of handlers to run concurrently in batch mode')
+    parser.add_argument('--only-inverted', action='store_true', 
+                        help='Run with only inverted questions')
     
     args = parser.parse_args()
     
