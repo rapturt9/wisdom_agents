@@ -487,7 +487,7 @@ def plot_by_question(
 
 
 
-def plot_IH_v_IB(df_by_category, use_std=True, label='chat_type', ax_lims = [1,7]):
+def plot_IH_v_IB(df_by_category, use_std=True, label='chat_type', ax_lims = [1,7], text_size = 12):
     # Plot KDE with models on top
     fig, ax = plt.subplots(figsize=(10, 10))
     # Plot human KDE first using your existing function
@@ -594,10 +594,11 @@ def plot_IH_v_IB(df_by_category, use_std=True, label='chat_type', ax_lims = [1,7
                 )
     
     # Set axis labels and limits
-    ax.set_xlabel('IH Score')
-    ax.set_ylabel('IB Score')
+    ax.set_xlabel('Insturmental Harm', fontsize = text_size)
+    ax.set_ylabel('Impartial Beneficence', fontsize = text_size)
     ax.set_xlim(ax_lims[0], ax_lims[1])
     ax.set_ylim(ax_lims[0], ax_lims[1])
+    ax.tick_params(axis='both', which='major', labelsize=text_size)  # Adjust size a
     
     # Sort legend for better organization
     handles, labels_list = ax.get_legend_handles_labels()
@@ -623,7 +624,7 @@ def plot_IH_v_IB(df_by_category, use_std=True, label='chat_type', ax_lims = [1,7
               bbox_to_anchor=(0.5, -0.15), 
               ncol=n_columns,
               frameon=True,
-              fontsize='medium')
+              fontsize=text_size)
     
     plt.tight_layout()
     plt.show()
