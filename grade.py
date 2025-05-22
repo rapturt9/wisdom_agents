@@ -11,7 +11,7 @@ from litellm import completion
 import litellm
 from tqdm.auto import tqdm
 from tenacity import retry, stop_after_attempt, wait_exponential
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, parse_obj_as
 from typing import List, Optional, Dict, Any
 
 # --- Pydantic Models ---
@@ -220,58 +220,67 @@ def classify_conversation_responses(
     )
     logging.debug(f"LLM prompt for classification:\n{prompt}")
     
-    # Ensure the response_format is correctly passed if using a version of litellm that supports it this way
-    # For older versions or different model providers, this might need adjustment.
-    # The key is that the LLM should be guided to return JSON matching the Pydantic model.
-    response_payload = completion(
-        model=classification_model,
-        messages=[{"role": "user", "content": prompt}],
-        temperature=0.0,
-        # The following ensures litellm attempts to parse the output into the Pydantic model.
-        # Make sure your litellm version and the model used support this.
-        # If not, you might need to parse the JSON string from response.choices[0].message.content
-        response_format={"type": "json_object", "schema": ResponseClassification.model_json_schema()}
-    )
-    
-    # Assuming response_payload is already a Pydantic model instance due to response_format
-    # If not, and it's a string, you'd parse it:
-    # parsed_response = ResponseClassification.parse_raw(response_payload.choices[0].message.content)
-    # For now, let's assume litellm handles this directly with the schema.
-    # If litellm returns a dict that can be parsed by pydantic:
-    if isinstance(response_payload, dict): # Or check specific litellm response object type
-        parsed_model = ResponseClassification.parse_obj(response_payload)
-    elif hasattr(response_payload, 'classifications'): # If it's already the model
-         parsed_model = response_payload
-    elif hasattr(response_payload, 'choices') and response_payload.choices:
-        try:
-            content_str = response_payload.choices[0].message.content
-            # The LLM might return a string that is a JSON representation of the list directly
-            # or a JSON object with a "classifications" key.
-            # We need to handle both.
+    response_payload = None
+    try:
+        response_payload = completion(
+            model=classification_model,
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.0,
+            response_format={"type": "json_object", "schema": ResponseClassification.model_json_schema()}
+        )
+    except Exception as e:
+        logging.error(f"litellm.completion call failed. Error: {e}", exc_info=True)
+        raise
+
+    parsed_model = None
+    try:
+        if response_payload is None:
+            logging.error("LLM response payload is None after completion call.")
+            raise ValueError("LLM response payload is None.")
+
+        if isinstance(response_payload, dict): 
+            parsed_model = ResponseClassification.parse_obj(response_payload)
+        elif hasattr(response_payload, 'classifications'): 
+             parsed_model = response_payload
+        elif hasattr(response_payload, 'choices') and response_payload.choices:
+            message_obj = response_payload.choices[0].message
+            if message_obj is None:
+                logging.error(f"LLM response choice message is None. Response payload: {response_payload}")
+                raise ValueError("LLM response choice message is None.")
+            
+            content_str = message_obj.content
+            if content_str is None:
+                logging.error(f"LLM response message content is None. Response payload: {response_payload}")
+                raise ValueError("LLM response message content is None.")
+
             try:
-                # Attempt to parse as {"classifications": [...]}
                 data = json.loads(content_str)
                 if "classifications" in data and isinstance(data["classifications"], list):
                     parsed_model = ResponseClassification.parse_obj(data)
-                else: # Attempt to parse as a direct list [...] for classifications
+                else: 
                     parsed_model = ResponseClassification(classifications=parse_obj_as(List[SingleClassification], data))
-            except json.JSONDecodeError:
-                 # If it's not a JSON object, maybe it's a list of dicts for SingleClassification
-                 # This part is tricky and depends heavily on exact LLM output format.
-                 # The prompt asks for a JSON array of objects, which means a list of dicts.
-                 # So, ResponseClassification(classifications=json.loads(content_str)) should work.
-                 class_list = json.loads(content_str) # Expects a list of classification dicts
-                 parsed_model = ResponseClassification(classifications=class_list)
+            except json.JSONDecodeError as jde:
+                logging.error(f"JSONDecodeError parsing LLM content string: '{content_str}'. Error: {jde}. Response payload: {response_payload}", exc_info=True)
+                raise
+            except Exception as e_parse:
+                logging.error(f"Failed to parse LLM content string into Pydantic model: '{content_str}'. Error: {e_parse}. Response payload: {response_payload}", exc_info=True)
+                raise
+        else:
+            logging.error(f"Unexpected LLM response structure. Response payload: {response_payload}")
+            raise ValueError("LLM response structure not recognized for parsing.")
 
-        except Exception as e:
-            logging.error(f"Failed to parse LLM response content: {content_str}. Error: {e}")
-            raise
-    else:
-        logging.error(f"Unexpected LLM response structure: {response_payload}")
-        raise ValueError("LLM response structure not recognized for parsing.")
+        if parsed_model is None:
+            logging.error(f"Parsed model is None after attempting to parse response_payload: {response_payload}")
+            raise ValueError("Failed to parse LLM response into a valid model.")
 
-    logging.debug(f"LLM parsed classification response model:\n{parsed_model.model_dump_json(indent=2)}")
-    return parsed_model.classifications
+        return parsed_model.classifications
+
+    except AttributeError as ae:
+        logging.error(f"AttributeError during LLM response processing. Response payload: {response_payload}. Error: {ae}", exc_info=True)
+        raise
+    except Exception as e:
+        logging.error(f"Generic error during LLM response processing. Response payload: {response_payload}. Error: {e}", exc_info=True)
+        raise
 
 
 def process_row(args_tuple: tuple) -> List[Dict[str, Any]]:
@@ -328,8 +337,7 @@ def process_row(args_tuple: tuple) -> List[Dict[str, Any]]:
         for cls_item_model in classifications_list:
             cls_item_dict = {}
             try:
-                # cls_item_dict = cls_item_model.dict() # For Pydantic v1
-                cls_item_dict = cls_item_model.model_dump() # For Pydantic v2
+                cls_item_dict = cls_item_model.model_dump()
                 agent_idx = cls_item_dict['agent_index']
                 
                 if not (0 <= agent_idx < len(agent_responses_list)):
@@ -397,22 +405,29 @@ def process_row(args_tuple: tuple) -> List[Dict[str, Any]]:
 def setup_logging(log_file_path: str):
     for handler in logging.root.handlers[:]:
         logging.root.removeHandler(handler)
+    
+    # File handler will log DEBUG and above
+    file_handler = logging.FileHandler(log_file_path, mode='w')
+    file_handler.setLevel(logging.DEBUG)
+    file_formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(filename)s:%(lineno)d - %(message)s')
+    file_handler.setFormatter(file_formatter)
+
+    # Console handler will log ERROR and above
+    console_handler = logging.StreamHandler()
+    console_handler.setLevel(logging.ERROR) # Changed from INFO to ERROR
+    console_formatter = logging.Formatter('%(levelname)s: %(message)s') # Simpler format for console errors
+    console_handler.setFormatter(console_formatter)
+
     logging.basicConfig(
-        level=logging.DEBUG,
-        format='%(asctime)s - %(levelname)s - %(filename)s:%(lineno)d - %(message)s',
-        handlers=[
-            logging.FileHandler(log_file_path, mode='w'),
-            logging.StreamHandler()
-        ]
+        level=logging.DEBUG, # Root logger level, handlers control effective level
+        handlers=[file_handler, console_handler]
     )
-    console_handler = next((h for h in logging.root.handlers if isinstance(h, logging.StreamHandler)), None)
-    if console_handler:
-        console_handler.setLevel(logging.INFO)
     
     litellm_logger = logging.getLogger("litellm")
     if litellm_logger:
-        litellm_logger.setLevel(logging.WARNING)
-    logging.info(f"Logging initialized. DEBUG logs to {log_file_path}, INFO logs to console. LiteLLM logs set to WARNING level.")
+        litellm_logger.setLevel(logging.WARNING) # Keep litellm's own logs less verbose on console too
+
+    logging.info(f"Logging initialized. DEBUG logs to {log_file_path}, ERROR logs to console. LiteLLM logs set to WARNING level.")
 
 # --- Main Execution ---
 def main():
@@ -427,7 +442,7 @@ def main():
     args = parser.parse_args()
 
     setup_logging(args.log_file)
-    load_dotenv() # Load .env file if present, for API_KEY or other settings
+    load_dotenv()
 
     if args.api_key:
         os.environ['OPENROUTER_API_KEY'] = args.api_key
@@ -463,9 +478,8 @@ def main():
                         outfile.write(json.dumps(record) + '\n')
                 except Exception as exc:
                     logging.error(f"Row index {row_idx} generated an exception: {exc}")
-                    # Optionally write an error record to the output file as well
                     error_record = {
-                        'question_id': tasks_args[row_idx][1].get('question_id', 'N/A_IN_EXCEPTION'), # Access qid from original task_args
+                        'question_id': tasks_args[row_idx][1].get('question_id', 'N/A_IN_EXCEPTION'),
                         'row_index': row_idx,
                         'error_type': f'FutureExecutionError_{type(exc).__name__}',
                         'error_message': str(exc)
@@ -476,9 +490,7 @@ def main():
     logging.info(f"Finished processing all rows. Results/errors saved to {args.output_jsonl}")
 
 if __name__ == "__main__":
-    # Crucial: Ensure RATIONALE_CATEGORIES is fully populated before use.
-    # This is a placeholder check; you should ensure the list is complete.
-    if len(RATIONALE_CATEGORIES) < 5: # Example check, adjust as needed
+    if len(RATIONALE_CATEGORIES) < 5:
         print("Error: RATIONALE_CATEGORIES seems incomplete. Please ensure it's fully copied into grade.py.")
         exit(1)
     main()
