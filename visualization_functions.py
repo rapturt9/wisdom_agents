@@ -679,12 +679,12 @@ def cleanup_IBvIH_plot(f,marker_size=4, font_size=9, col_width = col_width):
 
     # reorganize so that we have the inverted separate in the legend
     # For legend at the bottom 
-    # label_inds = [x for x, l in enumerate(new_labels) if 'inverted' in l]
-    # inverted_inds = [x for x,l in enumerate(new_labels) if 'inverted' not in l]
-    # new_handles = [handles[x] for x in inverted_inds + label_inds]
-    # new_new_labels = [new_labels[x] for x in inverted_inds + label_inds]
+    label_inds = [x for x, l in enumerate(new_labels) if 'inverted' in l]
+    inverted_inds = [x for x,l in enumerate(new_labels) if 'inverted' not in l]
+    new_handles = [handles[x] for x in inverted_inds + label_inds]
+    new_new_labels = [new_labels[x] for x in inverted_inds + label_inds]
 
-    ax.legend(handles, new_labels, #new_handles, new_new_labels, 
+    ax.legend(new_handles, new_new_labels, 
                 ncol=1, #2,                    # 2 columns as requested
                 loc= 'center left',  #'upper center',        # Align by upper center
                 bbox_to_anchor= (.9, 0.5), #(0.5, -0.16), # Position below axes (x=center, y=below)
