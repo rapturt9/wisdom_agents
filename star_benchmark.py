@@ -71,7 +71,7 @@ async def run_benchmark(args):
                 Qs=ggb_Qs,
                 Prompt=ggb_prompt,
                 supervisor_index=supervisor_index,
-                is_supervisor_evil=False,
+                is_supervisor_evil=True,
                 save_central_messages=True,
                 nrounds=args.rounds,       
                 nrepeats=args.repeats,     
@@ -107,7 +107,7 @@ def main():
                         help='Number of rounds in each conversation')
     parser.add_argument('--repeats', type=int, default=12, 
                         help='Number of iterations per question')
-    parser.add_argument('--workers', type=int, default=8,
+    parser.add_argument('--workers', type=int, default=1,
                         help='Maximum number of workers per handler')
     parser.add_argument('--shuffle', action='store_true', default=True,
                         help='Shuffle agent order (default: True)')
