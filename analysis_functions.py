@@ -10,6 +10,14 @@ from src import get_model_shortname
 #     result = re.split(r'[/_-]', model_name)
 #     return result[1] 
 
+def get_agent_shortname(agent_name):
+    short_names = ['claude', 'gpt', 'deepseek', 'llama', 'gemini', 'qwen']
+    name = [n for n in short_names if n in agent_name]
+    if len(name) > 1:
+        print(f'cannot resolve name for {agent_name}. please fix.')
+        return
+    return name[0]
+
 
 def load_and_clean_single_run(csvfiles, Qs, add_run_label = None):
     single_df = pd.DataFrame()
