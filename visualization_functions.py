@@ -631,3 +631,75 @@ def plot_IH_v_IB(df_by_category, use_std=True, label='chat_type', ax_lims = [1,7
     
     # Return both the figure and the dataframe with color information
     return fig, df
+
+
+# CLEANUP FOR PAPER FIGURES: 
+def cleanup_IBvIH_plot(f,marker_size=4, fontsize=9):
+    ax = f.axes[0]  # Get the main axes
+    # ax = axs[0]
+
+    #markersize
+    for line in ax.get_lines():
+        line.set_markersize(marker_size)  # Adjust number to desired size
+
+    # Remove top and right spines
+    ax.spines['top'].set_visible(False)
+    ax.spines['right'].set_visible(False)
+
+    # Ensure square axes with same scale
+    ax.axis('square')
+
+    # Set explicit limits to match your data (adjust these values as needed)
+    ax.set_xlim(1, 7)
+    ax.set_ylim(1, 7)
+
+    # Adjust figure size - increase height while maintaining width
+    f.set_size_inches(col_width, col_width * 1.4)  # 1.3 ratio gives room for legend
+
+    # Get handles and labels
+    handles, old_labels = ax.get_legend_handles_labels()
+
+    # Create new labels (if you haven't already)
+    new_labels = []
+    for label in old_labels:
+        if "GGB_inverted_" in label:
+            model_name = label.replace("GGB_inverted_", "").capitalize()
+            new_labels.append(f"{model_name} (inverted)")
+        elif "GGB_" in label:
+            model_name = label.replace("GGB_", "").capitalize()
+            new_labels.append(model_name)
+        else:
+            new_labels.append(label)
+
+    # reorganize so that we have the inverted separate in the legend
+    # For legend at the bottom 
+    # label_inds = [x for x, l in enumerate(new_labels) if 'inverted' in l]
+    # inverted_inds = [x for x,l in enumerate(new_labels) if 'inverted' not in l]
+    # new_handles = [handles[x] for x in inverted_inds + label_inds]
+    # new_new_labels = [new_labels[x] for x in inverted_inds + label_inds]
+
+    ax.legend(handles, new_labels, #new_handles, new_new_labels, 
+                ncol=1, #2,                    # 2 columns as requested
+                loc= 'center left',  #'upper center',        # Align by upper center
+                bbox_to_anchor= (.9, 0.5), #(0.5, -0.16), # Position below axes (x=center, y=below)
+                frameon=False, 
+                fontsize=font_size)              # Keep the frame
+
+    # Get current ticks from both axes
+    xticks = ax.get_xticks()
+    yticks = ax.get_yticks()
+
+    # Use the same set of ticks for both axes
+    # (can choose either set, or merge them)
+    all_ticks = [1,2,3,4,5,6,7]
+    ax.set_xticks(all_ticks)
+    ax.set_yticks(all_ticks)
+
+    ax.set_xlabel('Insturmental Harm', fontsize = font_size)
+    ax.set_ylabel('Impartial Beneficence', fontsize = font_size)
+    ax.tick_params(axis='both', which='major', labelsize=font_size) 
+
+    # Reduce whitespace by adjusting margins
+    # f.subplots_adjust(left=0.1, right=0.95, top=1, bottom=0.3) # for bottom legend
+    f.subplots_adjust(left=0.1, right=0.95, top=0.95, bottom=0.1) # for rigth legend
+    return f
