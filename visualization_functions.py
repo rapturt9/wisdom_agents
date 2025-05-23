@@ -367,9 +367,6 @@ def plot_IH_v_IB(df_by_category, use_std=True, label='chat_type', ax_lims = [1,7
     # Get unique base configurations
     base_configs = df['base_config'].unique()
 
-    # make sure gemini/hetero is at the end 
-    gemini_idx = ['gemini']
-
     # Use a combination of colormaps for a wider range of distinct colors
     # Start with tab10, then tab20, then tab20b for even more variations
     colors_tab10 = plt.cm.tab10.colors
@@ -391,12 +388,31 @@ def plot_IH_v_IB(df_by_category, use_std=True, label='chat_type', ax_lims = [1,7
             if color not in all_colors:
                 all_colors.append(color)
     
+    # Before coloring, change the order in base_configs
+    gemini_bool =  ['gemini' in n.lower() for n in base_configs]
+    mixed_bool = ['mixed' in n.lower() for n in base_configs]
+    
+    if not any(gemini_bool) and not any(mixed_bool) < 1:
+        pass
+    elif any(gemini_bool) and any(mixed_bool):
+        Warning('Both Gemini and Mixed persent, not reordering coloring')
+    elif any(gemini_bool):
+        gemini_label = base_configs[gemini_bool]
+        base_no_gemini = base_configs[np.invert(gemini_bool)]
+        base_configs = np.append(base_no_gemini, gemini_label)
+    elif any(mixed_bool):
+        mix_label = base_configs[mixed_bool]
+        base_no_mixed = base_configs[np.invert(mixed_bool)]
+        base_configs = np.append(base_no_mixed, mix_label)
+        
     # Create color mapping for base configurations
     base_colors = {}
     for i, config in enumerate(base_configs):
         base_colors[config] = all_colors[i % len(all_colors)]
     
     # Create a map of labels to colors
+    # make sure gemini/hetero is at the end for consistent coloring
+    
     color_map = {}
     for label_name in df[label].unique():
         # Extract base configuration
@@ -480,7 +496,7 @@ def plot_IH_v_IB(df_by_category, use_std=True, label='chat_type', ax_lims = [1,7
     
     sorted_handles = [handles[i] for i in sorted_indices]
     sorted_labels = [labels_list[i] for i in sorted_indices]
-    
+      
     # Create a more compact legend with multiple columns
     n_columns = 2
     if len(sorted_labels) > 8:
@@ -532,6 +548,26 @@ def cleanup_IBvIH_plot(f,marker_size=4, font_size=9, col_width = col_width):
     # Get handles and labels
     handles, old_labels = ax.get_legend_handles_labels()
 
+    # If Gemini or Mixed is there - make it the last entry
+    gemini_idx = [i for i,l in enumerate(old_labels) if 'gemini' in l.lower()]
+    mixed_idx = [i for i,l in enumerate(old_labels) if 'mixed' in l.lower()]
+    if len(gemini_idx) == 0 and len(mixed_idx) == 0:
+        Warning('Not reordering legend. Both Gemini and Mixed Present')
+    elif len(gemini_idx) > 0:
+        for i, idx in enumerate(gemini_idx):
+            idx = idx - i
+            h = handles.pop(idx)
+            l = old_labels.pop(idx)
+            handles.append(h)
+            old_labels.append(l)        
+    elif len(mixed_idx) > 0:
+       for i, idx in enumerate(mixed_idx):
+            h = handles.pop(idx-i)
+            l = handles.pop(idx-i)
+            old_labels.append(h)
+            old_labels.append(l)      
+
+
     # Create new labels (if you haven't already)
     new_labels = []
     for label in old_labels:
@@ -549,6 +585,10 @@ def cleanup_IBvIH_plot(f,marker_size=4, font_size=9, col_width = col_width):
             new_labels.append(f"{model_name} (inverted)")
         else:
             new_labels.append(label.capitalize())
+
+
+
+
 
     # reorganize so that we have the inverted separate in the legend
     # For legend at the bottom 
