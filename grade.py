@@ -513,6 +513,168 @@ def process_row(args_tuple: tuple) -> List[Dict[str, Any]]:
         
         return processed_records
 
+def ensure_full_coverage(input_csv_path: str, output_jsonl_path: str, classification_model_name: str):
+    """
+    Ensure that every response in the original CSV has a corresponding classification record.
+    Rerun classification for any missing responses to achieve 100% coverage.
+    """
+    try:
+        # Load the original CSV to get all responses
+        df = pd.read_csv(input_csv_path)
+        
+        # Load existing classification records
+        existing_classifications = []
+        if os.path.exists(output_jsonl_path):
+            with open(output_jsonl_path, 'r') as f:
+                for line in f:
+                    try:
+                        record = json.loads(line.strip())
+                        existing_classifications.append(record)
+                    except json.JSONDecodeError:
+                        continue
+        
+        # Check if this is single-agent or multi-agent format
+        is_single_agent = 'full_response' in df.columns
+        
+        if is_single_agent:
+            # For single-agent: each row should have one classification
+            classified_items = set()
+            for record in existing_classifications:
+                if 'question_id' in record and 'run_index' in record and 'model_name' in record:
+                    key = (record['question_id'], record['run_index'], record['model_name'])
+                    classified_items.add(key)
+            
+            # Find missing rows
+            missing_rows = []
+            total_expected = 0
+            
+            for index, row in df.iterrows():
+                total_expected += 1
+                key = (row['question_id'], row['run_index'], row['model_name'])
+                
+                if key not in classified_items:
+                    missing_rows.append((index, row))
+            
+            if missing_rows:
+                logging.info(f"Found {len(missing_rows)} unclassified single-agent responses. Running classification...")
+                
+                # Process missing rows in batches
+                batch_size = 30  # Use same batch size as main processing
+                new_records = []
+                
+                for i in range(0, len(missing_rows), batch_size):
+                    batch = missing_rows[i:i + batch_size]
+                    try:
+                        batch_results = process_single_agent_batch(batch, classification_model_name)
+                        new_records.extend(batch_results)
+                    except Exception as e:
+                        logging.error(f"Error processing missing batch starting at index {i}: {e}")
+                        # Create error records for this batch
+                        for index, row in batch:
+                            error_record = {
+                                'question_id': row.get('question_id', 'N/A'),
+                                'run_index': row.get('run_index'),
+                                'model_name': row.get('model_name'),
+                                'error_type': f'CoverageClassificationError_{type(e).__name__}',
+                                'error_message': str(e),
+                                'coverage_status': 'classification_failed'
+                            }
+                            new_records.append(error_record)
+                
+                # Append new records to the classification file
+                with open(output_jsonl_path, 'a') as f:
+                    for record in new_records:
+                        f.write(json.dumps(record) + '\n')
+                
+                logging.info(f"Added {len(new_records)} new classification records")
+                logging.info(f"Coverage: {len(existing_classifications)}/{total_expected} original, {len(existing_classifications) + len(new_records)}/{total_expected} after reprocessing")
+            else:
+                logging.info(f"Full coverage already achieved: {len(existing_classifications)}/{total_expected} responses classified")
+        
+        else:
+            # For multi-agent: extract all agent responses and check coverage
+            classified_items = set()
+            for record in existing_classifications:
+                if ('question_id' in record and 'agent_name' in record and 
+                    'message_index' in record):
+                    # Try to include run_index if available for better matching
+                    if 'source_conversation_run_index' in record:
+                        key = (record['question_id'], record['agent_name'], 
+                              record['message_index'], record['source_conversation_run_index'])
+                    else:
+                        key = (record['question_id'], record['agent_name'], record['message_index'])
+                    classified_items.add(key)
+            
+            # Find missing conversations/responses
+            missing_conversations = []
+            total_expected = 0
+            
+            for index, row in df.iterrows():
+                try:
+                    agent_responses_str = row.get('agent_responses', '[]')
+                    agent_responses_list = json.loads(agent_responses_str)
+                    
+                    # Check if any agent responses in this conversation are missing classifications
+                    conversation_has_missing = False
+                    for agent_msg in agent_responses_list:
+                        total_expected += 1
+                        agent_name = agent_msg.get('agent_name', 'unknown')
+                        message_index = agent_msg.get('message_index')
+                        run_index = row.get('run_index')
+                        
+                        # Try both key formats for matching
+                        key1 = (row['question_id'], agent_name, message_index, run_index)
+                        key2 = (row['question_id'], agent_name, message_index)
+                        
+                        if key1 not in classified_items and key2 not in classified_items:
+                            conversation_has_missing = True
+                            break
+                    
+                    if conversation_has_missing:
+                        missing_conversations.append((index, row))
+                
+                except json.JSONDecodeError:
+                    logging.warning(f"Could not parse agent_responses for row {index} in coverage check")
+                    continue
+            
+            if missing_conversations:
+                logging.info(f"Found {len(missing_conversations)} conversations with unclassified responses. Running classification...")
+                
+                new_records = []
+                
+                # Process each missing conversation
+                for index, row in missing_conversations:
+                    try:
+                        # Use the existing process_row function for multi-agent
+                        results = process_row((index, row, classification_model_name))
+                        # Filter out batch markers if any
+                        for record in results:
+                            if not record.get('_batch_marker'):
+                                new_records.append(record)
+                    except Exception as e:
+                        logging.error(f"Error processing missing conversation at row {index}: {e}")
+                        error_record = {
+                            'question_id': row.get('question_id', 'N/A'),
+                            'row_index': index,
+                            'error_type': f'CoverageClassificationError_{type(e).__name__}',
+                            'error_message': str(e),
+                            'coverage_status': 'classification_failed'
+                        }
+                        new_records.append(error_record)
+                
+                # Append new records to the classification file
+                with open(output_jsonl_path, 'a') as f:
+                    for record in new_records:
+                        f.write(json.dumps(record) + '\n')
+                
+                logging.info(f"Added {len(new_records)} new classification records")
+                logging.info(f"Coverage: {len(existing_classifications)}/{total_expected} original, {len(existing_classifications) + len(new_records)}/{total_expected} after reprocessing")
+            else:
+                logging.info(f"Full coverage already achieved: {len(existing_classifications)}/{total_expected} responses classified")
+    
+    except Exception as e:
+        logging.error(f"Error in ensure_full_coverage for {input_csv_path}: {e}")
+
 # --- Logging Setup ---
 def setup_logging(log_file_path: str):
     for handler in logging.root.handlers[:]:
@@ -550,6 +712,7 @@ def main():
     parser.add_argument("--log_file", default="classification_script.log", help="Path to the log file for the script.")
     parser.add_argument("--batch_size", type=int, default=30, help="Batch size for single-agent classification.")
     parser.add_argument("--parallel_batches", type=int, default=3, help="Number of parallel batch workers for single-agent processing.")
+    parser.add_argument("--ensure_coverage", action="store_true", help="Ensure full coverage by adding placeholder records for unclassified responses.")
 
     args = parser.parse_args()
 
@@ -604,9 +767,15 @@ def main():
         # Check if this is a single-agent CSV (has 'full_response' column)
         is_single_agent = 'full_response' in df.columns
         
-        # Check if output file already exists and skip if it does
-        if os.path.exists(output_jsonl_path):
+        # Check if output file already exists and skip if it does (unless we're ensuring coverage)
+        if os.path.exists(output_jsonl_path) and not args.ensure_coverage:
             logging.info(f"Output file {output_jsonl_path} already exists. Skipping {input_csv_path}.")
+            continue
+        
+        # If file exists and we're ensuring coverage, skip processing and just ensure coverage
+        if os.path.exists(output_jsonl_path) and args.ensure_coverage:
+            logging.info(f"Output file {output_jsonl_path} exists. Ensuring full coverage...")
+            ensure_full_coverage(input_csv_path, output_jsonl_path, args.model)
             continue
         
         try:
@@ -690,6 +859,11 @@ def main():
                                 'error_message': str(exc)
                             }
                             outfile.write(json.dumps(error_record) + '\n')
+        
+        # After processing, ensure full coverage if requested
+        if args.ensure_coverage:
+            logging.info("Ensuring full coverage by checking for unclassified responses...")
+            ensure_full_coverage(input_csv_path, output_jsonl_path, args.model)
         
         logging.info(f"--- Finished processing for: {input_csv_path} ---")
 
