@@ -351,7 +351,7 @@ def plot_by_question(
     return fig if (return_fig and created_fig) else ax
 
 
-def plot_IH_v_IB(df_by_category, use_std=True, label='chat_type', ax_lims = [1,7], text_size = 12):
+def plot_IH_v_IB(df_by_category, use_std=True, label='chat_type', ax_lims = [1,7], text_size = 12, base_colors = None):
     # Plot KDE with models on top
     fig, ax = plt.subplots(figsize=(10, 10))
     # Plot human KDE first using your existing function
@@ -363,73 +363,37 @@ def plot_IH_v_IB(df_by_category, use_std=True, label='chat_type', ax_lims = [1,7
     # Create new columns to help with color mapping
     df['base_config'] = df[label].apply(lambda x: x.lower().replace('ous_', '').replace('_ring', '').replace('inverted_', '').replace('ggb_','').replace('_inverted', ''))
     df['is_inverted'] = df[label].apply(lambda x: 'inverted' in x.lower())
-    
-    # Get unique base configurations
-    base_configs = df['base_config'].unique()
 
-    # # Before coloring, change the order in base_configs
-    # gemini_bool =  ['gemini' in n.lower() for n in base_configs]
-    # mixed_bool = ['mixed' in n.lower() for n in base_configs]
-    
-    # if not any(gemini_bool) and not any(mixed_bool) < 1:
-    #     pass
-    # elif any(gemini_bool) and any(mixed_bool):
-    #     Warning('Both Gemini and Mixed persent, not reordering coloring')
-    # elif any(gemini_bool):
-    #     gemini_label = base_configs[gemini_bool]
-    #     base_no_gemini = base_configs[np.invert(gemini_bool)]
-    #     base_configs = np.append(base_no_gemini, gemini_label)
-    # elif any(mixed_bool):
-    #     mix_label = base_configs[mixed_bool]
-    #     base_no_mixed = base_configs[np.invert(mixed_bool)]
-    #     base_configs = np.append(base_no_mixed, mix_label)
+    if base_colors is None:
+        # Get unique base configurations
+        base_configs = df['base_config'].unique()
 
-    # Use a combination of colormaps for a wider range of distinct colors
-    # Start with tab10, then tab20, then tab20b for even more variations
-    colors_tab10 = plt.cm.tab10.colors
-    colors_tab20 = plt.cm.tab20.colors
-    colors_tab20b = plt.cm.tab20b.colors
+        colors_tab10 = plt.cm.tab10.colors
+        colors_tab20 = plt.cm.tab20.colors
+        colors_tab20b = plt.cm.tab20b.colors
+        
+        # Combine and get unique colors
+        all_colors = []
+        all_colors.extend(colors_tab10)
+        
+        # Add more colors if needed, but ensure they're visually distinct
+        if len(base_configs) > len(all_colors):
+            for color in colors_tab20:
+                if color not in all_colors:
+                    all_colors.append(color)
+        
+        if len(base_configs) > len(all_colors):
+            for color in colors_tab20b:
+                if color not in all_colors:
+                    all_colors.append(color)
+        
+        # Create color mapping for base configurations
+        base_colors = {}
+        for i, config in enumerate(base_configs):
+            base_colors[config] = all_colors[i % len(all_colors)]
     
-    # Combine and get unique colors
-    all_colors = []
-    all_colors.extend(colors_tab10)
-    
-    # Add more colors if needed, but ensure they're visually distinct
-    if len(base_configs) > len(all_colors):
-        for color in colors_tab20:
-            if color not in all_colors:
-                all_colors.append(color)
-    
-    if len(base_configs) > len(all_colors):
-        for color in colors_tab20b:
-            if color not in all_colors:
-                all_colors.append(color)
-    
-    # Create color mapping for base configurations
-    base_colors = {}
-    for i, config in enumerate(base_configs):
-        base_colors[config] = all_colors[i % len(all_colors)]
-    
-    # Create a map of labels to colors
-    # make sure gemini/hetero is at the end for consistent coloring
-    
+    # Create a map of labels to colors    
     labels_for_colors = df[label].unique()
-    # gemini_bool =  ['gemini' in n.lower() for n in labels_for_colors]
-    # mixed_bool = ['mixed' in n.lower() for n in labels_for_colors]
-    
-    # if not any(gemini_bool) and not any(mixed_bool) < 1:
-    #     pass
-    # elif any(gemini_bool) and any(mixed_bool):
-    #     Warning('Both Gemini and Mixed persent, not reordering coloring')
-    # elif any(gemini_bool):
-    #     gemini_label = labels_for_colors[gemini_bool]
-    #     base_no_gemini = labels_for_colors[np.invert(gemini_bool)]
-    #     labels_for_colors = np.append(base_no_gemini, gemini_label)
-    # elif any(mixed_bool):
-    #     mix_label = labels_for_colors[mixed_bool]
-    #     base_no_mixed = labels_for_colors[np.invert(mixed_bool)]
-    #     labels_for_colors = np.append(base_no_mixed, mix_label)
-
     color_map = {}
     for label_name in labels_for_colors:
         # Extract base configuration
@@ -565,24 +529,6 @@ def cleanup_IBvIH_plot(f,marker_size=4, font_size=9, col_width = col_width):
     # Get handles and labels
     handles, old_labels = ax.get_legend_handles_labels()
 
-    # If Gemini or Mixed is there - make it the last entry
-    # gemini_idx = [i for i,l in enumerate(old_labels) if 'gemini' in l.lower()]
-    # mixed_idx = [i for i,l in enumerate(old_labels) if 'mixed' in l.lower()]
-    # if len(gemini_idx) == 0 and len(mixed_idx) == 0:
-    #     Warning('Not reordering legend. Both Gemini and Mixed Present')
-    # elif len(gemini_idx) > 0:
-    #     for i, idx in enumerate(gemini_idx):
-    #         h = handles.pop(idx-i)
-    #         l = old_labels.pop(idx-i)
-    #         handles.append(h)
-    #         old_labels.append(l)        
-    # elif len(mixed_idx) > 0:
-    #    for i, idx in enumerate(mixed_idx):
-    #         h = handles.pop(idx-i)
-    #         l = old_labels.pop(idx-i)
-    #         handles.append(h)
-    #         old_labels.append(l)        
-
     # Create new labels (if you haven't already)
     new_labels = []
     for label in old_labels:
@@ -633,3 +579,21 @@ def cleanup_IBvIH_plot(f,marker_size=4, font_size=9, col_width = col_width):
     # f.subplots_adjust(left=0.1, right=0.95, top=1, bottom=0.3) # for bottom legend
     f.subplots_adjust(left=0.1, right=0.95, top=0.95, bottom=0.1) # for rigth legend
     return f
+
+#For help with colormaps:
+def get_base_colors(df, ending_base = 'gemini'):
+    df['base_config'] = df['label'].apply(lambda x: x.lower().replace('ous_', '').replace('_ring', '').replace('inverted_', '').replace('ggb_','').replace('_inverted', ''))
+    base_labels = np.sort(df['base_config'].unique())
+
+    is_ending_base = [ending_base in x for x in base_labels]
+    base_labels = np.append(base_labels[np.invert(is_ending_base)], base_labels[is_ending_base])
+
+    base_colors = {
+    base_labels[0]: 'darkred',
+    base_labels[1]: 'darkorange',
+    base_labels[2]: 'teal',
+    base_labels[3]: 'olivedrab',
+    base_labels[4]: 'deepskyblue',
+    base_labels[5]: 'deeppink',
+    }
+    return base_colors
