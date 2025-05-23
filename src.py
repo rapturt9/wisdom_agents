@@ -133,7 +133,6 @@ class GGB_Statements:
         return self.questions
 
     def print_question(self, question_id, printout=False):
-
         qstring = self.questions[question_id]['question']
         if printout:
             print(f'{qstring}')
