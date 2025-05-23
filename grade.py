@@ -5,6 +5,7 @@ import logging
 import argparse
 import concurrent.futures
 from dotenv import load_dotenv
+import glob
 
 import pandas as pd
 from litellm import completion
@@ -24,7 +25,7 @@ class SingleClassification(BaseModel):
 class ResponseClassification(BaseModel):
     classifications: List[SingleClassification]
 
-# --- Rationale Categories and Prompt Template ---
+# --- Rationale Categories ---
 RATIONALE_CATEGORIES = [
     {
         "name": "UTILITARIAN_REASONING",
@@ -175,18 +176,26 @@ Classification Categories & Descriptions:
 Instructions:
 - For each response, select 1–3 categories that best describe the reasoning or dynamics.
 - Provide for each: selected_categories, is_response_off_topic, off_topic_reason (only if is_response_off_topic is true). The response is off topic if the agent is no longer answering the original question.
-- Output a single JSON array of objects, each with keys:
-["agent_index","selected_categories","is_response_off_topic","off_topic_reason"]
+- Output a single JSON object. The JSON object should have a single key "classifications" which is a list of objects.
+- Each object in the "classifications" list must have keys: "agent_index", "selected_categories", "is_response_off_topic", "off_topic_reason".
 
-Response Format:
-class SingleClassification(BaseModel):
-    agent_index: int
-    is_response_off_topic: bool
-    off_topic_reason: Optional[str]
-    selected_categories: List[str]
-
-class ResponseClassification(BaseModel):
-    classifications: List[SingleClassification]
+Response Format Example (ensure your output is a valid JSON object with the "classifications" key):
+{{
+  "classifications": [
+    {{
+      "agent_index": 0,
+      "is_response_off_topic": false,
+      "off_topic_reason": null,
+      "selected_categories": ["UTILITARIAN_REASONING", "PRAGMATIC_BALANCING_CONTEXTUAL"]
+    }},
+    {{
+      "agent_index": 1,
+      "is_response_off_topic": true,
+      "off_topic_reason": "Agent started discussing an unrelated topic.",
+      "selected_categories": ["RATIONALE_TANGENTIAL_IRRELEVANT"]
+    }}
+  ]
+}}
 """
 
 # --- Helper Functions ---
@@ -218,7 +227,7 @@ def classify_conversation_responses(
         agent_responses_enumerated=agent_responses_enumerated,
         categories_json_string=categories_str
     )
-    logging.debug(f"LLM prompt for classification:\n{prompt}")
+    logging.debug(f"LLM prompt for classification:\n{prompt[:1000]}...")
     
     response_payload = None
     try:
@@ -226,7 +235,7 @@ def classify_conversation_responses(
             model=classification_model,
             messages=[{"role": "user", "content": prompt}],
             temperature=0.0,
-            response_format={"type": "json_object", "schema": ResponseClassification.model_json_schema()}
+            response_format={"type": "json_object"}
         )
     except Exception as e:
         logging.error(f"litellm.completion call failed. Error: {e}", exc_info=True)
@@ -238,36 +247,24 @@ def classify_conversation_responses(
             logging.error("LLM response payload is None after completion call.")
             raise ValueError("LLM response payload is None.")
 
-        if isinstance(response_payload, dict): 
-            parsed_model = ResponseClassification.parse_obj(response_payload)
-        elif hasattr(response_payload, 'classifications'): 
-             parsed_model = response_payload
-        elif hasattr(response_payload, 'choices') and response_payload.choices:
-            message_obj = response_payload.choices[0].message
-            if message_obj is None:
-                logging.error(f"LLM response choice message is None. Response payload: {response_payload}")
-                raise ValueError("LLM response choice message is None.")
-            
-            content_str = message_obj.content
-            if content_str is None:
-                logging.error(f"LLM response message content is None. Response payload: {response_payload}")
-                raise ValueError("LLM response message content is None.")
+        content_str = response_payload.choices[0].message.content
+        if content_str is None:
+            logging.error(f"LLM response message content is None. Response payload: {response_payload}")
+            raise ValueError("LLM response message content is None.")
 
-            try:
-                data = json.loads(content_str)
-                if "classifications" in data and isinstance(data["classifications"], list):
-                    parsed_model = ResponseClassification.parse_obj(data)
-                else: 
-                    parsed_model = ResponseClassification(classifications=parse_obj_as(List[SingleClassification], data))
-            except json.JSONDecodeError as jde:
-                logging.error(f"JSONDecodeError parsing LLM content string: '{content_str}'. Error: {jde}. Response payload: {response_payload}", exc_info=True)
-                raise
-            except Exception as e_parse:
-                logging.error(f"Failed to parse LLM content string into Pydantic model: '{content_str}'. Error: {e_parse}. Response payload: {response_payload}", exc_info=True)
-                raise
-        else:
-            logging.error(f"Unexpected LLM response structure. Response payload: {response_payload}")
-            raise ValueError("LLM response structure not recognized for parsing.")
+        try:
+            data = json.loads(content_str)
+            if "classifications" in data and isinstance(data["classifications"], list):
+                parsed_model = ResponseClassification.parse_obj(data)
+            else:
+                logging.error(f"LLM response JSON missing 'classifications' key or it's not a list. Data: {data}")
+                raise ValueError("LLM response JSON structure incorrect.")
+        except json.JSONDecodeError as jde:
+            logging.error(f"JSONDecodeError parsing LLM content string: '{content_str}'. Error: {jde}. Response payload: {response_payload}", exc_info=True)
+            raise
+        except Exception as e_parse:
+            logging.error(f"Failed to parse LLM content string into Pydantic model: '{content_str}'. Error: {e_parse}. Response payload: {response_payload}", exc_info=True)
+            raise
 
         if parsed_model is None:
             logging.error(f"Parsed model is None after attempting to parse response_payload: {response_payload}")
@@ -282,34 +279,166 @@ def classify_conversation_responses(
         logging.error(f"Generic error during LLM response processing. Response payload: {response_payload}. Error: {e}", exc_info=True)
         raise
 
+def process_single_agent_batch(batch_data: List[tuple], classification_model_name: str) -> List[Dict[str, Any]]:
+    """Process a batch of single-agent responses together for faster classification."""
+    all_processed_records = []
+    
+    # Extract data from batch
+    batch_indices = []
+    batch_rows = []
+    batch_questions = []
+    batch_responses = []
+    
+    for index, row in batch_data:
+        qid = row.get('question_id')
+        original_question = f"Question {qid}"
+        
+        # Create agent response structure
+        agent_response = {
+            'agent_name': row.get('model_name', 'unknown_model'),
+            'message_content': str(row.get('full_response', '')),
+            'answer': row.get('answer'),
+            'confidence': row.get('confidence'),
+            'model_name': row.get('model_name'),
+            'run_index': row.get('run_index')
+        }
+        
+        batch_indices.append(index)
+        batch_rows.append(row)
+        batch_questions.append(original_question)
+        batch_responses.append(agent_response)
+    
+    # Create combined conversation history and agent responses for the batch
+    conversation_history = []
+    agent_responses_list = []
+    
+    for i, (question, response) in enumerate(zip(batch_questions, batch_responses)):
+        # Add question to conversation history
+        conversation_history.append({
+            'source': 'user',
+            'index': i * 2,  # Even indices for questions
+            'content': f"[Batch Item {i}] {question}"
+        })
+        
+        # Add response metadata to track which batch item this belongs to
+        response_with_batch_info = response.copy()
+        response_with_batch_info['batch_index'] = i
+        response_with_batch_info['original_question_id'] = batch_rows[i].get('question_id')
+        agent_responses_list.append(response_with_batch_info)
+    
+    # Create a combined question for the batch
+    combined_question = f"Processing batch of {len(batch_data)} single-agent responses to different questions"
+    
+    try:
+        classifications_list = classify_conversation_responses(
+            combined_question,
+            conversation_history,
+            agent_responses_list,
+            classification_model_name
+        )
+        
+        # Map classifications back to original rows
+        for cls_item_model in classifications_list:
+            cls_item_dict = cls_item_model.model_dump()
+            agent_idx = cls_item_dict['agent_index']
+            
+            if not (0 <= agent_idx < len(agent_responses_list)):
+                logging.error(f"Agent index {agent_idx} out of bounds for batch of size {len(agent_responses_list)}")
+                continue
+            
+            agent_obj = agent_responses_list[agent_idx]
+            batch_idx = agent_obj.get('batch_index')
+            original_row = batch_rows[batch_idx]
+            original_index = batch_indices[batch_idx]
+            qid = agent_obj.get('original_question_id')
+            
+            # Create output record
+            output_record = {'question_id': qid}
+            
+            # Add original row data (excluding batch metadata)
+            agent_obj_clean = {k: v for k, v in agent_obj.items() 
+                             if k not in ['batch_index', 'original_question_id']}
+            output_record.update(agent_obj_clean)
+            
+            # Add classification results
+            classification_fields = {k: v for k, v in cls_item_dict.items() if k != 'agent_index'}
+            output_record.update(classification_fields)
+            
+            # Ensure required fields for downstream processing
+            if 'extracted_answer' not in output_record:
+                output_record['extracted_answer'] = agent_obj.get('answer')
+            if 'extracted_confidence' not in output_record:
+                output_record['extracted_confidence'] = agent_obj.get('confidence')
+            if 'agent_model' not in output_record:
+                output_record['agent_model'] = agent_obj.get('model_name')
+            
+            all_processed_records.append(output_record)
+    
+    except Exception as e_classify:
+        logging.error(f"Batch classification failed: {type(e_classify).__name__} - {e_classify}")
+        
+        # Create error records for all items in the batch
+        for i, (index, row) in enumerate(batch_data):
+            qid = row.get('question_id')
+            error_record = {
+                'question_id': qid,
+                'row_index': index,
+                'error_type': f'BatchClassificationFailed_{type(e_classify).__name__}',
+                'error_message': str(e_classify),
+                'batch_size': len(batch_data),
+                'batch_position': i
+            }
+            all_processed_records.append(error_record)
+    
+    return all_processed_records
 
 def process_row(args_tuple: tuple) -> List[Dict[str, Any]]:
     index, row, classification_model_name = args_tuple
     processed_records = []
     qid = row.get('question_id')
     original_question = ""
-    agent_responses_str = row.get('agent_responses', '[]')
-    conversation_history_str = row.get('conversation_history', '[]')
-
-    try:
-        conversation_history = json.loads(conversation_history_str)
-        for item in conversation_history:
-            if item.get('source') == 'user' and item.get('index') == 0:
-                original_question = item.get('content')
-                break
+    
+    # Check if this is a single-agent format (has 'full_response' column) or multi-agent format
+    if 'full_response' in row and pd.notna(row.get('full_response')):
+        # Single-agent format - will be handled in batches, return marker for batching
+        return [{'_batch_marker': True, 'index': index, 'row': row}]
         
-        if not original_question:
-            logging.warning(f"Row {index} (qid: {qid}): Could not find original question. Classification may be affected.")
-
-        agent_responses_list = json.loads(agent_responses_str)
+    else:
+        # Multi-agent format - handle as before (unchanged)
+        agent_responses_str = row.get('agent_responses', '[]')
+        conversation_history_str = row.get('conversation_history', '[]')
         
+        try:
+            conversation_history = json.loads(conversation_history_str)
+            for item in conversation_history:
+                if item.get('source') == 'user' and item.get('index') == 0:
+                    original_question = item.get('content')
+                    break
+            
+            if not original_question:
+                original_question = f"Question {qid}"
+                logging.warning(f"Row {index} (qid: {qid}): Could not find original question. Using placeholder.")
+
+            agent_responses_list = json.loads(agent_responses_str)
+            
+        except json.JSONDecodeError as json_e:
+            logging.error(f"JSONDecodeError for row {index} (qid: {qid}): {json_e}")
+            error_record = {
+                'question_id': qid,
+                'row_index': index,
+                'error_type': 'JSONDecodeError',
+                'error_message': str(json_e)
+            }
+            processed_records.append(error_record)
+            return processed_records
+    
         if not agent_responses_list:
             logging.info(f"Row {index} (qid: {qid}): No agent responses to classify. Skipping.")
             error_record = {
                 'question_id': qid,
                 'status': 'skipped_no_responses',
                 'original_question': original_question,
-                'agent_responses_str': agent_responses_str
+                'agent_responses_str': str(agent_responses_list)
             }
             processed_records.append(error_record)
             return processed_records
@@ -328,8 +457,7 @@ def process_row(args_tuple: tuple) -> List[Dict[str, Any]]:
                 'row_index': index,
                 'error_type': f'ClassificationCallFailed_{type(e_classify).__name__}',
                 'error_message': str(e_classify),
-                'original_question': original_question,
-                'agent_responses_str_snippet': agent_responses_str[:200]
+                'original_question': original_question
             }
             processed_records.append(error_record)
             return processed_records
@@ -350,10 +478,19 @@ def process_row(args_tuple: tuple) -> List[Dict[str, Any]]:
                 
                 classification_fields = {k: v for k, v in cls_item_dict.items() if k != 'agent_index'}
                 output_record.update(classification_fields)
+                
+                # Ensure required fields for downstream processing
+                if 'extracted_answer' not in output_record:
+                    output_record['extracted_answer'] = agent_obj.get('answer')
+                if 'extracted_confidence' not in output_record:
+                    output_record['extracted_confidence'] = agent_obj.get('confidence')
+                if 'agent_model' not in output_record:
+                    output_record['agent_model'] = agent_obj.get('model_name')
+                
                 processed_records.append(output_record)
 
             except IndexError as ie:
-                logging.error(f"Row {index} (qid: {qid}): Agent index {cls_item_dict.get('agent_index', 'N/A')} out of bounds. Error: {ie}. Classification item: {cls_item_dict}")
+                logging.error(f"Row {index} (qid: {qid}): Agent index {cls_item_dict.get('agent_index', 'N/A')} out of bounds. Error: {ie}")
                 error_record = {
                     'question_id': qid,
                     'row_index': index,
@@ -364,81 +501,56 @@ def process_row(args_tuple: tuple) -> List[Dict[str, Any]]:
                 }
                 processed_records.append(error_record)
             except Exception as e_inner_loop: 
-                logging.error(f"Row {index} (qid: {qid}): Error creating/writing record for classification item {cls_item_dict}: {e_inner_loop}")
+                logging.error(f"Row {index} (qid: {qid}): Error creating record for classification item {cls_item_dict}: {e_inner_loop}")
                 error_record = {
                     'question_id': qid,
                     'row_index': index,
                     'error_type': 'RecordCreationError',
                     'error_message': str(e_inner_loop),
-                    'classification_item_problem_dict': cls_item_dict,
-                    'agent_responses_for_row_count': len(agent_responses_list)
+                    'classification_item_problem_dict': cls_item_dict
                 }
                 processed_records.append(error_record)
-    
-    except json.JSONDecodeError as json_e:
-        logging.error(f"JSONDecodeError for row {index} (qid: {qid}): {json_e}. Problematic string: '{agent_responses_str[:200]}...' or '{conversation_history_str[:200]}...'")
-        error_record = {
-            'question_id': qid,
-            'row_index': index,
-            'error_type': 'JSONDecodeError',
-            'error_message': str(json_e),
-            'original_question': original_question,
-            'conversation_history_str_snippet': conversation_history_str[:200] if 'conversation_history_str' in locals() else "N/A",
-            'agent_responses_str_snippet': agent_responses_str[:200]
-        }
-        processed_records.append(error_record)
-    except Exception as e_outer: 
-        logging.error(f"General error processing row {index} (qid: {qid}): {type(e_outer).__name__} - {e_outer}")
-        error_record = {
-            'question_id': qid,
-            'row_index': index,
-            'error_type': f'OuterProcessingError_{type(e_outer).__name__}',
-            'error_message': str(e_outer),
-            'original_question': original_question,
-            'agent_responses_for_row_str_snippet': agent_responses_str[:200]
-        }
-        processed_records.append(error_record)
-    
-    return processed_records
+        
+        return processed_records
 
 # --- Logging Setup ---
 def setup_logging(log_file_path: str):
     for handler in logging.root.handlers[:]:
         logging.root.removeHandler(handler)
     
-    # File handler will log DEBUG and above
     file_handler = logging.FileHandler(log_file_path, mode='w')
     file_handler.setLevel(logging.DEBUG)
     file_formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(filename)s:%(lineno)d - %(message)s')
     file_handler.setFormatter(file_formatter)
 
-    # Console handler will log ERROR and above
     console_handler = logging.StreamHandler()
-    console_handler.setLevel(logging.ERROR) # Changed from INFO to ERROR
-    console_formatter = logging.Formatter('%(levelname)s: %(message)s') # Simpler format for console errors
+    console_handler.setLevel(logging.ERROR)
+    console_formatter = logging.Formatter('%(levelname)s: %(message)s')
     console_handler.setFormatter(console_formatter)
 
     logging.basicConfig(
-        level=logging.DEBUG, # Root logger level, handlers control effective level
+        level=logging.DEBUG,
         handlers=[file_handler, console_handler]
     )
     
     litellm_logger = logging.getLogger("litellm")
     if litellm_logger:
-        litellm_logger.setLevel(logging.WARNING) # Keep litellm's own logs less verbose on console too
+        litellm_logger.setLevel(logging.WARNING)
 
     logging.info(f"Logging initialized. DEBUG logs to {log_file_path}, ERROR logs to console. LiteLLM logs set to WARNING level.")
 
 # --- Main Execution ---
 def main():
-    parser = argparse.ArgumentParser(description="Classify agent responses from a CSV file.")
-    parser.add_argument("--input_csv", help="Path to the input CSV file.", default="results_multi/ggb_qwen-2.5-7b-instruct_ring_ensemble_260486c5_q1-90_n12.csv")
-    parser.add_argument("--output_jsonl", help="Path to the output JSONL file.", default="results_multi/ggb_qwen-2.5-7b-instruct_ring_ensemble_260486c5_q1-90_n12_classification.jsonl")
+    parser = argparse.ArgumentParser(description="Classify agent responses from CSV files in a specified directory.")
+    parser.add_argument("--input_dir", required=True, help="Directory containing CSV files to process.")
+    parser.add_argument("--single_file", help="Process only this specific CSV file (filename only, not full path).")
     parser.add_argument("--api_key", help="OpenRouter API Key.", default=os.environ.get("OPENROUTER_API_KEY"))
-    parser.add_argument("--model", default="openrouter/google/gemini-2.5-flash-preview-05-20", help="Classification model name.")
+    parser.add_argument("--model", default="openrouter/google/gemini-2.5-flash-preview", help="Classification model name.")
     parser.add_argument("--max_workers", type=int, default=4, help="Maximum number of parallel workers.")
     parser.add_argument("--log_file", default="classification_script.log", help="Path to the log file for the script.")
-    
+    parser.add_argument("--batch_size", type=int, default=30, help="Batch size for single-agent classification.")
+    parser.add_argument("--parallel_batches", type=int, default=3, help="Number of parallel batch workers for single-agent processing.")
+
     args = parser.parse_args()
 
     setup_logging(args.log_file)
@@ -452,42 +564,136 @@ def main():
 
     litellm.set_verbose = False
 
-    try:
-        df = pd.read_csv(args.input_csv)
-        logging.info(f"Successfully loaded CSV: {args.input_csv} with {len(df)} rows.")
-    except FileNotFoundError:
-        logging.error(f"Error: The file '{args.input_csv}' was not found.")
+    input_directory_path = os.path.abspath(args.input_dir)
+    
+    csv_files_in_dir = [
+        f for f in glob.glob(os.path.join(input_directory_path, "*.csv")) 
+        if "_classification" not in os.path.basename(f)
+    ]
+
+    # Filter to single file if specified
+    if args.single_file:
+        csv_files_in_dir = [f for f in csv_files_in_dir if os.path.basename(f) == args.single_file]
+        if not csv_files_in_dir:
+            logging.error(f"Specified file '{args.single_file}' not found in {input_directory_path}")
+            return
+        logging.info(f"Processing single file: {args.single_file}")
+
+    if not csv_files_in_dir:
+        logging.info(f"No CSV files found to process in {input_directory_path}.")
         return
-    except Exception as e:
-        logging.error(f"An error occurred while loading the CSV: {e}")
-        return
 
-    with open(args.output_jsonl, 'w') as f_out:
-        logging.info(f"Cleared/created output file: {args.output_jsonl}")
+    logging.info(f"Found {len(csv_files_in_dir)} CSV files to process in {input_directory_path}.")
 
-    tasks_args = [(index, row, args.model) for index, row in df.iterrows()]
+    for input_csv_path in csv_files_in_dir:
+        output_jsonl_path = os.path.splitext(input_csv_path)[0] + "_classification.jsonl"
+        
+        logging.info(f"--- Starting processing for: {input_csv_path} ---")
+        logging.info(f"Output to: {output_jsonl_path}")
 
-    with open(args.output_jsonl, 'a') as outfile:
-        with concurrent.futures.ThreadPoolExecutor(max_workers=args.max_workers) as executor:
-            future_to_row_index = {executor.submit(process_row, task_arg): task_arg[0] for task_arg in tasks_args}
-            for future in tqdm(concurrent.futures.as_completed(future_to_row_index), total=len(tasks_args), desc="Classifying responses"):
-                row_idx = future_to_row_index[future]
-                try:
-                    results_for_one_row = future.result()
-                    for record in results_for_one_row:
-                        outfile.write(json.dumps(record) + '\n')
-                except Exception as exc:
-                    logging.error(f"Row index {row_idx} generated an exception: {exc}")
-                    error_record = {
-                        'question_id': tasks_args[row_idx][1].get('question_id', 'N/A_IN_EXCEPTION'),
-                        'row_index': row_idx,
-                        'error_type': f'FutureExecutionError_{type(exc).__name__}',
-                        'error_message': str(exc)
+        try:
+            df = pd.read_csv(input_csv_path)
+            logging.info(f"Successfully loaded CSV: {input_csv_path} with {len(df)} rows.")
+        except FileNotFoundError:
+            logging.error(f"Error: The file '{input_csv_path}' was not found.")
+            continue 
+        except Exception as e:
+            logging.error(f"An error occurred while loading {input_csv_path}: {e}")
+            continue
+
+        # Check if this is a single-agent CSV (has 'full_response' column)
+        is_single_agent = 'full_response' in df.columns
+        
+        # Check if output file already exists and skip if it does
+        if os.path.exists(output_jsonl_path):
+            logging.info(f"Output file {output_jsonl_path} already exists. Skipping {input_csv_path}.")
+            continue
+        
+        try:
+            with open(output_jsonl_path, 'w') as f_out:
+                pass
+            logging.debug(f"Created output file: {output_jsonl_path}")
+        except IOError as e:
+            logging.error(f"Cannot write to output file {output_jsonl_path}. Error: {e}. Skipping {input_csv_path}.")
+            continue
+
+        if is_single_agent:
+            logging.info(f"Processing single-agent CSV with batch size {args.batch_size} and {args.parallel_batches} parallel workers")
+            
+            # Process in batches for single-agent with parallelization
+            all_rows = [(index, row) for index, row in df.iterrows()]
+            
+            # Create batches
+            batches = []
+            for i in range(0, len(all_rows), args.batch_size):
+                batch = all_rows[i:i + args.batch_size]
+                batches.append((i, batch))  # (batch_start_index, batch_data)
+            
+            logging.info(f"Created {len(batches)} batches for parallel processing")
+            
+            with open(output_jsonl_path, 'a') as outfile:
+                with concurrent.futures.ThreadPoolExecutor(max_workers=args.parallel_batches) as executor:
+                    # Submit all batches for processing
+                    future_to_batch = {
+                        executor.submit(process_single_agent_batch, batch_data, args.model): batch_start 
+                        for batch_start, batch_data in batches
                     }
-                    outfile.write(json.dumps(error_record) + '\n')
+                    
+                    # Process completed batches
+                    for future in tqdm(concurrent.futures.as_completed(future_to_batch), 
+                                     total=len(batches), 
+                                     desc=f"Processing batches for {os.path.basename(input_csv_path)}"):
+                        batch_start_idx = future_to_batch[future]
+                        try:
+                            batch_results = future.result()
+                            for record in batch_results:
+                                outfile.write(json.dumps(record) + '\n')
+                        except Exception as e:
+                            logging.error(f"Error processing batch starting at index {batch_start_idx}: {e}")
+                            # Write error records for the batch
+                            batch_data = next((bd for bs, bd in batches if bs == batch_start_idx), [])
+                            for index, row in batch_data:
+                                error_record = {
+                                    'question_id': row.get('question_id', 'N/A'),
+                                    'row_index': index,
+                                    'error_type': f'BatchProcessingError_{type(e).__name__}',
+                                    'error_message': str(e),
+                                    'batch_start_index': batch_start_idx
+                                }
+                                outfile.write(json.dumps(error_record) + '\n')
+        
+        else:
+            logging.info("Processing multi-agent CSV with individual row processing")
+            
+            # Use existing parallel processing for multi-agent
+            tasks_args = [(index, row, args.model) for index, row in df.iterrows()]
 
+            with open(output_jsonl_path, 'a') as outfile:
+                with concurrent.futures.ThreadPoolExecutor(max_workers=args.max_workers) as executor:
+                    future_to_row_index = {executor.submit(process_row, task_arg): task_arg[0] for task_arg in tasks_args}
+                    
+                    progress_bar_desc = f"Classifying {os.path.basename(input_csv_path)}"
+                    for future in tqdm(concurrent.futures.as_completed(future_to_row_index), total=len(tasks_args), desc=progress_bar_desc):
+                        row_idx = future_to_row_index[future]
+                        try:
+                            results_for_one_row = future.result()
+                            for record in results_for_one_row:
+                                # Skip batch markers
+                                if not record.get('_batch_marker'):
+                                    outfile.write(json.dumps(record) + '\n')
+                        except Exception as exc:
+                            logging.error(f"Row index {row_idx} generated an exception: {exc}")
+                            error_record = {
+                                'question_id': tasks_args[row_idx][1].get('question_id', 'N/A_IN_EXCEPTION'),
+                                'row_index': row_idx,
+                                'error_type': f'FutureExecutionError_{type(exc).__name__}',
+                                'error_message': str(exc)
+                            }
+                            outfile.write(json.dumps(error_record) + '\n')
+        
+        logging.info(f"--- Finished processing for: {input_csv_path} ---")
 
-    logging.info(f"Finished processing all rows. Results/errors saved to {args.output_jsonl}")
+    logging.info(f"All CSV files in {input_directory_path} processed.")
 
 if __name__ == "__main__":
     if len(RATIONALE_CATEGORIES) < 5:
