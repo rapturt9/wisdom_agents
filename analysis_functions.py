@@ -32,24 +32,12 @@ def load_and_clean_single_run(runcsv_list, Qs, label):
             continue
 
         temp_df['run_label'] = label
-        
-        # Use get_question_by_index to get question data, then extract what we need
-        def get_question_info(question_id):
-            # Find the question by statement_id
-            for i in range(Qs.get_total_questions()):
-                question_data = Qs.get_question_by_index(i)
-                if question_data and question_data.get('statement_id') == question_id:
-                    return {
-                        'question_num': i + 1,  # 1-based numbering
-                        'category': question_data.get('category', 'unknown')
-                    }
-            return {'question_num': None, 'category': 'unknown'}
-        
-        temp_df['question_num'] = temp_df['question_id'].apply(lambda x: get_question_info(x)['question_num'])
-        temp_df['category'] = temp_df['question_id'].apply(lambda x: get_question_info(x)['category'])
-        
+
+        # temp_df already has a question_num
+        temp_df['category'] = temp_df['question_id'].apply(lambda x: Qs.get_question_category(x))
+
         # Initialize classification columns with default values
-        temp_df['rationale_category'] = None
+        temp_df['selected_categories'] = None
         temp_df['is_response_off_topic'] = False
         temp_df['off_topic_reason'] = None
         
@@ -61,22 +49,22 @@ def load_and_clean_single_run(runcsv_list, Qs, label):
                 
                 # Ensure necessary columns exist for merging and filtering
                 required_cols = ['question_id', 'run_index', 'model_name', 'is_response_off_topic']
-                classification_cols = ['rationale_category', 'is_response_off_topic', 'off_topic_reason']
+                classification_cols = ['selected_categories', 'is_response_off_topic', 'off_topic_reason']
                 
                 if not all(col in df_classified_single.columns for col in required_cols):
                     print(f"Warning: Classification file {classification_jsonl_path} is missing one or more required columns: {required_cols}. Skipping off-topic filtering for this file.")
                 else:
-                    # Convert rationale_category list to comma-separated string if it's a list
-                    if 'rationale_category' in df_classified_single.columns:
-                        df_classified_single['rationale_category_str'] = df_classified_single['rationale_category'].apply(
+                    # Convert selected_categories list to comma-separated string if it's a list
+                    if 'selected_categories' in df_classified_single.columns:
+                        df_classified_single['selected_categories_str'] = df_classified_single['selected_categories'].apply(
                             lambda x: ','.join(x) if isinstance(x, list) else str(x) if x is not None else None
                         )
                     else:
-                        df_classified_single['rationale_category_str'] = None
+                        df_classified_single['selected_categories_str'] = None
                     
                     # Prepare columns for merge
-                    merge_cols = ['question_id', 'run_index', 'model_name', 'rationale_category_str', 'is_response_off_topic', 'off_topic_reason']
-                    available_merge_cols = [col for col in merge_cols if col in df_classified_single.columns or col == 'rationale_category_str']
+                    merge_cols = ['question_id', 'run_index', 'model_name', 'selected_categories_str', 'is_response_off_topic', 'off_topic_reason']
+                    available_merge_cols = [col for col in merge_cols if col in df_classified_single.columns or col == 'selected_categories_str']
                     
                     merged_df = pd.merge(temp_df, 
                                          df_classified_single[available_merge_cols],
@@ -85,8 +73,8 @@ def load_and_clean_single_run(runcsv_list, Qs, label):
                                          suffixes=('', '_classified'))
                     
                     # Update classification columns
-                    if 'rationale_category_str' in merged_df.columns:
-                        temp_df['rationale_category'] = merged_df['rationale_category_str']
+                    if 'selected_categories_str' in merged_df.columns:
+                        temp_df['selected_categories'] = merged_df['selected_categories_str']
                     if 'is_response_off_topic_classified' in merged_df.columns:
                         temp_df['is_response_off_topic'] = merged_df['is_response_off_topic_classified'].fillna(False)
                         # Filter out off-topic responses
@@ -131,30 +119,20 @@ def ring_csv_to_df(csv_file, current_Qs):
     if os.path.exists(classification_jsonl_path):
         try:
             df_classified_ring = pd.read_json(classification_jsonl_path, lines=True)
-            required_cols = ['question_id', 'agent_name', 'message_index', 'is_response_off_topic']
+            required_cols = ['question_id', 'question_num', 'agent_name', 'message_index', 'is_response_off_topic']
             if not all(col in df_classified_ring.columns for col in required_cols):
                 print(f"Warning: Classification file {classification_jsonl_path} is missing one or more required columns: {required_cols}. Off-topic filtering will be skipped.")
                 df_classified_ring = None
             else:
-                # Convert rationale_category list to comma-separated string if it's a list
-                if 'rationale_category' in df_classified_ring.columns:
-                    df_classified_ring['rationale_category_str'] = df_classified_ring['rationale_category'].apply(
+                # Convert selected_categories list to comma-separated string if it's a list
+                if 'selected_categories' in df_classified_ring.columns:
+                    df_classified_ring['selected_categories_str'] = df_classified_ring['selected_categories'].apply(
                         lambda x: ','.join(x) if isinstance(x, list) else str(x) if x is not None else None
                     )
         except Exception as e:
             print(f"Warning: Error processing classification file {classification_jsonl_path}: {e}")
             df_classified_ring = None
 
-    # Helper function to get question info
-    def get_question_info(question_id):
-        for i in range(current_Qs.get_total_questions()):
-            question_data = current_Qs.get_question_by_index(i)
-            if question_data and question_data.get('statement_id') == question_id:
-                return {
-                    'question_num': i + 1,
-                    'category': question_data.get('category', 'unknown')
-                }
-        return {'question_num': None, 'category': 'unknown'}
 
     data_for_df = []
     
@@ -163,6 +141,7 @@ def ring_csv_to_df(csv_file, current_Qs):
         conv_run_index = row.get('run_index', idx)
         q_id = row.get('question_id')
         chat_type = row.get('chat_type', 'unknown')
+        q_num = row.get('question_num')
         
         # Handle config_details
         config_details = row.get('config_details', {})
@@ -199,7 +178,7 @@ def ring_csv_to_df(csv_file, current_Qs):
             
             # Initialize classification fields
             is_off_topic = False
-            rationale_category_str = None
+            selected_categories_str = None
             off_topic_reason = None
             
             # Try to get classification data
@@ -216,8 +195,8 @@ def ring_csv_to_df(csv_file, current_Qs):
                 classified_entry = df_classified_ring[mask]
                 if not classified_entry.empty:
                     is_off_topic = classified_entry['is_response_off_topic'].iloc[0]
-                    if 'rationale_category_str' in classified_entry.columns:
-                        rationale_category_str = classified_entry['rationale_category_str'].iloc[0]
+                    if 'selected_categories_str' in classified_entry.columns:
+                        selected_categories_str = classified_entry['selected_categories_str'].iloc[0]
                     if 'off_topic_reason' in classified_entry.columns:
                         off_topic_reason = classified_entry['off_topic_reason'].iloc[0]
 
@@ -232,7 +211,6 @@ def ring_csv_to_df(csv_file, current_Qs):
             if is_off_topic:
                 numeric_answer = np.nan
             
-            question_info = get_question_info(q_id)
             
             # Determine round number
             if isinstance(config_details, dict) and 'ensemble' in config_details:
@@ -245,8 +223,8 @@ def ring_csv_to_df(csv_file, current_Qs):
             
             data_for_df.append({
                 'question_id': q_id,
-                'question_num': question_info['question_num'],
-                'category': question_info['category'],
+                'question_num': q_num,
+                'category': current_Qs.get_question_category(q_id),
                 'run_index': conv_run_index,
                 'chat_type': chat_type,
                 'config_details': config_details,
@@ -256,7 +234,7 @@ def ring_csv_to_df(csv_file, current_Qs):
                 'agent_confidence': agent_msg.get('confidence', np.nan),
                 'full_response': agent_msg.get('message_content', ''),
                 'message_index': message_index_from_msg,
-                'rationale_category': rationale_category_str,
+                'selected_categories': selected_categories_str,
                 'is_response_off_topic': is_off_topic,
                 'off_topic_reason': off_topic_reason
             })
@@ -358,7 +336,7 @@ def ring_to_roundrobin_df(df, current_Qs):
                 'message_index': row['message_index'],
                 'repeat_index': run_idx,
                 'ggb_question_id': ggb_question_id,  # Add this column
-                'rationale_category': row.get('rationale_category'),
+                'selected_categories': row.get('selected_categories'),
                 'is_response_off_topic': row.get('is_response_off_topic', False),
                 'off_topic_reason': row.get('off_topic_reason')
             })
@@ -388,9 +366,9 @@ def star_csv_to_df(csv_file, current_Qs, label_for_runtype="star"):
                 print(f"Warning: Classification file {classification_jsonl_path} is missing one or more required columns: {required_cols}. Off-topic filtering will be skipped.")
                 df_classified_star = None
             else:
-                # Convert rationale_category list to comma-separated string if it's a list
-                if 'rationale_category' in df_classified_star.columns:
-                    df_classified_star['rationale_category_str'] = df_classified_star['rationale_category'].apply(
+                # Convert selected_categories list to comma-separated string if it's a list
+                if 'selected_categories' in df_classified_star.columns:
+                    df_classified_star['selected_categories_str'] = df_classified_star['selected_categories'].apply(
                         lambda x: ','.join(x) if isinstance(x, list) else str(x) if x is not None else None
                     )
         except ValueError as e:
@@ -430,7 +408,7 @@ def star_csv_to_df(csv_file, current_Qs, label_for_runtype="star"):
             
             # Initialize classification fields
             is_off_topic = False
-            rationale_category_str = None
+            selected_categories_str = None
             off_topic_reason = None
             
             if df_classified_star is not None:
@@ -448,8 +426,8 @@ def star_csv_to_df(csv_file, current_Qs, label_for_runtype="star"):
                 classified_entry = df_classified_star[mask]
                 if not classified_entry.empty:
                     is_off_topic = classified_entry['is_response_off_topic'].iloc[0]
-                    if 'rationale_category_str' in classified_entry.columns:
-                        rationale_category_str = classified_entry['rationale_category_str'].iloc[0]
+                    if 'selected_categories_str' in classified_entry.columns:
+                        selected_categories_str = classified_entry['selected_categories_str'].iloc[0]
                     if 'off_topic_reason' in classified_entry.columns:
                         off_topic_reason = classified_entry['off_topic_reason'].iloc[0]
 
@@ -478,7 +456,7 @@ def star_csv_to_df(csv_file, current_Qs, label_for_runtype="star"):
                 'message_index': message_index_from_msg,
                 'is_supervisor': agent_msg.get('is_supervisor', False),
                 'loop_num': agent_msg.get('loop_num', np.nan),
-                'rationale_category': rationale_category_str,
+                'selected_categories': selected_categories_str,
                 'is_response_off_topic': is_off_topic,
                 'off_topic_reason': off_topic_reason
             })

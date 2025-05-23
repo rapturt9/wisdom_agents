@@ -157,7 +157,7 @@ class GGB_Statements:
     
     def get_question_category(self, question_id):
         
-        return self.questions[question_id]['category']
+        return self.questions[str(question_id)]['category']
 
 QUESTION_JSON = os.path.abspath('GGB_benchmark/GreatestGoodBenchmark.json')
 INVERTED_JSON = os.path.abspath('GGB_benchmark/GreatestGoodBenchmarkInverted.json')
