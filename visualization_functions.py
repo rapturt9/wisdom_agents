@@ -504,7 +504,7 @@ def plot_IH_v_IB(df_by_category, use_std=True, label='chat_type', ax_lims = [1,7
 col_width = 3.3125 # inches
 text_wdith = 7.0 # inches
 
-def cleanup_IBvIH_plot(f,marker_size=4, font_size=9, col_width = col_width):
+def cleanup_IBvIH_plot(f,marker_size=4, font_size=9, legend_labels = None, col_width = col_width):
     ax = f.axes[0]  # Get the main axes
     # ax = axs[0]
 
@@ -531,21 +531,27 @@ def cleanup_IBvIH_plot(f,marker_size=4, font_size=9, col_width = col_width):
 
     # Create new labels (if you haven't already)
     new_labels = []
-    for label in old_labels:
-        if "GGB_inverted_" in label:
-            model_name = label.replace("GGB_inverted_", "").capitalize()
-            new_labels.append(f"{model_name} (inverted)")
-        elif "GGB_" in label:
-            model_name = label.replace("GGB_", "").capitalize()
-            new_labels.append(model_name)
-        elif 'inverted_' in label:
-            model_name = label.replace("inverted_", "").capitalize()
-            new_labels.append(f"{model_name} (inverted)")
-        elif '_inverted' in label:
-            model_name = label.replace("_inverted", "").capitalize()
-            new_labels.append(f"{model_name} (inverted)")
-        else:
-            new_labels.append(label.capitalize())
+    if legend_labels is None:
+        for label in old_labels:
+            if "GGB_inverted_" in label:
+                model_name = label.replace("GGB_inverted_", "").capitalize()
+                new_labels.append(f"{model_name} (inverted)")
+            elif "GGB_" in label:
+                model_name = label.replace("GGB_", "").capitalize()
+                new_labels.append(model_name)
+            elif 'inverted_' in label:
+                model_name = label.replace("inverted_", "").capitalize()
+                new_labels.append(f"{model_name} (inverted)")
+            elif '_inverted' in label:
+                model_name = label.replace("_inverted", "").capitalize()
+                new_labels.append(f"{model_name} (inverted)")
+            else:
+                new_labels.append(label.capitalize())
+    else:
+        for label in old_labels:
+            new_labels.append(legend_labels[label])
+    
+                                  
 
     # reorganize so that we have the inverted separate in the legend
     # For legend at the bottom 
@@ -557,7 +563,7 @@ def cleanup_IBvIH_plot(f,marker_size=4, font_size=9, col_width = col_width):
     ax.legend(new_handles, new_new_labels, 
                 ncol=1, #2,                    # 2 columns as requested
                 loc= 'center left',  #'upper center',        # Align by upper center
-                bbox_to_anchor= (.9, 0.5), #(0.5, -0.16), # Position below axes (x=center, y=below)
+                bbox_to_anchor= (.85, 0.5), #(0.5, -0.16), # Position below axes (x=center, y=below)
                 frameon=False, 
                 fontsize=font_size)              # Keep the frame
 
@@ -581,7 +587,8 @@ def cleanup_IBvIH_plot(f,marker_size=4, font_size=9, col_width = col_width):
     return f
 
 #For help with colormaps:
-def get_base_colors(df, ending_base = 'gemini'):
+def get_base_colors(df_in, ending_base = 'gemini'):
+    df = df_in.copy()
     df['base_config'] = df['label'].apply(lambda x: x.lower().replace('ous_', '').replace('_ring', '').replace('inverted_', '').replace('ggb_','').replace('_inverted', ''))
     base_labels = np.sort(df['base_config'].unique())
 
