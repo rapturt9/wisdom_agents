@@ -139,7 +139,7 @@ def ring_csv_to_df(csv_file, current_Qs):
     # Process each row in the CSV
     for idx, row in df_raw.iterrows():
         conv_run_index = row.get('run_index', idx)
-        q_num = row.get('question_num')
+        q_id = row.get('question_id')
         chat_type = row.get('chat_type', 'unknown')
         q_num = row.get('question_num')
         
@@ -259,7 +259,7 @@ def ring_to_roundrobin_df(df, current_Qs):
     
     # Group by each conversation instance (question_id and run_index)
     for name, group in df.groupby(['question_id', 'question_num', 'run_index', 'chat_type']):
-        q_id, run_idx, chat_type_val = name
+        q_id, q_num, run_idx, chat_type_val = name
         
         # Sort by message_index to maintain order within the conversation
         group = group.sort_values(by='message_index')
@@ -312,7 +312,7 @@ def ring_to_roundrobin_df(df, current_Qs):
             
             round_robin_data.append({
                 'question_id': q_id,
-                'question_num': row['question_num'],
+                'question_num': q_num,
                 'category': current_Qs.get_question_category(q_id),
                 'run_index': run_idx,
                 'chat_type': chat_type_val,
