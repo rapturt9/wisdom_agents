@@ -367,6 +367,23 @@ def plot_IH_v_IB(df_by_category, use_std=True, label='chat_type', ax_lims = [1,7
     # Get unique base configurations
     base_configs = df['base_config'].unique()
 
+    # # Before coloring, change the order in base_configs
+    # gemini_bool =  ['gemini' in n.lower() for n in base_configs]
+    # mixed_bool = ['mixed' in n.lower() for n in base_configs]
+    
+    # if not any(gemini_bool) and not any(mixed_bool) < 1:
+    #     pass
+    # elif any(gemini_bool) and any(mixed_bool):
+    #     Warning('Both Gemini and Mixed persent, not reordering coloring')
+    # elif any(gemini_bool):
+    #     gemini_label = base_configs[gemini_bool]
+    #     base_no_gemini = base_configs[np.invert(gemini_bool)]
+    #     base_configs = np.append(base_no_gemini, gemini_label)
+    # elif any(mixed_bool):
+    #     mix_label = base_configs[mixed_bool]
+    #     base_no_mixed = base_configs[np.invert(mixed_bool)]
+    #     base_configs = np.append(base_no_mixed, mix_label)
+
     # Use a combination of colormaps for a wider range of distinct colors
     # Start with tab10, then tab20, then tab20b for even more variations
     colors_tab10 = plt.cm.tab10.colors
@@ -388,23 +405,6 @@ def plot_IH_v_IB(df_by_category, use_std=True, label='chat_type', ax_lims = [1,7
             if color not in all_colors:
                 all_colors.append(color)
     
-    # Before coloring, change the order in base_configs
-    gemini_bool =  ['gemini' in n.lower() for n in base_configs]
-    mixed_bool = ['mixed' in n.lower() for n in base_configs]
-    
-    if not any(gemini_bool) and not any(mixed_bool) < 1:
-        pass
-    elif any(gemini_bool) and any(mixed_bool):
-        Warning('Both Gemini and Mixed persent, not reordering coloring')
-    elif any(gemini_bool):
-        gemini_label = base_configs[gemini_bool]
-        base_no_gemini = base_configs[np.invert(gemini_bool)]
-        base_configs = np.append(base_no_gemini, gemini_label)
-    elif any(mixed_bool):
-        mix_label = base_configs[mixed_bool]
-        base_no_mixed = base_configs[np.invert(mixed_bool)]
-        base_configs = np.append(base_no_mixed, mix_label)
-        
     # Create color mapping for base configurations
     base_colors = {}
     for i, config in enumerate(base_configs):
@@ -413,8 +413,25 @@ def plot_IH_v_IB(df_by_category, use_std=True, label='chat_type', ax_lims = [1,7
     # Create a map of labels to colors
     # make sure gemini/hetero is at the end for consistent coloring
     
+    labels_for_colors = df[label].unique()
+    # gemini_bool =  ['gemini' in n.lower() for n in labels_for_colors]
+    # mixed_bool = ['mixed' in n.lower() for n in labels_for_colors]
+    
+    # if not any(gemini_bool) and not any(mixed_bool) < 1:
+    #     pass
+    # elif any(gemini_bool) and any(mixed_bool):
+    #     Warning('Both Gemini and Mixed persent, not reordering coloring')
+    # elif any(gemini_bool):
+    #     gemini_label = labels_for_colors[gemini_bool]
+    #     base_no_gemini = labels_for_colors[np.invert(gemini_bool)]
+    #     labels_for_colors = np.append(base_no_gemini, gemini_label)
+    # elif any(mixed_bool):
+    #     mix_label = labels_for_colors[mixed_bool]
+    #     base_no_mixed = labels_for_colors[np.invert(mixed_bool)]
+    #     labels_for_colors = np.append(base_no_mixed, mix_label)
+
     color_map = {}
-    for label_name in df[label].unique():
+    for label_name in labels_for_colors:
         # Extract base configuration
         base_config = label_name.lower().replace('ous_', '').replace('_ring', '').replace('inverted_', '').replace('ggb_','').replace('_inverted', '')
         # Get base color
@@ -425,7 +442,7 @@ def plot_IH_v_IB(df_by_category, use_std=True, label='chat_type', ax_lims = [1,7
     
     # Get unique labels
     labels = df[label].unique()
-    
+
     # For each model, get data for both categories and plot
     for this_label in labels:
         # Get IH data for this model
@@ -549,24 +566,22 @@ def cleanup_IBvIH_plot(f,marker_size=4, font_size=9, col_width = col_width):
     handles, old_labels = ax.get_legend_handles_labels()
 
     # If Gemini or Mixed is there - make it the last entry
-    gemini_idx = [i for i,l in enumerate(old_labels) if 'gemini' in l.lower()]
-    mixed_idx = [i for i,l in enumerate(old_labels) if 'mixed' in l.lower()]
-    if len(gemini_idx) == 0 and len(mixed_idx) == 0:
-        Warning('Not reordering legend. Both Gemini and Mixed Present')
-    elif len(gemini_idx) > 0:
-        for i, idx in enumerate(gemini_idx):
-            idx = idx - i
-            h = handles.pop(idx)
-            l = old_labels.pop(idx)
-            handles.append(h)
-            old_labels.append(l)        
-    elif len(mixed_idx) > 0:
-       for i, idx in enumerate(mixed_idx):
-            h = handles.pop(idx-i)
-            l = handles.pop(idx-i)
-            old_labels.append(h)
-            old_labels.append(l)      
-
+    # gemini_idx = [i for i,l in enumerate(old_labels) if 'gemini' in l.lower()]
+    # mixed_idx = [i for i,l in enumerate(old_labels) if 'mixed' in l.lower()]
+    # if len(gemini_idx) == 0 and len(mixed_idx) == 0:
+    #     Warning('Not reordering legend. Both Gemini and Mixed Present')
+    # elif len(gemini_idx) > 0:
+    #     for i, idx in enumerate(gemini_idx):
+    #         h = handles.pop(idx-i)
+    #         l = old_labels.pop(idx-i)
+    #         handles.append(h)
+    #         old_labels.append(l)        
+    # elif len(mixed_idx) > 0:
+    #    for i, idx in enumerate(mixed_idx):
+    #         h = handles.pop(idx-i)
+    #         l = old_labels.pop(idx-i)
+    #         handles.append(h)
+    #         old_labels.append(l)        
 
     # Create new labels (if you haven't already)
     new_labels = []
@@ -585,10 +600,6 @@ def cleanup_IBvIH_plot(f,marker_size=4, font_size=9, col_width = col_width):
             new_labels.append(f"{model_name} (inverted)")
         else:
             new_labels.append(label.capitalize())
-
-
-
-
 
     # reorganize so that we have the inverted separate in the legend
     # For legend at the bottom 
