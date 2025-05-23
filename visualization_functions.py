@@ -361,12 +361,15 @@ def plot_IH_v_IB(df_by_category, use_std=True, label='chat_type', ax_lims = [1,7
     df = df_by_category.copy()
     
     # Create new columns to help with color mapping
-    df['base_config'] = df[label].apply(lambda x: x.replace('ous_', '').replace('_ring', '').replace('inverted_', '').replace('GGB_',''))
+    df['base_config'] = df[label].apply(lambda x: x.lower().replace('ous_', '').replace('_ring', '').replace('inverted_', '').replace('ggb_','').replace('_inverted', ''))
     df['is_inverted'] = df[label].apply(lambda x: 'inverted' in x.lower())
     
     # Get unique base configurations
     base_configs = df['base_config'].unique()
-    
+
+    # make sure gemini/hetero is at the end 
+    gemini_idx = ['gemini']
+
     # Use a combination of colormaps for a wider range of distinct colors
     # Start with tab10, then tab20, then tab20b for even more variations
     colors_tab10 = plt.cm.tab10.colors
@@ -397,7 +400,7 @@ def plot_IH_v_IB(df_by_category, use_std=True, label='chat_type', ax_lims = [1,7
     color_map = {}
     for label_name in df[label].unique():
         # Extract base configuration
-        base_config = label_name.replace('ous_', '').replace('_ring', '').replace('inverted_', '').replace('GGB_','')
+        base_config = label_name.lower().replace('ous_', '').replace('_ring', '').replace('inverted_', '').replace('ggb_','').replace('_inverted', '')
         # Get base color
         color_map[label_name] = base_colors[base_config]
     
@@ -538,8 +541,14 @@ def cleanup_IBvIH_plot(f,marker_size=4, font_size=9, col_width = col_width):
         elif "GGB_" in label:
             model_name = label.replace("GGB_", "").capitalize()
             new_labels.append(model_name)
+        elif 'inverted_' in label:
+            model_name = label.replace("inverted_", "").capitalize()
+            new_labels.append(f"{model_name} (inverted)")
+        elif '_inverted' in label:
+            model_name = label.replace("_inverted", "").capitalize()
+            new_labels.append(f"{model_name} (inverted)")
         else:
-            new_labels.append(label)
+            new_labels.append(label.capitalize())
 
     # reorganize so that we have the inverted separate in the legend
     # For legend at the bottom 
