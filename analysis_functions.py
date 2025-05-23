@@ -24,6 +24,13 @@ def load_and_clean_single_run(runcsv_list, Qs, label):
     Filters out responses marked as off-topic based on a corresponding classification JSONL file.
     """
     main_df = pd.DataFrame()
+    
+    # Track overall classification coverage across all files
+    total_files_processed = 0
+    total_responses_all_files = 0
+    total_missing_all_files = 0
+    total_matched_all_files = 0
+    
     for runcsv_path_item in runcsv_list:
         try:
             temp_df = pd.read_csv(runcsv_path_item)
@@ -31,6 +38,8 @@ def load_and_clean_single_run(runcsv_list, Qs, label):
             print(f"Warning: CSV file not found: {runcsv_path_item}. Skipping.")
             continue
 
+        print(f"Processing {runcsv_path_item}")
+        total_files_processed += 1
         temp_df['run_label'] = label
 
         # temp_df already has a question_num
@@ -40,6 +49,11 @@ def load_and_clean_single_run(runcsv_list, Qs, label):
         temp_df['selected_categories'] = None
         temp_df['is_response_off_topic'] = False
         temp_df['off_topic_reason'] = None
+        
+        # Track classification coverage for this file
+        file_total_responses = len(temp_df)
+        file_missing_classifications = 0
+        file_matched_classifications = 0
         
         # Attempt to load and merge classification data
         classification_jsonl_path = runcsv_path_item.replace('.csv', '_classification.jsonl')
@@ -52,7 +66,8 @@ def load_and_clean_single_run(runcsv_list, Qs, label):
                 classification_cols = ['selected_categories', 'is_response_off_topic', 'off_topic_reason']
                 
                 if not all(col in df_classified_single.columns for col in required_cols):
-                    print(f"Warning: Classification file {classification_jsonl_path} is missing one or more required columns: {required_cols}. Skipping off-topic filtering for this file.")
+                    print(f"  Warning: Classification file {classification_jsonl_path} is missing one or more required columns: {required_cols}. Skipping off-topic filtering for this file.")
+                    file_missing_classifications = file_total_responses
                 else:
                     # Convert selected_categories list to comma-separated string if it's a list
                     if 'selected_categories' in df_classified_single.columns:
@@ -80,18 +95,48 @@ def load_and_clean_single_run(runcsv_list, Qs, label):
                         # Filter out off-topic responses
                         off_topic_mask = temp_df['is_response_off_topic'] == True
                         temp_df.loc[off_topic_mask, 'answer'] = np.nan
-                        print(f"Filtered {off_topic_mask.sum()} off-topic responses from {runcsv_path_item} based on {classification_jsonl_path}.")
+                        print(f"  Filtered {off_topic_mask.sum()} off-topic responses from {runcsv_path_item} based on {classification_jsonl_path}.")
                     if 'off_topic_reason_classified' in merged_df.columns:
                         temp_df['off_topic_reason'] = merged_df['off_topic_reason_classified']
+                    
+                    # Calculate coverage for this file
+                    file_matched_classifications = temp_df['selected_categories'].notna().sum()
+                    file_missing_classifications = file_total_responses - file_matched_classifications
                         
             except ValueError as e:
-                print(f"Warning: Could not parse classification file {classification_jsonl_path}. Error: {e}. Proceeding without filtering for this file.")
+                print(f"  Warning: Could not parse classification file {classification_jsonl_path}. Error: {e}. Proceeding without filtering for this file.")
+                file_missing_classifications = file_total_responses
             except Exception as e:
-                print(f"Warning: An unexpected error occurred while processing classification file {classification_jsonl_path}. Error: {e}. Proceeding without filtering for this file.")
+                print(f"  Warning: An unexpected error occurred while processing classification file {classification_jsonl_path}. Error: {e}. Proceeding without filtering for this file.")
+                file_missing_classifications = file_total_responses
         else:
-            print(f"Warning: Classification file not found: {classification_jsonl_path}. Proceeding without filtering off-topic responses for this file.")
+            print(f"  Warning: Classification file not found: {classification_jsonl_path}. Proceeding without filtering off-topic responses for this file.")
+            file_missing_classifications = file_total_responses
+
+        # Report classification coverage for this file
+        if file_total_responses > 0:
+            file_coverage_pct = (file_matched_classifications / file_total_responses) * 100
+            print(f"  Classification coverage: {file_matched_classifications}/{file_total_responses} ({file_coverage_pct:.1f}%)")
+            if file_missing_classifications > 0:
+                print(f"  Missing classifications: {file_missing_classifications} responses")
+
+        # Update overall totals
+        total_responses_all_files += file_total_responses
+        total_missing_all_files += file_missing_classifications
+        total_matched_all_files += file_matched_classifications
             
         main_df = pd.concat([main_df, temp_df], ignore_index=True)
+    
+    # Report overall classification coverage
+    if total_files_processed > 0 and total_responses_all_files > 0:
+        overall_coverage_pct = (total_matched_all_files / total_responses_all_files) * 100
+        print(f"\n=== SINGLE RUN CLASSIFICATION COVERAGE SUMMARY ===")
+        print(f"Total files processed: {total_files_processed}")
+        print(f"Total responses across all files: {total_responses_all_files:,}")
+        print(f"Responses with classifications: {total_matched_all_files:,}")
+        print(f"Missing classifications: {total_missing_all_files:,}")
+        print(f"Overall classification coverage: {overall_coverage_pct:.1f}%")
+    
     return main_df
 
 def ring_csv_to_df(csv_file, current_Qs):
@@ -129,10 +174,19 @@ def ring_csv_to_df(csv_file, current_Qs):
                     df_classified_ring['selected_categories_str'] = df_classified_ring['selected_categories'].apply(
                         lambda x: ','.join(x) if isinstance(x, list) else str(x) if x is not None else None
                     )
-        except Exception as e:
-            print(f"Warning: Error processing classification file {classification_jsonl_path}: {e}")
+        except ValueError as e:
+            print(f"Warning: Could not parse classification file {classification_jsonl_path}. Error: {e}. Off-topic filtering will be skipped.")
             df_classified_ring = None
+        except Exception as e:
+            print(f"Warning: An unexpected error occurred while processing classification file {classification_jsonl_path}. Error: {e}. Off-topic filtering will be skipped.")
+            df_classified_ring = None
+    else:
+        print(f"Warning: Classification file not found: {classification_jsonl_path}. Proceeding without filtering off-topic responses.")
 
+    # Track classification coverage
+    total_responses = 0
+    missing_classifications = 0
+    matched_classifications = 0
 
     data_for_df = []
     
@@ -175,6 +229,7 @@ def ring_csv_to_df(csv_file, current_Qs):
         for agent_msg in agent_responses_list:
             agent_name = agent_msg.get('agent_name', 'unknown')
             message_index_from_msg = agent_msg.get('message_index')
+            total_responses += 1
             
             # Initialize classification fields
             is_off_topic = False
@@ -194,11 +249,16 @@ def ring_csv_to_df(csv_file, current_Qs):
                 
                 classified_entry = df_classified_ring[mask]
                 if not classified_entry.empty:
+                    matched_classifications += 1
                     is_off_topic = classified_entry['is_response_off_topic'].iloc[0]
                     if 'selected_categories_str' in classified_entry.columns:
                         selected_categories_str = classified_entry['selected_categories_str'].iloc[0]
                     if 'off_topic_reason' in classified_entry.columns:
                         off_topic_reason = classified_entry['off_topic_reason'].iloc[0]
+                else:
+                    missing_classifications += 1
+            else:
+                missing_classifications += 1
 
             # Extract numeric answer
             current_answer_val = agent_msg.get('answer')
@@ -210,7 +270,6 @@ def ring_csv_to_df(csv_file, current_Qs):
             # Filter out off-topic responses
             if is_off_topic:
                 numeric_answer = np.nan
-            
             
             # Determine round number
             if isinstance(config_details, dict) and 'ensemble' in config_details:
@@ -238,6 +297,13 @@ def ring_csv_to_df(csv_file, current_Qs):
                 'is_response_off_topic': is_off_topic,
                 'off_topic_reason': off_topic_reason
             })
+    
+    # Report classification coverage
+    if total_responses > 0:
+        coverage_pct = (matched_classifications / total_responses) * 100
+        print(f"  Classification coverage: {matched_classifications}/{total_responses} ({coverage_pct:.1f}%)")
+        if missing_classifications > 0:
+            print(f"  Missing classifications: {missing_classifications} responses")
             
     if not data_for_df:
         print(f"Warning: No valid data extracted from {csv_file}")
@@ -369,6 +435,10 @@ def star_csv_to_df(csv_file, current_Qs, label_for_runtype="star"):
     else:
         print(f"Warning: Classification file not found: {classification_jsonl_path}. Proceeding without filtering off-topic responses.")
 
+    # Track classification coverage
+    total_responses = 0
+    missing_classifications = 0
+    matched_classifications = 0
 
     data_for_df = []
     for idx, row in df_raw.iterrows():
@@ -385,11 +455,13 @@ def star_csv_to_df(csv_file, current_Qs, label_for_runtype="star"):
         for agent_msg in agent_responses_list:
             agent_name = agent_msg.get('agent_name')
             message_index_from_msg = agent_msg.get('message_index')
+            total_responses += 1
             
             # Initialize classification fields
             is_off_topic = False
             selected_categories_str = None
             off_topic_reason = None
+            found_classification = False
             
             if df_classified_star is not None:
                 # Try different matching strategies for run_index
@@ -405,11 +477,17 @@ def star_csv_to_df(csv_file, current_Qs, label_for_runtype="star"):
                 
                 classified_entry = df_classified_star[mask]
                 if not classified_entry.empty:
+                    found_classification = True
+                    matched_classifications += 1
                     is_off_topic = classified_entry['is_response_off_topic'].iloc[0]
                     if 'selected_categories_str' in classified_entry.columns:
                         selected_categories_str = classified_entry['selected_categories_str'].iloc[0]
                     if 'off_topic_reason' in classified_entry.columns:
                         off_topic_reason = classified_entry['off_topic_reason'].iloc[0]
+                else:
+                    missing_classifications += 1
+            else:
+                missing_classifications += 1
 
             current_answer_val = agent_msg.get('extracted_answer')
             try:
@@ -440,7 +518,14 @@ def star_csv_to_df(csv_file, current_Qs, label_for_runtype="star"):
                 'is_response_off_topic': is_off_topic,
                 'off_topic_reason': off_topic_reason
             })
-            
+    
+    # Report classification coverage
+    if total_responses > 0:
+        coverage_pct = (matched_classifications / total_responses) * 100
+        print(f"  Classification coverage: {matched_classifications}/{total_responses} ({coverage_pct:.1f}%)")
+        if missing_classifications > 0:
+            print(f"  Missing classifications: {missing_classifications} responses")
+    
     if not data_for_df:
         return pd.DataFrame()
     return pd.DataFrame(data_for_df)
