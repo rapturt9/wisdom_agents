@@ -1375,24 +1375,16 @@ def get_model_shortname(model_name):
 # score = (avg_model - avg_rand)/SEM_model, then get p value from t-test distribution, using degrees of freedom = 12-1 = 11 
 # interpreation of p: if < 5% then reject null hypothesis, so 'statistically inconsistent to come from a random process', or 'less than 5% chance of seeing this data if responses were random' (not strictly the same as 'model responses are less than 5% likely to be random', or stronger, 'model responses are more than 95% liekly to not be random'- this requires Bayesian framework computing P(hypohtesis|data) with different stats model)
 
-def get_p_val_singlequestion(avg_model, SEM_model):
-    # t-test for single question
-    avg_rand = 4.0
-    t_score = (avg_model - avg_rand) / SEM_model
-    df = 12 - 1 # degrees of freedom
-    p_val = stats.t.sf(np.abs(t_score), df) * 2 # two-tailed test
-    return p_val
-
 
 def get_p_val_multiquant(avg_model_per_q):
     """
     Perform a one-sample t-test over multiple questions (each question gives one mean).
     
     Parameters:
-    - avg_model_per_q: array-like, mean model response for each question (length = 40 or 50)
+    - avg_model_per_q: array-like, mean model response for each question (length = 40 or 50 dep on if called for IH or IB)
     
     Returns:
-    - p_val: the two-tailed p-value
+    - p_val: the two-tailed p-value for overall average across all questions for IH, IB score
     """
     avg_rand = 4.0
     avg_model_per_q = np.array(avg_model_per_q)
