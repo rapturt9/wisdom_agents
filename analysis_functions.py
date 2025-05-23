@@ -119,7 +119,7 @@ def ring_csv_to_df(csv_file, current_Qs):
     if os.path.exists(classification_jsonl_path):
         try:
             df_classified_ring = pd.read_json(classification_jsonl_path, lines=True)
-            required_cols = ['question_id', 'question_num', 'agent_name', 'message_index', 'is_response_off_topic']
+            required_cols = ['question_id', 'agent_name', 'message_index', 'is_response_off_topic']
             if not all(col in df_classified_ring.columns for col in required_cols):
                 print(f"Warning: Classification file {classification_jsonl_path} is missing one or more required columns: {required_cols}. Off-topic filtering will be skipped.")
                 df_classified_ring = None
@@ -350,7 +350,7 @@ def star_csv_to_df(csv_file, current_Qs, label_for_runtype="star"):
     if os.path.exists(classification_jsonl_path):
         try:
             df_classified_star = pd.read_json(classification_jsonl_path, lines=True)
-            required_cols = ['question_id','question_num', 'agent_name', 'message_index', 'is_response_off_topic']
+            required_cols = ['question_id', 'agent_name', 'message_index', 'is_response_off_topic']
             if not all(col in df_classified_star.columns for col in required_cols):
                 print(f"Warning: Classification file {classification_jsonl_path} is missing one or more required columns: {required_cols}. Off-topic filtering will be skipped.")
                 df_classified_star = None
