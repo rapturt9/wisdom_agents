@@ -139,7 +139,7 @@ def ring_csv_to_df(csv_file, current_Qs):
     # Process each row in the CSV
     for idx, row in df_raw.iterrows():
         conv_run_index = row.get('run_index', idx)
-        q_id = row.get('question_id')
+        q_num = row.get('question_num')
         chat_type = row.get('chat_type', 'unknown')
         q_num = row.get('question_num')
         
@@ -258,7 +258,7 @@ def ring_to_roundrobin_df(df, current_Qs):
     round_robin_data = []
     
     # Group by each conversation instance (question_id and run_index)
-    for name, group in df.groupby(['question_id', 'run_index', 'chat_type']):
+    for name, group in df.groupby(['question_id', 'question_num', 'run_index', 'chat_type']):
         q_id, run_idx, chat_type_val = name
         
         # Sort by message_index to maintain order within the conversation
@@ -307,24 +307,13 @@ def ring_to_roundrobin_df(df, current_Qs):
             # Calculate round number
             round_num = (row['message_index'] // num_agents_in_convo) + 1 if row['message_index'] is not None else row.get('round_num', 1)
             
-            # Get question info
-            question_info = {'question_num': None, 'category': 'unknown'}
-            for j in range(current_Qs.get_total_questions()):
-                question_data = current_Qs.get_question_by_index(j)
-                if question_data and question_data.get('statement_id') == q_id:
-                    question_info = {
-                        'question_num': j + 1,
-                        'category': question_data.get('category', 'unknown')
-                    }
-                    break
-            
             # Calculate ggb_question_id (modulo 100 of question_id)
             ggb_question_id = q_id % 100 if q_id is not None else None
             
             round_robin_data.append({
                 'question_id': q_id,
-                'question_num': question_info['question_num'],
-                'category': question_info['category'],
+                'question_num': row['question_num'],
+                'category': current_Qs.get_question_category(q_id),
                 'run_index': run_idx,
                 'chat_type': chat_type_val,
                 'config_details': row['config_details'],
@@ -361,7 +350,7 @@ def star_csv_to_df(csv_file, current_Qs, label_for_runtype="star"):
     if os.path.exists(classification_jsonl_path):
         try:
             df_classified_star = pd.read_json(classification_jsonl_path, lines=True)
-            required_cols = ['question_id', 'agent_name', 'message_index', 'is_response_off_topic']
+            required_cols = ['question_id','question_num', 'agent_name', 'message_index', 'is_response_off_topic']
             if not all(col in df_classified_star.columns for col in required_cols):
                 print(f"Warning: Classification file {classification_jsonl_path} is missing one or more required columns: {required_cols}. Off-topic filtering will be skipped.")
                 df_classified_star = None
@@ -380,21 +369,12 @@ def star_csv_to_df(csv_file, current_Qs, label_for_runtype="star"):
     else:
         print(f"Warning: Classification file not found: {classification_jsonl_path}. Proceeding without filtering off-topic responses.")
 
-    # Helper function to get question info
-    def get_question_info(question_id):
-        for i in range(current_Qs.get_total_questions()):
-            question_data = current_Qs.get_question_by_index(i)
-            if question_data and question_data.get('statement_id') == question_id:
-                return {
-                    'question_num': i + 1,
-                    'category': question_data.get('category', 'unknown')
-                }
-        return {'question_num': None, 'category': 'unknown'}
 
     data_for_df = []
     for idx, row in df_raw.iterrows():
         conv_run_index = row.get('run_index', idx)
         q_id = row['question_id']
+        q_num = row['question_num']
         
         try:
             agent_responses_list = json.loads(row.get('agent_responses', '[]'))
@@ -440,12 +420,11 @@ def star_csv_to_df(csv_file, current_Qs, label_for_runtype="star"):
             if is_off_topic:
                 numeric_answer = np.nan
                 
-            question_info = get_question_info(q_id)
-
+            
             data_for_df.append({
                 'question_id': q_id,
-                'question_num': question_info['question_num'],
-                'category': question_info['category'],
+                'question_num': q_num,
+                'category': current_Qs.get_question_category(q_id),
                 'run_index': conv_run_index,
                 'chat_type': row.get('chat_type', label_for_runtype),
                 'config_details': json.loads(row['config_details']) if isinstance(row.get('config_details'), str) else row.get('config_details'),
