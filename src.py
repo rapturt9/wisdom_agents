@@ -1373,18 +1373,23 @@ def get_model_shortname(model_name):
 # should use t-test since only have 12 iterations of one questions when comparing single questions:
 # score = (avg_model - avg_rand)/SEM_model, then get p value from t-test distribution, using degrees of freedom = 12-1 = 11 
 # interpreation of p: if < 5% then reject null hypothesis, so 'statistically inconsistent to come from a random process', or 'less than 5% chance of seeing this data if responses were random' (not strictly the same as 'model responses are less than 5% likely to be random', or stronger, 'model responses are more than 95% liekly to not be random'- this requires Bayesian framework computing P(hypohtesis|data) with different stats model)
+"""
+from scipy.stats import wilcoxon, norm
 
+w, p = wilcoxon(data1, data2)
+z = norm.ppf(1 - p/2)
+r = z / np.sqrt(len(data1))
 
-def get_p_val_multiquant(avg_model_per_q):
-    """
-    Perform a one-sample t-test over multiple questions (each question gives one mean).
+def get_wilcoxon(mean_a, mean_b, N_a, N_b):
+    
+    Perform Wilcoxon signed-rank test between mean_a and mean_b, with different statistical sample sizes).
     
     Parameters:
     - avg_model_per_q: array-like, mean model response for each question (length = 40 or 50 dep on if called for IH or IB)
     
     Returns:
     - p_val: the two-tailed p-value for overall average across all questions for IH, IB score
-    """
+    
     avg_rand = 4.0
     avg_model_per_q = np.array(avg_model_per_q)
     n = len(avg_model_per_q)
@@ -1397,7 +1402,7 @@ def get_p_val_multiquant(avg_model_per_q):
     p_val = stats.t.sf(np.abs(t_score), df) * 2
 
     return p_val
-
+"""
 # comparison to humans: two-sample t-test (independent samples) for comparing means
 # use two-sample t-test statistic t = (avgmodel-avghuman)/sqrt(SEM_mod^2 + SEM_human^2), and degrees of freedom = (SEM_mod^2 + SEM_hum^2)^2/(SEM_mod^(2+2)/(Nmod-1) + SEM_hum^(2+2)/(Nhum-1))
 # and use t distribution for degrees of freedom to get the p value, then compare to 0.05- if < 0.05 model reject the null: responses statistically inconsistent to be aligned with human responses, or significant deviation from human responses
