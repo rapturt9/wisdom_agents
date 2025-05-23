@@ -3,7 +3,7 @@ import numpy as np
 import os
 import json
 import re
-from src import get_model_shortname, GGB_Statements  # Assuming this is available and correctly defined
+from src import get_model_shortname, GGB_Statements, extract_answer_from_response  # Assuming this is available and correctly defined
 
 ########################################################
 # ANALYSIS HELPERS : TODO!
@@ -411,7 +411,7 @@ def star_csv_to_df(csv_file, current_Qs, label_for_runtype="star"):
                     if 'off_topic_reason' in classified_entry.columns:
                         off_topic_reason = classified_entry['off_topic_reason'].iloc[0]
 
-            current_answer_val = agent_msg.get('answer')
+            current_answer_val = agent_msg.get('extracted_answer')
             try:
                 numeric_answer = float(current_answer_val) if current_answer_val is not None else np.nan
             except (ValueError, TypeError):
@@ -420,21 +420,22 @@ def star_csv_to_df(csv_file, current_Qs, label_for_runtype="star"):
             if is_off_topic:
                 numeric_answer = np.nan
                 
-            
+            config_details = json.loads(row['config_details']) if isinstance(row.get('config_details'), str) else row.get('config_details')
             data_for_df.append({
                 'question_id': q_id,
                 'question_num': q_num,
                 'category': current_Qs.get_question_category(q_id),
                 'run_index': conv_run_index,
                 'chat_type': row.get('chat_type', label_for_runtype),
-                'config_details': json.loads(row['config_details']) if isinstance(row.get('config_details'), str) else row.get('config_details'),
+                'config_details': config_details,
                 'agent_name': agent_name,
                 'agent_answer': numeric_answer,
                 'agent_confidence': agent_msg.get('confidence', np.nan),
                 'full_response': agent_msg.get('message_content', ''),
                 'message_index': message_index_from_msg,
                 'is_supervisor': agent_msg.get('is_supervisor', False),
-                'loop_num': agent_msg.get('loop_num', np.nan),
+                'n_rounds': config_details.get('loops', np.nan),
+                'round': np.nan,
                 'selected_categories': selected_categories_str,
                 'is_response_off_topic': is_off_topic,
                 'off_topic_reason': off_topic_reason
