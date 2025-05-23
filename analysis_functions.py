@@ -435,7 +435,7 @@ def star_csv_to_df(csv_file, current_Qs, label_for_runtype="star"):
                 'message_index': message_index_from_msg,
                 'is_supervisor': agent_msg.get('is_supervisor', False),
                 'n_rounds': config_details.get('loops', np.nan),
-                'round': np.nan,
+                'round': np.ceil(message_index_from_msg/12),
                 'selected_categories': selected_categories_str,
                 'is_response_off_topic': is_off_topic,
                 'off_topic_reason': off_topic_reason
