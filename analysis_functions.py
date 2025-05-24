@@ -351,7 +351,8 @@ def ring_to_roundrobin_df(df, current_Qs):
 
         for i, row in group.iterrows():
             # Extract numeric answer from full_response using regex
-            numeric_answer = row['agent_answer']  # This might be NaN from ring_csv_to_df
+            print(f"Processing row {i} for question_id {q_id}, row_index {run_idx}")
+            numeric_answer = row['extracted_answer']  # This might be NaN from ring_csv_to_df
             
             if pd.isna(numeric_answer):
                 # Try to extract from full_response if agent_answer is NaN
@@ -366,7 +367,7 @@ def ring_to_roundrobin_df(df, current_Qs):
                     numeric_answer = np.nan
             
             # Extract confidence similarly
-            confidence_val = row['agent_confidence']  # This might be NaN
+            confidence_val = row['extracted_confidence']  # This might be NaN
             if pd.isna(confidence_val):
                 full_response = str(row.get('full_response', ''))
                 conf_match = re.search(r'<CONF>(\d+(?:\.\d+)?)</CONF>', full_response)
