@@ -587,20 +587,15 @@ def cleanup_IBvIH_plot(f,marker_size=4, font_size=9, legend_labels = None, col_w
     return f
 
 #For help with colormaps:
-def get_base_colors(df_in, ending_base = 'gemini'):
+def get_base_colors(df_in, ending_base = None):
     df = df_in.copy()
     df['base_config'] = df['label'].apply(lambda x: x.lower().replace('ous_', '').replace('_ring', '').replace('inverted_', '').replace('ggb_','').replace('_inverted', ''))
     base_labels = np.sort(df['base_config'].unique())
 
-    is_ending_base = [ending_base in x for x in base_labels]
-    base_labels = np.append(base_labels[np.invert(is_ending_base)], base_labels[is_ending_base])
+    if ending_base:
+        is_ending_base = [ending_base in x for x in base_labels]
+        base_labels = np.append(base_labels[np.invert(is_ending_base)], base_labels[is_ending_base])
 
-    base_colors = {
-    base_labels[0]: 'darkred',
-    base_labels[1]: 'darkorange',
-    base_labels[2]: 'teal',
-    base_labels[3]: 'olivedrab',
-    base_labels[4]: 'deepskyblue',
-    base_labels[5]: 'deeppink',
-    }
+    colors = ['darkred', 'darkorange','teal', 'olivedrab', 'deepskyblue', 'darkblue', 'deeppink']
+    base_colors = dict(zip(base_labels, colors[:len(base_labels)]))
     return base_colors
