@@ -261,7 +261,15 @@ def ring_csv_to_df(csv_file, current_Qs):
                 missing_classifications += 1
 
             # Extract numeric answer
-            current_answer_val = agent_msg.get('answer')
+            # Extract numeric answer,
+            if 'answer' in agent_msg: #agent_msg.get('answer'):
+                current_answer_val = agent_msg.get('answer')
+            elif 'extracted_answer' in agent_msg :#agent_msg.get('extracted_answer'):
+                current_answer_val = agent_msg.get('extracted_answer')
+            else: 
+                print(f'{agent_msg.keys()}')
+                current_answer_val = None
+
             try:
                 numeric_answer = float(current_answer_val) if current_answer_val is not None else np.nan
             except (ValueError, TypeError):
@@ -489,7 +497,15 @@ def star_csv_to_df(csv_file, current_Qs, label_for_runtype="star"):
             else:
                 missing_classifications += 1
 
-            current_answer_val = agent_msg.get('extracted_answer')
+            # Extract numeric answer,
+            if 'answer' in agent_msg: #agent_msg.get('answer'):
+                current_answer_val = agent_msg.get('answer')
+            elif 'extracted_answer' in agent_msg :#agent_msg.get('extracted_answer'):
+                current_answer_val = agent_msg.get('extracted_answer')
+            else: 
+                print(f'{agent_msg.keys()}')
+                current_answer_val = None
+            
             try:
                 numeric_answer = float(current_answer_val) if current_answer_val is not None else np.nan
             except (ValueError, TypeError):
