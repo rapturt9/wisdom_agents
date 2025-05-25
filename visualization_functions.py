@@ -371,6 +371,9 @@ def plot_by_question(
     
     # Remove default grid
     ax.grid(False)
+    # remove extra spines
+    ax.spines['top'].set_visible(False)
+    ax.spines['right'].set_visible(False)
     
     # Add custom vertical grid lines between questions
     for i in range(len(question_nums) + 1):
@@ -381,7 +384,7 @@ def plot_by_question(
     
     # Add category annotations
     y_min, y_max = ax.get_ylim()
-    y_text = y_max * 0.95
+    y_text = y_max * 1.05
     
     # Add category separators
     if sort_by_category:
