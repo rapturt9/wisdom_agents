@@ -173,182 +173,308 @@ def plot_by_question(
     ncol: int
         Number of columns in the legend
     """
-    
-    # Input validation
-    if data is None or data.empty:
-        print(f"Warning: No data provided to plot_by_question")
-        if ax is None:
-            fig, ax = plt.subplots(figsize=figsize)
-            ax.text(0.5, 0.5, 'No data available', ha='center', va='center', transform=ax.transAxes)
-            ax.set_title(title or 'No Data Available')
-            return fig if return_fig else ax
-        else:
-            ax.text(0.5, 0.5, 'No data available', ha='center', va='center', transform=ax.transAxes)
-            return ax
-    
-    # Check required columns
-    required_cols = [group_by, question_id_col, value_col]
-    missing_cols = [col for col in required_cols if col not in data.columns]
-    if missing_cols:
-        print(f"Warning: Missing required columns: {missing_cols}")
-        if ax is None:
-            fig, ax = plt.subplots(figsize=figsize)
-            ax.text(0.5, 0.5, f'Missing columns: {missing_cols}', ha='center', va='center', transform=ax.transAxes)
-            ax.set_title(title or 'Data Error')
-            return fig if return_fig else ax
-        else:
-            ax.text(0.5, 0.5, f'Missing columns: {missing_cols}', ha='center', va='center', transform=ax.transAxes)
-            return ax
-    
-    # Filter out rows with NaN values in critical columns
-    data_clean = data.dropna(subset=[group_by, question_id_col, value_col])
-    
-    if data_clean.empty:
-        print(f"Warning: No valid data after removing NaN values")
-        if ax is None:
-            fig, ax = plt.subplots(figsize=figsize)
-            ax.text(0.5, 0.5, 'No valid data after filtering', ha='center', va='center', transform=ax.transAxes)
-            ax.set_title(title or 'No Valid Data')
-            return fig if return_fig else ax
-        else:
-            ax.text(0.5, 0.5, 'No valid data after filtering', ha='center', va='center', transform=ax.transAxes)
-            return ax
-    
-    # Use label_col if provided, otherwise use group_by
-    label_column = label_col if label_col else group_by
-    
-    # Get categories (create order if needed)
-    if sort_by_category and category_col in data_clean.columns:
-        if category_order:
-            categories = category_order
-        else:
-            categories = sorted(data_clean[category_col].unique())
-    else:
-        categories = ['all']  # Single category if not sorting by category
-    
-    # Create figure if not provided
+    # Create new figure and axes if not provided
     if ax is None:
         fig, ax = plt.subplots(figsize=figsize)
-        created_fig = True
+        created_figure = True
     else:
-        fig = ax.get_figure()
-        created_fig = False
+        fig = ax.figure
+        created_figure = False
     
-    # Prepare data for plotting
-    plotting_data = []
-    for _, row in data_clean.iterrows():
-        plotting_data.append({
-            'group': row[group_by],
-            'question_id': row[question_id_col],
-            'category': row.get(category_col, 'all'),
-            'value': row[value_col],
-            'error': row.get(error_col, 0) if not use_sem else row.get(sem_col, 0),
-            'label': row.get(label_column, row[group_by])
-        })
-    
-    plot_df = pd.DataFrame(plotting_data)
-    
-    # Sort questions by category then by question_id
-    if sort_by_category and category_col in data_clean.columns:
-        # Create a categorical ordering
-        plot_df['category_cat'] = pd.Categorical(plot_df['category'], categories=categories, ordered=True)
-        plot_df = plot_df.sort_values(['category_cat', 'question_id'])
-    else:
-        plot_df = plot_df.sort_values('question_id')
-    
-    # Get unique questions in order
-    unique_questions = plot_df['question_id'].unique()
-    x_positions = np.arange(len(unique_questions))
-    
-    # Get unique groups/labels
-    groups = plot_df['group'].unique()
-    labels = plot_df['label'].unique()
-    
-    # Calculate bar positions and widths
-    n_groups = len(groups)
-    total_width = width_fill_percentage
-    bar_width = max(min_width, min(max_width, total_width / n_groups))
-    
-    # Create color scheme
-    if match_inverted_colors and label_col:
-        # Group labels by base configuration
-        base_configs = {}
-        for label in labels:
-            base = label.lower().replace(inverted_indicator.lower(), '').strip('_')
-            if base not in base_configs:
-                base_configs[base] = []
-            base_configs[base].append(label)
+    # Ensure group_by is a list
+    if isinstance(group_by, str):
+        group_by = [group_by]
         
-        # Assign colors to base configurations
-        base_colors = plt.cm.get_cmap(colormap)(np.linspace(0, 1, len(base_configs)))
-        color_map = {}
-        for i, (base, label_list) in enumerate(base_configs.items()):
-            for label in label_list:
-                color_map[label] = base_colors[i]
-    else:
-        # Simple color mapping
-        colors = plt.cm.get_cmap(colormap)(np.linspace(0, 1, len(groups)))
-        color_map = {group: colors[i] for i, group in enumerate(groups)}
+    # Create a label column if not specified
+    if label_col is None:
+        # Create a temporary label from the group_by columns
+        data = data.copy()  # Avoid modifying the original DataFrame
+        data['_temp_label_'] = data[group_by].apply(
+            lambda row: '_'.join(str(row[col]) for col in group_by), axis=1
+        )
+        label_col = '_temp_label_'
     
-    # Plot bars for each group
+    # Get unique categories
+    if category_order is None:
+        categories = sorted(data[category_col].unique())
+    else:
+        categories = category_order
+    
+    # Create a sorted list of questions
+    if sort_by_category:
+        # First sort by category, then by question ID within category
+        sorted_questions = []
+        for cat in categories:
+            cat_data = data[data[category_col] == cat]
+            cat_questions = sorted(cat_data[question_id_col].unique())
+            sorted_questions.extend(cat_questions)
+        # Remove duplicates while preserving order
+        question_nums = []
+        [question_nums.append(q) for q in sorted_questions if q not in question_nums]
+    else:
+        # Just sort by question ID
+        question_nums = sorted(data[question_id_col].unique())
+    
+    # Get unique groups
+    groups = sorted(data[label_col].unique())
+    
+    # Extract base configurations for color matching if requested
+    if match_inverted_colors:
+        # Create mapping from label to base configuration
+        data = data.copy()  # Avoid modifying the original
+        
+        # Define proper base config extraction
+        def extract_base_config(label):
+            base = label
+            if 'ous_' in base:
+                base = base.replace('ous_', '')
+            if '_ring' in base:
+                base = base.replace('_ring', '')
+            if 'inverted_' in base:
+                base = base.replace('inverted_', '')
+            return base
+        
+        # Apply the extraction function
+        data['_base_config_'] = data[label_col].apply(extract_base_config)
+        data['_is_inverted_'] = data[label_col].apply(
+            lambda x: inverted_indicator in x
+        )
+        
+        # Get unique base configurations
+        base_configs = sorted(set(data['_base_config_']))
+        
+        # Use a combination of colormaps for a wider range of distinct colors
+        colors_tab10 = plt.cm.tab10.colors
+        colors_tab20 = plt.cm.tab20.colors
+        colors_tab20b = plt.cm.tab20b.colors
+        
+        # Combine and get unique colors
+        all_colors = []
+        all_colors.extend(colors_tab10)
+        
+        # Add more colors if needed, but ensure they're visually distinct
+        if len(base_configs) > len(all_colors):
+            for color in colors_tab20:
+                if color not in all_colors:
+                    all_colors.append(color)
+        
+        if len(base_configs) > len(all_colors):
+            for color in colors_tab20b:
+                if color not in all_colors:
+                    all_colors.append(color)
+        
+        # Create color mapping for base configurations
+        base_color_map = {}
+        for i, config in enumerate(base_configs):
+            base_color_map[config] = all_colors[i % len(all_colors)]
+        
+        # Create a map of labels to colors with proper base config matching
+        group_colors = {}
+        for label_name in groups:
+            # Extract the base configuration directly
+            base_config = extract_base_config(label_name)
+            group_colors[label_name] = base_color_map[base_config]
+    else:
+        # Use original color mapping approach
+        num_groups = len(groups)
+        group_cmap = plt.colormaps[colormap].resampled(num_groups)
+        group_colors = {group: group_cmap(i) for i, group in enumerate(groups)}
+    
+    # Default category colors if not provided
+    if category_colors is None:
+        category_cmap = plt.colormaps['Set1'].resampled(len(categories))
+        category_colors = {cat: category_cmap(i) for i, cat in enumerate(categories)}
+    
+    # Calculate width based on number of groups
+    num_groups = len(groups)
+    width = max(min(width_fill_percentage / num_groups, max_width), min_width)
+    
+    # Create positions for the points (offset from question number index)
+    
+    positions = {}
     for i, group in enumerate(groups):
-        group_data = plot_df[plot_df['group'] == group]
-        
-        # Get positions for this group's bars
-        bar_positions = x_positions + (i - (n_groups - 1) / 2) * bar_width
-        
-        # Get values and errors for each question
-        values = []
-        errors = []
-        for question in unique_questions:
-            question_data = group_data[group_data['question_id'] == question]
-            if not question_data.empty:
-                values.append(question_data['value'].iloc[0])
-                errors.append(question_data['error'].iloc[0])
-            else:
-                values.append(0)
-                errors.append(0)
-        
-        # Get label and color
-        label = group_data['label'].iloc[0] if not group_data.empty else group
-        color = color_map.get(label, color_map.get(group, 'blue'))
-        
-        # Determine marker style for inverted configurations
-        if match_inverted_colors and inverted_indicator.lower() in label.lower():
-            markerfacecolor = 'white'
-            markeredgecolor = color
-            alpha = 0.7
-        else:
-            markerfacecolor = color
-            markeredgecolor = color
-            alpha = 1.0
-        
-        # Plot error bars
-        ax.errorbar(bar_positions, values, yerr=errors,
-                   fmt=marker_style, color=color,
-                   markerfacecolor=markerfacecolor,
-                   markeredgecolor=markeredgecolor,
-                   alpha=alpha, capsize=capsize,
-                   label=label)
+        # This creates a slight offset for each group (-0.25, 0, 0.25 for 3 groups)
+        offset = (i - (num_groups-1)/2) * width
+        positions[group] = [i + offset for i in range(len(question_nums))]
     
-    # Customize plot
+    # Create a mapping from question ID to its position in the plot
+    question_positions = {q: i for i, q in enumerate(question_nums)}
+    
+    # Plot the data for each group
+    for group in groups:
+        # Get the data for this group
+        group_data = data[data[label_col] == group]
+        
+        # Determine if this is an inverted configuration
+        is_inverted = inverted_indicator in group if match_inverted_colors else False
+        
+        # Get color for this group
+        color = group_colors[group]
+        
+        # Plot only the question numbers that exist for this group
+        for q_num in question_nums:
+            # Find data for this question and group
+            q_data = group_data[group_data[question_id_col] == q_num]
+            
+            # Only plot if we have data
+            if not q_data.empty:
+                yerr_col = sem_col if use_sem else error_col
+                
+                # Get the position index for this question
+                q_idx = question_positions[q_num]
+                
+                # Adjust marker appearance based on regular vs inverted status
+                if match_inverted_colors and is_inverted:
+                    # For inverted: outlined marker with no fill
+                    ax.errorbar(
+                        positions[group][q_idx],
+                        q_data[value_col].values[0],
+                        yerr=q_data[yerr_col].values[0],
+                        fmt=marker_style,
+                        color=color,                # Error bar color
+                        markerfacecolor='white',    # White fill
+                        markeredgecolor=color,      # Color outline
+                        markeredgewidth=1.5,        # Thicker outline
+                        label=group if q_idx == 0 else "",  # Only add to legend once
+                        capsize=capsize,
+                        markersize=6
+                    )
+                else:
+                    # For regular: filled marker
+                    ax.errorbar(
+                        positions[group][q_idx],
+                        q_data[value_col].values[0],
+                        yerr=q_data[yerr_col].values[0],
+                        fmt=marker_style,
+                        color=color,                # Error bar color
+                        markerfacecolor=color,      # Filled with color
+                        markeredgecolor='black',    # Black outline for contrast
+                        markeredgewidth=0.5,
+                        label=group if q_idx == 0 else "",  # Only add to legend once
+                        capsize=capsize,
+                        markersize=6
+                    )
+    
+    # Set x-ticks at question positions (not the offset positions)
+    ax.set_xticks(range(len(question_nums)))
+    ax.set_xticklabels(question_nums, rotation=rotate_xticks)
+    
+    # Color the tick labels based on category
+    for idx, question in enumerate(question_nums):
+        tick = ax.get_xticklabels()[idx]
+        
+        # Find the category for this question
+        q_data = data[data[question_id_col] == question]
+        if not q_data.empty:
+            q_category = q_data[category_col].iloc[0]
+            tick.set_color(category_colors.get(q_category, 'black'))
+    
+    # Remove default grid
+    ax.grid(False)
+    
+    # Add custom vertical grid lines between questions
+    for i in range(len(question_nums) + 1):
+        ax.axvline(x=i - 0.5, color='gray', linestyle='--', alpha=grid_alpha, zorder=0)
+    
+    # Add horizontal grid lines
+    ax.grid(axis='y', linestyle='--', alpha=grid_alpha+0.1)
+    
+    # Add category annotations
+    y_min, y_max = ax.get_ylim()
+    y_text = y_max * 0.95
+    
+    # Add category separators
+    if sort_by_category:
+        # Find boundaries between categories
+        cat_boundaries = []
+        prev_cat = None
+        
+        for idx, q in enumerate(question_nums):
+            q_data = data[data[question_id_col] == q]
+            if not q_data.empty:
+                curr_cat = q_data[category_col].iloc[0]
+                if prev_cat is not None and curr_cat != prev_cat:
+                    cat_boundaries.append(idx - 0.5)  # Boundary is between indices
+                prev_cat = curr_cat
+        
+        # Draw category separator lines
+        for boundary in cat_boundaries:
+            ax.axvline(x=boundary, color='black', linestyle='--', 
+                      alpha=0.7, linewidth=1.5, zorder=5)
+        
+        # Add category labels in the middle of each category section
+        cat_indices = {}
+        for cat in categories:
+            cat_indices[cat] = []
+        
+        # Collect indices for each category
+        for idx, q in enumerate(question_nums):
+            q_data = data[data[question_id_col] == q]
+            if not q_data.empty:
+                q_cat = q_data[category_col].iloc[0]
+                cat_indices[q_cat].append(idx)
+        
+        # Add labels at the middle of each category section
+        for cat, indices in cat_indices.items():
+            if indices:  # If this category has questions
+                ax.text(np.mean(indices), y_text, f'{cat} Category', 
+                        color=category_colors[cat], ha='center', fontsize=12)
+    
+    # Sort the legend by base configuration for better organization
+    if show_legend:
+        handles, labels_list = ax.get_legend_handles_labels()
+        
+        if match_inverted_colors:
+            # Group by base configuration
+            base_configs_for_labels = []
+            is_inverted_list = []
+            
+            for label in labels_list:
+                is_inverted = inverted_indicator in label
+                is_inverted_list.append(is_inverted)
+                
+                # Find the base configuration using the same extraction function
+                base_config = extract_base_config(label)
+                base_configs_for_labels.append(base_config)
+            
+            # Sort by base config first, then by inverted status (regular first, then inverted)
+            sorted_indices = sorted(range(len(labels_list)), 
+                                   key=lambda i: (base_configs_for_labels[i], is_inverted_list[i]))
+            
+            sorted_handles = [handles[i] for i in sorted_indices]
+            sorted_labels = [labels_list[i] for i in sorted_indices]
+            
+            # Create legend with additional parameters if provided
+            if bbox_to_anchor:
+                ax.legend(sorted_handles, sorted_labels, 
+                         loc=legend_loc, 
+                         bbox_to_anchor=bbox_to_anchor, 
+                         ncol=ncol)
+            else:
+                ax.legend(sorted_handles, sorted_labels, loc=legend_loc, ncol=ncol)
+        else:
+            # Create legend with additional parameters if provided
+            if bbox_to_anchor:
+                ax.legend(loc=legend_loc, bbox_to_anchor=bbox_to_anchor, ncol=ncol)
+            else:
+                ax.legend(loc=legend_loc, ncol=ncol)
+    
+    # Add labels and title
     ax.set_xlabel(x_label)
     ax.set_ylabel(y_label)
-    ax.set_title(title)
-    ax.set_xticks(x_positions)
-    ax.set_xticklabels([f"Q{q}" for q in unique_questions], rotation=rotate_xticks)
-    ax.grid(True, alpha=grid_alpha)
+    if title:
+        ax.set_title(title)
+
+
+    # Adjust layout if we created the figure
+    if created_figure:
+        plt.tight_layout()
+        if return_fig:
+            return fig
     
-    # Add legend
-    if show_legend:
-        if bbox_to_anchor:
-            ax.legend(bbox_to_anchor=bbox_to_anchor, ncol=ncol, loc=legend_loc)
-        else:
-            ax.legend(ncol=ncol, loc=legend_loc)
-    
-    plt.tight_layout()
-    
-    return fig if (return_fig and created_fig) else ax
+    # Return the axes by default if we didn't create a figure,
+    # or if return_fig is False
+    return ax
 
 
 def plot_IH_v_IB(df_by_category, use_std=True, label='chat_type', ax_lims = [1,7], text_size = 12, base_colors = None):
