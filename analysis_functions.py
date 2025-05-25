@@ -286,7 +286,7 @@ def ring_csv_to_df(csv_file, current_Qs):
                 # Fallback: count unique agent names in this conversation
                 num_agents = len(set(msg.get('agent_name', '') for msg in agent_responses_list))
             
-            round_num = (message_index_from_msg // num_agents) + 1 if message_index_from_msg is not None and num_agents > 0 else 1
+            round_num = ((message_index_from_msg-1) // num_agents) + 1 if message_index_from_msg is not None and num_agents > 0 else 1
             
             data_for_df.append({
                 'question_id': q_id,
@@ -351,7 +351,7 @@ def ring_to_roundrobin_df(df, current_Qs):
 
         for i, row in group.iterrows():
             # Extract numeric answer from full_response using regex
-            print(f"Processing row {i} for question_id {q_id}, row_index {run_idx}")
+            #print(f"Processing row {i} for question_id {q_id}, row_index {run_idx}")
             # numeric_answer = row['extracted_answer']  # This might be NaN from ring_csv_to_df
             numeric_answer = row['agent_answer']  # This might be NaN from ring_csv_to_df
             
@@ -368,7 +368,8 @@ def ring_to_roundrobin_df(df, current_Qs):
                     numeric_answer = np.nan
             
             # Extract confidence similarly
-            confidence_val = row['extracted_confidence']  # This might be NaN
+            #confidence_val = row['extracted_confidence']  # This might be NaN
+            confidence_val = row['agent_confidence']  # This might be NaN
             if pd.isna(confidence_val):
                 full_response = str(row.get('full_response', ''))
                 conf_match = re.search(r'<CONF>(\d+(?:\.\d+)?)</CONF>', full_response)
@@ -381,7 +382,7 @@ def ring_to_roundrobin_df(df, current_Qs):
                     confidence_val = np.nan
             
             # Calculate round number
-            round_num = (row['message_index'] // num_agents_in_convo + 1) + 1 if row['message_index'] is not None else row.get('round_num', 1)
+            round_num = ((row['message_index']-1) // num_agents_in_convo) + 1 if row['message_index'] is not None else row.get('round_num', 1)
             
             # Calculate ggb_question_id (modulo 100 of question_id)
             ggb_question_id = q_id % 100 if q_id is not None else None
