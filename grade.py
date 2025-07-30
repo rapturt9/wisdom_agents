@@ -795,9 +795,6 @@ def main():
     logging.info(f"All CSV files in {input_directory_path} processed.")
 
 if __name__ == "__main__":
-    if len(RATIONALE_CATEGORIES) < 5:
-        print("Error: RATIONALE_CATEGORIES seems incomplete. Please ensure it's fully copied into grade.py.")
-        exit(1)
     main()
 
 """
